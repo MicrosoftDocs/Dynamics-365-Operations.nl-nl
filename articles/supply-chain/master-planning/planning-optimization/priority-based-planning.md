@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186478"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335280"
 ---
 # <a name="priority-based-planning"></a>Op prioriteit gebaseerde planning
 
@@ -30,7 +30,7 @@ Zie de volgende video voor een snel overzicht van deze functie: [Planningsoptima
 
 ## <a name="turn-on-priority-based-planning-in-your-system"></a>Op prioriteit gebaseerde planning in uw systeem inschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Hoofdplanning*
 - **Functienaam:** *Prioriteitsgestuurde MRP-ondersteuning voor Planningsoptimalisatie*

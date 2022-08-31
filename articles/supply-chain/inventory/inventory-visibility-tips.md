@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9f571d353f99c91776424bc2fa3405f73b2bae0a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3bdd161815a15d5c39b3c0afc176a288c8d9055a
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885952"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306080"
 ---
 # <a name="inventory-visibility-tips"></a>Tips voor voorraadzichtbaarheid
 
@@ -35,5 +35,8 @@ Hier volgt een aantal tips die u kunt overwegen bij het instellen en gebruiken v
 - De [partitieconfiguratie](inventory-visibility-configuration.md#partition-configuration) bestaat momenteel uit twee basisdimensies (`SiteId` en `LocationId`) die aangeven hoe de gegevens worden gedistribueerd. Bewerkingen onder dezelfde partitie kunnen betere prestaties bieden tegen lagere kosten. De oplossing bevat standaard deze partitieconfiguratie. Daarom *hoeft u deze niet zelf te definiëren*. Pas de standaard partitieconfiguratie niet aan. Als u deze verwijdert of wijzigt, veroorzaakt u waarschijnlijk een onverwachte fout.
 - Basisdimensies die in de partitieconfiguratie zijn gedefinieerd, mogen niet worden gedefinieerd in de [configuratie voor de productindexhiërarchie](inventory-visibility-configuration.md#index-configuration).
 - Uw [configuratie voor de productindexhiërarchie](inventory-visibility-configuration.md#index-configuration) moet ten minste één indexhiërarchie hebben (die bijvoorbeeld de basisdimensie `Empty` bevat), anders mislukken query's met de fout 'Er is geen indexhiërarchie ingesteld'.
+- Gegevensbron `@iv` is een vooraf gedefinieerde gegevensbron en de fysieke metingen die in `@iv` met prefix `@` worden gedefinieerd, zijn vooraf gedefinieerde metingen. Deze metingen zijn vooraf gedefinieerde configuraties voor de toewijzingsfunctie. U hoeft deze dus niet te wijzigen of te verwijderen omdat er onverwachte fouten optreden wanneer u de toewijzingsfunctie gebruikt.
+- U kunt nieuwe fysieke metingen toevoegen aan de vooraf gedefinieerde meting `@iv.@available_to_allocate`, maar u moet de naam niet wijzigen.
+- Als u een Supply Chain Management-database vervolgens herstelt, bevat de herstelde database mogelijk gegevens die niet langer consistent zijn met gegevens die eerder door Voorraadzichtbaarheid zijn gesynchroniseerd met Dataverse. Deze gegevensinconsistentie kan systeemfouten en andere problemen veroorzaken. Het is daarom belangrijk dat u altijd alle samenhangende gegevens van voorraadzichtbaarheid opschoont uit Dataverse voordat u een Supply Chain Management-database herstelt. Zie [Gegevens van voorraadzichtbaarheid opschonen in Dataverse voordat de Supply Chain Management-database wordt hersteld](inventory-visibility-setup.md#restore-environment-database) voor meer informatie.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Containerverpakkingsstrategieën
 description: In dit artikel worden de verschillen tussen containerverpakkingsstrategieën beschreven en voorbeelden gegeven.
 author: GalynaFedorova
-ms.date: 06/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a9a0066abaa76294faebcb15d5091ba36e8a60d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862361"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335760"
 ---
 # <a name="container-packing-strategies"></a>Containerverpakkingsstrategieën
 
@@ -77,7 +77,7 @@ In dit scenario kunt u zien hoe u het aantal containers kunt verminderen dat tij
 
 #### <a name="turn-on-the-consolidate-shipments-feature-in-your-system"></a>De functie Verzendingen consolideren in uw systeem inschakelen
 
-In dit scenario wordt de functie *Verzendingen consolideren* gebruikt. Als de functie niet al beschikbaar is in uw systeem, moet u deze via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
+In dit scenario wordt de functie *Verzendingen consolideren* gebruikt. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Verzendingen consolideren* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 #### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 

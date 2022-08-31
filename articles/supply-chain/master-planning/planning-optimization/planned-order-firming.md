@@ -2,7 +2,7 @@
 title: Vast geplande orders
 description: In dit artikel wordt uitgelegd hoe u geplande orders kunt fiatteren. Wanneer geplande orders worden gefiatteerd, worden ze omgezet in werkelijke inkooporders, transferorders of productieorders.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857513"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335340"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -37,19 +37,21 @@ De meeste geplande orderfuncties zijn beschikbaar in alle standaardinstallaties 
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Parallel fiatteren van geplande orders in- of uitschakelen
 
-Parallel fiatteren zorgt voor een sneller fiatteringsproces door dit proces parallel te laten verlopen voor meerdere threads. Deze benadering kan handig zijn wanneer een groot aantal geplande orders moet worden gefiatteerd. Als u deze functionaliteit wilt gebruiken, moet de functie *Parallelle fiattering van geplande orders* voor het systeem zijn ingeschakeld. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunt u deze functionaliteit in- of uitschakelen door naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) te gaan en te zoeken naar de functie *Parallelle fiattering van geplande orders*.
+Parallel fiatteren zorgt voor een sneller fiatteringsproces door dit proces parallel te laten verlopen voor meerdere threads. Deze benadering kan handig zijn wanneer een groot aantal geplande orders moet worden gefiatteerd. Als u deze functionaliteit wilt gebruiken, moet de functie *Parallelle fiattering van geplande orders* voor het systeem zijn ingeschakeld. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Fiatteren van geplande orders inschakelen met filtering
+Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.25 gebruikt, kunt u deze functionaliteit in- of uitschakelen door naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) te gaan en te zoeken naar de functie *Parallelle fiattering van geplande orders*.
+
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Fiatteren van geplande orders met filtering in- of uitschakelen
 
 Via fiatteren van geplande orders met filtering kunt u logische criteria definiëren om geplande orders te selecteren die moeten worden gefiatteerd. U kunt ook een voorbeeld bekijken van de geplande orders die zijn geselecteerd, het proces uitvoeren op de achtergrond en/of dit proces als een batchtaak plannen.
 
-Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Parallelle fiattering van geplande orders* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Geplande orders fiatteren met filters* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Automatische fiattering voor Planningsoptimalisatie inschakelen
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Automatische fiattering voor Planningsoptimalisatie in- of uitschakelen
 
 Met automatische fiattering kunt u tijdens de time fence voor fiattering geplande orders fiatteren als onderdeel van het hoofdplanningsproces. Automatische fiattering wordt altijd ondersteund voor de planningsengine die in Supply Chain Management is geïntegreerd. Als u de functie echter ook wilt gebruiken met Planningsoptimalisatie, moet u de functie inschakelen.
 
-Als u deze functionaliteit beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Automatisch fiatteren voor Planningsoptimalisatie* in. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld.)
+Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.29 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunt u deze functionaliteit in- of uitschakelen door naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) te gaan en te zoeken naar de functie *Automatisch fiatteren voor Planningsoptimalisatie*.
 
 ## <a name="manually-firm-planned-orders"></a>Geplande orders handmatig fiatteren
 
@@ -67,8 +69,8 @@ Als u geplande orders handmatig wilt fiatteren, kunt u de geplande orders zoeken
 
     - **Markering bijwerken**: selecteer het beleid voor het markeren van de voorraad dat moet worden gebruikt bij het fiatteren van geplande orders.
     - **Fiatteren beëindigen bij fout**: stel deze optie in op *Ja* om het fiatteren van alle geselecteerde geplande orders te stoppen als er een fout optreedt in een van deze orders. Deze optie moet worden ingesteld op *Nee* als de optie **Fiattering parallel uitvoeren** is ingesteld op *Ja*.
-    - **Fiattering parallel uitvoeren**: deze optie is alleen beschikbaar als de functie [*Geplande orders parallel fiatteren*](#enable-features) is ingeschakeld in uw systeem en als u twee of meer geplande orders voor fiattering hebt geselecteerd. Stel de optie in op *Ja* om de fiatteringsprocessen parallel uit te voeren. Met parallel fiatteren kunnen de prestaties worden verbeterd.
-    - **Aantal threads**: deze optie is alleen beschikbaar als de functie [*Geplande orders parallel fiatteren*](#enable-features) is ingeschakeld in uw systeem en als u de optie **Parallel fiatteren** hebt ingesteld op *Ja*. Voer het aantal threads in dat moet worden gebruikt om het fiatteringsproces parallel uit te voeren. Zie [De prestaties van de hoofdplanning verbeteren](../master-planning-performance.md#number-of-threads) voor advies over het gebruik van deze optie in de hoofdplanning.
+    - **Fiattering parallel uitvoeren**: deze optie is alleen beschikbaar als de functie [*Geplande orders parallel fiatteren*](#enable-features) is ingeschakeld voor uw systeem en als u twee of meer geplande orders voor fiattering hebt geselecteerd. Stel de optie in op *Ja* om de fiatteringsprocessen parallel uit te voeren. Met parallel fiatteren kunnen de prestaties worden verbeterd.
+    - **Aantal threads**: deze optie is alleen beschikbaar als de functie [*Geplande orders parallel fiatteren*](#enable-features) is ingeschakeld voor uw systeem en als u de optie **Parallel fiatteren** hebt ingesteld op *Ja*. Voer het aantal threads in dat moet worden gebruikt om het fiatteringsproces parallel uit te voeren. Zie [De prestaties van de hoofdplanning verbeteren](../master-planning-performance.md#number-of-threads) voor advies over het gebruik van deze optie in de hoofdplanning.
 
         > [!NOTE]
         > Met de waarde *0* (nul) in het veld **Aantal threads** verhoogt de uitvoeringstijd van de hoofdplanning. Het is daarom raadzaam de waarde in dit veld in te stellen op een waarde hoger dan 0.
@@ -97,7 +99,7 @@ Met automatische fiattering kunt u geplande orders fiatteren als onderdeel van h
 > Afgeleide orders (dat wil zeggen, uitbestede inkooporders) die worden gefiatteerd, hebben de status *Wordt gecontroleerd* als Wijzigingen bijhouden is ingeschakeld.
 
 > [!IMPORTANT]
-> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt met Planningsoptimalisatie, moet de functie [*Automatische fiattering voor planningsoptimalisatie*](#enable-features) zijn ingeschakeld in het systeem, zoals aan het begin van dit artikel is beschreven. Automatische fiattering kan altijd worden gebruikt met de geïntegreerde hoofdplanningsengine.
+> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt met Planningsoptimalisatie, moet de functie [*Automatische fiattering voor planningsoptimalisatie*](#enable-features) zijn ingeschakeld voor het systeem, zoals aan het begin van dit artikel is beschreven. Automatische fiattering kan altijd worden gebruikt met de geïntegreerde hoofdplanningsengine.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automatisch fiattering met Planningsoptimalisatie versus de geïntegreerde planningsengine
 
@@ -130,7 +132,7 @@ Met op een query gebaseerde fiattering kunt u fiattering plannen op basis van cr
 U kunt automatische fiattering combineren met op query gebaseerde fiattering. Een op een query gebaseerd fiatteringstaak heeft bijvoorbeeld een time fence in de toekomst die langer is dan de time fence voor een overeenkomende configuratie voor automatische fiattering van de behoefte. Daarom worden met de op een query gebaseerde fiatteringstaak de geplande orders verwerkt voordat de automatische fiattering wordt geactiveerd. U kunt dit gedrag gebruiken als u orders voor specifieke leveranciers anders wilt plannen dan orders voor vergelijkbare producten van andere leveranciers.
 
 > [!IMPORTANT]
-> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt, moet de functie [*Fiatteren van geplande orders met filtering*](#enable-features) zijn ingeschakeld in het systeem, zoals aan het begin van dit artikel is beschreven.
+> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt, moet de functie [*Fiatteren van geplande orders met filtering*](#enable-features) zijn ingeschakeld voor het systeem, zoals aan het begin van dit artikel is beschreven.
 
 Volg deze stappen om een geplande order te fiatteren met behulp van het op een query gebaseerd fiatteringsproces.
 

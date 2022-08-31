@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
-ms.openlocfilehash: fe23d4cb2b293af466df2236b153974f95f636f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0209679c9882d87edab68d043fba9e7b3400a2a2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271578"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337191"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 
@@ -84,7 +84,7 @@ ER-configuraties die zijn ontworpen in de ontwikkelomgeving, kunnen worden [geü
 
 ## <a name="data-persistence-consideration"></a>Overweging voor gegevenspersistentie
 
-U kunt verschillende [versies](general-electronic-reporting.md#component-versioning) van een [ER-configuratie](general-electronic-reporting.md#Configuration) afzonderlijk [importeren](tasks/er-import-configuration-lifecycle-services.md) in uw Finance-exemplaar. Wanneer een nieuwe versie van een ER-configuratie wordt geïmporteerd, bepaalt het systeem de inhoud van de conceptversie van deze configuratie:
+U kunt verschillende versies van een [ER-configuratie](general-electronic-reporting.md#Configuration) afzonderlijk [importeren](tasks/er-import-configuration-lifecycle-services.md) in uw Finance-exemplaar. Wanneer een nieuwe versie van een ER-configuratie wordt geïmporteerd, bepaalt het systeem de inhoud van de conceptversie van deze configuratie:
 
 - Wanneer de geïmporteerde versie lager is dan de hoogste versie van deze configuratie in het huidige exemplaar van Finance, blijft de inhoud van de conceptversie van deze configuratie ongewijzigd.
 - Wanneer de geïmporteerde versie hoger is dan een andere versie van deze configuratie in het huidige exemplaar van Finance, wordt de inhoud van de geïmporteerde versie naar de conceptversie van deze configuratie gekopieerd, waarin u de laatst voltooide versie kunt bewerken.
@@ -112,7 +112,7 @@ ER-configuraties kunnen worden geconfigureerd als [afhankelijk](er-download-conf
 
 ![Configuratie van de afgeleide ER-indeling op de pagina Configuraties.](./media/ger-configuration-lifecycle-img1.png)
 
-Wanneer u klaar bent met het ontwerpen van de indeling, kunt u de status van uw oorspronkelijke [versie](general-electronic-reporting.md#component-versioning) van de configuratie van de ER-indeling wijzigen van **Concept** in **Voltooid**. U kunt vervolgens de voltooide versie van de configuratie van de ER-indeling delen door deze te [publiceren](../../../finance/localizations/rcs-global-repo-upload.md) naar de Algemene opslagplaats. Vervolgens kunt u de Algemene opslagplaats openen vanuit elke andere cloud-instantie van RCS of Finance. Vervolgens kunt u elke versie van de ER-configuratie importeren die van toepassing is op de toepassing van de Algemene opslagplaats in die toepassing.
+Wanneer u klaar bent met het ontwerpen van de indeling, kunt u de status van uw oorspronkelijke versie van de configuratie van de ER-indeling wijzigen van **Concept** in **Voltooid**. U kunt vervolgens de voltooide versie van de configuratie van de ER-indeling delen door deze te [publiceren](../../../finance/localizations/rcs-global-repo-upload.md) naar de Algemene opslagplaats. Vervolgens kunt u de Algemene opslagplaats openen vanuit elke andere cloud-instantie van RCS of Finance. Vervolgens kunt u elke versie van de ER-configuratie importeren die van toepassing is op de toepassing van de Algemene opslagplaats in die toepassing.
 
 ![Gepubliceerde configuratie van ER-indeling op de pagina Opslagplaats van configuratie.](./media/ger-configuration-lifecycle-img2.png)
 

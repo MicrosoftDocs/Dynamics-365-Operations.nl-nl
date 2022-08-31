@@ -2,7 +2,7 @@
 title: Gepropageerde velden configureren voor stappen in de mobiele app Warehouse Management
 description: In dit artikel wordt beschreven hoe u specifieke informatie propageert en markeert voor stappen in de taakstromen voor de mobiele app Warehouse Management.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218969"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336060"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Gepropageerde velden configureren voor stappen in de mobiele app Warehouse Management
 
@@ -29,19 +29,12 @@ In dit artikel wordt beschreven hoe u specifieke informatie propageert en markee
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Gepropageerde velden in het systeem inschakelen
 
-Voordat u gepropageerde velden kunt instellen, moet u de volgende procedure uitvoeren om de vereiste functies in te schakelen en de vereiste veldnamen te genereren in de mobiele app Warehouse Management.
+Als u Supply Chain Management versie 10.0.28 of eerder uitvoert, moet u voordat u gepropageerde velden kunt instellen, de volgende procedure uitvoeren om de vereiste functies in te schakelen en de vereiste veldnamen te genereren in de mobiele app Warehouse Management. Als u versie 10.0.29 of hoger van Supply Chain Management gebruikt, zijn de functies verplicht en kunnen ze niet worden uitgeschakeld. U kunt deze procedure dus overslaan.
 
-1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
-1. Zorg ervoor dat de functie *stap-instructies voor de magazijn-app* is ingeschakeld voor het systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md). Deze functie is een vereiste voor de functie *Gepropageerde velden van magazijnapp*.
-1. Schakel de functie in die op de volgende manier wordt weergegeven:
-
-    - **Module:** *Magazijnbeheer*
-    - **Functienaam:** *Gepropageerde velden van magazijnapp*
-
-    Deze functie is de functie die in dit artikel wordt beschreven.
-
-1. Werk de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling maken** te selecteren. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
-1. Herhaal de vorige stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt.
+1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**. (Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie over deze pagina.)
+1. Zorg ervoor dat de functie *stap-instructies voor de magazijn-app* is ingeschakeld voor het systeem. Deze functie is een vereiste voor de functie *Gepropageerde velden van magazijnapp*. Vanaf Supply Chain Management versie 10.0.29 is dit verplicht en deze functie kan niet worden uitgeschakeld. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md).
+1. Zorg ervoor dat de functie *Gepropageerde velden van magazijnapp* is ingeschakeld voor het systeem. Dit is de functie die in dit artikel wordt beschreven. Vanaf Supply Chain Management versie 10.0.29 is dit verplicht en deze functie kan niet worden uitgeschakeld.
+1. Werk de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling maken** te selecteren. Herhaal deze stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Gepropageerde velden configureren vanuit een menuspecifieke overschrijving
 

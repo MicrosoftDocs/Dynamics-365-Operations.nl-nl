@@ -2,7 +2,7 @@
 title: USMCA-certificaat van oorsprong
 description: Met deze functie kunt u documenten voor het certificaat van oorsprong afdrukken die voor de Verenigde Staten-Mexico-Canada-overeenkomst (USMCA) zijn vereist.
 author: Weijiesa
-ms.date: 10/23/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 2a87e1aa27085f1b4821d27cece782dffbcd2096
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: edf235351fc7cbffc6bf80c7e05c53159c1e8a7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851357"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336540"
 ---
 # <a name="usmca-certification-of-origin"></a>USMCA-certificaat van oorsprong
 
@@ -33,12 +33,9 @@ Het document is alleen toegankelijk als het land in het primaire adres voor de r
 
 Afhankelijk van de geselecteerde afdrukinstellingen van het document, kan het document vooraf worden ingevuld met gegevens vanuit uw systeem. Het is mogelijk om gegevens te wijzigen of toe te voegen aan het afgedrukte document door het afgedrukte document te exporteren naar een bewerkbare indeling, zoals Microsoft Word. Na het exporteren kunt u alle vereiste wijzigingen toepassen voordat u een aangifte doet.
 
-## <a name="turn-on-the-usmca-feature"></a>De USMCA-functie inschakelen
+## <a name="turn-the-usmca-feature-on-or-off"></a>De USMCA-functie in- of uitschakelen
 
-Voordat u de USMCA-functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Transportbeheer*
-- **Functienaam:** *Document voor USMCA-certificaat van oorsprong*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Document van USMCA-oorsprongscertificaat* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="document-content"></a>Inhoud van document
 

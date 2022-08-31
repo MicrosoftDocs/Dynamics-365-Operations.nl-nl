@@ -2,7 +2,7 @@
 title: Status magazijnlocatie
 description: In dit artikel vindt u een overzicht van de functie Status magazijnlocatie.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9b12a7d6a7ce388c8fd049c4aef79ea57c82ae60
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220052"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336090"
 ---
 # <a name="warehouse-location-status"></a>Status magazijnlocatie
 
@@ -40,9 +40,9 @@ In de volgende vier velden op de pagina **Locaties** wordt informatie bijgehoude
     - **Orderverzameling:** Uitgaande transacties zijn uitgevoerd op de locatie sinds deze voor het laatst leeg was.
     - **Opslag:** Alleen ingaande transacties zijn uitgevoerd op de locatie sinds deze voor het laatst leeg was.
 
-## <a name="turn-on-the-warehouse-location-status-feature"></a>De functie Status magazijnlocatie inschakelen
+## <a name="turn-the-warehouse-location-status-feature-on-or-off"></a>De functie Status magazijnlocatie in- of uitschakelen
 
-Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Locatiestatus magazijn* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Status magazijnlocatie* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>De functie Status magazijnlocatie configureren
 

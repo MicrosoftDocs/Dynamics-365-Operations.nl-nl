@@ -2,7 +2,7 @@
 title: Domeinen in Dynamics 365 Commerce
 description: In dit artikel wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 05/10/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
 ms.search.industry: retail
 ms.search.form: ''
-ms.openlocfilehash: 9bd925b7bf27748b3c17946de72a76bc0d0200d7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288444"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336667"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -109,6 +109,10 @@ Het eindpunt `<e-commerce tenant name>.dynamics365commerce.ms` ondersteunt geen 
 Als u aangepaste domeinen wilt instellen met een Front Door Service of CDN, hebt u twee mogelijkheden:
 
 - Stel een Front Door Service, zoals Azure Front Door, in voor het verwerken van front-end verkeer en om verbinding te maken met uw Commerce-omgeving. Hiermee beschikt u over meer controle over domein- en certificaatbeheer en een meer gedetailleerd beveiligingsbeleid.
+
+> [!NOTE]
+> Als u een externe CDN- of front door-service gebruikt, moet u ervoor zorgen dat de aanvraag wordt aangeboden op het Commerce-platform met de door Commerce opgegeven hostnaam, maar met de XFH-header (X-Forwarded-Host) \<custom-domain\>. Als het Commerce-eindpunt bijvoorbeeld `xyz.dynamics365commerce.ms` is en het aangepaste domein is `www.fabrikam.com`, moet de hostheader van de forwarded request `xyz.dynamics365commerce.ms` zijn en moet de XFH-koptekst `www.fabrikam.com`.
+
 - Gebruik het door Commerce geleverde exemplaar van Azure Front Door. Dit vereist coördinatie met het Dynamics 365 Commerce-team voor domeinverificatie en het verkrijgen van SSL-certificaten voor uw productiedomein.
 
 Zie [Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen](add-cdn-support.md) voor informatie over het rechtstreeks instellen van een CDN-service.
@@ -141,14 +145,18 @@ Voor bestaande/actieve domeinen:
 
 ## <a name="apex-domains"></a>Apex-domeinen
 
-Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-domeinen (hoofddomeinen die geen subdomeinen bevatten). Apex-domeinen vereisen dat een IP-adres wordt omgezet en het Azure Front Door-exemplaar alleen met virtuele eindpunten bestaat. Als u een Apex-domein wilt gebruiken, hebt u twee mogelijkheden:
+Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-domeinen (hoofddomeinen die geen subdomeinen bevatten). Apex-domeinen vereisen dat een IP-adres wordt omgezet en het Azure Front Door-exemplaar alleen met virtuele eindpunten bestaat. Als u een Apex-domein wilt gebruiken, hebt u de volgende mogelijkheden:
 
 - **Optie 1** - gebruik uw DNS-provider om het apex-domein om te leiden naar een www-domein. fabrikam.com leidt bijvoorbeeld om naar `www.fabrikam.com` waarbij `www.fabrikam.com` de CNAME-record is die verwijst naar het Commerce gehoste Azure Front Door-exemplaar.
 
-- **Optie 2** - stel zelf een CDN/Front Door-exemplaar in voor het hosten van het apex-domein.
+- **Optie 2**: als uw DNS-provider ALIAS-records ondersteunt, kunt u het apex-domein laten verwijzen naar het eindpunt van de front door. Op deze manier zorgt u ervoor dat de IP-wijziging door het eindpunt van de front door wordt weergegeven.
+  
+- **Optie 3**: als uw DNS-provider geen ALIAS-records ondersteunt, moet u zelf een CDN- of front door-exemplaar instellen om het apex-domein te hosten.
 
 > [!NOTE]
 > Als u Azure Front Door gebruikt, moet u ook een Azure DNS instellen in hetzelfde abonnement. Het apex-domein dat op Azure DNS wordt gehost, kan naar uw Azure Front Door verwijzen als een aliasrecord. Dit is de enige tijdelijke oplossing, aangezien apex-domeinen altijd naar een IP-adres moeten verwijzen.
+  
+Als u vragen hebt over Apex-domeinen, kunt u contact opnemen met [Microsoft Support](https://support.microsoft.com/).
 
   ## <a name="additional-resources"></a>Aanvullende bronnen
 

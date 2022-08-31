@@ -14,17 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59fe5ece00500f7dafab282c00d572575706f790
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894580"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323953"
 ---
 # <a name="configure-leave-and-absence-types"></a>Verlof- en verzuimtypen configureren
-
-> [!Important]
-> De functionaliteit die in dit artikel wordt vermeld, is momenteel beschikbaar voor klanten van de zelfstandige versie van Dynamics 365 Human Resources. Sommige of alle functionaliteit is beschikbaar als onderdeel van een toekomstige versie van de Finance-infrastructuur na versie 10.0.26 van Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,31 +38,21 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 
 ## <a name="add-a-leave-type"></a>Een verloftype toevoegen
 
-1. Selecteer op de pagina **Verlof en verzuim** het tabblad **Koppelingen**.
-
+1. Selecteer in de werkruimte **Verlof en verzuim** het tabblad **Koppelingen**.
 2. Selecteer onder **Instellingen** de optie **Verlof- en verzuimtypen**.
-
 3. Selecteer **Nieuw**.
-
 4. Voer een naam in voor het verloftype onder **Type**, selecteer een werkstroom bij **Werkstroom-id** en voer een beschrijving in onder **Beschrijving**.
-
 5. Selecteer bij **Algemeen** de optie **Geen**, **Gepland** of **Ongepland** in de vervolgkeuzelijst **Categorie**.
-
 6. Selecteer een inkomstencode in de vervolgkeuzelijst **Inkomstencode**.
-
 7. Geef onder **Redencode vereist** aan of u een redencode wilt vereisen. Als u redencodes wilt vereisen, moet u deze mogelijk toevoegen. Selecteer onder **Redencodes** de optie **Toevoegen**, selecteer een redencode en schakel vervolgens het selectievakje **Ingeschakeld** hiernaast in.
-
 8. Kies onder **Toegang tot geselecteerde rollen beperken** of u de toegang wilt beperken. Selecteer vervolgens de beveiligingsrollen onder **Beveiligingsrollen voor dit verloftype**. De beveiligingsrollen worden gedefinieerd in de werkstroom die u onder **Werkstroom-id** eerder in deze procedure hebt geselecteerd.
-
 9. Kies onder **Agendakleur** welke kleur moet worden weergegeven agenda's voor verlof en verzuim voor dit verloftype. 
-
 10. Geef onder **Uitstelrelaties** op of u wilt dat dit verloftype een ander verloftype uitstelt of door een ander verloftype wordt uitgesteld. Wanneer een verlofaanvraag wordt ingediend voor het uitstellende verloftype, wordt er automatisch een verlofuitstel gemaakt voor het uitgestelde verloftype. 
-
-10. Selecteer **Opslaan**.
+11. Selecteer **Opslaan**.
 
 ## <a name="configure-leave-type-rules"></a>Regels voor verloftypen configureren
 
-1. Stel afrondingsopties in voor het verloftype. De beschikbare opties zijn **Geen**, **Naar boven**, **Naar beneden** en **Dichtstbijzijnde**. U kunt ook een afrondingsprecisie instellen voor het verloftype.
+1. Stel afrondingsopties in voor het type **Verlof en verzuim**. De beschikbare opties zijn **Geen**, **Naar boven**, **Naar beneden** en **Dichtstbijzijnde**. U kunt ook een afrondingsprecisie instellen voor het verloftype.
 
 2. Stel **Feestdagcorrectie** in voor het verloftype. Wanneer u deze optie selecteert, wordt het aantal feestdagen dat op een werkdag valt, gebruikt om te bepalen hoe het verlof moet worden opgebouwd voor het verloftype. Als kerstdag bijvoorbeeld op een maandag valt, trekt Human Resources een dag af van het verloftype bij het verwerken van toerekeningen.
 

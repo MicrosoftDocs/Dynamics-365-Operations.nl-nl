@@ -2,34 +2,32 @@
 title: Implementatierichtlijnen voor kassa's voor Noorwegen
 description: Dit artikel biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Microsoft Dynamics 365 Commerce-lokalisatie voor Noorwegen.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: b19fc35a96c3194cf516ea505b6980072571a595
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281012"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9345986"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Implementatierichtlijnen voor kassa's voor Noorwegen
 
 [!include[banner](../includes/banner.md)]
 
-Dit artikel biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Microsoft Dynamics 365 Commerce-lokalisatie voor Noorwegen. De lokalisatie bestaat uit verschillende extensies van onderdelen. Met deze extensies kunt u bijvoorbeeld aangepaste velden afdrukken op ontvangstbewijzen , extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen. Zie [Commerce instellen voor Noorwegen](./emea-nor-cash-registers.md#setting-up-commerce-for-norway) voor meer informatie over het configureren van Commerce voor Noorwegen.
+> [!IMPORTANT]
+> U moet de stappen die in dit artikel worden beschreven, alleen implementeren als u versie 10.0.29 of hoger van Microsoft Dynamics 365 Commerce gebruikt. In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers (VM) in Microsoft Dynamics Lifecycle Services (LCS). Zie [Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd)](./emea-nor-loc-deployment-guidelines.md) voor meer informatie. Als u Commerce versie 10.0.28 of eerder gebruikt en migreert naar Commerce versie 10.0.29 of hoger, moet u de stappen volgen in [Migreren van de functionaliteit voor verouderde Commerce voor Noorwegen](./emea-nor-fi-migration.md).
 
-> [!WARNING]
-> Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor deze lokalisatiefunctionaliteit. U moet de versie van het voorbeeld voor digitaal ondertekenen voor Noorwegen gebruiken in de vorige versie van de Retail Software Development Kit (SDK) op een virtual machine (VM) voor ontwikkelaars in Microsoft Dynamics Lifecycle Services (LCS). Zie [Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd)](./emea-nor-loc-deployment-guidelines.md) voor meer informatie.
->
-> Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
+Dit artikel biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Commerce-lokalisatie voor Noorwegen. De lokalisatie bestaat uit verschillende extensies van componenten waarmee u acties kunt uitvoeren als afdrukken van aangepaste velden op ontvangstbewijzen, extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen. Zie [Commerce instellen voor Noorwegen](./emea-nor-cash-registers.md#setting-up-commerce-for-norway) voor meer informatie over het configureren van Commerce voor Noorwegen.
 
 ## <a name="set-up-fiscal-registration-for-norway"></a>Fiscale registratie voor Noorwegen
 
-Het voorbeeld van integratie van fiscale registratieservice voor Noorwegen is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Retail SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\SequentialSignatureNorway** van de opslagplaats voor [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (bijvoorbeeld het [voorbeeld in versie/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34/src/FiscalIntegration/SequentialSignatureNorway)). Het voorbeeld [bestaat](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) uit een fiscale documentprovider en een fiscale connector. Dit zijn extensies van de Commerce runtime (CRT). Zie de [retail-SDK-architectuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) [Een buildpijplijn instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md) voor meer informatie over het gebruik van de Retail SDK-architectuur en het instellen van een buildpijplijn voor de onafhankelijke verpakkings SDK.
+Het voorbeeld van integratie van fiscale registratieservice voor Noorwegen is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Commerce SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\SequentialSignatureNorway** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het [voorbeeld](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) bestaat uit een fiscale documentprovider en een fiscale connector. Dit zijn extensies van de Commerce runtime (CRT). Voor meer informatie over het gebruik van de Commerce SDK, gaat u naar [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) en [Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md).
 
 Voltooi de instellingsstappen voor de fiscale registratie zoals beschreven in [Fiscale integratie voor Commerce-kanalen instellen](./setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -45,10 +43,10 @@ Volg deze stappen om het fiscale registratieproces voor Noorwegen in te schakele
 1. Download configuratiebestanden voor de fiscale documentprovider en de fiscale connector vanuit de Commerce SDK:
 
     1. Open de opslagplaats met [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. De laatst beschikbare vertakkingsversie openen (bijvoorbeeld **[versie/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.34)**).
+    1. Open de laatst beschikbare versiebranche.
     1. Open **src \> FiscalIntegration \> SequentialSignatureNorway \> CommerceRuntime**.
-    1. Download het configuratiebestand van de fiscale documentprovider op **DocumentProvider.SequentialSignNorway \> Configuration \> DocumentProviderSequentialSignatureNorwaySample.xml** (bijvoorbeeld [het bestand voor versie/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/DocumentProvider.SequentialSignNorway/Configuration/DocumentProviderSequentialSignatureNorwaySample.xml)).
-    1. Download het configuratiebestand van de fiscale connector op **Connector.SequentialSignNorway \> Configuration \> ConnectorSequentialSignatureNorwaySample.xml** (bijvoorbeeld [het bestand voor versie/9.34](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.34/src/FiscalIntegration/SequentialSignatureNorway/CommerceRuntime/Connector.SequentialSignNorway/Configuration/ConnectorSequentialSignatureNorwaySample.xml)).
+    1. Download het configuratiebestand van de fiscale documentprovider op **DocumentProvider.SequentialSignNorway \> Configuratie \> DocumentProviderSequentialSignatureNorwaySample.xml**.
+    1. Download het configuratiebestand van de fiscale connector op **Connector.SequentialSignNorway \> Configuratie \> ConnectorSequentialSignatureNorwaySample.xml**.
 
 1. Ga naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde parameters**. Stel op het tabblad **Algemeen** de optie **Fiscale integratie inschakelen** in op **Ja**.
 1. Ga naar **Retail en commerce \> Kanaalinstellingen \> Fiscale integratie \> Fiscale connectors** en laad het configuratiebestand voor de fiscale connector die u eerder hebt gedownload.
@@ -99,11 +97,11 @@ Vervolgens moet u een connector configureren voor de certificaten die zijn opges
 
 ### <a name="configure-channel-components"></a>Kanaalonderdelen configureren
 
-### <a name="development-environment"></a>Ontwikkelingsomgeving
+#### <a name="development-environment"></a>Ontwikkelingsomgeving
 
 Voer de volgende stappen uit om een ontwikkelingsomgeving in te stellen zodat u het voorbeeld kunt testen en uitbreiden.
 
-1. Kloon of download de [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie. Zie [Retail SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) voor meer informatie.
+1. Kloon of download de [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie. Zie [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) voor meer informatie.
 1. Open de oplossing **SequentialSignatureNorway.sln** onder **Dynamics365Commerce.Solutions\\FiscalIntegration\\SequentialSignatureNorway** en bouw deze.
 1. Installeer CRT-extensies:
 
@@ -126,7 +124,7 @@ Voer de volgende stappen uit om een ontwikkelingsomgeving in te stellen zodat u 
             ModernPOS.SequentialSignNorway.Installer.exe install --verbosity 0
             ```
 
-### <a name="production-environment"></a>Productieomgeving
+#### <a name="production-environment"></a>Productieomgeving
 
 Volg de stappen in [Een bouwpijplijn instellen voor een voorbeeld van fiscale integratie](fiscal-integration-sample-build-pipeline.md) voor het instellen en vrijgeven van de Cloud Scale Unit en selfservice implementeerbare pakketten voor het voorbeeld van fiscale integratie. Het YAML-sjabloonbestand **SequentialSignatureNorway build-pipeline.yaml** is te vinden in de map **Pipeline\\YAML_Files** van de opslagplaats [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions).
 

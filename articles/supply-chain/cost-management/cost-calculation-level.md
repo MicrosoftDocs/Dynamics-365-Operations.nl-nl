@@ -2,7 +2,7 @@
 title: Berekeningsniveau voor kosten
 description: Dit artikel beschrijft het stuklijstniveau met de naam Kostenberekeningsniveau. Op dit stuklijstniveau worden productie- en batchorders uitgesloten van de berekeningen.
 author: JennySong-SH
-ms.date: 04/23/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,18 +12,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2020-04-23
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 647ef4b13b864cfdbb7905fe7a0d340e85f6c1e6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e63a868696e36c1d4f5d19ea87bdf4d682c39f8c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850868"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334950"
 ---
 # <a name="cost-calculation-level"></a>Berekeningsniveau voor kosten
 
 [!include [banner](../includes/banner.md)]
 
 Voor het stuklijstniveau met de naam **Berekeningsniveau voor kosten** worden productieorders en batchorders uitgesloten van de berekeningen. Dit niveau wordt door het systeem gebruikt wanneer kostenberekeningen worden uitgevoerd in kostprijsberekeningsversies. In processen zoals herberekening en voorraadafsluiting gebruikt het systeem **Kostprijsberekeningsniveau** van het stuklijstniveau in plaats daarvan.
+
+## <a name="turn-the-cost-calculation-level-feature-on-or-off"></a>De functie Berekeningsniveau voor kosten in- of uitschakelen
+
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Berekeningsniveau voor kosten* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+## <a name="example-scenario"></a>Voorbeeldscenario
 
 In het volgende eenvoudige scenario worden de verschillen weergegeven tussen het stuklijstniveau op het **Berekeningsniveau voor kosten** en het stuklijstniveau op het **Kostenniveau**.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219563"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313878"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -46,6 +46,17 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Betrokken productgebieden** | Toepassing |
 | **Implementatieoptie** | Alle |
 | **Status** | Afgeschaft: na april 2023 wordt de functionaliteit **voorraadtransferorders met belasting op de transferprijs** niet langer ondersteund met correcties voor fouten en beveiligingsfixes. Klanten zal worden gevraagd de verbeterde functionaliteit [Voorraadtransferorders voor India](../../finance/localizations/apac-ind-stock-transfer.md) te gebruiken. Na oktober 2023 is de functionaliteit **voorraadtransferorders met belasting op de transferprijs** niet langer beschikbaar en wordt klanten gevraagd de verbeterde functionaliteit te gebruiken. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Bankafschrift importeren en exporteren van positief salarisbestand
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Reden voor afschaffing/verwijdering** |Vervangen door verbeterde functionaliteit, bankafschriften importeren en positieve salarisbestanden exporteren.| 
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Toepassing |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: de XSLT-functionaliteit voor het importeren en exporteren van bestanden wordt niet langer ondersteund met bugfixes en beveiligingsfixes. Klanten wordt gevraagd de verbeterde functionaliteit te gebruiken: [Positieve betalingsbestanden instellen met behulp van Elektronische rapportage](../../finance/accounts-payable/set-up-positive-pay-er.md) en [Importeren van geavanceerde bankafstemming instellen via Elektronische rapportage](../../finance/accounts-payable/import-bai2-er.md). Na september 2022 is de XSLT-functionaliteit niet meer beschikbaar en krijgen klanten de vraag of ze naar de verbeterde functionaliteit willen overstappen.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Verwijderde of verouderde functies in versie 10.0.26 van Finance
 

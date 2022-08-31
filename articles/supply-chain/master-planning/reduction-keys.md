@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7eaf57e0f02c0b9dd6454a58184db7bb3f58c04
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854263"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337128"
 ---
 # <a name="forecast-reduction-keys"></a>Reductiesleutels van prognose
 
@@ -133,7 +133,7 @@ Wanneer deze optie wordt gebruikt, vindt het volgende gedrag plaats:
 - Reductiesleutels worden niet vereist of gebruikt. 
 - Als de prognose volledig is gereduceerd, worden de prognosebehoeften voor de huidige prognose 0 (nul).
 - Als er geen toekomstige prognose is, worden de prognosebehoeften van de laatste prognose die is ingevoerd, gereduceerd.
-- De timefences worden opgenomen in de berekening van de prognosereductie.
+- De time fence voor vraagprognosereductie wordt niet opgenomen in de berekening van de prognosereductie. In plaats daarvan wordt de time fence van de dekkingsgroep gebruikt voor prognosereductie.
 - Positieve dagen zijn opgenomen in de berekening van de prognosereductie.
 - Als de werkelijke ordertransacties de prognosebehoeften overschrijden, worden de resterende transacties niet naar de volgende prognoseperiode doorgestuurd.
 

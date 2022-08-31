@@ -2,7 +2,7 @@
 title: Visualisatie van uitgaande workload
 description: Dit artikel biedt informatie over visualisatie van uitgaande workloads. Met deze functionaliteit kunnen magazijnbeheerders en supervisors aangepaste workloaddiagrammen maken die kunnen worden gebruikt om de voortgang van het huidige werk en de resterende hoeveelheid te controleren. Magazijnbeheerders kunnen meerdere weergaven maken en zo nodig automatisch vernieuwen instellen.
 author: Mirzaab
-ms.date: 08/28/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 78d0d81095bb52a314936dd7590a5690d94ecb15
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851328"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334410"
 ---
 # <a name="outbound-workload-visualization"></a>Visualisatie van uitgaande workload
 
@@ -29,7 +29,7 @@ Deze functie kan worden gebruikt om de voortgang van het orderverzamelen bij te 
 
 ## <a name="turn-the-outbound-workload-visualization-feature-on-or-off"></a>De functie Visualisatie van uitgaande workload in- of uitschakelen
 
-Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Visualisatie van uitgaande workload* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Visualisatie van uitgaande workload* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-outbound-workload-visualizations"></a>Visualisaties van uitgaande workloads instellen
 

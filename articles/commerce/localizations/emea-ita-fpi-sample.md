@@ -2,27 +2,28 @@
 title: Voorbeeld van integratie van fiscale printer voor Italië
 description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Italië in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-11-01
-ms.openlocfilehash: e63f8d68b8b79143771c0b1c757cb78659183b67
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dff555a58c31b4e3daedd56b617dd44c4a87e601
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280263"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336683"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Voorbeeld van integratie van fiscale printer voor Italië
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Italië in Microsoft Dynamics 365 Commerce.
 
-De Commerce-functionaliteit voor Italië omvat een voorbeeldintegratie van het verkooppunt (POS) met een fiscale printer. De voorbeeldfunctie is een uitbreiding van de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) zodat deze werkt met printers uit de [Epson FP-90III-reeks](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) en maakt communicatie met een fiscale printer in de webservermodus mogelijk via de webservice EpsonFPMate met behulp van Fiscal ePOS-Print API. Het voorbeeld ondersteunt alleen de RT-modus (Registratore Telematico). Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Retail Software Development Kit (SDK).
+De Commerce-functionaliteit voor Italië omvat een voorbeeldintegratie van het verkooppunt (POS) met een fiscale printer. De voorbeeldfunctie is een uitbreiding van de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) zodat deze werkt met printers uit de [Epson FP-90III-reeks](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) en maakt communicatie met een fiscale printer in de webservermodus mogelijk via de webservice EpsonFPMate met behulp van Fiscal ePOS-Print API. Het voorbeeld ondersteunt alleen de RT-modus (Registratore Telematico). Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Commerce Software Development Kit (SDK).
 
 Microsoft brengt geen hardware, software of documentatie van Epson uit. Neem contact op met [Epson Italia S.p.A](https://www.epson.it) voor informatie over het verkrijgen van de fiscale printer en de werking ervan.
 
@@ -99,12 +100,10 @@ Met de voorbeeld van de integratie van fiscale printers worden de volgende regel
 
 ## <a name="set-up-fiscal-integration-for-italy"></a>Fiscale integratie instellen voor Italië
 
-Het voorbeeld van integratie van fiscale printers voor Italië is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Retail SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\EpsonFP90IIISample** van de opslagplaats voor [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (bijvoorbeeld het [voorbeeld in versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). Het voorbeeld [bestaat](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) uit een fiscale documentprovider, hetgeen een extensie van de Commerce runtime (CRT) is, en een fiscale connector, die een uitbreiding is van Commerce Hardware Station. Zie de [retail-SDK-architectuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) [Een buildpijplijn instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md) voor meer informatie over het gebruik van de Retail SDK-architectuur en het instellen van een buildpijplijn voor de onafhankelijke verpakkings SDK.
+Het voorbeeld van integratie van fiscale printers voor Italië is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Commerce SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\EpsonFP90IIISample** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het [voorbeeld](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) bestaat uit een fiscale documentprovider, hetgeen een extensie van de Commerce runtime (CRT) is, en een fiscale connector, die een uitbreiding is van Commerce Hardware Station. Voor meer informatie over het gebruik van de Commerce SDK, gaat u naar [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) en [Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers (VM) in Microsoft Dynamics Lifecycle Services (LCS). Zie [Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)](emea-ita-fpi-sample-sdk.md) voor meer informatie.
->
-> Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
+> [!NOTE]
+> Het voorbeeld van de belastingprinterintegratie voor Italië is beschikbaar in de Commerce SDK vanaf Commerce versie 10.0.29. In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers (VM) in Microsoft Dynamics Lifecycle Services (LCS). Zie [Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)](emea-ita-fpi-sample-sdk.md) voor meer informatie.
 
 Voltooi de instellingsstappen voor de fiscale integratie zoals beschreven in [Fiscale integratie voor Commerce-kanalen instellen](setting-up-fiscal-integration-for-retail-channel.md).
 
@@ -123,18 +122,16 @@ Als u het registratieproces wilt inschakelen, voert u de volgende stappen uit om
 1. Download configuratiebestanden voor de fiscale documentprovider en de fiscale connector:
 
     1. Open de opslagplaats met [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie (bijvoorbeeld **[versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie.
     1. Open **src \> FiscalIntegration \> EpsonFP90IIISample**.
-    1. Download het configuratiebestand van de fiscale documentprovider op **CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml** (bijvoorbeeld [het bestand voor versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/CommerceRuntime/DocumentProvider.EpsonFP90IIISample/Configuration/DocumentProviderEpsonFP90IIISample.xml)).
-    1. Download het configuratiebestand van de fiscale connector op **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml** (bijvoorbeeld [het bestand voor versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/EpsonFP90IIISample/HardwareStation/EpsonFP90IIIFiscalDeviceSample/Configuration/ConnectorEpsonFP90IIISample.xml)).
+    1. Download het configuratiebestand van de fiscale documentprovider op **CommerceRuntime \> DocumentProvider.EpsonFP90IIISample \> Configuration \> DocumentProviderEpsonFP90IIISample.xml**.
+    1. Download het configuratiebestand van de fiscale connector op **HardwareStation \> EpsonFP90IIIFiscalDeviceSample \> Configuration \> ConnectorEpsonFP90IIISample.xml**.
 
-    > [!WARNING]
-    > Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een VM voor developers in LCS. De configuratiebestanden voor dit voorbeeld van fiscale integratie bevinden zich in de volgende mappen van de Retail SDK op een ontwikkelaars-VM in LCS:
+    > [!NOTE]
+    > Voor Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers in LCS. De configuratiebestanden voor dit voorbeeld van fiscale integratie bevinden zich in de volgende mappen van de Retail SDK op een ontwikkelaars-VM in LCS:
     >
     > - **Configuratiebestand van fiscale documentprovider:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extension.DocumentProvider.EpsonFP90IIISample\\Configuration\\DocumentProviderEpsonFP90IIISample.xml
     > - **Configuratiebestand van fiscale connector:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EpsonFP90IIIFiscalDeviceSample\\Configuration\\ConnectorEpsonFP90IIISample.xml
-    > 
-    > Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
 
 1. Ga naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde Commerce-parameters**. Stel op het tabblad **Algemeen** de optie **Fiscale integratie inschakelen** in op **Ja**.
 1. Ga naar **Retail en commerce \> Kanaalinstellingen \> Fiscale integratie \> Fiscale documentproviders** en laad het configuratiebestand voor de fiscale documentprovider die u eerder hebt gedownload.
@@ -256,16 +253,15 @@ De volgende instellingen zijn opgenomen in de configuratie van de fiscale connec
 
 ### <a name="configure-channel-components"></a>Kanaalonderdelen configureren
 
-> [!WARNING]
-> Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een VM voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)](emea-ita-fpi-sample-sdk.md) voor meer informatie.
->
-> Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
+> [!NOTE]
+> - Het voorbeeld van de belastingprinterintegratie voor Italië is beschikbaar in de Commerce SDK vanaf Commerce versie 10.0.29. In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)](emea-ita-fpi-sample-sdk.md) voor meer informatie.
+> - Voorbeelden voor Commerce die in uw omgeving worden geïmplementeerd, worden niet automatisch bijgewerkt wanneer u service- of kwaliteitsupdates toepast op Commerce-onderdelen. U moet de vereiste voorbeelden handmatig bijwerken.
 
 #### <a name="set-up-the-development-environment"></a>De ontwikkelingsomgeving instellen
 
 Voer de volgende stappen uit om een ontwikkelingsomgeving in te stellen zodat u het voorbeeld kunt testen en uitbreiden.
 
-1. Kloon of download de [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie. Zie [Retail SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) voor meer informatie.
+1. Kloon of download de [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie. Zie [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) voor meer informatie.
 1. Open de oplossing voor integratie van fiscale printers op **Dynamics365Commerce.Solutions\\FiscalIntegration\\EpsonFP90IIISample\\EpsonFP90IIISample.sln** en bouw deze.
 1. Installeer CRT-extensies:
 
@@ -303,10 +299,10 @@ Volg de stappen in [Een bouwpijplijn instellen voor een voorbeeld van fiscale in
 
 ## <a name="design-of-extensions"></a>Ontwerp van extensies
 
-Het voorbeeld van integratie van fiscale printers voor Italië is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Retail SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\EpsonFP90IIISample** van de opslagplaats voor [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (bijvoorbeeld het [voorbeeld in versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/EpsonFP90IIISample)). Het voorbeeld [bestaat](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) uit een fiscale documentprovider, die een extensie van CRT is, en een fiscale connector, die een extensie is van Commerce Hardware Station. Zie de [retail-SDK-architectuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) [Een buildpijplijn instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md) voor meer informatie over het gebruik van de Retail SDK-architectuur en het instellen van een buildpijplijn voor de onafhankelijke verpakkings SDK.
+Het voorbeeld van integratie van fiscale printers voor Italië is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Commerce SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\EpsonFP90IIISample** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het [voorbeeld](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) bestaat uit een fiscale documentprovider, die een extensie van CRT is, en een fiscale connector, die een extensie is van Commerce Hardware Station. Voor meer informatie over het gebruik van de Commerce SDK, gaat u naar [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) en [Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een VM voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)](emea-ita-fpi-sample-sdk.md) voor meer informatie. Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
+> [!NOTE]
+> Het voorbeeld van de belastingprinterintegratie voor Italië is beschikbaar in de Commerce SDK vanaf Commerce versie 10.0.29. In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van integratie van fiscale printers voor Italië (verouderd)](emea-ita-fpi-sample-sdk.md) voor meer informatie.
 
 ### <a name="commerce-runtime-extension-design"></a>Ontwerp van Commerce runtime-extensie
 

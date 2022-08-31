@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066665"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306313"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility configureren
 
@@ -52,7 +52,7 @@ Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies
 | Naam Functiebeheer | Description |
 |---|---|
 | *OnHandReservation* | Met deze functie kunt u reserveringen maken, reserveringen opnemen en/of de reservering van gespecificeerde voorraadhoeveelheden ongedaan maken met behulp van Voorraadzichtbaarheid. Zie [Voorraadzichtbaarheid reserveringen](inventory-visibility-reservations.md) voor meer informatie. |
-| *OnHandMostSpecificBackgroundService* | De functie biedt een voorraadoverzicht voor producten samen met alle dimensies. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid. Zie [Voorraadoverzicht](inventory-visibility-power-platform.md#inventory-summary) voor meer informatie. |
+| *OnHandMostSpecificBackgroundService* | De functie biedt een voorraadoverzicht voor producten samen met alle dimensies. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid. De synchronisatiefrequentie is standaard ingesteld om de 15 minuten en kan maximaal ingesteld om de 5 minuten. Zie [Voorraadoverzicht](inventory-visibility-power-platform.md#inventory-summary) voor meer informatie. |
 | *OnhandChangeSchedule* | Met deze optionele functie worden de functies voor planning van wijzigingen in voorhanden hoeveelheden en ATP (Available To Promise) ingeschakeld. Zie [Planning van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie. |
 | *Toewijzing* | Met deze optionele functie wordt aan Voorraadzichtbaarheid de functie voor voorraadbeveiliging (ringfencing) toegevoegd en kan worden voorkomen dat er te veel wordt verkocht. Zie [Voorraadtoewijzing in Voorraadzichtbaarheid](inventory-visibility-allocation.md) voor meer informatie. |
 | *Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* | Met deze optionele functie wordt Voorraadzichtbaarheid ingeschakeld om artikelen te ondersteunen die zijn ingeschakeld voor magazijnbeheerprocessen (WMS). Zie [Ondersteuning voor Inventory Visibility voor WMS-artikelen](inventory-visibility-whs-support.md) voor meer informatie. |

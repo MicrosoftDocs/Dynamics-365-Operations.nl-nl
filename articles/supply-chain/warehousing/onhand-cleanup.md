@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: df20f00a639d237bf8446f24a2ad4cbbfcf36615
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065114"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334380"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
 
@@ -39,7 +39,7 @@ Als negatieve fysieke voorraad is toegestaan, kan de opruimtaak mogelijk niet al
 De taak voor het opruimen van voorhanden artikelen is beschikbaar op **Voorraadbeheer \> Periodieke taken \> opruimen \> Opruimen van voorhanden artikelen in magazijnbeheer**. Gebruik de standaardtaakinstellingen om het bereik en het schema voor het uitvoeren van de taak te bepalen. Daarnaast worden de volgende instellingen geboden:
 
 - **Verwijderen indien niet bijgewerkt voor dit aantal dagen**: voer het minimum aantal dagen in dat moet worden gewacht voordat een voorhanden artikel wordt verwijderd waarvoor de hoeveelheid is gedaald naar nul. Met deze instelling kunt u het risico beperken dat voorhanden items worden verwijderd die nog worden gebruikt. Als u wilt dat het opruimen zo snel mogelijk wordt uitgevoerd, geeft u *0* (nul) op of laat u het veld leeg.
-- **Maximale uitvoeringstijd (uren)**: voer de maximale uitvoeringstijd van de opruimingstaak in uren in. Als de taak niet is voltooid voordat deze tijd is verstreken, wordt het werk opgeslagen dat tot dusverre met de taak is uitgevoerd en vervolgens wordt de taak gesloten. Deze mogelijkheid is vooral relevant voor implementaties met een hoog voorraadgebruik. In deze gevallen moet u de taak zo plannen dat deze wordt uitgevoerd op momenten dat de systeembelasting zo licht mogelijk is. Als u wilt dat de batchtaak wordt uitgevoerd totdat deze is voltooid, geeft u *0* (nul) op of laat u het veld leeg. Deze instelling is alleen beschikbaar als de gerelateerde functie is [ingeschakeld in uw systeem](#max-execution-time).
+- **Maximale uitvoeringstijd (uren)**: voer de maximale uitvoeringstijd van de opruimingstaak in uren in. Als de taak niet is voltooid voordat deze tijd is verstreken, wordt het werk opgeslagen dat tot dusverre met de taak is uitgevoerd en vervolgens wordt de taak gesloten. Deze mogelijkheid is vooral relevant voor implementaties met een hoog voorraadgebruik. In deze gevallen moet u de taak zo plannen dat deze wordt uitgevoerd op momenten dat de systeembelasting zo licht mogelijk is. Als u wilt dat de batchtaak wordt uitgevoerd totdat deze is voltooid, geeft u *0* (nul) op of laat u het veld leeg. Deze instelling is alleen beschikbaar als de gerelateerde functie is [ingeschakeld voor uw systeem](#max-execution-time).
 
 Hoewel u de taak tijdens normale kantooruren kunt uitvoeren, raden we u aan om de taak buiten kantooruren uit te voeren. Op deze manier kunt u conflicten voorkomen die zich kunnen voordoen als een gebruiker met een record werkt die ook wordt opgeruimd.
 

@@ -2,7 +2,7 @@
 title: Inkoopovereenkomsten
 description: Dit artikel biedt informatie over inkoopovereenkomsten. Een inkoopovereenkomst is een contract dat een organisatie ertoe verbindt een opgegeven aantal of bedrag in te kopen via meerdere inkooporders in een bepaalde periode. De koper ontvangt in ruil voor deze toezegging speciale prijzen en kortingen.
 author: GalynaFedorova
-ms.date: 06/20/2017
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8e2c4fdf640f1a9a64c60afc978a4d5812182a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 188a71ec660787b0b942a3d3bf4967b747c4469f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669540"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335880"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
@@ -41,7 +41,7 @@ Als u wilt voorkomen dat uw inkoopovereenkomst wordt gebruikt en bevestigd, mark
 U kunt een primaire verantwoordelijke medewerker en secundaire verantwoordelijke medewerker identificeren in de classificatie van de inkoopovereenkomst. Deze waarden worden overgenomen door de resulterende inkoopovereenkomst. U bent niet verplicht om verantwoordelijke medewerkers toe te voegen aan de inkoopovereenkomst en ze kunnen rechtstreeks per geval worden gewijzigd in de inkoopovereenkomst zelf. U kunt geen secundaire verantwoordelijke medewerker zonder een primaire verantwoordelijke medewerker opgeven, hoewel u geen secundaire verantwoordelijke medewerker hoeft te hebben. U kunt dezelfde werknemer niet opgeven als primaire en secundaire verantwoordelijke medewerker.
 
 > [!IMPORTANT]
-> Als u de functie voor de verantwoordelijke partij wilt gebruiken, moet deze zijn ingeschakeld in uw systeem. Vanaf Supply Chain Management 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Verantwoordelijke partij voor inkoopovereenkomst* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> Als u de functie voor de verantwoordelijke partij wilt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Verantwoordelijke partij voor inkoopovereenkomst* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een inkoopovereenkomst staat voor een toezegging om iets te kopen. U kunt regels uit meerdere inkooporders gebruiken om te voldoen aan de verbintenis. Er zijn vier typen toezeggingen:

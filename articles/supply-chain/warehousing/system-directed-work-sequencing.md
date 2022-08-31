@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1dab8d8bdace046f0f061713600fd1eab69e7c12
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219683"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335460"
 ---
 # <a name="system-directed-work-sequencing"></a>Door systeem gestuurde werksequentiëring
 
@@ -35,7 +35,7 @@ Deze functionaliteit biedt daarom verdere optimalisatie van verzamelprocessen in
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>De functie Organisatiebrede, door het systeem gestuurde werksequentiëring inschakelen
 
-Voordat u door het systeem gestuurde werksequentiëring kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Voordat u door het systeem gestuurde werksequentiëring kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Beheerders kunnen de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam** *Organisatiebrede, door het systeem gestuurde werksequentiëring*

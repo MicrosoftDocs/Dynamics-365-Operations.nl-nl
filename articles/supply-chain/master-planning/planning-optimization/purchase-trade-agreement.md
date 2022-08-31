@@ -2,7 +2,7 @@
 title: Hoofdplanning met inkoophandelsovereenkomsten
 description: In dit artikel wordt beschreven hoe u met Planningsoptimalisatie de leverancier en/of doorlooptijd voor een geplande order kunt vinden op basis van de beste prijs of doorlooptijd die is gevonden in inkoophandelsovereenkomsten.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873748"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335220"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Hoofdplanning met inkoophandelsovereenkomsten
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873748"
 
 In dit artikel wordt beschreven hoe u met Planningsoptimalisatie de leverancier en/of doorlooptijd voor een geplande order kunt vinden op basis van de beste prijs of doorlooptijd die is gevonden in alle inkoophandelsovereenkomsten die zijn opgegeven voor een bepaald product.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>De functie Inkoophandelsovereenkomsten voor Planningsoptimalisatie inschakelen
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>De functie Inkoophandelsovereenkomsten voor Planningsoptimalisatie in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** *Hoofdplanning*
-- **Functienaam:** *Inkoophandelsovereenkomsten voor Planningsoptimalisatie*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Inkoophandelsovereenkomsten voor planningsoptimalisatie* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Uw systeem voorbereiden voor het evalueren van inkoophandelsovereenkomsten tijdens de hoofdplanning
 

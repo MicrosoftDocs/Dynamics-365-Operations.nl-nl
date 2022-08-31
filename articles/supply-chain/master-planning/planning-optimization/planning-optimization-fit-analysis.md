@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: af7f4b09fd624aeda2ff002292e11cf84fd02991
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
+ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262323"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9347284"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -77,10 +77,10 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Time fence voor blokkering | Artikelbehoefteplanningsrecords met time fence voor blokkering ingesteld: *\#* | Deze functie wordt verwerkt. Momenteel wordt de instelling voor time fence voor blokkering genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Wave 2, 2022 release |
 | Time fence voor blokkering | Hoofdplannen met time fence voor blokkering ingesteld: *\#* | Deze functie wordt verwerkt. Momenteel wordt de instelling voor time fence voor blokkering genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Wave 2, 2022 release |
 | Intercompany | Hoofdplannen inclusief geplande downstreamvraag: *\#* | Deze functie wordt nu ondersteund. Zie [Intercompany-planning](Intercompany-planning.md) voor meer informatie | Ondersteund |
-| Kanban | Artikelbehoefteplanningsrecords met gepland ordertype kanban: *\#* | Deze functie wordt verwerkt. Momenteel wordt de artikelbehoefteplanning die is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het met kanban geplande ordertype een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | 2023 of hoger |
-| Kanban | Artikelen met standaardordertype kanban: *\#* | Momenteel wordt een standaardordertype dat is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het standaardordertype voor kanban een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | 2023 of hoger |
+| Kanban | Artikelbehoefteplanningsrecords met gepland ordertype kanban: *\#* | Deze functie wordt verwerkt. Momenteel wordt de artikelbehoefteplanning die is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het met kanban geplande ordertype een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | Toekomstige wave |
+| Kanban | Artikelen met standaardordertype kanban: *\#* | Momenteel wordt een standaardordertype dat is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het standaardordertype voor kanban een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | Toekomstige wave |
 | Levenscyclusstatus van product | Levenscyclusstatussen van product niet actief voor planning: *\#* | Deze functie wordt nu ondersteund. Zie [Producten met specifieke levenscyclusstatussen van product uitsluiten](product-lifecycle-state.md) voor meer informatie | Ondersteund |
-| Productie | Stuklijstregels met afronding of meerdere instellingen: *\#* | Deze functie wordt verwerkt. Momenteel worden afronding en meerdere instellingen genegeerd op stuklijstregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2023 of hoger |
+| Productie | Stuklijstregels met afronding of meerdere instellingen: *\#* | Deze functie wordt verwerkt. Momenteel worden afronding en meerdere instellingen genegeerd op stuklijstregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Toekomstige wave|
 | Productie | Stuklijst-/formuleregels met formulemeting: *\#* | Deze functie wordt verwerkt. Momenteel wordt formulemeting genegeerd op stuklijst- en formuleregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Wave 2, 2022 release |
 | Productie | Stuklijst-/formuleregels met artikelvervanging (planningsgroepen): *\#* | Deze functie wordt verwerkt. Momenteel wordt artikelvervanging (planningsgroepen) genegeerd op stuklijst- en formuleregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Wave 2, 2022 release |
 | Productie | Stuklijst-/formuleregels met negatieve hoeveelheid: *\#* | Deze functie wordt verwerkt. Stuklijst- en formuleregels met een negatieve hoeveelheid worden opgenomen in de hoeveelheid 0 (nul) en er wordt een waarschuwing gegeven wanneer Planningsoptimalisatie is ingeschakeld. Werk hoofdgegevens bij om waarschuwingen te voorkomen. | Wave 2, 2022 release |
@@ -93,11 +93,11 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Productie | Formuleversies met co-/bijproducten: *\#* | Deze functie wordt verwerkt. Momenteel worden co- en bijproducten die aan de formuleversie zijn gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release |
 | Productie | Formuleversies met opbrengst: *\#* | Deze functie wordt verwerkt. Momenteel worden opbrengst die aan de formuleversie is gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release |
 | Productie | Plannen inclusief sequentiëren: *\#* | Deze functie wordt verwerkt. Momenteel wordt sequentiëren genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Wave 2, 2022 release |
-| Productie | Vrijgegeven productieorders die niet gestart en waarvan de geplande begindatum eerder is dan vandaag: *\#* | Deze functie wordt verwerkt. Als een productieorder wordt uitgesteld, wordt momenteel aangenomen dat de hoofdplanning vandaag wordt voltooid. Dit is relevant voor vrijgegeven productieorders waarvan de leveringsdatum in het verleden ligt, maar die nog niet zijn voltooid. | 2023 of hoger |
+| Productie | Vrijgegeven productieorders die niet gestart en waarvan de geplande begindatum eerder is dan vandaag: *\#* | Deze functie wordt verwerkt. Als een productieorder wordt uitgesteld, wordt momenteel aangenomen dat de hoofdplanning vandaag wordt voltooid. Dit is relevant voor vrijgegeven productieorders waarvan de leveringsdatum in het verleden ligt, maar die nog niet zijn voltooid. | Toekomstige wave |
 | Productie | Resources gepland met eindige capaciteit: *\#* | Deze functie wordt verwerkt. Momenteel worden resources waarvoor de eindige capaciteit is gepland, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. De planning wordt uitgevoerd op basis van de standaardlevertijd van het product. | Wave 2, 2022 release |
 | Productie | Gebruikte routes bij planning: *\#* | Deze functie wordt ondersteund. | Ondersteund |
-| Productie | Reservering verkoopregel met explosie: *\#* | Reservering verkoopregel met explosie wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. | 2023 of hoger |
-| Productie | Planning met explosie van productieorders: *\#* | Planning met explosie van productieorders wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Productieorders kunnen afzonderlijk worden gepland. | 2023 of hoger |
+| Productie | Reservering verkoopregel met explosie: *\#* | Reservering verkoopregel met explosie wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. | Toekomstige wave |
+| Productie | Planning met explosie van productieorders: *\#* | Planning met explosie van productieorders wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Productieorders kunnen afzonderlijk worden gepland. | Toekomstige wave |
 | Offerteaanvragen | Hoofdplannen met offerteaanvragen ingeschakeld: *\#* | Deze functie wordt verwerkt. Momenteel worden offerteaanvragen niet beschouwd als vraag wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Wave 2, 2022 release |
 | Bestelopdrachten | Hoofdplannen met bestelopdrachten ingeschakeld: *\#* | Deze functie wordt nu ondersteund. Zie [Bestelopdrachten voor inkoop](purchase-requisitions.md) voor aanvullende informatie | Ondersteund |
 | Veiligheidsmarges | Behoefteplanningsgroepen met veiligheidsmarge: *\#* | Deze functie wordt nu ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie | Ondersteund |

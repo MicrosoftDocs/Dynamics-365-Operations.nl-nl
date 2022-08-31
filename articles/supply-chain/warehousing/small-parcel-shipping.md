@@ -2,7 +2,7 @@
 title: Kleine pakketten verzenden
 description: Dit artikel bevat informatie over de functie voor verzending van kleine pakketten. Met deze functie kan Microsoft Dynamics 365 Supply Chain Management gegevens over een verpakte container naar de vervoerder verzenden en vervolgens een verzendlabel, verzendtarief en traceringsnummer terugkrijgen van die vervoerder.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219713"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336150"
 ---
 # <a name="small-parcel-shipping"></a>Kleine pakketten verzenden
 
@@ -34,12 +34,9 @@ Het verzendtarief dat wordt geretourneerd, wordt als een diverse toeslag aan de 
 
 Voordat u de functie voor verzending van kleine pakketten kunt gaan gebruiken, moet u deze functie in Functiebeheer inschakelen, uw tarief-engine toevoegen en de modules **Transportbeheer** en **Magazijnbeheer** instellen om deze te ondersteunen.
 
-### <a name="turn-on-the-sps-feature"></a>De functie voor verzending van kleine pakketten inschakelen
+### <a name="turn-the-sps-feature-on-or-off"></a>De SPS-functie in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en de functie desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** *Transportbeheer*
-- **Functienaam:** *Verzending van kleine pakketten*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Kleine pakketten verzenden* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Tarief-engines implementeren en instellen
 

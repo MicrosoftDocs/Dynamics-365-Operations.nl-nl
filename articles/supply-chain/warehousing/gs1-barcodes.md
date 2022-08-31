@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e1c1c274054ed1c14c9b3fc0595baa029bf3124d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219773"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336360"
 ---
 # <a name="gs1-bar-codes"></a>GS1-streepjescodes
 
@@ -108,7 +108,7 @@ Nadat de gegevens zijn geparseerd via de streepjescode, worden ze in de stroombe
 
 ## <a name="turn-on-the-gs1-feature"></a>De GS1-functie inschakelen
 
-Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Warehouse Management*
 - **Functienaam:** *GS1-streepjescodes scannen*
@@ -134,7 +134,7 @@ Volg deze stappen om algemene GS1-opties in te stellen.
 
     - **FNC1-teken**, **Datamatrixteken** en **QR-codeteken**: geef tekens op die moeten worden geïnterpreteerd als voorvoegsel voor elk type GS1-streepjescode.
     - **Groepsscheidingsteken**: geef het teken op dat het ASCII-groepsscheidingsteken vervangt.
-    - **Maximale lengte van id**: geef het maximumaantal tekens op dat voor de toepassings-id is toegestaan. Dit veld is niet vereist als de functie *Verbeterde GS1-parser* in het systeem is ingeschakeld.
+    - **Maximale lengte van id**: geef het maximumaantal tekens op dat voor de toepassings-id is toegestaan. Dit veld is niet vereist als de functie *Verbeterde GS1-parser* voor het systeem is ingeschakeld.
 
 > [!NOTE]
 > Voorvoegsels geven aan dat een streepjescode wordt gecodeerd volgens de GS1-standaard. Er kunnen maximaal drie voorvoegsels (**FNC1-teken**, **Datamatrix-teken** en **QR-code**) tegelijk en voor verschillende doeleinden worden gebruikt.

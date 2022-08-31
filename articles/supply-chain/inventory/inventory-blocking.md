@@ -2,7 +2,7 @@
 title: Voorraadblokkering
 description: Dit artikel geeft een overzicht van voorraadblokkering, dat deel van het kwaliteitsinspectieproces in Supply Chain Management is. U kunt voorraadblokkering gebruiken om te voorkomen dat artikelen worden verwerkt of verbruikt.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857803"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334680"
 ---
 # <a name="inventory-blocking"></a>Voorraadblokkering
 
@@ -96,11 +96,11 @@ Wanneer **Bestelde artikelen reserveren** is uitgeschakeld, kunnen de verwachte 
 
 Let op het verschil in transactiestatus en dimensies tussen de twee cases. We raden u daarom aan de optie **Bestelde artikelen reserveren** in te schakelen.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>De functie Verwachte ontvangsten van kwaliteitsorders uitschakelen die een voorbeeld van geblokkeerde voorraad bieden
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Verwachte ontvangsten van kwaliteitsorders uitschakelen die een voorbeeld van geblokkeerde voorraad bieden
 
 Om de voorraadtransacties te vereenvoudigen wanneer voorbeeldvoorraad is geblokkeerd als gevolg van de voorraadstatus, biedt het systeem een functie waarmee verwachte ontvangsten van dergelijke kwaliteitsorders worden uitgeschakeld. Aangezien de verwachte ontvangst onmiddellijk wordt geblokkeerd door voorraadstatusblokkering, wordt de voorhanden voorraad niet verlaagd vanwege deze wijziging.
 
-Standaard is deze optie uitgeschakeld. Beheerders kunnen deze functie in- of uitschakelen door te zoeken naar de functie *Verwachte ontvangsten van kwaliteitsorders uitschakelen die een voorbeeld van geblokkeerde voorraad bieden* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Verwachte ontvangsten van kwaliteitsorders uitschakelen die een voorbeeld van geblokkeerde voorraad bieden* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

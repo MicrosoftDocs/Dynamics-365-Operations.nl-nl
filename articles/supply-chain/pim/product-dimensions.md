@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a8deb71713619b4be6c875223ab3b1f08499dfb2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867922"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335130"
 ---
 # <a name="product-dimensions"></a>Productdimensies
 
@@ -108,7 +108,7 @@ Wanneer u uw oplossingen test op compatibiliteit met de dimensie versie, zoekt u
 
 #### <a name="turn-on-the-version-dimension"></a>De dimensie versie inschakelen
 
-Voordat u de versiedimensie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Voor deze taak zijn beheerdersmachtigingen vereist.
+Voordat u de versiedimensie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Voor deze taak zijn beheerdersmachtigingen vereist.
 
 1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
 1. Schakel de functie in met de naam *Productdimensieversie*. (Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.)

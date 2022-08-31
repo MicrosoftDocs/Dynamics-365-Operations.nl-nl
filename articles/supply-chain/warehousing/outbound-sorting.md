@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 95afa46140de863ecdf61b0ef54e6d9e9ece91d7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec7bc573329a0f8a37b2fd17dcb998ec161b04e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897308"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336330"
 ---
 # <a name="outbound-sorting"></a>Uitgaand sorteren
 
@@ -30,7 +30,7 @@ Met deze functie kunt u pallets maken vanuit containers die zijn verpakt via de 
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>De functie voor uitgaande sortering inschakelen
 
-Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Beheerders kunnen de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Uitgaande sortering*

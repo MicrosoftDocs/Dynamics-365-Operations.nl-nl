@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181119"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306198"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Zoeken van hoofdgegevens voor btw-berekeningsconfiguratie inschakelen 
 
@@ -108,7 +108,7 @@ Dataverse maakt gebruik van de Azure AD-toepassing die u hebt gemaakt om de apps
     - **Provider**: stel dit veld in op **NonAAD.**
     - **E-mail**: voer **dataverseintegration** of een andere waarde in. (De waarde hoeft geen geldig e-mailaccount te zijn.)
 
-3. Wijs de beveiligingsrol **Toepassing voor virtuele CDS-entiteit** aan de gebruiker toe.
+3. Wijs de beveiligingsrol **Integratie-app voor virtuele Dataverse-entiteiten** aan de gebruiker toe.
 4. Verwijder alle andere rollen, zoals **Systeemgebruiker**.
 5. Ga naar **Systeembeheer** \> **Instellingen** \> **Azure Active Directory-toepassingen** om Dataverse te registreren. 
 6. Voeg een rij toe en voer vervolgens in het veld **Client-id** de waarde **Id toepassing (client)** in waarvan u eerder een notitie hebt gemaakt.
@@ -199,17 +199,11 @@ Zie [Virtuele Microsoft Dataverse-entiteiten inschakelen](../../fin-ops-core/dev
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a>De verbonden toepassing voor belastingberekening instellen
 
-1. Open in RCS het werkgebied **Functiebeheer** en schakel de volgende functies in:
-
-    - Ondersteuning voor Dataverse-gegevensbronnen voor elektronische rapportage
-    - Ondersteuning voor Dataverse-gegevensbronnen van de Belastingdienst
-    - Globalisatiefuncties
-
-2. Ga naar **Elektronische rapportage** en selecteer vervolgens in de sectie **Verwante koppelingen** de optie **Verbonden toepassingen**.
+1. Ga naar **Elektronische rapportage** en selecteer vervolgens in de sectie **Verwante koppelingen** de optie **Verbonden toepassingen**.
 
     [![Verbonden toepassingen.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Selecteer **Nieuw** om een record toe te voegen en voer de volgende gegevens in.
+2. Selecteer **Nieuw** om een record toe te voegen en voer de volgende gegevens in.
 
     - **Naam**: voer een naam in.
     - **Type**: selecteer **Dataverse**.
@@ -217,12 +211,18 @@ Zie [Virtuele Microsoft Dataverse-entiteiten inschakelen](../../fin-ops-core/dev
     - **Tenant**: voer uw tenant in.
     - **Aangepaste URL**: voer uw Dataverse-URL in en voeg **api/data/v9.1** eraan toe.
 
-4. Schakel **Verbinding controleren** in en selecteer vervolgens in het dialoogvenster dat verschijnt **Hier klikken om verbinding te maken met geselecteerde externe toepassing**.
+3. Schakel **Verbinding controleren** in en selecteer vervolgens in het dialoogvenster **Hier klikken om verbinding te maken met geselecteerde externe toepassing**.
 
     [![De verbinding controleren.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Controleer dat u het bericht 'Geslaagd' ontvangt waarmee wordt aangegeven dat de verbinding met succes tot stand is gekomen.
+4. Controleer dat u het bericht 'Geslaagd' ontvangt waarmee wordt aangegeven dat de verbinding met succes tot stand is gekomen.
 
     [![Succesbericht.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. Open in RCS het werkgebied **Functiebeheer** en schakel de volgende functies in:
+
+    - Globalisatiefuncties
+    - Ondersteuning voor Dataverse-gegevensbronnen voor elektronische rapportage
+    - Ondersteuning voor Dataverse-gegevensbronnen van de Belastingdienst
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a>Configuratie voor Dataverse-modeltoewijzing importeren en instellen
 

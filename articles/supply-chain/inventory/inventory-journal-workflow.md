@@ -2,7 +2,7 @@
 title: Goedkeuringswerkstromen voor voorraadjournalen
 description: In dit artikel wordt beschreven hoe u goedkeuringswerkstromen voor voorraadjournalen instelt en gebruikt voor diverse typen fysieke voorraadtransacties. Met voorraadjournaalwerkstromen kunt u ervoor zorgen dat alleen goedgekeurde voorraadjournalen naar transacties kunnen worden geboekt.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873980"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334650"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Goedkeuringswerkstromen voor voorraadjournalen
 
@@ -29,12 +29,9 @@ In dit artikel wordt beschreven hoe u goedkeuringswerkstromen voor voorraadjourn
 > [!NOTE]
 > Goedkeuringswerkstromen voor voorraadjournalen zijn alleen van toepassing op transacties die zijn vastgelegd in de module Voorraadbeheer. Ze werken niet met voorraadjournalen die vanuit de module Magazijnbeheer zijn geactiveerd.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>De functie Goedkeuringswerkstromen voor voorraadjournalen inschakelen
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>De functie Goedkeuringswerkstromen voor voorraadjournalen in- of uitschakelen
 
-Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in of uit te schakelen. Hier ziet u de functie als:
-
-- **Module:** *Voorraad- en magazijnbeheer*
-- **Functienaam:** *Goedkeuringswerkstroom voor voorraadjournaal*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Goedkeuringswerkstromen voor voorraadjournalen* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Uw goedkeuringswerkstromen voor voorraadjournalen maken
 

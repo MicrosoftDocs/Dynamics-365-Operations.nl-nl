@@ -2,7 +2,7 @@
 title: Opschonen van verkoophistoriegegevens plannen
 description: In dit artikel wordt beschreven hoe u de systeemprestaties kunt verbeteren door te plannen dat de periodieke taak Opschoning van verkoophistorie voor update regelmatig wordt uitgevoerd.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900820"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335498"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Opschonen van verkoophistoriegegevens plannen
 
@@ -42,7 +42,7 @@ Met deze functie kunt u de bestaande opschoonfunctie op de volgende manieren ver
 
 Nadat u de functie hebt ingeschakeld, wordt de batchtaak **Opschoning van verkoophistorie** (**Verkoop en marketing \> Periodieke taken \> Opschonen \> Opschoning van verkoophistorie**) uitgevoerd zoals eerder, maar met betere prestaties en maximaal twee uur. Dit betekent dat de taak mogelijk meerdere keren moet worden uitgevoerd om alle gegevens op te schonen voor een bepaalde periode.
 
-Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Verkoop en marketing*
 - **Functienaam:** *Prestatieverbeteringen bij opschonen van verkoophistorie*
@@ -51,10 +51,7 @@ Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. 
 
 Met de functie *Verkoophistorie voor update opschonen op basis van ouderdom* kunt u de maximale ouderdom instellen van records die u wilt behouden wanneer de periodieke taak *Opschoning van verkoophistorie voor update* wordt uitgevoerd. Oudere records worden verwijderd. Deze functie is handig wanneer u de taak zo instelt dat deze periodiek wordt uitgevoerd, omdat de ouderdom altijd wordt berekend in relatie tot de datum waarop de taak wordt uitgevoerd. Als u deze functie niet gebruikt, kunt u alleen een specifieke datum instellen voor de oudste records die u kunt bewaren.
 
-Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Verkoop en marketing*
-- **Functienaam:** *Verkoophistorie voor update opschonen op basis van ouderdom*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Verkoophistorie voor update opschonen op basis van ouderdom* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>De periodieke taak voor het opschonen van de verkoophistorie instellen en plannen
 

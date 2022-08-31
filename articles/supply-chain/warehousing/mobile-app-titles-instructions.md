@@ -2,7 +2,7 @@
 title: Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
 description: In dit artikel wordt beschreven hoe u aangepaste instructies kunt aanmaken en weergeven voor elke stap van elke taakstroom die u hebt ingesteld voor de mobiele app van Warehouse Management.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220144"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334471"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
 
@@ -28,9 +28,9 @@ In dit artikel wordt beschreven hoe u aangepaste instructies kunt aanmaken en we
 - **Werknemers sneller maken door ze eenvoudige instructies te laten volgen voor elke taakstap.** Elke stap in een stroom biedt eerstelijnsmedewerkers instructies, waardoor ze de taak begrijpen.
 - **Bied instructies die overeenkomen met uw eigen processen.** Schrijf uw eigen instructies die overeenkomen met uw bedrijfs- en magazijnprocessen. U kunt de terminologie bijvoorbeeld geschikt maken voor uw fysieke ruimte en lokale afkortingen.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Schakel de stapinstructiesfunctie van de Warehouse-app in
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>De stapinstructiesfunctie van de Warehouse-app in- of uitschakelen
 
-Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Stapinstructies van magazijnapp verwerken* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Stapinstructies van magazijnapp* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Staptitels en stapinstructies in de app
 

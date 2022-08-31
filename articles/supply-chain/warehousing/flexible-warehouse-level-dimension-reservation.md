@@ -2,7 +2,7 @@
 title: Flexibel reserveringsbeleid voor dimensies op magazijnniveau
 description: In dit artikel wordt het beleid voor voorraadreservering beschreven waarmee bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als WMS-bewerkingen, specifieke batches kunnen reserveren voor klantverkooporders, hoewel de reserveringshiërarchie die aan de producten is gekoppeld, reservering van specifieke batches niet toestaat.
 author: perlynne
-ms.date: 07/31/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 64855460ddf015f936fe695fc68938067f31b0cc
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065893"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335700"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Flexibel reseveringsbeleid voor dimensies op magazijnniveau
 
@@ -196,12 +196,12 @@ In dit scenario maakt een bedrijf gebruik van magazijnbeheer en werkverwerking e
 - Een nummerplaat kan worden geregistreerd en gereserveerd wanneer de order wordt opgenomen door de verkoopverwerker en kan niet door andere vraag worden gebruikt. Dit gedrag helpt te garanderen dat de nummerplaat die was gepland, naar de klant wordt verzonden.
 - Als de nummerplaat nog niet aan een verkooporderregel is toegewezen, kunnen magazijnmedewerkers tijdens het verzamelwerk een nummerplaat selecteren, nadat de registratie en reservering van de verkooporder zijn voltooid.
 
-### <a name="turn-on-flexible-license-plate-reservation"></a>Flexibele reservering van nummerplaten inschakelen
+### <a name="turn-flexible-license-plate-reservation-on-or-off"></a>Flexibele reservering van nummerplaten in- of uitschakelen
 
-Voordat u de functie voor flexibele reservering van nummerplaten kunt gebruiken, moeten twee functies zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. U moet de functies in de volgende volgorde inschakelen:
+Voordat u de functie voor flexibele reservering van nummerplaten kunt gebruiken, moeten twee functies zijn ingeschakeld voor uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. U moet de functies in de volgende volgorde inschakelen:
 
-1. **Functienaam:** *Flexibel reserveringsbeleid voor dimensies op magazijnniveau*
-1. **Functienaam:** *Flexibele reservering van order-toegezegde nummerplaten*
+1. *Flexibele dimensiereservering op magazijnniveau*<br>(Vanaf Supply Chain Management versie 10.0.29 is deze functie verplicht en deze functie kan niet worden uitgeschakeld.)
+1. *Flexibele reservering van voor order vastgelegde nummerplaat*<br>(Vanaf Supply Chain Management versie 10.0.29 is deze functie verplicht en deze functie kan niet worden uitgeschakeld.)
 
 ### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Reserveer een specifieke nummerplaat op de verkooporder
 

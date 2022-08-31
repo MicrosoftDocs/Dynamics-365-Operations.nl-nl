@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 author: josaw1
-ms.date: 07/11/2022
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 541e21999884a2d51b27009d72a2f8bc9084557f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287618"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337591"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
@@ -33,6 +33,38 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 > [!NOTE]
 > Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
 
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Verwijderde of verouderde functies in versie 10.0.29 van Commerce
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Instelling Commerce-parameters - Toestaan dat prijscorrecties de productprijs verhogen
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Deze instelling was bedoeld om te bepalen of de functie voor prijscorrectie het verhogen van de productprijs toestaat. Als deze parameter is uitgeschakeld, kunnen organisaties bij het gebruik van de functie voor prijscorrectie alleen een eenheidsprijs van een product instellen die lager is dan de basisprijs en de verkoopprijs in de handelsovereenkomst. We hebben deze instelling afgeschaft, omdat de functie voor prijscorrectie is bijgewerkt en standaard tweewegscorrecties (verhoging of verlaging) ondersteunt. |
+| **Vervangen door een andere functie?**   | Nr. |
+| **Betrokken productgebieden**         | Prijzen en kortingen |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: deze instelling is standaard ingeschakeld sinds Commerce versie 10.0.29 en wordt verwijderd in oktober 2023. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Instelling van Commerce-parameters: prijsrapport voor detailhandel inschakelen
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Met deze instelling werd bepaald of de functie van het prijsrapport beschikbaar is voor gebruik in het winkelconfiguratieformulier. Deze instelling wordt afgeschaft, omdat het winkelconfiguratieformulier is bijgewerkt en nu altijd standaard de prijsrapportfunctie levert. |
+| **Vervangen door een andere functie?**   | Nr. |
+| **Betrokken productgebieden**         | Prijzen en kortingen |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: deze instelling wordt in oktober 2023 verwijderd. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Instelling van Commerce-parameters: de datum van vandaag gebruiken om prijzen te berekenen
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De prijsengine voor Supply Chain Management (SCM) ondersteunt de prijsberekening op basis van de gewenste verzenddatum of gewenste ontvangstdatum, samen met de huidige datum. De Commerce-prijsengine ondersteunt alleen prijsberekening op basis van de huidige datum. We hebben deze instelling opgenomen voor klanten die gebruik maken van zowel SCM als Commerce-functies, en we raden deze klanten aan dat deze altijd op **Ja** wordt ingesteld, zodat de twee prijsengines kunnen samenwerken. We kunnen deze instelling niet afschaffen, omdat dit het berekeningsgedrag niet wijzigt en overbodig is. |
+| **Vervangen door een andere functie?**   | Nr. |
+| **Betrokken productgebieden**         | Prijzen en kortingen |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: deze instelling is standaard ingeschakeld sinds Commerce versie 10.0.29 en wordt verwijderd in oktober 2023. |
+
 ## <a name="feature-deprecation-effective-july-2022"></a>Afschaffing van functie met ingang van juli 2022
 
 ### <a name="commerce-analytics-preview"></a>Commerce-analyses (preview)
@@ -44,21 +76,6 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Betrokken productgebieden**         | Commerce-analyses (preview) |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Deze functie wordt 30 augustus 2022 uitgeschakeld.  Vanaf deze datum vindt er geen vernieuwing plaats in de huidige Power BI-rapporten die worden geleverd door Commerce-analyses (preview).     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Verwijderde of verouderde functies in versie 10.0.25 van Commerce
-
-### <a name="modern-point-of-sale-mpos"></a>Modern Point of Sale (MPOS)
-
-De toepassing Modern Point of Sale (MPOS) wordt afgeschaft in de versie van Commerce versie 10.0.25 en vervangen door de app Store Commerce.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | In-store-toepassingen zijn de belangrijkste onderdeel van het omnichannel-aanbod in Dynamics 365 Commerce. We zijn doorlopend bezig moderne en verbeterde winkelervaringen te bieden. Om onze oplossing verder te moderniseren, ontwikkelen we nieuwe reeksen van wijzigingen die de IT-activiteiten en gebruikerservaring met onze bestaande in-store toepassingen in Windows aanzienlijk verbeteren. De nieuwe app Store Commerce is een technologie-upgrade van het bestaande MPOS. Het biedt betere prestaties, betrouwbaarheid en ondersteuning voor de lange termijn op het Windows-platform. Ook hoeft de app niet meer bij elke update opnieuw te worden verpakt. |
-| **Vervangen door een andere functie?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Betrokken productgebieden**         | Modern Point of Sale |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf de release van Commerce versie 10.0.25 wordt het installatieprogramma voor MPOS dat wordt verzonden via de virtuele LCS-VM's (virtuele machines) verwijderd in oktober 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Verwijderde of verouderde functies in versie 10.0.21 van Commerce
 
@@ -130,7 +147,7 @@ Ontwikkeling van POS-extensie met behulp van ModernPos.sln, CloudPos.sln, POS.Ex
 | **Reden voor afschaffing/verwijdering** | Vanaf deze versie is het veld **Interval voor genereren van volledige gegevensset in dagen** in het formulier **Parameters voor handelplanner** in Dynamics 365 Headquarters afgeschaft. In deze versie is het veld ook niet meer zichtbaar, zodat de waarde niet kan worden bewerkt. De waarde blijft **0**. |
 | **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Dynamics 365 Commerce |
-| **Implementatieoptie**              | Alles|
+| **Implementatieoptie**              | Alle|
 | **Status**                         | Afgeschaft. Gebruik dit veld niet of wijzig de waarde niet.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Verwijderde of verouderde functies in versie 10.0.15 van Commerce
@@ -198,7 +215,7 @@ Ontwikkeling van POS-extensie met behulp van ModernPos.sln, CloudPos.sln, POS.Ex
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Nieuwe geoptimaliseerde API's zijn gemaakt ter vervanging van de API's GetProductAvailabilities en GetAvailableInventoryNearby. |
-| **Vervangen door een andere functie?**   | Ja: dit wordt vervangen door de API's GetEstimatedAvailability en GetEstimatedproductWarehouseAvailability. |
+| **Vervangen door een andere functie?**   | Ja: dit wordt vervangen door de API's GetEstimatedAvailabilty en GetEstimatedProductWarehouseAvailability. |
 | **Betrokken productgebieden**         | SDK met e-Commerce-toepassing |
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: vanaf de release 10.0.7 wordt geen technische investering meer gedaan voor GetproductAvailabilities en GetAvailableInventoryNearby. Organisaties die deze API's gebruiken in hun e-Commerce-implementaties, moeten overstappen op de nieuwe API's GetEstimatedAvailability en GetEstimatedproductWarehouseAvailability en de [geoptimaliseerde berekeningsfunctie voor productbeschikbaarheid](../calculated-inventory-retail-channels.md) inschakelen.  |

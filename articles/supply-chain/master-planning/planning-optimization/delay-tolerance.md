@@ -2,7 +2,7 @@
 title: Vertragingstolerantie (negatieve dagen)
 description: Dit artikel bevat informatie over de berekening van vertragingstolerantie en over het effect ervan op het maken van geplande orders in Planningsoptimalisatie.
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219962"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335370"
 ---
 # <a name="delay-tolerance-negative-days"></a>Vertragingstolerantie (negatieve dagen)
 
@@ -23,11 +23,11 @@ ms.locfileid: "9219962"
 
 Door de functionaliteit voor vertragingstolerantie kan in Planningsoptimalisatie rekening worden houden met de waarde voor **Negatieve dagen** die is ingesteld voor dekkingsgroepen, artikelbehoefteplanning en/of hoofdplanningen. Deze wordt gebruikt om de vertragingstolerantieperiode te verlengen die wordt toegepast tijdens de hoofdplanning. Op deze manier voorkomt u dat u nieuwe aanvulorders maakt als het bestaande aanbod na korte tijd aan de vraag kan voldoen. Het doel van de functionaliteit is te bepalen of het zin heeft om een nieuwe aanvulorder voor een bepaalde vraag te maken.
 
-## <a name="turn-on-the-feature-in-your-system"></a>De functie inschakelen in uw systeem
+## <a name="turn-delay-tolerance-features-on-or-off"></a>Functies voor vertragingstolerantie in- of uitschakelen
 
 Als u de functionaliteit voor vertragingstolerantie beschikbaar wilt maken in uw systeem, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de volgende functies in.
 
-- *Negatieve dagen voor planningsoptimalisatie*: met deze functie kunt u negatieve dagen instellen voor dekkingsgroepen en artikelbehoefteplanning.
+- *Negatieve dagen voor planningsoptimalisatie*: met deze functie kunt u negatieve dagen instellen voor dekkingsgroepen en artikelbehoefteplanning. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld.
 - *Aanbodautomatisering voor maken naar order*: met deze functie worden negatieve dagen voor hoofdplanningen ingesteld. (Raadpleeg [Aanbodautomatisering voor maken naar order](../make-to-order-supply-automation.md) voor meer informatie.)
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Vertragingstolerantie in Planningsoptimalisatie

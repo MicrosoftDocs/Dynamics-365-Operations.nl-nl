@@ -2,7 +2,7 @@
 title: Omleidingen configureren voor stappen in menu-items van mobiele apparaten
 description: In dit artikel wordt beschreven hoe u omleidingen configureert voor menu-items zodat werknemers de huidige taak kunnen parkeren, een andere taak kunnen uitvoeren en vervolgens naar de oorspronkelijke taak kunnen terugkeren zonder dat er informatie verloren gaat.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218999"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336120"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Omleidingen configureren voor stappen in menu-items van mobiele apparaten
 
@@ -35,9 +35,8 @@ Voordat u omleidingen voor stappen in menu-items van mobiele apparaten kunt conf
 
 1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
 1. Zorg ervoor dat de functie *stap-instructies voor de magazijn-app* is ingeschakeld voor het systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md). Deze functie is een vereiste voor de functie *Omleidingen in de app Warehouse Management*.
-1. Schakel de functie *Omleidingen van app Warehouse Management* in. Deze functie is de enige functie die in dit artikel wordt beschreven.
-1. Werk de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling maken** te selecteren. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
-1. Herhaal de vorige stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt.
+1. Schakel de functie *Omleidingen van app Warehouse Management* in. Deze functie is de enige functie die in dit artikel wordt beschreven. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld.
+1. Als de functie *Omleidingen van de app Warehouse Management* niet al was ingeschakeld, werk dan de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Warehouse management \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling aanmaken** te selecteren. Herhaal deze stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Een omleiding configureren vanuit een menuspecifieke overschrijving
 

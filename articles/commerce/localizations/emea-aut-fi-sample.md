@@ -2,27 +2,28 @@
 title: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
 description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Oostenrijk in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 7f4f1d796028330d2d655b1e13d3e36bbef95403
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: da4deb37b260ffa2a68e2a36aef01965cbf098b2
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287560"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313796"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Oostenrijk in Microsoft Dynamics 365 Commerce.
 
-Als u wilt voldoen aan de lokale fiscale vereisten voor kassa's in Oostenrijk, omvat de Dynamics 365 Retail-functionaliteit voor Oostenrijk een voorbeeldintegratie van het POS (point-of-sale) met een externe fiscale registratieservice. In het voorbeeld wordt de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) uitgebreid. Het is gebaseerd op de [EFR-oplossing (Electronic Fiscal Register)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) van [EFSTA](https://www.efsta.eu/at/) en maakt communicatie met de EFR-service via het HTTPS-protocol mogelijk. De EFR-service moet worden gehost op het retailhardwarestation of op een afzonderlijke machine waarmee verbinding kan worden gemaakt vanuit het hardwarestation. Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Retail Software Development Kit (SDK).
+Als u wilt voldoen aan de lokale fiscale vereisten voor kassa's in Oostenrijk, omvat de Dynamics 365 Retail-functionaliteit voor Oostenrijk een voorbeeldintegratie van het POS (point-of-sale) met een externe fiscale registratieservice. In het voorbeeld wordt de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) uitgebreid. Het is gebaseerd op de [EFR-oplossing (Electronic Fiscal Register)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) van [EFSTA](https://www.efsta.eu/at/) en maakt communicatie met de EFR-service via het HTTPS-protocol mogelijk. De EFR-service moet worden gehost op het retailhardwarestation of op een afzonderlijke machine waarmee verbinding kan worden gemaakt vanuit het hardwarestation. Het voorbeeld wordt geleverd in de vorm van broncode en maakt deel uit van de Commerce Software Development Kit (SDK).
 
 Microsoft brengt geen hardware, software of documentatie van EFSTA uit. Neem contact op met [EFSTA](https://www.efsta.eu/at/kontakt) voor informatie over het verkrijgen van de EFR-oplossing en de werking ervan.
 
@@ -102,6 +103,13 @@ Als u de functionaliteit die specifiek is voor Oostenrijk wilt gebruiken, moet u
 - Stel in het POS-functionaliteitsprofiel van elke winkel die zich in Oostenrijk bevindt het veld **ISO-code** in op **AT** (Oostenrijk).
 
 U moet ook de volgende instellingen opgeven voor Oostenrijk. U moet de juiste distributietaken uitvoeren nadat u de instellingen hebt voltooid.
+
+### <a name="enable-features-for-austria"></a>Functies inschakelen voor Oostenrijk
+
+U moet in het werkgebied **Functiebeheer** de volgende functies inschakelen:
+
+- (Oostenrijk) Extra controlegebeurtenissen in POS inschakelen
+- (Oostenrijk) Extra informatie inschakelen in eindedagafschriften in POS
 
 ### <a name="set-up-vat-per-austrian-requirements"></a>Btw instellen volgens de Oostenrijkse vereisten
 
@@ -204,10 +212,10 @@ Zie [Ontvangstbewijsindelingen instellen en ontwerpen](../receipt-templates-prin
 
 ## <a name="set-up-fiscal-integration-for-austria"></a>Fiscale integratie instellen voor Oostenrijk
 
-Het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Retail SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\Efr** van de opslagplaats voor [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (bijvoorbeeld het [voorbeeld in versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Het voorbeeld [bestaat](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) uit een fiscale documentprovider, hetgeen een extensie van de Commerce runtime (CRT) is, en een fiscale connector, die een uitbreiding is van Commerce Hardware Station. Zie de [retail-SDK-architectuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) [Een buildpijplijn instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md) voor meer informatie over het gebruik van de Retail SDK-architectuur en het instellen van een buildpijplijn voor de onafhankelijke verpakkings SDK.
+Het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Commerce SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\Efr** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het [voorbeeld](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) bestaat uit een fiscale documentprovider, hetgeen een extensie van de Commerce runtime (CRT) is, en een fiscale connector, die een uitbreiding is van Commerce Hardware Station. Voor meer informatie over het gebruik van de Commerce SDK, gaat u naar [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) en [Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers (VM) in Microsoft Dynamics Lifecycle Services (LCS). Zie [Implementatierichtlijnen voor het voorbeeld van fiscale integratie voor Oostenrijk (verouderd)](emea-aut-fi-sample-sdk.md) voor meer informatie. Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
+> [!NOTE]
+> Het voorbeeld van de belastingregistratieservice voor Oostenrijk is beschikbaar in de Commerce SDK vanaf Commerce versie 10.0.29. In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers (VM) in Microsoft Dynamics Lifecycle Services (LCS). Zie [Implementatierichtlijnen voor het voorbeeld van fiscale integratie voor Oostenrijk (verouderd)](emea-aut-fi-sample-sdk.md) voor meer informatie.
 
 Voltooi de instellingsstappen voor de fiscale integratie zoals beschreven in [Fiscale integratie voor Commerce-kanalen instellen](setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -223,18 +231,20 @@ Als u het registratieproces wilt inschakelen, voert u de volgende stappen uit om
 1. Download configuratiebestanden voor de fiscale documentprovider en de fiscale connector:
 
     1. Open de opslagplaats met [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie (bijvoorbeeld **[versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie.
     1. Open **src \> FiscalIntegration \> Efr**.
-    1. Open **Configuraties \> DocumentProviders** en download de configuratiebestanden voor fiscale documentproviders: **DocumentProviderFiscalEFRSampleAustria.xml** en **DocumentProviderNonFiscalEFRSampleAustria.xml** (bijvoorbeeld [de locatie van de bestanden voor versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders)).
-    1. Download het configuratiebestand van de fiscale connector op **Configuraties \> Connectors \> ConnectorEFRSample.xml** (bijvoorbeeld [het bestand voor versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
+    1. Open **Configuraties \> DocumentProviders** en download de configuratiebestanden voor de fiscale documentprovider: 
 
-    > [!WARNING]
-    > Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een VM voor developers in LCS. De configuratiebestanden voor dit voorbeeld van fiscale integratie bevinden zich in de volgende mappen van de Retail SDK op een ontwikkelaars-VM in LCS:
+        - DocumentProviderFiscalEFRSampleAustria.xml
+        - DocumentProviderNonFiscalEFRSampleAustria.xml
+
+    1. Download het configuratiebestand van de fiscale connector via **Configuraties \> Connectors \> ConnectorEFRSample.xml**.
+
+    > [!NOTE]
+    > In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers in LCS. De configuratiebestanden voor dit voorbeeld van fiscale integratie bevinden zich in de volgende mappen van de Retail SDK op een ontwikkelaars-VM in LCS:
     >
     > - **Configuratiebestand van fiscale documentproviders:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.EFRSample\\Configuration
     > - **Configuratiebestand voor fiscale connector:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EFRSample\\Configuration
-    > 
-    > Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
 
 1. Ga naar **Detailhandel en commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde Commerce-parameters**. Stel op het tabblad **Algemeen** de optie **Fiscale integratie inschakelen** in op **Ja**.
 1. Ga naar **Retail en commerce \> Kanaalinstellingen \> Fiscale integratie \> Fiscale documentproviders** en laad de configuratiebestanden voor de fiscale documentprovider die u eerder hebt gedownload.
@@ -244,7 +254,7 @@ Als u het registratieproces wilt inschakelen, voert u de volgende stappen uit om
 1. Ga naar **Retail en Commerce \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale connectorgroepen**. Maak twee nieuwe fiscale connectorgroepen, één voor elk functioneel connectorprofiel dat u eerder hebt gemaakt.
 1. Ga naar **Retail en Commerce \> Afzetkanaalinstellingen \> Fiscale integratie \> Fiscale registratieprocessen**. Maak een nieuw fiscaal registratieproces en twee stappen in het fiscale registratieproces en selecteer de fiscale connectorgroepen die u eerder hebt gemaakt.
 1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> POS-instellingen \> POS-profielen \> Functionaliteitsprofielen**. Selecteer een functionaliteitsprofiel dat is gekoppeld aan de winkel waar het registratieproces moet worden geactiveerd. Selecteer op het sneltabblad **Fiscaal registratieproces** het fiscale registratieproces dat u eerder hebt gemaakt. Als u de registratie van niet-fiscale gebeurtenissen op het POS wilt inschakelen, stelt u op het sneltabblad **Functies** onder **POS** de optie **Controle** in op **Ja**.
-1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> POS-instellingen \> POS-profielen \> Hardwareprofielen**. Selecteer een hardwareprofiel dat is gekoppeld aan het hardwarestation waarmee de fiscale printer zal worden verbonden. Selecteer op het sneltabblad **Fiscale randapparatuur** het technische connectorprofiel dat u eerder hebt gemaakt.
+1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> POS-instellingen \> POS-profielen \> Hardwareprofielen**. Selecteer een hardwareprofiel dat is gekoppeld aan het hardwarestation waarmee de fiscale registratieservice zal worden verbonden. Selecteer op het sneltabblad **Fiscale randapparatuur** het technische connectorprofiel dat u eerder hebt gemaakt.
 1. Open de distributieplanning (**Retail en commerce \> Retail en commerce IT \> Distributieplanning**) en selecteer taken **1070** en **1090** om gegevens ovedr te dragen naar de kanaaldatabase.
 
 #### <a name="default-data-mapping"></a>Standaardgegevenstoewijzing
@@ -269,16 +279,15 @@ De volgende instellingen zijn opgenomen in de configuratie van de fiscale connec
 
 ### <a name="configure-channel-components"></a>Kanaalonderdelen configureren
 
-> [!WARNING]
-> Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een VM voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van fiscale integratie voor Oostenrijk (verouderd)](emea-aut-fi-sample-sdk.md) voor meer informatie.
->
-> Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
+> [!NOTE]
+> - Het voorbeeld van de belastingregistratieservice voor Oostenrijk is beschikbaar in de Commerce SDK vanaf Commerce versie 10.0.29. In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van fiscale integratie voor Oostenrijk (verouderd)](emea-aut-fi-sample-sdk.md) voor meer informatie.
+> - Voorbeelden voor Commerce die in uw omgeving worden geïmplementeerd, worden niet automatisch bijgewerkt wanneer u service- of kwaliteitsupdates toepast op Commerce-onderdelen. U moet de vereiste voorbeelden handmatig bijwerken.
 
 #### <a name="set-up-the-development-environment"></a>De ontwikkelingsomgeving instellen
 
 Voer de volgende stappen uit om een ontwikkelingsomgeving in te stellen zodat u het voorbeeld kunt testen en uitbreiden.
 
-1. Kloon of download de [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie. Zie [Retail SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) voor meer informatie.
+1. Kloon of download de [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions). Selecteer een juiste vertakkingsversie voor vrijgave volgens uw SDK/toepassingsversie. Zie [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) voor meer informatie.
 1. Open de EFR-oplossing op **Dynamics365Commerce.Solutions\\FiscalIntegration\\Efr\\EFR.sln** en bouw deze.
 1. Installeer CRT-extensies:
 
@@ -330,10 +339,10 @@ Volg de stappen in [Een bouwpijplijn instellen voor een voorbeeld van fiscale in
 
 ## <a name="design-of-extensions"></a>Ontwerp van extensies
 
-Het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Retail SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\Efr** van de opslagplaats voor [Dynamics 365 Commerce-oplossingen](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (bijvoorbeeld het [voorbeeld in versie/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). Het voorbeeld [bestaat](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) uit een fiscale documentprovider, die een extensie van CRT is, en een fiscale connector, die een extensie is van Commerce Hardware Station. Zie de [retail-SDK-architectuur](../dev-itpro/retail-sdk/retail-sdk-overview.md) [Een buildpijplijn instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md) voor meer informatie over het gebruik van de Retail SDK-architectuur en het instellen van een buildpijplijn voor de onafhankelijke verpakkings SDK.
+Het voorbeeld van integratie van fiscale registratieservice voor Oostenrijk is gebaseerd op de [functionaliteit voor fiscale integratie](fiscal-integration-for-retail-channel.md) en maakt deel uit van de Commerce SDK. Het voorbeeld bevindt zich in de map **src\\FiscalIntegration\\Efr** van de opslagplaats [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Het voorbeeld [bestaat](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) uit een fiscale documentprovider, die een extensie van CRT is, en een fiscale connector, die een extensie is van Commerce Hardware Station. Voor meer informatie over het gebruik van de Commerce SDK, gaat u naar [Commerce SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/retail-sdk-overview.md) en [Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> Vanwege beperkingen van het [nieuwe onafhankelijke verpakkings- en extensiemodel](../dev-itpro/build-pipeline.md) kan het momenteel niet worden gebruikt voor dit voorbeeld van fiscale integratie. U moet de vorige versie van de Retail SDK gebruiken op een VM voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van fiscale integratie voor Oostenrijk (verouderd)](emea-aut-fi-sample-sdk.md) voor meer informatie. Ondersteuning van het nieuwe onafhankelijke verpakkings- en extensiemodel voor voorbeelden van fiscale integratie wordt gepland voor latere versies.
+> [!NOTE]
+> Het voorbeeld van de belastingregistratieservice voor Oostenrijk is beschikbaar in de Commerce SDK vanaf Commerce versie 10.0.29. In Commercie versie 10.0.28 of eerder moet u de vorige versie van de Retail SDK gebruiken op een virtuele machine voor developers in LCS. Zie [Implementatierichtlijnen voor het voorbeeld van fiscale integratie voor Oostenrijk (verouderd)](emea-aut-fi-sample-sdk.md) voor meer informatie.
 
 ### <a name="commerce-runtime-extension-design"></a>Ontwerp van Commerce runtime-extensie 
 

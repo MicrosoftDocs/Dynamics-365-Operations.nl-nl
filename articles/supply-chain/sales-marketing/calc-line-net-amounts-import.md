@@ -2,7 +2,7 @@
 title: Regelnettobedragen opnieuw berekenen bij het importeren van verkooporders, offertes en retouren
 description: In dit artikel wordt beschreven of en hoe het systeem regelnettobedragen opnieuw berekent wanneer verkooporders, offertes en retouren worden geïmporteerd. Daarnaast wordt uitgelegd hoe u het gedrag in verschillende versies van Microsoft Dynamics 365 Supply Chain Management kunt bepalen.
 author: Henrikan
-ms.date: 06/08/2022
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ce34a6be7bc3d14e23bdd8769aa71dc035b983b3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220565"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335550"
 ---
 # <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Regelnettobedragen opnieuw berekenen bij het importeren van verkooporders, offertes en retouren
 
@@ -36,7 +36,7 @@ In deze specifieke scenario's is het effect van het evaluatiebeleid voor handels
 
 ## <a name="control-calculations-of-line-net-amounts-in-versions-10029-and-later"></a>Berekeningen van regelnettobedragen in versies 10.0.29 en hoger beheren
 
-In Supply Chain Management 10.0.29 is de functie *Nettobedrag per regel berekenen bij import* geïntroduceerd. Met deze functie wordt de optie **Nettobedrag per regel berekenen** toegevoegd aan de pagina **Parameters van module Klanten**. Met deze optie kunt u kiezen uit het nieuwe en oudere gedrag voor het berekenen van de nettobedragen per regel bij het importeren.
+In Supply Chain Management versie 10.0.29 is de functie *Nettobedrag per regel berekenen bij import* geïntroduceerd. Met deze functie wordt de optie **Nettobedrag per regel berekenen** toegevoegd aan de pagina **Parameters van module Klanten**. Met deze optie kunt u kiezen uit het nieuwe en oudere gedrag voor het berekenen van de nettobedragen per regel bij het importeren.
 
 ### <a name="turn-the-calculate-line-net-amount-on-import-feature-on-or-off"></a>De functie Nettobedrag per regel berekenen bij import in- of uitschakelen
 

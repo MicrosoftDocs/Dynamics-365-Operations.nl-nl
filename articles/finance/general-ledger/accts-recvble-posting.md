@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874569"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324324"
 ---
 # <a name="accounts-receivable-posting"></a>Boeken voor Klanten
 
 [!include [banner](../includes/banner.md)]
 
 Het primaire boekingsprofiel voor de module **Klanten** is het boekingsprofiel van de klant. Dit boekingsprofiel bepaalt welke overzichtsrekening wordt gebruikt wanneer klantsaldi naar het grootboek worden geboekt. Een overzichtsrekening is een hoofdrekening. Dit wordt ook wel de handelsrekening voor Klanten genoemd.
+
+Het rapport **Afstemming van klant met grootboek** kan na het boeken worden gebruikt om de saldi van klant- en grootboekrekeningen beter af te stemmen. Het rapport gebruikt de informatie die is gevonden in de overzichtsrekening voor het boekingsprofiel van de klant. De overzichtsrekening van de boekhouding die voor het document is gemaakt, wordt niet gebruikt. Als u wijzigingen aanbrengt in het klantboekingsprofiel of de klantengroep die aan de klant is toegewezen nadat u transacties hebt geboekt, kan het rapport verschillen weergeven tussen het saldo van de klant en grootboekrekening. Als u alleen de regels met verschillen wilt weergeven en de regels waarvoor de klant- en grootboekrekening beide nul zijn, selecteert u de parameter **Alleen verschillen** wanneer u het rapport afdrukt.
 
 Zie [Boekingsprofielen van klant](../accounts-receivable/customer-posting-profiles.md) voor meer informatie.
 

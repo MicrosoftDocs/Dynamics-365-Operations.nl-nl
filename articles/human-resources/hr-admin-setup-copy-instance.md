@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178528"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324255"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
@@ -47,13 +47,14 @@ Houd rekening met de volgende tips als u een exemplaar wilt kopiëren:
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>De gevolgen van het kopiëren van een Human Resources-database
 
+> [!Note]
+> Vanaf augustus 2022 worden documenten in Microsoft Azure Blob Storage opgenomen wanneer u een productieomgeving naar een sandbox-omgeving kopieert. Documenten en sjablonen die zijn gekoppeld, worden niet gekopieerd van de bronomgeving naar de doelomgeving.
+
 De volgende gebeurtenissen treden op wanneer u een Human Resources-database kopieert:
 
 - Tijdens het kopiëren wordt de bestaande database in de doelomgeving gewist. Nadat het kopieerproces is voltooid, kunt u de bestaande database niet herstellen.
 
 - De doelomgeving is pas weer beschikbaar als de kopieerbewerking is voltooid.
-
-- Documenten in de Microsoft Azure Blob-opslag worden niet van de ene omgeving naar de andere gekopieerd. Het resultaat is dat documenten en sjablonen die zijn gekoppeld, niet worden gekopieerd en in de bronomgeving blijven staan.
 
 - Alle gebruikers, behalve gebruikers met de beveiligingsrol 'Systeembeheerder' en andere interne servicegebruikersaccounts, zijn niet beschikbaar. De gebruiker met beheerdersrechten kan gegevens verwijderen voordat andere gebruikers weer toegang hebben tot het systeem.
 

@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861068"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323568"
 ---
 # <a name="create-a-working-time-calendar"></a>Een werktijdkalender maken
 
-
-> [!Important]
-> De functionaliteit die in dit artikel wordt vermeld, is momenteel beschikbaar voor klanten van de zelfstandige versie van Dynamics 365 Human Resources. Sommige of alle functionaliteit is beschikbaar als onderdeel van een toekomstige versie van de Finance-infrastructuur na versie 10.0.26 van Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Stel minimaal één werktijdkalender in waarin uw dagen en werktijden worden wee
 
 3. Selecteer onder **Opties voor genereren** de werkdagen voor uw organisatie en geef werktijden op. 
    - Als u een feestdag of sluiting wilt toevoegen, selecteert u de knop **Toevoegen** naast **Feestdagen en sluitingen**.
-   - Als u vrije tijd wilt toevoegen, zoals lunchen of pauzes, selecteert u **Toevoegen** onder **VRIJE TIJD** en voert u de naam en het tijdsbereik in.
+   - Als u vrije tijd wilt toevoegen, zoals lunchen of pauzes, selecteert u **Toevoegen** onder **Vrije tijd** en voert u de naam en het tijdsbereik in.
 
 4. Selecteer onder **Dagen** de optie **Genereren** om de dagen in uw kalender te genereren. Voer het datumbereik voor uw kalender in en selecteer vervolgens **Dagen genereren**.
 
@@ -67,7 +64,7 @@ U kunt vrije dagen en sluitingen apart van een werktijdkalender toevoegen of wij
 
 U kunt vrije tijd apart van een werktijdkalender toevoegen of wijzigen.
 
-1. Selecteer op de pagina **Organisatiebeheer** de optie **VRIJE TIJD**.
+1. Selecteer op de pagina **Organisatiebeheer** de optie **Vrije tijd**.
 
 2. Selecteer **Nieuw** en voer een naam en tijdbereik in voor de vrije tijd.
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219059"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334710"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.26 (mei 2022)
 
@@ -51,7 +51,6 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 | Productgegevensbeheer | Waarden van productkenmerk opschonen | Met deze functie wordt een periodieke taak toegevoegd met de naam **Productkenmerkwaarden opschonen**, waarmee waarderecords worden opgeschoond van productkenmerken die niet meer aan een product zijn gekoppeld via een productcategorie. |
 | Voorraad- en magazijnbeheer | (Rusland) Afwijkingen voorkomen bij het uitgeven van GTD's voor inkooporders die artikelen bevatten die zijn ingeschakeld voor WMS | Deze functie is alleen beschikbaar voor Russische lokalisatie. Hiermee worden discrepanties voorkomen die optreden bij het uitgeven van Russische GTD's (douaneaangiftenummers) voor inkooporders voor import die artikelen bevatten die zijn ingeschakeld voor magazijnbeheerprocessen (WMS). Door het GTD-uitgifteproces worden sommige voorraaddimensiewaarden in de gerelateerde voorraadtransacties gewijzigd voor facturen in het aangepaste journaal, wat resulteert in verschillen tussen de werkrecords voor de inkooporder en de voorraadtransacties voor de inkoop. Wanneer deze functie is ingeschakeld, genereert het GTD-uitgifteproces correctiewerk waardoor dergelijke verschillen worden verwijderd. |
 | Magazijnbeheer | Verbeterde parser voor GS1-streepjescodes | Deze functie voegt een verbeterde parser toe voor GS1-symboolgegevens. De nieuwe parser implementeert het GS1 General Specification-algoritme voor het parseren van GS1-symbolen en zorgt voor een betere gegevensvalidatie. Zie [GS1-streepjescodes scannen](../warehousing/gs1-barcodes.md) voor meer informatie. |
-| Magazijnbeheer | Nieuwe workbenchpagina's voor ladingplanning | Hiermee worden twee nieuwe workbenchpagina's voor ladingplanning toegevoegd: **Workbench voor binnenkomende ladingplanning** en **Workbench voor uitgaande ladingplanning**. |
 | Magazijnbeheer | Magazijnbeheertoepassing - lege GTD | Deze functie is alleen beschikbaar voor Russische lokalisatie. Met deze functie kunnen werknemers die de mobiele app Warehouse Management gebruiken, de Russische GTD's (douaneaangiftenummers) zo nodig leeg laten. Als de GTD-traceringsdimensie zo is ingesteld dat lege waarden zijn toegestaan, accepteert het systeem lege waarden voor GTD voor voorraadbewerkingen als voorhanden voorraad beschikbaar is. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen

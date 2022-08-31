@@ -2,7 +2,7 @@
 title: Zendingen consolideren met de workbench voor het consolideren van zendingen
 description: Dit artikel bevat een scenario waarin meerdere orders naar het magazijn worden vrijgegeven en vervolgens worden geconsolideerd in zendingen via de workbench voor het consolideren van zendingen.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218613"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335790"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Zendingen consolideren met de workbench voor het consolideren van zendingen
 
@@ -34,14 +34,11 @@ Het scenario in dit artikel verwijst naar waarden en records die zijn opgenomen 
 
 In het hier beschreven scenario wordt ervan uitgegaan dat u de functie al hebt ingeschakeld, de oefeningen in [Consolidatiebeleid voor zendingen configureren](configure-shipment-consolidation-policies.md) hebt uitgevoerd en het beleid en andere records hebt gemaakt die hier worden beschreven. Zorg ervoor dat u deze oefeningen uitvoert voordat u met dit scenario verdergaat.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>De functie voor handmatige zendingsconsolidatie inschakelen
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>De functie voor handmatige verzendingsconsolidatie in- of uitschakelen
 
-Voordat u de functie *Handmatige zendingsconsolidatie* kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Als u handmatige verzendingsconsolidatie wilt gebruiken, moet dit zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Handmatige zendingsconsolidatie* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Module:** *Warehouse Management*
-- **Functienaam:** *Handmatige zendingsconsolidatie*
-
-Voordat u beleid kunt aanmaken, moet ook de functie *Zending consolideren* zijn ingeschakeld. Raadpleeg [Beleid voor consolidatie van zendingen configureren](configure-shipment-consolidation-policies.md) voor meer informatie.
+U moet de functie *Verzending consolideren* ook inschakelen voordat u beleid kunt maken (vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en kan deze niet worden uitgeschakeld). Raadpleeg [Beleid voor consolidatie van zendingen configureren](configure-shipment-consolidation-policies.md) voor meer informatie.
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>De verkooporders voor dit scenario maken
 

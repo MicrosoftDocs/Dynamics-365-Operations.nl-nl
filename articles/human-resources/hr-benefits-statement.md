@@ -13,17 +13,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a12649cd0604fb6acd58420fdafb5b560fcc10cf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 36e7082a890ebec3031021a0871cddad91597447
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688227"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336882"
 ---
 # <a name="benefit-statement"></a>Vergoedingenoverzicht
-
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 Het rapport **Vergoedingenoverzicht** biedt een overzicht van de vergoedingen waarvoor een werknemer momenteel is ingeschreven. Het rapport is rechtstreeks toegankelijk voor een werknemer of voor de beheerder van de vergoeding. Het **Vergoedingenoverzicht** biedt een lijst met de vergoedingen waarvoor de werknemers is ingeschreven, opties voor dekking, kosten en alle geregistreerde afhankelijken of begunstigden. Het overzicht kan worden afgedrukt voor één of meerdere werknemers.
 

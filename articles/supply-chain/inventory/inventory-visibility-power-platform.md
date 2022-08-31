@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895752"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306168"
 ---
 # <a name="use-the-inventory-visibility-app"></a>De app Inventory Visibility gebruiken
 
@@ -70,10 +70,24 @@ Als u een reserveringsaanvraag wilt boeken, moet u een waarde in de aanvraagbody
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Voorraadoverzicht
 
-**Voorraadoverzicht** is een aangepaste weergave voor de entiteit *Inventory OnHand Sum*. Het overzicht biedt een voorraadoverzicht voor producten samen met alle dimensies. Voorraadoverzichtsgegevens worden elke 15 minuten gesynchroniseerd vanuit Voorraadzichtbaarheid. Om gegevens te kunnen bekijken op het tabblad **Voorraadoverzicht**, moet u de functie *OnHandMostSpecificBackgroundService* op het tabblad **Functiebeheer** inschakelen en **Configuratie bijwerken** selecteren.
+De pagina **Voorraadoverzicht** biedt een voorraadoverzicht voor producten samen met alle dimensies. Het is een aangepaste weergave voor de entiteit *Inventory OnHand Sum*. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Het voorraadoverzicht inschakelen en de synchronisatiefrequentie instellen
+
+Volg deze stappen om de pagina **Voorraadoverzicht** in te schakelen en de synchronisatiefrequentie in te stellen:
+
+1. Open de pagina **Configuratie**.
+1. Open het tabblad **Functiebeheer en instellingen**.
+1. Stel de schakelknop voor de functie **OnHandMostSpecificBackgroundService** in op *Ja*.
+1. Wanneer de functie is ingeschakeld, wordt de sectie **Serviceconfiguratie** beschikbaar en bevat deze een rij voor het configureren van de functie **OnHandMostSpecificBackgroundService**. Met deze instelling kunt u de frequentie kiezen waarmee voorraadoverzichtsgegevens worden gesynchroniseerd. Gebruik de knoppen **Omhoog** en **Omlaag** in de kolom **Waarde** om de tijd tussen synchronisatie te wijzigen (met een minimum van vijf minuten). Selecteer **Save**.
+1. Selecteer **Configuratie bijwerken** om alle wijzigingen op te slaan.
+
+![Instelling OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.PNG "Instelling OnHandMostSpecificBackgroundService")
 
 > [!NOTE]
 > Met de functie *OnHandMostSpecificBackgroundService* worden alleen wijzigingen in voorhanden producten bijgehouden die hebben plaatsgevonden nadat u de functie hebt ingeschakeld. Gegevens voor producten die niet zijn gewijzigd nadat u de functie hebt ingeschakeld, worden niet van de voorraadservicecache naar de Dataverse-omgeving gesynchroniseerd. Als op uw pagina **Voorraadoverzicht** niet alle informatie wordt weergegeven die u verwacht, gaat u naar **Voorraadbeheer > Periodieke taken > Integratie met Voorraadoverzicht** en schakelt u de batchtaak uit en weer in. De eerste push wordt nu uitgevoerd en alle gegevens worden de volgende 15 minuten gesynchroniseerd met de entiteit *Totaal voorhanden voorraad*. Als u deze functie wilt gebruiken, raden we u aan om deze in te schakelen voordat u wijzigingen in voorhanden voorraad aanbrangt en de batchtaak **Integratie van voorraadzichtbaarheid** inschakelt.
+
+### <a name="work-with-the-inventory-summary"></a>Werken met het voorraadoverzicht
 
 Met het **Geavanceerde filter** dat Dataverse biedt, kunt u een persoonlijke weergave maken met de rijen die belangrijk voor u zijn. Met de opties van het geavanceerde filter kunt u een breed scala weergaven maken, van eenvoudig tot complex. Met deze filters kunt u ook gegroepeerde en geneste voorwaarden aan de filters toevoegen. Zie [Persoonlijke weergaven maken of bewerken met geavanceerde rasterfilters](/powerapps/user/grid-filters-advanced) voor meer informatie over het gebruik van **Geavanceerd filter**.
 

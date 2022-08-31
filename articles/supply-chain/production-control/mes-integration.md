@@ -2,7 +2,7 @@
 title: Integratie met productie-uitvoeringssystemen van derden
 description: In dit artikel wordt uitgelegd hoe u Microsoft Dynamics 365 Supply Chain Management kunt integreren met een productie-uitvoeringssysteem (MES) van derden.
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068026"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336210"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Integratie met productie-uitvoeringssystemen van derden
 
@@ -45,9 +45,7 @@ Voordat u deze functie kunt gebruiken, moet een beheerder deze in het systeem in
     1. Schakel op de pagina **Licentieconfiguratie** het selectievakje **Tijd en aanwezigheid** in.
     1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
-1. Schakel de functie in die wordt weergegeven op de volgende manier (zie ook [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Module:** *Productiebeheer*
-    - **Functienaam:** *integratie met productie-uitvoeringssysteem*
+1. Gebruik de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functie *Integratie van systeem voor productieuitvoering* in te schakelen. (Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld.)
 
 ## <a name="processes-available-for-mes-integration"></a>Processen die beschikbaar zijn voor MES-integratie
 

@@ -2,7 +2,7 @@
 title: Waves maken en verwerken
 description: In dit artikel wordt beschreven hoe u handmatig een wave kunt maken, verwerken en vrijgeven om verzamelwerk te maken voor een lading, zending, productieorder of kanbanorder.
 author: Mirzaab
-ms.date: 03/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 60bf4ab6944bd982e022ead6431adae417ddfb43
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 0466019990773ee93e063a255c15a7d64eecdf78
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9014614"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336000"
 ---
 # <a name="wave-creation-and-processing"></a>Waves maken en verwerken
 
@@ -191,7 +191,7 @@ Gebruik de pagina **Details van batchtaak voor wave** om de batchtaken en gerela
 
 ### <a name="turn-the-wave-batch-job-details-page-on-or-off"></a>De pagina Details van batchtaken voor wave in- of uitschakelen
 
-Vanaf Supply Chain Management versie 10.0.25 is de pagina **Details van batchtaken voor wave** standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Details van batchtaken voor wave* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Details van wavebatchtaken* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="use-the-wave-batch-job-details-page"></a>De pagina Details van batchtaken voor wave gebruiken
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 09a01a9100b5fc17317d40a8b3e4dbd1aae92e8b
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228476"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334770"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.28 (augustus 2022)
 
@@ -36,7 +36,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | Voorraad en logistiek | [Entiteiten voor integratie van francoprijzen voor externe expediteurs](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Overzicht van entiteiten voor francoprijzen](../landed-cost/landed-cost-entities-overview.md) | Standaard ingeschakeld |
 | Planning | [DDMRP (Demand Driven Material Requirements Planning)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Overzicht van DDMRP (Demand Driven Material Requirements Planning)](../master-planning/planning-optimization/ddmrp-overview.md) | Functiebeheer:<br>*(Preview) DDMRP voor Planningsoptimalisatie* |
 | Planning | [Planningsoptimalisatie-ondersteuning voor CTP (Capable to Promise)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | [Leveringsdatums van verkooporders berekenen met behulp van CTP](../master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md) | Functiebeheer:<br>*(Preview) CTP voor Planningsoptimalisatie* |
-| Planning | [Planningsoptimalisatie-ondersteuning voor houdbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Binnenkort beschikbaar | Standaard ingeschakeld |
+| Planning | [Planningsoptimalisatie-ondersteuning voor houdbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | [Hoofdplanning voor producten met een beperkte houdbaarheid](../master-planning/planning-optimization/shelf-life.md) | Standaard ingeschakeld |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Functieverbeteringen in deze versie
 

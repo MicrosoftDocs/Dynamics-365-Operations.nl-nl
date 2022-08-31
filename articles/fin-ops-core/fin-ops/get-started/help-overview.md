@@ -2,7 +2,7 @@
 title: Help-systeem (bevat video)
 description: In dit artikel vindt u een overzicht van het Help-systeem voor apps voor financiën en bedrijfsactiviteiten.
 author: edupont04
-ms.date: 07/20/2021
+ms.date: 08/16/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: a472c022f93b51606530728116f8b1bf3894351b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
+ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9292391"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9305219"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -56,7 +56,7 @@ Als u zich wilt abonneren op een RSS-feed met alle updates die zijn aangebracht 
 [RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
 > [!NOTE]
-> De RSS-feed retourneert een lijst met de 100 onderwerpen die het laatst zijn bijgewerkt. De lijst wordt niet op datum gesorteerd.  
+> De RSS-feed retourneert een lijst met de 100 onderwerpen die het laatst zijn bijgewerkt. De lijst wordt gesorteerd op datum, maar het kan een week duren voordat de meest recent bijgewerkte artikelen in de lijst worden opgenomen.  
 
 U kunt ook per app een abonnement op een RSS-feed nemen:
 

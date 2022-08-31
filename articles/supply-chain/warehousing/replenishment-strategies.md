@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1245d07436a9b57ee4f0402687e7a4367668cbfa
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893144"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336270"
 ---
 # <a name="replenishment-strategies"></a>Aanvullingsstrategieën
 
@@ -36,7 +36,7 @@ Een piekperiode is een voorbeeld van een situatie waarin de strategie *Maximale 
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>De functie Aanvullen tot max. op basis van voorraadlimieten inschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van deze functie te controleren en de functie desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Beheerders kunnen gebruikmaken van het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van deze functie te controleren en de functie desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Aanvullen tot max. op basis van voorraadlimieten*

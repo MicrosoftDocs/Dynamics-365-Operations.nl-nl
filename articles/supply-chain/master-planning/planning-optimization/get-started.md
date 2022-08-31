@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112175"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295923"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
@@ -29,7 +29,7 @@ ms.locfileid: "9112175"
 
 Zoals [eerder aangekondigd](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) is Planningsoptimalisatie gepland om de bestaande ingebouwde hoofdplanningsengine te vervangen.
 
-Als u momenteel de ingebouwde hoofdplanningsengine gebruikt, moet u nu beginnen met het plannen van uw migratie naar Planningsoptimalisatie. Het is belangrijk dat u het migratieproces onmiddellijk start, omdat de bewerkingen kunnen worden beïnvloed wanneer afschaffing wordt afgedwongen. We raden u dringend aan de migratie vóór 1 december 2020 te voltooien om te voorkomen dat zich op het laatste moment problemen voordoen wanneer de afschaffing wordt afgedwongen. 
+Als u momenteel de ingebouwde hoofdplanningsengine gebruikt, moet u nu beginnen met het plannen van uw migratie naar Planningsoptimalisatie. Het is belangrijk dat u meteen aan de slag gaat, omdat uw activiteiten anders mogelijk hinder ondervinden wanneer de afschaffing wordt afgedwongen (hoewel dat op dit moment niet is gepland). U wordt aangeraden de migratie te voltooien zodra Planningsoptimalisatie de functies ondersteunt die u nodig hebt, zodat u kunt profiteren van de vele prestatieverbeteringen en andere nieuwe mogelijkheden die door de nieuwe service worden geleverd.
 
 De functie Planningsoptimalisatie biedt momenteel geen ondersteuning voor alle functies die beschikbaar zijn in de planningsengine die in Supply Chain Management is ingebouwd. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is in Planningsoptimalisatie voldoet aan uw behoeften. De functie Planningsoptimalisatie is momenteel niet standaard ingeschakeld in Dynamics Lifecycle Services (LCS), zodat u de evaluatie kunt uitvoeren voordat de functie wordt ingeschakeld.
 

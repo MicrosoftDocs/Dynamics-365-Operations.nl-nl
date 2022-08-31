@@ -2,7 +2,7 @@
 title: De uitvoeringsinterface voor de werkvloer configureren
 description: In dit artikel wordt beschreven hoe u een of meer configuraties maakt voor de uitvoeringsinterface van de werkvloer. Wanneer u de uitvoeringsinterface van de werkvloer opent, worden automatisch een geselecteerde configuratie en een taakfilter geladen die specifiek zijn voor de browser en het apparaat. In de configuratie stelt u de beleidsregels in die toegepast moeten worden op een specifiek gebruik.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220357"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336180"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -35,7 +35,7 @@ In dit artikel worden de verschillende opties beschreven voor het configureren v
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>De uitvoeringsinterface voor de werkvloer en de bijbehorende optionele functies inschakelen
 
-De uitvoeringsinterface voor de werkvloer zelf, plus een aantal optionele instellingen die in dit artikel worden beschreven, moeten in uw systeem zijn ingeschakeld voordat u ze kunt gebruiken. Gebruik de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om een of meer van de functies die in de volgende subsecties worden beschreven, in te schakelen.
+De uitvoeringsinterface voor de werkvloer zelf, plus een aantal optionele instellingen die in dit artikel worden beschreven, moeten voor uw systeem zijn ingeschakeld voordat u ze kunt gebruiken. Gebruik de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om een of meer van de functies die in de volgende subsecties worden beschreven, in te schakelen.
 
 ### <a name="the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer
 
@@ -63,29 +63,32 @@ Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschak
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer
 
-Met deze functie voegt u een Activabeheer-tabblad toe aan de interface voor het uitvoeren van productielijnen. Werknemers kunnen dit tabblad gebruiken om een activum te selecteren dat is verbonden met een machineresource die zich in het geselecteerde filter van de takenlijst bevindt. Voor de geselecteerde machineactiva kan de werknemer de status en de staat van het activum uit tellerwaarden weergeven voor maximaal vier geselecteerde tellers. Als u deze functie wilt gebruiken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
+Met deze functie voegt u een Activabeheer-tabblad toe aan de interface voor het uitvoeren van productielijnen. Werknemers kunnen dit tabblad gebruiken om een activum te selecteren dat is verbonden met een machineresource die zich in het geselecteerde filter van de takenlijst bevindt. Voor de geselecteerde machineactiva kan de werknemer de status en de staat van het activum uit tellerwaarden weergeven voor maximaal vier geselecteerde tellers.
 
-- *Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld.)
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-job-search"></a>Zoekopdracht naar taak inschakelen
+### <a name="job-search"></a>Taak zoeken
 
-Met deze functie kunt u een zoekveld aan de takenlijst toevoegen. Werknemers kunnen een specifieke taak vinden door de taak-ID in te voeren of alle taken voor een specifieke order zoeken door de order-ID in te voeren. Werknemers kunnen de ID invoeren met behulp van een toetsenblok of door een streepjescode te scannen. Als u hier gebruik van wilt maken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
+Met deze functie kunt u een zoekveld aan de takenlijst toevoegen. Werknemers kunnen een specifieke taak vinden door de taak-ID in te voeren of alle taken voor een specifieke order zoeken door de order-ID in te voeren. Werknemers kunnen de ID invoeren met behulp van een toetsenblok of door een streepjescode te scannen.
 
-- *Taak zoeken voor de uitvoeringsinterface voor de werkvloer*<br>(Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld.)
+Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is deze functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Taak zoeken voor de uitvoeringsinterface voor de werkvloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Rapportage over co- en bijproducten mogelijk maken
+### <a name="report-on-co-products-and-by-products"></a>Rapport over co- en bijproducten
 
-Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders te rapporteren. Deze rapportage omvat rapportage over co- en bijproducten. Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders te rapporteren. Deze rapportage omvat rapportage over co- en bijproducten.
 
-- *Rapport over co- en bijproducten uit de uitvoeringsinterface op de productievloer*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Rapport over co- en bijproducten uit de uitvoeringsinterface op de productievloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>De weergave van volledige serienummers, batchnummers en nummerplaatnummers inschakelen
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>De weergave van volledige serienummers, batchnummers en nummerplaatnummers
 
 Deze functie biedt een betere ervaring met het weergeven van lijsten met serie-, batch- en nummerplaatnummers in de uitvoeringsinterface van de werkvloer. De weergave verandert van een kaartweergave met een beperkt aantal tekens in een lijstweergave die voldoende ruimte biedt om de volledige waarden weer te geven. De lijst biedt ook de mogelijkheid om naar specifieke nummers te zoeken.
 
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Volledige serie-, batch- en nummerplaatnummers tonen in de uitvoeringsinterface van de productievloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+
 Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Volledige serie-, batch- en nummerplaatnummers tonen in de uitvoeringsinterface van de productievloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-registering-of-material-consumption"></a>Materiaalverbruik registeren inschakelen
+### <a name="register-material-consumption"></a>Materiaalverbruik registreren
 
 Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om materiaalverbruik, batchnummers en serienummers te registreren. Sommige fabrikanten, met name fabrikanten in de procesindustrieën, moeten de hoeveelheid verbruikt materiaal voor elke batch of productieorder expliciet registreren. Werknemers kunnen bijvoorbeeld een schaal gebruiken om te wegen hoeveel materiaal tijdens het werk wordt verbruikt. Voor volledige materiaaltraceerbaarheid moeten deze organisaties ook registreren welke batchnummers zijn verbruikt bij de productie van elk product.
 
@@ -97,7 +100,7 @@ Er zijn twee versies van deze functie. Eén functie ondersteunt alleen artikelen
 > [!IMPORTANT]
 > U kunt alleen de functie niet-WMS gebruiken. Als u echter WMS gebruikt, moet u beide functies inschakelen.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Rapporten voor catch weight-artikelen inschakelen
+### <a name="report-on-catch-weight-items"></a>Rapport over catch weight-artikelen
 
 Werknemers kunnen de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders met catch weight-artikelen te rapporteren. Batchorders worden gemaakt op basis van formules die u kunt definiëren zodat ze catch weight-artikelen als formule-artikelen, co- en bijproducten als uitvoer hebben. U kunt ook formuleregels definiëren voor ingrediënten die zijn gedefinieerd voor catch weight. Catch weight-artikelen gebruiken twee maateenheden om de voorraad te volgen: de hoeveelheid catch weight en de voorraadhoeveelheid. In de voedselindustrie kan verplakt vlees bijvoorbeeld worden gedefinieerd als catch weight-artikel, waarbij de catch weight-hoeveelheid wordt gebruikt om het aantal dozen bij te houden en de voorraadhoeveelheid wordt gebruikt om het gewicht van de dozen bij te houden.
 
@@ -105,15 +108,13 @@ Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../f
 
 - *Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer*
 
-### <a name="enable-the-my-day-dialog"></a>Het dialoogvenster Mijn dag inschakelen
+### <a name="the-my-day-dialog"></a>Het dialoogvenster Mijn dag
 
 Het dialoogvenster **Mijn dag** biedt werknemers een overzicht van hun dagelijkse registraties en actuele saldi voor betaalde tijd, betaalde overuren, verzuim en betaald verzuim.
 
-Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *De weergave Mijn dag voor de uitvoeringsinterface voor de werkvloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- *De weergave Mijn dag voor de uitvoeringsinterface voor de werkvloer*
-
-### <a name="enable-teams"></a>Teams inschakelen
+### <a name="teams"></a>Teams
 
 Wanneer meerdere werknemers aan dezelfde productietaak zijn toegewezen, kunnen ze een team vormen. Het team kan één werknemer aanwijzen als leider. De overige werknemers worden automatisch assistenten van die leider. Voor het team dat hierdoor ontstaat, moet alleen de leider de taakstatus registreren. Tijdregistraties gelden voor alle teamleden.
 
@@ -121,7 +122,7 @@ Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../f
 
 - *Productieteams in de uitvoeringsinterface voor de werkvloer*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Aanvullende configuratie in de uitvoeringsinterface voor de werkvloer inschakelen
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Aanvullende configuratie in de uitvoeringsinterface voor de werkvloer
 
 Met deze functie kunt u instellingen voor de volgende functionaliteit toevoegen aan de pagina **Uitvoering productievloer configureren**:
 
@@ -136,7 +137,6 @@ Informatie over het gebruik van de instellingen vindt u verderop in dit artikel.
 Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
 
 - *Aanvullende configuratie in de uitvoeringsinterface voor de werkvloer*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Werken met uitvoeringsconfiguraties voor de werkvloer
 

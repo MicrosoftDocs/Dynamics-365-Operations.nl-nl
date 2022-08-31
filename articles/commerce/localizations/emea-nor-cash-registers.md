@@ -2,19 +2,19 @@
 title: Kassafunctionaliteit voor Noorwegen
 description: Dit artikel biedt een overzicht van de kassafunctionaliteit die beschikbaar is voor Noorwegen in Microsoft Dynamics 365 Commerce en geeft richtlijnen voor het instellen van de functionaliteit.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 08/23/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: 42eda805646dbb30b40528254a3137102e3075e4
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 30bd5ad8c1513c3d56cc4aa0a77b70fe38d31e0a
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9292731"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346013"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Kassafunctionaliteit voor Noorwegen
 
@@ -116,6 +116,13 @@ Als u de specifieke functionaliteit voor Noorwegen wilt gebruiken, moet u de vol
 - Stel het veld **ISO-code** in **NO** (Noorwegen) in het POS-functionaliteitsprofiel van elke winkel die zich in Noorwegen bevindt.
 
 U moet ook de volgende instellingen opgeven voor Noorwegen.
+
+### <a name="enable-features-for-norway"></a>De functies voor Noorwegen inschakelen
+
+U moet in het werkgebied **Functiebeheer** van Commerce Headquarters de volgende functies inschakelen:
+
+- (Noorwegen) Extra controlegebeurtenissen in POS inschakelen
+- (Noorwegen) Extra informatie inschakelen in eindedagafschriften in POS
 
 ### <a name="set-up-the-legal-entity"></a>De echtspersoon instellen
 

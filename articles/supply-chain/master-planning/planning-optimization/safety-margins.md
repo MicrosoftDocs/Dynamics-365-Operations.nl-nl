@@ -2,7 +2,7 @@
 title: Veiligheidsmarges
 description: In dit artikel wordt beschreven hoe u veiligheidsmarges kunt gebruiken met de invoegtoepassing Planningsoptimalisatie voor Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854234"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335190"
 ---
 # <a name="safety-margins"></a>Veiligheidsmarges
 
@@ -79,12 +79,9 @@ Wanneer een uitgiftemarge wordt toegepast, komen gerelateerde leverings- en beho
 
 ## <a name="set-up-safety-margins"></a>Veiligheidsmarges instellen
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Veiligheidsmarges inschakelen in Functiebeheer
+### <a name="turn-safety-margins-on-or-off"></a>Veiligheidsmarges in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken met Planningsoptimalisatie, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
-
-- **Module:** _Hoofdplanning_
-- **Functienaam:** _Marges voor Planningsoptimalisatie_
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Marges voor Planningsoptimalisatie* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="define-safety-margins"></a>Veiligheidsmarges definiëren
 

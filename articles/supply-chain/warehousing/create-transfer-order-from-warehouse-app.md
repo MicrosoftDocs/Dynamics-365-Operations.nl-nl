@@ -2,7 +2,7 @@
 title: overboekingsorders maken vanuit de magazijnapp
 description: In dit artikel wordt beschreven hoe u overboekingsorders kunt maken en verwerken via de mobiele app Magazijnbeheer
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877445"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336450"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>overboekingsorders maken vanuit de magazijnapp
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877445"
 
 Met deze functie kunnen magazijnmedewerkers overboekingsorders rechtstreeks vanuit de mobiele app Magazijnbeheer maken en verwerken. De medewerker begint met het selecteren van het doelmagazijn en kan vervolgens met de app een of meer nummerplaten scannen om de nummerplaten aan de overboekingsorder toe te voegen. Wanneer de magazijnmedewerker **Order voltooien** selecteert, worden met een batchtaak de vereiste overboekingsorder en orderregels gemaakt op basis van de voorhanden voorraad die voor deze nummerplaten is geregistreerd.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Deze functie in- of uitschakelen
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Deze functie inschakelen en de vereisten ervan
 
 Voordat u deze functie kunt gebruiken, moet u deze functie en de bijbehorende vereisten in uw systeem inschakelen. Beheerders kunnen gebruikmaken van de pagina voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in te schakelen.
 
 1. Schakel de volgende twee functies (in deze volgorde) uit in het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Vanaf Supply Chain Management versie 10.0.25 zijn beide functies standaard ingeschakeld.
-    1. *Gebeurtenissen in magazijnapp verwerken*
-    1. *Transferorders maken en verwerken vanuit de magazijnapp*
-1. Als u de verwerking van uitgaande verzendingen wilt automatiseren, moet u ook de functie [Uitgaande verzendingen bevestigen op basis van batchtaken](confirm-outbound-shipments-from-batch-jobs.md) inschakelen.
+    1. *Gebeurtenissen in magazijnapp verwerken*<br>(Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld.)
+    1. *Transferorders maken en verwerken vanuit de magazijnapp*<br>(Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld.)
+1. Als u de verwerking van uitgaande verzendingen wilt automatiseren, moet u ook de functie [*Uitgaande verzendingen bevestigen op basis van batchtaken*](confirm-outbound-shipments-from-batch-jobs.md) inschakelen. (Vanaf Supply Chain Management versie 10.0.21 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management 10.0.25 is deze functie verplicht en deze functie kan niet worden uitgeschakeld.)
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Een menuoptie voor een mobiel apparaat instellen om overboekingsorders te maken
 
@@ -307,11 +307,11 @@ Nee, u kunt geen aanvullende nummerplaten toevoegen aan een overboekingsorder me
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Hoe kan ik bestaande overboekingsorders vinden die moeten worden gebruikt via de knop "Overboekingsorder selecteren" in de mobiele app Magazijnbeheer, als de order nog niet is gemaakt in het backend-systeem?
 
-Op dit moment kunt u geen overboekingsorders opzoeken in de app, maar u kunt de overboekingsordernummers vinden op de pagina **Gebeurtenissen van de app voor magazijnbeheer**. Zie [Informatie opvragen over de gebeurtenissen van de app voor magazijnbeheer](#inquire-the-warehouse-app-events) voor meer informatie.
+U kunt het voor werknemers mogelijk maken om transferordernummers te zoeken in de mobiele app Warehouse Management met behulp van de functie voor [gegevensonderzoek](warehouse-app-data-inquiry.md). U kunt bijvoorbeeld een [omleidingsoptie](warehouse-app-detours.md) voor een mobiel apparaat maken dat gegevens opvraagt die worden weergegeven op de pagina **Gebeurtenissen in app voor magazijnbeheer** van de webclient (`WHSMobileDeviceQueueMessageCollection`) als onderdeel van de stap *Order selecteren - MobileDeviceQueueMessageCollectionIdentifierId*. Het transferordernummer komt overeen met de waarde in het veld **Id**. Zie ook [Informatie opvragen over gebeurtenissen van de magazijnapp](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Kan ik handmatig het overboekingsordernummer selecteren dat moet worden gebruikt vanuit de mobiele app Magazijnbeheer?
 
-Alleen automatisch gegenereerde overboekingsordernummers via nummerreeksen worden ondersteund.
+Alleen automatisch gegenereerde overboekingsordernummers via nummerreeksen worden ondersteund. Zie ook het antwoord op de vorige vraag over het instellen van de knop **Transferorder selecteren**. Zie [Informatie opvragen over gebeurtenissen van de app voor magazijnbeheer](#inquire-the-warehouse-app-events) voor meer informatie over het vinden van waarden van transferordernummers.
 
 ### <a name="background-processing"></a>Achtergrondverwerking
 

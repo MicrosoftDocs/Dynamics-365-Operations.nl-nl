@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846035"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335160"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Informatie en rapporten voor gevaarlijke stoffen
 
@@ -101,11 +101,11 @@ Als u dit rapport wilt genereren en afdrukken, gaat u naar **Magazijnbeheer \> Z
 
 ## <a name="bill-of-lading-report"></a>Rapport Vrachtbrief
 
-Wanneer de functie voor gevaarlijke stoffen is ingeschakeld in uw systeem, bevat het rapport **Vrachtbrief** een kolom **Gevaarlijke stoffen** waarin wordt aangegeven of een lading gevaarlijke stoffen bevat. Dit rapport is zoals gewoonlijk te vinden op de pagina **Alle ladingen**.
+Wanneer de functie voor gevaarlijke stoffen is ingeschakeld voor uw systeem, bevat het rapport **Vrachtbrief** een kolom **Gevaarlijke stoffen** waarin wordt aangegeven of een lading gevaarlijke stoffen bevat. Dit rapport is zoals gewoonlijk te vinden op de pagina **Alle ladingen**.
 
 ## <a name="packing-list-report"></a>Rapport Verpakkingslijst
 
-Wanneer de functie voor gevaarlijke stoffen is ingeschakeld in uw systeem, bevatten verpakkingslijsten aanvullende informatie over de verzendtekst voor een artikel. Dit rapport is zoals gewoonlijk te vinden op de pagina **Alle ladingen**.
+Wanneer de functie voor gevaarlijke stoffen is ingeschakeld voor uw systeem, bevatten verpakkingslijsten aanvullende informatie over de verzendtekst voor een artikel. Dit rapport is zoals gewoonlijk te vinden op de pagina **Alle ladingen**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

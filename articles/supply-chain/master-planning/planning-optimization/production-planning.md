@@ -2,7 +2,7 @@
 title: Productieplanning
 description: In dit artikel wordt de planning voor de productie beschreven en wordt uitgelegd hoe u geplande productieorders wijzigt met behulp van Planningsoptimalisatie.
 author: t-benebo
-ms.date: 06/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873777"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335250"
 ---
 # <a name="production-planning"></a>Productieplanning
 
@@ -26,9 +26,9 @@ Tijdens Planningsoptimalisaties worden verschillende productiescenario's onderst
 
 De volgende video geeft een korte inleiding op enkele van de concepten die in dit artikel worden besproken: [Dynamics 365 Supply Chain Management: verbeteringen in planningsoptimalisatie](https://youtu.be/u1pcmZuZBTw).
 
-## <a name="turn-on-this-feature-for-your-system"></a>Deze functie inschakelen voor uw systeem
+## <a name="turn-this-feature-on-or-off-for-your-system"></a>Deze functie in- of uitschakelen voor uw systeem
 
-Als de functies die in dit artikel worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Geplande productieorders voor Planningsoptimalisatie* in.
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Geplande productieorders voor Planningsoptimalisatie* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="planned-production-orders"></a>Geplande productieorders
 

@@ -2,7 +2,7 @@
 title: Plannen met resourceselectie op basis van capaciteit
 description: In dit artikel wordt de resourceselectie beschreven tijdens onbeperkte capaciteitsplanning wanneer u capaciteiten als bronbehoeften voor een bewerking opgeeft.
 author: t-benebo
-ms.date: 9/3/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: RouteInventProd, WrkCtrTable, WrkCtrCapability
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847957"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335400"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Planning met resourceselectie op basis van mogelijkheden
 
@@ -24,12 +24,9 @@ ms.locfileid: "8847957"
 
 Door resourcebehoeften op te geven voor een bewerking van een productieroute, definieert u wat nodig is om die bewerking uit te voeren. Voor een bewerking kan bijvoorbeeld een specifieke resource of resourcegroep vereist zijn, of een combinatie van vaardigheden of capaciteiten. In dit artikel wordt de resourceselectie beschreven tijdens onbeperkte capaciteitsplanning wanneer u capaciteiten als bronbehoeften voor een bewerking opgeeft.
 
-## <a name="turn-on-the-capability-based-scheduling-feature"></a>De functie voor planning op basis van capaciteit inschakelen
+## <a name="turn-the-capability-based-scheduling-feature-on-or-off"></a>De functie voor planning op basis van capaciteit in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Hoofdplanning*
-- **Functienaam**: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie*
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Oneindige capaciteitsplanning voor Planningsoptimalisatie* in de werkruimte [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Raadpleeg [Plannen met onbeperkte capaciteit](infinite-capacity-planning.md) voor meer informatie over deze functie.
 

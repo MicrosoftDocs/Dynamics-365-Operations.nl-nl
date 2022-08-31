@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 76aee3a736efa9ed7431d4e5127cd0abaccd659f
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c9d41645531fa4318289f32a564c34f0f92681df
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218843"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335835"
 ---
 # <a name="advanced-load-building-during-wave"></a>Geavanceerde ladingopbouw tijdens een wave
 
@@ -36,7 +36,7 @@ Om de functie te gebruiken, moet u het systeem als volgt configureren:
 
 ## <a name="turn-on-advanced-wave-load-building-in-your-system"></a>Geavanceerde ladingopbouw inschakelen in uw systeem
 
-Voordat u geavanceerd wave-ladingopbouw kunt gebruiken, moeten twee functies zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van deze functies te controleren en deze zo nodig in te schakelen. In het werkgebied **Functiebeheer** worden de functies als volgt vermeld:
+Voordat u geavanceerd wave-ladingopbouw kunt gebruiken, moeten twee functies zijn ingeschakeld voor uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van deze functies te controleren en deze zo nodig in te schakelen. In het werkgebied **Functiebeheer** worden de functies als volgt vermeld:
 
 - Functie voor waveladingopbouw:
 

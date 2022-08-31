@@ -2,7 +2,7 @@
 title: Consolidatiebeleid voor zendingen configureren
 description: In dit artikel wordt uitgelegd hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219527"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336487"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -33,10 +33,7 @@ De scenario's die in dit artikel worden weergegeven, laten zien hoe u standaard-
 > [!IMPORTANT]
 > In het [eerste scenario](#scenario-1) dat in dit artikel wordt beschreven, stelt u eerst een magazijn in, zodat hiervoor de eerdere functie voor consolidatie van zendingen wordt gebruikt. Vervolgens wordt maakt u consolidatiebeleid voor zendingen beschikbaar. Op deze manier kunt u ervaren hoe het upgradescenario werkt. Als u van plan bent om een omgeving met demogegevens te gebruiken om het eerste scenario te doorlopen, moet u de functie niet inschakelen voordat u het scenario uitvoert.
 
-Voordat u de functie *Consolidatiebeleid voor zendingen* kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
-
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Zending consolideren*
+Voordat u de functie *Consolidatiebeleid voor zendingen* kunt gebruiken, moet u deze voor het systeem inschakelen. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Consolidatiebeleid voor zendingen* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 

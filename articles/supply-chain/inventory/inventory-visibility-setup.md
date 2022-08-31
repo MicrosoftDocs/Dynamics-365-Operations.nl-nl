@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ce81ed2ed79bfe5c7fff9724e14af150817af11f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895694"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306049"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installeren en instellen
 
@@ -43,7 +43,7 @@ Als u vragen hebt over deze vereisten, neemt u contact op met het productteam va
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid installeren
 
-Voordat u de invoegtoepassing installeert, registreert u een toepassing en voegt u een clientgeheim toe aan Azure Active Directory (Azure AD) via uw Azure-abonnement. Zie [Een toepassing registreren](/azure/active-directory/develop/quickstart-register-app) en [Een clientgeheim toevoegen](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) voor instructies. Zorg ervoor dat u de waarden **Toepassings-ID**, **Clientgeheim** en **Tenant-ID** noteert, omdat u ze later nodig hebt.
+Voordat u de invoegtoepassing installeert, registreert u een toepassing en voegt u een clientgeheim toe aan Azure Active Directory (Azure AD) via uw Azure-abonnement. Zie [Een toepassing registreren](/azure/active-directory/develop/quickstart-register-app) en [Een clientgeheim toevoegen](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) voor instructies. Zorg ervoor dat u de waarden **Toepassings-id**, **Clientgeheim** en **Tenant-id** noteert, omdat u ze later nodig hebt.
 
 > [!IMPORTANT]
 > Als u meerdere LCS-omgevingen hebt, maakt u een andere Azure AD-toepassing voor elke omgeving. Als u dezelfde toepassings-id en tenant-id gebruikt om de invoegtoepassing Voorraadzichtbaarheid voor verschillende omgevingen te installeren, treedt er een probleem met een token op voor oudere omgevingen. Het gvolg is dat alleen de laatste installatie geldig is.
@@ -88,20 +88,6 @@ Nadat u een toepassing geregistreerd hebt en een clientgeheim aan Azure AD hebt 
 >
 > 1. Als de installatie is voltooid, gaat u terug naar de LCS-pagina en probeert u de invoegvoeging **Voorraadzichtbaarheid** opnieuw te installeren.
 
-## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid deïnstalleren
-
-Als u de installatie van de invoegtoepassing voor Voorraadzichtbaarheid ongedaan wilt maken, selecteert u **Deïnstalleren** op de LCS-pagina. Als u de installatie ongedaan maakt, wordt de invoegtoepassing voor Voorraadzichtbaarheid beëindigd, wordt de invoegtoepassing voor LCS ongedaan gemaakt en worden tijdelijke gegevens verwijderd die in de cache van de invoegtoepassing voor voorraadzichtbaarheid opgeslagen zijn. De primaire voorraadgegevens die in uw Dataverse-abonnement opgeslagen zijn, worden echter niet verwijderd.
-
-Als u de voorraadgegevens die in uw Dataverse-abonnement zijn opgeslagen wilt deïnstalleren, opent u [Power Apps](https://make.powerapps.com), selecteert u **Omgeving** in de navigatiebalk en selecteert u de Dataverse-omgeving die aan uw LCS-omgeving gekoppeld is. Ga vervolgens naar **Oplossingen** en verwijder de volgende vijf oplossingen in deze volgorde:
-
-1. Ankeroplossing voor de toepassing Voorraadzichtbaarheid in Dynamics 365-oplossingen
-1. Oplossing voor Dynamics 365 FNO SCM Inventory Visibility-toepassingen
-1. Configuratie van inventarisservice
-1. Zelfstandige voorraadzichtbaarheid
-1. Basisoplossing voor Dynamics 365 FNO SCM Inventory Visibility
-
-Nadat u deze oplossingen hebt verwijderd, worden de gegevens die in tabellen zijn opgeslagen ook verwijderd.
-
 ## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Voorraadzichtbaarheid instellen in Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Het integratiepakket voor voorraadzichtbaarheid implementeren
@@ -135,10 +121,45 @@ Nadat u de invoegtoepassing hebt geïnstalleerd, kunt u uw Supply Chain Manageme
 
 1. Als u de optionele functie *Integratie van Voorraadzichtbaarheid met tegenreservering* hebt ingeschakeld, opent u het tabblad **Tegenreservering** en stelt u de volgende opties in:
     - **Tegenreservering inschakelen**: stel de optie in op *Ja* om deze functionaliteit in te schakelen.
-    - **Modificator voor tegenreservering**: selecteer de status van de voorraadtransactie om reserveringen die zijn gemaakt in Voorraadzichtbaarheid, te compenseren. Met deze instelling wordt de fase van de orderverwerking bepaald waarmee tegenreserveringen worden geactiveerd. De fase wordt door de voorraadtransactiestatus van de order opgevolgd. Kies een van de volgende opties:
+    - **Modificator voor tegenreservering**: selecteer de status van de voorraadtransactie om reserveringen die zijn gemaakt in Voorraadzichtbaarheid, te compenseren. Met deze instelling wordt de fase van de orderverwerking bepaald waarmee tegenreserveringen worden geactiveerd. De fase wordt door de voorraadtransactiestatus van de order opgevolgd. Selecteer een van de volgende opties:
         - *In bestelling*: voor de status *Op transactie* wordt een aanvraag voor een tegenreservering verzonden wanneer deze wordt gemaakt. De verrekende hoeveelheid is de hoeveelheid van de gemaakte order.
         - *Reserveren*: voor de status *Bestelde transactie reserveren* verzendt een order een tegenreserveringsaanvraag wanneer deze gereserveerd, verzameld, via de pakbon geboekt of gefactureerd wordt. De aanvraag wordt slechts eenmaal voor de eerste stap geactiveerd wanneer het bovengenoemde proces plaatsvindt. De verrekende hoeveelheid is de hoeveelheid waarvoor de status van de voorraadtransactie is gewijzigd van *Besteld* in *Gereserveerd* (of een latere status) op de corresponderende orderregel.
 
 1. Ga naar **Voorraadbeheer \> Periodiek \> Integratie van voorraadzichtbaarheid** en schakel de taak in. Alle gebeurtenissen voor voorraadwijziging van Supply Chain Management worden nu geboekt naar Voorraadzichtbaarheid.
+
+## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid deïnstalleren
+
+Om de invoegtoepassing voor voorraadzichtbaarheid te verwijderden, volgt u deze stappen:
+
+1. Meld u aan bij Supply Chain Management.
+1. Ga naar **Voorraadbeheer \> Periodiek \> Integratie van voorraadzichtbaarheid** en schakel de taak uit.
+1. Ga naar LCS en open de pagina voor de omgeving waar u de invoegtoepassing wilt verwijderen (zie ook [De invoegtoepassing voor voorraadzichtbaarheid installeren](#install-add-in)).
+1. Selecteer **Verwijderen**.
+1. Als u de installatie ongedaan maakt, wordt de invoegtoepassing voor Voorraadzichtbaarheid beëindigd, wordt de invoegtoepassing voor LCS ongedaan gemaakt en worden tijdelijke gegevens verwijderd die in de cache van de invoegtoepassing voor voorraadzichtbaarheid opgeslagen zijn. De primaire voorraadgegevens die in uw Dataverse-abonnement zijn gesynchroniseerd, worden echter niet verwijderd. Voer de rest of deze procedure uit om deze gegevens te verwijderen.
+1. Open [Power Apps](https://make.powerapps.com).
+1. Selecteer **Omgeving** op de navigatiebalk
+1. Selecteer de Dataverse-omgeving die aan uw LCS-omgeving is verbonden.
+1. Ga naar **Oplossingen** en verwijder de volgende oplossingen in deze volgorde:
+    1. Ankeroplossing voor de toepassing Voorraadzichtbaarheid in Dynamics 365-oplossingen
+    1. Oplossing voor Dynamics 365 FNO SCM Inventory Visibility-toepassingen
+    1. Configuratie van inventarisservice
+    1. Zelfstandige voorraadzichtbaarheid
+    1. Basisoplossing voor Dynamics 365 FNO SCM Inventory Visibility
+
+    Nadat u deze oplossingen hebt verwijderd, worden de gegevens die in tabellen zijn opgeslagen ook verwijderd.
+
+> [!NOTE]
+> Als u een Supply Chain Management-database herstelt nadat u de invoegtoepassing Voorraadzichtbaarheid hebt verwijderd en vervolgens de invoegtoepassing opnieuw wilt installeren, moet u voordat u de invoegtoepassing opnieuw installeert, de oude gegevens van voorraadzichtbaarheid verwijderen die in uw Dataverse-abonnement zijn opgeslagen (zoals is beschreven in de vorige procedure). Op deze manier voorkomt u mogelijke inconsistentieproblemen met gegevens.
+
+## <a name="clean-inventory-visibility-data-from-dataverse-before-restoring-the-supply-chain-management-database"></a><a name="restore-environment-database"></a>Gegevens van voorraadzichtbaarheid opschonen in Dataverse voordat de Supply Chain Management-database wordt hersteld
+
+Als u voorraadzichtbaarheid hebt gebruikt en uw Supply Chain Management-database vervolgens herstelt, bevat de herstelde database mogelijk gegevens die niet langer consistent zijn met gegevens die eerder door Voorraadzichtbaarheid zijn gesynchroniseerd met Dataverse. Deze gegevensinconsistentie kan systeemfouten en andere problemen veroorzaken. Het is daarom belangrijk dat u altijd alle gegevens van voorraadzichtbaarheid opschoont uit Dataverse voordat u een Supply Chain Management-database herstelt.
+
+Gebruik de volgende procedure als u een Supply Chain Management-database wilt herstellen:
+
+1. Verwijder de invoegtoepassing Voorraadzichtbaarheid en verwijder alle samenhangende gegevens in Dataverse, zoals beschreven in [De invoegtoepassing Voorraadzichtbaarheid verwijderen](#uninstall-add-in)
+1. Herstel uw Supply Chain Management-database, bijvoorbeeld zoals wordt beschreven in [Tijdgebonden databaseherstel (PITR)](../../fin-ops-core/dev-itpro/database/database-point-in-time-restore.md) of [Tijdgebonden herstel van de productiedatabase naar een sandboxomgeving](../../fin-ops-core/dev-itpro/database/database-pitr-prod-sandbox.md).
+1. Als u deze nog steeds wilt gebruiken, installeert u de invoegtoepassing Voorraadzichtbaarheid opnieuw en stelt u deze in zoals beschreven in [De invoegtoepassing Voorraadzichtbaarheid installeren](#install-add-in) en [Integratie met voorraadzichtbaarheid instellen](#setup-inventory-visibility-integration)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

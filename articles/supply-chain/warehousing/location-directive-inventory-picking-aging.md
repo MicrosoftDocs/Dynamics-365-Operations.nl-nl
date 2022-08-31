@@ -2,7 +2,7 @@
 title: Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
 description: In dit artikel wordt uitgelegd hoe u de richtlijnen voor de FIFO- (First in, first out) en LIFO-locaties (last in, first out) gebruikt tijdens het orderverzamelen.
 author: Mirzaab
-ms.date: 07/15/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4ed1308ea36b731b156b518182846b60a59528d5
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219467"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335610"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
 
@@ -34,7 +34,7 @@ Wanneer de voorraad voor het eerst wordt ontvangen of gemaakt in het magazijn, w
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in, in deze volgorde:
 
-1. *Locatiestatus magazijn* (vanaf versie 10.0.29 is deze functie standaard ingeschakeld. Raadpleeg [Locatiestatus magazijn](warehouse-location-status.md) voor meer informatie.)
+1. *Locatiestatus magazijn* (vanaf versie 10.0.29 is deze functie verplicht en kunt u deze niet uitschakelen. Raadpleeg [Locatiestatus magazijn](warehouse-location-status.md) voor meer informatie.)
 1. *Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling*
 
 ## <a name="feature-requirements"></a>Functievereisten

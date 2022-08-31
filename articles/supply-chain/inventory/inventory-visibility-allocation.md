@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-13
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: ccc3a8c4b3d0649397b1d1f9139f7feebf39b02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f79497a24a5b4dd501bb0d13d9eaca7e98672533
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852500"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306109"
 ---
 # <a name="inventory-visibility-inventory-allocation"></a>Voorraadtoewijzing voor voorraadzichtbaarheid
 
@@ -63,12 +63,11 @@ De voorraadtoewijzingsfunctie bestaat uit de volgende onderdelen:
 - De vooraf gedefinieerde, toewijzingsgerelateerde gegevensbron, fysieke metingen en berekende metingen.
 - Aanpasbare toewijzingsgroepen met maximaal acht niveaus.
 - Een set API´s (Application Programming Interfaces) voor toewijzing:
-
-    - allocate
-    - reallocate
-    - unallocate
-    - consume
-    - query
+  - allocate
+  - reallocate
+  - unallocate
+  - consume
+  - query
 
 Het proces van het configureren van de toewijzingsfunctie heeft twee stappen:
 
@@ -84,23 +83,26 @@ De gegevensbron heeft de naam `@iv`.
 Dit zijn de eerste fysieke metingen:
 
 - `@iv`
-
-    - `@allocated`
-    - `@cumulative_allocated`
-    - `@consumed`
-    - `@cumulative_consumed`
+  - `@allocated`
+  - `@cumulative_allocated`
+  - `@consumed`
+  - `@cumulative_consumed`
 
 Dit zijn de eerste berekende metingen:
 
 - `@iv`
-
-    - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
+  - `@iv.@available_to_allocate` = `??` – `??` – `@iv.@allocated`
 
 ### <a name="add-other-physical-measures-to-the-available-to-allocate-calculated-measure"></a>Andere fysieke metingen toevoegen aan de berekende meting beschikbaar voor toewijzing
 
 Als u gebruik wilt maken van de toewijzing, moet u de berekende meting beschikbaar voor toewijzing (`@iv.@available_to_allocate`) instellen. U hebt bijvoorbeeld gegevensbron `fno` en meting `onordered`, gegevensbron `pos` en meting `inbound` en u wilt toewijzing uitvoeren op de voorhanden voorraad voor de som van `fno.onordered` en `pos.inbound` In dit geval moet `@iv.@available_to_allocate` `pos.inbound` en `fno.onordered` in de formule bevatten. Dit is een voorbeeld:
 
 `@iv.@available_to_allocate` = `fno.onordered` + `pos.inbound` – `@iv.@allocated`
+
+> [!NOTE]
+> Gegevensbron `@iv` is een vooraf gedefinieerde gegevensbron en de fysieke metingen die in `@iv` met prefix `@` worden gedefinieerd, zijn vooraf gedefinieerde metingen. Deze metingen zijn vooraf gedefinieerde configuraties voor de toewijzingsfunctie. U hoeft deze dus niet te wijzigen of te verwijderen omdat er onverwachte fouten optreden wanneer u de toewijzingsfunctie gebruikt.
+>
+> U kunt nieuwe fysieke metingen toevoegen aan de vooraf gedefinieerde meting `@iv.@available_to_allocate`, maar u moet de naam niet wijzigen.
 
 ### <a name="change-the-allocation-group-name"></a>De naam van de toewijzingsgroep wijzigen
 
@@ -136,7 +138,7 @@ Roep de API `Allocate` aan om een product met specifieke dimensies toe te wijzen
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -157,7 +159,7 @@ U wilt bijvoorbeeld een hoeveelheid van tien toewijzen voor product *Fiets*, sit
 {
     "id": "???",
     "productId": "Bike",
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -192,7 +194,7 @@ Gebruik de API `Reallocate` om een bepaalde toegewezen hoeveelheid naar een ande
         "groupB": "string",
         "groupC": "string"
     },
-    "targetGroups": {
+    "groups": {
         "groupD": "string",
         "groupE": "string",
         "groupF": "string"
@@ -218,7 +220,7 @@ U kunt bijvoorbeeld twee fietsen met de dimensies \[site=1, locatie=11, kleur=ro
         "customerGroup": "VIP",
         "region": "US"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "EU"
@@ -242,7 +244,7 @@ Gebruik de API `Consume` om de verbruikshoeveelheid voor toewijzing te boeken. U
     "id": "string",
     "productId": "string",
     "dimensionDataSource": "string",
-    "targetGroups": {
+    "groups": {
         "groupA": "string",
         "groupB": "string",
         "groupC": "string"
@@ -280,7 +282,7 @@ Nu worden drie fietsen verkocht en uit de toewijzingspool genomen. Als u deze ve
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"
@@ -326,7 +328,7 @@ Als u een hoeveelheid van 3 wilt verbruiken en deze hoeveelheid direct wilt rese
         "locationId": "11",
         "colorId": "red"
     },
-    "targetGroups": {
+    "groups": {
         "channel": "Online",
         "customerGroup": "VIP",
         "region": "US"

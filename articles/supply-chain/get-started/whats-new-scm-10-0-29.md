@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7f5691c5784b7b381ff805b0431d8adb1a25f1cb
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: d95cd9b55f473bed2e3fe69e63837040385f03ac
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266393"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334740"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.29 (oktober 2022)
 
@@ -72,12 +72,9 @@ In de volgende tabel worden functies weergegeven die verplicht zijn geworden of 
 
 De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewijzigd om algemeen beschikbaar te worden in versie 10.0.29. Deze wijziging geeft aan dat de functies nu worden aanbevolen voor gebruik in productieomgevingen. Deze functies zijn standaard uitgeschakeld, tenzij anders wordt aangegeven. Daarom moet u [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om ze in te schakelen als u ze wilt gebruiken.
 
-| Module | Functienaam | Status nieuwe functie |
+| Module | Functienaam | Nieuwe functiestatus |
 | --- | --- | --- |
-| Activabeheer | [Regels toepassen voor het groeperen van werkorders tijdens het uitvoeren van een onderhoudsplan](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) | Verplicht |
 | Activabeheer | [Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer](../production-control/production-floor-execution-configure.md) | Verplicht |
-| Activabeheer | [Verbeteringen voor op teller gebaseerd onderhoud](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) | Standaard ingeschakeld |
-| Activabeheer | [Werkorder factureren](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) | Verplicht |
 | Kostenbeheer | [Het label Annulering in Afsluiten en corrigeren wijzigen in Terugboeken](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse) | Verplicht |
 | Kostenbeheer | Versies met onderlinge kostprijsberekening van details van stuklijstberekening opschonen | Verplicht |
 | Kostenbeheer | [Opslag van artikelprijzen vergelijken](../cost-management/compare-item-price.md) | Verplicht |
@@ -102,7 +99,7 @@ De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewi
 | Voorraad- en magazijnbeheer | Het gebruik van maateenheid en eenheidshoeveelheid in voorraadjournalen | Verplicht |
 | Voorraad- en magazijnbeheer | Voorraadjournaal ontgrendelen | Verplicht |
 | Productie | [Automatisch verzamelen van materialen waarvoor magazijn is ingeschakeld voor automatisch geboekte orderverzamellijsten](whats-new-scm-10-0-23.md) | Algemeen beschikbaar |
-| Productie | Weergave van voorraaddimensies in de materialenlijst voor productieroutebewerkingen inschakelen | Standaard ingeschakeld |
+| Productie | Weergave van voorraaddimensies in de materialenlijst voor productieroutebewerkingen inschakelen | Verplicht |
 | Productie | [Schakel deze optie in als u batch- en serienummers wilt invoeren bij het gereedmelden vanaf het apparaat voor taakkaarten](../production-control/report-finished-job-device.md) | Standaard ingeschakeld |
 | Productie | Verbeterd verzamelen van catch weight-hoeveelheid voor productie | Standaard ingeschakeld |
 | Productie | [Taak zoeken voor de uitvoeringsinterface voor de werkvloer](../production-control/production-floor-execution-configure.md) | Verplicht |
@@ -127,20 +124,19 @@ De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewi
 | Hoofdplanning | [Geplande orders fiatteren met filters](../master-planning/planning-optimization/planned-order-firming.md) | Verplicht |
 | Hoofdplanning | [Geplande productieorders voor Planningsoptimalisatie](../master-planning/planning-optimization/production-planning.md) | Verplicht |
 | Hoofdplanning | [Inkoophandelsovereenkomsten voor planningsoptimalisatie](../master-planning/planning-optimization/purchase-trade-agreement.md) | Verplicht |
-| Hoofdplanning | Resourceplanning met onderhoud | Verplicht |
 | Hoofdplanning | [Opgeslagen weergaven voor geplande orders](saved-views-scm.md) | Verplicht |
 | Inkoopbeheer | Toeslagen van- en tot-bedragen op inkooporders | Verplicht |
 | Inkoopbeheer | Knop Distributie van opdracht tot inkoop opnieuw instellen uitschakelen | Standaard ingeschakeld |
 | Inkoopbeheer | [Het opnieuw instellen van inkoopgerelateerde werkstromen inschakelen](whats-new-scm-10-0-20.md) | Standaard ingeschakeld |
 | Inkoopbeheer | [Het aantal inkooporderregels per batchtaak beperken](whats-new-scm-10-0-27.md) | Standaard ingeschakeld |
 | Inkoopbeheer | [Financiële dimensies van de leverancier samenvoegen met financiële dimensies van actieve dimensiekoppeling op de inkooporder](whats-new-scm-10-0-25.md) | Verplicht |
+| Inkoopbeheer | [Geregistreerde hoeveelheden van producten in voorraad en restanten van niet-voorraadproducten voor ontvangstbewijzen en leveranciersfacturen boeken](whats-new-scm-10-0-26.md) | Algemeen beschikbaar |
 | Inkoopbeheer | [Oververbruik van algemene budgetreserveringen voorkomen als er meerdere opdrachten tot inkoop in een workflow zijn](whats-new-scm-10-0-21.md) | Standaard ingeschakeld |
 | Inkoopbeheer | [Verantwoordelijke partij voor inkoopovereenkomst](../procurement/purchase-agreements.md) | Verplicht |
 | Inkoopbeheer | [Opgeslagen weergaven voor inkooporders](saved-views-scm.md) | Verplicht |
 | Productgegevensbeheer | Voorverwerking van stuklijstrapport om time-out te voorkomen | Verplicht |
 | Productgegevensbeheer | Financiële dimensies standaard afzonderlijk bij gebruik van artikelsjablonen | Verplicht |
 | Productgegevensbeheer | Productdimensiegroepen inschakelen voor artikelsjablonen | Verplicht |
-| Productgegevensbeheer | [Verbeterde overname van kenmerken voor Beheer voor technische wijzigingen](../engineering-change-management/engineering-attributes-and-search.md) | Verplicht |
 | Productgegevensbeheer | Verbeteringen in entiteit voor artikel - streepjescode | Verplicht |
 | Productgegevensbeheer | Productvariantnamen opnieuw genereren op basis van nomenclatuur | Verplicht |
 | Productgegevensbeheer | [Opgeslagen weergaven voor vrijgegeven producten](saved-views-scm.md) | Verplicht |
@@ -161,27 +157,30 @@ De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewi
 | Verkoopbeheer en marketing | [Verkooporderbevestiging met één klik](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation) | Verplicht |
 | Transportbeheer | Niet-afstemming van vrachtfacturen uit vrachtfactuurregels zonder een geboekt leveranciersfactuurjournaal toestaan | Standaard ingeschakeld |
 | Transportbeheer | [Het maken van een leveranciersfactuurjournaal inschakelen wanneer een vrachtfactuur wordt genegeerd](whats-new-scm-10-0-20.md) | Standaard ingeschakeld |
-| Transportbeheer | [Kleine pakketten verzenden](../warehousing/small-parcel-shipping.md) | Standaard ingeschakeld |
+| Transportbeheer | [Kleine pakketten verzenden](../warehousing/small-parcel-shipping.md) | Verplicht |
 | Transportbeheer | [Document van USMCA-oorsprongscertificaat](../transportation/usmca-certification-of-origin.md) | Standaard ingeschakeld |
 | Magazijnbeheer | [Extra locatiezone](../warehousing/additional-location-zones.md) | Verplicht |
 | Magazijnbeheer | [Werk annuleren](../warehousing/cancel-warehouse-work.md) | Verplicht |
-| Magazijnbeheer | [Verzending consolideren](../warehousing/configure-shipment-consolidation-policies.md) | Standaard ingeschakeld |
+| Magazijnbeheer | [Verzending consolideren](../warehousing/configure-shipment-consolidation-policies.md) | Verplicht |
 | Magazijnbeheer | [overboekingsorders maken en verwerken vanuit de magazijnapp](../warehousing/create-transfer-order-from-warehouse-app.md) | Verplicht |
 | Magazijnbeheer | Sjablonen met locatie-instructies voor cross-docken | Standaard ingeschakeld |
-| Magazijnbeheer | [Opslagwerk loskoppelen van ASN's](whats-new-scm-10-0-21.md) | Standaard ingeschakeld |
-| Magazijnbeheer | [Uitgestelde put-bewerkingen](../warehousing/deferred-processing-manual-inventory-movement.md) | Standaard ingeschakeld |
+| Magazijnbeheer | [Opslagwerk loskoppelen van ASN's](whats-new-scm-10-0-21.md) | Verplicht |
+| Magazijnbeheer | [Uitgestelde put-bewerkingen](../warehousing/deferred-processing-manual-inventory-movement.md) | Verplicht |
 | Magazijnbeheer | Uitgestelde plaatsingsbewerking - container | Standaard ingeschakeld |
 | Magazijnbeheer | Uitgestelde plaatsingsverwerking – inschakelen voor auditsjabloonfunctie waarvan de triggergebeurtenis is ingesteld op Voorafgaand. | Verplicht |
 | Magazijnbeheer | [Verwachte ontvangsten van kwaliteitsorders uitschakelen die een voorbeeld van geblokkeerde voorraad bieden](../inventory/inventory-blocking.md) | Standaard ingeschakeld |
 | Magazijnbeheer | Snelle validatie voor mobiele magazijnapparaten inschakelen | Verplicht |
-| Magazijnbeheer | [Flexibele dimensiereservering op magazijnniveau](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Standaard ingeschakeld |
-| Magazijnbeheer | [Flexibele reservering van voor order vastgelegde nummerplaat](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Standaard ingeschakeld |
-| Magazijnbeheer | [Visualisatie van uitgaande workload](../warehousing/outbound-workload-visualization.md) | Verplicht |
+| Magazijnbeheer | [Verbeterde parser voor GS1-streepjescodes](../warehousing/gs1-barcodes.md) | Algemeen beschikbaar |
+| Magazijnbeheer | [Flexibele reservering van voor order vastgelegde nummerplaat](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Verplicht |
+| Magazijnbeheer | [Flexibele dimensiereservering op magazijnniveau](../warehousing/flexible-warehouse-level-dimension-reservation.md) | Verplicht |
 | Magazijnbeheer | [Locatiegebruik artikelconsolidatie](../warehousing/item-consolidation-location-utilization.md) | Standaard ingeschakeld |
 | Magazijnbeheer | Ontvangstgeschiedenis nummerplaat | Standaard ingeschakeld |
 | Magazijnbeheer | [Handmatige zendingsconsolidatie](../warehousing/consolidate-shipments-manual-workbench.md) | Standaard ingeschakeld |
+| Magazijnbeheer | [Handmatige orderverzamelactiviteit van transferregels voor beheerder of soortgelijke vertrouwde gebruikers](whats-new-scm-10-0-28.md) | Algemeen beschikbaar |
 | Magazijnbeheer | [Interface voor materiaalverwerkingsapparatuur](../warehousing/mhax.md) | Verplicht |
-| Magazijnbeheer | [Gepland cross-docken](../warehousing/planned-cross-docking.md) | Standaard ingeschakeld |
+| Magazijnbeheer | [Nieuwe workbenchpagina's voor ladingplanning](whats-new-scm-10-0-24.md) | Algemeen beschikbaar |
+| Magazijnbeheer | [Visualisatie van uitgaande workload](../warehousing/outbound-workload-visualization.md) | Verplicht |
+| Magazijnbeheer | [Gepland cross-docken](../warehousing/planned-cross-docking.md) | Verplicht |
 | Magazijnbeheer | [Gebeurtenissen in magazijnapp verwerken](../warehousing/warehouse-app-events.md) | Verplicht |
 | Magazijnbeheer | Verbetering in query's voor werksjabloon voor wegzetten van co- en bijproducten | Verplicht |
 | Magazijnbeheer | [Hoeveelheden afronden naar dichtstbijzijnde verkoopeenheid bij vrijgave aan magazijn](whats-new-scm-10-0-19.md) | Verplicht |
@@ -190,13 +189,14 @@ De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewi
 | Magazijnbeheer | [Opgeslagen weergave voor de verwerking van waves](saved-views-scm.md) | Verplicht |
 | Magazijnbeheer | [Opgeslagen weergaven voor de verwerking van ladingen](saved-views-scm.md) | Verplicht |
 | Magazijnbeheer | [Opgeslagen weergaven voor verzendingsverwerking](saved-views-scm.md) | Verplicht |
-| Magazijnbeheer | Details van zendingswavelabels | Standaard ingeschakeld |
+| Magazijnbeheer | [GS1-streepjescode scannen](../warehousing/gs1-barcodes.md) | Algemeen beschikbaar |
+| Magazijnbeheer | Details van zendingswavelabels | Verplicht |
 | Magazijnbeheer | [Ruimte met gemengde eenheden](whats-new-scm-10-0-21.md) | Verplicht |
 | Magazijnbeheer | [Snellere API gebruiken voor het sluiten/heropenen van containers op inpakstation](whats-new-scm-10-0-21.md) | Standaard ingeschakeld |
 | Magazijnbeheer | [Sjablonen valideren die zijn geselecteerd voor aanvullingstaken](whats-new-scm-10-0-20.md) | Standaard ingeschakeld |
-| Magazijnbeheer | [Gepropageerde velden van magazijnapp](../warehousing/warehouse-app-promoted-fields.md) | Standaard ingeschakeld |
-| Magazijnbeheer | [Stapinstructies van magazijnapp](../warehousing/mobile-app-titles-instructions.md) | Standaard ingeschakeld |
-| Magazijnbeheer | [Status magazijnlocatie](../warehousing/warehouse-location-status.md) | Standaard ingeschakeld |
+| Magazijnbeheer | [Gepropageerde velden van magazijnapp](../warehousing/warehouse-app-promoted-fields.md) | Verplicht |
+| Magazijnbeheer | [Stapinstructies van magazijnapp](../warehousing/mobile-app-titles-instructions.md) | Verplicht |
+| Magazijnbeheer | [Status magazijnlocatie](../warehousing/warehouse-location-status.md) | Verplicht |
 | Magazijnbeheer | [Omleidingen van Warehouse Management-app](../warehousing/warehouse-app-detours.md) | Standaard ingeschakeld |
 | Magazijnbeheer | [Details van wavebatchtaken](../warehousing/wave-processing.md) | Verplicht |
 | Magazijnbeheer | [Meldingen voor uitvoering van wave](../warehousing/wave-execution-notifications.md) | Verplicht |

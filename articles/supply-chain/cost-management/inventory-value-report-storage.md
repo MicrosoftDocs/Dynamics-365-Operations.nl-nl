@@ -2,7 +2,7 @@
 title: Voorraadwaardenrapporten
 description: In dit artikel wordt uitgelegd hoe u voorraadwaardenrapporten instelt, genereert en gebruikt. Deze rapporten geven informatie over de fysieke en financiële hoeveelheden en bedragen in uw voorraad.
 author: JennySong-SH
-ms.date: 10/19/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3128abb25fdb8f8e01b4d1fe153f5b5fff6cb706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854553"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334920"
 ---
 # <a name="inventory-value-reports"></a>Voorraadwaardenrapporten
 
@@ -55,7 +55,7 @@ Het rapport **Opslag van voorraadwaardenrapport** is handig wanneer de uitvoer v
 
 ## <a name="turn-the-inventory-value-report-storage-feature-on-or-off"></a>De functie Opslag voorraadwaardenrapport in- of uitschakelen
 
-Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Opslag voorraadwaardenrapport* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Opslag voorraadwaardenrapport* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="define-inventory-value-report-configurations"></a><a name="report-configuration"></a>Configuraties van het voorraadwaardenrapport definiëren
 

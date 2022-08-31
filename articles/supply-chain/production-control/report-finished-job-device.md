@@ -2,7 +2,7 @@
 title: Gereedmelden via het apparaat voor taakkaarten
 description: In dit artikel wordt beschreven hoe u het systeem zo configureert dat gebruikers van een apparaat voor taakkaarten producten van een productieorder naar de voorraad kunnen gereedmelden.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070464"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334620"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Gereedmelden via het apparaat voor taakkaarten
 
@@ -56,13 +56,12 @@ Het apparaat voor taakkaarten ondersteunt drie scenario's voor het rapporteren v
 - **Vooraf gedefinieerde batchnummers:** werknemers selecteren een batchnummer in een lijst met batchnummers die automatisch door het systeem worden gegenereerd voordat de productieorder wordt vrijgegeven naar het apparaat voor taakkaarten.
 - **Vaste batchnummers:** werknemers typen of selecteren geen batchnummer. In plaats daarvan wijst het systeem automatisch een batchnummer toe aan de productieorder voordat deze wordt vrijgegeven.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>De functie inschakelen op uw systeem
 
-Om ervoor te zorgen dat uw apparaat voor taakkaarten een batchnummer kan accepteren tijdens de gereedmelding, moet u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de volgende functies in te schakelen (in deze volgorde):
+Om ervoor te zorgen dat uw apparaat voor taakkaarten een batchnummer kan accepteren tijdens de gereedmelding, moet u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de volgende functies in te schakelen:
 
-1. Verbeterde gebruikerservaring voor het rapportvoortgangsvenster op het apparaat voor taakkaart
-1. Schakel deze optie in als u batch- en serienummers wilt invoeren bij het gereedmelden vanaf het apparaat voor taakkaarten
+- *Verbeterde gebruikerservaring voor het rapportvoortgangsvenster op het apparaat voor taakkaart*
+- *Schakel deze optie in als u batch- en serienummers wilt invoeren bij het gereedmelden vanaf het apparaat voor taakkaarten*<br>(Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld.)
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Producten configureren waarvoor rapportage van batchnummers nodig is
 
@@ -137,10 +136,10 @@ Het apparaat voor taakkaarten ondersteunt drie scenario's voor het rapporteren v
 
 ### <a name="enable-the-feature-on-your-system"></a>De functie inschakelen op uw systeem
 
-Om ervoor te zorgen dat uw apparaat voor taakkaarten een serienummer kan accepteren tijdens de gereedmelding, moet u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de volgende functies in te schakelen (in deze volgorde):
+Om ervoor te zorgen dat uw apparaat voor taakkaarten een serienummer kan accepteren tijdens de gereedmelding, moet u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de volgende functies in te schakelen:
 
-1. Verbeterde gebruikerservaring voor het rapportvoortgangsvenster op het apparaat voor taakkaart
-1. Schakel deze optie in als u batch- en serienummers wilt invoeren bij het gereedmelden vanaf het apparaat voor taakkaarten
+- *Verbeterde gebruikerservaring voor het rapportvoortgangsvenster op het apparaat voor taakkaart*
+- *Schakel deze optie in als u batch- en serienummers wilt invoeren bij het gereedmelden vanaf het apparaat voor taakkaarten*<br>(Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld.)
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Producten configureren waarvoor rapportage van serienummers nodig is
 

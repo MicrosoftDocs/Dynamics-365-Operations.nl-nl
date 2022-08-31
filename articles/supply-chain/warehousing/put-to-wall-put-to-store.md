@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af6dcb6d822ab14b0b4b881ca32626ea6eae4c28
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909638"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334501"
 ---
 # <a name="put-to-wall---put-to-store"></a>Put to wall - put to store
 
@@ -32,7 +32,7 @@ Voor deze magazijn functionaliteit wordt ook naar andere namen verwezen, zoals '
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>De functie voor uitgaande sortering inschakelen
 
-Voordat u de functie *Put to wall - put to store* gebruikt, moet de functie *Uitgaande sortering* worden ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Voordat u de functie *Put to wall - put to store* gebruikt, moet de functie *Uitgaande sortering* worden ingeschakeld voor uw systeem. Beheerders kunnen de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Uitgaande sortering*

@@ -14,17 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40f9607fb6fc16b96373141d8d2610538e3fdec7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b752b722bf63958fc35b10a4612f7f02e2e8e717
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886097"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336924"
 ---
 # <a name="configure-the-absence-manager-role"></a>De rol van verzuimmanager configureren
 
->[!Important]
->De functionaliteit die in dit artikel wordt vermeld, is momenteel beschikbaar voor klanten van de zelfstandige versie van Dynamics 365 Human Resources. Sommige of alle functionaliteit is beschikbaar als onderdeel van een toekomstige versie van de Finance-infrastructuur na versie 10.0.26 van Finance.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +35,6 @@ In sommige organisaties beheren peoplemanagers het verlof voor hun team mogelijk
 ## <a name="turn-on-the-feature"></a>De functie inschakelen
 
 1. Selecteer in de werkruimte **Systeembeheer** de optie **Functiebeheer**.
-
 2. Schakel op het tabblad **Functiebeheer** de functie **Verlof laten beheren door een verzuimmanager** in.
 
 ## <a name="define-a-custom-hierarchy"></a>Een aangepaste hiërarchie definiëren
@@ -45,37 +42,26 @@ In sommige organisaties beheren peoplemanagers het verlof voor hun team mogelijk
 De functionaliteit voor verzuimbeheer maakt gebruik van een aangepaste hiërarchie die moet worden geconfigureerd.
 
 1. Selecteer in de werkruimte **Organisatiebeheer** de optie **Positiehiërarchietypen**.
-
 2. Maak een positiehiërarchietype met de naam **Verlof**.
-
 3. Selecteer in de werkruimte **Verlof en verzuim** onder **Koppelingen** de optie **Parameters voor verlof en verzuim**.
-
 4. Selecteer op het tabblad **Algemeen** in de vervolgkeuzelijst **Verzuimhiërarchie** het hiërarchietype **Verlof** dat u eerder hebt gemaakt. Deze koppeling van verlofhiërarchie moet worden voltooid voor elke rechtspersoon waar de functionaliteit van verzuimbeheer wordt gebruikt.
 
 Nadat het hiërarchietype is gedefinieerd, moet het positiehiërarchierapport aan de positie worden toegewezen.
 
 1. Selecteer in de werkruimte **Organisatiebeheer** de optie **Alle posities**.
-
 2. Selecteer de positie waaraan u de verlofhiërarchie wilt toevoegen.
-
 3. Selecteer **Toevoegen** op het tabblad **Relaties**.
-
 4. Selecteer **Verlof** in het veld **Hiërarchienaam**.
-
 5. Selecteer een positie in het veld **Verantwoording aan positie**. De naam van de werknemer wordt automatisch ingevuld nadat u een positie hebt geselecteerd.
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>De rol van verzuimmanager aan een gebruiker toewijzen
 
 De rol van verzuimmanager moet aan werknemers worden toegewezen om verlofaanvragen goed of af te keuren.
 
-1. Selecteer **Koppelingen** in de werkruimte **Systeembeheerder**.
-
+1. Selecteer **Koppelingen** in de werkruimte **Systeembeheer**.
 2. Selecteer de koppeling **Gebruikers** in de sectie **Gebruikers**.
-
 3. Selecteer in de lijst met gebruikers de gebruiker aan wie u de rol van verzuimmanager wilt toewijzen.
-
 4. Selecteer op het tabblad **Rol van gebruiker** de optie **Rollen toewijzen**.
-
 5. Selecteer de rol **Verzuimmanager** in de lijst. Selecteer vervolgens **OK**.
 
     > [!IMPORTANT]
@@ -84,7 +70,6 @@ De rol van verzuimmanager moet aan werknemers worden toegewezen om verlofaanvrag
 6. Nadat u de verlofhiërarchie hebt gemaakt, kunt u deze weergeven door de volgende stappen uit te voeren:
 
     1. Selecteer in de werkruimte **Organisatiebeheer** de optie **Positiehiërarchie**.
-    
     2. Selecteer **Verlof** in het veld **Hiërarchietype**.
 
 ## <a name="absence-manager-workspace"></a>Werkgebied verzuimbeheer
@@ -115,9 +100,7 @@ Verzuimmanagers kunnen verlofaanvragen voor werknemers goed- of afkeuren.
 > Zie [Een werkstroom voor een verlofaanvraag maken](hr-leave-and-absence-workflow.md) voor meer informatie over het maken van de werkstroom voor verlofaanvragen.
 
 1. Selecteer in de werkruimte **Selfservice werknemer** het tabblad **Verlofbeheer**.
-
 2. Selecteer op het tabblad **Verlofaanvragen** de verlofaanvragen waar u actie op wilt ondernemen. U kunt in deze lijstweergave meerdere records selecteren.
-
 3. Met de actieknoppen boven aan het raster kunt u een verlofaanvraag goedkeuren, weigeren of delegeren. 
 
 De gebruiker kan ook de tegel voor **verlofaanvragen** aan de linkerkant gebruiken om naar de lijst met alle werkitems met verlofaanvragen te navigeren. 
@@ -130,9 +113,7 @@ Gebruikers met de rol van verzuimmanager kunnen verlofaanvragen op hun kalender 
 > Een systeembeheerder moet de weergaveopties configureren voor de kalender van de verzuimmanager. Op de pagina **Verlof- en verzuimparameters** op het tabblad **Kalender** kunt u verjaardagen, verzuim zonder details, verlof en uitstaande verlofaanvragen verbergen of weergeven. Er is ook een optie om de kalenderweergaveoptie te filteren op werknemertype.
 
 1. Selecteer in de werkruimte **Selfservice werknemer** **Verlofbeheer** en vervolgens **Kalender verzuimmanager**.
-
 2. Voer in het veld **Datum** de gewenste datum in.
-
 3. Werk waar nodig de weergaveopties bij.
 
 De kalender van de verzuimmanager bevat alle records voor de werknemers die rapporteren aan de verzuimmanager in de verlofhiërarchie.

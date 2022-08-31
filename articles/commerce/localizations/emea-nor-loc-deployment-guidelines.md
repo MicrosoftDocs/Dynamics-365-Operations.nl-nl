@@ -1,83 +1,65 @@
 ---
-ms.openlocfilehash: b17bd56f9f3e4def341658626915adbd7f5aada6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+title: Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd)
+description: Dit artikel is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen.
+author: EvgenyPopovMBS
+ms.date: 08/23/2022
+ms.topic: article
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
+ms.search.region: Global
+ms.author: josaw
+ms.search.validFrom: 2018-2-28
+ms.openlocfilehash: fb597add48ac3508a88142e63d80f405b6b5f8b4
+ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281533"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9346040"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway-legacy"></a>Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd)
----
 
-titel: Implementatierichtlijnen voor kassa's voor Noorwegen (verouderd) [!include [banner](../includes/banner.md)]
-omschrijving: Dit artikel is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen.
+[!include [banner](../includes/banner.md)]
 
-auteur: EvgenyPopovMBS Dit artikel is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen. De lokalisatie bestaat uit verschillende extensies van Commerce-onderdelen. Met de extensies kunt u bijvoorbeeld aangepaste velden afdrukken op ontvangstbewijzen, extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en X- en Z-rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen.
-ms.datum: 20-12-2021
+> [!WARNING]
+> Deze voorbeeldfunctionaliteit voor fiscale integratie maakt geen gebruik van het [fiscale integratieraamwerk](./fiscal-integration-for-retail-channel.md) en is verouderd in latere updates. U moet in plaats daarvan de [functionaliteit gebruiken die is gebaseerd op het fiscale integratieraamwerk](./emea-nor-fi-deployment.md).
 
-ms.topic: artikel Dit voorbeeld maakt deel uit van de Retail Software Development Kit (SDK). Zie de [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK.
-doelgroep: Gebruiker toepassing, Developer, IT Pro
+Dit artikel is een implementatiehandleiding die laat zien hoe u de lokalisatie van Microsoft Dynamics 365 Commerce voor Noorwegen kunt inschakelen. De lokalisatie bestaat uit verschillende extensies van Commerce-onderdelen. Met de extensies kunt u bijvoorbeeld aangepaste velden afdrukken op ontvangstbewijzen, extra controlegebeurtenissen, verkooptransacties en betalingstransacties registreren in POS (Point-of-Sale), verkooptransacties digitaal ondertekenen en X- en Z-rapporten afdrukken in lokale indelingen. Zie [Kassafunctionaliteit voor Noorwegen](./emea-nor-cash-registers.md) voor meer informatie over de lokalisatie voor Noorwegen.
 
-ms.reviewer: v-chgriffin Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT), Retail Server en POS. Als u dit voorbeeld wilt uitvoeren, moet u de CRT-, Retail Server- en POS-projecten wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit artikel worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Microsoft Visual Studio Online (VSO) wanneer er nog geen bestanden zijn gewijzigd.
-ms.search.region: Globaal
+Dit voorbeeld maakt deel uit van de Retail Software Development Kit (SDK). Zie de [Architectuur van Retail SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md) voor informatie over het installeren en gebruiken van de SDK.
 
-ms.author: josaw
+Dit voorbeeld bestaat uit extensies voor Commerce runtime (CRT), Retail Server en POS. Als u dit voorbeeld wilt uitvoeren, moet u de CRT-, Retail Server- en POS-projecten wijzigen en bouwen. Het is raadzaam een niet-geverifieerde Retail SDK te gebruiken om de wijzigingen aan te brengen die in dit artikel worden beschreven. Het wordt ook aangeraden een broncontrolesysteem te gebruiken, zoals Microsoft Visual Studio Online (VSO) wanneer er nog geen bestanden zijn gewijzigd.
+
 > [!NOTE]
-ms.search.validFrom:2018-02-28 In Commerce 10.0.8 en hoger staat Retail Server bekend als Commerce Scale Unit. Aangezien dit artikel van toepassing is op meerdere eerdere versies van de app, wordt overal in het artikel *Retail Server* gebruikt.
+> In Commerce 10.0.8 of hoger staat Retail Server bekend als Commerce Scale Unit. Aangezien dit artikel van toepassing is op meerdere eerdere versies van de app, wordt overal in het artikel *Retail Server* gebruikt.
 >
----
 > Sommige stappen in de procedures in dit artikel verschillen, afhankelijk van de versie van Commerce die u gebruikt. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Retail](../get-started/whats-new.md) voor meer informatie.
 
-
-6. Werk het configuratiebestand voor Retail Server bij. Voeg de volgende regels toe aan de sectie **extensionComposition** van het configuratiebestand **RetailSDK\\Packages\\RetailServer\\Code\\web.config**.
 ### <a name="using-certificate-profiles-in-commerce-channels"></a>Certificaatprofielen gebruiken in Commerce-kanalen
 
-
-    ``` xml
 In Commerce-versies 10.0.15 en hoger kunt u de functie [Door gebruiker gedefinieerde certificaatprofielen voor winkels](./certificate-profiles-for-retail-stores.md) gebruiken die van failover tot offline ondersteunt wanneer de Sleutelkluis of Commerce Headquarters niet beschikbaar zijn. Met deze functie wordt de functie [Geheimen voor detailhandelkanalen beheren](../dev-itpro/manage-secrets.md) uitgebreid.
-    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
 
-    ```
 Voer de volgende stappen uit om deze functionaliteit toe te passen in de CRT-extensie.
 
-
-7. Voer **msbuild** uit voor de hele Retail SDK om implementeerbare pakketten te maken.
 1. Maak een nieuw CRT-extensieproject (projecttype C#-klassebibliotheek). Gebruik de voorbeeldsjablonen van de Retail Software Development Kit (SDK) (RetailSDK\SampleExtensions\CommerceRuntime).
-8. Pas de pakketten toe via Microsoft Dynamics Lifecycle Services (LCS) of handmatig. Zie [Implementeerbare pakketten maken](../dev-itpro/retail-sdk/retail-sdk-packaging.md) voor meer informatie.
-
 
 2. Aangepaste handler toevoegen voor CertificateSignatureServiceRequest in het project SequentialSignatureRegister.
-### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>De digitale handtekening inschakelen in de offline modus voor Modern POS
-
 
 3. Voor het lezen van een geheime aanroep, `GetUserDefinedSecretCertificateServiceRequest` met behulp van een constructor met profileId-parameter. Hiermee wordt de functionaliteit gestart met instellingen uit certificaatprofielen. Op basis van de instellingen wordt het certificaat opgehaald uit Azure Key Vault of lokale machineopslag.
-Als u de digitale handtekening wilt inschakelen in de offline modus voor Modern POS, moet u deze stappen volgen nadat u Modern POS hebt geactiveerd op een nieuw apparaat.
-
 
     ```csharp
-1. Sign in to POS.
     GetUserDefinedSecretCertificateServiceRequest getUserDefinedSecretCertificateServiceRequest = new GetUserDefinedSecretCertificateServiceRequest(profileId: "ProfileId", secretName: null, thumbprint: null, expirationInterval: null);
-2. On the **Database connection status** page, make sure that the offline database is fully synchronized. When the value of the **Pending downloads** field is **0** (zero), the database is fully synchronized.
     GetUserDefinedSecretCertificateServiceResponse getUserDefinedSecretCertificateServiceResponse = request.RequestContext.Execute<GetUserDefinedSecretCertificateServiceResponse>(getUserDefinedSecretCertificateServiceRequest);
-3. Sign out of POS.
 
-4. Wait a while for the offline database to be fully synchronized.
     X509Certificate2 Certificate = getUserDefinedSecretCertificateServiceResponse.Certificate;
-5. Sign in to POS.
     ```
-6. Zorg er op de pagina **Databaseverbindingsstatus** voor dat de offline database volledig is gesynchroniseerd. Wanneer de waarde van het veld **Transacties zijn in behandeling in offlinedatabase** gelijk is aan **0** (nul), is de database volledig gesynchroniseerd.
 
-7. Start Modern POS opnieuw.
 4. Ga door met het ondertekenen van gegevens nadat het certificaat is opgehaald.
 
-
-
 5. Bouw het CRT-extensieproject.
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
-6. Kopieer de uitvoerklassebibliotheek en plak deze in ...\RetailServer\webroot\bin\Ext voor handmatig testen.
+6. Kopieer de uitvoerklassebibliotheek en plak deze in ...\RetailServer\webroot\bin\Ext voor handmatig testen.
 
-7. Werk in het bestand CommerceRuntime.Ext.config het gedeelte voor het samenstellen van de extensie bij met de aangepaste bibliotheekgegevens.
+7. Werk in het bestand CommerceRuntime.Ext.config de sectie voor het samenstellen van de extensie bij met de aangepaste bibliotheekgegevens.
 
 ## <a name="development-environment"></a>Ontwikkelingsomgeving
 
@@ -1633,3 +1615,27 @@ Volg deze stappen om implementeerbare pakketten te maken die Commerce-onderdelen
     Het bestand heeft de naam **Contoso.Commerce.Runtime.SequentialSignatureRegister.dll.config** en bevindt zich onder **Extensions.SequentialSignatureRegister\\bin\\Debug**.
 
     ---
+
+6. Werk het configuratiebestand voor Retail Server bij. Voeg de volgende regels toe aan de sectie **extensionComposition** van het configuratiebestand **RetailSDK\\Packages\\RetailServer\\Code\\web.config**.
+
+    ``` xml
+    <add source="assembly" value="Contoso.RetailServer.SalesTransactionSignatureSample" />
+    ```
+
+7. Voer **msbuild** uit voor de hele Retail SDK om implementeerbare pakketten te maken.
+8. Pas de pakketten toe via Microsoft Dynamics Lifecycle Services (LCS) of handmatig. Zie [Implementeerbare pakketten maken](../dev-itpro/retail-sdk/retail-sdk-packaging.md) voor meer informatie.
+
+### <a name="enable-the-digital-signature-in-offline-mode-for-modern-pos"></a>De digitale handtekening inschakelen in de offline modus voor Modern POS
+
+Als u de digitale handtekening wilt inschakelen in de offline modus voor Modern POS, moet u deze stappen volgen nadat u Modern POS hebt geactiveerd op een nieuw apparaat.
+
+1. Meld u aan bij POS.
+2. Zorg er op de pagina **Databaseverbindingsstatus** voor dat de offline database volledig is gesynchroniseerd. Wanneer de waarde van het veld **Downloads in behandeling** gelijk is aan **0** (nul), is de database volledig gesynchroniseerd.
+3. Meld u af bij POS.
+4. Wacht een ogenblik tot de offline database volledig is gesynchroniseerd.
+5. Meld u aan bij POS.
+6. Zorg er op de pagina **Databaseverbindingsstatus** voor dat de offline database volledig is gesynchroniseerd. Wanneer de waarde van het veld **Transacties zijn in behandeling in offlinedatabase** gelijk is aan **0** (nul), is de database volledig gesynchroniseerd.
+7. Start Modern POS opnieuw.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

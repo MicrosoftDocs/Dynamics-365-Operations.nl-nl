@@ -2,7 +2,7 @@
 title: Gegevens met de omleidingen van de mobiele app Warehouse Management
 description: Dit artikel beschrijft hoe u menuopdrachten voor gegevensaanvragen op mobiele apparaten kunt configureren en gebruiken als onderdeel van omleidingen.
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220536"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336600"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Gegevens met de omleidingen van de mobiele app Warehouse Management
 
@@ -35,19 +35,19 @@ In de stroom voor inkooporderontvangst is bijvoorbeeld een inkoopordernummer ver
 Voordat u de functionaliteit kunt gebruiken die in dit artikel wordt beschreven, moet u de volgende procedure uitvoeren om de vereiste functies in te schakelen.
 
 1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**. Raadpleeg [Overzicht functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie over het gebruik van de werkruimte **Functiebeheer**.
-1. Schakel de functie in die op de volgende manier wordt weergegeven:
+1. Als u Supply Chain Management versie 10.0.28 of eerder gebruikt, schakelt u de functie in die als volgt wordt weergegeven:
 
     - **Module:** *Warehouse Management*
     - **Functienaam:** *Schakel de stapinstructiesfunctie van de Warehouse-app in*
 
-    Deze functie is een vereiste voor de functie *Gegevensonderzoeksstroom in de app Warehouse Management*. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md).
+    Deze functie is een vereiste voor de functie *Gegevensonderzoeksstroom in de app Warehouse Management*. Vanaf Supply Chain Management versie 10.0.29 is dit verplicht en deze functie kan niet worden uitgeschakeld. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md).
 
 1. Schakel de functie in die op de volgende manier wordt weergegeven:
 
     - **Module:** *Warehouse Management*
     - **Functienaam:** *Omleidingen van app Warehouse Management*
 
-    Deze functie is een vereiste voor de functie *Gegevensonderzoeksstroom in de app Warehouse Management*. Raadpleeg [Omleidingen configureren voor stappen in menuopdrachten van mobiele apparaten](warehouse-app-detours.md) voor meer informatie over de functie *Omleidingen van de app Warehouse management*.
+    Deze functie is een vereiste voor de functie *Gegevensonderzoeksstroom in de app Warehouse Management*. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Raadpleeg [Omleidingen configureren voor stappen in menuopdrachten van mobiele apparaten](warehouse-app-detours.md) voor meer informatie over de functie *Omleidingen van de app Warehouse management*.
 
 1. Als de functie *Omleidingen van de app Warehouse Management* niet al was ingeschakeld, werk dan de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Warehouse management \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling aanmaken** te selecteren. Herhaal deze stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
 1. Schakel de functie in die op de volgende manier wordt weergegeven:
