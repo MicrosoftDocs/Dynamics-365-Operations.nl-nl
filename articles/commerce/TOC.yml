@@ -466,6 +466,8 @@
                           items:
                             - name: Ondersteuning voor externe geschenkbonnen
                               href: dev-itpro/gift-card.md
+                            - name: Delen van gegevens tussen meerdere bedrijven voor geschenkbonnen
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Recorder en Regression Suite Automation Tool voor Cloud POS testen
