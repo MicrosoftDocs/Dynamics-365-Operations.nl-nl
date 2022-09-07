@@ -2,7 +2,7 @@
 title: Sneltoetsen
 description: Dit artikel biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met apps voor financiën en bedrijfsactiviteiten werkt.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140434"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357572"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
@@ -135,10 +135,10 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | Horizontaal schuiven                                                                                                   | Shift + muiswiel             |
 | Naar de volgende/vorige kolom gaan                                                                                       | Tabtoets/Shift+Tabtoets                 |
 | Naar het volgende/vorige rij gaan                                                                                          | Pijl-omlaag/Pijl-omhoog           |
-| Naar de volgende/vorige rij gaan zonder te selecteren<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote> | Ctrl+Pijl-omhoog/Ctrl+Pijl-omlaag |
-| De huidige rij selecteren/wissen<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote>                    | Ctrl+Spatiebalk/Ctrl+Klik         |
-| De volgende/vorige rij toevoegen aan de geselecteerde set<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote>   | Shift+spatie                     |
-| Een bereik aan rijen toevoegen aan de geselecteerde set<blockquote>[!NOTE] Deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.</blockquote>         | Shift+Klik                     |
+| Naar de volgende/vorige rij gaan zonder te selecteren<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties. | Ctrl+Pijl-omhoog/Ctrl+Pijl-omlaag |
+| De huidige rij selecteren/wissen<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.                   | Ctrl+Spatiebalk/Ctrl+Klik         |
+| De volgende/vorige rij toevoegen aan de geselecteerde set<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.  | Shift+spatie                     |
+| Een bereik aan rijen toevoegen aan de geselecteerde set<br><br>**Opmerking:** deze sneltoets is alleen van toepassing in scenario's met meerdere selecties.         | Shift+Klik                     |
 | Naar de volgende/vorige pagina met gegevens gaan                                                                                   | Page Up/Page Down             |
 | Een nieuwe rij maken onder in het raster                                                                             | Pijl-omlaag (vanuit de laatste rij)  |
 | Naar de eerste registratie gaan                                                                                               | Ctrl+Home                       |
@@ -148,7 +148,7 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | Naar de volgende gemarkeerde rij gaan                                                                                            | Alt+Shift+M, L                  |
 | Naar de vorige gemarkeerde rij gaan                                                                                        | Alt+Shift+M, P                  |
 | Naar de laatste gemarkeerde rij gaan                                                                                           | Alt+Shift+M, N                  |
-| De standaardactie uitvoeren in een raster<blockquote>[!NOTE] Deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten.</blockquote> | Enter                           |
+| De standaardactie uitvoeren in een raster<br><br>**Opmerking:** deze sneltoets is ingeschakeld wanneer de focus zich op een cel met een hyperlink bevindt en alle cellen in die kolom hyperlinks bevatten. | Enter                           |
 | Schakelen tussen de geselecteerde rij en de koptekstrij                                                               | Alt+Shift+H                     |
 | De huidige kolom groter/kleiner maken (met de focus in de koptekstrij)                                                  | Pijl-rechts/-links        |
 | Verplaats huidige kolom naar de volgende/vorige positie (met focus in de koptekstrij)                                   | Ctrl+Shift+Pijl-rechts/Ctrl+Shift+Pijl-links |

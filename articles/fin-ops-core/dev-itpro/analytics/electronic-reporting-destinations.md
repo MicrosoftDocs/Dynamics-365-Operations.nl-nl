@@ -2,7 +2,7 @@
 title: Bestemmingen van elektronische rapportage (ER)
 description: Dit artikel biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: kfend
-ms.date: 05/18/2022
+ms.date: 08/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: DocuType, ERSolutionTable
-ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b1bf6289e80769dfe8858f307cbb9b217b42dbb4
+ms.sourcegitcommit: f2edc193003564c5bee1747f9c2b800feee342bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281962"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9360974"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -247,6 +247,52 @@ Selecteer een van de volgende waarden op het tabblad **Algemeen** in het veld **
 ### <a name="limitations"></a>Beperkingen
 
 Als u het veld **Map verzenden als** instelt op **Afzonderlijke bestanden** voor een **Map** onderdeel dat andere geneste **Map** onderdelen bevat, wordt de instelling van deze instelling niet opnieuw toegepast op de geneste **Map** onderdelen.
+
+## <a name="change-page-layout-properties-of-a-template"></a><a name="change-page-layout-properties-of-a-template"></a> De pagina-indelingseigenschappen van een sjabloon wijzigen
+
+U kunt een ER-bestemming configureren voor een onderdeel van de ER-indeling dat is ontworpen om een sjabloon in een Microsoft Office-indeling (Excel of Word) te gebruiken voor het genereren van een rapport. Als u niet de eigenaar bent van deze indeling en u moet de paginaopmaak-eigenschappen van de indelingssjabloon wijzigen, dan moet u, in versies van Finance vóór versie 10.0.29, een afgeleide indeling maken en de eigenschappen van de sjabloon wijzigen. Vervolgens moet u de afgeleide indelingsconfiguratie onderhouden. In versie 10.0.29 en hoger kunt u echter de paginaopmaakeigenschappen van de sjabloon tijdens runtime wijzigen, zodat u de afgeleide indelingsconfiguratie niet kunt maken en onderhouden. Stel hiervoor de gewenste eigenschappen in als onderdeel van de instellingen van de geconfigureerde ER-bestemming. Wanneer u een ER-indeling uitvoert en een ER-bestemming die is geconfigureerd voor het gebruik van bepaalde paginaopmaakeigenschappen, worden de waarden van de paginaopmaakeigenschappen van de uitgevoerde bestemming toegepast op de sjabloon die u gebruikt, ter vervanging van de eigenschappen van de oorspronkelijke sjabloon. U kunt verschillende bestemmingen configureren voor het onderdeel van dezelfde indeling en verschillende paginaopmaakeigenschappen configureren voor de sjabloon die wordt gebruikt.
+
+De volgende eigenschappen kunnen worden geconfigureerd in een ER-bestemming voor een indelingsonderdeel dat is ontworpen om een sjabloon in Excel- of Word-indeling te gebruiken:
+
+- Afdrukstand
+    - Staand
+    - Liggend
+- Papierformaat
+    - A3
+    - A4
+    - A5
+    - B4
+    - B5
+    - Executive
+    - Legal
+    - Letter
+    - Statement
+    - Tabloid
+- Paginamarges
+    - Boven
+        - Koptekst
+    - Onder
+        - Voettekst
+    - Links
+    - Rechts
+
+> [!NOTE]
+> De afdrukstand van de sjabloon die op deze manier is geconfigureerd, moet worden afgestemd op de [afdrukstand voor pdf-conversie](#select-a-page-orientation-for-pdf-conversion) als pdf-conversie is geconfigureerd.
+
+U moet de lengte-eenheid selecteren voor het instellen van paginamarges:
+
+- Inch
+- Centimeter
+- Millimeter
+
+![Stel paginaopmaakeigenschappen in op de doelpagina voor elektronische rapportage.](./media/er_destinations-set-page-layout-properties.png)
+
+> [!TIP]
+> Wanneer een margewaarde in centimeters is geconfigureerd en met meerdere decimalen, wordt deze bij runtime afgerond op de dichtstbijzijnde waarde tot 1 decimaal.
+>
+> Wanneer een margewaarde in millimeters is geconfigureerd en met decimalen, wordt deze bij runtime voor Excel afgerond op het dichtstbijzijnde gehele getal, zonder decimaal.
+>
+> Wanneer een margewaarde in millimeters is geconfigureerd en met meerdere decimalen, wordt deze bij runtime voor Word afgerond op de dichtstbijzijnde waarde, tot één decimaal.
 
 ## <a name="security-considerations"></a>Beveiligingsoverwegingen
 

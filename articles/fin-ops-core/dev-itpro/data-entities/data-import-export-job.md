@@ -2,7 +2,7 @@
 title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik de werkruimte Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109457"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357586"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -76,6 +76,19 @@ Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens
 
 > [!NOTE]
 > Zorg ervoor dat u alleen wettelijke tekens gebruikt voor bestandsindelingen op basis van XML. Zie [Geldige tekens in XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/) voor meer informatie over geldige tekens . In XML 1.0 zijn geen controletekens toegestaan, behalve tabs, regelteruglopen en nieuwe regels. Voorbeelden van ongeldige tekens zijn vierkante haakjes, accolades en backslashes. 
+
+Gebruik Unicode in plaats van een specifieke codepagina om gegevens te importeren of te exporteren. Dit helpt om de meest consistente resultaten te krijgen en voorkomt dat taken voor gegevensbeheer mislukken omdat ze Unicode-tekens bevatten. De door het systeem gedefinieerde brongegevensindelingen waarin Unicode wordt gebruikt, hebben **Unicode** in de bronnaam. De Unicode-indeling wordt toegepast door een Unicode-coderende ANSI-codepagina te kiezen als **Codepagina** op het tabblad **Landinstellingen**. Selecteer een van de volgende codepagina's voor Unicode:
+
+| Codepagina | Weergavenaam                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Zie [Codepagina-id's](/windows/win32/intl/code-page-identifiers/) voor meer informatie over codepagina's.
 
 ### <a name="sequence-the-entities"></a>De volgorde van de entiteiten bepalen
 Entiteiten kunnen worden geordend in een gegevenssjabloon of in import- en exporttaken. Wanneer u een taak met meer dan één gegevensentiteit uitvoert, moet u ervoor zorgen dat de gegevensentiteiten correct zijn geordend. U stelt voornamelijk een volgorde voor entiteiten in als er functionele afhankelijkheden tussen entiteiten bestaan. Als entiteiten geen functionele afhankelijkheden hebben, kunnen ze worden gepland voor parallel importeren of exporteren. 
