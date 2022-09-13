@@ -10,15 +10,17 @@
           items:
             - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Nieuwe of gewijzigde functies in Platform-updates
+            - name: Nieuwe of gewijzigde functies in Platformupdates
               items:
-                - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platformupdates
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates voor versie 10.0.29 (oktober 2022)
+                - name: Platformupdates voor versie 10.0.30 (november 2022)
+                  href: get-started/whats-new-platform-updates-10-0-30.md
+                - name: Platformupdates voor versie 10.0.29 (oktober 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Platform updates voor versie 10.0.28 (augustus 2022)
+                - name: Platformupdates voor versie 10.0.28 (augustus 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Platform updates voor versie 10.0.27 (juli 2022)
+                - name: Platformupdates voor versie 10.0.27 (juli 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Verwijderde of afgeschafte functies
               items:

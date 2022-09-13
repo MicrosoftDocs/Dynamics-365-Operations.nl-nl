@@ -3413,9 +3413,7 @@
                       href: warehousing/packing-work.md
                     - name: Artikelhertoewijzing voor kort orderverzamelen instellen
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Magazijnwerk voor afhandeling van uitzonderingen annuleren
-                      href: warehousing/cancel-warehouse-work.md
-                    - name: Door systeem bestuurde werksequentiëring
+                    - name: Door systeem gestuurde werksequentiëring
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Orderverzamelregels groeperen
                       href: warehousing/pick-line-grouping.md
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Visualisatie van uitgaande workload
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Uitzonderingen op orderverzameling voor verkoop- en transferregels handmatig verwerken
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Magazijnwerk voor afhandeling van uitzonderingen annuleren
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Aanvulling
                   items:
                     - name: Overzicht van Aanvulling

@@ -12,6 +12,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (november 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (oktober 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (juli 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Kanaalspecifieke kortingen definiëren
                   href: define-channel-specific-discounts.md
-                - name: Opties voor het voorkomen van kortingen voor detailhandelproducten
-                  href: prevent-discounts.md
-                - name: Kortingen op basis van betalingsmethode
+                - name: Kortingen op basis van een betalingsmethode
                   href: tender_based_discounts.md
-                - name: Korting verzending
+                - name: Korting voor verzending
                   href: shipping-discount.md
                 - name: Geschenk met inkooppromoties configureren
                   href: gift-with-purchase.md
-                - name: Coupons instellen
-                  href: retail-coupons.md
-                - name: Kortingen weergeven in POS
-                  href: discounts-pos.md
+                - name: Coupons
+                  href: coupons.md
+                - name: Instellingen voor prijzen
+                  href: price-settings.md
                 - name: Prijsrapporten
                   href: price-report.md
                 - name: Kanaalspecifieke handelsovereenkomsten maken
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Zoeken in voorraad in POS
                       href: pos-inventory-lookup-operation.md
+                    - name: Productlijst op basis van voorraad
+                      href: inventory-aware-product-listing.md
                 - name: Inkooporders
                   items:
                     - name: Overzicht van inkooporders

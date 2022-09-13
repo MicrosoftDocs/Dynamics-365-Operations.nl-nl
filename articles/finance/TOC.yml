@@ -12,6 +12,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.30 (november)
+                  href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (oktober)
                   href: get-started/whats-new-changed-10-0-29.md
                 - name: Finance 10.0.28 (augustus)
@@ -1138,6 +1140,8 @@
                       href: general-ledger/subledger-transfer.md
                     - name: Bronverkenner voor boekhouding
                       href: accounts-payable/accounting-source-explorer.md
+                    - name: Documenten in behandeling voor boekhouding
+                      href: general-ledger/documents-pending-accounting.md
             - name: Rapporten en query's
               items:
                 - name: Journaalposten en transacties weergeven
