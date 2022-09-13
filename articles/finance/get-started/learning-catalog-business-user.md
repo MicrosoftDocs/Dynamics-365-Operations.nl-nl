@@ -1,23 +1,23 @@
 ---
 title: Trainingscatalogus voor gebruikers van Dynamics 365 Finance
 description: Zoek alle trainingsopties voor gebruikers van Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 99a672e4fd0bfe270f0cd1bfa421b7bd6feca9e1
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069279"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424529"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Trainingscatalogus voor gebruikers van Dynamics 365 Finance
 
@@ -27,9 +27,8 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="get-started"></a>Aan de slag<a name="get-started"></a>
 
-| Inhoud | Omschrijving | Indeling | Lengte |
+| Inhoud | Description | Opmaak | Length |
 |---------|-------------|--------|--------|
-| [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie | 8 uur |
 | [Grondbeginselen van Dynamics 365 en Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie | 5.5 uur   |
 | [Aan de slag met apps voor financiën en bedrijfsactiviteiten](/learn/paths/get-started-finance-operations/) | Informatie over hoe apps voor financiën en bedrijfsactiviteiten bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen.   Als eerste stap bij het werken met apps voor financiën en bedrijfsactiviteiten moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
 | [Aan de slag met Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Met Dynamics 365 Intelligent Order Management kunnen klanten de indeling van orders beheren tot en met de afhandeling. Met deze functionaliteit kunnen organisaties orderstromen indelen voor verschillende platforms en apps. | Gratis online leermodule voor zelfstudie | 30 minuten |

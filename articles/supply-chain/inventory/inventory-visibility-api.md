@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357636"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423590"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Inventory Visibility
 
@@ -41,6 +41,8 @@ De volgende tabel bevat de API's die momenteel beschikbaar zijn:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Plaatsen | [Voorhanden hoeveelheden instellen/overschrijven](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Plaatsen | [Eén reserveringsgebeurtenis maken](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Plaatsen | [Meerdere reserveringsgebeurtenissen maken](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | Boeken | [Eén reserveringsgebeurtenis terugdraaien](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | Boeken | [Meerdere reserveringsgebeurtenissen terugdraaien](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | Boeken | [Eén geplande wijziging in de voorhanden hoeveelheid maken](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | Boeken | [Meerdere geplande wijzigingen in de voorhanden hoeveelheid maken](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Boeken | [Een query uitvoeren met de post-methode](#query-with-post-method) |
@@ -56,7 +58,7 @@ De volgende tabel bevat de API's die momenteel beschikbaar zijn:
 > 
 > De bulk-API kan maximaal 512 records voor elke aanvraag retourneren.
 
-Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>
+Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Het eindpunt vinden volgens uw Lifecycle Services-omgeving
 
@@ -146,7 +148,7 @@ Ga als volgt te werk om een beveiligingstoken voor de service te krijgen.
    - **HTTP-header:** neem de API-versie op. (De sleutel is `Api-Version` en de waarde is `1.0`.)
    - **Inhoud hoofdtekst:** neem de JSON-aanvraag op die u in de vorige stap hebt gemaakt.
 
-   U moet een toegangstoken (`access_token`) als reactie ontvangen. U moet dit token gebruiken als Bearer-token voor het aanroepen van de API Voorraadzichtbaarheid. Hier volgt een voorbeeld.
+   U moet een toegangstoken (`access_token`) als reactie ontvangen. U moet dit token gebruiken als Bearer-token voor het aanroepen van de API Voorraadzichtbaarheid. Dit is een voorbeeld.
 
    ```json
    {
@@ -168,9 +170,9 @@ Er zijn twee API's voor het maken van wijzigingsgebeurtenissen voor voorhanden v
 
 In de volgende tabel wordt de betekenis van elk veld in de JSON-tekst samengevat.
 
-| Veld-id | Beschrijving |
+| Veld-id | Description |
 |---|---|
-| `id` | Een unieke id voor de specifieke wijzigingsgebeurtenis. Deze id wordt gebruikt om ervoor te zorgen dat, als bij het boeken de communicatie met de service mislukt, dezelfde gebeurtenis niet twee keer in het systeem wordt geteld als deze opnieuw wordt ingediend. |
+| `id` | Een unieke id voor de specifieke wijzigingsgebeurtenis. Als vanwege een servicefout de gegevens opnieuw worden ingediend, wordt deze id gebruikt om ervoor te zorgen dat dezelfde gebeurtenis niet twee keer in het systeem wordt geteld. |
 | `organizationId` | De id van de organisatie die aan de gebeurtenis is gekoppeld. Deze wordt toegewezen aan een organisatie of gegevensgebied-id in Supply Chain Management. |
 | `productId` | De identificatie van het product. |
 | `quantities` | De hoeveelheid waarmee de voorhanden hoeveelheid moet worden gewijzigd. Als er bijvoorbeeld 10 nieuwe boeken aan een plank worden toegevoegd, is deze waarde `quantities:{ shelf:{ received: 10 }}`. Als er drie boeken worden verwijderd van de plank of worden verkocht, is deze waarde `quantities:{ shelf:{ sold: 3 }}`. |
@@ -178,7 +180,7 @@ In de volgende tabel wordt de betekenis van elk veld in de JSON-tekst samengevat
 | `dimensions` | Een dynamisch sleutelwaardepaar. De waarden worden aan enkele van de dimensies in Supply Chain Management toegewezen. U kunt echter ook aangepaste dimensies toevoegen (bijvoorbeeld _Bron_) om aan te geven of de gebeurtenis afkomstig is uit Supply Chain Management of uit een extern systeem. |
 
 > [!NOTE]
-> De parameters `LocationId` en `SiteId` vormen de [partitieconfiguratie](inventory-visibility-configuration.md#partition-configuration). U moet deze parameters daarom opgeven in dimensies wanneer u wijzigingsgebeurtenissen voor voorhanden voorraad maakt, voorhanden hoeveelheden instelt of overschrijft of reserveringsgebeurtenissen maakt.
+> De parameters `locationId` en `siteId` vormen de [partitieconfiguratie](inventory-visibility-configuration.md#partition-configuration). U moet deze parameters daarom opgeven in dimensies wanneer u wijzigingsgebeurtenissen voor voorhanden voorraad maakt, voorhanden hoeveelheden instelt of overschrijft of reserveringsgebeurtenissen maakt.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Eén wijzigingsgebeurtenis maken voor voorhanden voorraad
 
@@ -216,14 +218,14 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
+    "organizationId": "SCM_IV",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "PosMachineId": "0001",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "posMachineId": "0001",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -238,12 +240,12 @@ In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofd
 ```json
 {
     "id": "123456",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red"
     },
     "quantities": {
         "pos": {
@@ -293,13 +295,13 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
-        "productId": "T-shirt",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_1",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId&quot;: &quot;0001"
+            "posSiteId": "posSite1",
+            "posLocationId": "posLocation1",
+            "posMachineId&quot;: &quot;0001"
         },
         "quantities": {
             "pos": { "inbound": 1 }
@@ -307,12 +309,12 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
     },
     {
         "id": "654321",
-        "organizationId": "usmf",
-        "productId": "Pants",
+        "organizationId": "SCM_IV",
+        "productId": "iv_postman_product_2",
         "dimensions": {
-            "SiteId": "1",
-            "LocationId": "11",
-            "ColorId&quot;: &quot;black"
+            "siteId": "iv_postman_site",
+            "locationId": "iv_postman_location",
+            "colorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -362,13 +364,13 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 [
     {
         "id": "123456",
-        "organizationId": "usmf",
+        "organizationId": "SCM_IV",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-             "PosSiteId": "1",
-            "PosLocationId": "11",
-            "PosMachineId": "0001"
+            "posSiteId": "iv_postman_site",
+            "posLocationId": "iv_postman_location",
+            "posMachineId": "0001"
         },
         "quantities": {
             "pos": {
@@ -381,7 +383,7 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 
 ## <a name="create-reservation-events"></a>Reserveringsgebeurtenissen maken
 
-Als u de *Reserve*-API wilt gebruiken, moet u de reserveringsfunctie activeren en de reserveringsconfiguratie voltooien. Zie [Reserveringscofiguratie (optioneel)](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie.
+Als u de *Reserve*-API wilt gebruiken, moet u de reserveringsfunctie inschakelen en de reserveringsconfiguratie voltooien. Zie [Reserveringscofiguratie (optioneel)](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie.
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Eén reserveringsgebeurtenis maken
 
@@ -389,7 +391,7 @@ Er kan een reservering worden gemaakt met verschillende instellingen voor de geg
 
 Wanneer u de reserverings-API aanroept, kunt u de reserveringsvalidatie beheren door de booleaanse parameter `ifCheckAvailForReserv` op te geven in de aanvraagbody. De waarde `True` betekent dat de validatie is vereist, terwijl de waarde `False` betekent dat de validatie niet is vereist. De standaardwaarde is `True`.
 
-Als u een reservering wilt annuleren of de reservering van opgegeven voorraadhoeveelheden wilt verwijderen, stelt u de hoeveelheid in op een negatieve waarde en stelt u de parameter `ifCheckAvailForReserv` in op `False` om de validatie over te slaan.
+Als u een reservering wilt terugdraaien of de reservering van opgegeven voorraadhoeveelheden wilt verwijderen, stelt u de hoeveelheid in op een negatieve waarde en stelt u de parameter `ifCheckAvailForReserv` in op `False` om de validatie over te slaan. U kunt dit ook doen met een speciale API voor het opheffen van de reservering. Het verschil is alleen de manier waarop de twee API's worden aangeroepen. U kunt een specifieke reserveringsgebeurtenis eenvoudiger terugdraaien door gebruik te maken van `reservationId` met de *unreserve* API. Raadpleeg het gedeelte [_Eén reserveringsgebeurtenis terugdraaien_](#reverse-reservation-events) voor meer informatie.
 
 ```txt
 Path:
@@ -427,24 +429,36 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 ```json
 {
     "id": "reserve-0",
-    "organizationId": "usmf",
-    "productId": "T-shirt",
+    "organizationId": "SCM_IV",
+    "productId": "iv_postman_product",
     "quantity": 1,
     "quantityDataSource": "iv",
-    "modifier": "softreservordered",
+    "modifier": "softReservOrdered",
     "ifCheckAvailForReserv": true,
     "dimensions": {
-        "SiteId": "1",
-        "LocationId": "11",
-        "ColorId": "Red",
-        "SizeId&quot;: &quot;Small"
+        "siteId": "iv_postman_site",
+        "locationId": "iv_postman_location",
+        "colorId": "red",
+        "sizeId&quot;: &quot;small"
     }
 }
 ```
 
+In het volgende voorbeeld is een geslaagd antwoord gegeven.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "id": "ohre~id-822-232959-524",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+``` 
+
 ### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Meerdere reserveringsgebeurtenissen maken
 
-Deze API is een bulkversie van de [API voor één gebeurtenis](#create-one-reservation-event).
+Deze API is een bulkversie van de [API voor één gebeurtenis](#create-reservation-events).
 
 ```txt
 Path:
@@ -480,9 +494,107 @@ Body:
     ]
 ```
 
+## <a name="reverse-reservation-events"></a>Reserveringsgebeurtenissen terugdraaien
+
+De *Unreserve* API wordt gebruikt als de omgekeerde bewerking voor [*reserveringsgebeurtenissen*](#create-reservation-events). Het is een manier om een reserveringsgebeurtenis terug te draaien die is opgegeven met `reservationId` of om de reserveringshoeveelheid te verlagen.
+
+### <a name="reverse-one-reservation-event"></a><a name="reverse-one-reservation-event"></a>Eén reserveringsgebeurtenis terugdraaien
+
+Wanneer u een reservering maakt, wordt een `reservationId` opgenomen in de antwoordtekst. Geef dezelfde `reservationId` op om de reservering te annuleren en neem dezelfde `organizationId` en `dimensions` op voor de API-aanroep voor reservering. Geef ten slotte een `OffsetQty`-waarde op voor het aantal items dat moet worden vrij gemaakt uit de vorige reservering. Een reservering kan volledig of gedeeltelijk worden teruggedraaid, afhankelijk van de opgegeven `OffsetQty`-reservering. Als er bijvoorbeeld *100* eenheden zijn gereserveerd, geeft u `OffsetQty: 10` op om *10* van de oorspronkelijke gereserveerde hoeveelheid terug te draaien.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        reservationId: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        OffsetQty: number
+    }
+```
+
+In de volgende code ziet u een voorbeeld van de inhoud van de hoofdtekst.
+
+```json
+{
+    "id": "unreserve-0",
+    "organizationId": "SCM_IV",
+    "reservationId": "RESERVATION_ID",
+    "dimensions": {
+        "siteid":"iv_postman_site",
+        "locationid":"iv_postman_location",
+        "ColorId": "red",
+        "SizeId&quot;: &quot;small"
+    },
+    "OffsetQty": 1
+}
+```
+
+In de volgende code ziet u een voorbeeld van een geslaagd antwoord.
+
+```json
+{
+    "reservationId": "RESERVATION_ID",
+    "totalInvalidOffsetQtyByReservId": 0,
+    "id": "ohoe~id-823-11744-883",
+    "processingStatus": "success",
+    "message": "",
+    "statusCode": 200
+}
+```
+
+> [!NOTE]
+> Wanneer in de antwoordtekst `OffsetQty` kleiner is dan of gelijk is aan de reserveringshoeveelheid, is de `processingStatus` *geslaagd* en is `totalInvalidOffsetQtyByReservId` *0*.
+>
+> Als `OffsetQty` groter is dan de gereserveerde hoeveelheid, is `processingStatus` *partialSuccess* en geeft `totalInvalidOffsetQtyByReservId` het verschil aan tussen `OffsetQty` en de gereserveerde hoeveelheid.
+>
+>Als de reservering bijvoorbeeld een hoeveelheid van *10* heeft en `OffsetQty` een waarden van *12*, is `totalInvalidOffsetQtyByReservId` *2*.
+
+### <a name="reverse-multiple-reservation-events"></a><a name="reverse-multiple-reservation-events"></a>Meerdere reserveringsgebeurtenissen terugdraaien
+
+Deze API is een bulkversie van de [API voor één gebeurtenis](#reverse-one-reservation-event).
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/unreserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [      
+        {
+            id: string,
+            organizationId: string,
+            reservationId: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            OffsetQty: number
+        }
+        ...
+    ]
+```
+
 ## <a name="query-on-hand"></a>Voorhanden query
 
-Gebruik de API _Voorhanden query_ om huidige voorhanden voorraadgegevens voor uw producten op te halen. De API ondersteunt momenteel query's met maximaal 100 afzonderlijke artikelen per `ProductID`-waarde. Ook kunnen in elke query meerdere `SiteID`- en `LocationID`-waarden worden opgegeven. De maximumlimiet wordt gedefinieerd als `NumOf(SiteID) * NumOf(LocationID) <= 100`.
+Gebruik de API *Voorhanden query* om huidige voorhanden voorraadgegevens voor uw producten op te halen. De API ondersteunt momenteel query's met maximaal 5000 afzonderlijke artikelen per `productID`-waarde. Ook kunnen in elke query meerdere `siteID`- en `locationID`-waarden worden opgegeven. De maximumlimiet wordt met de volgende vergelijking gedefinieerd:
+
+*NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
 ### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Een query uitvoeren met de post-methode
 
@@ -517,7 +629,7 @@ In de hoofdtekst van deze aanvraag is `dimensionDataSource` nog steeds een optio
 - `productId` kan een of meer waarden bevatten. Als het een lege matrix is, worden alle producten geretourneerd.
 - `siteId` en `locationId` worden voor partitionering in Voorraadzichtbaarheid gebruikt. U kunt meer dan één waarde voor `siteId` en `locationId` opgeven in een aanvraag voor een *Voorhanden query*. In de huidige versie moet u zowel een waarde voor `siteId` als voor `locationId` opgeven.
 
-De parameter `groupByValues` moet uw configuratie volgen voor indexering. Zie [Configuratie van productindexhiërarchie](./inventory-visibility-configuration.md#index-configuration) voor meer informatie.
+De parameter `groupByValues` kan het beste uw configuratie voor indexering volgen. Zie [Configuratie van productindexhiërarchie](./inventory-visibility-configuration.md#index-configuration) voor meer informatie.
 
 De parameter `returnNegative` bepaalt of de resultaten negatieve vermeldingen bevatten.
 
@@ -530,13 +642,13 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["usmf"],
-        "productId": ["T-shirt"],
-        "siteId": ["1"],
-        "LocationId": ["11"],
-        "ColorId": ["Red"]
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
+        "colorId": ["red"]
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -546,12 +658,12 @@ Het volgende voorbeeld laat zien hoe u een query uitvoert op een specifieke site
 ```json
 {
     "filters": {
-        "organizationId": ["usmf"],
+        "organizationId": ["SCM_IV"],
         "productId": [],
-        "siteId": ["1"],
-        "LocationId": ["11"],
+        "siteId": ["iv_postman_site"],
+        "locationId": ["iv_postman_location"],
     },
-    "groupByValues": ["ColorId", "SizeId"],
+    "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
 }
 ```
@@ -577,7 +689,7 @@ Query(Url Parameters):
 Hier is een voorbeeld van een get-URL. Deze get-aanvraag is exact hetzelfde als het post-voorbeeld dat eerder is opgegeven.
 
 ```txt
-/api/environment/{environmentId}/onhand?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
 
 ## <a name="available-to-promise"></a>Available to promise

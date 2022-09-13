@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219089"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403659"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.25 (april 2022)
 
@@ -161,7 +161,7 @@ De tabel bevat ook functies die eerder in openbare preview waren, maar zijn gewi
 | Magazijnbeheer | [Positionering van locatie nummerplaat](../warehousing/location-license-plate-positioning.md) | Verplicht |
 | Magazijnbeheer | [Locaties voor productdimensie combineren](../warehousing/location-product-dimension-mixing.md) | Verplicht |
 | Magazijnbeheer | Het voorraadstatusveld van de voorraadverplaatsing van het mobiele apparaat bewerkbaar maken | Verplicht |
-| Magazijnbeheer | Handmatige orderverzamelactiviteit van verkoopregels voor beheerder of soortgelijke vertrouwde gebruikers | Verplicht |
+| Magazijnbeheer | [Handmatige orderverzamelactiviteit van verkoopregels voor beheerder of soortgelijke vertrouwde gebruikers](../warehousing/manual-order-line-picking-exception-handling.md) | Verplicht |
 | Magazijnbeheer | [Voorkomen dat verzonden nummerplaten van transferorders worden gebruikt in andere magazijnen dan het doelmagazijn](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Verplicht |
 | Magazijnbeheer | Vragen om niet-eenduidige Loc/LP-namen op te lossen | Verplicht |
 | Magazijnbeheer | [Kwaliteitscontrole](../warehousing/quality-check.md) | Verplicht |

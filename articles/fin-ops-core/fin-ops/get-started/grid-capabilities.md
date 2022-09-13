@@ -2,7 +2,7 @@
 title: Rastermogelijkheden
 description: Dit artikel beschrijft diverse krachtige functies van het rasterbesturingselement. U moet de nieuwe rasterfunctie inschakelen als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258942"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405460"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -178,20 +178,22 @@ De functie **Nieuw rasterbesturingselement** is in elke omgeving rechtstreeks be
 
 Deze functie is standaard ingeschakeld in versie 10.0.21. Het is het doel om deze verplicht te stellen in oktober 2022.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Ontwikkelaar] Uitschakelen dat afzonderlijke pagina's het nieuwe raster gebruiken 
+## <a name="developer-topics"></a>Onderwerpen voor ontwikkelaars
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Ontwikkelaar] Uitschakelen dat afzonderlijke pagina's het nieuwe raster gebruiken 
 Als uw organisatie een pagina vindt met problemen met het nieuwe raster, is er een API beschikbaar waarmee een afzonderlijk formulier het oude rasterbesturingselement kan gebruiken, terwijl de rest van het systeem nog steeds het nieuwe rasterbesturingselement kan gebruiken. Als u een afzonderlijke pagina voor het nieuwe raster wilt afmelden, voegt u de volgende aanroep `super()` toe aan de methode `run()` van het formulier.
 
 ```this.forceLegacyGrid();```
 
 Deze API wordt uiteindelijk afgeschaft om verwijdering van het besturingselement van het verouderde raster mogelijk te maken. De API blijft echter wel beschikbaar voor ten minste 12 maanden nadat de afschaffing is aangekondigd. Als er problemen optreden waarvoor deze API moet worden gebruikt, meldt u deze bij Microsoft.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Afdwingen van een pagina om het nieuwe raster te gebruiken nadat eerder het raster is uitgeschakeld
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Afdwingen van een pagina om het nieuwe raster te gebruiken nadat eerder het raster is uitgeschakeld
 Als u een individuele pagina hebt uitgeschreven voor gebruik van het nieuwe raster, zou u het nieuwe raster later opnieuw kunnen inschakelen nadat de onderliggende problemen zijn opgelost. Hiervoor hoeft u alleen de aanroep van `forceLegacyGrid()` te verwijderen. De wijziging wordt pas doorgevoerd wanneer een van de volgende zaken zich voordoet:
 
 - **Opnieuw implementeren omgeving**: wanneer een omgeving wordt bijgewerkt en opnieuw geïmplementeerd, wordt de tabel waarin de pagina's zijn opgeslagen die zijn uitgeschreven voor het nieuwe raster (FormControlReactGridState) automatisch leeggemaakt.
 - **Handmatige leegmaken van de tabel**: voor ontwikkelingsscenario's moet u SQL gebruiken om de tabel FormControlReactGridState leeg te maken en vervolgens de AOS opnieuw opstarten. Met deze combinatie van acties wordt de caching opnieuw ingesteld voor pagina's die zijn uitgeschreven voor het nieuwe raster.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Ontwikkelaar] De mogelijkheid Voor het systeem uit typen niet gebruiken voor afzonderlijke rasters
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Ontwikkelaar] De mogelijkheid Voor het systeem uit typen niet gebruiken voor afzonderlijke rasters
 In sommige scenario's is het niet handig de rasterfunctie *Voor het systeem uit typen* te gebruiken. (Door een bepaalde code die bijvoorbeeld wordt geactiveerd tijdens het valideren van een rij, wordt een gegevensbrononderzoek geactiveerd en kunnen onbewerkte bewerkingen op bestaande rijen beschadigd raken.) Als uw organisatie een dergelijk scenario ontdekt, is er een API beschikbaar waarmee een ontwikkelaar voor een afzonderlijk raster kan kiezen geen asynchrone rijvalidatie te gebruiken en kan terugkeren naar het verouderde gedrag.
 
 Wanneer asynchrone rijvalidatie in een raster is uitgeschakeld, kunnen gebruikers geen nieuwe rij maken of naar een andere bestaande rij in het raster gaan terwijl er validatieproblemen zijn op de huidige rij. Als gevolg van deze actie kunnen tabellen niet vanuit Excel in rasters voor financiën en bedrijfsactiviteiten worden geplakt.
@@ -204,13 +206,18 @@ Als u voor een afzonderlijk raster geen asynchrone rijvalidatie wilt gebruiken, 
 > - Deze aanroep moet slechts in uitzonderlijke gevallen worden aangeroepen en mag niet de norm zijn voor alle rasters.
 > - Het is niet aan te raden deze API te kiezen tijdens runtime nadat het formulier is geladen.
 
-## <a name="developer-size-to-available-width-columns"></a>\[Ontwikkelaar\]: kolomformaat aangepast aan beschikbare breedte
+### <a name="developer-size-to-available-width-columns"></a>\[Ontwikkelaar\]: kolomformaat aangepast aan beschikbare breedte
 Als een ontwikkelaar de eigenschap **WidthMode** instelt op **SizeToAvailable** voor kolommen binnen het nieuwe raster, hebben deze kolommen in eerste instantie dezelfde breedte als ze zouden hebben als de eigenschap is ingesteld op **SizeToContent**. De kolommen worden echter uitgerekt zodat alle extra beschikbare breedte binnen het raster wordt gebruikt. Als de eigenschap is ingesteld op **SizeToAvailable** voor meerdere kolommen, delen al deze kolommen de extra beschikbare breedte binnen het raster. Als een gebruiker echter een van deze kolommen handmatig aanpast, wordt de kolom statisch. De kolom behoudt die breedte en wordt niet meer uitgerekt tot extra beschikbare rasterbreedte.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Developer] De kolom opgeven die de eerste focus krijgt wanneer nieuwe rijen worden aangemaakt met behulp van de toets Pijl-omlaag
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Developer] De kolom opgeven die de eerste focus krijgt wanneer nieuwe rijen worden aangemaakt met behulp van de toets Pijl-omlaag
 Zoals is besproken in [Verschillen bij het invoeren van gegevens voor het systeem uit](#differences-when-entering-data-ahead-of-the-system): als de mogelijkheid 'Typen voor het systeem uit' is ingeschakeld en een gebruiker een nieuwe rij aanmaakt met behulp van de toets **Pijl-omlaag**, is het standaardgedrag om de focus in de eerste kolom van de nieuwe rij te zetten. Deze ervaring kan afwijken van de ervaring in het verouderde raster of wanneer een knop **Nieuw** wordt geselecteerd.
 
 Gebruikers en organisaties kunnen opgeslagen weergaven aanmaken die zijn geoptimaliseerd voor de invoer van gegevens. (U kunt bijvoorbeeld kolommen opnieuw ordenen zodat de eerste kolom de kolom is waarin u gegevens wilt invoeren.) Bovendien kunnen organisaties dit gedrag vanaf versie 10.0.29 aanpassen met de methode **selectedControlOnCreate()**. Met deze methode kan een developer de kolom opgeven die de eerste focus moet krijgen wanneer een nieuwe rij wordt aangemaakt met behulp van de toets **Pijl-omlaag**. Als invoer neemt deze API de controle-ID over die overeenkomt met de kolom die de eerste focus moet krijgen.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Ontwikkelaar] Rasters verwerken met niet-React uitbreidbare besturingselementen
+Wanneer een raster wordt geladen en het systeem een uitbreidbaar besturingselement krijgt dat niet is gebaseerd op React, wordt het verouderde raster weergegeven. Wanneer een gebruiker voor het eerst deze situaties aantreft, wordt een bericht weergegeven over het vernieuwen van de pagina. Vervolgens zal deze pagina het verouderde raster automatisch laden zonder verdere meldingen aan gebruikers tot de volgende systeemupdate. 
+
+Om deze situatie permanent te voorkomen, kunnen auteurs van uitbreidbare besturingselementen een React-versie van het besturingselement maken om in het raster te gebruiken.  Nadat deze is ontwikkeld, kan de X++-klasse voor het besturingselement worden aangeduid met het kenmerk **FormReactControlAttribute** om de locatie op te geven van de React-bundel die voor het besturingselement moet worden geladen. Zie de `SegmentedEntryControl`-klasse als voorbeeld.  
 
 ## <a name="known-issues"></a>Bekende problemen
 In deze sectie wordt een lijst met bekende problemen voor het nieuwe rasterbeheer bijgehouden.
@@ -218,9 +225,12 @@ In deze sectie wordt een lijst met bekende problemen voor het nieuwe rasterbehee
 ### <a name="open-issues"></a>Openstaande problemen
 - Nadat de functie **Nieuw rasterbesturingselement** is ingeschakeld, blijven bepaalde pagina's het bestaande rasterbesturingselement gebruiken. Dit gebeurt in de volgende situaties:
  
-    - Er bestaat een kaartlijst op de pagina die wordt weergegeven in meerdere kolommen.
-    - Er bestaat een gegroepeerde kaartlijst op de pagina.
-    - Een rasterkolom met een niet-reagerend uitbreidbaar besturingselement.
+    - [Opgelost] Er bestaat een kaartlijst op de pagina die wordt weergegeven in meerdere kolommen.
+        - Dit type kaartlijst wordt ondersteund door het besturingselement **Nieuw raster** vanaf versie 10.0.30. Alle toepassingen van forceLegacyGrid() kunnen dan worden verwijderd. 
+    - [Opgelost] Er bestaat een gegroepeerde kaartlijst op de pagina.
+        - Gegroepeerde kaartlijsten worden ondersteund door het besturingselement **Nieuw raster** vanaf versie 10.0.30. Alle toepassingen van forceLegacyGrid() kunnen dan worden verwijderd. 
+    - [Opgelost] Een rasterkolom met een niet-React uitbreidbaar besturingselement.
+        - Uitbreidbare besturingselementen kunnen een React-versie leveren die wordt geladen wanneer ze in het raster worden geplaatst en de definitie aanpassen om dit besturingselement te laden wanneer het in het raster wordt gebruikt. Zie het bijbehorende ontwikkelaarsgedeelte voor meer details. 
 
     Wanneer een gebruiker voor het eerst een van deze situaties aantreft, wordt een bericht weergegeven over het vernieuwen van de pagina. Nadat dit bericht is weergegeven, blijft de pagina het bestaande raster gebruiken voor alle gebruikers tot de volgende update van de productversie. Een betere afhandeling van deze scenario's zodat het nieuwe raster kan worden gebruikt, wordt overwogen voor een toekomstige update.
 

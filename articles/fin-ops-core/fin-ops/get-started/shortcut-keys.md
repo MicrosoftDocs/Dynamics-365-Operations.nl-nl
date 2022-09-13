@@ -2,7 +2,7 @@
 title: Sneltoetsen
 description: Dit artikel biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met apps voor financiën en bedrijfsactiviteiten werkt.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357572"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405432"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | Het filtervenster openen (of de focus omschakelen tussen het filtervenster en het hoofdformulier als het filtervenster al open is) | Alt+M, F of Ctrl+F3       |
 | Het filtervenster sluiten (met de focus in het filtervenster)                                                               | Esc                      |
 | Geavanceerd filteren/sorteren openen                                                                                        | Ctrl+Shift+F3            |
+| Snelfilter toepassen (met de focus op Snelfilter)                                                              | Enter                    |
+| Pas het rasterfilter toe (wanneer de focus zich in het filterveld van de kolomkoptekst bevindt)                                             | Enter                    |
 
 ## <a name="form-shortcuts"></a>Sneltoetsen voor formulieren
 
-| Actie                                    | Druk op             |
+| Actie                                    | Druk op              |
 |-----------------------------------------------|-------------------|
 | Een nieuwe registratie maken                           | Alt+N             |
 | Een record verwijderen                               | Alt+Del of Alt+F9 |
@@ -157,12 +160,13 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 
 ## <a name="input-control-shortcuts"></a>Sneltoetsen voor invoerbesturing
 
-| Gewenste bewerking                                                                   | Druk op                          |
+| Actie                                                                   | Druk op                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | De hyperlink openen                                                           | Ctrl+Enter                    |
-| De sessiedatum invoeren in een datumveld                                       | M                             |
+| De hyperlink openen (met de focus op een alleen-lezen besturingselement)<br><br>**Opmerking:** deze snelkoppeling is alleen van toepassing als de functie **Toetsenbordinteractie standaardiseren voor besturingselementen voor keuzelijsten met invoervakken en zoeken** is ingeschakeld                   | Enter    |
+| De sessiedatum invoeren in een datumveld                                       | D                             |
 | De huidige datum invoeren in een datumveld                                       | D                             |
-| Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen openen                         | Alt+Pijl-omlaag                |
+| Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen openen                         | Alt+Pijl-omlaag<br><br>Enter (als de functie **Toetsenbordinteractie standaardiseren voor besturingselementen voor keuzelijsten met invoervakken en zoeken** is ingeschakeld)                |
 | Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen sluiten                        | Esc                           |
 | Focus in een zoekopdracht plaatsen (wanneer de zoekopdracht al open is)                   | Alt+Pijl-omlaag                |
 | Het uitgebreide voorbeeld van het besturingselement openen                                          | Alt+Pijl-omhoog                  |

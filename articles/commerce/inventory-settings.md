@@ -2,7 +2,7 @@
 title: Voorraadinstellingen toepassen
 description: In dit artikel worden voorraadinstellingen beschreven en wordt beschreven hoe u deze toepast in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287587"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405315"
 ---
 # <a name="apply-inventory-settings"></a>Voorraadinstellingen toepassen
 
@@ -51,12 +51,12 @@ In Commerce worden voorraadinstellingen gedefinieerd via **Site-instellingen \> 
     > [!IMPORTANT] 
     > De instelling **Voorraadniveau voor meerdere magazijnen** is beschikbaar vanaf Commerce-versie 10.0.19. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
 
-- **Voorraadinstellingen voor productlijstpagina's** met deze instelling wordt bepaald hoe producten die niet op voorraad zijn, worden weergegeven in productlijsten die worden weergegeven door modules voor productverzameling en zoekresultaten. De beschikbare waarden zijn **In bestelling weergeven met andere producten**, **Uit voorraadproducten verbergen uit de lijst** en **Uit voorraadproducten weergeven aan het einde van de lijst**. Als u deze instelling wilt gebruiken, moet u eerst een aantal vereiste instellingen configureren in Commerce Headquarters. Zie [De voorraadbeschikbaarheid voor de module voor zoekresultaten inschakelen](search-result-module.md#enable-inventory-awareness-for-the-search-results-module) voor meer informatie.
+- **Voorraadinstellingen voor productlijstpagina's** met deze instelling wordt bepaald hoe producten die niet op voorraad zijn, worden weergegeven in productlijsten die worden weergegeven door modules voor productverzameling en zoekresultaten. De beschikbare waarden zijn **In bestelling weergeven met andere producten**, **Uit voorraadproducten verbergen uit de lijst** en **Uit voorraadproducten weergeven aan het einde van de lijst**. Als u deze instelling wilt gebruiken, moet u eerst een aantal vereiste instellingen configureren in Commerce Headquarters. Zie [Productlijst met voorraadinzicht](inventory-aware-product-listing.md) voor meer informatie.
 
     > [!IMPORTANT] 
     > De instelling **Voorraadinstellingen voor productlijstpagina's** is beschikbaar vanaf Commerce-versie 10.0.20. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
 
-- **Voorraadbereiken**: met deze instelling definieert u de voorraadbereiken waarvoor berichten worden weergegeven in sitemodules. Deze is alleen van toepassing als de waarde **Totaal beschikbaar** of **Fysiek beschikbaar** is geselecteerd voor de instelling **Voorraadniveau gebaseerd op**. De beschikbare waarden zijn **Alle**, **Weinig en niet op voorraad** en **Niet op voorraad**.
+- **Voorraadbereiken**: met deze instelling definieert u de berichten voor voorraadbereiken die worden weergegeven in sitemodules. Deze is alleen van toepassing als de waarde **Totaal beschikbaar** of **Fysiek beschikbaar** is geselecteerd voor de instelling **Voorraadniveau gebaseerd op**. De beschikbare waarden zijn **Alle**, **Weinig en niet op voorraad** en **Niet op voorraad**.
 
     - Wanneer **Alle** is geselecteerd, worden berichten voor alle voorraadbereiken, van op voorraad (Beschikbaar) tot niet op voorraad (Niet op voorraad), weergegeven.
     - Wanneer **Weinig en niet op voorraad** is geselecteerd, worden berichten voor alle voorraadbereiken, behalve op voorraad (Beschikbaar), weergegeven.

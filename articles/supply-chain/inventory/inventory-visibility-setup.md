@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42c2c287e2a813f8bb07ce0c7f21f4224a217946
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: eb17f24b90933dac0f875bb0ef2d5039a240b197
+ms.sourcegitcommit: 1ca4ad100f868d518f3634dca445c9878962108e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306049"
+ms.lasthandoff: 09/01/2022
+ms.locfileid: "9388535"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Inventory Visibility installeren en instellen
 
@@ -24,7 +24,7 @@ ms.locfileid: "9306049"
 
 In dit artikel wordt beschreven hoe u de invoegtoepassing Inventory Visibility installeert voor Microsoft Dynamics 365 Supply Chain Management.
 
-U moet de invoegtoepassing voor Voorraadzichtbaarheid installeren met behulp van Microsoft Dynamics Lifecycle Services (LCS). LCS is een portal voor samenwerking die een omgeving en een reeks regelmatig bijgewerkte services biedt waarmee u de toepassingslevensduur van uw finance and operations-apps kunt beheren. Zie voor meer informatie [Lifecycle Services-resources](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
+U moet de invoegtoepassing voor Voorraadzichtbaarheid installeren met behulp van Microsoft Dynamics Lifecycle Services (LCS). LCS is een portal voor samenwerking die een omgeving en een reeks regelmatig bijgewerkte services biedt waarmee u de toepassingslevensduur van uw apps voor financiën en bedrijfsactiviteiten kunt beheren. Zie voor meer informatie [Lifecycle Services-resources](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 > [!TIP]
 > We raden u aan om deel te nemen aan de gebruikersgroep Invoegtoepassing Voorraadzichtbaarheid, waar u nuttige handleidingen kunt vinden, onze nieuwste updates kunt krijgen en eventuele vragen kunt plaatsen over het gebruik van Voorraadzichtbaarheid. Als u wilt deelnemen, verzendt u een e-mail naar het productteam Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) en voegt u uw ID van de Supply Chain Management-omgeving toe.
@@ -56,7 +56,9 @@ Nadat u een toepassing geregistreerd hebt en een clientgeheim aan Azure AD hebt 
 1. Schuif op de omgevingspagina naar beneden tot u de sectie **invoegtoepassingen voor omgeving** ziet in de **Power Platform Integratie**-sectie. Hier kunt u de Dataverse-omgevingsnaam vinden. Bevestig dat de Dataverse-omgevingsnaam de naam is die u wilt gebruiken voor Voorraadzichtbaarheid.
 
     > [!NOTE]
-    > Momenteel worden alleen Dataverse-omgevingen ondersteund die met behulp van LCS gemaakt zijn. Als uw Dataverse-omgeving op een andere manier is gemaakt (bijvoorbeeld door het Power Apps-beheercentrum te gebruiken) en als deze aan uw Supply Chain Management-omgeving is gekoppeld, moet u eerst contact opnemen met het productteam van Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) om het toewijzingsprobleem te verhelpen. U kunt de invoegtoepassing Voorraadzichtbaarheid vervolgens installeren.
+    > Momenteel worden alleen Dataverse-omgevingen ondersteund die met behulp van LCS gemaakt zijn. Als uw Dataverse-omgeving op een andere manier gemaakt is (bijvoorbeeld door het PowerApps-beheercentrum te gebruiken) en als deze aan uw Supply Chain Management-omgeving gekoppeld is, moet u eerst het toewijzingsprobleem verhelpen voordat u de invoegtoepassing Voorraadzichtbaarheid installeert.
+    >
+    > Het is mogelijk dat uw omgeving voor twee keer wegschrijven wordt gekoppeld aan een Dataverse-exemplaar terwijl LCS niet is ingesteld voor Power Platform-integratie. Deze onjuiste koppeling kan tot onverwachte gedragingen leiden. De gegevens van de LCS-omgeving kunnen het beste overeenkomen met de gegevens waarmee u verbinding hebt via twee keer wegschrijven zodat dezelfde verbinding kan worden gebruikt door zakelijke gebeurtenissen, virtuele tabellen en invoegtoepassingen. Zie [Koppeling aan een verkeerde instantie](../../fin-ops-core/dev-itpro/data-entities/dual-write/lcs-setup.md#linking-mismatch) voor informatie over het oplossen van het toewijzingsprobleem. Zodra het toewijzingsprobleem is opgelost, kunt u verdergaan met het installeren van Voorraadzichtbaarheid.
 
 1. Selecteer in de sectie **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
 
@@ -140,11 +142,11 @@ Om de invoegtoepassing voor voorraadzichtbaarheid te verwijderden, volgt u deze 
 1. Selecteer **Omgeving** op de navigatiebalk
 1. Selecteer de Dataverse-omgeving die aan uw LCS-omgeving is verbonden.
 1. Ga naar **Oplossingen** en verwijder de volgende oplossingen in deze volgorde:
-    1. Ankeroplossing voor de toepassing Voorraadzichtbaarheid in Dynamics 365-oplossingen
-    1. Oplossing voor Dynamics 365 FNO SCM Inventory Visibility-toepassingen
-    1. Configuratie van inventarisservice
-    1. Zelfstandige voorraadzichtbaarheid
-    1. Basisoplossing voor Dynamics 365 FNO SCM Inventory Visibility
+    1. Dynamics 365 Inventory Visibility - Verankering
+    1. Dynamics 365 Inventory Visibility - Toepassing
+    1. Dynamics 365 Inventory Visibility - Besturingselementen
+    1. Dynamics 365 Inventory Visibility - Invoegtoepassingen
+    1. Dynamics 365 Inventory Visibility - Basis
 
     Nadat u deze oplossingen hebt verwijderd, worden de gegevens die in tabellen zijn opgeslagen ook verwijderd.
 

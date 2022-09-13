@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 45a35eb32cb9e51d9f63f6687808fb511f894887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873719"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403665"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 
@@ -33,6 +33,7 @@ Omdat meldingen niet worden weergegeven wanneer Planningsoptimalisatie in uw omg
 
 | Wijzigingen | Informatie over Functiebeheer | Vrijgavedatum |
 |---|---|---|
+| <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functiebeheer is niet vereist. | 29 augustus - 3 september 2022 |
 | <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit.<p>[Gecentraliseerd onderhoud van kalenders voor Planningsoptimalisatie](../supply-chain-calendars-master-planning.md)<p>[Suggesties voor Planningsoptimalisatie om bestaande voorraad te optimaliseren](../action-messages.md)<p>[Planningsoptimalisatie-ondersteuning voor uitbesteding](../../production-control/manage-subcontract-work-production.md) | Functiebeheer is niet vereist. | 7-11 maart 2022 |
 | <p>Extra planningsprioriteitsondersteuning voor productieorders. | Beschikbaar in versie 10.0.25 als onderdeel van de functie met de naam *Prioriteitsgestuurde MRP-ondersteuning voor planningsoptimalisatie*. | 12-18 november 2021 |
 | <p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functiebeheer is niet vereist. | 12-18 november 2021 |

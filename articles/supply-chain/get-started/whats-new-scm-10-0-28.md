@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334770"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403660"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.28 (augustus 2022)
 
@@ -50,7 +50,7 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 | Voorraad- en magazijnbeheer | (India) Voor transferprijsregels, negeer locatie wanneer "Van magazijncode" is ingesteld op "Alle" | <p>Deze functie is alleen van toepassing op lokalisaties in India. Het maakt het proces van het instellen van transferprijzen voor artikelen in voorraadtransfers intuïtiever.</p><p>U stelt transferprijzen in door elk artikel met transferprijsregels te configureren. Een manier om deze configuratie uit te voeren, is een regel op te nemen waarin het veld **Van magazijncode** is ingesteld op *Alle*. Met deze instelling wordt aangegeven dat de door de regel gedefinieerde transferprijs van toepassing is ongeacht het magazijn waaruit het artikel wordt opgehaald. Als deze functie is ingeschakeld, wordt de instelling **Locatie** genegeerd door de transferprijsregels in gevallen waarin het veld **Van magazijncode** is ingesteld op *Alle*. Dat betekent dat de regel van toepassing is ongeacht de locatie die op de transferorder wordt opgegeven. Dit gedrag is waarschijnlijk naar verwachting, omdat de locatie zich onder magazijn in de opslagdimensiehiërarchie bevindt.</p><p>Zonder deze functie worden regels van dit type alleen toegepast wanneer de locatie in de transferorder exact overeenkomt met de locatie die voor de regel is ingesteld. (Als een lege locatie is ingesteld voor de regel, wordt de regel alleen toegepast op transferorders die ook een lege waarde voor de locatie hebben.)</p> |
 | Voorraad- en magazijnbeheer | Opschonen van gegevens in rapport met voorhanden voorraad | Deze functie biedt een manier om de gegevens op te schonen waarmee *Opslag voor rapporten voorhanden voorraad*-rapporten worden gemaakt. |
 | Productiebeheer | Projectactiviteiten toewijzen voor serviceovereenkomst en serviceorderregels | Met deze functie wordt een veld met de naam **Projectactiviteit** toegevoegd aan serviceovereenkomst- en serviceorderregels, zodat u een projectactiviteit voor de regels kunt instellen. Deze functie helpt blokkeringsfouten te voorkomen wanneer u servicebeheerprojectjournalen boekt waarvoor een projectactiviteit moet worden ingesteld.  |
-| Magazijnbeheer | Handmatige orderverzamelactiviteit van transferregels voor beheerder of soortgelijke vertrouwde gebruikers | Met deze functie kunnen beheerders handmatig voorraadtransacties verzamelen die zijn gerelateerd aan transferregels. Deze regels omvatten regels die reeds zijn vrijgegeven aan het magazijn. Beheerders mogen deze orderverzameling alleen uitvoeren in uitzonderlijke situaties, bijvoorbeeld wanneer het systeem beschadigd is. |
+| Magazijnbeheer | Handmatige orderverzamelactiviteit van transferregels voor beheerder of soortgelijke vertrouwde gebruikers | Met deze functie kunnen beheerders handmatig voorraadtransacties verzamelen die zijn gerelateerd aan transferregels. Deze regels omvatten regels die reeds zijn vrijgegeven aan het magazijn. Beheerders mogen deze orderverzameling alleen uitvoeren in uitzonderlijke situaties, bijvoorbeeld wanneer het systeem beschadigd is. Zie [Uitzonderingen voor orderverzameling op verkoop- en transferregels handmatig verwerken](../warehousing/manual-order-line-picking-exception-handling.md) voor meer informatie. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 

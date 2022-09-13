@@ -4,22 +4,17 @@ description: In dit artikel wordt beschreven hoe domeinen worden verwerkt in Mic
 author: BrianShook
 ms.date: 08/19/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
-ms.search.validFrom: ''
-ms.dyn365.ops.version: Release 10.0.12
-ms.search.industry: retail
-ms.search.form: ''
-ms.openlocfilehash: 08d6d52175bb7a77259cbd38b15f466deeab0846
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336667"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405491"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -110,10 +105,10 @@ Als u aangepaste domeinen wilt instellen met een Front Door Service of CDN, hebt
 
 - Stel een Front Door Service, zoals Azure Front Door, in voor het verwerken van front-end verkeer en om verbinding te maken met uw Commerce-omgeving. Hiermee beschikt u over meer controle over domein- en certificaatbeheer en een meer gedetailleerd beveiligingsbeleid.
 
+- Gebruik het door Commerce geleverde exemplaar van Azure Front Door. Dit vereist coördinatie met het Dynamics 365 Commerce-team voor domeinverificatie en het verkrijgen van SSL-certificaten voor uw productiedomein.
+
 > [!NOTE]
 > Als u een externe CDN- of front door-service gebruikt, moet u ervoor zorgen dat de aanvraag wordt aangeboden op het Commerce-platform met de door Commerce opgegeven hostnaam, maar met de XFH-header (X-Forwarded-Host) \<custom-domain\>. Als het Commerce-eindpunt bijvoorbeeld `xyz.dynamics365commerce.ms` is en het aangepaste domein is `www.fabrikam.com`, moet de hostheader van de forwarded request `xyz.dynamics365commerce.ms` zijn en moet de XFH-koptekst `www.fabrikam.com`.
-
-- Gebruik het door Commerce geleverde exemplaar van Azure Front Door. Dit vereist coördinatie met het Dynamics 365 Commerce-team voor domeinverificatie en het verkrijgen van SSL-certificaten voor uw productiedomein.
 
 Zie [Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen](add-cdn-support.md) voor informatie over het rechtstreeks instellen van een CDN-service.
 

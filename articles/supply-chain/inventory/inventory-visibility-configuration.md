@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306313"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423564"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility configureren
 
@@ -303,13 +303,13 @@ De oplossing bevat standaard deze partitieconfiguratie. Daarom *hoeft u deze nie
 
 Meestal staat de query voor voorhanden voorraad niet alleen op het hoogste niveau 'totaal'. In plaats daarvan wilt u mogelijk ook resultaten bekijken die worden samengevoegd op basis van de voorraaddimensies.
 
-Voorraadzichtbaarheid biedt flexibiliteit door u de _indexen_ te laten instellen. Deze indexen zijn gebaseerd op een dimensie of een combinatie van dimensies. Een index bestaat uit een *setnummer*, een *dimensie* en een *hiërarchie*, zoals gedefinieerd in de volgende tabel.
+Voorraadzichtbaarheid biedt flexibiliteit door u de _indexen_ te laten instellen om de prestaties van uw query's te verbeteren. Deze indexen zijn gebaseerd op een dimensie of een combinatie van dimensies. Een index bestaat uit een *setnummer*, een *dimensie* en een *hiërarchie*, zoals gedefinieerd in de volgende tabel.
 
 | Naam | Beschrijving |
 |---|---|
 | Setnummer | Dimensies die tot dezelfde set (index) behoren, worden gegroepeerd en krijgen hetzelfde setnummer toegewezen. |
 | Dimensie | Basisdimensies op basis daarvan wordt het queryresultaat is samengevoegd. |
-| Hiërarchie | De hiërarchie wordt gebruikt om de ondersteunde dimensiecombinaties te definiëren waarop een query kan worden uitgevoerd. U stelt bijvoorbeeld een dimensieset in met een hiërarchievolgorde van `(ColorId, SizeId, StyleId)`. In dit geval ondersteunt het systeem query's op vier dimensiecombinaties. De eerste combinatie is leeg, de tweede is `(ColorId)`, de derde is `(ColorId, SizeId)` en de vierde is `(ColorId, SizeId, StyleId)`. De andere combinaties worden niet ondersteund. Zie het volgende voorbeeld voor meer informatie. |
+| Hiërarchie | Met de hiërarchie kunt u de prestaties verhogen van specifieke combinaties van dimensies wanneer deze worden gebruikt in queryparameters voor filteren en groeperen. Als u bijvoorbeeld een dimensieset met de hiërarchievolgorde `(ColorId, SizeId, StyleId)` instelt, kan het systeem sneller query's verwerken die zijn gerelateerd aan vier dimensiecombinaties. De eerste combinatie is leeg, de tweede is `(ColorId)`, de derde is `(ColorId, SizeId)` en de vierde is `(ColorId, SizeId, StyleId)`. Andere combinaties worden niet versneld. Filters worden niet beperkt op order, maar moeten binnen deze dimensies vallen als u hun prestaties wilt verbeteren. Zie het volgende voorbeeld voor meer informatie. |
 
 Ga als volgt te werk om uw producthiërarchie-index in te stellen.
 
@@ -319,14 +319,13 @@ Ga als volgt te werk om uw producthiërarchie-index in te stellen.
 1. Standaard wordt een lijst met indexen weergegeven. Als u een bestaande index wilt wijzigen, selecteert u **Bewerken** of **Toevoegen** in de sectie voor de relevante index. Als u een nieuwe indexset wilt maken, selecteert u **Nieuwe indexset**. Selecteer voor elke rij in elke indexset in het veld **Dimensie** een dimensie in de lijst met basisdimensies. Waarden voor de volgende velden worden automatisch gegenereerd:
 
     - **Setnummer**: dimensies die tot dezelfde groep (index) behoren, worden gegroepeerd en krijgen hetzelfde setnummer toegewezen.
-    - **Hiërarchie**: de hiërarchie wordt gebruikt om de ondersteunde dimensiecombinaties te definiëren waarop een query kan worden uitgevoerd in een dimensiegroep (index). Als u bijvoorbeeld een dimensiegroep instelt met de hiërarchievolgorde *Stijl*, *Kleur* en *Maat*, ondersteunt het systeem het resultaat van drie querygroepen. De eerste groep is alleen stijl. De tweede groep is een combinatie van stijl en kleur. En de derde groep is een combinatie van stijl, kleur en maat. De andere combinaties worden niet ondersteund.
+    - **Hiërarchie**: met de hiërarchie worden de prestaties verhoogd van specifieke combinaties van dimensies wanneer deze worden gebruikt in queryparameters voor filteren en groeperen.
 
 > [!TIP]
 > Hier volgen enkele tips om in gedachten te houden bij het instellen van de indexhiërarchie:
 >
 > - Basisdimensies die in de partitieconfiguratie zijn gedefinieerd, mogen niet worden gedefinieerd in indexconfiguraties. Als in de indexconfiguratie opnieuw een basisdimensie is gedefinieerd, kunt u in deze index geen query's uitvoeren.
 > - Als u alleen een query hoeft uit te voeren op voorraad die wordt samengevoegd door alle dimensiecombinaties, kunt u één index instellen die de basisdimensie `Empty` bevat.
-> - U moet ten minste één indexhiërarchie hebben (die bijvoorbeeld de basisdimensie `Empty` bevat), anders mislukken query's met de fout 'Er is geen indexhiërarchie ingesteld'.
 
 ### <a name="example"></a>Voorbeeld
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313878"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410445"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!NOTE]
 > Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Verwijderde of verouderde functies in versie 10.0.30 van Finance
+
+### <a name="revenue-recognition"></a>Opbrengsttoerekening
+
+[Opbrengsttoerekening](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Reden voor afschaffing/verwijdering** |Vervangen door verbeterde functionaliteit, [facturering van abonnementen](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden** | Toepassing |
+| **Implementatieoptie** | Alle |
+| **Status** | Afgeschaft: na april 2023 wordt de functie voor opbrengstherkenning in Dynamics 365 Finance niet meer ondersteund voor het oplossen van fouten. Klanten zal worden gevraagd de verbeterde functionaliteit [Facturering van abonnementen](../../finance/accounts-receivable/subscription-billing-summary.md) te gebruiken. In oktober 2023 is de functie voor opbrengstherkenning niet langer beschikbaar. Klanten zal worden gevraagd over te stappen naar de verbeterde functionaliteit Facturering van abonnementen.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Verwijderde of verouderde functies in versie 10.0.29 van Finance
 
