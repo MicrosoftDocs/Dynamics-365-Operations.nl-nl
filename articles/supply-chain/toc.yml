@@ -12,6 +12,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.30 (november 2022)
+                  href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (oktober 2022)
                   href: get-started/whats-new-scm-10-0-29.md
                 - name: Supply Chain Management 10.0.28 (augustus 2022)
@@ -1715,13 +1717,35 @@
                   href: inventory/inventory-visibility-allocation.md
                 - name: Planning van wijzigingen in voorhanden voorraad en available to promise in Voorraadzichtbaarheid
                   href: inventory/inventory-visibility-available-to-promise.md
-                - name: Openbare API's voor Voorraadzichtbaarheid
+                - name: Openbare API's voor Inventory Visibility
                   href: inventory/inventory-visibility-api.md
-                - name: Tips voor Voorraadzichtbaarheid
+                - name: Tips voor Inventory Visibility
                   href: inventory/inventory-visibility-tips.md
+        - name: Sensor Data Intelligence
+          items:
+            - name: Startpagina Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-home-page.md
+            - name: Sensor Data Intelligence inschakelen voor uw systeem
+              href: sensor-data-intelligence/sdi-enable-feature.md
+            - name: Een IoT-oplossing implementeren op Azure
+              href: sensor-data-intelligence/sdi-deploy-iot-solution-on-azure.md
+            - name: Parameters van Sensor Data Intelligence
+              href: sensor-data-intelligence/sdi-parameters.md
+            - name: Een gesimuleerde sensor instellen voor testen
+              href: sensor-data-intelligence/sdi-set-up-simulated-sensor.md
+            - name: Uitvaltijdscenario voor activum
+              href: sensor-data-intelligence/sdi-scenario-asset-downtime.md
+            - name: Onderhoudsscenario voor activum
+              href: sensor-data-intelligence/sdi-scenario-asset-maintenance.md
+            - name: Scenario voor machinestatus
+              href: sensor-data-intelligence/sdi-scenario-equipment-downtime.md
+            - name: Scenario voor productkwaliteit
+              href: sensor-data-intelligence/sdi-scenario-product-quality.md
+            - name: Scenario voor productievertraging
+              href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: IoT-intelligentie
           items:
-            - name: Startpagina van IoT-intelligentie
+            - name: Startpagina IoT-intelligentie
               href: iot/iot-intelligence-home-page.md
             - name: Azure-resources instellen
               href: iot/iot-azure-setup.md
@@ -1940,7 +1964,7 @@
                 - name: Kostenbeheer
                   href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Onkostenbeheer
-                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Voorhanden voorraad
                   href: inventory/inventory-on-hand-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Factuurgoedkeuringen
@@ -1948,11 +1972,11 @@
                 - name: Mijn team
                   href: ../fin-ops-core/dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Overzicht van Mobiele Project-toepassingen
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview?toc=/dynamics365/supply-chain/toc.json
                 - name: Projecttijdinvoer
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace?toc=/dynamics365/supply-chain/toc.json
                 - name: Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=%2fdynamics365%2fsupply-chain%2ftoc.json
+                  href: /dynamics365/project-operations/prod-pma/project-timesheet?toc=/dynamics365/supply-chain/toc.json
                 - name: Goedkeuring van inkooporder
                   href: procurement/purchase-order-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Verkooporders
@@ -3461,11 +3485,11 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Kleine pakketten verzenden
                       href: warehousing/small-parcel-shipping.md
-                - name: Beleidsregels voor consolidatie van zendingen
+                - name: Consolidatiebeleid van zendingen
                   items:
-                    - name: Beleidsregels voor consolidatie van zendingen
+                    - name: Overzicht van consolidatiebeleid van zendingen
                       href: warehousing/about-shipment-consolidation-policies.md
-                    - name: Beleidsregels voor samenvoegen van zendingen configureren
+                    - name: Consolidatiebeleid van zendingen configureren
                       href: warehousing/configure-shipment-consolidation-policies.md
                     - name: 'Scenario 1: Zendingen samenvoegen die aan het magazijn zijn vrijgegeven via automatische vrijgave van verkooporders'
                       href: warehousing/consolidate-shipments-automatic.md
