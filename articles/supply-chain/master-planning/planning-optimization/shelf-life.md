@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337129"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428216"
 ---
 # <a name="master-planning-for-products-with-limited-shelf-life"></a>Hoofdplanning voor producten met een beperkte houdbaarheid
 
@@ -298,8 +298,6 @@ In de volgende afbeelding wordt de tijdlijn voor dit voorbeeld weergegeven.
 ![Voorbeeld 4: Eenvoudige FEFO, periode, levertijd is afhankelijk van de hoeveelheid.](media/fefo-example-4.png "Voorbeeld 4: Eenvoudige FEFO, periode, levertijd is afhankelijk van de hoeveelheid")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>Voorbeeld 5: Eenvoudige FEFO, vereiste, 10 negatieve dagen
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 In dit voorbeeld ziet u hoe de houdbaarheid werkt wanneer een groot aantal negatieve dagen wordt toegevoegd voor een artikel. Negatieve dagen zijn het aantal dagen dat u bereid bent om te wachten voordat u een aanvulling van een artikel bestelt waarvoor een negatieve voorraad bestaat. Er wordt geen aanbod gemaakt tenzij het aantal negatieve dagen wordt overschreden.
 

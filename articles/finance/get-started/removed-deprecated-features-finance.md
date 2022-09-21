@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410445"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462296"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja |
 | **Betrokken productgebieden** | Toepassing |
 | **Implementatieoptie** | Alle |
-| **Status** | Afgeschaft: na april 2023 wordt de functie voor opbrengstherkenning in Dynamics 365 Finance niet meer ondersteund voor het oplossen van fouten. Klanten zal worden gevraagd de verbeterde functionaliteit [Facturering van abonnementen](../../finance/accounts-receivable/subscription-billing-summary.md) te gebruiken. In oktober 2023 is de functie voor opbrengstherkenning niet langer beschikbaar. Klanten zal worden gevraagd over te stappen naar de verbeterde functionaliteit Facturering van abonnementen.|
+| **Status** | Afgeschaft: na april 2023 wordt de functie voor opbrengstherkenning in Dynamics 365 Finance niet meer ondersteund voor het oplossen van fouten. Klanten zal worden gevraagd de verbeterde functionaliteit [Facturering van abonnementen](../../finance/accounts-receivable/subscription-billing-summary.md) te gebruiken. In oktober 2023 is de functie voor opbrengstherkenning niet langer beschikbaar. Klanten zal worden gevraagd over te stappen naar de verbeterde functionaliteit Facturering van abonnementen. Voor de functie voor bundelen als onderdeel van opbrengsttoerekening is er op dit moment geen vervangende functionaliteit gepland.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Verwijderde of verouderde functies in versie 10.0.29 van Finance
 

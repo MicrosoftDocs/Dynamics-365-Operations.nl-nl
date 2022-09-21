@@ -2,19 +2,19 @@
 title: Domeinen in Dynamics 365 Commerce
 description: In dit artikel wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/19/2022
+ms.date: 09/09/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd2fdc82fe62e56e18f54138e07b663a18802d66
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405491"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465188"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -144,9 +144,9 @@ Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-dom
 
 - **Optie 1** - gebruik uw DNS-provider om het apex-domein om te leiden naar een www-domein. fabrikam.com leidt bijvoorbeeld om naar `www.fabrikam.com` waarbij `www.fabrikam.com` de CNAME-record is die verwijst naar het Commerce gehoste Azure Front Door-exemplaar.
 
-- **Optie 2**: als uw DNS-provider ALIAS-records ondersteunt, kunt u het apex-domein laten verwijzen naar het eindpunt van de front door. Op deze manier zorgt u ervoor dat de IP-wijziging door het eindpunt van de front door wordt weergegeven.
+- **Optie 2** : Als uw DNS-provider ALIAS-records ondersteunt, kunt u het apex-domein laten verwijzen naar het Azure Front Door-eindpunt. Dit zorgt ervoor dat de IP-wijziging door het eindpunt wordt weergegeven. U moet het Azure Front Door-exemplaar zelf hosten.
   
-- **Optie 3**: als uw DNS-provider geen ALIAS-records ondersteunt, moet u zelf een CDN- of front door-exemplaar instellen om het apex-domein te hosten.
+- **Optie 3** : als uw DNS-provider ALIAS-records niet ondersteunt, moet u uw DNS-provider wijzigen in Azure DNS en zowel Azure DNS als het Azure Front Door-exemplaar zelf hosten.
 
 > [!NOTE]
 > Als u Azure Front Door gebruikt, moet u ook een Azure DNS instellen in hetzelfde abonnement. Het apex-domein dat op Azure DNS wordt gehost, kan naar uw Azure Front Door verwijzen als een aliasrecord. Dit is de enige tijdelijke oplossing, aangezien apex-domeinen altijd naar een IP-adres moeten verwijzen.

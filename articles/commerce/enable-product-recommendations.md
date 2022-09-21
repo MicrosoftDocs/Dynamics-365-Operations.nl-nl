@@ -2,7 +2,7 @@
 title: Productaanbevelingen inschakelen
 description: In dit artikel wordt uitgelegd hoe u productaanbevelingen kunt doen op basis van kunstmatige intelligentie-machine learning (AI-ML) die beschikbaar is voor klanten van Microsoft Dynamics 365 Commerce.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892066"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460016"
 ---
 # <a name="enable-product-recommendations"></a>Productaanbevelingen inschakelen
 
@@ -36,12 +36,19 @@ In dit artikel wordt uitgelegd hoe u productaanbevelingen kunt doen op basis van
 1. Bevestig dat Azure AD-identiteitsconfiguratie een vermelding voor aanbevelingen bevat. Hieronder vindt u meer informatie over het uitvoeren van deze actie.
 1. Controleer of de dagelijkse vernieuwing van de entiteitswinkel naar Azure Data Lake Storage Gen2 is gepland. Zie [Zorg ervoor dat het vernieuwen van de entiteitsopslag is geautomatiseerd](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md) voor meer informatie.
 1. RetailSale-afmetingen inschakelen voor entiteitswinkel. Raadpleeg [Werken met maateenheden](/dynamics365/ai/customer-insights/pm-measures) voor meer informatie over het instellen van dit proces.
+1. Controleer of in uw omgeving de serving- en cooking-regio's zijn gedefinieerd in de momenteel ondersteunde regio's, zoals hieronder getoond:
+
+    - **Ondersteunde cooking-regio's:** EU/US/CA/AU.
+    - **Ondersteunde serving-regio's:** US/CA/AU. Als de serving-regio niet overeenkomst met een van de bestaande ondersteunde regio's, selecteert de aanbevelingenservice de dichtstbijzijnde ondersteunde serving-regio.
 
 Nadat de bovenstaande stappen zijn voltooid, bent u gereed om aanbevelingen in te schakelen.
 
+> [!NOTE]
+> Er is een bekend probleem waarbij aanbevelingen pas worden weergegeven nadat de volgende stappen zijn voltooid. Dit probleem wordt veroorzaakt door gegevensstroomproblemen in de omgeving. Als in uw omgeving geen aanbevelingsresultaten worden gegeven, configureert u de alternatieve gegevens voor de aanbevelingenservice door de stappen te volgen in [Een alternatieve gegevensstroom voor aanbevelingen instellen](set-up-alternate-data-flow.md). U moet beheerdersmachtigingen voor Azure hebben om deze stappen uit te kunnen voeren. Neem contact op met uw FastTrack-vertegenwoordiger als u ondersteuning nodig hebt.
+
 ## <a name="azure-ad-identity-configuration"></a>Azure AD-identiteitsconfiguratie
 
-Deze stap is alleen vereist voor alle klanten die een IaaS-configuratie uitvoeren (Infrastructure as a Service). Azure AD De identiteitsconfiguratie wordt automatisch uitgevoerd voor klanten met Azure Service Fabric, maar het wordt aanbevolen om te controleren of de instelling volgens verwachting is geconfigureerd.
+Deze stap is alleen vereist voor alle klanten die een IaaS-configuratie uitvoeren (Infrastructure as a Service). Azure AD-identiteitsconfiguratie is automatisch voor klanten die draaien op Azure Service Fabric, maar het wordt aanbevolen om te controleren of de instelling volgens verwachting is geconfigureerd.
 
 ### <a name="setup"></a>Instelling
 
@@ -94,7 +101,9 @@ Zie [Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md) vo
 
 [Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving](enable-adls-environment.md)
 
-[Gepersonaliseerde aanbevelingen inschakelen](personalized-recommendations.md)
+[Een alternatieve gegevensstroom voor aanbevelingen instellen](set-up-alternate-data-flow.md)
+
+[Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md)
 
 [Aanbevelingen voor vergelijkbare artikelen inschakelen](shop-similar-looks.md)
 
@@ -111,6 +120,7 @@ Zie [Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md) vo
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
 
 
 

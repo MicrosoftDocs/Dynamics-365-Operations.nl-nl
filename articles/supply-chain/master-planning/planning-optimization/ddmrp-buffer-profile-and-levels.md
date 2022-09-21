@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186661"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428139"
 ---
 # <a name="buffer-profile-and-levels"></a>Bufferprofiel en -niveaus
 
@@ -77,6 +77,14 @@ Als het in de vorige afbeelding vandaag de morgen van 11 juni is, is het gemidde
 
 - **Gemiddeld dagelijks gebruik (verleden)** = (29 + 11 + 23) ÷ 3 = 21
 
+Voor de berekening van het gemiddelde dagelijks gebruik (verleden) wordt rekening gehouden met de volgende transacties:
+
+- Transacties die de hoeveelheid van het artikel verminderen (in de tabel `inventtrans` waar hoeveelheid minder dan nul is)
+- Transacties met de status *In bestelling*, *Besteld en gereserveerd*, *Fysiek gereserveerd*, *Verzameld*, *Ingehouden* of *Verkocht*
+- Transacties met een datum binnen de gekozen achterwaartse periode (het gemiddelde dagelijkse gebruik in de afgelopen periode)
+- Andere transacties dan magazijnwerk, quarantaine, verkoopoffertes of overzichten (`WHSWork`, `WHSQuarantine`, `SalesQuotation` of `Statement`)
+- Andere transacties dan overboekingsjournaal met dezelfde dimensie voor behoefteplan
+
 ### <a name="average-daily-usage-forward"></a>Gemiddeld dagelijks gebruik (toekomstig) berekenen
 
 Voor een nieuw product hebt u mogelijk geen gebruiksgegevens uit het verleden. Daarom kunt u in plaats daarvan het verwachte gemiddelde dagelijkse gebruik (toekomstig) gebruiken (bijvoorbeeld op basis van geprognosticeerde vraag). In de volgende afbeelding ziet u hoe deze benadering werkt wanneer bij de berekening drie dagen in de toekomst (inclusief vandaag) worden bekeken.
@@ -86,6 +94,11 @@ Voor een nieuw product hebt u mogelijk geen gebruiksgegevens uit het verleden. D
 Als het in de vorige afbeelding vandaag de morgen van 11 juni is, is het gemiddelde dagelijkse gebruik voor de volgende drie dagen (11 juni, 12 juni en 13 juni) 21,66.
 
 - **Gemiddeld dagelijks gebruik (toekomstig)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Voor de berekening van het gemiddelde dagelijks gebruik (toekomstig) wordt rekening gehouden met de volgende transacties:
+
+- Prognosetransacties voor het artikel waarin de prognose is geselecteerd in het hoofdplan
+- Transacties met een datum binnen de gekozen voorwaartse periode (het gemiddelde dagelijkse gebruik in de komende periode)
 
 ### <a name="average-daily-usage-blended"></a>Gemiddeld dagelijks gebruik (gemengd)
 

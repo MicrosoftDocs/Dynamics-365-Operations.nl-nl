@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336600"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427843"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Gegevens met de omleidingen van de mobiele app Warehouse Management
 
@@ -268,6 +268,6 @@ Volg deze stappen om de nieuwe instellingen voor de mobiele app te testen.
     ![Inkoop ontvangen met behulp van inkooporders opzoeken op leverancier, voorbeeld 2](media/wma-purchase-receive-lookup-po-vendor-detours.png "Inkoop ontvangen met behulp van inkooporders opzoeken op leverancier, voorbeeld 2")
 
 > [!TIP]
-> In plaats van de ontvangststroom uit te voeren door een zoekactie uit te voeren via de menuopdracht **Inkoop ontvangen**, kunt u vanuit een onderzoeksstroom starten (**Hoofd \> Onderzoeken \> Inkooporders opzoeken op leverancier**) en een omleiding op te roepen om de gewenste stroom uit te voeren door een van de kaarten in de lijst te selecteren. Als u deze benadering wilt gebruiken, kunt u een omleiding definiëren op de pagina **Stappen mobiel apparaat** voor de stap met een **stap-ID-waarde** van *GenericDataInquiryList*. Omdat deze stroom een omleidingsstroom is, kunt u vanuit deze stroom niet meer omleidingen aanroepen. Wanneer u bijvoorbeeld bij het invoerscherm voor artikelnummer komt, is de opzoekactie niet beschikbaar omdat het systeem momenteel slechts één omleidingsniveau ondersteunt.
+> In plaats van de ontvangststroom uit te voeren door een zoekactie uit te voeren via de menuopdracht **Inkoop ontvangen**, kunt u vanuit een onderzoeksstroom starten (**Hoofd \> Onderzoeken \> Inkooporders opzoeken op leverancier**) en een omleiding op te roepen om de gewenste stroom uit te voeren door een van de kaarten in de lijst te selecteren. Als u deze benadering wilt gebruiken, kunt u een omleiding definiëren op de pagina **Stappen mobiel apparaat** voor de stap met een **stap-ID-waarde** van *GenericDataInquiryList*. Als de mobiele app-functie [*Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management*](warehouse-app-detours.md) is ingeschakeld voor uw systeem, kunt u indien nodig ook een extra omleiding toevoegen (deze functie biedt ondersteuning voor maximaal twee omleidingen en kan worden aangepast voor extra niveaus).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

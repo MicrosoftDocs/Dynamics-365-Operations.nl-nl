@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280919"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476809"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -186,6 +186,9 @@ Wanneer een onderdeel **Cel** is geconfigureerd om een waarde in een Excel-afbee
 
 > [!NOTE]
 > Elke Excel-afbeelding en -vorm wordt als verankerd aan de linkerbovenhoek van een bepaalde Excel-cel of een bepaald bereik beschouwd. Als u een Excel-afbeelding of -vorm wilt repliceren, moet u de cel of het bereik waaraan deze is verankerd, configureren als een gerepliceerde cel of een gerepliceerd bereik.
+
+> [!TIP]
+> Als u van plan bent om een afbeelding met aangepaste schaal en hoogte-breedteverhouding te gebruiken tijdens runtime, raden we u aan om de optie **Schaal van afbeeldingen behouden** van het bovenliggende [Excel-bestandsonderdeel](#excel-file-component) op **Ja** in te stellen. Zo worden de schaal en hoogte-breedteverhouding toegepast als tijdelijke aanduiding voor die afbeelding in de Excel-sjabloon die u gebruikt.
 
 Zie [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](electronic-reporting-embed-images-shapes.md) voor meer informatie over het insluiten van afbeeldingen en vormen.
 

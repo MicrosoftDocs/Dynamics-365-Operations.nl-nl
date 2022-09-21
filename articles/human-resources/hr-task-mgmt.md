@@ -2,7 +2,7 @@
 title: Taakbeheer
 description: In dit artikel wordt de functie voor taakbeheer uitgelegd die beschikbaar is in Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,14 +12,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897859"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445889"
 ---
 # <a name="task-management"></a>Taakbeheer
 
@@ -69,7 +69,13 @@ Op alle drie de tabbladen kunnen HR-medewerkers en managers de volgende activite
 
 U kunt taken afzonderlijk maken en deze vervolgens opnieuw gebruiken in meerdere controlelijsten. Als u een taak wilt maken, selecteert u op de pagina **Instellingen voor aannemen** op het tabblad **Taken** de optie **Nieuw**.
 
+U kunt een gemaakte taak aan meerdere controlelijsten toewijzen door de taak te selecteren en vervolgens **Toepassen op controlelijsten** in het menu te selecteren.
+
 U kunt ook taken rechtstreeks aan een controlelijst toevoegen. Als u een taak wilt toevoegen aan een controlelijst, maakt u op de pagina **Instellingen voor aannemen** op het tabblad **Controlelijst** een nieuwe controlelijst waaraan u de taak toevoegt, of voegt u de taak aan een bestaande controlelijst toe.
+
+Als u een taak in de bibliotheek wilt bewerken, selecteert u **Bewerken** in het menu Taakbibliotheek. Als de taak is gekoppeld aan controlelijsten, worden deze controlelijsten weergegeven op de pagina **Taak bewerken**. Als u wilt dat de taken in controlelijsten worden bijgewerkt met de bewerkingen, selecteert u die controlelijsten in de sectie **Controlelijsten toepassen**.
+
+Als u taken uit de bibliotheek wilt verwijderen, selecteert u de optie **Verwijderen**. Als een taak is gekoppeld aan een controlelijst, wordt met deze actie de taak niet uit die controlelijst verwijderd. De taak moet in een afzonderlijke actie uit de controlelijst worden verwijderd.
 
 > [!NOTE]
 > Als u een taak rechtstreeks aan een controlelijst toevoegt, kunt u deze niet opnieuw gebruiken in andere controlelijsten.
@@ -133,7 +139,15 @@ Complexe taken vereisen mogelijk meerdere stappen of de persoon die de taak uitv
 
 ## <a name="setting-up-checklists"></a>Controlelijsten instellen
 
-Een controlelijst is een groep taken. U kunt zoveel controlelijsten maken als u nodig hebt en u kunt dezelfde taken aan meerdere controlelijsten toewijzen. Wanneer u een controlelijst maakt, geeft u een eigenaar en een kalender op.
+Een controlelijst is een groep taken. U kunt zoveel controlelijsten maken als u nodig hebt en u kunt dezelfde taken aan meerdere controlelijsten toewijzen.
+
+Als u een nieuwe taak in een controlelijst wilt maken, selecteert u **Nieuw** op de menubalk **Taken**. Wanneer u een nieuwe taak maakt, kunt u ervoor kiezen deze toe te voegen aan de taakbibliotheek, zodat deze kan worden gedeeld met meerdere controlelijsten. U kunt de taak alleen aan de bibliotheek toevoegen als de optie **Taak toepassen op bibliotheek** is ingesteld op **Ja**. Als u de taak aan de taakbibliotheek toevoegt, kunt u de taak tegelijk ook aan andere controlelijsten toevoegen door de controlelijsten te selecteren in de sectie **Controlelijsten toepassen**. Als u de taak niet toevoegt aan de bibliotheek, staat deze alleen in de controlelijst waarin u deze maakt.
+
+Als u een taak in de controlelijst wilt bewerken, selecteert u **Bewerken**. Als de taak is gekoppeld aan controlelijsten, worden deze controlelijsten weergegeven op de pagina **Taak bewerken**. Als u wilt dat de taken in andere controlelijsten worden bijgewerkt met de bewerkingen, selecteert u die controlelijsten in de sectie **Controlelijsten toepassen**.
+
+Als u taken uit de controlelijst wilt verwijderen, selecteert u **Verwijderen**. Met deze actie worden alleen taken uit de controlelijst verwijderd. Ze worden niet uit de taakbibliotheek verwijderd. Als u een taak uit de bibliotheek wilt verwijderen, gaat u naar de taakbibliotheekpagina en selecteert u **Verwijderen**.
+
+Wanneer u een controlelijst maakt, geeft u een eigenaar en een kalender op.
 
 Als het veld **Toewijzingstype** voor een taak is ingesteld op **Functie**, **Manager** of **Groep** maar er geen specifieke persoon kan worden afgeleid van het toewijzingstype, wordt de taak toegewezen aan de eigenaar van de controlelijst. Hieronder vindt u enkele voorbeelden van situaties waarin taken worden toegewezen aan de eigenaar van de controlelijst:
 

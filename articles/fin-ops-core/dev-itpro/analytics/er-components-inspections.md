@@ -2,7 +2,7 @@
 title: Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 description: In dit artikel wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277845"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476849"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -243,6 +243,15 @@ De volgende tabel biedt een overzicht van de inspecties die ER biedt. Als u meer
 <td>
 <p>Op de lijstexpressie van de functie ORDERBY kan geen query worden uitgevoerd.</p>
 <p><b>Runtimefout:</b> sorteren wordt niet ondersteund. Valideer de configuratie voor meer informatie hierover.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Verouderd toepassingsartefact</a></td>
+<td>Gegevensintegriteit</td>
+<td>Waarschuwing</td>
+<td>
+<p>Het element &lt;path&gt; is gemarkeerd als verouderd.<br>of<br>Het element &lt;path&gt; is gemarkeerd als verouderd met bericht &lt;message text&gt;..</p>
+<p><b>Voorbeeld van runtime-fout:</b> Klasse '&lt;path&gt;' niet gevonden.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ In plaats van een genest veld van het type **Berekend veld** toe te voegen aan d
 #### <a name="option-2"></a>Optie 2
 
 Wijzig de expressie van de gegevensbron **FilteredVendors** van `ORDERBY("Query", Vendor, Vendor.AccountNum)` in `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. We raden u niet aan de expressie voor een tabel met een groot gegevensvolume (transactionele tabel) te wijzigen, omdat alle records worden opgehaald en de ordening van de vereiste records in het geheugen plaatsvindt. Deze benadering kan daardoor leiden tot slechte prestaties.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a>Verouderd toepassingsartefact
+
+Wanneer u een onderdeel van een ER-gegevensmodel of van een ER-indeling ontwerpt, kunt een ER-expressie configureren om een toepassingsartefact in ER aan te roepen, zoals een databasetabel, een methode van een klasse en dergelijke. In versie 10.0.30 van Finance kunt u er echter voor zorgen dat in de broncode het toepassingsartefact waarnaar wordt verwezen is gemarkeerd als verouderd. Deze waarschuwing kan nuttig zijn omdat verouderde artefacten uiteindelijk uit de broncode worden verwijderd. Als u wordt geïnformeerd over de status van een artefact, kunt u gebriuk van het verouderde artefact in het bewerkbare ER-onderdeel stoppen voordat het uit de broncode wordt verwijderd. Hiermee voorkomt u fouten doordat niet-bestaande toepassingsartefacten worden aangeroepen vanuit een ER-onderdeel tijdens runtime.
+
+Schakel de functie **Verouderde elementen van gegevensbronnen voor Elektronische rapportage valideren** in de werkruimte **Functiebeheer** in om te beginnen met het evalueren van het kenmerk Verouderd van toepassingsartefacten tijdens de inspectie van een bewerkbaar ER-onderdeel. Het kenmerk Verouderd wordt momenteel geëvalueerd voor de volgende typen toepassingsartefacten:
+
+- Databasetabel
+    - Veld van een tabel
+    - Methode van een tabel
+- Toepassingsklasse
+    - Methode van een klasse
+
+> [!NOTE]
+> Er wordt alleen tijdens de inspectie van het bewerkbare ER-onderdeel een waarschuwing gegeven voor een gegevensbron die naar een verouderd artefact verwijst, wanneer deze gegevensbron wordt gebruikt in ten minste één binding van dit ER-onderdeel.
+
+> [!TIP]
+> Wanneer de klasse [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) wordt gebruikt om de compiler te informeren dat waarschuwingsberichten moeten worden gegeven in plaats van fouten, geeft de inspectiewaarschuwing de opgegeven waarschuwing in de code weer op het sneltabblad **Details** op de pagina **Ontwerper modeltoewijzingen** of **Indelingsontwerper**.
+
+In de volgende afbeelding ziet u de validatiewaarschuwing die optreedt wanneer het verouderde veld `DEL_Email` van de toepassingstabel `CompanyInfo` met behulp van de geconfigureerde gegevensbron `company` in een gegevensmodelveld wordt gebonden.
+
+![Bekijk de validatiewaarschuwingen op het sneltabblad Details op de pagina Ontwerper modeltoewijzingen.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Automatische oplossing
+
+Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
+
+### <a name="manual-resolution"></a>Handmatige oplossing
+
+Pas de geconfigureerde modeltoewijzing of indeling aan door alle bindingen te verwijderen naar een gegevensbron die verwijst naar een verouderd toepassingsartefact.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

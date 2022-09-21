@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c13ecca9523707ef3df5fdb97dc4cbd79478258d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850665"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475606"
 ---
 # <a name="intercompany-planning"></a>Intercompany-planning
 
@@ -45,8 +45,8 @@ Als u hoofdplanning uitvoert vanuit een hoofdplan dat geplande downstreamvraag o
 
 Als u intercompany-planning wilt gebruiken, moet u het systeem op de volgende manier voorbereiden:
 
-1. De relevante producten moeten in alle betrokken bedrijven worden vrijgegeven. Zie voor meer informatie [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) op Microsoft Learn.
-1. Downstreamvraag moet worden gedekt door inkopen van een leverancier die een intercompany-relatie heeft met het upstreambedrijf en relevante standaardvoorraaddimensies (locatie en magazijn) voor de klant. Zie voor meer informatie [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) op Microsoft Learn.
+1. De relevante producten moeten in alle betrokken bedrijven worden vrijgegeven. Meer informatie over dit onderwerp vindt u in [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. Downstreamvraag moet worden gedekt door inkopen van een leverancier die een intercompany-relatie heeft met het upstreambedrijf en relevante standaardvoorraaddimensies (locatie en magazijn) voor de klant. Meer informatie over dit onderwerp vindt u in [Intercompany-handel configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Het hoofdplan in het upstream-bedrijf moet geplande downstreamvraag bevatten en het relevante bedrijf en hoofdplan moeten worden opgegeven in de downstreamplannen.
 
 ## <a name="include-planned-downstream-demand"></a>Geplande downstream vraag opnemen
@@ -85,6 +85,5 @@ Voor dit voorbeeld wordt een geplande inkooporder gemaakt in het bedrijf USMF om
 In de volgende afbeelding ziet u hoe dit voorbeeld op de pagina **Tracering van de behoefte op meer niveaus** kan worden weergegeven voor de geplande productieorder.
 
 ![Intercompany-voorbeeld met drie bedrijven.](media/IntercompanyPlanning2.png)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Consolidatiebeleid voor zendingen configureren
 description: In dit artikel wordt uitgelegd hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 0312d425d2ebc5311e894030423a916b90f1881a
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336487"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427977"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -28,75 +28,49 @@ In het consolidatieproces voor zendingen waarbij wordt gebruikgemaakt van consol
 
 De scenario's die in dit artikel worden weergegeven, laten zien hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>De functie voor consolidatiebeleid voor zendingen inschakelen
+> [!WARNING]
+> Als u een upgrade voor een Microsoft Dynamics 365 Supply Chain Management-systeem hebt uitgevoerd waarbij u de verouderde functie voor zendingsconsolidatie gebruikt, werkt de consolidatie mogelijk niet meer zoals u verwacht, tenzij u het hier gegeven advies volgt.
+>
+> Bij Supply Chain Management-installaties waarbij de functie *Consolidatiebeleid voor zendingen* is uitgeschakeld, kunt u consolidatie van zendingen inschakelen door voor elk magazijn de instelling **Zending bij vrijgave naar magazijn consolideren** te gebruiken. Deze functie is verplicht vanaf versie 10.0.29. Wanneer de functie is ingeschakeld, is de instelling **Zending bij vrijgave naar magazijn consolideren** verborgen. De functionaliteit wordt vervangen door de *beleidsregels voor zendingsconsolidatie*, zoals wordt beschreven in dit artikel. Elke beleidsregel legt consolidatieregels vast en bevat een query om te bepalen waar het beleid van toepassing is. Wanneer u de functie voor de eerste keer inschakelt, worden geen beleidsregels voor consolidatie van zendingen gedefinieerd op de pagina **Consolidatiebeleid voor zendingen**. Wanneer er geen beleid is gedefinieerd, gebruikt het systeem het gedrag van voorheen. Daarom blijft elk bestaand magazijn de instelling **Zending bij vrijgave naar magazijn consolideren** uitvoeren, ook al is die instelling nu verborgen. Maar nadat u ten minste één beleidsregel voor verzendingsconsolidatie hebt gemaakt, heeft de instelling **Zending bij vrijgave naar magazijn consolideren** geen effect meer en wordt de consolidatiefunctionaliteit volledig geregeld door het beleid.
+>
+> Nadat u ten minste één consolidatiebeleid voor zendingen hebt definiëren, controleert het systeem het consolidatiebeleid telkens wanneer een order wordt vrijgegeven naar het magazijn. Het systeem verwerkt de beleidsregels op basis van de volgorde die is gedefinieerd door de waarde voor **Beleidsreeks** van elk beleid. Het past de eerste beleidsregel toe als de query overeenkomt met de nieuwe order. Als geen query overeenkomt met de order, wordt voor elke verkoopregel een afzonderlijke verzending met één ladingsregel gegenereerd. Daarom is het raadzaam om, als terugval, een standaardbeleidsregel te maken die van toepassing is op alle magazijnen en groepen op ordernummer. Geef dit terugvalbeleid de hoogste waarde voor **Beleidsreeks**, zodat het als laatste wordt verwerkt.
+>
+> Om het oude gedrag te reproduceren, moet u een beleidsregel maken die niet op ordernummer groepeert en dat querycriteria heeft die alle relevante magazijnen bevatten.
 
-> [!IMPORTANT]
-> In het [eerste scenario](#scenario-1) dat in dit artikel wordt beschreven, stelt u eerst een magazijn in, zodat hiervoor de eerdere functie voor consolidatie van zendingen wordt gebruikt. Vervolgens wordt maakt u consolidatiebeleid voor zendingen beschikbaar. Op deze manier kunt u ervaren hoe het upgradescenario werkt. Als u van plan bent om een omgeving met demogegevens te gebruiken om het eerste scenario te doorlopen, moet u de functie niet inschakelen voordat u het scenario uitvoert.
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>De functie voor consolidatiebeleid voor zendingen inschakelen
 
 Voordat u de functie *Consolidatiebeleid voor zendingen* kunt gebruiken, moet u deze voor het systeem inschakelen. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Consolidatiebeleid voor zendingen* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-## <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
+## <a name="set-up-your-initial-consolidation-policies"></a><a name="initial-policies"></a>Uw initiële beleidsregels voor consolidatie van zendingen instellen
 
-Elk scenario in dit artikel verwijst naar waarden en records die zijn opgenomen in de standaarddemogegevens die voor Microsoft Dynamics 365 Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op **USMF** voordat u begint.
-
-## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Scenario 1: Standaardbeleid voor consolidatie van zendingen configureren
-
-Er zijn twee situaties waarin u het minimum aantal standaardbeleidsregels moet configureren nadat u de functie *Consolidatiebeleid voor zendingen* hebt ingeschakeld:
-
-- U voert een upgrade uit voor een omgeving die al gegevens bevat.
-- U stelt een volledig nieuwe omgeving in.
-
-### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Een omgeving upgraden waarbij magazijnen al zijn geconfigureerd voor consolidatie tussen meerdere orders
-
-Wanneer u deze procedure start, moet de functie *Consolidatiebeleid voor zendingen* zijn uitgeschakeld om een omgeving te simuleren waarin de basisfunctie voor consolidatie tussen orders al is gebruikt. Vervolgens gebruikt u functiebeheer om de functie in te schakelen, zodat u kunt leren hoe u een consolidatiebeleid voor zendingen moet instellen na de upgrade.
-
-Volg deze stappen om standaardbeleid voor de consolidatie van zendingen in te stellen in een omgeving waarin magazijnen al zijn geconfigureerd voor consolidatie tussen orders.
-
-1. Ga naar **Magazijnbeheer \> Instellen \> Magazijn \> Magazijnen**.
-1. Ga in de lijst naar de gewenste magazijnrecord (bijvoorbeeld magazijn *24* in de demogegevens **USMF**) en open deze.
-1. Selecteer **Bewerken** in het actievenster.
-1. Stel op het sneltabblad **Magazijn** de optie **Zending bij vrijgave naar magazijn consolideren** in op *Ja*.
-1. Herhaal stap 2 tot en met 4 voor alle andere magazijnen waarvoor consolidatie vereist is.
-1. Sluit de pagina.
-1. Ga naar **Magazijnbeheer \> Instellen \> Vrijgave naar magazijn \> Consolidatiebeleid voor zendingen**. Mogelijk moet u de browser vernieuwen om het nieuwe menu-item **Consolidatiebeleid voor zendingen** te zien nadat u de functie hebt ingeschakeld.
-1. Selecteer in het actievenster de optie **Standaardinstelling maken** om het volgende beleid te maken:
-
-    - Een beleid **CrossOrder** voor het beleidstype *Verkooporders* (mits u over ten minste één magazijn beschikt dat is ingesteld om de eerdere consolidatiefunctie te gebruiken)
-    - Een beleid **Standaard** voor het beleidstype *Verkooporder*
-    - Een beleid **Standaard** voor het beleidstype *overboekingsorder*
-    - Een beleid **CrossOrder** voor het beleidstype *overboekingsorders* (mits u over ten minste één magazijn beschikt dat is ingesteld om de eerdere consolidatiefunctie te gebruiken)
-
-    > [!NOTE]
-    > - Beide gevallen van het beleid **CrossOrder** beschouwen dezelfde reeks velden als de eerdere logica, behalve voor het veld voor het ordernummer. (Dat veld wordt gebruikt om regels in zendingen te consolideren, op basis van factoren zoals het magazijn, de leveringsmethode en het adres.)
-    > - Beide gevallen van het beleid **Standaard** beschouwen dezelfde reeks velden als de eerdere logica, inclusief het veld voor het ordernummer. (Dat veld wordt gebruikt om regels in zendingen te consolideren, op basis van factoren zoals het ordernummer, de leveringsmethode en het adres.)
-
-1. Selecteer het beleid **CrossOrder** voor het beleidstype *Verkooporders* en selecteer vervolgens in het actievenster de optie **Query bewerken**.
-1. In het dialoogvenster Query-editor worden de magazijnen weergegeven waarvoor de optie **Zending bij vrijgave naar magazijn consolideren** is ingesteld op *Ja*. Daarom worden ze in de query opgenomen.
-
-### <a name="create-default-policies-for-a-new-environment"></a>Standaardbeleid voor een nieuwe omgeving maken
-
-Voer de volgende stappen uit om standaardbeleid voor de consolidatie van zendingen in te stellen in een gloednieuwe omgeving.
+Als u werkt met een nieuw systeem of een systeem waarbij u de functie *Consolidatiebeleid voor zendingen* voor de eerste keer hebt ingeschakeld, volgt u deze stappen om uw initiële consolidatiebeleid voor zendingen in te stellen.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Vrijgave naar magazijn \> Consolidatiebeleid voor zendingen**.
 1. Selecteer in het actievenster de optie **Standaardinstelling maken** om het volgende beleid te maken:
 
-    - Een beleid **Standaard** voor het beleidstype *Verkooporder*
-    - Een beleid **Standaard** voor het beleidstype *overboekingsorder*
+    - Een beleid met de naam *Standaard* voor het beleidstype *Verkooporder*.
+    - Een beleid met de naam *Standaard* voor het beleidstype *Overboekingsuitgifte*.
+    - Een beleid met de naam *CrossOrder* voor het beleidstype *Overboekingsuitgifte*. (Dit beleid wordt alleen gemaakt als u minimaal één magazijn had waarvoor de oude instelling **Zending bij vrijgave naar magazijn consolideren** was ingeschakeld.)
+    - Een beleid met de naam *CrossOrder* voor het beleidstype *Verkooporder*. (Dit beleid wordt alleen gemaakt als u minimaal één magazijn had waarvoor de oude instelling **Zending bij vrijgave naar magazijn consolideren** was ingeschakeld.)
 
     > [!NOTE]
-    > Beide gevallen van het beleid **Standaard** beschouwen dezelfde reeks velden als de eerdere logica, inclusief het veld voor het ordernummer. (Dat veld wordt gebruikt om regels in zendingen te consolideren, op basis van factoren zoals het ordernummer, de leveringsmethode en het adres.)
+    > - Beide *CrossOrder*-beleidsregels nemen dezelfde reeks velden mee voor verwerking. Ze nemen echter ook het veld Ordernummer mee. (Dat veld wordt gebruikt om regels in zendingen te consolideren, op basis van factoren zoals het magazijn, de leveringsmethode en het adres.)
+    > - Beide *Standaard*-beleidsregels nemen dezelfde reeks velden mee voor verwerking. Ze nemen echter ook het veld Ordernummer mee. (Dat veld wordt gebruikt om regels in zendingen te consolideren, op basis van factoren zoals het ordernummer, de leveringsmethode en het adres.)
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Scenario 2: Aangepast beleid voor consolidatie van zendingen configureren
+1. Als het systeem een beleidsregel *CrossOrder* heeft gegenereerd voor het beleidstype *Verkooporders*, selecteer deze dan en selecteer vervolgens in het actievenster de optie **Query bewerken**. In de query-editor kunt u zien voor welke magazijnen de instelling **Zending bij vrijgave naar magazijn consolideren** eerder was ingeschakeld. Daarom reproduceert deze beleidsregel uw eerdere instellingen voor deze magazijnen.
+1. Pas het nieuwe standaardbeleid waar nodig aan door velden toe te voegen of te verwijderen en/of de query's te bewerken. U kunt ook zoveel nieuwe beleidsregels toevoegen als u nodig hebt. Voor voorbeelden die laten zien hoe u het beleid kunt aanpassen en configureren, bekijkt u het voorbeeldscenario later in dit artikel.
 
-In dit scenario ziet u hoe u aangepast beleid voor de consolidatie van zendingen instelt. Aangepast beleid kan complexe bedrijfsvereisten ondersteunen, waarbij consolidatie van de zending afhankelijk is van verschillende voorwaarden. Voor elk voorbeeldbeleid verderop in dit scenario wordt een korte omschrijving van het bedrijfsscenario opgenomen. Deze voorbeelden van beleidsregels moeten worden ingesteld in een volgorde die een piramideachtige evaluatie van de query's waarborgt. (Met andere woorden, de beleidsregels met de meeste voorwaarden moeten worden geëvalueerd met de hoogste prioriteit.)
+## <a name="scenario-configure-custom-shipment-consolidation-policies"></a>Scenario: Aangepast beleid voor consolidatie van zendingen configureren
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>De functie inschakelen en hoofdgegevens voorbereiden voor dit scenario
+Dit scenario geeft een voorbeeld waarin u kunt zien hoe u aangepaste consolidatiebeleidsregels voor zendingen instelt en deze vervolgens test met de demogegevens. Aangepast beleid kan complexe bedrijfsvereisten ondersteunen, waarbij consolidatie van de zending afhankelijk is van verschillende voorwaarden. Voor elk voorbeeldbeleid verderop in dit scenario wordt een korte omschrijving van het bedrijfsscenario opgenomen. Deze voorbeelden van beleidsregels moeten worden ingesteld in een volgorde die een piramideachtige evaluatie van de query's waarborgt. (Met andere woorden, de beleidsregels met de meeste voorwaarden moeten worden geëvalueerd met de hoogste prioriteit.)
 
-Voordat u de oefeningen in dit scenario kunt doorlopen, moet u de functie inschakelen en de vereiste hoofdgegevens voor het filteren voorbereiden, zoals wordt beschreven in de volgende subsecties. (Deze vereisten zijn ook van toepassing op de scenario's in [Voorbeeldscenario's voor het gebruik van consolidatiebeleid voor zendingen](#example-scenarios).)
+### <a name="make-demo-data-available"></a>Demogegevens beschikbaar maken
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>De functie inschakelen en het standaardbeleid maken
+Dit scenario verwijst naar waarden en records die zijn opgenomen in de [standaarddemogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md) die voor Supply Chain Management worden geleverd. Als u de waarden wilt gebruiken die hier worden weergegeven in de oefeningen, moet u controleren of u werkt in een omgeving waarin de demogegevens zijn geïnstalleerd en stelt u de rechtspersoon in op *USMF* voordat u begint.
 
-Gebruik functiebeheer om de functie in te schakelen, als u dit nog niet hebt gedaan, en maak het standaardbeleid voor consolidatie dat wordt beschreven in [scenario 1](#scenario-1).
+### <a name="prepare-master-data-for-this-scenario"></a>Hoofdgegevens voorbereiden voor dit scenario
+
+Voordat u de oefeningen in dit scenario kunt doorlopen, moet u de vereiste hoofdgegevens voor het filteren voorbereiden, zoals wordt beschreven in de volgende subsecties. (Deze vereisten zijn ook van toepassing op de scenario's die worden vermeld in de sectie [Voorbeeldscenario's voor het gebruik van consolidatiebeleid voor zendingen](#example-scenarios).)
 
 #### <a name="create-two-new-product-filter-codes"></a>Twee nieuwe productfiltercodes maken
 
@@ -300,7 +274,7 @@ In dit voorbeeld maakt u een beleid *Magazijnen die consolidatie toestaan* dat k
 - Consolidatie met openstaande zendingen is uitgeschakeld.
 - Consolidatie wordt uitgevoerd tussen orders met de velden die zijn geselecteerd op basis van het standaardbeleid CrossOrder (om het eerdere selectievakje **Zending bij vrijgave naar magazijn consolideren** te repliceren).
 
-Normaal gesproken kan voor dit bedrijfsscenario het standaardbeleid worden gebruikt dat u in [scenario 1](#scenario-1) hebt gemaakt. U kunt echter ook handmatig vergelijkbaar beleid maken door de volgende stappen uit te voeren.
+Normaal gesproken kan voor dit bedrijfsscenario het standaardbeleid worden gebruikt dat u in de sectie [Uw initiële beleidsregels voor consolidatie van zendingen instellen](#initial-policies) hebt gemaakt. U kunt echter ook handmatig vergelijkbaar beleid maken door de volgende stappen uit te voeren.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Vrijgave naar magazijn \> Consolidatiebeleid voor zendingen**.
 1. Stel het veld **Beleidstype** in op *Verkooporders*.
@@ -345,7 +319,7 @@ In de volgende scenario's wordt beschreven hoe u het consolidatiebeleid voor zen
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-- [Beleidsregels voor consolidatie van zendingen](about-shipment-consolidation-policies.md)
+- [Overzicht van consolidatiebeleid voor zendingen](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

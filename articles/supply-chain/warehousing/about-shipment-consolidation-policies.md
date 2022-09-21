@@ -1,5 +1,5 @@
 ---
-title: Beleidsregels voor consolidatie van zendingen
+title: Overzicht van consolidatiebeleid voor zendingen
 description: Dit artikel biedt een overzicht van de functionaliteit die flexibele configuratie van consolidatiebeleid voor zendingen biedt.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903893"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427923"
 ---
-# <a name="shipment-consolidation-policies"></a>Beleidsregels voor consolidatie van zendingen
+# <a name="shipment-consolidation-policies-overview"></a>Overzicht van consolidatiebeleid voor zendingen
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ Voordat consolidatiebeleid voor zendingen werd geïntroduceerd, bestond de conso
 
 Query's worden gebruikt om het consolidatiebeleid voor zendingen te identificeren dat van toepassing is en vervolgens wordt in een bewerkbare verzameling velden bepaald hoe de ladingsregels op het verzendniveau worden gegroepeerd. (Dit patroon lijkt op het patroon dat wave-sjablonen volgen.) Daarnaast is een optie **Consolideren met bestaande zendingen** aan elk beleid toegevoegd. Als deze optie is ingeschakeld, worden met de procedure *Vrijgave naar magazijn* verzendingen voor consolidatie gezocht door te zoeken naar bestaande zendingen die zijn gemaakt op basis van hetzelfde consolidatiebeleid. In dit geval selecteert het systeem een bestaande zending of lading in plaats van een nieuwe te maken. Het systeem wordt echter alleen geconsolideerd met bestaande zendingen met de status *Open*. Zendingen die horen bij een wave-release met de status *Vrijgegeven* of hoger worden niet beschouwd als doelen voor consolidatie.
 
-Wanneer consolidatiebeleid voor zendingen beschikbaar wordt gemaakt, is de instelling **Zending bij vrijgave naar magazijn consolideren** die eerder beschikbaar was op de instellingspagina **Magazijnen** verborgen. Om u te helpen bij de overstap naar de nieuwe functie voor consolidatie van zendingen, wordt met een functie op de pagina **Consolidatiebeleid voor zendingen** een standaardbeleid gemaakt dat automatisch de oude instelling voor bestaande magazijnen bevat. Nadat dit standaardbeleid is gemaakt, wordt geen rekening meer gehouden met de instelling **Zending bij vrijgave naar magazijn consolideren** op de instellingspagina **Magazijnen**.
+Wanneer de functie *Consolidatiebeleid voor zendingen* voor uw systeem is ingeschakeld, is de instelling **Zending bij vrijgave naar magazijn consolideren** die eerder beschikbaar was op de instellingspagina **Magazijnen** verborgen. Om u te helpen bij de overstap naar de nieuwe functie voor consolidatie van zendingen, kunt u met een functie op de pagina **Consolidatiebeleid voor zendingen** een standaardbeleid maken dat automatisch de oude instelling voor bestaande magazijnen bevat. Nadat dit standaardbeleid is gemaakt, wordt geen rekening meer gehouden met de instelling **Zending bij vrijgave naar magazijn consolideren** op de instellingspagina **Magazijnen**. Raadpleeg [Beleid voor consolidatie van zendingen configureren](configure-shipment-consolidation-policies.md) voor meer informatie.
 
 U kunt de pagina **Vrijgave naar magazijn** gebruiken om toepasselijke consolidatiebeleid op dezelfde manier handmatig te overschrijven als uitvoeringsbeleid.
 

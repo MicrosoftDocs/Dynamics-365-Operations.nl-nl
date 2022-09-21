@@ -2,7 +2,7 @@
 title: Omleidingen configureren voor stappen in menu-items van mobiele apparaten
 description: In dit artikel wordt beschreven hoe u omleidingen configureert voor menu-items zodat werknemers de huidige taak kunnen parkeren, een andere taak kunnen uitvoeren en vervolgens naar de oorspronkelijke taak kunnen terugkeren zonder dat er informatie verloren gaat.
 author: Mirzaab
-ms.date: 08/09/2022
+ms.date: 09/01/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
-ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.dyn365.ops.version: 10.0.30
+ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336120"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428058"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Omleidingen configureren voor stappen in menu-items van mobiele apparaten
 
@@ -35,8 +35,11 @@ Voordat u omleidingen voor stappen in menu-items van mobiele apparaten kunt conf
 
 1. Ga naar **Systeembeheer \> Werkruimten \> Functiebeheer**.
 1. Zorg ervoor dat de functie *stap-instructies voor de magazijn-app* is ingeschakeld voor het systeem. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld. Zie voor meer informatie over de *stapinstructies voor de Warehouse-app* de informatie in [Stappentitels en instructies voor de mobiele app Warehouse Management aanpassen](mobile-app-titles-instructions.md). Deze functie is een vereiste voor de functie *Omleidingen in de app Warehouse Management*.
-1. Schakel de functie *Omleidingen van app Warehouse Management* in. Deze functie is de enige functie die in dit artikel wordt beschreven. Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld.
-1. Als de functie *Omleidingen van de app Warehouse Management* niet al was ingeschakeld, werk dan de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Warehouse management \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling aanmaken** te selecteren. Herhaal deze stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
+1. Schakel de volgende functies in, die de functionaliteit bieden die in dit artikel wordt beschreven:
+    - *Omleidingen van Warehouse Management-app*<br>(Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld.)
+    - *Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management*
+1. Als de functies *Omleidingen van de app Warehouse Management* en/of *Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management* niet al waren ingeschakeld, werk dan de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling aanmaken** te selecteren. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
+1. Herhaal de vorige stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt.
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Een omleiding configureren vanuit een menuspecifieke overschrijving
 
@@ -147,3 +150,6 @@ In deze procedure voert u een locatieonderzoek uit met de mobiele app Warehouse 
 1. De nummerplaat is gekopieerd van de kaart die u hebt geselecteerd. Bevestig de waarde.
 1. U kunt nu de standaardtaakstroom volgen om de verplaatsing te voltooien. Nadat het werk is voltooid, opent u het menu Acties en selecteert u **Annuleren**.
 1. U bent weer terug op de pagina **Locatieonderzoek**. De waarden worden niet automatisch bijgewerkt. Daarom moet u de pagina handmatig vernieuwen om de wijzigingen van de verplaatsingsomleiding weer te geven.
+
+> [!NOTE]
+> Met de functie *Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management* kunt u omleidingen met meerdere niveaus (omleidingen binnen omleidingen) definiëren. Zo kunnen medewerkers overspringen van een bestaande omleiding naar een andere en weer terug. De functie ondersteunt standaard twee niveaus van omleidingen. Indien nodig kunt u het systeem aanpassen voor de ondersteuning van drie of meer omleidingen door code-uitbreidingen op de tabel `WHSWorkUserSessionState` te maken.

@@ -2,7 +2,7 @@
 title: Overzicht van belastingberekening
 description: In dit artikel worden het algehele bereik en de functies voor belastingberekening uitgelegd.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295986"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465161"
 ---
 # <a name="tax-calculation-overview"></a>Overzicht van belastingberekening
 
@@ -74,18 +74,10 @@ Het is raadzaam om uw btw-berekeningsconfiguratie te importeren en in te stellen
 
 | Versie van Finance of Supply Chain Management | Versie van belastingconfiguratie               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Belastingconfiguratie - Europa 30.12.82     |
-| 10.0.19         | Belastingberekeningsconfiguratie 36.38.193 |
-| 10.0.20         | Belastingberekeningsconfiguratie 40.43.208 |
-| 10.0.21         | Belastingberekeningsconfiguratie 40.48.215 |
-| 10.0.22         | Belastingberekeningsconfiguratie 40.48.215 |
-| 10.0.23         | Belastingberekeningsconfiguratie 40.50.221 |
-| 10.0.24         | Belastingberekeningsconfiguratie 40.50.225 |
-| 10.0.25         | Belastingberekeningsconfiguratie 40.50.225 |
-| 10.0.26         | Belastingberekeningsconfiguratie 40.54.234 |
-| 10.0.27         | Belastingberekeningsconfiguratie 40.54.234 |
-| 10.0.28         | Belastingberekeningsconfiguratie 40.54.234 |
+| 10.0.30         | Belastingberekeningsconfiguratie 40.55.239 |
 | 10.0.29         | Belastingberekeningsconfiguratie 40.55.236 |
+| 10.0.28         | Belastingberekeningsconfiguratie 40.54.234 |
+| 10.0.27         | Belastingberekeningsconfiguratie 40.54.234 |
 
 
 ## <a name="data-flow"></a>Gegevensstroom
@@ -104,120 +96,27 @@ Hier volgt een overzicht van het gegevensstroomproces voor Belastingberekening.
 
 Belastingberekening kan worden ingeschakeld per transacties. 
 
-De volgende transacties worden ondersteund in versie 10.0.21: 
+In de volgende tabel staan de transacties die in de bijbehorende versie worden ondersteund.
 
-- Verkopen
-
-    - Verkoopofferte
-    - Verkooporder
-    - Bevestiging
-    - Orderverzamellijst
-    - Pakbon
-    - Verkoopfactuur
-    - Creditnota
-    - Retourorder
-    - Diverse toeslagen voor koptekst
-    - Diverse toeslagen voor regels
-
-- Inkoop
-
-    - Inkooporder
-    - Bevestiging
-    - Ontvangstlijst
-    - Ontvangst van producten
-    - Inkoopfactuur
-    - Diverse toeslagen voor koptekst
-    - Diverse toeslagen voor regels
-    - Creditnota
-    - Retourorder
-    - Opdracht tot inkoop
-    - Diverse toeslagen voor regel van opdracht tot inkoop
-    - Offerteaanvraag
-    - Diverse toeslagen voor koptekst van offerteaanvraag
-    - Diverse toeslagen voor regel van offerteaanvraag
-
-- Voorraad
-
-    - Transferorder – verzenden
-    - Transferorder – ontvangen
-
-De volgende transacties worden ondersteund in versie 10.0.23: 
-
-- Vrije-tekstfactuur
-
-De volgende transacties worden ondersteund in versie 10.0.26: 
-
-- Algemene journalen
-- Leveranciersfacturenjournaal
-
-De volgende transacties worden ondersteund in versie 10.0.28: 
-
-- Journaal met betalingen van leverancier
-- Journaal met betalingen van klant
-
-De volgende transacties worden ondersteund in versie 10.0.29: 
-
-
-- Periodieke journalen
+| Versie | Transacties |
+|---------|--------------|
+| 10.0.29 | Periodieke journalen |
+| 10.0.28 | Journaal met betalingen van leverancier<br> Journaal met betalingen van klant | 
+| 10.0.26 | Algemene journalen<br> Leveranciersfacturenjournaal |
+| 10.0.23 | Vrije-tekstfactuur |
+| 10.0.21| Sales<br><ul><li>Verkoopofferte</li><li>Verkooporder</li><li>Bevestiging</li><li>Orderverzamellijst</li><li>Pakbon</li><li>Verkoopfactuur</li><li>Creditnota</li><li>Retourorder</li><li>Diverse toeslagen voor koptekst</li><li>Diverse toeslagen voor regels</li></ul>Inkoop<br><ul><li>Inkooporder</li><li>Bevestiging</li><li>Ontvangstlijst</li><li>Ontvangst van producten</li><li>Inkoopfactuur</li><li>Diverse toeslagen voor koptekst</li><li>Diverse toeslagen voor regels</li><li>Creditnota</li><li>Retourorder</li><li>Opdracht tot inkoop</li><li>Diverse toeslagen voor regel van opdracht tot inkoop</li><li>Offerteaanvraag</li><li>Diverse toeslagen voor koptekst van offerteaanvraag</li><li>Diverse toeslagen voor regel van offerteaanvraag</li></ul>Voorraad<ul><li>Transferorder – verzenden</li><li>Transferorder – ontvangen</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Ondersteunde landen/regio's
 
-Btw-berekening kan worden uitgevoerd met de ondersteunde localisatiefuncties in de volgende landen/regio's voor het primaire adres van een rechtspersoon: 
+Belastingberekening kan worden uitgevoerd met ondersteunde localisatiefuncties. In de volgende tabel staan de landen/regio's voor het primaire adres van een rechtspersoon.
 
-Ondersteund in versie 10.0.21:
-
-- Oostenrijk
-- België
-- Denemarken
-- Estland
-- Finland
-- Frankrijk
-- Duitsland
-- Hongarije
-- IJsland
-- Ierland
-- Italië
-- Letland
-- Litouwen
-- Nederland
-- Noorwegen
-- Polen
-- Zweden
-- Zwitserland
-- Verenigd Koninkrijk
-- Verenigde Staten
-
-Ondersteund in versie 10.0.22:
-
-- Australië
-- Bahrein
-- Canada
-- Egypte
-- Hongkong SAR
-- Koeweit
-- Nieuw-Zeeland
-- Oman
-- Qatar
-- Saoedi-Arabië
-- Zuid-Afrika
-- Verenigde Arabische Emiraten
-
-Ondersteund in versie 10.0.23:
-
-- Thailand
-- Japan
-- Maleisië
-- Singapore
-
-Ondersteund in versie 10.0.24:
-
-- Mexico
-
-Ondersteund in versie 10.0.26:
-
-- China
-- Tsjechische Republiek
-- Spanje
+| Versie | Land/regio |
+|---------|----------------|
+| 10.0.26 | - China <br>- Tsjechische Republiek<br>- Spanje |
+| 10.0.24 | Mexico |
+| 10.0.23 | - Thailand <br>- Japan <br>- Maleisië <br>- Singapore |
+| 10.0.22 | - Australië<br>- Bahrein <br>- Canada<br>- Egypte <br>- Hongkong SAR <br>- Koeweit <br>- Nieuw-Zeeland <br>- Oman <br>- Qatar <br>- Saoedi-Arabië <br>- Zuid-Afrika <br>- Verenigde Arabische Emiraten |
+| 10.0.21 | - Oostenrijk <br>- België <br>- Denemarken <br>- Estland <br>- Finland <br>- Frankrijk <br>- Duitsland <br>- Hongarije <br>- IJsland <br>- Ierland <br>- Italië <br>- Letland <br>- Litouwen <br>- Nederland <br>- Noorwegen <br>- Polen <br>- Zweden <br>- Zwitserland <br>- Verenigd Koninkrijk <br>- Verenigde Staten |
 
 Voor een land dat of regio die niet door Microsoft is gelokaliseerd, kan de btw-berekening ook worden ingeschakeld en worden uitgevoerd met andere algemene functies.
 

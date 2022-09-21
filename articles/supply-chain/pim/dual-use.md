@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878898"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460543"
 ---
 # <a name="dual-use-goods"></a>Producten voor tweeërlei gebruik
 
@@ -85,7 +85,14 @@ Voer de volgende stappen uit om een product te identificeren voor tweeërlei geb
 1. Stel op het sneltabblad **Buitenlandse handel** de optie **Producten voor tweeërlei gebruik** in op **Ja** om het huidige product te identificeren als een goed voor tweeërlei gebruik.
 1. Stel het veld **Code voor tweeërlei gebruik** in op de code die van toepassing is op het huidige product. (U hebt deze code gedefinieerd op de pagina **Categorieën voor tweeërlei gebruik**.)
 
-Deze instelling wordt gecontroleerd wanneer u een verkooporder maakt.
+> [!NOTE]
+>
+> Bij het genereren van een verkoopbevestiging worden de volgende controles voor tweeërlei gebruik uitgevoerd:
+>
+> 1. Bevat de order goederen voor tweeërlei gebruik?
+> 1. Als dat zo is, zijn er dan voor het land van bestemming certificaten voor tweeërlei gebruik nodig?
+> 1. Als dat zo is, bestaan er dan geldige certificaten voor elk product voor tweeërlei gebruik voor het land van bestemming, en zijn die certificaten geldig voor de bevestigde verzenddatum?
+> 1. Als de antwoorden op vragen 1 en 2 'Ja' zijn en het antwoord op vraag 3 'Nee' is, wordt er een waarschuwing gegeven om de gebruiker te informeren dat certificaten voor tweeërlei gebruik ontbreken voor een of meer goederen voor tweeërlei gebruik in de verkooporder. De gebruiker moet waarschijnlijk de vereiste certificaten verkrijgen en het opnieuw proberen, maar kan indien gewenst ook in plaats daarvan de waarschuwing negeren en doorgaan met de verkoopbevestiging.
 
 ## <a name="set-up-dual-use-certificates"></a>Certificaten voor tweeërlei gebruik instellen
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16141
 ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.form: SystemParameters
-ms.openlocfilehash: 35dc37f6669a3f47dd82917be0e84d0b8698e8f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2c45a203303181c7ea23e20f8fa1bdce1c827aa2
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282460"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462219"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor apps voor financiën en bedrijfsactiviteiten configureren
 
@@ -37,7 +37,7 @@ Apps voor financiën en bedrijfsactiviteiten bevatten conceptuele overzichten en
 
 [![Help-architectuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
-De Help van het product haalt artikelen op van docs.microsoft.com en andere verbonden websites. Daarnaast worden taakbegeleiders opgehaald die zijn opgeslagen in Modelleertool bedrijfsprocessen in Microsoft Dynamics Lifecycle Services (LCS).
+De Help van het product haalt artikelen op van Microsoft Docs en andere verbonden websites. Daarnaast worden taakbegeleiders opgehaald die zijn opgeslagen in Modelleertool bedrijfsprocessen in Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="adding-task-guides"></a>Taakbegeleiders toevoegen
 
@@ -103,4 +103,3 @@ Als u wilt samenwerken met Microsoft aan hulpprogramma's en processen voor het a
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

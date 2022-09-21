@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: afe438767efa3082c49cc56f58c8bab9206e46e0
-ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
+ms.openlocfilehash: ad5f843e3bafa54a961908d9ebe5ab64e619e1bc
+ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9228563"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475517"
 ---
 # <a name="human-resources-home-page"></a>Startpagina Human Resources
 
@@ -40,7 +40,7 @@ Selecteer een functiegebied voor meer informatie hierover.
 - [Compensatiebeheer](hr-compensation-overview.md)
 - [Werknemerontwikkeling](hr-develop-performance-management-overview.md)
 - [Leren](hr-learning-courses.md)
-- [Werkstroomsysteem]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
+- [Werkstroomsysteem](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 Human Resources verbindt mensen en bedrijfsgegevens met elkaar om u te helpen uw personeelskosten te optimaliseren en voor uw werknemers te zorgen.
 
@@ -51,7 +51,8 @@ Zie [Startpagina van Finance](../finance/index.md) voor informatie over Dynamics
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="elearning-courses"></a>eLearning-cursussen
-Zie [Dynamics 365 Human Resources op Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365) voor informatie over online cursussen en training.
+
+Informatie over online cursussen en trainingen vindt u op [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
 ### <a name="videos"></a>Video's
 

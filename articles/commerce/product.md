@@ -2,7 +2,7 @@
 title: Productaanbevelingen toevoegen op POS
 description: Dit artikel beschrijft het gebruik van productaanbevelingen op een POS-apparaat (Point of Sale).
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872794"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460051"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Productaanbevelingen toevoegen op POS
 
@@ -37,7 +37,7 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
 
 1. Op de pagina **Productdetails**:
 
-    - Als een winkelmedewerker een pagina met **productdetails** bezoekt wanneer hij eerdere transacties via verschillende kanalen bekijkt, worden door de aanbevelingsservice extra artikelen voorgesteld die veelal samen worden gekocht.
+    - Als een winkelmedewerker een pagina met **productdetails** bezoekt wanneer hij eerdere transacties via verschillende kanalen bekijkt, worden door de aanbevelingsservice extra artikelen voorgesteld die veelal samen worden gekocht. Afhankelijk van de invoegtoepassingen voor de service kunnen detailhandelaren aanbevelingen voor **Winkelen voor vergelijkbare producten** en **Winkelen voor vergelijkbare omschrijving** tonen voor producten, naast persoonlijke aanbevelingen voor gebruikers die een historie van aankopen hebben.
 
     [![Aanbevelingen op de pagina Productgegevens.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ Productaanbevelingen zijn ingeschakeld voor de volgende POS-scenario's. Ze zijn 
 
     [![Aanbevelingen op de pagina Transactie.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce configureren om aanbevelingen voor POS in te schakelen
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Commerce configureren om aanbevelingen voor POS in te schakelen 
 
-Volg deze stappen om productaanbevelingen in te stellen:
+Om productaanbevelingen in te stellen, bevestigt u dat u het inrichtingsproces voor productaanbevelingen in Commerce hebt voltooid door de stappen in [Productaanbevelingen inschakelen](../commerce/enable-product-recommendations.md) te volgen. Standaard worden aanbevelingen getoond op zowel de pagina **Productdetails** als de pagina **Klantgegevens** nadat u de inrichtingsstappen hebt voltooid en de gegevens met succes zijn verzameld. 
 
-1. Controleer of de service is bijgewerkt naar **build 10.0.6**.
-2. Volg de instructies voor het [inschakelen van productaanbevelingen](../commerce/enable-product-recommendations.md) voor uw bedrijf.
-3. Optioneel: als u aanbevelingen in het transactiescherm wilt weergeven, gaat u naar **Schermindeling**, kiest u de schermindeling, start u **Ontwerper van schermindeling** en plaats u het besturingselement **aanbevelingen** op de gewenste locatie.
-4. Ga naar **Commerce-parameters**, selecteer **Machine Learning** en selecteer **Ja** onder **POS-aanbevelingen inschakelen**.
-5. Als u aanbevelingen op POS wilt zien, voert u algemene-configuratietaak **1110** uit. Om wijzigingen in de ontwerper van de POS-schermindeling door te voeren, voert u afzetkanaalconfiguratietaak **1070** uit.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Aanbevelingen toevoegen aan het transactiescherm
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Problemen oplossen waar u al ingeschakelde productaanbevelingen hebt
+1. Als u aanbevelingen wilt toevoegen aan het transactiescherm, volgt u de stappen in [Aanbevelingen toevoegen aan het transactiescherm](add-recommendations-control-pos-screen.md).
+1. Om wijzigingen weer te geven die zijn aangebracht in de ontwerper van de POS-schermindeling, moet u kanaalconfiguratietaak **1070** in Commerce Headquarters uitvoeren.
 
-- Ga naar **Commerce-parameters** \> **Lijsten met aanbevelingen** \> **Productaanbevelingen uitschakelen** en start **Algemene configuratietaak \[9999\]**. 
-- Als u het besturingselement **Aanbevelingen** hebt toegevoegd aan uw transactiescherm met **Ontwerper van schermindeling**, verwijdert u dat ook.
-- Als u nog meer vragen hebt, raadpleegt u [Veelgestelde vragen over aanbevelingen](../commerce/faq-recommendations.md) voor meer informatie.
+> [!NOTE] 
+> Als u POS-aanbevelingen wilt inschakelen via het RecoMock csv-bestand (Comma Separated Values), moet u het csv-bestand uitrollen in de Microsoft Dynamics Lifecycle Services (LCS)-activabibliotheek voordat u de indelingsbeheerder configureert. Als u het RecoMock csv-bestand gebruikt, hoeft u aanbevelingen niet in te schakelen. Het csv-bestand is alleen beschikbaar voor demonstratiedoeleinden. Het wordt aangeraden aan klanten of oplossingsarchitecten die het uiterlijk van aanbevelingslijsten willen nadoen ten behoeve van demonstratie, zonder dat een add-on voorraadeenheid (SKU) te moeten kopen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

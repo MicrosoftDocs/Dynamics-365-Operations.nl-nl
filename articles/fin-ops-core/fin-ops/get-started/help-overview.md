@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: f9095db85e38598ac03b4c77c3fa3be9f450ec02
-ms.sourcegitcommit: 78d41eeef0a8a8e94ed502bd89778414231a31ae
+ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9305219"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462352"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -40,18 +40,18 @@ In al deze apps kunt u productspecifieke Help openen vanuit het deelvenster **He
 
 ![Deelvenster Help.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-docsmicrosoftcom"></a>Help op docs.microsoft.com
+## <a name="help-on-microsoft-docs"></a>Help op Microsoft Docs
 
-De site docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) is de standaardbron voor productdocumentatie voor de eerdere vermelde apps. Deze site biedt de volgende functies:
+De [Microsoft Dynamics 365-documentatie ](/dynamics365/) op Microsoft Docs is de standaardbron voor productdocumentatie voor de eerdere vermelde apps. Deze site biedt de volgende functies:
 
 - **Toegang tot de meest recente inhoud**: de site biedt Microsoft een snellere en flexibelere manier om productdocumentatie te maken, te leveren en bij te werken. Zo hebt u eenvoudig toegang tot de meest recente technische informatie.
 - **Inhoud die door deskundigen is geschreven**: communityleden binnen en buiten Microsoft kunnen bijdragen aan de site.
 
-Met een zoekmachine kunt u inhoud vinden op docs.microsoft.com. We raden u voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld **site:docs.microsoft.com dynamics 365 "zoekterm"**.
+Met een zoekmachine kunt u inhoud vinden op Microsoft Docs. We raden u voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld **site:docs.microsoft.com dynamics 365 "zoekterm"**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
 
-Als u zich wilt abonneren op een RSS-feed met alle updates die zijn aangebracht op docs.microsoft.com in de apps voor financiën en bedrijfsactiviteiten, gebruikt u de volgende koppeling:
+Als u zich wilt abonneren op een RSS-feed met alle updates die zijn doorgevoerd in de technische documentatie van Microsoft voor de diverse apps voor financiën en bedrijfsactiviteiten, gebruikt u de volgende koppeling:
 
 [RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -87,7 +87,7 @@ U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie. Selecteer om 
 
 De video [Bijdragen aan de Microsoft Dynamics 365-documentatie](https://youtu.be/m5djioozRbg) (zie hierboven) is te vinden op het Microsoft Dynamics 365-kanaal op YouTube.
 
-Zie voor meer informatie de [handleiding voor bijdragers aan documenten](/contribute), die wordt gepubliceerd door het team dat de site docs.microsoft.com heeft gebouwd.
+Zie voor meer informatie de [handleiding voor bijdragers aan Microsoft Docs](/contribute), die wordt gepubliceerd door het team dat de site Microsoft Docs heeft gebouwd.
 
 > [!NOTE]
 > Op dit moment accepteren we alleen bijdragen aan onze Engelse inhoud.
@@ -166,13 +166,13 @@ U kunt Help voor uw gebruikers maken door aangepaste taakbegeleiders te maken of
 
 In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (\*) naast de naam hebben, vereisen dat u zich aanmeldt via een account die aan een serviceplan is gekoppeld.
 
-| Locatie | Omschrijving |
+| Site | Description |
 |------|-------------|
-| [Docs.microsoft.com](/dynamics365/) | Deze site host of koppelt naar alle productdocumentatie voor Dynamics 365. |
+| [Microsoft Dynamics 365-documentatie](/dynamics365/) | Deze site host of koppelt naar alle productdocumentatie voor Dynamics 365. |
 | [Microsoft Learn](/learn/) | Deze site is de gratis eLearning-site van Microsoft. |
 | [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Deze site biedt een ruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om projecten te beheren van pre-sales naar implementatie en bewerkingen. Deze site is handig in alle fasen van een implementatie. |
 | [Ondersteuningsblog](https://aka.ms/AXSupportBlog) | De site biedt tips en trucs die door het ondersteuningsteam worden geplaatst. |
-| [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Deze site host inhoud uit eerdere versies. |
+| [Vorige versies](/previous-versions/dynamics/) | Deze site host inhoud uit eerdere versies. |
 | [Dynamics Community](https://community.dynamics.com/) | Deze site host blogs, forums en video's. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Deze site biedt evaluatie- en verkoopinformatie. |
 
@@ -180,4 +180,3 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

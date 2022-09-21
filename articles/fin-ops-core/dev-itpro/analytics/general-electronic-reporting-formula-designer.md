@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287923"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476796"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
@@ -137,7 +137,29 @@ De volgende afbeelding toont expressies van dit type. (Versie 11.12.11 van de **
 > 
 > Op basis van deze instelling bevat het gegenereerde bericht voor alle debiteurenbetalingen het XML-element **Ustrd**, de tekst van de betalingsnotities of, wanneer deze tekst leeg is, een door komma's gescheiden lijst met factuurnummers die worden gebruikt om de betaling te vereffenen.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Validatie van geconfigureerde formules
+## <a name="assistance-in-formulas-writing"></a>Hulp bij het schrijven van formules
+
+### <a name="data-sources-navigator"></a>Navigator voor gegevensbronnen
+
+U kunt een formule bewerken die een element van een gestructureerde gegevensbron vertegenwoordigt. Wanneer u de ER-parameters hebt geconfigureerd om het pad naar een element van een gestructureerde gegevensbron te presenteren als het [relatieve pad](relative-path-data-bindings-er-models-format.md), wordt het apestaartje-teken (@) [weergegeven](er-formula-language.md#relative-path) in de formule, in plaats van het resterende deel van het absolute pad van de hiërarchische boomstructuur die wordt gebruikt. Het resterende deel van het absolute pad wijst naar een bovenliggend element van het bewerkbare pad. In Finance, versie **10.0.30 en hoger** kunt u op de pagina **Formuleontwerper**, in het deelvenster **Gegevensbronnen**, de optie **Ga naar @** selecteren om de cursor van de gegevensbronnenstructuur te plaatsen in een element dat het bovenliggende element van het bewerkbare element is. De structuur van alle samengevouwen oplopende elementen wordt automatisch en recursief uitgevouwen als dat nodig is. Door dit uit te vouwen, kunt u snel het basiselement van het bewerkbare element visualiseren, elementen op hetzelfde niveau als het bewerkbare element in de gegevensbronnenstructuur bekijken en elk van deze elementen zo nodig in de formule voor het bewerkbare element gebruiken.
+
+![Gebruik de optie 'Ga naar@' om de cursor van de gegevensbronnenstructuur te plaatsen op een element dat het bovenliggende element van het bewerkbare element is op de pagina Formuleontwerper.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Kiezer voor gegevensbronnen
+
+Selecteer op de pagina **Formuleontwerper** in het deelvenster **Gegevensbronnen** aan de linkerkant een element van een gegevensbron dat u wilt toevoegen aan de bewerkbare formule. Selecteer vervolgens **Gegevensbron toevoegen**. Het geselecteerde element is toegevoegd aan de tekst van de bewerkbare formule.
+
+> [!TIP]
+> Wanneer u de optie **Gegevensbron toevoegen** gebruikt in de standaardformule-editor, wordt het geselecteerde element altijd toegevoegd aan het einde van de formuletekst. Wanneer u hetzelfde doet in de [geavanceerde formule-editor](er-advanced-formula-editor.md), wordt het geselecteerde element ingevoegd in de formuletekst op de actuele cursorpositie.
+
+### <a name="built-in-functions-picker"></a>Kiezer voor ingebouwde functies
+
+Selecteer op de pagina **Formuleontwerper** in het deelvenster **Functies** aan de rechterkant een ingebouwde ER-functie die u wilt toevoegen aan de bewerkbare formule. Selecteer vervolgens **Functie toevoegen**. De geselecteerde functie is toegevoegd aan de tekst van de bewerkbare formule.
+
+> [!TIP]
+> Wanneer u de optie **Functie toevoegen** gebruikt in de standaardformule-editor, wordt de geselecteerde functie altijd toegevoegd aan het einde van de formuletekst. Wanneer u hetzelfde doet in de [geavanceerde formule-editor](er-advanced-formula-editor.md), wordt de geselecteerde functie ingevoegd in de formuletekst op de actuele cursorpositie.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Validatie van geconfigureerde formules
 
 Selecteer op de pagina **Formuleontwerper** de optie **Testen** om te valideren hoe de geconfigureerde formule werkt.
 

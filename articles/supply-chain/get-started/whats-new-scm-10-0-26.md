@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: db8799aba8095c8144d878c96590e8d90276726b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334710"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428195"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.26 (mei 2022)
 
@@ -36,7 +36,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | Voorraad en logistiek | [Query voor Voorraadzichtbaarheid om geavanceerde magazijnbeheerartikelen te ondersteunen](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | [Ondersteuning voor Inventory Visibility voor WMS-artikelen](../inventory/inventory-visibility-whs-support.md) | Functiebeheer:<br>*Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* |
 | Voorraad en logistiek | [Available to promise voor de invoegvoeging Voorraadzichtbaarheid](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](../inventory/inventory-visibility-available-to-promise.md) | Ingeschakeld door serviceconfiguratie |
 | Productie | [Catch weight-artikelen voor de uitvoeringsinterface voor de werkvloer](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Rapport over catch weight-artikelen uit de uitvoeringsinterface van de productievloer* |
-| Productie | Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer <!-- KFM: Add link to release plan when available --> | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer* |
+| Productie | Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer | [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) | Functiebeheer:<br>*Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Functieverbeteringen in deze versie
 

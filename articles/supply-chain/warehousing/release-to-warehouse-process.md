@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893173"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428031"
 ---
 # <a name="release-to-warehouse"></a>Vrijgeven naar magazijn
 
@@ -34,7 +34,7 @@ Een *lading* is een groep verkooporder- of transferorderregels die zijn gegroepe
 
 *Magazijnwerk* is een magazijnbewerking die wordt uitgevoerd door een magazijnmedewerker. Doorgaans bestaat dit magazijnwerk uit ten minste tweetal opeenvolgende acties: een magazijnwerknemer verzamelt voorhanden voorraad op de ene locatie en brengt de voorraad vervolgens naar een andere locatie.
 
-Wanneer orders worden vrijgegeven naar het magazijn, worden er door het systeem *ladingsregels* gemaakt en worden deze gegroepeerd in zendingen. Met het consolidatieproces voor zendingen kunnen zendingen automatisch worden geconsolideerd tijdens het proces van vrijgave naar magazijn. Zie voor meer informatie [Beleidsregels voor consolidatie van zendingen](about-shipment-consolidation-policies.md).
+Wanneer orders worden vrijgegeven naar het magazijn, worden er door het systeem *ladingsregels* gemaakt en worden deze gegroepeerd in zendingen. Met het consolidatieproces voor zendingen kunnen zendingen automatisch worden geconsolideerd tijdens het proces van vrijgave naar magazijn. Meer informatie over dit onderwerp vindt u in [Overzicht van consolidatiebeleid voor zendingen](about-shipment-consolidation-policies.md).
 
 Het systeem gebruikt *waves* om orderverzamelingswerk en ladingen voor verzending te maken. Er moet een *wavesjabloon* beschikbaar zijn voor het type wave dat u wilt maken en voor het magazijn van de orderregel. Wavesjablonen van het type *Verzending* worden gebruikt om artikelen te verzenden voor verkooporders en transferorders.
 

@@ -14,21 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35c38ad25380b940d050b4e498fabca017c35997
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 975b620dc911d154f6f67420a957bd72c02321ed
+ms.sourcegitcommit: 6b013a423ed91973d60a895330046db2a07d92c4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336879"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "9472708"
 ---
 # <a name="benefits-management-workspace"></a>Werkgebied voor vergoedingenbeheer
 
-[!include [preview feature](./includes/preview-feature.md)]
-
 In dit artikel wordt de werkruimte **Vergoedingenbeheer** in Dynamics 365 Human Resources beschreven.
-
-> [!NOTE]
-> Om de werkruimte **Vergoedingenbeheer** weer te geven, moet u eerst de functie **(Voorbeeld) Werkruimte Vergoedingenbeheer** in Functiebeheer inschakelen. Meer informatie over het inschakelen van de previewfuncties vindt u in [Functies beheren](hr-admin-manage-features.md).<br><br>![Werkruimte Vergoedingenbeheer inschakelen.](./media/hr-benefits-management-workspace-enable.png)
 
 De werkruimte **Vergoedingenbeheer** geeft u een snel overzicht van vergoedingenitems die uw aandacht vereisen. Op deze pagina ziet u het volgende:
 

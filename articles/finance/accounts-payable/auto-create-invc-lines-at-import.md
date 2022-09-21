@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5cb2c1234de03e9777921c18e4cbb81eec7feef9
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903502"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462269"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Factuurregels genereren wanneer u leveranciersfacturen importeert
 
@@ -45,7 +45,7 @@ Volg deze stappen om het automatisch maken van factuurregels in te stellen.
 Om de functionaliteit te ondersteunen die in dit artikel wordt beschreven, is de gegevensentiteit **Koptekst van leveranciersfactuur** verbeterd. Er zijn drie velden toegevoegd:
 
 - **HeaderOnlyImport**: dit veld moet zijn ingesteld op **Ja** om regels voor factuurkopteksten te genereren.
-- **PurchIdRange**: de lijst met inkoopordernummers. De factuurnummers kunnen een bereik zijn, zoals **INV0001..INV0009** (waarbij twee stipjes het begin en einde van het bereik scheiden), of discrete waarden, zoals **INV0001, INV0003, INV0006.** Alle inkooporders moeten bij dezelfde leveranciersrekening in de factuurkoptekst horen. Anders wordt het volgende foutbericht weergegeven: 'Genereren van factuurregels is mislukt. Inkooporders hebben verschillende leveranciersrekeningen.'
+- **PurchIdRange**: de lijst met inkoopordernummers. De factuurnummers kunnen een bereik zijn, zoals **PO0001..PO0009** (waarbij twee stipjes het begin en einde van het bereik scheiden), of discrete waarden, zoals **PO0001, PO0003, PO0006.** Alle inkooporders moeten bij dezelfde leveranciersrekening in de factuurkoptekst horen. Anders wordt het volgende foutbericht weergegeven: 'Genereren van factuurregels is mislukt. Inkooporders hebben verschillende leveranciersrekeningen.'
 - **PackingslipRange**: de lijst met productontvangstbonnummers. Leveranciersfactuurregels kunnen worden gemaakt van productontvangstbonnen. Productontvangstbonnummers worden doorgaans niet in leveranciersfacturen opgenomen. Voer in dit veld alleen de productontvangstbonnummers in als u duidelijk kunt identificeren welke productontvangstbonnen voor welke specifieke facturen zijn. Factuurregels kunnen worden gegenereerd op basis van productontvangstbonnen. Als dit veld wordt gebruikt, wordt de instelling van het veld **Standaardhoeveelheid kiezen voor het automatisch maken van factuurregels** op de pagina **Parameters van module Leveranciers** genegeerd. 
 
 **Beperking**: als u meerdere productontvangstbonnummers invoert, worden er meerdere in behandeling zijnde leveranciersfacturen gemaakt met hetzelfde factuurnummer. U moet deze facturen handmatig consolideren voordat u de factuur verder verwerkt. In toekomstige versies zijn we van plan om de facturen automatisch te consolideren, zodat de beperking wordt verwijderd.

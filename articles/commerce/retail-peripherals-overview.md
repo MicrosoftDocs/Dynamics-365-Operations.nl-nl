@@ -2,7 +2,7 @@
 title: Randapparaten
 description: In dit artikel worden de concepten beschreven die verband houden met Commerce-randapparaten.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880076"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459987"
 ---
 # <a name="peripherals"></a>Randapparaten
 
@@ -141,6 +141,9 @@ Voor wat betreft POS-randapparaten kunnen veel USB-apparaten worden aangesloten 
 Modern POS ondersteunt UWP MSR's en scanners. Als Modern POS gereed is om invoer van een van deze apparaten te ontvangen en een apparaat uit een van deze apparaatklassen is aangesloten, kan dat apparaat worden gebruikt. Als bijvoorbeeld een plug en play-streepjescodescanner is aangesloten op een computer met Windows 10 en aanmelding met streepjescode is geconfigureerd voor Modern POS, wordt de streepjescodescanner actief op de aanmeldingspagina. Het is niet nodig om het nog verder te configureren.
 
 Aanvullende klassen van POS-randapparatuur worden toegevoegd aan Windows, zoals klassen voor geldladen en kassabonprinters. Ondersteuning voor deze nieuwe apparaatklassen in Modern POS is gepland voor de toekomst.
+
+> [!NOTE] 
+> Bepaalde USB-apparaten reageren mogelijk niet meer of zijn onbetrouwbaar, wanneer ze worden beheerd door de functie voor stroombeheer in Windows 10 genaamd [Selectieve USB-onderbreking](/windows-hardware/drivers/usbcon/usb-selective-suspend). Als een USB-randapparaat niet meer reageert, kan het nodig zijn om de functie voor selectief onderbreken uit te schakelen voor dat apparaat. Meer informatie over dit onderwerp vindt u in [Selectieve onderbreking inschakelen](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
 
 ### <a name="keyboard-wedge"></a>Keyboard-wedge
 
