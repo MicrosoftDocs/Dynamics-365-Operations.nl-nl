@@ -2,7 +2,7 @@
 title: Het updateproces
 description: Microsoft Dynamics 365 Human Resources is echt software in de vorm van een service (SaaS) die voortdurende 'touchless' updates verzorgt met wijzigingen in toepassingen en platforms.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178437"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520805"
 ---
 # <a name="update-process"></a>Het updateproces
 
 _**Is van toepassing op:** Human resources in de zelfstandige infrastructuur_ 
 
 > [!NOTE]
-> Vanaf juli 2022 kunnen er geen nieuwe Human Resources-omgevingen worden ingericht in de zelfstandige Human Resources-infrastructuur en er kunnen geen nieuwe Microsoft Dynamics LCS-projecten (Lifecycle Services) in worden gemaakt. Klanten kunnen Human Resources-omgevingen implementeren in de infrastructuur voor financiën en bedrijfsactiviteiten. Zie voor meer informatie [Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten inrichten](/hr-admin-setup-provision-fo.md).
+> Vanaf juli 2022 kunnen er geen nieuwe Human Resources-omgevingen worden ingericht in de zelfstandige Human Resources-infrastructuur en er kunnen geen nieuwe Microsoft Dynamics LCS-projecten (Lifecycle Services) in worden gemaakt. Klanten kunnen Human Resources-omgevingen implementeren in de infrastructuur voor financiën en bedrijfsactiviteiten. Zie voor meer informatie [Human Resources in de infrastructuur voor financiën en bedrijfsactiviteiten inrichten](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > Het update- en hotfix-proces in de infrastructuur van de app voor financiën en bedrijfsactiviteiten verschilt van het update- en hotfix-proces voor Human resources (zelfstandig). Zie [Proces voor overschakeling naar de nieuwste update van de app voor financiën en bedrijfsactiviteiten](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md) voor meer informatie over het updateproces. Zie voor meer informatie over hotfixes [Updates downloaden vanuit Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

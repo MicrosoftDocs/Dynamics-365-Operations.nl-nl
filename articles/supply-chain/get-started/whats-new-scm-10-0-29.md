@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 316650de19d3275f2c60c79c10d6ac8a8c79e1aa
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 5a87fb4ac2d01ef3b188b63dfc98bcfac2daf033
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9427869"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520745"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10029-october-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.29 (oktober 2022)
 
@@ -32,10 +32,10 @@ In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Micr
 
 De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit artikel gewijzigd om functies op te nemen die zijn toegevoegd na de oorspronkelijke publicatie van dit artikel.
 
-| Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
+| Functiegebied | Functie | Meer informatie | Ingeschakeld door |
 |---|---|---|---|
 | Voorraad en logistiek | [WMS-artikelen toewijzen en reserveren in Zichtbaarheid voorraad](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/allocate-reserve-whs-items-inventory-visibility) | Binnenkort beschikbaar | Standaard ingeschakeld |
-| Voorraad en logistiek | [Vooraf laden van gestroomlijnde lijsten van de voorhanden voorraad](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | Binnenkort beschikbaar | Standaard ingeschakeld |
+| Voorraad en logistiek | [Vooraf laden van gestroomlijnde lijsten van de voorhanden voorraad](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/query-inventory-visibility-summary-entity) | [De app Inventory Visibility gebruiken](../inventory/inventory-visibility-power-platform.md) | Ingeschakeld door serviceconfiguratie |
 | Aanbodautomatisering voor maken-naar-order | [Aanbodautomatisering voor maken-naar-order](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-to-order-supply-automation) | [Aanbodautomatisering voor maken-naar-order](../master-planning/make-to-order-supply-automation.md) | Functiebeheer:<br>*Aanbodautomatisering voor maken-naar-order* |
 | Planning | [Gedetailleerde inzichten voor DDMRP weergeven en toepassen](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/view-apply-detailed-insights-ddmrp) | [Overzicht van DDMRP (Demand Driven Material Requirements Planning)](../master-planning/planning-optimization/ddmrp-overview.md) | Functiebeheer:<br>*(Preview) DDMRP voor Planningsoptimalisatie* |
 | Productiebeheer | [Eindproducten fysiek beschikbaar maken vóór boeking naar journalen](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/make-finished-goods-physically-before-posting) | [Eindproducten fysiek beschikbaar maken vóór boeking naar journalen](../production-control/deferred-posting.md) | Functiebeheer:<br>*(Preview) Eindproducten fysiek beschikbaar maken vóór boeking naar journalen* |

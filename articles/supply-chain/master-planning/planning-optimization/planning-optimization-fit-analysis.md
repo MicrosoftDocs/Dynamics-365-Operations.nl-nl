@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347284"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542347"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -62,7 +62,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | --- | --- | --- | --- |
 | Acties | Behoefteplanningsgroepen met Actieberekening ingeschakeld: *\#* | Deze functie wordt nu ondersteund. | Ondersteund |
 | Basiskalenders | Kalenders die de basiskalender gebruiken: *\#* | Deze functie wordt nu ondersteund. | Ondersteund | 
-| Batchbeschikkingscodes | Batchbeschikkingsmodellen met niet-nettobehoefte: *\#* | Deze functie wordt verwerkt. Op dit moment worden batchbeschikkingscodes genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release |
+| Batchbeschikkingscodes | Batchbeschikkingsmodellen met niet-nettobehoefte: *\#* | Deze functie wordt verwerkt. Op dit moment worden batchbeschikkingscodes genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Capable To Promise (CTP) | Standaardorderinstellingen met leveringsdatumcontrole ingesteld op CTP: *\#* | In Supply Chain Management 10.0.28 en hoger maakt het proces met de naam *CTP voor planningsoptimalisatie* bevestigde verzend- en ontvangstdatums beschikbaar nadat het dynamische plan is uitgevoerd. Bij oudere versies van Supply Chain Management wordt de verouderde CTP-instelling genegeerd wanneer Planningsoptimalisatie wordt ingeschakeld. | Ondersteund |
 | Statisch plan kopiëren naar dynamisch plan | Kopie van statisch naar dynamisch plan wordt ingeschakeld in de parameters voor de hoofdplanning. | Met Planningsoptimalisatie wordt het statische plan niet naar het dynamische plan gekopieerd, ongeacht deze instelling. In het algemeen is dit concept minder relevant vanwege de snelheid en de volledige regeneratie die door Planningsoptimalisatie wordt geleverd. Als er twee of meer plannen worden gebruikt, moet de hoofdplanning worden geactiveerd voor elk plan. | N.v.t. |
 | Fiattering | Behoefteplanningsgroepen met time fence voor automatische fiattering ingesteld: *\#* | In versie 10.0.7 en hoger wordt fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie *Automatisch fiatteren voor Planningsoptimalisatie* is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |

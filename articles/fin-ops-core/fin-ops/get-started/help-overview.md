@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16381,  ""intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.form: SystemParameters
-ms.openlocfilehash: 19e1659a5fb91c7cb8916b1a8b6238038df29287
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: fa1a120fac66997658908a61469d45e96bcc4912
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462352"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538832"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -40,14 +40,14 @@ In al deze apps kunt u productspecifieke Help openen vanuit het deelvenster **He
 
 ![Deelvenster Help.](./media/help-pane-ops-help.png)
 
-## <a name="help-on-microsoft-docs"></a>Help op Microsoft Docs
+## <a name="help-on-microsoft-learn"></a>Help voor Microsoft Learn
 
-De [Microsoft Dynamics 365-documentatie ](/dynamics365/) op Microsoft Docs is de standaardbron voor productdocumentatie voor de eerdere vermelde apps. Deze site biedt de volgende functies:
+De ([Microsoft Dynamics 365-documentatie](/dynamics365/)) op Microsoft Learn is de standaardbron voor productdocumentatie voor de eerdere vermelde apps. Deze site biedt de volgende functies:
 
 - **Toegang tot de meest recente inhoud**: de site biedt Microsoft een snellere en flexibelere manier om productdocumentatie te maken, te leveren en bij te werken. Zo hebt u eenvoudig toegang tot de meest recente technische informatie.
 - **Inhoud die door deskundigen is geschreven**: communityleden binnen en buiten Microsoft kunnen bijdragen aan de site.
 
-Met een zoekmachine kunt u inhoud vinden op Microsoft Docs. We raden u voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld **site:docs.microsoft.com dynamics 365 "zoekterm"**.
+Met een zoekmachine kunt u inhoud vinden op Microsoft Learn. We raden u voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld **site:learn.microsoft.com dynamics 365 "zoekterm"**.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
 
@@ -87,7 +87,7 @@ U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie. Selecteer om 
 
 De video [Bijdragen aan de Microsoft Dynamics 365-documentatie](https://youtu.be/m5djioozRbg) (zie hierboven) is te vinden op het Microsoft Dynamics 365-kanaal op YouTube.
 
-Zie voor meer informatie de [handleiding voor bijdragers aan Microsoft Docs](/contribute), die wordt gepubliceerd door het team dat de site Microsoft Docs heeft gebouwd.
+Zie voor meer informatie de [handleiding voor Microsoft Docs-bijdragers](/contribute), die wordt gepubliceerd door het team dat de site Microsoft Learn heeft gebouwd.
 
 > [!NOTE]
 > Op dit moment accepteren we alleen bijdragen aan onze Engelse inhoud.
@@ -169,14 +169,11 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 | Site | Description |
 |------|-------------|
 | [Microsoft Dynamics 365-documentatie](/dynamics365/) | Deze site host of koppelt naar alle productdocumentatie voor Dynamics 365. |
-| [Microsoft Learn](/learn/) | Deze site is de gratis eLearning-site van Microsoft. |
-| [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Deze site biedt een ruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om projecten te beheren van pre-sales naar implementatie en bewerkingen. Deze site is handig in alle fasen van een implementatie. |
+| [Microsoft Learn training](/training/) | Deze site is de gratis eLearning-site van Microsoft. |
+| [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/)\* | Deze site biedt een ruimte voor samenwerking in de cloud die klanten en hun partners kunnen gebruiken om projecten te beheren van pre-sales naar implementatie en bewerkingen. Deze site is handig in alle fasen van een implementatie. |
 | [Ondersteuningsblog](https://aka.ms/AXSupportBlog) | De site biedt tips en trucs die door het ondersteuningsteam worden geplaatst. |
 | [Vorige versies](/previous-versions/dynamics/) | Deze site host inhoud uit eerdere versies. |
 | [Dynamics Community](https://community.dynamics.com/) | Deze site host blogs, forums en video's. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Deze site biedt evaluatie- en verkoopinformatie. |
-
-
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: Platformupdates voor versie 10.0.28 (augustus 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Platformupdates voor versie 10.0.27 (juli 2022)
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -388,7 +386,7 @@
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
                     - name: On-premises omgevingen instellen en implementeren (Platform update 41 en later)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: On-premises omgevingen instellen en implementeren (Platform updates 12 tot en met 40)
+                    - name: On-premises omgevingen instellen en implementeren (Platformupdates 12 tot en met 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving
                       href: deployment/deploy-retail-onprem.md
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: Ontwikkelomgevingen met één apparaat configureren
                   href: dev-tools/configure-developer-vm.md
+                - name: Veilige ontwikkelomgevingen met één apparaat
+                  href: dev-tools/secure-developer-vm.md
                 - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerderstoegang niet is toegestaan
                   href: sysadmin/VMs-no-admin-access.md
                 - name: De downloadbare VHD instellen voor eerste gebruik

@@ -206,8 +206,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?context=/dynamics365/context/supply-chain
         - name: Probleemoplossing en veelgestelde vragen
           href: supply-chain-management-troubleshooting.md
-        - name: Globalisatie
+        - name: Globalization Studio
           items:
+            - name: Overzicht van Globalization Studio
+              href: ../finance/localizations/globalization-studio-overview.md?context=/dynamics365/context/supply-chai
             - name: Globalisatieresources
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?context=/dynamics365/context/supply-chain
             - name: Globalisatieservices
@@ -1637,6 +1639,8 @@
                   href: inventory/inventory-locations.md
                 - name: Voorraadstatussen
                   href: inventory/inventory-statuses.md
+                - name: Batchbeschikkingscodes gebruiken om batches als beschikbaar of niet-beschikbaar te markeren
+                  href: inventory/batch-disposition-codes.md
                 - name: Een nieuwe magazijnindeling maken
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Typen streepjescodes onderhouden

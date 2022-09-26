@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283140"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524740"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>De service voor elektronische facturering gebruiken om leveranciersfacturen te importeren
 
@@ -107,7 +107,8 @@ Voer de stappen in de volgende twee secties uit om verschillende typen import va
 2. Selecteer **Contextmodel klantfactuur** en selecteer vervolgens **Configuratie aanmaken** > **Afleiden van naam: Contextmodel klantfactuurcontextmodel, Microsoft** om een afgeleide configuratie aan te maken.
 3. Selecteer in de **Concept**-versie **Ontwerper** en selecteer in de structuur **Gegevensmodel** **Model toewijzen aan gegevensbron**.
 4. Selecteer in de structuur **Definities** **Gegevenskanaal** en selecteer vervolgens **Ontwerper**.
-5. Vouw in de structuur **Gegevensbronnen** de container **$Context\_kanaal** uit. Selecteer in het veld **Waarde** **Bewerken** en voer de naam van het gegevenskanaal in. Dit is de naam van het kanaal dat is opgegeven in de configuratie van het gegevenskanaal voor de functie voor elektronische facturering in RCS. 
+5. Vouw in de structuur **Gegevensbronnen** de container **$Context\_kanaal** uit. 
+6. Selecteer in het veld **Waarde** achtereenvolgens **Bewerken** > **Formule bewerken** en voer de naam van het gegevenskanaal in. Dit is de naam van het kanaal dat is opgegeven in de configuratie van het gegevenskanaal voor de functie voor elektronische facturering in RCS. 
 7. Selecteer **Opslaan** en sluit de pagina.
 8. Sluit de pagina.
 9. Selecteer de afgeleide configuratie die u zojuist hebt aangemaakt op basis van het **Contextmodel klantfacturen** en selecteer op het sneltabblad **Versies** de optie **Status wijzigen** > **Voltooid**.

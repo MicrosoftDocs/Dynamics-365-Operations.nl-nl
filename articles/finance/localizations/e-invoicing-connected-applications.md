@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: f908caa902e4747d324480e3a5108b443d385ea7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: aa6c80914301cc0403974a6acc5e95ff61c9c1a7
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277326"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524684"
 ---
 # <a name="connected-applications"></a>Verbonden toepassingen
 
@@ -35,7 +35,7 @@ De beschikbaarheid van parameters voor Finance of Supply Chain Management in RCS
 ## <a name="create-a-connected-application"></a>Een verbonden toepassing maken
 
 1. Meld u aan bij uw RCS-account.
-2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Elektronische facturering**.
+2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Verwante koppelingen** de optie **Omgeving instellen**.
 3. Selecteer op de pagina **Omgeving instellen** in het actiedeelvenster de optie **Verbonden toepassingen**.
 4. Selecteer **Nieuw** om een verbonden toepassing te maken.
 5. Voer in het veld **Naam** de naam in voor de toepassing die moet worden verbonden.

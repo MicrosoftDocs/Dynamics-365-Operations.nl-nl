@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897569"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520832"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
 
@@ -26,7 +26,7 @@ De resultaten van de Planningsoptimalisatie kunnen afwijken van de resultaten va
 | Functie | Huidig gedrag in planningsoptimalisatie |
 |---|---|
 | Catch weight-producten | Catch-weight-producten worden beschouwd als normale producten.|
-| Uitbreidbare dimensies | Uitbreidbare dimensies zijn op geplande orders leeg, zelfs wanneer het selectievakje **Dekkingsplan volgens dimensie** is aangevinkt op de pagina **Opslagdimensiegroepen** of **Traceringsdimensiegroepen**. |
+| Uitbreidbare dimensies | Uitbreidbare dimensies worden niet ondersteund door Planningsoptimalisatie. Wanneer u Planningoptimalisatie gebruikt, zijn uitbreidbare dimensies op geplande orders leeg, zelfs wanneer het selectievakje **Dekkingsplan volgens dimensie** is aangevinkt op de pagina **Opslagdimensiegroepen** of **Traceringsdimensiegroepen**. |
 | Gefilterde productieruns | Raadpleeg [Productieplanning - filters](production-planning.md#filters) voor meer informatie. |
 | Prognoseplanning | Prognoseplanning wordt niet ondersteund. Wij raden aan dat u hoofdplanning gebruikt waarbij een prognosemodel aan het hoofdplan is toegewezen. |
 | Nummerreeksen voor geplande orders | Nummerreeksen voor geplande orders worden niet ondersteund. Geplande ordernummers worden aan de servicekant gegenereerd. Het geplande ordernummer wordt normaal gesproken weergegeven met 10 cijfers, maar de reeks wordt gebaseerd op 20 tekens, met 10 cijfers die zijn toegewezen voor de telling van de planningsuitvoering en de andere 10 cijfers voor de telling van geplande orders. |
@@ -38,10 +38,11 @@ De resultaten van de Planningsoptimalisatie kunnen afwijken van de resultaten va
 | Transportkalenders | De waarde in de kolom **Transportkalender** op de pagina **Leveringsmethoden** wordt genegeerd. |
 | Min/max-behoefteplanningscode zonder waarden| Wanneer u met de ingebouwde planningsengine een min/max-behoefteplanningscode gebruikt waarbij geen minimum- of maximumwaarden zijn ingesteld, wordt de behoefteplanningscode door de planningsengine als een vereiste behandeld en wordt voor elke behoefte één order gemaakt. Bij Planningsoptimalisatie wordt één order per dag gebruikt om het volledige bedrag van die dag te dekken.  |
 | Nettovereisten en handmatig gemaakte geplande orders | Met de ingebouwde planningsengine worden handmatig gemaakte aanvulorders voor een artikel automatisch weergegeven tussen de nettovereisten voor dat artikel. Wanneer u bijvoorbeeld een inkooporder maakt vanuit een verkooporder, wordt de inkooporder weergegeven op de pagina **Nettovereisten** zonder dat er voorafgaande acties nodig zijn. Dit komt doordat de ingebouwde planningsengine voorraadtransacties in de tabel `inventLogTTS` registreert en wijzigingen toont op de pagina **Nettovereisten** voor dynamische plannen. Met Planningsoptimalisatie worden handmatig gemaakte orders echter pas gemaakt vanuit de nettovereisten van een artikel wanneer Planningsoptimalisatie is uitgevoerd (met behulp van een plan dat het artikel bevat), of wanneer u in het Actievenster op de pagina **Nettovereisten** de optie **Bijwerken \> Hoofdplanning** selecteert. Meer informatie over hoe u werkt met de pagina **Nettovereisten** vindt u in [Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie](net-requirements.md). |
+| Resourcetoewijzing | Wanneer er met onbeperkte capaciteit wordt gewerkt, worden door de ingebouwde hoofdplanning-engine alle geplande orders aan dezelfde resource toegewezen op een bepaalde resourcegroep. Zo wordt de optimalisatie van de planning verbeterd door willekeurig resources te selecteren, zodat verschillende productieorders gebruik kunnen maken van verschillende resources. Als u dezelfde resource wilt gebruiken voor alle geplande orders, moet u die resource in de route opgeven. |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-- [Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)
+- [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md)
 - [Parameters die niet worden gebruikt door Planningsoptimalisatie](not-used-parameters.md)
 - [Datum- en tijdparameters die worden gebruikt door Planningsoptimalisatie](date-time-used.md)
 

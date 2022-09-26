@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1784b3c57bf1e6145085482d9068fad39ababc17
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: d2484b601a645694b988ac038a460a376ec912b0
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475633"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538700"
 ---
 # <a name="administration-overview"></a>Overzicht van beheer
 
@@ -100,7 +100,8 @@ Dit artikel bevat een lijst met de Help-onderwerpen en andere informatiebronnen 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="elearning-courses"></a>eLearning-cursussen
-Informatie over online cursussen en trainingen vindt u op [Dynamics 365 Human Resources](/learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+
+Zie [Dynamics 365 Human Resources-leertrajecten](/training/browse/?products=dynamics-human-resources&resource_type=learning%20path) voor webcursussen en training.
 
 ### <a name="videos"></a>Video's
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
-ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
+ms.openlocfilehash: 2f91c46367ee2f881476a496555f15454c9f6baa
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9403665"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542315"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 
@@ -30,6 +30,8 @@ Tijdens het bijwerken van Planningsoptimalisatie kan de hoofdplanning iets trage
 Omgevingen waarin Planningsoptimalisatie wordt gebruikt, ontvangen automatisch de laatste versie. Er is geen gebruikersactie vereist: de service wordt automatisch bijgewerkt. Er worden echter nooit automatisch baanbrekende nieuwe wijzigingsfuncties naar omgevingen doorgevoerd. Wijzigingen die als baanbrekend worden beschouwd, worden standaard uitgeschakeld en moeten via [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) worden ingeschakeld. Deze wijzigingen worden daarom pas in omgevingen weergegeven wanneer u ervoor kiest om deze in te schakelen.
 
 Omdat meldingen niet worden weergegeven wanneer Planningsoptimalisatie in uw omgeving wordt bijgewerkt, kunt u de releaseopmerkingen in de volgende tabel bekijken om te bepalen wanneer de wijzigingen zijn vrijgegeven en welke functies hiermee zijn geïntroduceerd. In deze tabel ziet u de wijzigingen die zijn vrijgegeven voor Planningsoptimalisatie, of deze wijzigingen zijn gekoppeld aan een functie uit Functiebeheer en de datum van de release.
+
+<!-- KFM: Add this? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 
 
 | Wijzigingen | Informatie over Functiebeheer | Vrijgavedatum |
 |---|---|---|
