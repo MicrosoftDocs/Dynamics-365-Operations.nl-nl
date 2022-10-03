@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 0f005352970ec3dadb178dfafeaf4f7e36f8c18d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279805"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573300"
 ---
 # <a name="get-started-with-tax-calculation"></a>Aan de slag met belastingberekening
 
@@ -186,9 +186,9 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
 
     | Belastinggroep    | Btw-codes           |
     | ------------ | ------------------- |
-    | DEU_Domestic | DEU_VAT19; DEU_VAT7 |
+    | DEU_Dom | DEU_VAT19; DEU_VAT7 |
     | DEU_EU       | DEU_Exempt          |
-    | BEL_Domestic | BEL_VAT21; BEL_VAT6 |
+    | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
 20. Selecteer op het tabblad **Artikelbelastinggroep** de kolom **Artikelbelastinggroep**, voeg deze aan de matrix toe als de invoervoorwaarde en voeg vervolgens regels toe om de hoofdgegevens van de belastinggroep te onderhouden.
@@ -206,9 +206,9 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
 
     | Bedrijfsproces | Verzenden van | Zenden naar | Belastinggroep    |
     | ---------------- | --------- | ------- | ------------ |
-    | Verkopen            | DEU       | DEU     | DEU_Domestic |
-    | Verkopen            | DEU       | FRA     | DEU_EU       |
-    | Sales            | BEL       | BEL     | BEL_Domestic |
+    | Sales            | DEU       | DEU     | DEU_Dom |
+    | Sales            | DEU       | FRA     | DEU_EU       |
+    | Sales            | BEL       | BEL     | BEL_Dom |
     | Sales            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]

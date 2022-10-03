@@ -2,7 +2,7 @@
 title: Configuratie voor Finance Insights
 description: In dit artikel worden de configuratiestappen beschreven die ervoor zorgen dat uw systeem de mogelijkheden gebruikt die beschikbaar zijn in Finance Insights.
 author: ShivamPandey-msft
-ms.date: 01/27/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ac0f0cb078b6e202540fadbff337a01379febc8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 05bf5fe5a5ff86bbf52ed58ee6b1e84c15bf2c1e
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861411"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573189"
 ---
 # <a name="configuration-for-finance-insights"></a>Configuratie voor Finance Insights
 
@@ -39,7 +39,7 @@ Ga als volgt te werk om de omgevingen te implementeren.
 1. In LCS kunt u een Dynamics 365 Finance-omgeving maken of bijwerken. Voor de omgeving is app-versie 10.0.21 of hoger vereist.
 
     > [!NOTE]
-    > De omgeving moet een omgeving met hoge beschikbaarheid (HA) zijn. (Dit type omgeving wordt ook wel een Tier-2-omgeving genoemd.) Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor meer informatie.
+    > De omgeving moet een omgeving met hoge beschikbaarheid (HA) zijn. (Dit type omgeving wordt ook wel een Tier-2-omgeving genoemd.) Zie [Omgevingsplanning](/fin-ops-core/fin-ops/imp-lifecycle/environment-planning) voor meer informatie.
 
 2. Als u Finance Insights configureert in een sandbox-omgeving, moet u mogelijk productiegegevens naar die omgeving kopiëren om ervoor te zorgen dat voorspellingen werken. Het voorspellingsmodel gebruikt meerdere jaren aan gegevens om voorspellingen samen te stellen. De Contoso-demonstratiegegevens bevatten niet voldoende historische gegevens om het voorspellingsmodel op een adequate manier te trainen. 
 
@@ -51,13 +51,16 @@ Controleer of de volgende instellingen zijn voltooid:
 
 - U hebt toegang tot **Systeembeheerder** en **Systeemaanpasser** in het Power Portal-beheercentrum.
 - Er wordt een licentie voor Dynamics 365 Finance of equivalente licentie toegepast op de gebruiker die de invoegtoepassing voor Finance insights installeert.
+- De volgende Azure AD-apps zijn geregistreerd in Azure AD.
 
-De volgende Azure AD-apps zijn geregistreerd in Azure AD.
+    |  Toepassing                             | App-id                               |
+    |------------------------------------------|--------------------------------------|
+    | Microsoft Dynamics ERP-microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
 
-|  Toepassing                             | App-id                               |
-|------------------------------------------|--------------------------------------|
-| Microsoft Dynamics ERP-microservices CDS | 703e2651-d3fc-48f5-942c-74274233dba8 |
-    
+    Als u wilt verifiëren of de toepassing is geregistreerd in Azure AD, controleert u de lijst **Alle toepassingen**. Zie [Ondernemingstoepassingen weergeven](/azure/active-directory/manage-apps/view-applications-portal) voor meer informatie.
+  
+    Als de toepassing niet is geregistreerd in Azure AD, neemt u contact op met de ondersteuning.
+  
 ## <a name="configure-dataverse"></a>Dataverse configureren
 
 Voer de volgende stappen uit om Dataverse voor Finance Insights te configureren.

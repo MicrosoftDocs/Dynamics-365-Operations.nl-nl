@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542347"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591845"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -94,7 +94,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Productie | Formuleversies met opbrengst: *\#* | Deze functie wordt verwerkt. Momenteel worden opbrengst die aan de formuleversie is gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release |
 | Productie | Plannen inclusief sequentiëren: *\#* | Deze functie wordt verwerkt. Momenteel wordt sequentiëren genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Wave 2, 2022 release |
 | Productie | Vrijgegeven productieorders die niet gestart en waarvan de geplande begindatum eerder is dan vandaag: *\#* | Deze functie wordt verwerkt. Als een productieorder wordt uitgesteld, wordt momenteel aangenomen dat de hoofdplanning vandaag wordt voltooid. Dit is relevant voor vrijgegeven productieorders waarvan de leveringsdatum in het verleden ligt, maar die nog niet zijn voltooid. | Toekomstige wave |
-| Productie | Resources gepland met eindige capaciteit: *\#* | Deze functie wordt verwerkt. Momenteel worden resources waarvoor de eindige capaciteit is gepland, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. De planning wordt uitgevoerd op basis van de standaardlevertijd van het product. | Wave 2, 2022 release |
+| Productie | Resources gepland met eindige capaciteit: *\#* | Deze functie wordt nu ondersteund.| Ondersteund |
 | Productie | Gebruikte routes bij planning: *\#* | Deze functie wordt ondersteund. | Ondersteund |
 | Productie | Reservering verkoopregel met explosie: *\#* | Reservering verkoopregel met explosie wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. | Toekomstige wave |
 | Productie | Planning met explosie van productieorders: *\#* | Planning met explosie van productieorders wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Productieorders kunnen afzonderlijk worden gepland. | Toekomstige wave |

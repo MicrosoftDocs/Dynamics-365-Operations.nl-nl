@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 26fc6518f0b4eae815e047db1dbaadd7c56a2e67
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 6e346c6ff881d3a33743196b45247493fd19ed1d
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220647"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573246"
 ---
 # <a name="allow-edits-to-internal-data-on-general-ledger-vouchers"></a>Bewerkingen in interne gegevens op boekstukken in het grootboek toestaan
 
 [!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
 
 
 Wanneer u boekhoudingsposten in het grootboek boekt, wordt het veld **Omschrijving** vaak gebruikt voor het opslaan van interne notities of documentatie. Als de informatie onjuist is, kan dit tot verwarring leiden en het afsluiten van perioden lastiger maken. Met deze functie kan de accounting manager of supervisor fouten oplossen door het veld **Omschrijving** op geboekte boekstukken in het grootboek te bewerken.

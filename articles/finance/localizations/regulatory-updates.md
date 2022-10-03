@@ -2,7 +2,7 @@
 title: Wettelijk voorgeschreven updates
 description: Dit artikel bevat een lijst van geplande updates en vrijgegeven reglementaire updates voor Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206162"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596230"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -39,19 +39,14 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 
 |Land/regio|Datum vrijgeven|Versie van release|Wettelijke update|
 |--------------------|---------------|-------|-------| 
-|      Brazilië         |   2022 maart    | 10.0.27        |    ICMS-DIFAL-incasso in bewerkingen die gericht zijn op niet-btw-belastingbetalers (aanvullende wet nr. 190/22)  |
-|      Brazilië         |   2022 maart         | 10.0.27         |    NF-e NT2021.004  v1.00 - Indeling en validatieregels bijgewerkt  |
-|      Brazilië         |   2022 maart         | 10.0.27         |    NF-e NT2021.004  v1.00 - Indeling en validatieregels bijgewerkt - Retail  |
-|      Brazilië         |   2022 april         | 10.0.27HF, 10.0.28         |    SPED ECF - LAYOUT 8  |
-|      Oost-Europa         |   Juli 2022         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Grootboekoverzicht per hoofdrekening  |
-|      Litouwen|   2022 februari | 10.0.27 | i.SAF-wijzigingen van 2022-01-01 in Dynamics 365 Finance  |
-|      Mexico         |   2022 maart      | 10.0.27      |   CFDI-indelingen versie 4.0 (facturen en betalingen)  |
-|      Mexico         |   2022 februari      | 10.0.27      |   Vanaf 1 januari 2022 wordt versie 4.0 van het CFDI van kracht. In de periode 1 januari t/m 30 juni 2022 zullen de versies 3.3 en 4.0 naast elkaar bestaan.  |
-|      Mexico         |   2022 maart      | 10.0.27      |   CFDI-indelingen versie 4.0 (bronbelasting)  |
-|      Polen          |   2022 april     | 10.0.27HF, 10.0.28     |   JPK_FA versie 4 vanaf 1 april 2022 JPK_V7M - nieuwe schemaversie vanaf januari 2022 |
-|      Rusland          |   2022 juni     | 10.0.27    |  Rapport over bewerkingen met traceerbare producten (op het gebied van het afschrijven van ingekochte traceerbare goederen, zoals beeldschermen, koelkasten en kantoormeubilair voor eigen gebruik)|
-|      Singapore      |   Juli 2022| 10.0.27HF, 10.0.28HF, 10.0.29 | IRAS Audit File (IAF) in TXT-indeling|
-|      Spanje      |   2022 maart| 10.0.27 | Btw-aangiftemodel 303 verandert per 1 januari 2022 in Dynamics 365 Finance|
+|      Brazilië         |   2022 april         | 10.0.28         |    SPED ECF - LAYOUT 8  |
+|      Brazilië         |   2022 juni         | 10.0.30HF         |    EFD ICMS IPI - versie 3.0.9  |
+|      Brazilië         |   Augustus 2022         | 10.0.30         |    NF-e NT2021.004  v1.31 - Indeling en validatieregels bijgewerkt  |
+|      Oost-Europa         |   Juli 2022         | 10.0.28HF, 10.0.29         |    Grootboekoverzicht per hoofdrekening  |
+|      Hongarije         |   Juli 2022         | 10.0.30         |    Btw-aangifte in XML (2065A) en voorbeeld in Excel. Bijlage inkoopfacturen in XML (2065M)  |
+|      Polen          |   2022 april     | 10.0.28     |   JPK_FA versie 4 vanaf 1 april 2022 |
+|      Rusland          |   2022 juni     | 10.0.29    |  Adresgegevens importeren uit het staatsadresregister (GAR)|
+|      Singapore      |   Juli 2022| 10.0.28HF, 10.0.29 | IRAS Audit File (IAF) in TXT-indeling|
 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
+ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894195"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9588948"
 ---
 # <a name="accounting-distributions"></a>Boekhoudingsverdelingen
 
@@ -51,7 +51,7 @@ De algemene boekhoudingsverdelingsmogelijkheden bevatten de volgende opties om b
     -   U kunt de huidige boekhoudingsstatus van het document bekijken in **Verwijzing**. De status is voor het gehele document en geeft aan of het document in uitvoering of voltooid is.
 -   **Verdelingen weergeven**: de boekhoudingsverdelingen voor alle regels en monetaire bedragen in het document weergeven. In deze weergave kunt u de boekhoudingsverdelingen niet wijzigen.
 
-In versie 10.0.13 is een functie toegevoegd waarmee de tabel voor de boekhoudingsverdeling wordt gevalideerd om ervoor te zorgen dat de nieuwe velden correct worden ingesteld. Dit is de functie **Extra validatie van gegevens voor documenten inschakelen met behulp van het boekhoudkundig framework voor brondocumenten**. Als u deze functie wilt gebruiken, moet u deze eerst inschakelen via de werkruimte **Functiebeheer**. Als u de functie wilt inschakelen, zoekt u de functienaam in het veld **Zoeken** op de pagina **Functiebeheer** en selecteert u **Nu inschakelen**.
+In versie 10.0.13 is een functie toegevoegd waarmee de tabel voor de boekhoudingsverdeling wordt gevalideerd om ervoor te zorgen dat de nieuwe velden correct worden ingesteld. Dit is de functie **Extra validatie van gegevens voor documenten inschakelen met behulp van het boekhoudkundig framework voor brondocumenten**. Deze functie is standaard ingeschakeld in versie 10.0.29. 
 
 Zie [Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen](accounting-distributions-subledger-journal-entries-vendor-invoices.md) voor meer informatie.
 

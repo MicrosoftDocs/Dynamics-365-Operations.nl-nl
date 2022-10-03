@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387014"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589084"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Grootschalige implementatie van verzegelde Commerce-selfservicecomponenten
 
@@ -47,7 +47,7 @@ De volgende tabel toont de scheidingstekens die bij de uitvoering van de opdrach
 | -EnvironmentId | De omgevings-id. |
 | -HardwareStationAppInsightsInstrumentationKey | De AppInsights-instrumentatiesleutel voor Hardware Station. |
 | Installeren | Een parameter waarmee wordt opgegeven of het onderdeel dat door dit installatieprogramma wordt geleverd, moet worden geïnstalleerd. Deze parameter is vereist voor het uitvoeren van een installatie en heeft geen voorloopstreepje. |
-| -InstallOffline | Voor Modern POS geeft deze parameter aan dat ook de offline database moet worden geïnstalleerd en geconfigureerd. Gebruik ook de parameter **-SQLServerName**. Anders probeert het installatieprogramma een standaardexemplaar te zoeken dat aan de vereisten voldoet. |
+| -InstallOffline | Voor Modern POS geeft deze parameter aan dat ook de offline database moet worden geïnstalleerd en geconfigureerd. Gebruik ook de parameter **-SQLServerName**. Anders probeert het installatieprogramma een standaardexemplaar te zoeken dat aan de vereisten voldoet. Wanneer u Azure Active Directory-verificatie (Azure AD) gebruikt, werkt POS offline niet. Er is namelijk altijd online connectiviteit vereist. |
 | -Port | De poort die moet worden gekoppeld aan en gebruikt door de virtuele Retail Server-map. Als geen poort is ingesteld, wordt de standaardpoort 443 gebruikt. |
 | -Register | De register-id, zoals weergegeven op de pagina **Registers** in Headquarters. |
 | -RetailServerAadClientId | De Azure AD-client-id die Retail Server moet gebruiken tijdens de communicatie met Headquarters. |

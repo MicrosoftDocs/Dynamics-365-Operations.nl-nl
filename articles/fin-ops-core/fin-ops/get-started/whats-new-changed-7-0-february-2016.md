@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287075"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9593982"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -319,7 +319,7 @@ Deze functie werkt onafhankelijk van kostprijsberekeningmethodes die aan het gep
 <tr>
 <td>Gebruik begeleide procedurele Help (taakbegeleidingen) en concepuele onderwerpen door op <strong>Help</strong> te klikken.</td>
 <td>Het Help-systeem van AX 2012 wijst de weg naar HTML-onderwerpen die op een lokale webserver zijn opgeslagen. Klanten en partners kunnen hun eigen Help maken.</td>
-<td>Het Help-systeem in de huidige versie van AX geeft taakbegeleidingen weer die zijn opgeslagen in de BPM van Microsoft Dynamics Lifecycle Services (LCS). Het Help-systeem geeft ook onderwerpen van de MicrosoftDocs-site weer. Zie <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Help-systeem</a> en <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nieuwe taakbegeleidingen (februari 2016)</a> voor meer informatie.</td>
+<td>Het Help-systeem in de huidige versie van AX geeft taakbegeleidingen weer die zijn opgeslagen in de BPM van Microsoft Dynamics Lifecycle Services (LCS). Het Help-systeem geeft ook onderwerpen weer van Microsoft Learn. Zie <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Help-systeem</a> en <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nieuwe taakbegeleidingen (februari 2016)</a> voor meer informatie.</td>
 <td>De taakbegeleidingen bieden een interactieve geleide ervaring die u door de stappen van een taak of een bedrijfsproces leidt. U kunt de taakbegeleidingen die Microsoft biedt downloaden en aanpassen. Het artikel biedt een snellere en flexibelere manier om productdocumentatie te maken, te leveren en bij te werken. Zo helpt het te garanderen dat u toegang tot de meest recente technische informatie hebt.</td>
 </tr>
 </tbody>

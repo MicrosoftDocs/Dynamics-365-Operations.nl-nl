@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473600"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592041"
 ---
 # <a name="proactive-quality-updates"></a>Proactieve kwaliteitsupdates
 
@@ -57,7 +57,7 @@ Een reeks proceswijzigingen wordt geïmplementeerd voorafgaand aan de activering
 - **Schema**: tools zorgen ervoor dat de builds van kwaliteitsupdates alleen schemawijzigingen bevatten die kunnen worden toegepast wanneer de service online is. Hierdoor blijft de mogelijkheid behouden om de update met een downtime van bijna nul toe te passen.
 - **Extra beoordeling van wijzigingen**: er is al een extra processtap om wijzigingen goed te keuren voor opname in een kwaliteitsupdate. De kritische beoordeling in de extra stap wordt verhoogd om de kans op regressies te verminderen. Wijzigingen die fouten veroorzaken, zijn niet toegestaan in kwaliteitsupdates, en extra beoordeling zorgt ervoor dat we hieraan voldoen.
 - **Zichtbaarheid**: we sturen meldingen via e-mail en Lifecycle Services (LCS) voor komende proactieve kwaliteitsupdates. Daarnaast hebben ondersteuningsteams en incidentleads zicht op waar kwaliteitsupdates proactief zijn geïmplementeerd.
-- **Terugvalversie**: met flighting worden alle wijzigingen in een proactieve kwaliteitsupdate gegroepeerd. Als terugval is vereist na een proactieve implementatie, kan dit via het flightingsysteem worden uitgevoerd.
+- **Fail-safe via flighting** flighting wordt gebruikt om codewijzigingen te bewaken wanneer dit van toepassing is in een foutcorrectie voor een kwaliteitsupdate; u kunt ook de bestaande functie-flighting gebruiken die relevant is voor de oplossing. Als terugval of het uitschakelen van een wijziging is vereist na een proactieve implementatie, kan dit via het flighting-systeem worden uitgevoerd om verdere fouten te voorkomen.
 - **Aanduiding van sandbox-synchronisatie**: minder dan 20 procent van de klanten heeft momenteel meerdere sandboxen en houdt één sandbox geïmplementeerd waarvoor de versie overeenkomt met de productieversie, om problemen op te lossen. Als een klant een sandbox gebruikt om een nieuwere versie dan de productie te testen, ontvangt deze sandbox kwaliteitsupdates voor de nieuwere versie.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Wat is de roadmap voor het uitrollen van kwaliteitsupdates?
@@ -69,7 +69,7 @@ In de komende zes maanden verhogen we geleidelijk het percentage sandbox-omgevin
 Aangezien klanten regelmatig kleinere payloads ontvangen, verwachten we dat het actualiseringsproces eenvoudiger wordt. We zullen de frequentie van de implementatie van updates aanpassen als we hebben laten zien dat het proces zonder verstoring kan worden uitgevoerd. Dit proces werkt al effectief voor ons Dataverse-platform en -toepassingen, en levert de verwachte verbeteringen in de servicekwaliteit op. We willen dezelfde stap vooruit zetten voor toepassingen voor financiën en bedrijfsactiviteiten.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Wanneer beginnen kwaliteitsupdates voor productieomgevingen?
-Op dit moment zijn kwaliteitsupdates alleen bedoeld voor sandboxes. Updates voor productieomgevingen gaan na november 2022 van start.
+Op dit moment zijn kwaliteitsupdates alleen bedoeld voor sandboxes. Een begindatum voor productieomgevingen zal er komen wanneer er meer concrete gegevens en metrische gegevens zijn van proactieve updates voor sandboxes om de gereedheid voor productie te meten.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Wat is de planning voor kwaliteitsupdates voor sandboxes?
 Informatie over de niet-actieve uren voor elke regio vindt u in [Wat is de planning voor proactieve kwaliteitsupdates?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).
