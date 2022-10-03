@@ -1803,9 +1803,11 @@
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Plannen met oneindige capaciteit
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Capaciteitsplanning en schema's voor eindige capaciteit
+                  href: master-planning/planning-optimization/finite-capacity.md
                 - name: Plannen met resourceselectie op basis van capaciteit
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Planning op basis van prioriteit
+                - name: Op prioriteit gebaseerde planning
                   href: master-planning/planning-optimization/priority-based-planning.md
                 - name: DDMRP (Demand Driven Material Requirements Planning)
                   items:
