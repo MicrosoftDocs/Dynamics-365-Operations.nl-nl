@@ -2,7 +2,7 @@
 title: Nieuwe en gewijzigde functies in Dynamics 365 Commerce 10.0.29 (oktober 2022)
 description: In dit artikel worden de functies beschreven die in Microsoft Dynamics 365 Commerce 10.0.29 nieuw of gewijzigd zijn.
 author: josaw1
-ms.date: 08/17/2022
+ms.date: 09/29/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 6e457864f51159f46f45e9b8969863c9d34c5786
-ms.sourcegitcommit: 56677afde87a9176f879482a7af223e251801d5d
+ms.openlocfilehash: 0629228516d688abf4dcd4280d1ad676f8f35331
+ms.sourcegitcommit: ce4e56d798281258479432ad821287a1cc8e26bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2022
-ms.locfileid: "9475898"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9601566"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-commerce-10029-october-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Commerce 10.0.29 (oktober 2022)
 
@@ -39,6 +39,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | E-commerce | Ondersteuning voor productvergelijking in e-commerce | Maak het mogelijk dat shoppende bezoekers hun producten in een groot aantal categorieën kunnen vergelijken zodat ze de juiste aankoopbeslissing kunnen maken. Deze functionaliteit is zowel voor B2C- (business-to-consumer) en B2B-sites beschikbaar. | Site builder | 
 | Geschenkbonnen | Ondersteuning voor cadeaukaarttabellen voor retail voor het delen van gegevens tussen verschillende bedrijven | Dynamics headquarters ondersteunt de mogelijkheid voor het inschakelen van gegevens delen tussen verschillende bedrijven voor specifieke tabellen in de architectuur van Dynamics. In deze functionaliteit voegt Dynamics 365 Commerce ondersteuning toe voor het delen van gegevens tussen verschillende bedrijven voor cadeaukaarttabellen voor retail. Daardoor kunnen de gegevens van een cadeaukaart bij het ene bedrijf nu gedupliceerd worden naar een ander bedrijf in de omgeving. Wijziging die in de cadeaukaarttabel van het oorspronkelijke bedrijf worden gemaakt, worden gedeeld met de cadeaukaarttabel van het gedupliceerde bedrijf. | Ontwikkelaars |
 | Globalisatie | [Lokalisatiefuncties voor Commerce inschakelen voor nieuwe Commerce SDK](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-commerce-localization-features-new-commerce-sdk) | De nieuwe functie biedt de mogelijkheid om Commerce-lokalisatiefuncties in te schakelen vanuit Commerce Headquarters met behulp van de functie management framework of parameters. Voorbeelden voor fiscale integratie zijn nu opgenomen in de nieuwe Commerce SDK en ondersteunen onafhankelijke verpakking. Met deze functie kunt u ook de functionaliteit van de Store Commerce-app van klanten in Global Commerce gebruiken.<p><p>Deze release bevat Commerce-lokalisatiefuncties en voorbeelden voor belastingintegratie voor [Oostenrijk](../localizations/emea-aut-fi-sample.md), [de Tsjechische Republiek](../localizations/emea-cze-fi-sample.md), [Frankrijk](../localizations/emea-fra-cash-registers.md), [Duitsland](../localizations/emea-deu-fi-sample.md), [Italië](../localizations/emea-ita-fpi-sample.md), [Noorwegen](../localizations/emea-nor-cash-registers.md) en [Polen](../localizations/emea-pol-fpi-sample.md). | Ingeschakeld door beheerder/makers |
+| Offline | [Compressie van offlinedatabase voor POS](../dev-itpro/implementation-considerations-offline.md#important-offline-features) | Deze nieuwe functie reduceert offline databasegrootten door geautomatiseerde indexcompressie buiten de [openingstijden](../dev-itpro/store-hours.md) van het kanaal in te schakelen. | Functiebeheer<p>*Compressie van offlinedatabase voor POS* |
 | Prestaties | RTS-afhankelijkheid voor ″klant bewerken″-scenario′s verwijderen | Hoge beschikbaarheid en high performance zijn standaard verwachtingen voor verkooppunt- (POS) en e-commercekanalen. Om aan deze verwachtingen te voldoen hoeven Dynamics 365 Commerce-kanalen niet langer te vertrouwen op realtime communicatie met Commerce headquarters wanneer klantinformatie is bewerkt. De mogelijkheid om klantinformatie asynchroon te bewerken voor asynchrone en niet-asynchrone klanten kan helpen om realtime oproepen naar Commerce headquarters te verminderen. | Ingeschakeld door beheerder/makers |
 
 ## <a name="feature-state-changes-in-this-release"></a>Wijzigingen in status van functie in deze versie

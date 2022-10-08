@@ -2,19 +2,19 @@
 title: Voorbeeld van regeleenheidintegratie voor Zweden
 description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Zweden in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 966ba3fab780991736f0c84d7eb68356c28a4022
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9275061"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631257"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Voorbeeld van regeleenheidintegratie voor Zweden
 
@@ -42,7 +42,7 @@ Het integratievoorbeeld voor de regeleenheid voor Zweden omvat de volgende capac
 - Er zijn verschillende opties voor het foutafhandeling beschikbaar. Hieronder volgen een aantal voorbeelden:
 
     - Fiscale registratie opnieuw proberen, als een poging mogelijk is. U kunt fiscale registraties opnieuw proberen, bijvoorbeeld als de rewgeleenheid niet is verbonden, niet gereed is of niet reageert.
-    - Fiscale registratie uitstellen.
+    - Stel fiscale registratie uit.
     - Fiscale registratie overslaan of de transactie als geregistreerd markeren en informatiecodes opnemen om de reden voor de storing en extra informatie vast te leggen.
     - Controleer de beschikbaarheid van de regeleenheid voordat een nieuwe verkooptransactie wordt geopend of een verkooptransactie wordt afgerond.
 
@@ -103,7 +103,7 @@ Voltooi de instellingsstappen voor de fiscale integratie zoals beschreven in [Fi
 
 1. [Een fiscaal registratieproces instellen](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Maak ook een notitie van de instellingen voor het fiscale registratieproces die [specifiek zijn voor dit voorbeeld van integratie van regeleenheden](#set-up-the-registration-process).
 1. [Instellingen voor het afhandelen van fouten uitvoeren](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanaalonderdelen configureren](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Het fiscaal registratieproces instellen

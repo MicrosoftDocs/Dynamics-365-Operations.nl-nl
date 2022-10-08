@@ -2,19 +2,19 @@
 title: Voorbeeld van integratie van fiscale registratieservice voor Duitsland
 description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Duitsland in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313936"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631448"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Voorbeeld van integratie van fiscale registratieservice voor Duitsland
 
@@ -265,7 +265,7 @@ Voltooi de instellingsstappen voor de fiscale integratie zoals beschreven in [Fi
     > - Het wordt aangeraden de optie **Doorgaan bij fout** op de pagina **Fiscaal registratieproces** uit te schakelen, omdat alle transacties juist moeten worden geregistreerd, zelfs als de eerste poging tot belastingregistratie is mislukt.
     > - Voordat u de optie **Overslaan** of **Markeren als geregistreerd** inschakelt op de pagina **Fiscaal registratieproces**, moet u deze wijzigingen in het fiscale registratieproces bespreken met uw belastingconsultant of het lokale belastingkantoor.
 
-1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanaalonderdelen configureren](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Het fiscaal registratieproces instellen

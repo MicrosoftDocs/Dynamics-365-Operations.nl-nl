@@ -2,19 +2,19 @@
 title: Implementatierichtlijnen voor kassa's voor Noorwegen
 description: Dit artikel biedt richtlijnen voor het inschakelen van de kassafunctionaliteit voor de Microsoft Dynamics 365 Commerce-lokalisatie voor Noorwegen.
 author: EvgenyPopovMBS
-ms.date: 08/23/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 9149e9da7222699e9ca996b69e56fff07b77a737
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: 0e66ef93e65fecaca23f0434c386507a0672d251
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9345986"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631310"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Implementatierichtlijnen voor kassa's voor Noorwegen
 
@@ -33,7 +33,7 @@ Voltooi de instellingsstappen voor de fiscale registratie zoals beschreven in [F
 
 1. [Een fiscaal registratieproces instellen](./setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Zorg ervoor dat u een notitie maakt van de instellingen van het fiscale registratieproces dat [specifiek voor Noorwegen](#configure-the-fiscal-registration-process) is.
 1. [Instellingen voor het afhandelen van fouten uitvoeren](./setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](./setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanaalonderdelen configureren](#configure-channel-components).
 
 ### <a name="configure-the-fiscal-registration-process"></a>Het fiscale registratieproces configureren

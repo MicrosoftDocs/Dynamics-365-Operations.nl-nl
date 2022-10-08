@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286832"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627491"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Beleid voor retouren en restituties voor een afzetkanaal maken en bijwerken
 
@@ -36,12 +36,8 @@ De reikwijdte van het beleid is momenteel beperkt tot het instellen van de betal
 
 ## <a name="enable-return-policy"></a>Retourbeleid inschakelen
 
-Voer de volgende stappen uit om de functionaliteit voor kanaalretourbeleid in te schakelen in Commerce Headquarters.
+Standaard is deze functie ingeschakeld. U vindt deze optie in de werkruimte **Functiebeheer** door te zoeken naar **Kanaalretourbeleid inschakelen** in de lijst met functienamen.
 
-1. Ga naar het werkgebied **Functiebeheer** in Dynamics 365 Commerce.
-1. Zoek naar de functie **Kanaalretourbeleid inschakelen** in de lijst met functienamen.
-1. Selecteer **Nu inschakelen**.
-1. Voer op de pagina **Distributieplanning** de taak **1110** (Algemene configuratie) uit om de functiewijziging te verdelen.
 
 ## <a name="configure-return-policy"></a>Retourbeleid configureren
 

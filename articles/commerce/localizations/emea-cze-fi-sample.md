@@ -2,19 +2,19 @@
 title: Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
 description: Dit artikel biedt een overzicht van het fiscale integratievoorbeeld voor Tsjechië in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-04-01
-ms.openlocfilehash: 3838792c0a420fb88ea9daab0a67c2e644c80681
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: de26b038009d8bf3518c67389c96aade19a0b65b
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313743"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631280"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Voorbeeld van integratie van fiscale registratieservice voor Tsjechië
 
@@ -48,7 +48,7 @@ De volgende scenario's worden gedekt door het voorbeeld van de integratie van ee
 - Foutafhandeling, zoals de volgende opties.
 
     - Het opnieuw proberen uit te voeren van de fiscale registratie is mogelijk, bijvoorbeeld als de fiscale registratieservice niet beschikbaar of niet gereed is, of als deze niet reageert.
-    - Fiscale registratie uitstellen.
+    - Stel fiscale registratie uit.
     - Fiscale registratie overslaan of de transactie als geregistreerd markeren en informatiecodes opnemen om de reden voor de storing en extra informatie vast te leggen.
     - Controleer de beschikbaarheid van de fiscale registratieservice voordat een nieuwe verkooptransactie wordt geopend of een verkooptransactie wordt afgerond.
 
@@ -188,7 +188,7 @@ Voltooi de instellingsstappen voor de fiscale integratie zoals beschreven in [Fi
 
 1. [Een fiscaal registratieproces instellen](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Maak ook een notitie van de instellingen voor het fiscale registratieproces die [specifiek zijn voor dit voorbeeld van integratie van fiscale registratieservice](#set-up-the-registration-process).
 1. [Instellingen voor het afhandelen van fouten uitvoeren](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Kanaalonderdelen configureren](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Het fiscaal registratieproces instellen

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
+ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887772"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9620893"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Foutopsporingsmodus inschakelen in de service voor belastingberekening
 
@@ -27,7 +27,7 @@ ms.locfileid: "8887772"
 In dit artikel wordt uitgelegd hoe u de foutopsporingsmodus inschakelt in de belastingberekeningsservice om problemen te onderzoeken.
 
 1. Voeg aan de URL van de Application Object Server (AOS) de tekt **&debug=vs%2CconfirmExit&** toe en vernieuw de pagina.
-2. Als u **Btw** selecteert om de btw te berekenen, wordt een tekstbestand geopend met de naam **TaxServiceTroubleshootingLog.txt**. Het bestand **TaxServiceTroubleshootingLog.txt** bevat **TaxableDocument** en de berekeningsparameter. Deze resultaten worden geretourneerd door de belastingservice en uitzonderingsinformatie voor probleemoplossing.
+2. Als u **btw** selecteert om de btw te berekenen, wordt een tekstbestand met de naam **TaxServiceTroubleshootingLog.txt** vastgelegd op de server **C:\AXWeb_SMBShare\temporary-file\\{%session%}\\**. Het bestand **TaxServiceTroubleshootingLog.txt** bevat **TaxableDocument** en de berekeningsparameter. Deze resultaten worden geretourneerd door de belastingservice en uitzonderingsinformatie voor probleemoplossing.
 
 ## <a name="sample"></a>Voorbeeld
 

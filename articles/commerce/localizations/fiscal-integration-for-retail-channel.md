@@ -2,19 +2,19 @@
 title: Overzicht fiscale integratie voor Commerce-afzetkanalen
 description: Dit artikel biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286494"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631231"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Overzicht fiscale integratie voor Commerce-afzetkanalen
 
@@ -95,16 +95,20 @@ Deze configuratie wordt gebruikt wanneer een fysiek fiscaal apparaat of fiscale 
 
 Het fiscale integratieraamwerk biedt de volgende opties voor het afhandelen van fouten tijdens fiscale registratie:
 
-- **Opnieuw**: operators kunnen deze optie gebruiken als de storing snel kan worden opgelost en de fiscale registratie opnieuw kan worden uitgevoerd. Deze optie kan bijvoorbeeld worden gebruikt wanneer het fiscale apparaat niet is verbonden, de fiscale printer geen papier bevat of er papier is vastgelopen in de fiscale printer.
-- **Annuleren**: met deze optie kunnen operators de fiscale registratie van de huidige transactie of gebeurtenis uitstellen als deze mislukt. Nadat de registratie is uitgesteld, kan de operator blijven werken op het POS en kan elke bewerking worden voltooid waarvoor geen fiscale registratie vereist is. Wanneer een gebeurtenis de fiscale registratie vereist in het POS (er wordt bijvoorbeeld een nieuwe transactie geopend), wordt het dialoogvenster voor foutafhandeling automatisch weergegeven om de operator te informeren dat de vorige transactie niet correct is geregistreerd en om opties voor foutafhandeling te bieden.
-- **Overslaan**: operators kunnen deze optie gebruiken wanneer de fiscale registratie onder bepaalde voorwaarden kan worden weggelaten en normale bewerkingen kunnen doorgaan in het POS. Deze optie kan bijvoorbeeld worden gebruikt wanneer een verkooptransactie waarvoor de fiscale registratie is mislukt, kan worden geregistreerd in een speciaal papieren journaal.
-- **Markeren als geregistreerd**: operatoren kunnen deze optie gebruiken als de transactie is geregistreerd in het fiscale apparaat (er is bijvoorbeeld een fiscaal ontvangstbewijs afgedrukt), maar er een fout is opgetreden bij het opslaan van het fiscale antwoord in de afzetkanaaldatabase.
-- **Uitstellen**: operatoren kunnen deze optie gebruiken als de transactie niet is geregistreerd omdat de registratieservice niet beschikbaar was. 
+- **Opnieuw**: De operator kan deze optie gebruiken als de storing snel kan worden opgelost en de fiscale registratie opnieuw kan worden uitgevoerd. Deze optie kan bijvoorbeeld worden gebruikt wanneer het fiscale apparaat niet is verbonden, de fiscale printer geen papier bevat of er papier is vastgelopen in de fiscale printer.
+- **Annuleren**: Met deze optie kan de operator de fiscale registratie van de huidige transactie of gebeurtenis uitstellen als deze mislukt. Nadat de registratie is uitgesteld, kan de operator blijven werken op het POS en kan elke bewerking worden voltooid waarvoor geen fiscale registratie vereist is. Wanneer een gebeurtenis de fiscale registratie vereist in het POS (er wordt bijvoorbeeld een nieuwe transactie geopend), wordt het dialoogvenster voor foutafhandeling automatisch weergegeven om de operator te informeren dat de vorige transactie niet correct is geregistreerd en om opties voor foutafhandeling te bieden.
+- **Overslaan**: De operator kan deze optie gebruiken wanneer het niet mogelijk is om de fiscale registratie van de huidige transactie of gebeurtenis te voltooien, bijvoorbeeld als de belastingprinter de order niet heeft **en** de fiscale registratie onder bepaalde voorwaarden kan worden weggelaten. Deze optie kan bijvoorbeeld worden gebruikt wanneer een verkooptransactie waarvoor de fiscale registratie is mislukt, kan worden geregistreerd in een speciaal papieren journaal. Nadat de fiscale registratie is overgeslagen, kunnen normale bewerkingen worden voortgezet op het POS. 
+- **Markeren als geregistreerd**: De operator kunnen deze optie gebruiken als de huidige transactie of gebeurtenis is geregistreerd in het fiscale apparaat (er is bijvoorbeeld een fiscaal ontvangstbewijs afgedrukt), maar er een fout is opgetreden bij het opslaan van het fiscale antwoord in de afzetkanaaldatabase. Nadat de huidige transactie of gebeurtenis is geregistreerd, kunnen normale bewerkingen worden voortgezet op het POS.
+- **Uitstellen**: De operator kan deze optie gebruiken als de transactie niet is geregistreerd omdat de registratieapparaat of -service niet beschikbaar was **en** een van het volgende van toepassing is:
+    - Er is een back-upoptie voor fiscale registratie en het is mogelijk om door te gaan met het fiscale registratieproces voor de huidige transactie. Een lokaal [fiscaal apparaat](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) kan bijvoorbeeld een back-upoptie zijn voor een online fiscale registratieservice wanneer de service niet beschikbaar is.
+    - De fiscale registratie kan later worden voltooid door middel van andere dan het fiscaal integratieraamwerk. Uitgestelde transacties kunnen bijvoorbeeld later fiscaal worden geregistreerd in een batch met een [afzonderlijke functionaliteit](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Nadat de huidige transactie of gebeurtenis is uitgesteld, kunnen normale bewerkingen worden voortgezet op het POS.
 
-> [!NOTE]
-> De opties **Overslaan**, **Markeren als geregistreerd** en **Uitstellen** moeten in het fiscale registratieproces worden geactiveerd voordat ze worden gebruikt. Bovendien moeten bijbehorende machtigingen worden toegekend aan operators.
+> [!WARNING]
+> De opties **Overslaan**, **Markeren als geregistreerd** en **Uitstellen** moeten als opties voor noodgevallen worden beschouwd en alleen in uitzonderlijke situaties worden gebruikt. Bespreek deze opties voor het verwerken van fouten met uw wettelijke of belastingadviseur voordat u deze inschakelt. De opties moeten in het fiscale registratieproces worden geactiveerd voordat ze worden gebruikt. Om te zorgen dat operators deze niet regelmatig gebruiken, moeten de bijbehorende machtigingen aan operators worden verleend.
 
-De opties **Overslaan**, **Markeren als geregistreerd** en **Uitstellen** maken informatiecodes mogelijk om bepaalde specifieke informatie over een fout op te slaan, zoals de reden voor de fout of een uitleg van de reden waarom de fiscale registratie is overgeslagen of de transactie als geregistreerd is gemarkeerd. Zie voor meer informatie over het instellen van parameters voor foutafhandeling [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Er wordt een [fiscale transactie](#storing-fiscal-response-in-fiscal-transaction) gemaakt wanneer de opties **Overslaan**, **Markeren als geregistreerd** of **Uitstellen** zijn geselecteerd, maar de fiscale transactie geen fiscaal antwoord bevat. Hiermee kunt u de gebeurtenis van de belastingregistratie vastleggen. Deze opties maken informatiecodes mogelijk om bepaalde specifieke informatie over een fout op te slaan, zoals de reden voor de fout of een uitleg van de reden waarom de fiscale registratie is overgeslagen of de transactie als geregistreerd is gemarkeerd. Zie voor meer informatie over het instellen van parameters voor foutafhandeling [Instellingen voor het verwerken van fouten kiezen](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Optionele fiscale registratie
 
@@ -112,11 +116,7 @@ Fiscale registratie kan verplicht zijn voor bepaalde bewerkingen, maar optioneel
 
 ### <a name="manually-rerun-fiscal-registration"></a>Fiscale registratie handmatig opnieuw uitvoeren
 
-Als de fiscale registratie van een transactie of gebeurtenis is uitgesteld na een fout (bijvoorbeeld als de operator **Annuleren** heeft geselecteerd in het dialoogvenster voor foutafhandeling), kunt u de fiscale registratie handmatig opnieuw uitvoeren door een bijbehorende bewerking aan te roepen. Zie voor meer informatie [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Optie Uitstellen
-
-Met de optie **Uitstellen** kunt u doorgaan met het fiscale registratieproces als de huidige stap mislukt. De optie kan worden gebruikt als er een back-upoptie voor fiscale registratie is.
+Als de fiscale registratie van een transactie of gebeurtenis is uitgesteld na een fout (bijvoorbeeld als de operator **Annuleren** heeft geselecteerd in het dialoogvenster voor foutafhandeling), kunt u de fiscale registratie handmatig opnieuw uitvoeren door een bijbehorende bewerking aan te roepen. Zie voor meer informatie [Handmatige uitvoering van uitgestelde fiscale registratie inschakelen](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Statuscontrole fiscale registratie
 
@@ -138,7 +138,7 @@ Als de statuscontrole mislukt, toont het POS het dialoogvenster voor statuscontr
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Fiscaal antwoord opslaan in fiscale transactie
 
-Wanneer fiscale registratie van een transactie of gebeurtenis geslaagd is, wordt een fiscale transactie in de afzetkanaaldatabase gemaakt en gekoppeld aan de oorspronkelijke transactie of gebeurtenis. Als de optie **Overslaan** of **Markeren als geregistreerd** wordt geselecteerd voor een mislukte fiscale registratie, wordt deze informatie ook opgeslagen in een fiscale transactie. Een fiscale transactie bevat de fiscale reactie van het fiscale apparaat of de service. Als het fiscale registratieproces uit meerdere stappen bestaat, wordt een fiscale transactie gemaakt voor elke stap van het proces dat heeft geleid tot een geslaagde of mislukte registratie.
+Wanneer fiscale registratie van een transactie of gebeurtenis geslaagd is, wordt een fiscale transactie in de afzetkanaaldatabase gemaakt en gekoppeld aan de oorspronkelijke transactie of gebeurtenis. Als de optie **Overslaan**, **Markeren als geregistreerd** of **Uitstellen** wordt geselecteerd voor een mislukte fiscale registratie, wordt deze informatie ook opgeslagen in een fiscale transactie. Een fiscale transactie bevat de fiscale reactie van het fiscale apparaat of de service. Als het fiscale registratieproces uit meerdere stappen bestaat, wordt een fiscale transactie gemaakt voor elke stap van het proces dat heeft geleid tot een geslaagde of mislukte registratie.
 
 Fiscale transacties worden overgeboekt naar Headquarters door de *P-taak* samen met transacties. Op het sneltabblad **Fiscale transacties** van de pagina **Winkeltransacties** kunt u de fiscale transacties weergeven die zijn gekoppeld aan transacties.
 

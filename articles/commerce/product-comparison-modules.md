@@ -2,19 +2,19 @@
 title: Productvergelijkingsmodules
 description: In dit artikel worden productvergelijkingsmodules beschreven en wordt aangegeven hoe u deze implementeert zodat klanten productvergelijkingen kunnen uitvoeren op Microsoft Dynamics 365 Commerce-e-commercewebsites.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474121"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618380"
 ---
 # <a name="product-comparison-modules"></a>Productvergelijkingsmodules
 
@@ -91,6 +91,19 @@ Voer de volgende stappen uit om een knop voor productvergelijking toe te voegen 
 1. Configureer in het eigenschappenvenster rechts de eigenschappen voor de module **Knop voor productvergelijking**.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken.
 1. Selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Een voorbeeldvenstermodule voor productvergelijking toevoegen aan pagina's op uw website
+
+Een voorbeeldvenstermodule voor productvergelijking biedt uw klanten de mogelijkheid producten te controleren die ze toevoegen aan of verwijderen uit de vergelijking. Het voorbeeldvenster bevat ook opties om rechtstreeks naar de vergelijkingspagina te navigeren of de gehele lijst met producten te verwijderen. 
+
+U kunt het beste het voorbeeldvenster inschakelen op alle pagina's waar de knop **Productvergelijking** is ingeschakeld. De module kan als een vak aan de knop **Productvergelijking** worden toegevoegd of kan worden gebruikt als zelfstandige module die u op elke pagina kunt configureren, zelfs als er geen functionaliteit voor het toevoegen of verwijderen van producten is om te vergelijken. 
+
+U moet de voorbeeldvenstermodule voor productvergelijking handmatig toevoegen aan een pagina. U kunt slechts één voorbeeldvenstermodule toevoegen aan een pagina. Als u meerdere exemplaren van de module aan een pagina toevoegt, wordt de eerste module weergegeven en worden de overige exemplaren genegeerd.
+
+![Voorbeeldvenster voor productvergelijking](./media/product-comparison-preview-panel-2.png)
+
+Als u een productvergelijkingslimiet opgeeft, kunt u in het voorbeeldvenster tijdelijke aanduidingen inschakelen waarmee wordt aangegeven hoeveel producten er aan de vergelijking kunnen worden toegevoegd. De grijze tijdelijke aanduidingen worden vervangen door producten wanneer ze aan de vergelijking worden toegevoegd. Als u een productvergelijkingslimiet wilt configureren en tijdelijke aanduidingen wilt inschakelen, gaat u in Site Builder naar **Site-instellingen > Extensions** en brengt u wijzigingen aan in de sectie **Productvergelijkingen**. De configuratie wordt toegepast op alle voorbeeldvensters van alle pagina's. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Opgeven hoeveel producten maximaal kunnen worden weergegeven in de vergelijkingsschaal
 

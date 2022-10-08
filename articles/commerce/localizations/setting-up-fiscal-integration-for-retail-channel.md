@@ -2,19 +2,19 @@
 title: Fiscale integratie voor Commerce-kanalen instellen
 description: Dit artikel bevat richtlijnen voor het instellen van de functionaliteit voor fiscale integratie voor Commerce-kanalen.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276127"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631418"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Fiscale integratie voor Commerce-kanalen instellen
 
@@ -30,9 +30,10 @@ Volg deze stappen om functies in te schakelen die zijn gerelateerd aan de functi
 1. Zoek de volgende functies en schakel deze in:
 
     - **Directe fiscale integratie vanuit POS-kassa's**: Deze functie breidt het raamwerk voor fiscale integratie uit door de mogelijkheid toe te voegen om fiscale connectors te maken die worden uitgevoerd in het POS (Point of Sale). Dit type connector communiceert met een fiscaal randapparaat of fiscale service dat of die een HTTP-API (Application Programming Interface) levert en vereist niet een specifieke fysieke machine in de winkel. Met deze functionaliteit is fiscale integratie voor mobiele apparaten bijvoorbeeld mogelijk zonder dat er een gedeeld hardwarestation nodig is.
-    - **Overschrijvingen technische profielen fiscale integratie**: Met deze functie kunt u de configuratie van fiscale integratie uitbreiden en kunt u de verbindingsparameters controleren op de instellingenpagina van een POS-kassa. Wanneer deze functie is ingeschakeld, kunt u de parameters van een technisch profiel overschrijven.
+    - **Overschrijvingen technische profielen fiscale integratie**: Met deze functie kunt u de configuratie van fiscale integratie uitbreiden en kunt u de parameters van een technisch profiel overschrijven. Het is bijvoorbeeld mogelijk om verbindingsreeksen voor fiscaal apparaat op te geven op afzonderlijke POS-kassaniveau's. Met deze functie kunt u verbindingsparameters ook controleren op de pagina **Instellingen** van een POS-kassa. 
     - **Fiscale registratiestatus van POS-kassa's**: wanneer deze functie is ingeschakeld, kunt u het proces voor fiscale registratie voor specifieke POS-kassa's uitschakelen. Als de fiscale registratie voor een POS-kassa is uitgeschakeld, kunnen er op die kassa geen verkooptransacties worden uitgevoerd.
-    - **Back-up lokale opslag voor fiscale integratie**: Deze functie breidt de mogelijkheden uit voor verwerking van fouten van het fiscale-integratieraamwerk. Hiermee wordt ook automatische back-up van fiscale-registratiegegevens ingeschakeld bij gegevensverlies, zodat de gegevens in de lokale opslag kunnen worden hersteld terwijl een apparaat wordt geactiveerd.
+    - **Back-up lokale opslag voor fiscale integratie**: Deze functie vormt een uitbreiding van de functies voor foutafhandeling van het raamwerk voor fiscale integratie, en maakt het automatische maken van back-ups van de fiscale-registratiegegevens mogelijk, zodat de gegevens tijdens het activeren van een apparaat in de lokale opslag kunnen worden hersteld.
+    - **Uitgestelde registratie van documenten**: Deze functie vergroot de mogelijkheden voor het verwerken van fouten van het belastingintegratieraamwerk door het inschakelen van de optie om de fiscale registratie uit te stellen in geval van een fiscale registratie en een back-upoptie voor belastingregistratie te gebruiken of de fiscale registratie later uit te stellen op een andere manier dan met het fiscaal integratieraamwerk.
 
 ## <a name="set-up-commerce-parameters"></a>Commerce-parameters instellen
 
@@ -286,7 +287,7 @@ Als u fiscale X/Z-rapporten wilt inschakelen om te worden uitgevoerd vanaf het P
     1. Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale Z afdrukken** in.
     1. Voer op de pagina **Distributionplanner** de taak **1090** uit om wijzigingen over te brengen naar de kanaaldatabase.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Handmatige uitvoering van uitgestelde fiscale registratie inschakelen
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Handmatige uitvoering van uitgestelde fiscale registratie inschakelen
 
 Als u een handmatige uitvoering van een uitgestelde fiscale registratie wilt inschakelen, moet u een nieuwe knop toevoegen aan een POS-indeling.
 
@@ -295,7 +296,6 @@ Als u een handmatige uitvoering van een uitgestelde fiscale registratie wilt ins
     1. Selecteer de bij te werken indeling.
     1. Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale registratie voltooien** in.
     1. Voer op de pagina **Distributieplanning** de taak **1090** uit om uw wijzigingen over te brengen naar de kanaaldatabase.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Verbindingsparameters en andere informatie in POS weergeven
 
