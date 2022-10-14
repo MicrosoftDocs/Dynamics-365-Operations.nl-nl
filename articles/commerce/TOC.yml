@@ -394,6 +394,8 @@
                   items:
                     - name: Store Commerce-app
                       href: dev-itpro/store-commerce.md
+                    - name: Store Commerce-app voor mobiele platformen
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS migreren naar Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Implementatierichtlijnen voor apparaatbeheer
