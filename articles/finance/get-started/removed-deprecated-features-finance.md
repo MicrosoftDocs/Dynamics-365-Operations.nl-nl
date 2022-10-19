@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Finance
 description: In dit artikel worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Finance.
 author: kfend
-ms.date: 06/29/2022
+ms.date: 10/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
-ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
+ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9462296"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643789"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -32,6 +32,18 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!NOTE]
 > Gedetailleerde informatie over objecten in apps voor financiën en bedrijfsactiviteiten is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van apps voor financiën en bedrijfsactiviteiten.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10031-release"></a>Verwijderde of verouderde functies in versie 10.0.31 van Finance
+
+### <a name="edifact-paymul-at-configuration-under-payment-model"></a>EDIFACT PAYMUL (AT)-configuratie onder Betalingsmodel
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Reden voor afschaffing/verwijdering** | Vervangen door een nieuwe indeling die is gebaseerd op ISO 20022 pain.001.001.09. | 
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Toepassing |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft: banken in Oostenrijk zullen EDICFACT-PAYMUL voor grensoverschrijdende betalingen tegen november 2022 hebben afgeschreven en deze hebben vervangen door XML-versie pain.001.001.09N. Er is een nieuwe configuratie toegevoegd onder de Algemene configuratieopslagplaats die gebruikers in staat stelt om de aanvraag voor grensoverschrijdende betaling te voltooien. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Verwijderde of verouderde functies in versie 10.0.30 van Finance
 

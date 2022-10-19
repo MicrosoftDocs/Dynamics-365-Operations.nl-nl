@@ -1,8 +1,8 @@
 ---
-title: 'Ouderdomsmomentopnamen voor klanten '
+title: Ouderdomsmomentopnamen voor klanten
 description: Dit artikel bevat informatie over ouderdomsmomentopname voor klanten. Een ouderdomsmomentopname berekent saldi voor groep klanten op een bepaald tijdstip.
 author: JodiChristiansen
-ms.date: 05/05/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,14 +13,14 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 248a71ff3c9f6c30448ff486f3ee42ac534b1825
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269556"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643680"
 ---
-# <a name="customer-aging-snapshots"></a>Ouderdomsmomentopnamen voor klanten 
+# <a name="customer-aging-snapshots"></a>Ouderdomsmomentopnamen voor klanten
 
 [!include [banner](../includes/banner.md)]
 
@@ -31,15 +31,15 @@ Informatie van ouderdomsmomentopnamen wordt weergegeven op de lijstpagina **Oude
 De werkruimte **Klantcrediteringen en aanmaningen** toont ook de ouderdomsberekening voor de klant. Zie [Power BI-inhoud - klantcrediteringen- en aanmaningsbeheer](credit-collections-power-bi.md) voor meer informatie.
 
 > [!NOTE]
-> Als u de tijd wilt beperken die nodig is voor het maken van een ouderdomsmomentopname, moet u de functie voor **Prestatieverbetering voor ouderdomberekening voor klanten** in de werkruimte van **Functiebeheer** inschakelen. Gebruik echter geen klantverzamelingen als deze functie is ingeschakeld. Als u een klantverzameling selecteert, werkt deze functie niet, maar kunt u wel een ouderdomsmomentopname maken.
+> Als u de tijd wilt beperken die nodig is voor het maken van een ouderdomsmomentopname, moet u de volgende functies inschakelen in het werkgebied **Functiebeheer**: **Verbetering van rangschikking van klant naar ouderdom** 
+> **Prestatieverbetering van klanten naar ouderdom rangschikken met klantverzamelingen**  
+> Als beide functies zijn ingeschakeld, kan **Klantverzamelingen** worden gebruikt bij het maken van de ouderdomsmomentopname. 
 
 Wanneer u een ouderdomsmomentopname van klanten maakt, gebruikt u de volgende velden om informatie over de momentopname in te voeren:
 
 - **Definitie van ouderdomsperiode**: selecteer de ouderdomsperiodedefinitie voor de ouderdomsmomentopname. U kunt één actieve ouderdomsmomentopname voor elke ouderdomsperiodedefinitie hebben. De ouderdomsmomentopname en de ouderdomsperiodedefinitie moeten afzonderlijk worden gemaakt.
 - **Groeps-id**: u kunt dit veld desgewenst invullen. U kunt een groep gebruiken om de verzameling klanten te definiëren die in de ouderdomsmomentopname moet worden verwerkt. Als u een klantverzameling selecteert in dit veld, wordt een ouderdomsmomentopname alleen gemaakt voor de klantrekeningen die deel uitmaken van die klantverzameling. De geselecteerde klantverzameling moet van het type **Ouderdomsmomentopname** zijn. Als u dit veld leeg laat, wordt een ouderdomsmomentopname gemaakt voor alle klantrekeningen.
 
-    > [!NOTE]
-    > Als de functie **Prestatieverbetering voor ouderdomberekening voor klanten** is ingeschakeld, selecteert u geen klantverzameling.
 
 - **Criterium**: de ouderdomsmomentopname wordt berekend op basis van de datum die u selecteert:
 
@@ -52,14 +52,15 @@ Wanneer u een ouderdomsmomentopname van klanten maakt, gebruikt u de volgende ve
     - **Datum van vandaag**: gebruik de systeemdatum. Selecteer deze optie als het ouderdomsmomentopnameproces moet worden uitgevoerd in een terugkerende batchtaak. Telkens als de batchtaak wordt uitgevoerd, wordt de systeemdatum van die batchrun gebruikt.
     - **Geselecteerde datum**: gebruik een datum die u opgeeft. Als u deze optie selecteert, moet u een ouderdomsdatum invoeren.
 
-    De huidige ouderdomsperiode is bijvoorbeeld 30 dagen. Als u **Datum van vandaag** selecteert in dit veld, begint de huidige ouderdomsperiode op de huidige datum en omvat vervolgens de vorige 29 dagen. Als u **Geselecteerde datum** selecteert en een datum invoert, begint de huidige ouderdomsperiode op de opgegeven datum en omvat vervolgens de vorige 29 dagen.
+   De huidige ouderdomsperiode is bijvoorbeeld 30 dagen. Als u **Datum van vandaag** selecteert in dit veld, begint de huidige ouderdomsperiode op de huidige datum en omvat vervolgens de vorige 29 dagen. Als u **Geselecteerde datum** selecteert en een datum invoert, begint de huidige ouderdomsperiode op de opgegeven datum en omvat vervolgens de vorige 29 dagen.
 
 - **Aanmaningsstatus bijwerken**: stel deze optie in op **Ja** om de aanmaningsstatus van transacties op de pagina **Aanmaningen** bij te werken van **Beloofd te betalen** naar **Belofte om te betalen geschonden** als de ouderdomsdatum voorbij de datum in het veld **Beloofd te betalen** is. Stel deze optie in op **Nee** om de aanmaningsstatus ongewijzigd te laten op de pagina **Aanmaningen**.
-- **Klanten met nulsaldo opnemen**: stel deze optie in op **Ja** als u alle klanten wilt opnemen, ongeacht het saldo. Als u alle klanten wilt opnemen, raden we u aan om de functie voor **Prestatieverbetering voor ouderdomberekening voor klanten** in te stellen en geen klantverzamelingen te gebruiken. Stel deze optie in op **Nee** als u alleen klanten met een saldo wilt opnemen. Deze instelling zorgt voor betere prestaties, omdat klanten die geen saldo hebben, worden overgeslagen.
+- **Klanten met nulsaldo opnemen**: stel deze optie in op **Ja** als u alle klanten wilt opnemen, ongeacht het saldo. Als u alle klanten wilt opnemen, raden we u aan om zowel de functie **Verbetering van rangschikking van klant naar ouderdom** als de functie **Prestatieverbetering van klanten naar ouderdom rangschikken met klantverzamelingen** in te schakelen. Stel deze optie in op **Nee** als u alleen klanten met een saldo wilt opnemen. Deze instelling zorgt voor betere prestaties, omdat klanten die geen saldo hebben, worden overgeslagen.
+- **Berekeningen van kredietlimiet overslaan tijdens ouderdomsproces** - als deze optie is ingesteld op **Ja**, worden **Subtotaalbedrag pakbon**, **Subtotaalbedrag voor openstaande order** en **Beschikbaar krediet** niet opnieuw berekend voor elke klant door het proces van rangschikking naar ouderdom. Deze saldi worden weergegeven op de pagina **Ouderdomssaldi**, in het feitenvak onder **Kredietlimiet**. Stel deze optie in op **Ja** voor snellere prestaties tijdens het ouderdomsrangschikkingsproces. Stel het in op **Nee** om de saldi opnieuw te berekenen bij het uitvoeren van het ouderdomsrangschikkingsproces. 
 - **Bedrijfsbereik**: selecteer op het tabblad **Bedrijfsbereik** de rechtspersonen (bedrijven) die u wilt opnemen in de ouderdomsmomentopname. Alleen rechtspersonen waarvoor gecentraliseerde betalingen zijn ingesteld zijn beschikbaar om te selecteren. Transacties van de geselecteerde rechtspersonen worden vervolgens opgenomen in de ouderdomsperioden voor klanten met dezelfde partij-id in al deze rechtspersonen. De valutabedragen worden omgerekend naar de valuta van de rechtspersoon waarbij u bent aangemeld wanneer u de ouderdomsmomentopname maakt.
 
 Het wordt aangeraden dit proces te plannen voor uitvoering in een batch.
 
 > [!NOTE]
-> Als u de batchprestaties wilt verbeteren bij het maken van ouderdomsmomentopnamen, voert u een getal in het veld **Maximum aantal batchtaken** op het sneltabblad **Standaardwaarden incasso** in op het tabblad **Aanmaningen** van de pagina **Parameters van module Klanten**. In het veld **Ouderdom van klantsaldi berekenen** raden we aan te beginnen met de standaardwaarde **100** en vervolgens de waarde aan te passen om de verwerking voor uw situatie te optimaliseren.
+> Als u de batchprestaties wilt verbeteren bij het maken van ouderdomsmomentopnamen, voert u een getal in het veld **Maximum aantal batchtaken** op het sneltabblad **Standaardwaarden incasso** in op het tabblad **Aanmaningen** van de pagina **Parameters van module Klanten**. In het veld **Ouderdom van klantsaldi berekenen** raden we u aan te beginnen met een waarde tussen **12** en **20** en vervolgens de waarde aan te passen om de verwerking voor uw situatie te optimaliseren. Het wordt niet aangeraden een waarde groter dan **30** in te stellen, omdat dit van invloed is op de prestaties. 
 

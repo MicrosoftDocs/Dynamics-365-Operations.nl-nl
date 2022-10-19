@@ -2,7 +2,7 @@
 title: Regels en opties voor geschiktheid configureren
 description: In dit artikel wordt beschreven hoe u de geschiktheidsregels en -opties instelt voor vergoedingen in Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336914"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644079"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Regels en opties voor geschiktheid configureren 
 
@@ -175,6 +175,7 @@ Bundels zijn een reeks gerelateerde vergoedingsplannen. U kunt vergoedingsbundel
    | **Bundel** | Een unieke id voor de bundel. |
    | **Beschrijving** | Een beschrijving van de bundel. |
    | **Hoofdvrachtbrief** | Geeft aan of een van de plannen in de bundel moet worden gemarkeerd als het hoofdplan. Het hoofdplan moet worden geselecteerd tijdens een open inschrijving als onderdeel van de bundel voordat de vergoedingsbeheerder de keuzen voor vergoedingen van de werknemer kan bevestigen. |
+   | **Vereist**| Geeft aan dat het plan moet worden geselecteerd om elk ander plan in de bundel te controleren. Er kunnen meerdere plannen als **Vereist** worden gemarkeerd. In dat geval moeten alle plannen die als **Vereist** ziijn gemarkeerd worden geselecteerd om een van de plannen in de bundel te kunnen controleren.|
    | **Geldig vanaf datum en tijd** | De datum en tijd waarop de bundel actief wordt. |
    | **Geldig tot** | De datum waarop de bundel verloopt. De standaardwaarde is 12/31/2154, wat voor nooit staat. |
 

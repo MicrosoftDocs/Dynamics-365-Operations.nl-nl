@@ -2,7 +2,7 @@
 title: Niet-gefactureerde opbrengst
 description: In dit artikel wordt uitgelegd hoe u artikelen en rekeningen instelt voor gebruik van de functie Niet-gefactureerde opbrengst in Facturering van abonnementen.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879677"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644163"
 ---
 # <a name="unbilled-revenue"></a>Niet-gefactureerde opbrengst
 
@@ -114,7 +114,7 @@ Volg deze stappen om niet-gefactureerde opbrengst te gebruiken met een planning 
 6. Selecteer onder de factureringsplanning onder **Verwerking van niet-gefactureerde opbrengsten** de optie **Journaalboeking maken**. U kunt de journaalboeking desgewenst ook maken op de pagina **Massale verwerking van niet-gefactureerde opbrengsten**.
 7. De uitstelplanning wordt gemaakt. U kunt de details bekijken op de pagina **Alle uitstelplanningen**. Nadat u de uitstelplanning hebt gemaakt, kunt u verschillende waarden bewerken voor het regelartikel van de factureringsplanning. U kunt bijvoorbeeld de stuksprijs, hoeveelheid of datums bewerken. De uitstelplanning wordt opnieuw berekend op basis van de nieuwe waarden.
 
-De verdelingen worden opnieuw berekend op basis van het geselecteerde toewijzingstype (**Percentage**, **Voltooiingspercentage** of **Gelijke bedragen**). Voor het toewijzingstype **Variabele bedragen** wordt de verdeling opnieuw berekend op basis van het equivalente percentage van de beginwaarde voor de gebeurtenis. Stel dat de oorspronkelijke eenheidsprijs bijvoorbeeld $100,00 is en het percentage van de beginwaarde is $55,00 (55 procent). Als de eenheidsprijs wordt gewijzigd in $200,00, wordt het variabele bedrag van de gebeurtenis $110,00 (nog steeds 55 procent).
+De verdelingen worden opnieuw berekend op basis van het geselecteerde toewijzingstype (**Percentage**, **Voltooiingspercentage** of **Gelijke bedragen**). Voor het toewijzingstype **Variabele bedragen** wordt de verdeling opnieuw berekend op basis van het equivalente percentage van de beginwaarde voor de gebeurtenis. Stel dat de oorspronkelijke eenheidsprijs bijvoorbeeld $ 100,00 is en het percentage van de beginwaarde is $ 55,00 (55 procent). Als de eenheidsprijs wordt gewijzigd in $ 200,00, wordt het variabele bedrag van de gebeurtenis $ 110,00 (nog steeds 55 procent).
 
 > [!NOTE]
 > Als regels van de uitstelplanning zijn toegerekend, kan het regelartikel van de factureringsplanning niet worden bewerkt. Als u het regelartikel wilt bewerken, moet u eerst de herkende regels terugboeken. Daarna kunt u factureringsplanningsregel bijwerken.
@@ -123,75 +123,66 @@ De verdelingen worden opnieuw berekend op basis van het geselecteerde toewijzing
 
 Een factureringsplanning wordt ingevoerd voor drie jaar en de facturen worden jaarlijks uitgegeven gedurende een periode van drie jaar. Het volledige contractbedrag wordt vastgelegd in de rekening voor niet-gefactureerde opbrengsten van waaruit de jaarfacturen worden gemaakt. De tegenrekening is de opbrengstrekening of de rekening voor uitgestelde opbrengsten.
 
-Houd er rekening mee dat topfacturering en niet-gefactureerde opbrengsten niet samenwerken, omdat dit kan leiden tot reconciliatieproblemen in het grootboek. Op de pagina **Instellingen voor artikelgroep** is bijvoorbeeld artikelgroep A zodanig geconfigureerd dat het veld **Aantal regels bovenaan** is ingesteld op **2**. Op de pagina **Factureringsplanningen** worden drie artikelen toegevoegd. Alle drie de artikelen horen bij artikelgroep A. Wanneer de eerste journaalboeking voor de functie Niet-gefactureerde opbrengst wordt gemaakt, wordt het bedrag voor alle drie de artikelen naar de niet-gefactureerde rekening verwerkt. Wanneer de factuur voor de factureringsplanning wordt gemaakt, worden alleen de bedragen voor de bovenste twee artikelen opgenomen. Daarom komt het factuurbedrag niet overeen met het bedrag dat is verwerkt in de rekening voor niet-gefactureerde opbrengsten en leidt dit tot reconciliatieproblemen in het grootboek.
+Topfacturering en niet-gefactureerde opbrengsten werken niet samen, omdat dit kan leiden tot reconciliatieproblemen in het grootboek. Op de pagina **Instellingen voor artikelgroep** is bijvoorbeeld artikelgroep A zodanig geconfigureerd dat het veld **Aantal regels bovenaan** is ingesteld op **2**. Op de pagina **Factureringsplanningen** worden drie artikelen toegevoegd. Alle drie de artikelen horen bij artikelgroep A. Wanneer de eerste journaalboeking voor de functie Niet-gefactureerde opbrengst wordt gemaakt, wordt het bedrag voor alle drie de artikelen naar de niet-gefactureerde rekening verwerkt. Wanneer de factuur voor de factureringsplanning wordt gemaakt, worden alleen de bedragen voor de bovenste twee artikelen opgenomen. Daarom komt het factuurbedrag niet overeen met het bedrag dat is verwerkt in de rekening voor niet-gefactureerde opbrengsten en leidt dit tot reconciliatieproblemen in het grootboek.
 
 Als u niet-gefactureerde opbrengst wilt gebruiken, laat u de pagina **Instellingen voor artikelgroep** leeg of stelt u alle artikelgroepen in zodat het veld **Aantal regels bovenaan** wordt ingesteld op **0** (nul). Als u topfacturering wilt gebruiken, zijn er geen acties voor niet-gefactureerde opbrengsten beschikbaar.
 
 ### <a name="examples"></a>Voorbeelden
 
-Vanaf versie 10.0.27 wordt een nieuwe rekening geïntroduceerd wanneer niet-gefactureerde opbrengst wordt gebruikt. Wanneer het initiële proces **Journaalpost maken** wordt geboekt, wordt het krediet uitgevoerd op een nieuwe tegenrekening voor niet-gefactureerde opbrengsten. Deze rekening wordt gebruikt in plaats van de opbrengstrekening, omdat dezelfde waarde moet worden teruggeboekt wanneer de factureringsplanning wordt gefactureerd. Als er wisselkoers- of afrondingsverschillen optreden, kunnen er tijdens het proces **Factuur genereren** verschillende bedragen worden berekend. Dit gedrag garandeert dat het nettobedrag van de rekeningen 0 (nul) is.
+Vanaf versie 10.0.29 wordt een nieuwe parameter toegevoegd aan Terugkerende contractfactureringsparameters. Wanneer deze optie is ingesteld op Ja, maakt de parameter **Niet-gefactureerde tegenrekeningen gebruiken** twee nieuwe rekeningen mogelijk in **Instellingen voor niet-gefactureerde opbrengst**. De tegenrekening voor niet-gefactureerde opbrengst en de tegenrekening voor niet-gefactureerde korting komen beschikbaar en kunnen het beste worden gebruikt wanneer er factureringsschema's worden gemaakt in een andere valuta dan de valuta voor boekhouding. Door het gebruik van de tegenrekeningen zorgt u ervoor dat de rekeningen voor niet-gefactureerde opbrengsten en niet-gefactureerde kortingen worden teruggeboekt met dezelfde wisselkoersen als de oorspronkelijke vermeldingen. Het oorspronkelijke proces **Journaalpost maken** is hetzelfde bij de debitering van niet-gefactureerde opbrengst en creditering van opbrengst. Als een korting wordt gebruikt, is de eerste journaalinvoer hetzelfde met een debet voor Korting en credit voor niet-gefactureerde korting. 
 
-Dit voorbeeld laat zien hoe niet-gefactureerde opbrengsten worden gebruikt om het gehele bedrag van een contract op de balans toe te rekenen als niet-gefactureerde opbrengsten. Tegenover de invoer staat de tegenboeking van ongefactureerde opbrengst. Wanneer u de klant factureert, worden de niet-gefactureerde opbrengsten en de tegenrekening voor niet-gefactureerde opbrengsten tegengeboekt. De toerekening van opbrengsten vindt plaats op het moment van facturatie of volgens de geconfigureerde planning voor toerekening van uitstel.
+Dit voorbeeld laat zien hoe niet-gefactureerde opbrengsten worden gebruikt om het gehele bedrag van een contract op de balans toe te rekenen als niet-gefactureerde opbrengsten. Tegenover de invoer staat de tegenboeking of uitgestelde opbrengst. Wanneer u de klant factureert, worden de niet-gefactureerde opbrengsten tegengeboekt. De toerekening van opbrengsten vindt plaats op het moment van facturatie of volgens de geconfigureerde planning voor toerekening van uitstel.
 
 #### <a name="assumptions"></a>Aannames
 
-- Op 1 januari van het huidige jaar tekent een klant een contract voor drie jaar t.w.v. $390.
+- Op 1 januari van het huidige jaar tekent een klant een contract voor drie jaar t.w.v. $ 390.
 - Het contract bevat twee gedeelten: licenties en een onderhoudsovereenkomst.
-- De verkoopprijs van de licentiekosten is $300 en de klant krijgt op 1 januari van elk contractjaar een factuur voor $100. De licentiekosten t.w.v. $300 worden ingevoerd als opbrengsten wanneer het contract wordt ondertekend.
-- De verkoopprijs van de onderhoudskosten is $90 en de klant krijgt op 1 januari van elk contractjaar een factuur voor $30. De $90 aan onderhoudskosten worden uitgesteld en elke maand van de looptijd van het contract wordt $2,50 toegerekend.
-- De klant krijgt aan het begin (1 januari) van elk van de drie contractjaren een factuur voor $130.
+- De verkoopprijs van de licentiekosten is $ 300 en de klant krijgt op 1 januari van elk contractjaar een factuur voor $ 100. De licentiekosten t.w.v. $ 300 worden ingevoerd als opbrengsten wanneer het contract wordt ondertekend.
+- De verkoopprijs van de onderhoudskosten is $ 90 en de klant krijgt op 1 januari van elk contractjaar een factuur voor $ 30. De $ 90 aan onderhoudskosten worden uitgesteld en elke maand van de looptijd van het contract wordt $ 2,50 toegerekend.
+- De klant krijgt aan het begin (1 januari) van elk van de drie contractjaren een factuur voor $ 130.
 
 #### <a name="steps"></a>Stappen
 
 1. Stel de twee vrijgegeven artikelen in als niet-gefactureerde artikelen. Op de pagina **Instellingen voor niet-gefactureerde opbrengst** kunt u de artikelen en rekeningen configureren die gebruikmaken van niet-gefactureerde opbrengst.
-2. In dit voorbeeld worden de onderhoudskosten uitgesteld. Voor het artikel is een uitstelsjabloon nodig, die op de pagina **Uitstelsjablonen** is geconfigureerd. De sjabloon heeft als periodefrequentie **Maandelijks** en een toerekeningsperiode die 36 maanden lang is. Daarom bedraagd de opbrengst per maand $2,50.
+2. In dit voorbeeld worden de onderhoudskosten uitgesteld. Voor het artikel is een uitstelsjabloon nodig, die op de pagina **Uitstelsjablonen** is geconfigureerd. De sjabloon heeft als periodefrequentie **Maandelijks** en een toerekeningsperiode die 36 maanden lang is. Daarom bedraagd de opbrengst per maand $ 2,50.
 3. Stel op de pagina **Artikelen die standaard worden uitgesteld** het veld **Onderhoudskosten** in op **Uitstelbaar artikel**. Deze stap en de volgende zorgen ervoor dat het onderhoudskostenartikel wordt uitgesteld als het wordt verkocht of opgenomen in een factureringsplanning.
 4. Selecteer **Standaardwaarden voor uitstel** \> **Sjabloon** en voeg het artikel voor de onderhoudskosten en de lineaire sjabloon uit stap 2 toe. Het artikel voor de onderhoudskosten wordt gekoppeld aan een uitstelplanning van 36 maanden.
 5. Maak een factureringsplanning met de twee niet-gefactureerde artikelen. De factureringsplanning voor het contract wordt geconfigureerd met de volgende artikelen.
 
     | Item | Begindatum | Einddatum | Bedrag | Factureringsfrequentie | Uitstelartikel | Niet-gefactureerde opbrengst | Description |
     |---|---|---|---|---|---|---|---|
-    | Licentie | 1 januari, CJ | 31 december CJ +2 | $100,00 | Jaarlijks | Nr. | Ja | Aan de klant wordt elk jaar $100,00 in rekening gesteld. Het totaal van $300,00 wordt vooraf geregistreerd als niet-gefactureerde opbrengst op de balans en als opbrengst in winst en verlies. Elke factuur vermindert het niet-gefactureerde bedrag. |
-    | Onderhoud | 1 januari, CJ | 31 december CJ +2 | $30,00 | Jaarlijks | Ja | Ja | Aan de klant wordt elk jaar $30,00 in rekening gesteld. Het totaal van $90,00 wordt vooraf geregistreerd als niet-gefactureerde opbrengst en als uitgestelde opbrengst op de balans. Elke factuur vermindert het niet-gefactureerde bedrag. De uitgestelde opbrengst wordt maandelijks toegerekend over 36 maanden. |
+    | Licentie | 01 januari 2022 | 31 december 2024 | $ 100,00 | Jaarlijks | Nr. | Ja | Aan de klant wordt elk jaar $ 100,00 in rekening gesteld. Het totaal van $ 300,00 wordt vooraf geregistreerd als niet-gefactureerde opbrengst op de balans en als opbrengst in winst en verlies. Elke factuur vermindert het niet-gefactureerde bedrag. |
+    | Onderhoud | 01 januari 2022 | 31 december 2024 | $ 30,00 | Jaarlijks | Ja | Ja | Aan de klant wordt elk jaar $ 30,00 in rekening gesteld. Het totaal van $ 90,00 wordt vooraf geregistreerd als niet-gefactureerde opbrengst en als uitgestelde opbrengst op de balans. Elke factuur vermindert het niet-gefactureerde bedrag. De uitgestelde opbrengst wordt maandelijks toegerekend over 36 maanden. |
 
 6. Met de optie **Journaalpost maken** op de pagina **Alle factureringsplanningen** kunt u de contractwaarde op de balans boeken als niet-gefactureerde opbrengst.
 
 Er worden twee journaalposten gemaakt, één voor elke regel in de factureringsplanning.
 
-| Rekening voor niet-gefactureerde opbrengst | Tegenrekening niet-gefactureerde opbrengst | Debetbedrag | Kredietbedrag |
-|---|---|---|---|
-| Rekening voor niet-gefactureerde opbrengst | | $300,00 | |
-| | Tegenrekening niet-gefactureerde opbrengst | | $300,00 |
+| Rekening | Debetbedrag | Kredietbedrag |
+|---|---|---|
+| Rekening voor niet-gefactureerde opbrengst | $ 300,00 | |
+| Opbrengstrekening | | $ 300,00 |
 
-| Rekening voor niet-gefactureerde opbrengst | Uitgestelde opbrengst | Debetbedrag | Kredietbedrag |
-|---|---|---|---|
-| Rekening voor niet-gefactureerde opbrengst | | $90,00 | |
-| |Uitgestelde opbrengst voor onderhoud | | $90,00 |
+| Rekening | Debetbedrag | Kredietbedrag |
+|---|---|---|
+| Rekening voor niet-gefactureerde opbrengst | $ 90,00 | |
+| Uitgestelde opbrengst | | $ 90,00 |
 
-De eerste journaalboeking wordt geboekt naar een tegenrekening voor niet-gefactureerde opbrengsten en de tweede naar een rekening voor uitgestelde opbrengsten. Als de factureringsregel zowel niet-gefactureerde opbrengsten als uitgestelde opbrengsten bevat, wordt de rekening voor uitgestelde opbrengsten gebruikt, niet de tegenrekening voor niet-gefactureerde opbrengsten. Het contract vereist dat de factuur voor de klant aan het begin van elk jaar wordt opgesteld. U kunt de factuur maken met het proces **Factuur genereren**. Wanneer de factuur is gemaakt, worden de volgende journaalboekingen gemaakt.
+Het contract vereist dat de factuur voor de klant aan het begin van elk jaar wordt opgesteld. U kunt de factuur maken met het proces **Factuur genereren**. Bij het maken van de factuur wordt het volgende factuurboekstuk geboekt.
 
-| Hoofdrekening | Rekening voor niet-gefactureerde opbrengst | Debetbedrag | Kredietbedrag |
-|---|---|---|---|
-| Tegenrekening voor niet-gefactureerde opbrengst | | $100,00 | |
-| | Rekening voor niet-gefactureerde opbrengst | | $100,00 |
-| Debiteuren | | $100,00 | |
-| | Opbrengstrekening | | $100,00 |
+| Rekening| Debetbedrag | Kredietbedrag |
+|---|---|---|
+| Rekening voor niet-gefactureerde opbrengst | | $ 130,00 |
+| Debiteuren | $ 130,00 | |
 
-| Hoofdrekening | Rekening voor niet-gefactureerde opbrengst | Debetbedrag | Kredietbedrag |
-|---|---|---|---|
-| Rekening voor uitgestelde opbrengst voor onderhoud | | $30,00 | |
-| | Rekening voor niet-gefactureerde opbrengst | | $30,00 |
-| Debiteuren | | $30,00 | |
-| | Rekening voor uitgestelde opbrengst voor onderhoud | | $30,00 |
+Dezelfde journaalboeking wordt gemaakt door facturen die aan het begin van de volgende twee jaren worden geboekt. De rekening Niet-gefactureerde opbrengst wordt elk jaar verlaagd tijdens het proces **Factuur genereren**. De tegenrekening voor niet-gefactureerde opbrengsten wordt gebruikt om de niet-gefactureerde opbrengstrekening in balans te brengen wanneer verschillende wisselkoersen worden gebruikt. 
 
-Dezelfde journaalboeking wordt gemaakt door facturen die aan het begin van de volgende twee jaren worden geboekt. Het nettobedrag van de rekening voor uitgestelde opbrengsten is 0 (nul) omdat er geen afrondings- of wisselkoersverschillen zijn. De uitgestelde opbrengst moet exact worden teruggeboekt zoals deze is gecrediteerd tijdens het proces **Journaalpost maken**. Aangezien de opbrengst nog steeds is uitgesteld en later wordt toegerekend, wordt de rekening voor uitgestelde opbrengsten opnieuw gekrediteerd.
+In de laatste stap wordt elke maand de journaalboeking voor het toerekeningsjournaal gemaakt om de uitgestelde opbrengst van de onderhoudskosten toe te rekenen. De journaalboeking kan worden gemaakt op de pagina **Verwerking van toerekening**. U kunt de optie ook maken door op de pagina's **Uitstelplanning** de optie **Toerekenen** te selecteren voor de regels.
 
-In de laatste stap wordt elke maand de journaalboeking voor het toerekeningsjournaal gemaakt om de uitgestelde opbrengst voor de onderhoudskosten toe te rekenen. De journaalboeking kan worden gemaakt op de pagina **Verwerking van toerekening**. U kunt de optie ook maken door op de pagina's **Uitstelplanning** de optie **Toerekenen** te selecteren voor de regels.
-
-| Rekening voor uitgestelde opbrengst | Opbrengstrekening | Debetbedrag | Kredietbedrag |
-|---|---|---|---|
-| Uitgestelde opbrengst voor onderhoud | | $2,50 | |
-| | Opbrengsten uit onderhoud | | $2,50 |
+| Hoofdrekening | Debetbedrag | Kredietbedrag |
+|---|---|---|
+| Uitgestelde opbrengst | $ 2,50 | |
+| Opbrengst | | $ 2,50 |
 
 Deze journaalboeking wordt telkens gemaakt wanneer het toerekeningsproces wordt uitgevoerd voor dit uitgestelde artikel (in totaal 36 keer).
 
@@ -203,23 +194,23 @@ Een factureringsplanning wordt gemaakt met de volgende criteria:
 
 - **Begindatum:** 1 juni 2020
 - **Einddatum:** 31 december 2021
-- **Eenheidsprijs:** $100
+- **Eenheidsprijs:** $ 100
 - **Frequentie:** Maandelijks
 
 Op de pagina **Alle factureringsplanningen** wordt de eerste journaalboeking gemaakt via het proces **Journaalpost maken**. De huidige bedragen voor korte en lange termijn worden als volgt berekend:
 
-- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $700
-- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $1200
+- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $ 700
+- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $ 1200
 
 De factuur wordt gemaakt voor de factureringsperiode van 1 juni 2020 tot en met 30 november 2020. De huidige bedragen voor korte en lange termijn worden als volgt berekend:
 
-- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $100
-- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $1200
+- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $ 100
+- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $ 1200
 
 De factuur wordt gemaakt voor de factureringsperiode van 1 december 2020 tot en met 31 december 2020. De huidige bedragen voor korte en lange termijn worden als volgt berekend:
 
-- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $1200
-- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $0
+- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $ 1200
+- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $ 0
 
 #### <a name="short-term-rolling-periods"></a>Korte termijn: Voortschrijdende perioden
 
@@ -229,23 +220,23 @@ Een factureringsplanning wordt gemaakt met de volgende criteria:
 
 - **Begindatum:** 1 juni 2020
 - **Einddatum:** 31 december 2021
-- **Eenheidsprijs:** $100
+- **Eenheidsprijs:** $ 100
 - **Frequentie:** Maandelijks
 
 Op de pagina **Alle factureringsplanningen** wordt de eerste journaalboeking gemaakt via het proces **Journaalpost maken**. De huidige bedragen voor korte en lange termijn worden als volgt berekend:
 
-- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $1200
-- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $700
+- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $ 1200
+- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $ 700
 
 De factuur wordt gemaakt voor de factureringsperiode van 1 juni 2020 tot en met 30 november 2020. De huidige bedragen voor korte en lange termijn worden als volgt berekend:
 
-- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $1200
-- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $100
+- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $ 1200
+- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $ 100
 
 De factuur wordt gemaakt voor de factureringsperiode van 1 december 2020 tot en met 31 december 2020. De huidige bedragen voor korte en lange termijn worden als volgt berekend:
 
-- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $1200
-- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $0
+- **Huidig kortlopend niet-gefactureerd opbrengstbedrag:** $ 1200
+- **Huidig langlopend niet-gefactureerd opbrengstbedrag:** $ 0
 
 ### <a name="items-with-revenue-allocation"></a>Artikelen met opbrengsttoerekening
 
@@ -254,53 +245,53 @@ Twee artikelen met verschillende factureringsfrequenties worden toegevoegd aan e
 - **Artikelnummer 1000:** Surface Pro 128KEN
 
     - **Factureringsfrequentie:** Eenmalig
-    - **Eenheidsprijs:** $1500
-    - **Zelfstandige verkoopprijs:** $1600
-    - **Contractopbrengsten:** $1465,26
+    - **Eenheidsprijs:** $ 1500
+    - **Zelfstandige verkoopprijs:** $ 1600
+    - **Contractopbrengsten:** $ 1465,26
 
 - **Artikelnummer S0021:** Verzekering die wordt verkocht samen met artikelnummer 1000
 
     - **Factureringsfrequentie:** Maandelijks gedurende 12 maanden
-    - **Eenheidsprijs:** $20 per maand
-    - **Zelfstandige verkoopprijs:** $25
-    - **Contractopbrengsten:** $264,74
+    - **Eenheidsprijs:** $ 20 per maand
+    - **Zelfstandige verkoopprijs:** $ 25
+    - **Contractopbrengsten:** $ 264,74
 
 Omdat beide artikelen gebruik maken van niet-gefactureerde opbrengst en opbrengsttoerekening, is het totale contractbedrag op de verlengingsregel 0 (nul). De kolom **Contractopbrengsten** wordt toegevoegd en toont het bedrag van de contractopbrengsten.
 
 In de volgende tabel ziet u de eerste journaalboeking voor de artikelen en de factuur.
 
-| Rekening voor niet-gefactureerde opbrengst | Rekening voor uitgestelde opbrengst | Debetbedrag | Kredietbedrag |
-|---|---|---|---|
-| **Journaalboeking voor artikel 1000** | | | |
-| Debetrekening voor niet-gefactureerde opbrengsten (401250) | | $1465,26 | |
-| | Kredietrekening voor uitgestelde opbrengst (250600) | | $1465,26 |
-| **Journaalboeking voor artikel 0021** | | | |
-| Debetrekening voor niet-gefactureerde opbrengsten (401250) | | $274,74 | |
-| | Kredietrekening voor uitgestelde opbrengst (250600) | | $274,74 |
-| **Factuur** | | | |
-| | Kredietrekening voor niet-gefactureerde opbrengst | | $1465,26 |
-| | Kredietrekening voor niet-gefactureerde opbrengst | | $274,74 |
-| Debetrekening leveranciers (130100) | | $1488,16 | |
+| Hoofdrekening | Debetbedrag | Kredietbedrag |
+|---|---|---|
+| **Journaalboeking voor artikel 1000** | | | 
+| Rekening voor niet-gefactureerde opbrengst (401250) | $ 1465,26 | |
+| Rekening voor uitgestelde opbrengst (250600) | | $ 1465,26 |
+| **Journaalboeking voor artikel 0021** | | | 
+| Rekening voor niet-gefactureerde opbrengst (401250) | $ 274,74 | |
+| Rekening voor uitgestelde opbrengst (250600) | | $ 274,74 |
+| **Factuur** | | |
+| Rekening voor niet-gefactureerde opbrengst | | $ 1465,26 |
+| Rekening voor niet-gefactureerde opbrengst | | $ 274,74 |
+| Leveranciersrekening (130100) | $ 1488,16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Wijzigingen in de factureringsplanningsregel, factuurdetailregel of opbrengsttoerekening
 
 Wanneer de eenheidsprijs of de hoeveelheid wordt gewijzigd, moet het contractopbrengstbedrag worden bijgewerkt voor elk artikel dat deel uitmaakt van de opbrengsttoerekening. Daarom wordt de journaalboeking opnieuw berekend.
 
-Stel dat de eenheidsprijs voor artikel 1000 wordt gewijzigd van $1500 naar $1600. In dit geval wordt het contractopbrengstbedrag automatisch opnieuw berekend op $1549,47. De contractopbrengsten voor artikel S0021 worden opnieuw berekend op $290,53.
+Stel dat de eenheidsprijs voor artikel 1000 wordt gewijzigd van $ 1500 naar $ 1600. In dit geval wordt het contractopbrengstbedrag automatisch opnieuw berekend op $ 1549,47. De contractopbrengsten voor artikel S0021 worden opnieuw berekend op $ 290,53.
 
 Wanneer de wijziging wordt bevestigd en vastgelegd, worden de eerste journaalboekingen voor beide artikelen teruggeboekt en worden nieuwe journaalboekingen gemaakt:
 
-- **Artikel 1000:** de oorspronkelijke oorspronkelijke journaalboeking van $1465,26 wordt teruggeboekt. Een nieuwe journaalboeking voor $1549,47 wordt gemaakt.
-- **Artikel S0021:** de oorspronkelijke oorspronkelijke journaalboeking van $274,74 wordt teruggeboekt. Een nieuwe journaalboeking voor $290,53 wordt gemaakt.
+- **Artikel 1000:** de oorspronkelijke oorspronkelijke journaalboeking van $ 1465,26 wordt teruggeboekt. Een nieuwe journaalboeking voor $ 1549,47 wordt gemaakt.
+- **Artikel S0021:** de oorspronkelijke oorspronkelijke journaalboeking van $ 274,74 wordt teruggeboekt. Een nieuwe journaalboeking voor $ 290,53 wordt gemaakt.
 
 #### <a name="termination"></a>Beëindiging
 
 Artikel S0021 heeft een begindatum in januari 2020 en een einddatum in december 2020, maar wordt beëindigd in juni 2020. Het contractopbrengstbedrag voor beide artikelen moet opnieuw worden berekend:
 
-- **Artikel 1000:** de contractopbrengsten worden opnieuw berekend op $1567,67.
-- **Artikel S0021:** de contractopbrengsten worden opnieuw berekend op $124,00.
+- **Artikel 1000:** de contractopbrengsten worden opnieuw berekend op $ 1567,67.
+- **Artikel S0021:** de contractopbrengsten worden opnieuw berekend op $ 124,00.
 
 Er wordt een correctiejournaalboeking gemaakt voor de regel die is beëindigd. De journaalboeking voor de regel die bij hetzelfde MEA-nummer (multiple element arrangement) hoort, wordt teruggeboekt en er wordt een nieuwe journaalboeking gemaakt:
 
-- **Artikel 1000:** de oorspronkelijke oorspronkelijke journaalboeking van $1465,26 wordt teruggeboekt. Een correctiejournaalboeking voor $1549,47 wordt gemaakt.
-- **Artikel S0021:** de oorspronkelijke oorspronkelijke journaalboeking van $274,74 wordt teruggeboekt. Een nieuwe journaalboeking voor $124,00 wordt gemaakt.
+- **Artikel 1000:** de oorspronkelijke oorspronkelijke journaalboeking van $ 1465,26 wordt teruggeboekt. Een correctiejournaalboeking voor $ 1549,47 wordt gemaakt.
+- **Artikel S0021:** de oorspronkelijke oorspronkelijke journaalboeking van $ 274,74 wordt teruggeboekt. Een nieuwe journaalboeking voor $ 124,00 wordt gemaakt.

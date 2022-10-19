@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903329"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643998"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Terugkerende contractfactureringsparameters
 
@@ -46,7 +46,8 @@ Op de pagina **Terugkerende contractfactureringsparameters** stelt u de standaar
 8. Selecteer in het veld **Type factuurtransactie** het standaardtype factuurtransactie voor nieuwe factureringsplanningen.
 9. Stel de optie **Uitstel afstemmen op facturering** in op **Ja** om de bijbehorende uitstelplanning zo uit te lijnen dat dezelfde datums worden gebruikt als voor de factureringsplanning. Stel het in op **Nee** als u andere datums wilt gebruiken.
 10. Als u de functie voor opbrengstsplitsing gebruikt, stelt u de optie **Opbrengstsplitsing automatisch maken** in op **Ja** wanneer artikelen worden toegevoegd aan een factureringsplanning. Het selectievakje **Gesplitste opbrengst** wordt automatisch ingeschakeld op de factureringsplanningsregel als het artikel is geconfigureerd als een artikel voor opbrengstsplitsing. Stel de optie in op **Nee** als u handmatig het selectievakje **Gesplitste opbrengst** wilt inschakelen.
-11. U stelt als volgt de velden voor het maken van verkooporders in:
+11. Stel de optie **Klantsplitsing** in op **Ja** om toe te staan dat een factureringsschema wordt gefactureerd aan verschillende klanten. Wanneer deze optie is ingesteld op **Ja**, is de optie **Klantsplitsing** beschikbaar in de koptekst van het factureringsschema en de factureringsschemaregel. 
+12. U stelt als volgt de velden voor het maken van verkooporders in:
 
     - U kunt facturen consolideren per periode, klant of artikel. U kunt elke combinatie van **Ja** en **Nee** instellen. Facturen kunnen ook per artikelgroep worden opgesplitst.
     - De volgende boekingsopties zijn beschikbaar voor facturen:
@@ -92,6 +93,9 @@ Op de pagina **Terugkerende contractfactureringsparameters** stelt u de standaar
     - **Credit uitgeven**: stel een creditnota op als een factureringsplanning of een factureringsplanningsregel wordt beëindigd.
     - **Creditcorrectie**: maak een creditcorrectie voor een factureringsplanning wanneer een regel wordt beëindigd. De creditcorrectie wordt weergegeven in een toekomstige factureringsperiode voor de factureringsplanning. Met de creditcorrectie wordt het factuurbedrag voor de volgende factureringsperiode bijgewerkt, totdat de creditering is toegepast op de factureringsplanning.
     - **Geen creditering**: voer geen creditcorrectie uit of stel geen creditnota op als een factureringsplanning of een factureringsplanningsregel wordt beëindigd. Deze optie is alleen beschikbaar wanneer u de optie **Geen correctie** gebruikt om een factureringsplanning te beëindigen.
+18. Wanneer de optie **Eén tijd kan worden beëindigd met restitutie** is ingesteld op **Nee** en een factureringsschema met de factureringsfrequentie **Eén keer**, wordt de status van de factureringsschemaregel gewijzigd in **Beëindigd** zodra het factureringsschema isgefactureerd. Dit factureringsschema kan niet worden beëindigd en er kan geen creditering worden verstrekt. Wanneer de optie **Eén tijd kan worden beëindigd met restitutie** is ingesteld op **Ja**, heeft de factureringsplanningsregel met de factureringsfrequentie **Eén keer** de status van **Actief** nadat het factureringsschema isgefactureerd. De factureringsschemaregel kan worden beëindigd en de restitutie kan worden verwerkt. 
+19. De optie **Per dag omslaan** die is ingesteld in parameters wordt standaard ingesteld op de pagina voor massaal beëindigen en worden de kop en regel van het factureringsschema beëindigd. Deze kan tijdens het beëindigingsproces worden gewijzigd. Wanneer de optie is ingesteld op **Ja**, wordt een restitutiebedrag berekend met behulp van een dagelijks tarief. Wanneer deze is ingesteld op **Nee**, wordt de creditering gebaseerd op de beëindigingsdatum en de factureringsfrequentie. Als bijvoorbeeld de frequentie Maandelijks wordt gebruikt en het factureringsbedrag $ 100 per maand bedroeg, wordt het creditbedrag weergegeven in stappen van $ 100. Als de factureringsfrequentie Eenmalig is, wordt het creditbedrag $ 0,00. U moet Per dag omslaan hebben ingesteld op Ja om een restitutie te krijgen bij een factureringsfrequentie van Eenmalig. 
+20. Stel de optie **Uitstel voor krediet maken** in op **Ja** om een nieuwe uitstelplanning te maken bij creditering van een bestaande uitstelplanning. Laat de optie ingesteld op **Nee** om de creditering te maken via de bestaande uitstelplanning.
 
 ## <a name="sequence-number-tab"></a>Tabblad Volgnummer
 

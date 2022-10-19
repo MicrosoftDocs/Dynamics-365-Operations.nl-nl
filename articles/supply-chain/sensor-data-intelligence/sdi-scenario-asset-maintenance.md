@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: ff3944b987314a688a5829b05f8627479e3e79ed
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428303"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644052"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Het scenario activumonderhoud
 
@@ -24,6 +24,12 @@ ms.locfileid: "9428303"
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 In het scenario *activumonderhoud* kunt u sensorgegevens gebruiken om tellerrecords te maken. Tellerrecords volgen het gebruik van machineactiva en worden gebruikt als invoer om het onderhoudsschema voor machineactiva te genereren.
+
+## <a name="video-instructions"></a>Video-instructies
+
+In de volgende video wordt weergegeven hoe u het scenario voor activumonderhoud kunt instellen en uitproberen met behulp van standaard [demogegevens](../../fin-ops-core/fin-ops/get-started/demo-data.md). De resterende secties in dit artikel bieden dezelfde instructies in tekstvorm.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58aRW]
 
 ## <a name="prepare-demo-data-for-the-asset-maintenance-scenario"></a>Demogegevens voorbereiden voor het scenario activumonderhoud
 

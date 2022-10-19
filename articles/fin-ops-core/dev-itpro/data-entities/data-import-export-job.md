@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357586"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671453"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -64,6 +64,9 @@ U kunt specifieke entiteiten toevoegen aan een import- of exporttaak of een sjab
 
 ### <a name="set-the-data-format-for-the-job"></a>De gegevensindeling voor de taak instellen
 Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens die worden geëxporteerd of geïmporteerd. U definieert indelingen via de tegel **Instelling van gegevensbronnen**. Een brongegevensindeling is een combinatie van **Type**, **Vestandsindeling**, **Scheidingsteken rij** en **Scheidingsteken voor kolommen**. Er zijn ook andere kenmerken, maar dit zijn de belangrijkste. In de volgende tabel staan de geldige combinaties.
+
+> [!NOTE]
+> De Excel-bestandsindeling is momenteel niet beschikbaar in het werkgebied Gegevensbeheer voor GCC (Government Community Cloud).
 
 | Bestandsindeling            | Scheidingsteken rij/kolom                       | XML-stijl                 |
 |------------------------|--------------------------------------------|---------------------------|

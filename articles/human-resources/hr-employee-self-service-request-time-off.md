@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d06c1d40416d2644499723317c0adfd805126b5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: eea8cdfc0cd2cfe8ca4cc94cefbf5772ab24d9a4
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882890"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643901"
 ---
 # <a name="request-time-off"></a>Verlof aanvragen
 
@@ -63,6 +63,10 @@ Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U
 2. Als u uw goedgekeurde verlofaanvragen wilt weergeven, selecteert u **Goedgekeurde vrije tijd**. Als u uw uitstaande verlofaanvragen wilt weergeven, selecteert u **Verlofaanvragen**.
 
 ## <a name="cancel-time-off-requests"></a>Verlofaanvragen annuleren
+
+>[!NOTE] 
+> **Verlof annuleren** is beschikbaar wanneer de functie **Verbeteringen in werkstroom voor verlofaanvraag** is ingeschakeld in het werkgebied **Functiebeheer**.  
+
 
 1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Vrije tijd weergeven** op de tegel **Verlofsaldi**.
 

@@ -2,7 +2,7 @@
 title: Een nieuw vergoedingsplan maken
 description: In dit artikel wordt aangegeven hoe u vergoedingsplannen in Dynamics 365 Human Resources instelt.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336919"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643932"
 ---
 # <a name="create-a-benefit-plan"></a>Een vergoedingsplan maken
 
@@ -42,8 +42,9 @@ In dit artikel wordt aangegeven hoe u vergoedingsplannen in Dynamics 365 Human R
    | **Programma** | Geeft een programma aan waaraan u het plan desgewenst kunt toewijzen. |
    | **Bundel** | Geeft een bundel aan waaraan u het plan desgewenst kunt toewijzen. |
    | **Master** | Geeft aan of het plan het hoofdplan is binnen de bundel waaraan het is toegewezen. |
+   | **Vereist** | Geeft aan dat het plan moet worden geselecteerd om elk ander plan in de bundel te controleren. Er kunnen meerdere plannen als **Vereist** worden gemarkeerd. In dat geval moeten alle plannen die als **Vereist** ziijn gemarkeerd worden geselecteerd om een van de plannen in de bundel te kunnen controleren.|
    | **Geldig vanaf datum en tijd** | De datum en het tijdstip waarop het plan start. De standaardwaarde is de huidige systeemdatum. |
-   | **Geldig tot datum en tijd** | De datum en het tijdstip waarop het plan eindigt. De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
+   | **Geldig tot datum en tijd** | De datum en het tijdstip waarop het plan eindigt. De standaardwaarde is 12/31/2154, wat 'nooit' betekent.  |
 
 4. Geef op het tabblad **Configuratie** waarden op voor de volgende velden, afhankelijk van het type plan dat u gaat maken:
 

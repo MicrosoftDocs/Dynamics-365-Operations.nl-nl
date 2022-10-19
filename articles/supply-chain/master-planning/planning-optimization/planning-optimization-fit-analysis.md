@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591845"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643725"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -104,11 +104,11 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Veiligheidsmarges | Hoofdplannen met veiligheidsmarge: *\#* | Deze functie wordt nu ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie |  Ondersteund |
 | Afhandeling van veiligheidsvoorraad | Records voor artikelbehoefteplanning met "Minimum behalen" verschillen van "Datum van vandaag + levertijd": *\#* | Planningsoptimalisatie gebruikt altijd *Datum van vandaag + levertijd* gebruikt. Deze wijziging wordt doorgevoerd om een vereenvoudigde planningsinstelling in de toekomst voor te bereiden en om een actieresultaat te kunnen bieden. Als de aanschaffingstijd niet is opgenomen voor de veiligheidsvoorraad, worden geplande orders die zijn gemaakt voor de huidige lage voorhanden voorraad altijd vertraagd vanwege de levertijd. Dit gedrag kan leiden tot belangrijke ruis en ongewenste geplande orders. De beste manier is om de instelling te wijzigen zodat *Datum van vandaag + levertijd* wordt gebruikt. Werk hoofdgegevens bij om waarschuwingen te voorkomen. | N.v.t. |
 | Verkoopoffertes | Hoofdplannen met verkoopoffertes ingeschakeld: *\#* | Deze functie wordt verwerkt. Momenteel worden offertes niet overwogen wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Wave 2, 2022 release of hoger |
-| Te gebruiken tot | Hoofdplannen met Te gebruiken tot ingeschakeld: *\#* | Deze functie wordt verwerkt. Momenteel wordt houdbaarheid niet meegenomen wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Ondersteund |
+| Te gebruiken tot | Hoofdplannen met Te gebruiken tot ingeschakeld: *\#* | Deze functie wordt nu ondersteund. | Ondersteund |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht van Optimalisatie van planning](planning-optimization-overview.md)
+[Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
 
 [Aan de slag met Planningsoptimalisatie](get-started.md)
 

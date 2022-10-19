@@ -13,16 +13,19 @@ ms.search.region: Global
 ms.author: bking
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: be3e6438e86911d9703a5ac7413515389308b340
-ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
+ms.openlocfilehash: 5bf07356b5613f438034f8dabac7db197e69a6c8
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348349"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644025"
 ---
 # <a name="revenue-recognition-overview"></a>Overzicht van opbrengsttoerekening
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Deze functionaliteit wordt afgeschaft in oktober 2023. Nieuwe gebruikers moeten facturering van abonnementen gebruiken.
 
 Bedrijven in industrieën die meerdere elementen verkopen, zoals producten, services, abonnementen, enzovoort, moeten orders met meerdere elementen kunnen opsplitsen, zodat opbrengsten kunnen worden toegerekend op basis van een reeks bedrijfs- en branchespecifieke richtlijnen.
 
