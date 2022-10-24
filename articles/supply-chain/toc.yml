@@ -12,14 +12,12 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.31 (februari 2022)
+                  href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (november 2022)
                   href: get-started/whats-new-scm-10-0-30.md
                 - name: Supply Chain Management 10.0.29 (oktober 2022)
                   href: get-started/whats-new-scm-10-0-29.md
-                - name: Supply Chain Management 10.0.28 (augustus 2022)
-                  href: get-started/whats-new-scm-10-0-28.md
-                - name: Supply Chain Management 10.0.27 (juli 2022)
-                  href: get-started/whats-new-scm-10-0-27.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -1775,10 +1773,14 @@
                   href: master-planning/supply-schedule.md
                 - name: Filters op een plan toepassen
                   href: master-planning/planning-optimization/plan-filters.md
-                - name: Hoofdplanning met vraagprognose
+                - name: Hoofdplanning met vraagprognoses
                   href: master-planning/planning-optimization/demand-forecast.md
+                - name: Hoofdplanning met aanbodprognoses
+                  href: master-planning/planning-optimization/supply-forecast.md
                 - name: Hoofdplanning met inkoophandelsovereenkomsten
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Plannen op basis van offertes en offerteaanvragen
+                  href: master-planning/planning-optimization/quotation-planning.md
                 - name: Datum- en tijdparameters die niet worden gebruikt door Planningsoptimalisatie
                   href: master-planning/planning-optimization/date-time-used.md
                 - name: Veiligheidsmarges
@@ -2323,6 +2325,8 @@
                   href: pim/tasks/create-product-master.md
                 - name: Vooraf gedefinieerde productvarianten maken
                   href: pim/tasks/create-predefined-product-variants.md
+                - name: Vertaalde productnamen en omschrijvingen weergeven in de gebruikersinterface
+                  href: pim/show-translated-product-info.md
                 - name: Maateenheden beheren
                   href: pim/tasks/manage-unit-measure.md
                 - name: Conversie van maateenheid per productvariant
@@ -3633,6 +3637,8 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Werken met locatie-instructies
                       href: warehousing/create-location-directive.md
+                    - name: Locatie-instructies met acceptatietests testen
+                      href: warehousing/location-directive-acceptance-tests.md
                     - name: Productfilters voor magazijntransacties configureren
                       href: warehousing/filters-and-filter-codes.md
                     - name: Opslaglimieten van locatie

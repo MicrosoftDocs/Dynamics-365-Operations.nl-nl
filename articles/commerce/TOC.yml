@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Asynchrone klanten converteren naar synchrone klanten
               href: convert-async-to-sync.md
+            - name: Synchronisatie van klantbewerkingen controleren
+              href: audit-async-customer-operations.md
             - name: Veelgestelde vragen over de modus voor het maken van asynchrone klanten
               href: async-customer-mode-faq.md
             - name: Clienteling
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: Chatmodules
                   items:
-                    - name: Commerce-chatmodule
+                    - name: Overzicht van chatfuncties voor Commerce
+                      href: commerce-chat-overview.md
+                    - name: Commerce-chat met module Omnichannel voor Customer Service
                       href: commerce-chat-module.md
+                    - name: Commerce-chat met module Power Virtual Agents
+                      href: chat-module-pva.md
+                    - name: Proactieve chatparameters voor Commerce-chatmodule
+                      href: chat-proactive-chat-parameters.md
             - name: Zoeken
               items:
                 - name: Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten

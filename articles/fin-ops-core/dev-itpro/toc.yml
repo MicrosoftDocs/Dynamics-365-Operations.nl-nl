@@ -14,6 +14,8 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Platformupdates
                   href: get-started/whats-new-home-page.md
+                - name: Platformupdates voor versie 10.0.31 (februari 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: Platformupdates voor versie 10.0.30 (november 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Platformupdates voor versie 10.0.29 (oktober 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: Wijzigingen in een entiteit bijhouden
                   href: data-entities/entity-change-track.md
+                - name: Bijhouden van wijzigingen in rijversies toestaan voor een entiteit
+                  href: data-entities/rowversion-change-track.md
                 - name: Informatie zoeken over standaardgegevensentiteiten
                   href: data-entities/data-entities-report.md
                 - name: Sjablonen met meerdere werkbladen
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Virtuele Dataverse-entiteiten inschakelen
                   href: power-platform/enable-virtual-entities.md
+                - name: Wijzigingen bijhouden voor virtuele tabellen in Dataverse
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Power Apps-portals met financiën en bedrijfsactiviteiten
                   href: power-platform/power-portal-reference.md
                 - name: Veelgestelde vragen over virtuele entiteiten van financiën en bedrijfsactiviteiten
