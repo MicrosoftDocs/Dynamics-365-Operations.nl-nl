@@ -2,7 +2,7 @@
 title: Werken met locatie-instructies
 description: In dit artikel wordt beschreven hoe u met locatie-instructies werkt. Locatie-instructies zijn door gebruiker gedefinieerde regels voor het aangeven van verzamel- en wegzetlocaties voor voorraadverplaatsingen.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903690"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689661"
 ---
 # <a name="work-with-location-directives"></a>Werken met locatie-instructies
 
@@ -47,6 +47,20 @@ Voordat u een locatie-instructie kunt maken, moet u deze stappen volgen om er ze
 1. Locaties, locatietypen, locatieprofielen en locatie-indelingen maken. Zie [Locaties configureren in een magazijn met WMS-ondersteuning](./tasks/configure-locations-wms-enabled-warehouse.md) voor meer informatie.
 1. Maak locaties, zones en zonegroepen. Zie [Magazijn instellen](../../commerce/channels-setup-warehouse.md) en [Locaties configureren in een magazijn met WMS-ondersteuning](./tasks/configure-locations-wms-enabled-warehouse.md) voor meer informatie.
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a>De functie Bereiken van locatie-instructies in- of uitschakelen
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+De functie *Bereiken van locatie-instructies* biedt u meer mogelijkheden wanneer u locatierichtlijnen ontwerpt en beperkt overbodige configuraties. Er wordt een optie **Bereiken** toegevoegd, waarmee de vorige optie **Meerdere SKU's** wordt vervangen. Waar de optie **Meerdere SKU's** alleen op *Ja* of *Nee* kan worden ingesteld, biedt de optie **Bereiken** niet alleen deze twee instellingen (via *Eén artikel* en *Meerdere artikelen*), maar ook twee extra (via *Eén artikel of order* of *Alle*). Zie [Sneltabblad Locatierichtlijnen](#location-directives-tab) voor meer informatie over deze instellingen.
+
+Wanneer deze optie is ingeschakeld, vervangt **Bereik** de optie **Meerdere SKU's**. Deze optie is 100 procent compatibel met bestaande configuraties.
+
+Als u deze functie wilt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze in of uit te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Warehouse Management*
+- **Functienaam:** *Bereiken van locatie-instructies*
+
 ## <a name="work-order-types-for-location-directives"></a>Werkordertypen voor locatie-instructies
 
 Veel van de velden die kunnen worden ingesteld voor locatie-instructies, gelden voor alle werkordertypen. Andere velden zijn echter specifiek voor bepaalde typen werkorders.
@@ -68,7 +82,7 @@ In de volgende tabel worden de velden weergegeven die voor alle werkordertypen g
 | Locatie-instructies | Locatie |
 | Locatie-instructies | Magazijn |
 | Locatie-instructies | Instructiecode |
-| Locatie-instructies | Meerdere SKU's |
+| Locatie-instructies | Bereik *of* Meerdere SKU's |
 | Regels | Volgnummer |
 | Regels | Vanaf hoeveelheid |
 | Regels | Tot hoeveelheid |
@@ -117,7 +131,9 @@ Het actiedeelvenster op de pagina **Locatie-instructies** bevat knoppen die u ku
 
 - **Omhoog**: verplaats de geselecteerde locatie-instructie omhoog in de volgorde. U kunt deze bijvoorbeeld verplaatsen van volgnummer 4 naar volgnummer 3.
 - **Omlaag**: verplaats de geselecteerde locatie-instructie omlaag in de volgorde. U kunt deze bijvoorbeeld verplaatsen van volgnummer 4 naar volgnummer 5.
+- **Kopiëren**: open een dialoogvenster waarin u een exacte kopie kunt maken van de huidige locatierichtlijn.
 - **Query bewerken**: hiermee opent u een dialoogvenster waarin u de voorwaarden kunt definiëren volgens welke de geselecteerde locatie-instructie moet worden verwerkt. U wilt bijvoorbeeld dat het alleen op een specifiek magazijn van toepassing is.
+- **Acceptatietests**: open een pagina waarop u geautomatiseerde tests kunt instellen om te bepalen hoe uw locatierichtlijnen zich onder verschillende beginvoorwaarden gedragen. Op deze manier kunt u snel uw richtlijnen valideren wanneer u deze maakt en onderhoudt. Zie [Locatie-instructies met acceptatietests testen](location-directive-acceptance-tests.md) voor meer informatie.
 
 ## <a name="location-directives-header"></a>Kop van locatie-instructie
 
@@ -126,7 +142,7 @@ De kop van de locatie-instructie bevat de volgende velden voor het volgnummer en
 - **Volgnummer**: dit veld geeft de volgorde aan waarop het systeem probeert elke locatie-instructie toe te passen op het geselecteerde werkordertype. De laagste nummers worden het eerst toegepast. U kunt de volgorde wijzigen met de knoppen **Omhoog** en **Omlaag** in het actiedeelvenster.
 - **Naam**: voer een beschrijvende naam voor de locatie-instructie in. Deze naam moet helpen bij het identificeren van het algemene doel van de instructie. Voer bijvoorbeeld *Verkooporders verzamelen in magazijn 24* in.
 
-## <a name="location-directives-fasttab"></a>Sneltabblad Locatierichtlijnen
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Sneltabblad Locatierichtlijnen
 
 De velden op het sneltabblad **Locatie-instructies** zijn specifiek voor het werkordertype dat is geselecteerd in het veld **Werkordertype** in het lijstdeelvenster.
 
@@ -145,7 +161,29 @@ De velden op het sneltabblad **Locatie-instructies** zijn specifiek voor het wer
     > [!TIP]
     > Als er een instructiecode is ingesteld, zoekt het systeem niet naar locatie-instructies op volgnummer wanneer er werk moet worden gegenereerd. In plaats daarvan wordt gezocht op instructiecode. Zo kunt u specifiek opgeven welke locatierichtlijn wordt gebruikt voor een bepaalde stap in een werksjabloon, zoals de stap voor de fasering van materialen.
 
-- **Meerdere SKU's**: stel deze optie in op *Ja* om meerdere voorraadeenheden (SKU's) op een locatie te kunnen gebruiken. Er moeten bijvoorbeeld meerdere SKU's worden ingeschakeld voor de laaddeurlocatie. Als u meerdere SKU's inschakelt, wordt uw neerzetlocatie volgens verwachting opgegeven bij werk. De neerzetlocatie kan echter alleen een locatie met meerdere artikelen verwerken (als het werk bestaat uit verschillende SKU's die moeten worden verzameld en opgeslagen). Het is niet mogelijk een neerzetlocatie met één SKU te verwerken. Als u deze optie op *Nee* instelt, wordt de neetzetlocatie alleen opgegeven als deze slechts één type SKU heeft.
+- **Bereik**: gebruik deze optie om de scenario's op te geven waarin de locatierichtlijn wordt toegepast. Deze optie vervangt de optie **Meerdere SKU's** en is alleen beschikbaar als de functie *Bereiken van locatie-instructies* in uw systeem is ingeschakeld. (Zie voor meer informatie [De functie Bereiken van locatie-instructies in- of uitschakelen](#scopes-feature).)
+
+    | Bereikinstelling | Eén order met één artikel | Meerdere orders met hetzelfde artikel | Eén order met meerdere artikelen | Meerdere orders met meerdere artikelen |
+    |---|---|---|---|---|
+    | Eén artikel | Ja | Ja | Nr. | Nr. |
+    | Meerdere artikelen | Nr. | Nr. | Ja | Ja |
+    | Eén artikel of order | Ja | Ja | Ja | Nr. |
+    | Alle | Ja | Ja | Ja | Ja |
+
+    In de volgende tabel wordt beschreven wanneer de bereiken beschikbaar zijn en of deze de functie **Query bewerken** toestaan.
+
+    | Bereik | Ondersteund werktype | Ondersteunde werkordertypen | Query bewerken toestaan |
+    |---|---|---|---|
+    | Eén artikel | Alle | Alle | Ja |
+    | Meerdere artikelen | Alle | Alle | Nr. |
+    | Eén artikel of order | Wegzettingen | Coproducten en bijproducten wegzetten, eindproducten wegzetten, kanban wegzetten, inkooporders, kwaliteitsorders, aanvulling, retourorders, verkooporders, overboekingsuitgifte en ontvangst van overboeking | Ja |
+    | Alle | Wegzettingen | Alle | Nr. |
+
+    > [!NOTE]
+    > - Als u zowel voor meerdere artikelen als voor afzonderlijke artikelen wegzettingen wilt uitvoeren, moet u ervoor zorgen dat er locatierichtlijnen voor beide scenario's bestaan. U kunt bijvoorbeeld een of meer locatierichtlijnen van het type *Eén artikel of order* instellen voor scenario's waarin een nauwkeurig afstemming vereist is, bijvoorbeeld via bewerkingen van de query, en vervolgens één of meer locatierichtlijnen van het type *Alle* instellen voor de resterende scenario's.
+    > - Hoewel de bereiken *Eén artikel* en *Meerdere artikelen* voor wegzettingen kunnen worden gebruikt, resulteert deze benadering meestal in overbodige configuraties. U kunt ook *Eén artikel of order* en *Alle* gebruiken, omdat deze benadering tot schonere instellingen leidt.
+
+- **Meerdere SKU's**: gebruik deze optie om het scenario op te geven waarin de locatierichtlijn wordt toegepast. Deze instelling wordt vervangen door de instelling **Bereik** als de functie *Bereiken van locatie-instructies* in het systeem is ingeschakeld. (Zie voor meer informatie [De functie Bereiken van locatie-instructies in- of uitschakelen](#scopes-feature).) Stel deze optie in op *Ja* om meerdere voorraadeenheden (SKU's) op een locatie te kunnen gebruiken. Er moeten bijvoorbeeld meerdere SKU's worden ingeschakeld voor de laaddeurlocatie. Als u meerdere SKU's inschakelt, wordt uw neerzetlocatie volgens verwachting opgegeven bij werk. De neerzetlocatie kan echter alleen een locatie met meerdere artikelen verwerken (als het werk bestaat uit verschillende SKU's die moeten worden verzameld en opgeslagen). Het is niet mogelijk een neerzetlocatie met één SKU te verwerken. Als u deze optie op *Nee* instelt, wordt de neetzetlocatie alleen opgegeven als deze slechts één type SKU heeft.
 
     > [!IMPORTANT]
     > U moet twee regels met dezelfde structuur en instelling opgeven, maar u moet de optie **Meerdere SKU's** op *Ja* instellen voor één regel en *Nee* voor de andere, zodat u zowel sets met meerdere artikelen als sets met één SKU kunt doen. Daarom hebt u voor neerzetbewerkingen twee identieke locatie-instructies nodig, zelfs als u geen onderscheid hoeft te maken tussen enkele en meerdere SKU's op een werk-id. Als u deze locatie-instructies niet instelt, komen er onverwachte locaties voor bedrijfsprocessen uit de toegepaste locatie-instructie. U moet een vergelijkbare instelling gebruiken voor locatie-instructies met het **Werktype** *Verzamelen* als u orders met meerdere SKU's wilt verwerken.
@@ -255,6 +293,5 @@ Nadat u locatie-instructies hebt gemaakt, kunt u elke instructiecode aan een wer
 
 - Video: [Configuratie van magazijnbeheer: diepgravend](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Help-artikel: [Magazijnwerk beheren met werksjablonen en locatierichtlijnen](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

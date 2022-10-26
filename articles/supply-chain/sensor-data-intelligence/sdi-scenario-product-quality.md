@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 8c4808ea3a0389c2a8699f0e11ea154705a6916d
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: c0f1c57251234921779f67faf61d47cdde119e64
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428314"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690043"
 ---
 # <a name="the-product-quality-scenario"></a>Het scenario productkwaliteit
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 In het scenario *productkwaliteit* wordt een sensor geconfigureerd om de kwaliteit van een productbatch op de werkvloer te meten. Als een meting buiten een gedefinieerde drempel voor het product valt, wordt een melding weergegeven op het dashboard van de supervisor. Een sensor meet bijvoorbeeld het vochtgehalte van een voedingsproduct dat uit de productieregel afkomstig is. Als de meting buiten de toegestane minimum- of maximumwaarde voor vochtgehalte voor het product valt, wordt een melding gegenereerd.
 

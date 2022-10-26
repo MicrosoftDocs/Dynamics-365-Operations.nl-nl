@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-08-02
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 7a8327552d9e6c38721fdac9ee1795e61f90f329
-ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
+ms.openlocfilehash: ee767a5d7c3dca2681861802ae42d7a07217c54d
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9266481"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689335"
 ---
 # <a name="make-finished-goods-physically-available-before-posting-to-journals"></a>Eindproducten fysiek beschikbaar maken vóór boeking naar journalen
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Wanneer een medewerker een geproduceerd artikel gereedmeldt, registreert het systeem het artikel als beschikbaar voor verdere fysieke verwerking (zoals verzending of opslag). Tijdens dit proces worden er ook een of meer journalen geboekt (zoals het gereedmeldingsjournaal, orderverzamellijstjournaal en routekaartjournaal). Als u uw artikelen fysiek beschikbaar wilt maken voordat alle boekingen zijn verwerkt, kunt u het systeem instellen om de journaalboekingen uit te stellen. Uitgestelde boekingen worden vervolgens afgehandeld door een batchtaak die de boekingen verwerkt wanneer systeembronnen het toestaan.
 

@@ -2,19 +2,19 @@
 title: Commerce Chat met module Omnichannel voor Customer Service
 description: Dit artikel beschrijft de module Commerce Chat met Omnichannel voor Customer Service in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473804"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690311"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Commerce Chat met module Omnichannel voor Customer Service
 
@@ -82,6 +82,9 @@ Voer de volgende stappen uit om de chatmodule toe te voegen aan het koptekstfrag
 1. Selecteer in het dialoogvenster **Modules selecteren** het chatfragment dat u eerder hebt gemaakt, voer een naam in voor het paginafragment en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
 
+> [!NOTE]
+> Zie [Proactieve chatparameters voor Commerce-chatmodule](chat-proactive-chat-parameters.md) voor een volledige lijst met configuratieparameters.
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Commerce headquarters toevoegen als toepassingstabblad voor Omnichannel voor Customer Service
 
 U kunt een toepassingstabblad toevoegen voor Commerce headquarters in Omnichannel voor Customer Service. Live agenten kunnen vervolgens met de gebruikersinterface voor Omnichannel voor Customer Service eenvoudig toegang krijgen tot de klantenservicemodule van Dynamics 365 Commerce die contextuele informatie voor de klant bevat samen met de verkoopordergegevens. Daarnaast kunnen medewerkers van de klantenservice nieuwe orders plaatsen, retouren starten en informatie over de orderstatus controleren.
@@ -115,6 +118,9 @@ Volg deze stappen om een nieuw toepassingstabblad in te schakelen voor klantagen
 1. Open de werkstroom die u voor uw agenten hebt gemaakt en selecteer vervolgens onder **Geavanceerde instellingen** de optie **Sessiestandaard**.
 1. Selecteer onder **Toepassingstabbladen** de optie **Bestaand toepassingstabblad toevoegen** en voeg het nieuwe toepassingstabblad toe dat u eerder hebt gemaakt. Met deze stap zorgt u ervoor dat een toepassingstabblad waarmee Commerce Headquarters wordt geladen in een iFrame-module, wordt weergegeven wanneer een medewerker een inkomend chatverzoek ontvangt van uw e-commercewebsite.
 
+> [!NOTE]
+> U kunt de standaardsjabloon voor chatsessies niet wijzigen in de werkstroom. Hierdoor wilt u mogelijk een nieuwe sjabloon maken of de bestaande sjabloon dupliceren om deze bij te werken. Zie [Sjablonen koppelen aan werkstroom](/dynamics365/app-profile-manager/associate-templates) voor meer informatie.
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Contextvariabelen toevoegen in Dynamics 365 Omnichannel voor Customer Service
 
 Volg deze stappen om contextvariabelen toe te voegen in Dynamics 365 Omnichannel voor Customer Service.
@@ -128,3 +134,11 @@ Volg deze stappen om contextvariabelen toe te voegen in Dynamics 365 Omnichannel
 
 > [!NOTE]
 > Als u de e-mailadressen en namen van aangemelde gebruikers uit een e-commercekanaal wilt lezen, kunt u **E-mail** en **Naam** toevoegen als contextvariabelen van het **teksttype** naast de contextvariabele **AccountNumber**.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Overzicht van chatfuncties voor Commerce](commerce-chat-overview.md)
+
+[Commerce-chat met Power Virtual Agents-module](chat-module-pva.md)
+
+[Proactieve chatparameters voor Commerce-chatmodule](chat-proactive-chat-parameters.md)

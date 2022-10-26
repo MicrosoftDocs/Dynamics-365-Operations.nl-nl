@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186690"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689483"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Overzicht van DDMRP (Demand Driven Material Requirements Planning)
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Bedrijven hebben jaren de planning van materiaalbehoeften (MRP) gebruikt als een systeem voor het berekenen van de materialen en onderdelen die nodig zijn om een product te produceren. Toeleveringsketens zijn nu echter gewijzigd. Onderdelen hebben langere doorlooptijden omdat ze steeds vaker van overzee komen. Daarom geven veel bedrijven aan dat ze te maken hebben met voorraadoverschotten of -tekorten, omdat ze niet weten hoeveel er op voorraad moet worden gehouden. Er is ook sprake van meer marktfluctuaties (soms onnauwkeurige prognoses) en van klanten die om producten met korte doorlooptijd vragen. Daarom is er in de hele wereld sprake van tekorten in de toeleveringsketen. Bovendien geven MRP-hulpprogramma's planners vaak duizenden acties die ze moeten uitvoeren. Daarom is het moeilijk om te weten waar de focus moet liggen. Vaak is de oplossing voor een groot aantal van deze problemen overschakeling naar DDMRP (Demand Driven Material Requirements Planning).
 

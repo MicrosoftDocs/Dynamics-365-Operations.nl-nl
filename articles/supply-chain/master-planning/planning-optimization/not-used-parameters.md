@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c7469692aac24a5ae554973325a128c787363ba
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: db8a8e929bf75c4d1dac0c1b0a7cbc848ff291a9
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542275"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682663"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parameters die niet worden gebruikt door Planningsoptimalisatie
 
@@ -111,10 +111,8 @@ Bij Planningsoptimalisatie worden de volgende parameters of opties op de pagina 
 
 - Sneltabblad **Algemeen**:
 
-  - **Voorhanden voorraad opnemen**: in afwachting van ondersteuning voor *Verbruik van voorhanden voorraad*.
   - **Voorhanden voorraad overschrijven**: in afwachting van ondersteuning voor *Verbruik van voorhanden voorraad*.
   - **Voorhanden voorraad verbruiken**: in afwachting van ondersteuning voor *Verbruik van voorhanden voorraad*.
-  - **Voorraadtransacties opnemen**: in afwachting van ondersteuning voor *Verbruik van voorhanden voorraad*.
   - **Verkoopoffertes opnemen**: in afwachting van ondersteuning voor *Verkoopoffertes*.
   - **Offerteaanvragen opnemen**: in afwachting van ondersteuning voor *Offerteaanvragen*.
   - **Houdbaarheidsdatums gebruiken**: in afwachting van ondersteuning voor *Houdbaarheid*.
@@ -190,4 +188,3 @@ Bij Planningsoptimalisatie wordt de volgende parameter op de pagina **Hoofdbatch
 
   - **Nettobehoeften**: in afwachting van ondersteuning voor *Batchbeschikkingscodes*.
  
-<!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> 

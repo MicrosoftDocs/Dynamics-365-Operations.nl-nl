@@ -2,19 +2,19 @@
 title: Modus voor het maken van asynchrone klanten
 description: In dit artikel wordt de modus voor het maken van asynchrone klanten in Microsoft Dynamics 365 Commerce beschreven.
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: 95102936871e15f8e525abca736fa75927569b34
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: b2926339021991f87dd3eadef94da3b500c954cf
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473701"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690284"
 ---
 # <a name="asynchronous-customer-creation-mode"></a>Modus voor het maken van asynchrone klanten
 
@@ -46,6 +46,7 @@ De volgende verbeteringen zijn uitgerold om te zorgen voor pariteit tussen synch
 | Pariteit inschakelen tussen het aanmaken van synchrone en asynchrone klanten. | 10.0.24 en later | <p>Functieschakelaar: **Geavanceerd asynchrone klanten aanmaken inschakelen**</p><p>Informatie functie: De mogelijkheid om extra informatie vast te leggen, zoals de titel, aansluitingen van de standaardklant en secundaire contactgegevens (telefoonnummer en e-mailadres), terwijl u klanten asynchroon aanmaakt</p> |
 | Gebruiksvriendelijke foutberichten | 10.0.28 en later | Deze verbeteringen helpen bij het verbeteren van gebruiksvriendelijke foutberichten als een gebruiker niet onmiddellijk informatie kan bewerken terwijl de synchronisatie wordt uitgevoerd. U kunt deze verbeteringen inschakelen door de instelling **Bepaalde UI-elementen niet laten bewerken door een asynchrone klant** onder **Site-instellingen \> Uitbreidingen** in Commerce site builder te gebruiken. |
 | De mogelijkheid om klantgegevens asynchroon te bewerken | 10.0.29 en later | <p>Functieschakelaar: **Klanten bewerken in asynchrone modus inschakelen**</p><p>Informatie functie: De mogelijkheid om klantgegevens asynchroon te bewerken</p><p>Raadpleeg [Modus voor het aanmaken van asynchrone klanten - veelgestelde vragen](async-customer-mode-faq.md) voor antwoorden op veel voorkomende vragen over problemen die betrekking hebben op het asynchroon bewerken van klantgegevens.</p> |
+| Het vermogen om de synchronisatie van klantbeheerbewerkingen te controleren | 10.0.31 en later | Dankzij deze verbetering kunnen gebruikers de synchronisatie van klantbeheerbewerkingen in Commerce Headquarters controleren. Daarnaast kunnen gebruikers hiermee wijzigingen aanbrengen als ze nodig zijn en de gegevens synchroniseren. |
 
 ### <a name="feature-switch-hierarchy"></a>Hiërarchie functieschakelaars
 

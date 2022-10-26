@@ -2,7 +2,7 @@
 title: Aan de slag met belastingberekening
 description: In dit artikel wordt uitgelegd hoe u belastingberekening instelt.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573300"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690378"
 ---
 # <a name="get-started-with-tax-calculation"></a>Aan de slag met belastingberekening
 
@@ -124,6 +124,10 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
 7. Ga naar **Belastinggegevensmodel**, vouw de bestandsstructuur uit en selecteer vervolgens **Belastingconfiguratie**.
 8. Selecteer de juiste [belastingconfiguratieversie](global-tax-calcuation-service-overview.md#versions) op basis van uw Finance-versie en selecteer vervolgens **Importeren**.
 9. Selecteer in de werkruimte **Globalisatiefuncties** **Functies**, selecteer de tegel **Belastingberekening** en kies **Toevoegen**.
+
+    > [!NOTE]
+    > In versie 10.0.26 en hoger kunt u een demonstratiefunctie importeren voor de rechtspersoon **DEMF** voor demonstatiedoeleinden. Zie [Demonstratiegegevens voor functie importeren](tax-calculation-import-export-feature.md) voor meer informatie.
+
 10. Selecteer een van de volgende functietypen:
 
     - **Nieuwe functie**: maak een functie-instelling met lege inhoud.
@@ -154,8 +158,8 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     - **Toepasbaarheid belastingregistratienummer leverancier**: als u meerdere belastingregistratienummers voor één leverancier hebt, kan Belastingberekening automatisch het juiste belastingregistratienummer bepalen. In de matrix op dit tabblad definieert u de regels die moeten worden gebruikt om de bepaling te maken. Anders blijven Finance en Supply Chain Management het standaard belastingregistratienummer in belastingdocumenten voor inkooptransacties gebruiken.
     - **Toepasbaarheid lijstcode**: bepaal automatisch de waarde van het veld **Lijstcode** via flexibelere en configureerbare regels. In de matrix op dit tabblad definieert u de regels die moeten worden gebruikt om de bepaling te maken. Anders blijven Finance en Supply Chain Management de standaardcode in belastingdocumenten gebruiken.
 
-14. Selecteer op het tabblad **Belastingcodes** de optie **Toevoegen** en voer de belastingcode en een beschrijving in.
-15. Selecteer **Belastingcomponent**. De belastingcomponent is een groep methoden die is gedefinieerd in de vorige versie van de geselecteerde belastingconfiguratie. De volgende belastingcomponenten zijn beschikbaar:
+15. Selecteer op het tabblad **Belastingcodes** de optie **Toevoegen** en voer de belastingcode en een beschrijving in.
+16. Selecteer **Belastingcomponent**. De belastingcomponent is een groep methoden die is gedefinieerd in de vorige versie van de geselecteerde belastingconfiguratie. De volgende belastingcomponenten zijn beschikbaar:
 
     - Op nettobedrag
     - Op brutobedrag
@@ -163,8 +167,8 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     - Op marge
     - Belasting op belasting
 
-16. Selecteer **Opslaan**. Er komen meer velden beschikbaar, op basis van de belastingcomponent die u hebt geselecteerd.
-17. Gebruik de volgende opties om de aard van de belastingcode te identificeren:
+17. Selecteer **Opslaan**. Er komen meer velden beschikbaar, op basis van de belastingcomponent die u hebt geselecteerd.
+18. Gebruik de volgende opties om de aard van de belastingcode te identificeren:
 
     - Is vrijgesteld
     - Is gebruiksbelasting
@@ -179,8 +183,8 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
 
     Houd belastingtarieven en de belastingbedraglimieten voor deze belastingcode bij.
 
-18. Herhaal stap 14 tot en met 17 om alle belastingcodes toe te voegen die vereist zijn.
-19. Selecteer op het tabblad **Belastinggroep** de kolom **Belastinggroep**, voeg deze aan de matrix toe als de invoervoorwaarde en voeg vervolgens regels toe om de hoofdgegevens van de belastinggroep te onderhouden.
+19. Herhaal stap 15 tot en met 18 om alle belastingcodes toe te voegen die vereist zijn.
+20. Selecteer op het tabblad **Belastinggroep** de kolom **Belastinggroep**, voeg deze aan de matrix toe als de invoervoorwaarde en voeg vervolgens regels toe om de hoofdgegevens van de belastinggroep te onderhouden.
 
     Hier volgt een voorbeeld.
 
@@ -191,7 +195,7 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
-20. Selecteer op het tabblad **Artikelbelastinggroep** de kolom **Artikelbelastinggroep**, voeg deze aan de matrix toe als de invoervoorwaarde en voeg vervolgens regels toe om de hoofdgegevens van de belastinggroep te onderhouden.
+21. Selecteer op het tabblad **Artikelbelastinggroep** de kolom **Artikelbelastinggroep**, voeg deze aan de matrix toe als de invoervoorwaarde en voeg vervolgens regels toe om de hoofdgegevens van de belastinggroep te onderhouden.
 
     Hier volgt een voorbeeld.
 
@@ -200,7 +204,7 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     | Vol           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
     | Gereduceerd        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
 
-21. Selecteer op het tabblad **Toepasbaarheid van belastinggroep** de kolommen die vereist zijn om de juiste belastinggroep te bepalen en selecteer vervolgens **Toevoegen**. Voer waarden voor elke kolom in of selecteer deze. Het veld **Belastinggroep** is de uiteindelijke uitvoer van deze matrix. Als dit tabblad niet is geconfigureerd, wordt de btw-groep op de transactieregel gebruikt.
+22. Selecteer op het tabblad **Toepasbaarheid van belastinggroep** de kolommen die vereist zijn om de juiste belastinggroep te bepalen en selecteer vervolgens **Toevoegen**. Voer waarden voor elke kolom in of selecteer deze. Het veld **Belastinggroep** is de uiteindelijke uitvoer van deze matrix. Als dit tabblad niet is geconfigureerd, wordt de btw-groep op de transactieregel gebruikt.
 
     Hier volgt een voorbeeld.
 
@@ -214,7 +218,7 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     > [!NOTE]
     > Als de standaard btw-groep op uw belastbare documentregels correct is, laat u deze matrix leeg. Zie de sectie [Runtime-ontwerp](#runtime), eerder in dit artikel, voor meer informatie.
 
-22. Selecteer op het tabblad **Toepasbaarheid van artikelbelastinggroep** de kolommen die vereist zijn om de juiste belastingcode te bepalen en selecteer vervolgens **Toevoegen**. Voer waarden voor elke kolom in of selecteer deze. Het veld **Artikelbelastinggroep** is de uiteindelijke uitvoer van deze matrix. Als dit tabblad niet is geconfigureerd, wordt de artikel-btw-groep op de transactieregel gebruikt.
+23. Selecteer op het tabblad **Toepasbaarheid van artikelbelastinggroep** de kolommen die vereist zijn om de juiste belastingcode te bepalen en selecteer vervolgens **Toevoegen**. Voer waarden voor elke kolom in of selecteer deze. Het veld **Artikelbelastinggroep** is de uiteindelijke uitvoer van deze matrix. Als dit tabblad niet is geconfigureerd, wordt de artikel-btw-groep op de transactieregel gebruikt.
 
     Hier volgt een voorbeeld.
 
@@ -228,10 +232,10 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
 
     Zie [Logica voor bepaling van btw-groepen en item-btw-groepen](global-sales-tax-group-determination.md) voor meer informatie over de manier waarop belastingcodes worden bepaald in Belastingberekening.
 
-23. Stel de toepasbaarheid van belastingregistratienummers voor klanten, belastingregistratienummers voor leveranciers en lijstcodes in op basis van de bedrijfsbehoeften.
-24. Selecteer **Opslaan** en sluit de pagina.
-25. Selecteer **Status wijzigen** \> **Voltooien**. Nadat de status is gewijzigd in **Voltooid**, kan de versie niet meer worden bewerkt.
-26. Selecteer **Status wijzigen** \> **Publiceren**. Deze versie van de instelling van de belastingfunctie wordt naar de algemene opslagplaats gepusht en is zichtbaar voor elke rechtspersoon in Finance.
+24. Stel de toepasbaarheid van belastingregistratienummers voor klanten, belastingregistratienummers voor leveranciers en lijstcodes in op basis van de bedrijfsbehoeften.
+25. Selecteer **Opslaan** en sluit de pagina.
+26. Selecteer **Status wijzigen** \> **Voltooien**. Nadat de status is gewijzigd in **Voltooid**, kan de versie niet meer worden bewerkt.
+27. Selecteer **Status wijzigen** \> **Publiceren**. Deze versie van de instelling van de belastingfunctie wordt naar de algemene opslagplaats gepusht en is zichtbaar voor elke rechtspersoon in Finance.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Belastingberekening instellen in Dynamics 365
 

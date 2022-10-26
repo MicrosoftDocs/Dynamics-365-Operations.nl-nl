@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853491"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682879"
 ---
 # <a name="cost-control-workspace"></a>Werkgebied voor kostenbeheer 
 
@@ -53,7 +53,7 @@ Op het sneltabblad **Gegevens filteren** definieert u de basis van de gegevens v
 |-------------------------------------------------------------------|-------------|
 | Grootboek van kostprijsboekhouding                                            | **Grootboek van kostprijsboekhouding** waarop het rapport is gebaseerd. De waarde wordt afgeleid van het veld **Kostenbeheereenheid**. |
 | Kostenbeheereenheid                                                 | De waarde die u selecteert bepaalt het grootboek voor kostprijsboekhouding en kostenobjecten waarop dit rapport wordt gebaseerd. |
-| Statistische dimensiehiërarchie, Dimensiehiërarchie van een kostenelement | Met een configuratierecord van het werkgebied **Kostenbeheer** kunnen niet-monetaire of monetaire waarden worden gerapporteerd, maar niet in dezelfde indeling. Selecteer een waarde in het veld **Dimensiehiërarchie van een kostenelement** om monetaire waarden te rapporteren. Selecteer een waarde in het veld **Statistische dimensiehiërarchie** om niet-monetaire waarden te rapporteren. De record van de dimensiehiërarchie die u selecteert, bepaalt de structuur van de rapportage- en samenvoegingsniveaus.<blockquote>[!NOTE]<br>Als u niet-monetaire en monetaire waarden naast elkaar wilt weergeven, kunt u gegevens exporteren naar Microsoft Excel voor het Microsoft Power BI-inhoudpakket.</blockquote> |
+| Statistische dimensiehiërarchie, Dimensiehiërarchie van een kostenelement | Met een configuratierecord van het werkgebied **Kostenbeheer** kunnen niet-monetaire of monetaire waarden worden gerapporteerd, maar niet in dezelfde indeling. Selecteer een waarde in het veld **Dimensiehiërarchie van een kostenelement** om monetaire waarden te rapporteren. Selecteer een waarde in het veld **Statistische dimensiehiërarchie** om niet-monetaire waarden te rapporteren. De record van de dimensiehiërarchie die u selecteert, bepaalt de structuur van de rapportage- en samenvoegingsniveaus.<blockquote>**OPMERKING:**<br>Als u niet-monetaire en monetaire waarden naast elkaar wilt weergeven, kunt u gegevens exporteren naar Microsoft Excel voor het Microsoft Power BI-inhoudpakket.</blockquote> |
 | Dimensiehiërarchie van kostenobject      | Selecteer de dimensiehiërarchie van de kostenobjectdimensie die aansluit bij het doel van de rapportage die u definieert. |
 | Oorspronkelijk versie van budget                                           | Selecteer de budgetversie-id die fungeert als het oorspronkelijke budget in de context van dit rapport. |
 | Herziene versie van budget                                            | Selecteer de budgetversie-id die fungeert als het herziene budget in de context van dit rapport. |
@@ -64,7 +64,7 @@ Met de overheadberekening worden verschillende berekeningsstappen op de brongege
 
 | Veld                  | Omschrijving |
 |------------------------|-------------|
-| Fiscale kalenderperiode | Selecteer de fiscale kalenderperiode waaraan u een overheadberekenings-id wilt toewijzen.<blockquote>[!NOTE]<br>De boekperioden die in het veld worden weergegeven, zijn afkomstig van de fiscale kalender die is gekoppeld aan het grootboek van kostprijsboekhouding.</blockquote> |
+| Fiscale kalenderperiode | Selecteer de fiscale kalenderperiode waaraan u een overheadberekenings-id wilt toewijzen.<blockquote>**OPMERKING:**<br>De boekperioden die in het veld worden weergegeven, zijn afkomstig van de fiscale kalender die is gekoppeld aan het grootboek van kostprijsboekhouding.</blockquote> |
 | Actuele versie         | Selecteer de juiste overheadberekenings-id. |
 | Budgetversie         | Selecteer de juiste overheadberekenings-id. |
 | Herziene budgetversie | Selecteer de juiste overheadberekenings-id. |
@@ -77,10 +77,10 @@ De waarden in de geselecteerde kolommen worden vermenigvuldigd met de geselectee
 
 | Veld                | Omschrijving |
 |----------------------|-------------|
-| Huidige periode       | Het saldo van de huidige boekperiode wordt weergegeven.<blockquote>[!NOTE]<br>Standaard wordt de huidige periode bepaald door de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd. De geselecteerde waarde vertegenwoordigt vervolgens de huidige periode.</blockquote> |
-| Vorige periode      | Het saldo van de vorige boekperiode wordt weergegeven. De volgende formule wordt hierbij gebruikt:<br>Huidige boekperiode: 1<blockquote>[!NOTE]<br>Standaard wordt de vorige periode afgeleid van de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd als de huidige periode. Vervolgens wordt **Vorige periode** dienovereenkomstig opnieuw berekend.</blockquote> |
-| Jaar tot heden         | De datum van jaar tot heden wordt weergegeven. De volgende formule wordt hierbij gebruikt:<br>Jaar tot heden (huidige boekperiode)<blockquote>[!NOTE]<br>Standaard wordt de huidige periode bepaald door de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd. De geselecteerde waarde vertegenwoordigt vervolgens de huidige periode en de waarde bij **Jaar tot heden** wordt dienovereenkomstig bijgewerkt.</blockquote> |
-| Gemiddelde van jaar tot heden | Het gemiddelde voor jaar tot heden wordt weergegeven. De volgende formule wordt hierbij gebruikt:<br>(Jaar tot heden [huidige boekperiode]) ÷ (aantal [huidige boekperiode])<p><strong>Voorbeeld</strong></p><ul><li>**Lid statistische dimensie:** voltijdse werknemers</li><li>**Huidige datum:** 21-3-2017</li><li>**Periode:** boekperiode 1, boekperiode 2, boekperiode 3</li><li>**Grootte:** 10, 10, 12</li></ul>In dit geval **Gemiddelde van jaar tot heden** (10 + 10 + 12) ÷ 3 = 10,67<p>De waarde van **Gemiddelde van jaar tot heden** kan worden berekend voor kostenelementdimensieleden en statistische dimensieleden.</p><blockquote>[!NOTE]<br>Standaard wordt de huidige periode bepaald door de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd. De geselecteerde waarde vertegenwoordigt vervolgens de huidige periode en de waarden bij **Jaar tot heden** en **Gemiddelde van jaar tot heden** wordt dienovereenkomstig bijgewerkt.</blockquote> |
+| Huidige periode       | Het saldo van de huidige boekperiode wordt weergegeven.<blockquote>**OPMERKING:**<br>Standaard wordt de huidige periode bepaald door de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd. De geselecteerde waarde vertegenwoordigt vervolgens de huidige periode.</blockquote> |
+| Vorige periode      | Het saldo van de vorige boekperiode wordt weergegeven. De volgende formule wordt hierbij gebruikt:<br>Huidige boekperiode: 1<blockquote>**OPMERKING:**<br>Standaard wordt de vorige periode afgeleid van de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd als de huidige periode. Vervolgens wordt **Vorige periode** dienovereenkomstig opnieuw berekend.</blockquote> |
+| Jaar tot heden         | De datum van jaar tot heden wordt weergegeven. De volgende formule wordt hierbij gebruikt:<br>Jaar tot heden (huidige boekperiode)<blockquote>**OPMERKING:**<br>Standaard wordt de huidige periode bepaald door de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd. De geselecteerde waarde vertegenwoordigt vervolgens de huidige periode en de waarde bij **Jaar tot heden** wordt dienovereenkomstig bijgewerkt.</blockquote> |
+| Gemiddelde van jaar tot heden | Het gemiddelde voor jaar tot heden wordt weergegeven. De volgende formule wordt hierbij gebruikt:<br>(Jaar tot heden [huidige boekperiode]) ÷ (aantal [huidige boekperiode])<p><strong>Voorbeeld</strong></p><ul><li>**Lid statistische dimensie:** voltijdse werknemers</li><li>**Huidige datum:** 21-3-2017</li><li>**Periode:** boekperiode 1, boekperiode 2, boekperiode 3</li><li>**Grootte:** 10, 10, 12</li></ul>In dit geval **Gemiddelde van jaar tot heden** (10 + 10 + 12) ÷ 3 = 10,67<p>De waarde van **Gemiddelde van jaar tot heden** kan worden berekend voor kostenelementdimensieleden en statistische dimensieleden.</p><blockquote>**OPMERKING:**<br>Standaard wordt de huidige periode bepaald door de sessiedatum. In het werkgebied **Kostenbeheer** kan een specifieke boekperiode worden geselecteerd. De geselecteerde waarde vertegenwoordigt vervolgens de huidige periode en de waarden bij **Jaar tot heden** en **Gemiddelde van jaar tot heden** wordt dienovereenkomstig bijgewerkt.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Weer te geven kolommen voor kosten
 
@@ -88,11 +88,11 @@ Op het sneltabblad **Weer te geven kolommen voor kosten** bepaalt de kostenaccou
 
 | Veld                 | Omschrijving |
 |-----------------------|-------------|
-| Vaste kosten            | Dit kolomtype bevat de vaste kosten op basis van de geselecteerde overheadberekenings-id.<blockquote>[!NOTE]<br>Dit kolomtype toont alleen een saldo wanneer een overheadberekenings-id voor de boekperiode wordt geselecteerd.</blockquote> |
-| Variabele kosten         | Dit kolomtype bevat de variabele kosten op basis van de geselecteerde overheadberekenings-id.<blockquote>[!NOTE]<br>Dit kolomtype toont alleen een saldo wanneer een overheadberekenings-id voor de boekperiode wordt geselecteerd.</blockquote> |
-| Vaste + variabele kosten | Dit kolomtype bevat de vaste kosten en de variabele kosten op basis van de geselecteerde overheadberekenings-id.<blockquote>[!NOTE]<br>Dit kolomtype toont alleen een saldo wanneer een overheadberekenings-id voor de boekperiode wordt geselecteerd.</blockquote> |
-| Totale kosten            | Dit kolomtype bevat de totale kosten (niet-geclassificeerde kosten, vaste kosten en variabele kosten).<blockquote>[!NOTE]<br>Het kolomtype bevat het saldo te allen tijde.</blockquote> |
-| Ongeclassificeerde kosten     | Dit kolomtype bevat de niet-geclassificeerde kosten.<blockquote>[!NOTE]<br>Deze kolom kan worden gebruikt om te controleren of alle kosten correct zijn geclassificeerd door de overheadberekening en of regels voor kostengedrag moeten worden gecorrigeerd.</blockquote> |
+| Vaste kosten            | Dit kolomtype bevat de vaste kosten op basis van de geselecteerde overheadberekenings-id.<blockquote>**OPMERKING:**<br>Dit kolomtype toont alleen een saldo wanneer een overheadberekenings-id voor de boekperiode wordt geselecteerd.</blockquote> |
+| Variabele kosten         | Dit kolomtype bevat de variabele kosten op basis van de geselecteerde overheadberekenings-id.<blockquote>**OPMERKING:**<br>Dit kolomtype toont alleen een saldo wanneer een overheadberekenings-id voor de boekperiode wordt geselecteerd.</blockquote> |
+| Vaste + variabele kosten | Dit kolomtype bevat de vaste kosten en de variabele kosten op basis van de geselecteerde overheadberekenings-id.<blockquote>**OPMERKING:**<br>Dit kolomtype toont alleen een saldo wanneer een overheadberekenings-id voor de boekperiode wordt geselecteerd.</blockquote> |
+| Totale kosten            | Dit kolomtype bevat de totale kosten (niet-geclassificeerde kosten, vaste kosten en variabele kosten).<blockquote>**OPMERKING:**<br>Het kolomtype bevat het saldo te allen tijde.</blockquote> |
+| Ongeclassificeerde kosten     | Dit kolomtype bevat de niet-geclassificeerde kosten.<blockquote>**OPMERKING:**<br>Deze kolom kan worden gebruikt om te controleren of alle kosten correct zijn geclassificeerd door de overheadberekening en of regels voor kostengedrag moeten worden gecorrigeerd.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Weer te geven kolommen voor gebudgetteerde kosten
 
@@ -103,12 +103,12 @@ Op het sneltabblad **Weer te geven kolommen voor gebudgetteerde kosten** bepaalt
 
 | Veld                     | Omschrijving |
 |---------------------------|-------------|
-| Budget                    | Budgetsaldi worden op basis van geselecteerde kolommen weergegeven.<blockquote>[!NOTE]<br>De saldi worden gebaseerd op de budgetversies die zijn geselecteerd op het sneltabblad **Gegevens filteren**.</blockquote> |
+| Budget                    | Budgetsaldi worden op basis van geselecteerde kolommen weergegeven.<blockquote>**OPMERKING:**<br>De saldi worden gebaseerd op de budgetversies die zijn geselecteerd op het sneltabblad **Gegevens filteren**.</blockquote> |
 | Budgetafwijking           | Bereken het verschil tussen de werkelijke en gebudgetteerde waarden. De volgende formule wordt hierbij gebruikt:<br>Budgetsaldo: werkelijk saldo |
 | Budgetafwijking in %%      | Bereken en toon het verschil in een percentage tussen de werkelijke en gebudgetteerde waarden. De volgende formule wordt hierbij gebruikt:<br>(Budgetsaldo: werkelijk saldo) ÷ budgetsaldo |
-| Drempel voor afwijkingsperiode | Stel een drempel voor de afwijking in een monetair bedrag in voor de huidige periode. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**.<blockquote>[!NOTE]<br>Dit veld geldt alleen voor de kostenelementen die staan voor uitgaven.</blockquote> |
+| Drempel voor afwijkingsperiode | Stel een drempel voor de afwijking in een monetair bedrag in voor de huidige periode. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**.<blockquote>**OPMERKING:**<br>Dit veld geldt alleen voor de kostenelementen die staan voor uitgaven.</blockquote> |
 | Drempel voor afwijkingsjaar   | Stel een drempel voor de afwijking in een monetair bedrag in voor het jaar. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**. |
-| Drempel voor afwijking %      | Stel een drempel voor de afwijking in een percentage in. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**.<blockquote>[!NOTE]<br>Dezelfde percentagedrempel geldt voor de huidige periode en het huidige jaar.</blockquote> |
+| Drempel voor afwijking %      | Stel een drempel voor de afwijking in een percentage in. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**.<blockquote>**OPMERKING:**<br>Dezelfde percentagedrempel geldt voor de huidige periode en het huidige jaar.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Werkgebied voor kostenbeheer
 

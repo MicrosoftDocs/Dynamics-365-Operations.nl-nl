@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643725"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689989"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -62,7 +62,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | --- | --- | --- | --- |
 | Acties | Behoefteplanningsgroepen met Actieberekening ingeschakeld: *\#* | Deze functie wordt nu ondersteund. | Ondersteund |
 | Basiskalenders | Kalenders die de basiskalender gebruiken: *\#* | Deze functie wordt nu ondersteund. | Ondersteund | 
-| Batchbeschikkingscodes | Batchbeschikkingsmodellen met niet-nettobehoefte: *\#* | Deze functie wordt verwerkt. Op dit moment worden batchbeschikkingscodes genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Batchbeschikkingscodes | Batchbeschikkingsmodellen met niet-nettobehoefte: *\#* | Deze functie wordt nu ondersteund. Zie [Batchbeschikkingscodes gebruiken om batches als beschikbaar of niet-beschikbaar te markeren](../../inventory/batch-disposition-codes.md) voor meer informatie | Ondersteund |
 | Capable To Promise (CTP) | Standaardorderinstellingen met leveringsdatumcontrole ingesteld op CTP: *\#* | In Supply Chain Management 10.0.28 en hoger maakt het proces met de naam *CTP voor planningsoptimalisatie* bevestigde verzend- en ontvangstdatums beschikbaar nadat het dynamische plan is uitgevoerd. Bij oudere versies van Supply Chain Management wordt de verouderde CTP-instelling genegeerd wanneer Planningsoptimalisatie wordt ingeschakeld. | Ondersteund |
 | Statisch plan kopiëren naar dynamisch plan | Kopie van statisch naar dynamisch plan wordt ingeschakeld in de parameters voor de hoofdplanning. | Met Planningsoptimalisatie wordt het statische plan niet naar het dynamische plan gekopieerd, ongeacht deze instelling. In het algemeen is dit concept minder relevant vanwege de snelheid en de volledige regeneratie die door Planningsoptimalisatie wordt geleverd. Als er twee of meer plannen worden gebruikt, moet de hoofdplanning worden geactiveerd voor elk plan. | N.v.t. |
 | Fiattering | Behoefteplanningsgroepen met time fence voor automatische fiattering ingesteld: *\#* | In versie 10.0.7 en hoger wordt fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie *Automatisch fiatteren voor Planningsoptimalisatie* is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |
@@ -104,11 +104,11 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Veiligheidsmarges | Hoofdplannen met veiligheidsmarge: *\#* | Deze functie wordt nu ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie |  Ondersteund |
 | Afhandeling van veiligheidsvoorraad | Records voor artikelbehoefteplanning met "Minimum behalen" verschillen van "Datum van vandaag + levertijd": *\#* | Planningsoptimalisatie gebruikt altijd *Datum van vandaag + levertijd* gebruikt. Deze wijziging wordt doorgevoerd om een vereenvoudigde planningsinstelling in de toekomst voor te bereiden en om een actieresultaat te kunnen bieden. Als de aanschaffingstijd niet is opgenomen voor de veiligheidsvoorraad, worden geplande orders die zijn gemaakt voor de huidige lage voorhanden voorraad altijd vertraagd vanwege de levertijd. Dit gedrag kan leiden tot belangrijke ruis en ongewenste geplande orders. De beste manier is om de instelling te wijzigen zodat *Datum van vandaag + levertijd* wordt gebruikt. Werk hoofdgegevens bij om waarschuwingen te voorkomen. | N.v.t. |
 | Verkoopoffertes | Hoofdplannen met verkoopoffertes ingeschakeld: *\#* | Deze functie wordt verwerkt. Momenteel worden offertes niet overwogen wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Wave 2, 2022 release of hoger |
-| Te gebruiken tot | Hoofdplannen met Te gebruiken tot ingeschakeld: *\#* | Deze functie wordt nu ondersteund. | Ondersteund |
+| Te gebruiken tot | Hoofdplannen met Te gebruiken tot ingeschakeld: *\#* | Deze functie wordt verwerkt. | Wave 2, 2022 release |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
+[Overzicht van Optimalisatie van planning](planning-optimization-overview.md)
 
 [Aan de slag met Planningsoptimalisatie](get-started.md)
 

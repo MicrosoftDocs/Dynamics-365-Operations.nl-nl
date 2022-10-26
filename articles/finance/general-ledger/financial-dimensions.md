@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849984"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680352"
 ---
 # <a name="financial-dimensions"></a>Financiële dimensies
 
@@ -84,7 +84,7 @@ Om de referentiële integriteit van de gegevens te helpen waarborgen, kunnen fin
 Als aan een van de criteria wordt voldaan, kunt u de financiële dimensie niet verwijderen.
 
 > [!NOTE]
-> Vanaf Finance versie 10.0.27 worden financiële dimensies niet meer automatisch geselecteerd voor de instellingen van de financiële rapportage wanneer ze worden gemaakt. 
+> Vanaf Finance-versie 10.0.27 worden financiële dimensies niet meer automatisch geselecteerd voor de instellingen van de financiële rapportage wanneer ze worden gemaakt.
 
 ## <a name="default-dimension-values"></a>Waarden standaarddimensie
 

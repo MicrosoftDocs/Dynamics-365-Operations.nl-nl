@@ -4,23 +4,25 @@ description: In dit artikel wordt beschreven hoe u omleidingen configureert voor
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428058"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689305"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Omleidingen configureren voor stappen in menu-items van mobiele apparaten
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > De functies die in dit artikel worden beschreven, zijn alleen van toepassing op de nieuwe mobiele app van Warehouse Management. Deze hebben geen invloed op de oude magazijn-app, die nu is afgeschaft.
@@ -38,6 +40,7 @@ Voordat u omleidingen voor stappen in menu-items van mobiele apparaten kunt conf
 1. Schakel de volgende functies in, die de functionaliteit bieden die in dit artikel wordt beschreven:
     - *Omleidingen van Warehouse Management-app*<br>(Vanaf Supply Chain Management versie 10.0.29 is deze functie standaard ingeschakeld.)
     - *Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management*
+    - *Omleidingsstappen automatisch indienen voor de mobiele app Warehouse Management*
 1. Als de functies *Omleidingen van de app Warehouse Management* en/of *Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management* niet al waren ingeschakeld, werk dan de veldnamen in de mobiele app Warehouse Management bij door te gaan naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Veldnamen van Warehouse-app** en **Standaardinstelling aanmaken** te selecteren. Zie [Velden configureren voor de mobiele app Magazijnbeheer](configure-app-field-names-priorities-warehouse.md) voor meer informatie.
 1. Herhaal de vorige stap voor elke rechtspersoon (bedrijf) waar u de mobiele app Warehouse Management gebruikt.
 
@@ -49,7 +52,7 @@ Gebruik de volgende procedure om een omleiding in te stellen vanuit een menuspec
 1. Zoek de combinatie van de waarden **Stap-ID** en **Naam van het menu-item** die u wilt bewerken, en selecteer vervolgens de waarde in de kolom **Stap-ID**.
 1. Geef op het sneltabblad **Beschikbare omleidingen (menu-items)** van de pagina die verschijnt, het menu-item op dat als omleiding moet fungeren. U kunt ook selecteren welke veldwaarden uit de hoofdtaak automatisch moeten worden gekopieerd naar en van de omleiding. Zie de scenario´s verderop in dit artikel voor voorbeelden over het gebruik van deze instellingen.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Voorbeeldscenario 1: Verzamelen voor verkoop waarbij een locatievraag als een omleiding fungeert
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Voorbeeldscenario 1: Verzamelen voor verkoop waarbij een locatievraag als een omleiding fungeert
 
 Dit scenario laat zien hoe u een locatievraag als een omleiding kunt configureren in een door de werknemer doorgestuurde taakstroom voor verkoop verzamelen. Door deze omleiding kunnen werknemers alle nummerplaten opzoeken op de locatie waar ze verzamelen en kunnen ze de nummerplaat kiezen die ze willen gebruiken om de verzameling te voltooien. Dit type omleiding kan handig zijn als de streepjescode is beschadigd en daardoor onleesbaar is voor het scannerapparaat. Het kan ook nuttig zijn als een werknemer moet weten wat er in het systeem werkelijk voorhanden is. Dit scenario werkt alleen als er wordt verzameld op nummerplaatlocaties.
 
@@ -74,11 +77,13 @@ In deze procedure configureert u een omleiding voor het menu-item **Verzamelen v
 
     - **Kopiëren uit Orderverzamelen:** *Locatie*
     - **Plakken in Locatieonderzoek:** *Locatie*
+    - **Automatisch indienen**: *geselecteerd* (de pagina wordt vernieuwd met de geplakte waarde *Locatie*)
 
 1. Omdat de omleiding in dit scenario wordt geconfigureerd voor de nummerplaatstap, is het handig als werknemers de nummerplaat van het onderzoek weer in de hoofdstroom kunnen brengen. Selecteer daarom in de sectie **Terugbrengen vanuit locatieonderzoek** de optie **Toevoegen** op de werkbalk om een rij aan het raster toe te voegen. Stel daarna de volgende waarden in voor de nieuwe rij:
 
     - **Kopiëren uit Locatieonderzoek:** *Nummerplaat*
     - **Plakken in Orderverzamelen:** *Nummerplaat*
+    - **Automatisch indienen**: *niet geselecteerd* (er vindt geen automatische update plaats bij terugkeer vanuit een omleiding met een waarde van *Nummerplaat*)
 
 1. Selecteer **OK**.
 
@@ -131,6 +136,7 @@ In deze procedure configureert u een omleiding voor het menu-item **Verzamelen v
 
     - **Kopiëren uit Locatieonderzoek:** *Locatie*
     - **Plakken in Verplaatsing:** *LOC/LP*
+    - **Automatisch indienen**: *niet geselecteerd* (er vindt geen automatische update plaats)
 
     In deze omweg verwacht u geen informatie om terug te kopiëren, omdat de hoofdstroom een onderzoek was waarbij geen extra stappen vereist zijn.
 
@@ -153,3 +159,5 @@ In deze procedure voert u een locatieonderzoek uit met de mobiele app Warehouse 
 
 > [!NOTE]
 > Met de functie *Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management* kunt u omleidingen met meerdere niveaus (omleidingen binnen omleidingen) definiëren. Zo kunnen medewerkers overspringen van een bestaande omleiding naar een andere en weer terug. De functie ondersteunt standaard twee niveaus van omleidingen. Indien nodig kunt u het systeem aanpassen voor de ondersteuning van drie of meer omleidingen door code-uitbreidingen op de tabel `WHSWorkUserSessionState` te maken.
+>
+> Met de functie *Omleidingsstappen automatisch indienen voor de mobiele app Warehouse Management* kunnen werknemers sneller en eenvoudiger om omleidingsstromen te voltooien in de mobiele app Warehouse Management. Hierbij kunnen enkele stroomstappen worden overgeslagen doordat de app omleidingsgegevens invult in de back-end en vervolgens automatisch naar de volgende stap gaat door de pagina automatisch in te dienen, zoals wordt weergegeven in [*Voorbeeldscenario 1: Verzamelen voor verkoop waarbij een locatievraag als een omleiding fungeert*](#scenario-1).

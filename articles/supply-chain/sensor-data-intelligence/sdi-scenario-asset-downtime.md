@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 944818557deebed06c02c00fd69de6e8f08bda83
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: b82d757d1e69203012949bc397220fa42ada4ac2
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428373"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689424"
 ---
 # <a name="the-asset-downtime-scenario"></a>Het scenario activumuitvaltijd
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 In het scenario activumuitvaltijd wordt een record voor uitvaltijd voor onderhoud gegenereerd, als geen signaal wordt ontvangen met een gedefinieerde tijdsdrempel na ontvangst van het laatste signaal. Het scenario vereist dat u uw machine uitrust met een sensor die periodiek een signaal verzendt naar uw Azure IoT-hub zolang de machine actief is, maar geen signaal verzendt wanneer de machine niet actief is.
 

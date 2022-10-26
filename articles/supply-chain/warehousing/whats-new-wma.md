@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388443"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682583"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit artikel worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20340"></a>Versie 2.0.34.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+- Verbeterde stabiliteit.
+- Prestaties verbeterd.
+- De schermindeling is verbeterd, zodat er meer ruimte vrij is voor de detailkaart.
+- Een zoekfunctie is toegevoegd aan de pagina **Werklijst**. Werknemers kunnen nu scannen of typen om te zoeken in alle velden en titels op de pagina.
+- De lijst met beschikbare verbindingen is nu alfabetisch gesorteerd.
+- Een probleem is opgelost waarbij dubbele kaarten werden weergegeven voor artikelen met meerdere voorraadstatussen op dezelfde locatie.
+- Een probleem is opgelost waarbij op de pagina **Grote selectielijst** niet kon worden geschoven om het vooraf geselecteerde item weer te geven.
+- De kleuren van de zoekbalk op de pagina **Grote selectielijst** zijn hersteld.
+- Er is een probleem opgelost waarbij de standaardknop gedefinieerd in de XML niet werd gebruikt als verzendknop.
+- Er is een probleem opgelost waarbij de knoppen in de stromen voor meerdere scans en snelle validatie niet werden bijgewerkt als er nieuwe id's werden gescand.
+- Extra ondersteuning voor meer talen.
 
 ## <a name="version-20320"></a>Versie 2.0.32.0
 

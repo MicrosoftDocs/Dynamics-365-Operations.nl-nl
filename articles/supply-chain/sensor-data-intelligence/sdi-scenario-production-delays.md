@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428309"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690016"
 ---
 # <a name="the-production-delays-scenario"></a>Het scenario productievertraging
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Het scenario *productievertraging* genereert een melding als de productiedoorvoer onder een bepaalde drempelwaarde daalt. In dit scenario wordt een *onderdeel uit*-signaal naar de Microsoft Azure IoT-hub verzonden voor elk geproduceerd artikel. In Dynamics 365 Supply Chain Management wordt de ordervertraging berekend op basis van de geplande duur van de productieorder, het aantal artikelen dat moet worden geproduceerd, hoe lang de taak actief is en hoeveel *onderdeel uit*-signalen zijn ontvangen. Er wordt een vertragingsmelding gegenereerd als het aantal *onderdeel uit*-signalen voor de taak onder de drempelwaarde daalt.
 

@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671420"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689198"
 ---
 # <a name="proactive-quality-updates"></a>Proactieve kwaliteitsupdates
 
@@ -56,7 +56,9 @@ Een reeks proceswijzigingen wordt geïmplementeerd voorafgaand aan de activering
 
 - **Schema**: tools zorgen ervoor dat de builds van kwaliteitsupdates alleen schemawijzigingen bevatten die kunnen worden toegepast wanneer de service online is. Hierdoor blijft de mogelijkheid behouden om de update met een downtime van bijna nul toe te passen.
 - **Extra beoordeling van wijzigingen**: er is al een extra processtap om wijzigingen goed te keuren voor opname in een kwaliteitsupdate. De kritische beoordeling in de extra stap wordt verhoogd om de kans op regressies te verminderen. Wijzigingen die fouten veroorzaken, zijn niet toegestaan in kwaliteitsupdates, en extra beoordeling zorgt ervoor dat we hieraan voldoen.
-- **Zichtbaarheid**: we sturen meldingen via e-mail en Lifecycle Services (LCS) voor komende proactieve kwaliteitsupdates. Daarnaast hebben ondersteuningsteams en incidentleads zicht op waar kwaliteitsupdates proactief zijn geïmplementeerd.
+- **Zichtbaarheid**: we sturen meldingen via het beheercentrum, Lifecycle Services (LCS) en andere beschikbare kanalen voor komende proactieve kwaliteitsupdates. Daarnaast hebben ondersteuningsteams en incidentleads zicht op waar kwaliteitsupdates proactief zijn geïmplementeerd.
+ > [!NOTE]
+ > Het Microsoft Communications-team doet onderzoek naar het lopende e-mailprobleem waardoor de levering van e-mailmeldingen wordt verhinderd. Blijf het Microsoft 365-berichtencentrum in de gaten houden voor berichten over onboarding en meldingen.
 - **Fail-safe via flighting** flighting wordt gebruikt om codewijzigingen te bewaken wanneer dit van toepassing is in een foutcorrectie voor een kwaliteitsupdate; u kunt ook de bestaande functie-flighting gebruiken die relevant is voor de oplossing. Als terugval of het uitschakelen van een wijziging is vereist na een proactieve implementatie, kan dit via het flighting-systeem worden uitgevoerd om verdere fouten te voorkomen.
 - **Aanduiding van sandbox-synchronisatie**: minder dan 20 procent van de klanten heeft momenteel meerdere sandboxen en houdt één sandbox geïmplementeerd waarvoor de versie overeenkomt met de productieversie, om problemen op te lossen. Als een klant een sandbox gebruikt om een nieuwere versie dan de productie te testen, ontvangt deze sandbox kwaliteitsupdates voor de nieuwere versie.
 
@@ -80,10 +82,10 @@ Zie [Wat zijn de geplande onderhoudsvensters per regio?](../../dev-itpro/deploym
 
 | Station | Regio's | Voltooide planning| Aankomende sandbox-planning
 |---|---|---|---|
-| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 15 september tot en met 18 september 2022 en 19 september tot en met 22 september 2022 | 7 oktober tot en met 10 oktober 2022 |
-| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 25 september tot en met 28 september 2022 | 7 oktober tot en met 10 oktober 2022 |
-| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 26 september tot en met 29 september 2022 | 7 oktober tot en met 10 oktober 2022 |
-| Station 4 | Europa - noord, VS - centraal, VS - west | 28 september tot en met 1 oktober 2022 | 7 oktober tot en met 10 oktober 2022 |
+| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 15 september tot en met 18 september 2022, 19 september tot en met 22 september 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
+| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 25 september tot en met 28 september 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
+| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 26 september tot en met 29 september 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
+| Station 4 | Europa - noord, VS - centraal, VS - west | 28 september tot en met 1 oktober 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
 | Station 5 | DoD, Government Community Cloud, China | Niet gepland | Niet gepland |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Vrijgave van proactieve kwaliteitsupdate: 10.0.29

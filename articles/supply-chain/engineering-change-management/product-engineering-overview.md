@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334860"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682501"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 
@@ -73,6 +73,9 @@ Schakel vervolgens de configuratiesleutels in door de volgende stappen uit te vo
 1. De database moet zijn gesynchroniseerd om ervoor te zorgen dat de configuratiesleutels op de juiste manier zijn bijgewerkt. Ga als volgt te werk, afhankelijk van het type omgeving waaraan u werkt:
     - **Voor Niveau 1-omgevingen (ontwikkelomgevingen)**:Open het project in Microsoft Visual Studio en selecteer vervolgens **Dynamics 365 \> Database synchroniseren \> Synchroniseren**.
     - **Voor Niveau 2-omgevingen (en hoger)**: de database wordt automatisch gesynchroniseerd nadat u de omgeving in en uit de onderhoudsmodus hebt gezet, dus u kunt deze stap overslaan.
+
+> [!NOTE]
+> Als u technisch wijzigingsbeheer wilt gebruiken, moet zowel de stuklijstnummerreeks als de formulenummerreeks (als u formules gebruikt) op de pagina **Nummerreeksen** worden ingesteld op *Automatisch*.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>De basisfuncties voor het beheer van technische wijzigingen inschakelen
 

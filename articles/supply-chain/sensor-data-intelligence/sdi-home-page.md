@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2e4cd8d4d4ffcd10d02fbf26615f12cdd6ccca9e
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: ba030364056db8b0524de22aacbc6528ef77813b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428320"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689852"
 ---
 # <a name="sensor-data-intelligence-home-page"></a>De startpagina Sensor Data Intelligence
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Met Sensor Data Intelligence voor Microsoft Dynamics 365 Supply Chain Management kunnen organisaties bedrijfsprocessen aansturen in Supply Chain Management, op basis van IoT-signalen (Internet of Things) van machines en apparatuur op de werkvloer. Dit is een bijgewerkte, hernoemde versie van de functie *IoT Intelligence* die eerder beschikbaar was voor Supply Chain Management.
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284846"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680379"
 ---
 # <a name="reverse-journal-posting"></a>Journaalboekingen tegenboeken
 
@@ -37,7 +37,7 @@ Voordat u een van de in dit artikel beschreven functies kunt gebruiken, moet u d
 U kunt journaalregels afzonderlijk tegenboeken. Bij het terugdraaien van journaalboekingen kunt u ook een heel financieel journaal tegenboeken. Een journaal tegenboeken: 
 
 - Filteren op de geboekte journalen en de weergave **Regels** van het journaal openen.
-- Selecteer het menu **Terugboeken** bovenaan de pagina.
+- Selecteer het menu **Geheel journaal terugboeken** boven aan de pagina.
 - Het totale aantal boekstukken en boekstukregels wordt weergegeven, evenals het totale bedrag van de regels die worden teruggeboekt
 - Selecteer **Ja** als u de bestaande transactiedatums wilt gebruiken of **Nee** als u een nieuwe transactiedatum wilt invoeren. In sommige gevallen wordt de periode van de oorspronkelijke transactie afgesloten en moet u een nieuwe transactiedatum voor de terugboeking invoeren.
 - Als u **Nee** selecteert, voert u een transactiedatum voor de terugboeking in. 

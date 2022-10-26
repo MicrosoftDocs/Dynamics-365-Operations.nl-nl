@@ -13,12 +13,12 @@ ms.author: atrukawk
 ms.search.validFrom: 2019-01-04
 ms.dyn365.ops.version: 10.0.1
 ms.search.form: ''
-ms.openlocfilehash: c0e3bca70ecfc28a4e34ef9a77c3474043775931
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 16638fdcfefc010aacc121b6eac141a5dc8cc1ba
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269452"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689445"
 ---
 # <a name="vat-declaration-belgium"></a>Btw-aangifte (België)
 
@@ -358,7 +358,8 @@ Volg deze stappen om te definiëren welke btw-groepen voor artikelen welke omsch
 
    Deze indeling wordt afgedrukt wanneer u het rapport **Btw rapporteren voor vereffeningsperiode** uitvoert. Deze wordt ook afgedrukt wanneer u **Afdrukken** selecteert op de pagina **Btw-betalingen**.
 
-4. Selecteer op de pagina **Belastingdienst** de belastingdienst en selecteer vervolgens in het veld **Rapportindeling** de optie **Standaard**.
+4. Controleer in de sectie **Speciaal rapport** of **Correcties opnemen** is ingesteld op **Ja**.
+5. Selecteer op de pagina **Belastingdienst** de belastingdienst en selecteer vervolgens in het veld **Rapportindeling** de optie **Standaard**.
 
 Als u de btw-aangifte configureert in een rechtspersoon met meerdere [btw-registraties](emea-reporting-for-multiple-vat-registrations.md), volgt u deze stappen.
 

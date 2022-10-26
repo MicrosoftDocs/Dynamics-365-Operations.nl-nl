@@ -11,16 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c5eebe9ef6258b43daa7c7007ee28b0278fe5b09
-ms.sourcegitcommit: 1a7729a6ce4f3fcf68bdc4cfdad746a5553da3c5
+ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573132"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689688"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Eindige capaciteitsplanning
 
 [!include [banner](../../includes/banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 Eindige capaciteit is een methode die u helpt inzicht te krijgen in hoeveel werk kan worden geproduceerd tijdens een specifieke periode wanneer rekening wordt gehouden met beperkingen voor verschillende resources. Het doel van eindige capaciteitsplanning is ervoor te zorgen dat werk in een gelijkmatig en efficiënt tempo wordt uitgevoerd in de hele fabriek.
 

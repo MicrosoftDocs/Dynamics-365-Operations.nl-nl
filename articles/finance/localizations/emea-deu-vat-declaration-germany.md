@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269399"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689455"
 ---
 # <a name="vat-declaration-germany"></a>Btw-aangifte (Duitsland)
 
@@ -198,7 +198,8 @@ Volg deze stappen om te definiëren door welke btw-codes welke vakken worden geg
 
    Deze indeling wordt afgedrukt wanneer u het rapport **Btw rapporteren voor vereffeningsperiode** uitvoert. Deze wordt ook afgedrukt wanneer u **Afdrukken** selecteert op de pagina **Btw-betalingen**.
 
-4. Selecteer op de pagina **Belastingdienst** de belastingdienst en selecteer vervolgens in het veld **Rapportindeling** de optie **Standaard**.
+4. Als u de correcties moet rapporteren, stelt u in de sectie **Speciaal rapport** de optie **Correcties opnemen** in op **Ja**.
+5. Selecteer op de pagina **Belastingdienst** de belastingdienst en selecteer vervolgens in het veld **Rapportindeling** de optie **Standaard**.
 
 Als u de btw-aangifte configureert in een rechtspersoon met meerdere [btw-registraties](emea-reporting-for-multiple-vat-registrations.md), volgt u deze stappen:
 

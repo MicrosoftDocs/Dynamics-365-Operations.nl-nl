@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429118"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689181"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Preview van Dynamics 365 Supply Chain Management 10.0.30 (November 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management, previewversie 10.0.30. Deze versie heeft het buildnummer 10.0.1362 en is beschikbaar volgens de onderstaande planning:
+In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.30. Deze versie heeft het buildnummer 10.0.1362 en is beschikbaar volgens de onderstaande planning:
 
 - **Preview-versie:** september 2022
 - **Algemene beschikbaarheid van versie (zelfupdate):** oktober 2022
@@ -35,7 +34,7 @@ De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit
 | Functiegebied | Functie | Meer informatie | Ingeschakeld door |
 |---|---|---|---|
 | Productie | [Apparatuur bewaken met Sensor Data Intelligence](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [De startpagina Sensor Data Intelligence](../sensor-data-intelligence/sdi-home-page.md) | Functiebeheer:<br>*(Preview) Sensor Data Intelligence* |
-| Magazijnbeheer | Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management <!-- KFM: Add link when RP updates --> | [Omleidingen configureren voor stappen in menu-items van mobiele apparaten](../warehousing/warehouse-app-detours.md) | Functiebeheer:<br>*Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management* |
+| Magazijnbeheer | [Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Omleidingen configureren voor stappen in menu-items van mobiele apparaten](../warehousing/warehouse-app-detours.md) | Functiebeheer:<br>*Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Functieverbeteringen in deze versie
 
@@ -52,7 +51,7 @@ Als u een van deze functies wilt in- of uitschakelen, moet u dat doen in [Functi
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platformupdates voor apps voor financiële en bedrijfsactiviteiten
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.30 van Finance and Operations-apps (november 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.30 van Finance and Operations-apps (november 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>Correcties
 

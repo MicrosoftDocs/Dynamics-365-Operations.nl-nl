@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d4874642743ed8188e84052d94003051f2af7af
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: d0270ad1e66193832fb1139fca4439b36b5ffb84
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722683"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682852"
 ---
 # <a name="post-with-derived-books"></a>Boeken met afgeleide boeken
 
@@ -34,7 +34,7 @@ Wanneer u transacties boekt voor een boek dat afgeleide afschrijvingsboeken beva
 -   Andere waarden voor het transactietype kunnen ook worden toegepast. Als bijvoorbeeld het primaire boek en de afgeleide boeken dezelfde intervallen voor verkoop of afboeking hebben, kunnen alle typen vaste-activatransacties worden gebruikt bij het instellen van een afgeleid boek.
 
 > [!WARNING]
-> De afschrijving die in het afgeleide boek is geboekt, is hetzelfde bedrag als het bedrag dat voor het primaire boek is geboekt. Als de afschrijvingsmethoden bij de boeken verschillen, moet u geen afschrijvingstransacties met behulp van het afgeleide proces genereren. |
+> De afschrijving die in het afgeleide boek is geboekt, is hetzelfde bedrag als het bedrag dat voor het primaire boek is geboekt. Als de afschrijvingsmethoden bij de boeken verschillen, moet u geen afschrijvingstransacties met behulp van het afgeleide proces genereren. 
 
 ## <a name="example"></a>Voorbeeld 
 Hieronder wordt beschreven hoe u verwervingsmethoden instelt met de functionaliteit van het afgeleide boek.

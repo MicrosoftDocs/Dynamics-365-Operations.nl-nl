@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644052"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689395"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Het scenario activumonderhoud
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 In het scenario *activumonderhoud* kunt u sensorgegevens gebruiken om tellerrecords te maken. Tellerrecords volgen het gebruik van machineactiva en worden gebruikt als invoer om het onderhoudsschema voor machineactiva te genereren.
 
@@ -115,6 +116,9 @@ Nadat de gegevens zijn voorbereid en het scenario *activumonderhoud* is geconfig
 1. Ga naar **Activabeheer \> Activa \> Alle activa**.
 1. Zoek en selecteer het activum dat u wilt controleren. Als u gebruik maakt van de demogegevens die u eerder in dit artikel hebt gemaakt, selecteert u *AK-101*.
 1. Selecteer in het actievenster op het tabblad **Activum** in de groep **Preventief** de optie **Tellers** om de pagina voor tellerrecords te openen voor het activum *AK-101*.
+
+> [!NOTE]
+> De tellerrecords worden standaard geconfigureerd om elke drie uur te worden ingevoegd. Dit betekent dat logboekgegevens met dat interval worden samengevoegd. U kunt het interval wijzigen door de query te bewerken in het onderdeel Azure Stream Analyses.
 
 ### <a name="generate-maintenance-work-orders"></a>Onderhoudswerkorders genereren
 

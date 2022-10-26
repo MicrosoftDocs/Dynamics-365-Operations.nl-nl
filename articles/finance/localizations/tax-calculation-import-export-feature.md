@@ -2,7 +2,7 @@
 title: Belastingberekeningen importeren en exporteren
 description: Dit artikel biedt informatie over de import- en exportfunctionaliteit van de service voor belastingberekening.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855168"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690228"
 ---
 # <a name="import-and-export-tax-calculations"></a>Belastingberekeningen importeren en exporteren
 
@@ -98,3 +98,21 @@ Het Excel-werkblad dat u hebt gedownload, bevat de structuur van het raster **To
 2. In RCS selecteert u op de functiepagina **Belastingberekening** op het tabblad **Toepasbaarheid belastinggroep** de optie **Toevoegen** om een lege record onder aan het raster **Toepasbaarheid belastinggroep instellen** in te voegen.
 3. Selecteer **Ctrl+V** om de gekopieerde rijen in het raster te plakken.
 4. Selecteer **Opslaan**.
+
+## <a name="import-feature-demo-data"></a>Demonstratiegegevens voor functie importeren
+
+Volg deze stappen om demonstratiegegevens voor functies te importeren.
+
+1. Meld u aan bij [RCS](https://marketing.configure.global.dynamics.com/).
+2. Selecteer in de werkruimte **Globalisatiefuncties** de optie **Functies** en selecteer de tegel **Belastingberekening**.
+3. Selecteer **Importeren** en selecteer vervolgens op de pagina **Functie importeren uit algemene opslagplaats** de optie **Synchroniseren**. 
+4. Selecteer in de tabel de functie **tax-calculation-feature-demo-data** en selecteer vervolgens **Importeren**.
+5. Selecteer **Weergeven** om de btw-codes, -groepen en -regels te controleren die in de geïmporteerde functie zijn gedefinieerd.
+6. Ga in Finance naar de rechtspersoon **DEMF** en vervolgens naar **Belastingen** \> **Instellingen** \> **Belastingconfiguratie** \> **Parameters voor belastingberekening**.
+7. Selecteer **Service voor belastingberekening inschakelen** op het tabblad **Algemeen**.
+8. Selecteer **tax-calculation-feature-demo-data** in het veld **Naam van functie-instellingen**.
+9. Selecteer een **vereffeningsperiode** en een **grootboekboekingsgroep** voor de nieuwe belastingcodes voor demonstraties en selecteer vervolgens **Bevestigen**.
+10. Selecteer **Opslaan**.
+
+> [!NOTE]
+> De demonstratiefunctie **tax-calculation-feature-demo-data** is gebaseerd op functieversie **40.54.234** en is ontworpen voor de rechtspersoon **DEMF** voor demonstraties. Zorg ervoor dat Finance en RCS worden bijgewerkt naar versie 10.0.26 of hoger.

@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186683"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689533"
 ---
 # <a name="inventory-positioning"></a>Voorraadpositionering
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Bij strategische voorraadpositionering gaat het om het identificeren van ontkoppelingspunten in uw toeleveringsketen waar u beschikbare voorraad kunt opbouwen. Deze aanpak wordt met name gebruikt om de doorlooptijden te verkorten en schokken voor uw toeleveringsketen op te vangen. U kunt hiermee het 'zweepslageffect' beperken, omdat de vraagvariabiliteit niet door de hele toeleveringsketen heen geldt. (Het *zweepslageffect* verwijst naar hoe kleine schommelingen in de vraag op detailhandelniveau kunnen zorgen voor progressief grotere schommelingen in de vraag op het niveau van groothandel, distributeur, fabrikant en leverancier van grondstoffen.)
 
