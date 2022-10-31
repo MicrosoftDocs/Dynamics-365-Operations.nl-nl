@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Platformupdates voor versie 10.0.29 (oktober 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Platformupdates voor versie 10.0.28 (augustus 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -1605,7 +1603,11 @@
             - name: Rapport Licentiecodes en configuratiesleutels
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Delen van gegevens tussen bedrijven
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Ondersteunde tabellen voor het delen van gegevens
+              href: sysadmin/drs-srs-tables.md
+            - name: Gegevens delen voor ontwikkelaars
+              href: sysadmin/drs-srs-dev.md
             - name: Onderhoudsmodus
               href: sysadmin/maintenance-mode.md
             - name: Vooraf geconfigureerde systeemrekeningen

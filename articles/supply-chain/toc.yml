@@ -12,7 +12,7 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (februari 2022)
+                - name: Supply Chain Management 10.0.31 (februari 2023)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (november 2022)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: USMCA-certificering van oorsprong
               href: transportation/usmca-certification-of-origin.md
+            - name: Commerciële facturen
+              href: transportation/commercial-invoice.md
             - name: Een vrachtbrief maken
               href: transportation/create-bill-of-lading.md
             - name: Vrachttransportroutes plannen
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Containers inpakken voor verzending
                       href: warehousing/packing-containers.md
+                    - name: Containerlabels afdrukken
+                      href: warehousing/print-container-labels.md
                     - name: Verpakkingswerk voor het inpakken van uitgaande containers en het verwerken van zendingen
                       href: warehousing/packing-work.md
+                    - name: Containers verpakken met de mobiele app Warehouse Management
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: Voorbeeldscenario - Containers verpakken met de mobiele app Warehouse Management
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Artikelhertoewijzing voor kort orderverzamelen instellen
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Door systeem gestuurde werksequentiëring
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Systeem groeperen op een geopende werklijst
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Indeling van documentroutering voor nummerplaatlabels
+                    - name: Indelingen van labels voor documentroutering
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: GS1-streepjescodes en QR-codes
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 voor financiën en bedrijfsactiviteiten
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Telemetrie voor magazijnen
+              items:
+                - name: Telemetrie voor magazijnen inschakelen met Application Insights
+                  href: warehousing/application-insights-warehousing.md
+                - name: Het gebruik en de prestaties van mobiele apparaten controleren
+                  href: warehousing/application-insights-wma.md
         - name: Ontwikkeling Supply Chain Management
           items:
             - name: Handleiding voor ontwikkeling van Gantt-besturingselement
