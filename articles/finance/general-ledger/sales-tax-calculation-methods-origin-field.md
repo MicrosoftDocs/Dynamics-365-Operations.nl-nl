@@ -2,7 +2,7 @@
 title: Btw-berekeningsmethoden in het veld Oorsprong
 description: Dit artikel beschrijft de opties in het veld Oorsprong op de btw-codespagina en hoe de btw op basis van de geselecteerde optie voor een btw-code wordt berekend.
 author: kailiang
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04d600d00425f03d0ecc7897055849541d50883c
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4442f47029e2bd579b4d8fe59f380e4fad094b9f
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724694"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715546"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Btw-berekeningsmethoden in het veld Oorsprong
 

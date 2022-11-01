@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856188"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719286"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid
 
@@ -205,6 +205,7 @@ U kunt de volgende API-URL's (Application Programming Interface) gebruiken om wi
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Maak meerdere wijzigingsgebeurtenissen. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Voer query uit met de `POST`-methode. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Voer query uit met de `GET`-methode. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Voer een exacte query uit met de `POST`-methode. |
 
 Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md) voor meer informatie.
 
@@ -394,6 +395,8 @@ Stel in uw aanvraag `QueryATP` in op *true* als u een query wilt uitvoeren op de
 > [!NOTE]
 > Ongeacht of de parameter `returnNegative` is ingesteld op *true* of *false* in de aanvraagbody, het resultaat bevat negatieve waarden wanneer u een query uitvoert op geplande wijzigingen in de voorhanden hoeveelheid en ATP-resultaten. Deze negatieve waarden worden opgenomen omdat de geplande wijzigingen in de voorhanden hoeveelheid negatief zijn als er alleen vraagorders zijn gepland of als de aanbodhoeveelheden kleiner zijn dan de vraaghoeveelheden. Als negatieve waarden niet werden opgenomen, zouden de resultaten tot verwarring leiden. Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md#query-with-post-method) voor meer informatie over deze optie en de manier waarop deze werkt voor andere typen query's.
 
+### <a name="query-by-using-the-post-method"></a>Een query uitvoeren met de POST-methode
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-Het volgende voorbeeld laat zien hoe u een aanvraagbody maakt die met behulp van de `POST`-methode bij Voorraadzichtbaarheid kan worden ingediend.
+Het volgende voorbeeld laat zien hoe u een aanvraagbody met een index-query maakt die met behulp van de `POST`-methode bij Voorraadzichtbaarheid kan worden ingediend.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ Het volgende voorbeeld laat zien hoe u een aanvraagbody maakt die met behulp van
 }
 ```
 
-### <a name="get-method-example"></a>Voorbeeld van GET-methode
+### <a name="query-by-using-the-get-method"></a>Een query uitvoeren met de GET-methode
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-In het volgende voorbeeld wordt weergegeven hoe u een aanvraag-URL maakt als `GET`-aanvraag.
+In het volgende voorbeeld wordt getoond hoe u een aanvraag-URL met een index-query maakt als `GET`-aanvraag.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Het resultaat van deze `GET`-aanvraag is exact hetzelfde als het resultaat van de `POST`-aanvraag in het vorige voorbeeld.
 
+### <a name="exact-query-by-using-the-post-method"></a>Voer een exacte query uit met de POST-methode
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+Het volgende voorbeeld laat zien hoe u een aanvraagbody met een exacte query maakt die met behulp van de `POST`-methode bij Voorraadzichtbaarheid kan worden ingediend.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Voorbeeld van queryresultaat
 
-Beide eerdere queryvoorbeelden kunnen het volgende antwoord opleveren. Voor dit voorbeeld is het systeem geconfigureerd met de volgende instellingen:
+Elk van de eerdere queryvoorbeelden kunnen het volgende antwoord opleveren. Voor dit voorbeeld is het systeem geconfigureerd met de volgende instellingen:
 
 - **Berekende meting voor ATP:** *iv.onhand = pos.inbound – pos.outbound*
 - **Planningsperiode:** *7*

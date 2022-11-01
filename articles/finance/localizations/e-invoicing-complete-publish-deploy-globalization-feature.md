@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279895"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710830"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Een globaliseringsfunctie voltooien, publiceren en implementeren
 
@@ -59,8 +59,8 @@ In RCS gebruikt u de opdracht **Implementeren** om een versie van een elektronis
 2. Selecteer de versie van de elektronische factureringsfunctie die u in de serviceomgeving of gekoppelde toepassing wilt implementeren op het tabblad **Versies** aan de rechterkant van de pagina. De geselecteerde versie moet de status **Voltooid** of **Gepubliceerd** hebben.
 3. Selecteer **Implementeren** en selecteer vervolgens een of meer van de volgende opties om het doel van de implementatie te definiëren:
 
-    - **Verbonden toepassing**: de configuratie die wordt geleverd door de toepassingsinstellingen, is geschreven in het exemplaar van Microsoft Dynamics 365 Finance of Dynamics 365 Supply Chain Management waaraan deze eerder was gekoppeld.
-    - **Serviceomgeving**: de versie van de elektronische factureringsfunctie wordt in de serviceomgeving geïmplementeerd. Elektronische facturering is dan klaar om elektronische documenten te ontvangen en te verwerken die door Finance of Supply Chain Management worden verzonden.
+    - **Verbonden toepassing**: dit is optioneel, maar moet worden gebruikt als u de configuratie die wordt geleverd door de toepassingsinstellingen, wordt geschreven in het exemplaar van Microsoft Dynamics 365 Finance of Dynamics 365 Supply Chain Management waaraan deze eerder was gekoppeld. Als u dit type implementatie overslaat, moet u de parameters die zijn gedefinieerd in de toepassingsinstellingen van Financiën of Supply Chain Management handmatig configureren.
+    - **Serviceomgeving**: hiermee wordt de versie van de elektronische factureringsfunctie in de serviceomgeving geïmplementeerd. Elektronische facturering is dan klaar om elektronische documenten te ontvangen en te verwerken die door Finance of Supply Chain Management worden verzonden.
 
 > [!NOTE]
 > Meestal wijzigt u de parameters van de functie Elektronische rapportage (ER) die in de serviceomgeving moet worden geïmplementeerd. Wijzigingen in de verbonden toepassing worden zelden aangebracht. U moet nieuwe versies alleen implementeren in de verbonden toepassing wanneer u de bijbehorende parameters van de toepassing wijzigt.

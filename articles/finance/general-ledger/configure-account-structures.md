@@ -2,7 +2,7 @@
 title: Rekeningstructuren configureren
 description: Dit artikel biedt informatie over rekeningstructuren en financiële dimensies.
 author: aprilolson
-ms.date: 07/12/2022
+ms.date: 10/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
-ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
+ms.openlocfilehash: b3fbdd6e2cac61c358848a21e1126bea900e86b2
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9141273"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713938"
 ---
 # <a name="configure-account-structures"></a>Rekeningstructuren configureren
 
@@ -28,7 +28,7 @@ ms.locfileid: "9141273"
 
 Rekeningstructuren maken gebruik van de hoofdrekening en financiële dimensies om een set regels te maken die de volgorde en de waarden bepalen die worden gebruikt bij het invoeren van het rekeningnummer. U kunt zoveel rekeningstructuren instellen als noodzakelijk is voor uw bedrijf. De rekeningstructuren worden toegewezen aan de grootboekinstellingen van een bedrijf, zodat ze kunnen worden gedeeld.
 
-Wanneer u een rekeningstructuur maakt, is het maximumaantal segmenten 11. Als u meer segmenten nodig hebt, evalueert u uw instellingen en vereisten, want dat heeft invloed op de gebruikerservaring. Overweeg of een segment kan worden afgeleid in een rapportagescenario met behulp van een hiërarchie, in plaats van tijdens gegevensinvoer of door een door de gebruiker gedefinieerd veld te gebruiken. Als u bijvoorbeeld wilt rapporteren op locatie, maar de locatie kunt bepalen op basis van afdeling of kostenplaats, zou u geen locatie als financiële dimensie nodig hebben. Als u na evaluatie bepaalt dat er meer dan 11 segmenten nodig zijn, kunt u extra segmenten met behulp van geavanceerde regels toevoegen.
+Wanneer u een rekeningstructuur maakt, is het maximumaantal segmenten 11. Als u meer dan 11 segmenten nodig hebt, evalueert u uw instellingen en vereisten, want dat heeft invloed op de gebruikerservaring. Overweeg of een segment kan worden afgeleid in een rapportagescenario met behulp van een hiërarchie, in plaats van tijdens gegevensinvoer of door een door de gebruiker gedefinieerd veld te gebruiken. Als u bijvoorbeeld wilt rapporteren op locatie, maar de locatie kunt bepalen op basis van afdeling of kostenplaats, zou u geen locatie als financiële dimensie nodig hebben. Als u na evaluatie bepaalt dat er meer dan 11 segmenten nodig zijn, kunt u extra segmenten met behulp van geavanceerde regels toevoegen.
 
 Rekeningstructuren vereisen de hoofdrekening. De hoofdrekening hoeft niet het eerste segment in de structuur te zijn, maar bepaalt welke rekeningstructuur wordt gebruikt tijdens invoer van het rekeningnummer. Als gevolg hiervan kan een waarde van de hoofdrekening alleen bestaan in één structuur die is toegewezen aan het grootboek, zodat ze elkaar niet overlappen. Nadat de rekeningstructuur is geïdentificeerd, wordt de lijst met toegestane waarden gefilterd, zodat de gebruiker alleen uit geldige dimensiewaarden kan kiezen, wat de mogelijkheid van een onjuiste journaalpost verkleint.
 
@@ -42,13 +42,13 @@ Stel ter illustratie van een best practice voor het instellen van een rekeningst
 
 |Hoofdrekening          | Bedrijfseenheid    |
 |----------------------|-----------|
-|100000..399999 | *;” “|
+|100000..399999 | *;'&nbsp;'|
 
 **Winst- en verliesrekeningstructuur**
 
-|Hoofdrekening          | Bedrijfseenheid    |Departement          | Kostenplaats    | &nbsp; |
+|Hoofdrekening          | Bedrijfseenheid    |Afdeling          | Kostenplaats    | &nbsp; |
 |----------------------|------------------|--------------------|-----------|---|
-|400000..999999 | \*;” “| \*;” “| \*;” “| \*;” “|
+|400000..999999 | \*;'&nbsp;'| \*;'&nbsp;'| \*;'&nbsp;'| \*;'&nbsp;'|
 
 **Geavanceerde regel voor het toevoegen van een klant**
 
@@ -56,9 +56,9 @@ Criteria: als hoofdrekening tussen 400000 en 499999 ligt, klant invoegen. Het ka
 
 |Klant         |
 |-----------------|
-|* |
+|\* |
 
-In dit vereenvoudigde voorbeeld zijn alle waarden en lege waarden toegestaan, dus worden * en ' ' gebruikt.
+In dit vereenvoudigde voorbeeld zijn alle waarden en lege waarden toegestaan, dus worden \* en '&nbsp;' gebruikt.
 
 ## <a name="segments-and-allowed-values"></a>Segmenten en toegestane waarden
 De sectie **Segmenten** en **Details van toegestane waarden** biedt een rasterachtige ervaring voor het invoeren van regels die worden gevolgd bij validatie tijdens boeking. U kunt rechtstreeks in de cellen in het typen, importeren uit Excel of de sectie **Details van toegestane waarden** gebruiken om u te begeleiden.
@@ -77,17 +77,20 @@ Hier volgt een voorbeeld van de **winst- en verliesrekeningstructuur**.
 
 Wanneer u een journaal invoert en een rekening selecteert in het winst- en verliesbereik, worden de waarden 022 en 014 standaard ingevoerd voor de rekeningoptie als u Bedrijfseenheid 002 selecteert. Dit gedrag doet zich ook voor op de pagina voor boekhoudingsverdeling. 
 
-## <a name="more-than-7-criteria-needed"></a>Meer dan 7 criteria nodig
+## <a name="more-than-seven-criteria-needed"></a>Meer dan zeven criteria nodig
 
-Als u meer dan 7 criteria hebt die nodig zijn, kunt u doorgaan met ze toe te voegen op de volgende regel. U zult zien wanneer u werkt met de sectie **Details van toegestane waarden** dat het criterium **+Nieuwe toevoegen** niet meer actief is nadat het zevende criterium is ingevoerd. Dit is het gevolg van diverse factoren, zoals: 
+Als u meer dan zeven criteria hebt die nodig zijn, kunt u doorgaan met ze toe te voegen op de volgende regel. U zult zien wanneer u werkt met de sectie **Details van toegestane waarden** dat het criterium **+Nieuwe toevoegen** niet meer actief is nadat het zevende criterium is ingevoerd. Dit is het gevolg van diverse factoren, zoals: 
  - Kolombreedte 
  - Hoe de gegevens worden opgeslagen 
  - Prestaties van het besturingselement **Details van toegestane waarden**
  - Bruikbaarheid  
- 
+
+> [!NOTE]
+> Een upgrade vanuit Microsoft Dynamics AX 2012 waarbij meer dan zeven criteria zijn opgegeven en geen ondersteuning heeft. Deze moet worden gecorrigeerd voordat u de upgrade naar apps voor financiën en bedrijfsactiviteiten hebt voltooid. 
+
 Als u wilt doorgaan met het toevoegen van extra criteria, klikt u op **Dupliceren in het segment** en **Sectie toegestane waarden**. Hiermee wordt het criterium naar een nieuwe regel gekopieerd. U kunt vervolgens de sectie **Details van toegestane waarden** overschrijven of wijzigen.
 
-## <a name="best-practices"></a> aanbevolen procedures
+## <a name="best-practices"></a>Best practices
 Bij het instellen van uw rekeningstructuren zijn er enkele aanbevelingen die u kunt volgen. Dit is echter alleen een richtlijn zodat een holistische discussie over uw bedrijf, groeiplan en onderhoudsplan moet worden beschouwd als onderdeel van die discussie.
 
 - Maak de hoofdrekening de eerste of zo dicht mogelijk bij de voorzijde van de rekeningstructuur, zodat gebruikers de best mogelijke begeleide ervaring krijgen tijdens rekeninginvoer.
@@ -103,7 +106,7 @@ Bij het instellen van uw rekeningstructuren zijn er enkele aanbevelingen die u k
 - U moet niet gewoon een asterisk voor elk segment in de rekeningstructuur plaatsen en vervolgens uitsluitend vertrouwen op de geavanceerde regels. Dit kan moeilijk te beheren zijn en leidt vaak tot gebruikersfouten tijdens onderhoud, waardoor het systeem onstabiel voor boeken kan worden.
 
 ## <a name="account-structure-activation"></a>Activering van rekeningstructuur
-Wanneer u tevreden bent met uw nieuwe instellingen of een wijziging in de rekeningstructuur, moet u deze activeren. Als een rekeningstructuur is toegewezen aan een grootboek, kan deze activering een langdurig proces zijn, omdat alle niet-geboekte transacties in het systeem moeten worden gesynchroniseerd met de nieuwe structuur. Geboekte transacties worden niet beïnvloed door wijzigingen in de rekeningstructuur.
+Wanneer u tevreden bent met uw nieuwe instellingen of een wijziging in de rekeningstructuur, moet u deze activeren. Als een rekeningstructuur is toegewezen aan een grootboek, kan deze activering een langdurig proces zijn, omdat alle niet-geboekte transacties in het systeem moeten worden gesynchroniseerd met de nieuwe structuur. Geboekte transacties worden niet beïnvloed door wijzigingen in de rekeningstructuur. Vanaf toepassingsversie 10.0.31 is een nieuwe functie met de naam **Prestatieverbetering van de rekeningstructuuractivering** beschikbaar in functiebeheer. Zie [De prestatieverbetering van de rekeningstructuur](account-structure-improvement.md) voor meer informatie over deze nieuwe functie voor het activeren van een rekeningstructuur. 
 
 Zie voor meer informatie [Uw rekeningschema plannen](plan-chart-of-accounts.md), [Financiële dimensies](financial-dimensions.md) en [Rekening- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingselement)](enter-account-dimension-combinations-segmented-entry-control.md).
 

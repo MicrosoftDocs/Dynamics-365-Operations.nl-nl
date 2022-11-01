@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336180"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708719"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -164,7 +164,7 @@ Op het sneltabblad **Algemeen** vindt u de volgende instellingen:
 - **Vergrendeling van het aanraakscherm toestaan**: stel deze optie in op *Ja* om werknemers in staat te stellen het aanraakscherm van de uitvoeringsinterface voor de werkvloer te vergrendelen zodat ze deze kunnen schoonmaken. Als deze optie is ingesteld op *Ja*, wordt de knop **Scherm vergrendelen voor schoonmaken** toegevoegd aan de aanmeldingspagina. Wanneer een werknemer deze knop selecteert, wordt het aanraakscherm tijdelijk vergrendeld voor onbedoelde invoer. Er wordt ook een aftellingstimer weergegeven. De werknemer kan het apparaat en het scherm vervolgens veilig schoonmaken. Wanneer de timer is afgelopen, wordt het aanraakscherm automatisch ontgrendeld.
 - **Duur schermvergrendeling**: wanneer de optie **Vergrendeling van het aanraakscherm toestaan** is ingesteld op *Ja*, gebruikt u deze optie om het aantal seconden op te geven dat het aanraakscherm moet worden vergrendeld voor schoonmaken. De duur moet tussen 5 en 120 seconden liggen.
 - **Nummerplaat genereren**: stel deze optie in op *Ja* om voor elke gereedmelding op de uitvoeringsinterface voor de werkvloer een nieuwe nummerplaat te genereren. Het nummerplaatnummer wordt gegenereerd op basis van een nummerreeks die is ingesteld op de pagina **Parameters voor magazijnbeheer**. Als deze optie is ingesteld op *Nee*, moeten werknemers een bestaande nummerplaat opgeven bij het gereedmelden.
-- **Label afdrukken**: stel deze optie in op *Ja* om een nummerplaatlabel af te drukken wanneer de werknemer de uitvoeringsinterface voor de werkvloer gebruikt voor de gereedmelding. De configuratie van het label wordt ingesteld in de documentroutering, zoals wordt beschreven in de [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md).
+- **Label afdrukken**: stel deze optie in op *Ja* om een nummerplaatlabel af te drukken wanneer de werknemer de uitvoeringsinterface voor de werkvloer gebruikt voor de gereedmelding. De configuratie van het label wordt ingesteld in de documentroutering, zoals wordt beschreven in [Labelindelingen voor documentroutering](../warehousing/document-routing-layout-for-license-plates.md).
 
 ### <a name="the-tab-selection-fasttab"></a>Het sneltabblad Tabbladselectie
 

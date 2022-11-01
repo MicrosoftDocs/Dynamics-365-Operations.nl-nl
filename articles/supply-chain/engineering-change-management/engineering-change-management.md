@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849585"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714731"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Wijzigingen in technische producten beheren
 
@@ -141,6 +141,8 @@ Wanneer u productieordermeldingen controleert op de pagina **Technische meldinge
 ### <a name="create-a-change-order-from-a-change-request"></a>Een wijzigingsorder maken op basis van een wijzigingsaanvraag
 
 Een technicus die een aanvraag voor een technische wijziging bekijkt, kan een order voor technische wijzigingen maken via de pagina **Aanvragen van technische wijzigingen**. Selecteer in het actievenster op het tabblad **Wijzigingsaanvraag** in de groep **Order voor technische wijziging** de optie **Koppeling en producten kopiëren**.
+
+Zorg ervoor dat u het juiste bedrijf selecteert voor de nieuwe technische-wijzigingsorder. Als de wijzigingsorder ertoe leidt dat het technische product zelf wordt gewijzigd (nieuwe versie, nieuw product of nieuwe variant), moet de wijzigingsorder worden toegewezen aan het tehcnische bedrijf. Als er alleen een lokale wijziging nodig is (**Impact** is ingesteld op *Geen*), kan de wijzigingsorder worden toegewezen aan een lokaal bedrijf en zijn de wijzigingen van toepassing op het huidige product.
 
 ## <a name="engineering-change-orders"></a>Technische-wijzigingsorders
 

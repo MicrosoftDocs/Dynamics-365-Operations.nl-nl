@@ -1,5 +1,5 @@
 ---
-title: Indeling van documentroutering voor nummerplaatlabels
+title: Labelindelingen voor documentroutering
 description: In dit artikel wordt beschreven hoe u opmaakmethoden kunt gebruiken om waarden op labels af te drukken.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847870"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708639"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Indeling van documentroutering voor nummerplaatlabels
+# <a name="document-routing-label-layout"></a>Labelindeling voor documentroutering
 
 [!include [banner](../includes/banner.md)]
 
+In dit artikel wordt beschreven hoe u indelingen maakt voor nummerplaat-, container- en wavelabels. Daarnaast bevat het richtlijnen voor het gebruik van de Zebra Programming Language (ZPL) waarmee de indelingen worden gemaakt.
 
-De indeling van de documentroutering bepaalt de indeling van nummerplaatlabels en de gegevens die erop worden afgedrukt. U configureert de afdruktriggerpunten wanneer u menuopdrachten voor mobiele apparaten en werksjablonen instelt.
+Labelindelingen voor documentroutering bepalen de indeling van labels en de gegevens die erop worden afgedrukt. U configureert de afdruktriggerpunten wanneer u menuopdrachten voor mobiele apparaten en werksjablonen instelt.
 
-In een normaal scenario drukken magazijnmedewerkers de nummerplaatlabels af nadat ze de inhoud hebben geregistreerd van pallets die in het ontvangstgebied binnenkomen. De fysieke labels worden op de pallets aangebracht. Ze kunnen dan worden gebruikt voor validatie in het opslagproces dat volgt en toekomstige uitgaande verzamelbewerkingen.
+De informatie in dit artikel is van toepassing op alle labelindelingen voor documentroutering, inclusief de indelingen voor [nummerplaatlabels](tasks/license-plate-label-printing.md), [containerlabels](print-container-labels.md) en [wavelabels](configure-wave-label-printing.md).
 
-U kunt zeer complexe labels afdrukken, op voorwaarde dat de afdrukapparatuur de tekst kan interpreteren die wordt verzonden. Een ZPL-indeling (Zebra Programming Language) bevat een streepjescode die er bijvoorbeeld als volgt uitziet.
+U kunt zeer complexe labels afdrukken, op voorwaarde dat de afdrukapparatuur de tekst kan interpreteren die wordt verzonden. Een ZPL-indeling bevat een streepjescode die er bijvoorbeeld als volgt uitziet.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ U kunt zeer complexe labels afdrukken, op voorwaarde dat de afdrukapparatuur de 
 ^PQ1,,,Y^XZ
 ```
 
-Als onderdeel van het afdrukproces wordt de tekst `$LicensePlateId$` in dit voorbeeld vervangen door een gegevenswaarde.
+Als onderdeel van het afdrukproces wordt de tekst `$LicensePlateId$` in dit voorbeeld vervangen door een gegevenswaarde. Er zijn verschillende veelgebruikte hulpmiddelen voor het genereren van labels om helpen de tekst voor de labelindeling op te maken. Veel van deze hulpmiddelen ondersteunen de `$FieldName$`-indeling. Daarnaast gebruikt Microsoft Dynamics 365 Supply Chain Management speciale opmaaklogica als onderdeel van de veldtoewijzing voor de indeling van de documentroutering.
 
 Als u de waarden wilt weergeven die worden afgedrukt, gaat u naar **Magazijnbeheer \> Query's en rapporten \> Nummerplaatlabels**.
-
-Er zijn verschillende veelgebruikte hulpmiddelen voor het genereren van labels om helpen de tekst voor de labelindeling op te maken. Veel van deze hulpmiddelen ondersteunen de `$FieldName$`-indeling. Daarnaast gebruikt Microsoft Dynamics 365 Supply Chain Management speciale opmaaklogica als onderdeel van de veldtoewijzing voor de indeling van de documentroutering.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Deze functie inschakelen voor uw systeem
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Meer informatie over het afdrukken van labels
 
-Zie [Afdrukken van nummerplaatlabel inschakelen](tasks/license-plate-label-printing.md) voor meer informatie over het instellen en afdrukken van labels.
+Zie de volgende artikelen voor meer informatie over het instellen en afdrukken van labels:
 
+- [Nummerplaatlabels afdrukken](tasks/license-plate-label-printing.md)
+- [Containerlabels afdrukken](print-container-labels.md)
+- [Wavelabels afdrukken](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

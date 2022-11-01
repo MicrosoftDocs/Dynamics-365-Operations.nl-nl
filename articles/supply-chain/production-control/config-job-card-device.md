@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860720"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708612"
 ---
 # <a name="configure-job-card-for-devices"></a>Taakkaart configureren voor apparaten
 
@@ -73,7 +73,7 @@ Op het sneltabblad **Algemeen** kunt u de verschillende opties configureren die 
 - **Resourcegroep**: selecteer een resourcegroep die moet worden toegepast als standaard filtercriterium voor de lijst met taken die voor elke werknemer wordt weergegeven. Alleen taken die zijn gepland voor resources die zijn gegroepeerd onder de geselecteerde resourcegroep, worden eerst weergegeven door het apparaat. Als **Werknemers persoonlijke filters laten instellen** is ingeschakeld, kunnen werknemers deze waarde bewerken, anders wordt dit filter altijd toegepast wanneer de apparaatconfiguratie actief is.
 - **Resource**: selecteer een resource die moet worden toegepast als standaard filtercriterium voor de lijst met taken die voor elke werknemer wordt weergegeven. Alleen taken die zijn gepland voor voor de geselecteerde resource, worden eerst weergegeven door het apparaat. Als **Werknemers persoonlijke filters laten instellen** is ingeschakeld, kunnen werknemers deze waarde bewerken, anders wordt dit filter altijd toegepast wanneer de apparaatconfiguratie actief is.
 - **Nummerplaat genereren**: stel deze optie in op **Ja** om voor elke gereedmelding op het taakkaartapparaat een nieuwe nummerplaat te genereren. Het nummerplaatnummer wordt gegenereerd op basis van een nummerreeks die is ingesteld op de **pagina Parameters voor magazijnbeheer**. Wanneer de instelling is ingesteld op **Nee**, moeten werknemers een bestaande nummerplaat opgeven bij het gereedmelden.
-- **Label afdrukken**: stel deze optie in op **Ja** om een nummerplaatlabel af te drukken wanneer de werknemer het taakkaartapparaat gebruikt voor de gereedmelding. De configuratie van het label wordt ingesteld in de documentroutering, zoals wordt beschreven in de [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md).
+- **Label afdrukken**: stel deze optie in op **Ja** om een nummerplaatlabel af te drukken wanneer de werknemer het taakkaartapparaat gebruikt voor de gereedmelding. De configuratie van het label wordt ingesteld in de documentroutering, zoals wordt beschreven in [Labelindelingen voor documentroutering](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

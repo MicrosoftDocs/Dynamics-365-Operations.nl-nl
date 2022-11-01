@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864334"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713884"
 ---
 # <a name="configure-ledgers"></a>Grootboeken configureren
 
@@ -42,7 +42,7 @@ Elke rechtspersoon in Dynamics 365 Finance kan worden geconfigureerd voor het ge
 
 Als u meerdere rekeningstructuren hebt, kunt u alleen rekeningstructuren selecteren die geen overlappende combinaties van hoofdrekeningen en financiële dimensies hebben. Een van uw rekeningstructuren is bijvoorbeeld geconfigureerd om een bedrijfseenheid toe te voegen voor hoofdrekeningen tussen 1000 en 1999. In een andere rekeningstructuur hebt u een financiële dimensie voor de afdeling toegevoegd voor hoofdrekeningen die met 1 beginnen. In dit geval kan slechts één van de rekeningstructuren aan dezelfde rechtspersoon worden toegevoegd.
 
-Als u rekeningstructuren wilt configureren voor het grootboek, klikt u op de pagina **Grootboek** op het sneltabblad **Rekeningstructuren** op **Toevoegen**, selecteert u een rekeningstructuur in de lijst en vervolgens **Selecteren**. Het kan enkele minuten duren voordat de rekeningstructuren zijn toegevoegd en opgeslagen. De rekeningstructuren die u selecteert, moeten actief zijn. Anders zijn de details van de rekeningstructuren niet effectief in de rechtspersonen waaraan ze zijn gekoppeld.
+Als u rekeningstructuren wilt configureren voor het grootboek, klikt u op de pagina **Grootboek** op het sneltabblad **Rekeningstructuren** op **Toevoegen**, selecteert u een rekeningstructuur in de lijst en vervolgens **Selecteren**. Het zal enkele minuten duren voordat de rekeningstructuren zijn toegevoegd en opgeslagen. Wanneer de gewijzigde rekeningstructuur wordt opgeslagen in het grootboek, wordt begonnen met het synchroniseren van alle niet-geboekte transacties. U moet wachten tot de wijziging is voltooid voor het huidige grootboek in de rechtspersoon waarin de wijziging wordt aangebracht voordat u een rekeningstructuurwijziging kunt maken voor een grootboek in een andere rechtspersoon. De rekeningstructuren die u selecteert, moeten actief zijn. Anders zijn de details van de rekeningstructuren niet effectief in de rechtspersonen waaraan ze zijn gekoppeld.
 
 Als u een rekeningstructuur wilt verwijderen, selecteert u op het sneltabblad **Rekeningstructuren** op de pagina **Grootboek** de optie **Verwijderen**. Als u een rekeningstructuur uit het grootboek verwijdert, verwijdert u geen transacties die zijn geboekt met behulp van de configuratie van die rekeningstructuur.
 

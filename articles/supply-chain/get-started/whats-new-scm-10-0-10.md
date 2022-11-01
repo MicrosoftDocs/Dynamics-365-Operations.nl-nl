@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 62f771f6eda949f13536e700ef13a118881886ef
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: c377a910cca8bbf1fd640b6c9a99810be1a8d40f
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123525"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708689"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.10 (mei 2020)
 
@@ -39,7 +39,7 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 
 - [Verbeteringen in het beheer van binnenkomende ladingen voor magazijnbeheer](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Zie voor meer informatie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md).
 
-- [Verbeteringen in etiketten afdrukken voor magazijnbeheer](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Zie voor meer informatie [Indeling van documentroutering voor nummerplaatlabels](../warehousing/document-routing-layout-for-license-plates.md).
+- [Verbeteringen in etiketten afdrukken voor magazijnbeheer](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Zie voor meer informatie [Labelindelingen voor documentroutering](../warehousing/document-routing-layout-for-license-plates.md).
 
 - [Hoofdplanning bevat artikelen met voorhanden voorraad wanneer voorverwerkingsfilters zijn ingeschakeld](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 

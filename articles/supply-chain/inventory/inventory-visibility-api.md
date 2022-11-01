@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 14812fc201ba1038a78ea3317686dbe189ffa687
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423590"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719310"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Inventory Visibility
 
@@ -47,6 +47,7 @@ De volgende tabel bevat de API's die momenteel beschikbaar zijn:
 | /api/environment/{environmentId}/onhand/changeschedule/bulk | Boeken | [Meerdere geplande wijzigingen in de voorhanden hoeveelheid maken](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Boeken | [Een query uitvoeren met de post-methode](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Ophalen | [Een query uitvoeren met de get-methode](#query-with-get-method) |
+| /api/environment/{environmentId}/onhand/exactquery | Boeken | [Een exacte query uitvoeren met de post-methode](#exact-query-with-post-method) |
 | /api/environment/{environmentId}/allocation/allocate | Boeken | [Eén toewijzingsgebeurtenis maken](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/unallocate | Boeken | [Eén gebeurtenis voor ongedaan maken van toewijzing maken](inventory-visibility-allocation.md#using-allocation-api) |
 | /api/environment/{environmentId}/allocation/reallocate | Boeken | [Eén gebeurtenis voor opnieuw toewijzen maken](inventory-visibility-allocation.md#using-allocation-api) |
@@ -690,6 +691,80 @@ Hier is een voorbeeld van een get-URL. Deze get-aanvraag is exact hetzelfde als 
 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
+```
+
+### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>Een exacte query uitvoeren met de post-methode
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+In de hoofdtekst van deze aanvraag is `dimensionDataSource` een optionele parameter. Als deze parameter niet is ingesteld, worden `dimensions` in `filters` als *basisdimensies* beschouwd. Er zijn vier velden vereist voor `filters`: `organizationId`, `productId`, `dimensions` en `values`.
+
+- `organizationId` mag slechts één waarde bevatten, maar is nog steeds een matrix.
+- `productId` kan een of meer waarden bevatten. Als het een lege matrix is, worden alle producten geretourneerd.
+- In de `dimensions`-matrix zijn `siteId` en `locationId` vereist, maar ze kunnen in elke volgorde met andere elementen worden weergegeven.
+- `values` kan een of meer verschillende tuples van waarden bevatten die corresponderen met `dimensions`.
+
+`dimensions` in `filters` worden automatisch toegevoegd aan `groupByValues`.
+
+De parameter `returnNegative` bepaalt of de resultaten negatieve vermeldingen bevatten.
+
+In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": ["iv_postman_product"],
+        "dimensions": ["siteId", "locationId", "colorId"],
+        "values" : [
+            ["iv_postman_site", "iv_postman_location", "red"],
+            ["iv_postman_site", "iv_postman_location", "blue"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
+```
+
+Het volgende voorbeeld laat zien hoe u een query uitvoert op een meerdere sites en locaties.
+
+```json
+{
+    "filters": {
+        "organizationId": ["SCM_IV"],
+        "productId": [],
+        "dimensions": ["siteId", "locationId"],
+        "values" : [
+            ["iv_postman_site_1", "iv_postman_location_1"],
+            ["iv_postman_site_2", "iv_postman_location_2"],
+        ]
+    },
+    "groupByValues": ["colorId", "sizeId"],
+    "returnNegative": true
+}
 ```
 
 ## <a name="available-to-promise"></a>Available to promise
