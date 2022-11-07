@@ -692,20 +692,14 @@
               items:
                 - name: Instellingsproces van geavanceerde bankafstemming
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Het importproces voor geavanceerde bankafstemming instellen
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Het importproces voor geavanceerde bankafstemming instellen met Elektronische rapportage
                   href: accounts-payable/import-bai2-er.md
                 - name: Afstemmingsregels voor bankafstemming instellen
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Bankafschriften afstemmen via geavanceerde bankafstemming
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Geavanceerde bankafstemming MT940-import – Upgrade van samengestelde gegevensentiteit
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Overzicht van geavanceerde bankafstemming
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Probleemoplossing bij import van bankafschriftbestanden
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: De samengestelde entiteit voor het bankjournaal bijwerken
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Kostprijsboekhouding

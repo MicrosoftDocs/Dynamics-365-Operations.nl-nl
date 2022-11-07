@@ -256,8 +256,6 @@
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: De Commerce-technologiestack binnen de winkel moderniseren (whitepaper)
                   href: 'https://www.microsoft.com/download/details.aspx?id=103896'
-                - name: Offline Commerce-implementatie en probleemoplossing
-                  href: dev-itpro/implementation-considerations-offline.md
                 - name: Een online winkelcatalogus publiceren
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Power BI-inhoud voor Retail Channel Performance
@@ -396,12 +394,16 @@
                   items:
                     - name: Store Commerce-app
                       href: dev-itpro/store-commerce.md
+                    - name: Mogelijkheden van Store Commerce-app
+                      href: store-commerce-capabilities.md
                     - name: Store Commerce-app voor mobiele platformen
                       href: dev-itpro/store-commerce-mobile.md
                     - name: Modern POS migreren naar Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Implementatierichtlijnen voor apparaatbeheer
                       href: implementation-considerations-devices.md
+                    - name: Offline Commerce-implementatie en probleemoplossing
+                      href: dev-itpro/implementation-considerations-offline.md
                     - name: Kiezen tussen Store Commerce en Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Online en offline POS-bewerkingen

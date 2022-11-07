@@ -4,6 +4,18 @@
       items:
         - name: Startpagina van Dynamics 365 Human Resources
           href: index.md
+        - name: Samenvoegen van Human Resources-infrastructuur
+          items:
+            - name: Overzicht van samenvoegen van Human Resources-infrastructuur
+              href: hr-infrastructure-merge.md
+            - name: Migratie van klanten van Human Resources-infrastructuur
+              href: hr-cust-migration.md
+            - name: Veelgestelde vragen over samenvoegen van Human Resources-infrastructuur
+              href: hr-infrastructure-merge-faq.md
+            - name: Veelgestelde vragen over migratie van Human Resources-klanten
+              href: customer-migration.md
+            - name: Bekende problemen met samenvoegen van Human Resources-infrastructuur
+              href: hr-migration-issues.md
         - name: Nieuwe of gewijzigde functies
           items:
             - name: Nieuwe of gewijzigde functies in apps voor financiën en bedrijfsactiviteiten
@@ -242,10 +254,6 @@
                   href: hr-admin-go-live-prepare.md
                 - name: Veelgestelde vragen over go-live
                   href: hr-admin-go-live-faq.md
-                - name: Veelgestelde vragen over samenvoegen van Human Resources-infrastructuur
-                  href: hr-infrastructure-merge-faq.md
-                - name: Veelgestelde vragen over migratie van Human Resources-klanten
-                  href: customer-migration.md
                 - name: Documentatiebronnen
                   items:
                     - name: Help-systeem

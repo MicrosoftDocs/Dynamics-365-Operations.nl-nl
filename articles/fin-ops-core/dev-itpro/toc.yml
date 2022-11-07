@@ -328,18 +328,22 @@
                   href: deployment/cloud-deployment-overview.md
                 - name: Selfservice-implementatie
                   items:
-                    - name: Overzicht van Selfservice-implementatie
+                    - name: Overzicht van selfservice-implementatie
                       href: deployment/infrastructure-stack.md
                     - name: Een nieuwe omgeving implementeren
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Veelgestelde vragen over implementatie
                       href: deployment/deploymentFAQ.md
+                    - name: Een omgeving migreren
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Bekende problemen met selfservice-implementatie
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Onderhoudstaken voor implementaties
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Een omgeving bijwerken
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Een omgeving migreren
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Problemen oplossen met omgevingen die via selfservice-implementatie zijn geïmplementeerd
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Veelgestelde vragen over gepland onderhoud in selfserviceomgevingen
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Onboarding voor project
               href: lifecycle-services/project-onboarding.md
+            - name: Beheerder projectmigratie
+              href: lifecycle-services/project-migration-manager.md
             - name: Abonnementsschatting
               href: lifecycle-services/subscription-estimator.md
             - name: Beveiliging configureren

@@ -2231,14 +2231,24 @@
                   href: procurement/automatic-charges-allocation.md
                 - name: Leverancierskortingen
                   href: procurement/vendor-rebates.md
-            - name: Inkoopbeleid
+            - name: Aanschafbeleid
               items:
-                - name: Overzicht van inkoopbeleid
+                - name: Overzicht van aanschafbeleid
                   href: procurement/purchase-policies.md
-                - name: Een inkoopbeleid maken
+                - name: Aanschafbeleid maken
                   href: procurement/tasks/create-purchasing-policies.md
-                - name: Beleid instellen voor categoriehiërarchieën voor aanschaffing
+                - name: Beleid instellen voor hiërarchieën van aanschaffingscategorieën
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Beoordeling van leveringsrisico's
+              items:
+                - name: Overzicht van beoordeling van leveringsrisico's
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Beoordeling van leveringsrisico's configureren
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Bruikbare werkruimte voor het ontdekken en afhandelen van leveranciersrisico's
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Power BI-rapporten voor risicoanalyse en rangschikking van prestaties
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Productontvangsten en -facturering
               items:
                 - name: Productontvangst tegen inkooporders
