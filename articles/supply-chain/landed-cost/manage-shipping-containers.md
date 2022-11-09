@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906148"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725436"
 ---
 # <a name="manage-shipping-containers"></a>containers beheren
 
@@ -40,9 +40,9 @@ In de volgende tabel worden de knoppen beschreven die op het tabblad **Beheren**
 
 | Knop | Omschrijvingen |
 |---|---|
-| Ontvangstlijst boeken | Boek een ontvangstlijst of bekijk de productontvangstlijst voor alle inkooporderregels in de container. Als er zendingen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van een ontvangstlijst geopend voor elk bedrijf. |
+| Ontvangstlijst boeken | Boek een ontvangstlijst of bekijk de productontvangstlijst voor alle inkooporderregels in de container.  |
 | Productontvangstbon boeken | Boek een productontvangst voor alle inkooporderregels in de container. |
-| Factuur boeken | Boek een factuur voor alle inkooporderregels in de container. Als er zendingen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van facturen geopend voor elk bedrijf. |
+| Factuur boeken | Boek een factuur voor alle inkooporderregels in de container.  |
 | Verzenden overboekingsorders | Boek een overboekingsorderzending voor alle overboekingsorderregels in de container. Alleen de regels in de container van het type overboekingsorder worden in het dialoogvenster weergegeven. |
 | overboekingsorder ontvangen | Boek een overboekingsorderontvangst voor alle overboekingsorderregels in de container. Goederen in een container of transport kunt u het eenvoudigst ontvangen in het dialoogvenster Ontvangen en is een van de drie beschikbare opties. U kunt ook goederen ontvangen via ontvangstjournaals of verwerking via mobiele apparaten. |
 | Ontvangstjournaal maken | U kunt een ontvangstjournaal genereren voor organisaties met behulp van geavanceerde magazijnfuncties. De opties zijn _Hoeveelheid initialiseren_ (aanbevolen) en _Maken van goederen in transit_ of _Maken op basis van inkooporders_. De laatste twee opties zijn afhankelijk van of de verwerking van goederen in transit wordt gebruikt. |
@@ -56,8 +56,8 @@ In de volgende tabel worden de knoppen beschreven die op het tabblad **Algemeen*
 
 | Knop | Omschrijvingen |
 |---|---|
-| Ontvangstlijst | Boek een ontvangstlijst voor alle inkooporderregels in de container. Als er transporten naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van ontvangstlijsten geopend voor elk bedrijf. |
-| Productontvangst | Bekijk de productontvangstrecord als deze wordt gebruikt. Het proces voor productontvangsten wordt alleen gebruikt als voor de goederen niet de functionaliteit goederen in transit wordt gebruikt. |
+| Ontvangstlijst | Boek een ontvangstlijst voor alle inkooporderregels in de container.  |
+| Productontvangstbon | Bekijk de productontvangstrecord als deze wordt gebruikt. Het proces voor productontvangsten wordt alleen gebruikt als voor de goederen niet de functionaliteit goederen in transit wordt gebruikt. |
 | Artikelontvangst | Bekijk het artikelontvangstjournaal voor de container, als dat journaal wordt gebruikt. |
 | Etappes | Etappes worden gebruikt om afzonderlijke delen van een traject te identificeren. Aan elke etappe kunnen doorlooptijden worden gekoppeld om zendingen beter te kunnen traceren. Zie [Instellen van trajecten met meerdere etappes](multi-leg-journey-setup.md) voor meer informatie. |
 | Tracering | Bekijk de tracering van zendingen of werk ze bij. |

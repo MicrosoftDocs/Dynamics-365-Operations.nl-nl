@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281449"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734242"
 ---
 # <a name="order-lookup-module"></a>Module voor het opzoeken van orders
 
@@ -44,6 +44,12 @@ In de volgende afbeelding ziet u een voorbeeld van het formulier dat wordt weerg
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Een module voor het opzoeken van orders aan een pagina toevoegen
 
 De module voor het opzoeken van orders kan worden toegevoegd aan de hoofdtekst van elke pagina van uw e-commercesite. Als u de module voor het opzoeken van orders wilt gebruiken om het opzoeken van orders voor gastbetalingen in te schakelen, moet u de module toevoegen aan een pagina waarvoor de gebruiker niet hoeft te zijn aangemeld. Als u de instelling **Aanmelden vereist?** van een pagina wilt opzoeken in de structuurweergave van Commerce Site Builder, selecteert u de **Standaardpagina (vereist)** en kijkt u onder in het rechterdeelvenster.
+
+
+> [!NOTE]
+> Als u de functie voor het opzoeken van orders wilt inschakelen, moet u ervoor zorgen dat de sleutel **Offertes** is ingeschakeld onder **Licentieconfiguratie** > **Configuratiesleutels**.
+>
+> ![De configuratie van de licentiesleutel voor offertes moet zijn ingeschakeld](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

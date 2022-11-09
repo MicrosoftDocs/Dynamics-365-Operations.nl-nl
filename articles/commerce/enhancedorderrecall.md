@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869457"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734289"
 ---
 # <a name="recall-order-operation-in-pos"></a>Bewerking Order intrekken in POS
 
@@ -65,5 +65,11 @@ Via de Appbar kan een gebruiker een bewerking selecteren. Afhankelijk van de sta
 ## <a name="add-notifications-to-the-recall-order-operation"></a>Meldingen toevoegen aan de bewerking Order intrekken
 
 In versie 10.0.18 en hoger kunt u POS-meldingen configureren en indien nodig waarschuwingen live maken voor de bewerking **Order intrekken**. Zie [Meldingen over orders op het verkooppunt (POS) weergeven](notifications-pos.md) voor meer informatie.  
+
+> [!NOTE]
+> Als u de functie voor het opzoeken van orders wilt inschakelen, moet u ervoor zorgen dat de sleutel **Offertes** is ingeschakeld onder **Licentieconfiguratie** > **Configuratiesleutels**.
+>
+> ![De configuratie van de licentiesleutel voor offertes moet zijn ingeschakeld](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

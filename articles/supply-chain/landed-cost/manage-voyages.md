@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905858"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725464"
 ---
 # <a name="manage-voyages"></a>Reizen beheren
 
@@ -29,7 +29,8 @@ Een reis vertegenwoordigt doorgaans een vaartuig. Afhankelijk van uw werkwijzen 
 De pagina **Alle reizen** biedt details over reizen, levering en informatie over kostprijsberekening en informatie over artikelen, inkooporders en overboekingsorders. U opent de pagina **Alle reizen** door naar **Francoprijzen \> Reizen \> Alle reizen** te gaan. Op deze pagina wordt een lijst met alle huidige reizen weergegeven. U kunt de knoppen in het actievenster gebruiken om reizen te maken, te verwijderen en met reizen te werken. Selecteer een reis in de lijst om de details van de reis weer te geven.
 
 > [!NOTE]
-> containers en folio's zijn aan een reis gekoppeld. Inkoopregels zijn aan een container gekoppeld. Als containers en folio's zijn uitgeschakeld, kunnen ze ook rechtstreeks aan een reis worden gekoppeld. Bovendien worden kosten die hier worden ingevoerd, verdeeld over alle gekoppelde inkoopregels.
+> containers en folio's zijn aan een reis gekoppeld. Inkoopregels zijn aan een container gekoppeld. Bovendien worden kosten die hier worden ingevoerd, verdeeld over alle gekoppelde inkoopregels.
+> Projectinkooporder wordt niet ondersteund in Francoprijzen.
 
 ## <a name="action-pane"></a>Actievenster
 

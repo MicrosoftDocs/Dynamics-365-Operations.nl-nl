@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905887"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725472"
 ---
 # <a name="manage-folios"></a>Folio's beheren
 
@@ -48,9 +48,9 @@ In de volgende tabel worden de knoppen beschreven die op het tabblad **Beheren**
 
 | Knop | Beschrijving |
 |---|---|
-| Ontvangstlijst boeken | Boek een ontvangstlijst voor alle inkooporderregels in het folio. Als er zendingen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van een ontvangstlijst geopend voor elk bedrijf. |
-| Productontvangstbon boeken | Boek een productontvangstbon voor alle inkooporderregels in het folio. Als er transporten naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van productontvangsten geopend voor elk bedrijf. |
-| Factuur boeken | Boek een factuur voor alle inkooporderregels in het folio. Als er transporten naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van facturen geopend voor elk bedrijf. |
+| Ontvangstlijst boeken | Boek een ontvangstlijst voor alle inkooporderregels in het folio.  |
+| Productontvangstbon boeken | Boek een productontvangstbon voor alle inkooporderregels in het folio. |
+| Factuur boeken | Boek een factuur voor alle inkooporderregels in het folio.  |
 | Verzenden overboekingsorders | Boek een overboekingsorder voor alle overboekingsorderregels die betrekking hebben op het huidige folio in de gerelateerde zending. |
 | overboekingsorder ontvangen | Boek een overboekingsorderontvangst voor alle overboekingsorderregels die betrekking hebben op het huidige folio in de gerelateerde zending. |
 | Goederen in transit ontvangen | Ontvang alle orderregels die in transit zijn in het folio. |
@@ -65,8 +65,8 @@ In de volgende tabel worden de knoppen beschreven die op het tabblad **Algemeen*
 
 | Knop | Beschrijving |
 |---|---|
-| Ontvangstlijst | Boek een ontvangstlijst voor alle inkooporderregels in het folio. Als er transporten naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van ontvangstlijsten geopend voor elk bedrijf. |
-| Ontvangst van producten | Bekijk de productontvangstrecord als deze wordt gebruikt. |
+| Ontvangstlijst | Boek een ontvangstlijst voor alle inkooporderregels in het folio.  |
+| Productontvangstbon | Bekijk de productontvangstrecord als deze wordt gebruikt. |
 | Artikelontvangst | Bekijk het artikelontvangstjournaal, als het is gebruikt. |
 | Vraag naar kostenposten | Open de querypagina voor kosten om alle kosten van een transport weer te geven, inclusief de container, folio en inkooporder. U kunt de exacte weergave van de pagina aanpassen met de actie Weergeven. Op de querypagina voor kosten kunt u alle gebieden weergeven, plus het artikel en de kostentypecode. Als u deze artikelen verwijdert, kunt u de pagina aanpassen door kosten te groeperen. Deze mogelijkheid kan handig zijn als u afmetingen en kleuren gebruikt. U kunt de dimensies wijzigen die op de pagina worden weergegeven. Op de pagina **Kosten** worden alleen kostentypecodes weergegeven waarbij de vermelding **Dr** op het tabblad **Boeking** is ingesteld *Artikel*. |
 

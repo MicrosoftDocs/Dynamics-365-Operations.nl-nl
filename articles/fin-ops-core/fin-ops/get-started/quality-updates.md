@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689198"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731605"
 ---
 # <a name="proactive-quality-updates"></a>Proactieve kwaliteitsupdates
 
@@ -40,13 +40,13 @@ Er zijn al meerdere stappen geïmplementeerd die proactieve kwaliteitsupdates mo
 
 - **Updates bijna zonder downtime**: voor frequent gebruikte omgevingen is het van groot belang dat de impact op de beschikbaarheid wordt verminderd om de Dynamics 365 Service Level Agreements (SLA) te behouden. Updates bijna zonder downtime waren oorspronkelijk bedoeld om de maandelijkse patches van besturingssystemen te verbeteren door een clusterfailover te gebruiken om de bijgewerkte installatiekopie met minimale onderbreking te activeren. Het mechanisme voor het toepassen van updates wordt verbeterd, met nog minder verstoringen en met zowel patches van het besturingssysteem als de implementatie van kwaliteitsupdates.
 
-    Voor interactieve gebruikers kan een actieve sessie worden onderbroken en gaat de nieuwe poging naar de nu bijgewerkte omgeving. Met de introductie van [batchplanning op basis van prioriteit](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), die nu beschikbaar is op basis van een opt-in, worden batchplanning en -verwerking onmiddellijk na de update hersteld en hervat. Batchplanning op basis van prioriteit vindt plaats voor klanten voordat deze gaan deelnemen aan de proactieve distributie van kwaliteitsupdates voor de productieomgevingen.
+Voor interactieve gebruikers kan een actieve sessie worden onderbroken en gaat de nieuwe poging naar de nu bijgewerkte omgeving. Met de introductie van [batchplanning op basis van prioriteit](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), worden batchplanning en -verwerking onmiddellijk na de update hersteld en hervat. Batchplanning op basis van prioriteit vindt plaats voor klanten voordat deze gaan deelnemen aan de proactieve distributie van kwaliteitsupdates voor de productieomgevingen.
 
 - **Niet-actieve uren**: er worden niet-actieve uren gedefinieerd voor elke Azure-regio waarin de updates met bijna geen downtime worden uitgevoerd.
 
 ## <a name="the-proactive-update-process"></a>Het proactieve updateproces
 
-De implementatie van proactieve kwaliteitsupdates volgt een veilig implementatieproces (SDP). De details van de SDP worden nog verder ontwikkeld, maar kwaliteitsupdates worden in eerste instantie geïmplementeerd in sandbox-omgevingen. Het proces begint met omgevingen die kiezen voor vroege implementatie. Wanneer het percentage van met succes geïmplementeerde sandboxes toeneemt, wordt de implementatie naar productieomgevingen begonnen. Het proces begint dan ook weer met omgevingen die kiezen voor vroege implementatie. Met luisterende systemen worden de systeemtelemetrie en live incidenten op de site gecontroleerd en wordt de uitrol van een specifieke versie gestopt als een terugval wordt gedetecteerd. Klanten kunnen de kwaliteitsupdates zo nodig naar voren halen voorafgaand aan de proactieve implementatie.
+De implementatie van proactieve kwaliteitsupdates volgt een veilig implementatieproces (SDP). De details van de SDP worden nog verder ontwikkeld, maar kwaliteitsupdates worden in eerste instantie geïmplementeerd in sandbox-omgevingen. Wanneer het percentage van met succes geïmplementeerde sandboxes toeneemt, wordt de implementatie naar productieomgevingen begonnen. Met luisterende systemen worden de systeemtelemetrie en live incidenten op de site gecontroleerd en wordt de uitrol van een specifieke versie gestopt als een terugval wordt gedetecteerd. Klanten kunnen de kwaliteitsupdates zo nodig naar voren halen voorafgaand aan de proactieve implementatie.
 
 Uit huidige releasebeheergegevens blijkt dat er van minder dan 3 procent regressie sprake is in kwaliteitsupdates. Met een grotere focus op het voorkomen van regressie en een verbeterde SDP is de mogelijke impact van regressies veel lager dan de kwaliteitswinsten die worden behaald door correcties globaal sneller aan klanten te leveren.
 
@@ -92,13 +92,13 @@ Zie [Wat zijn de geplande onderhoudsvensters per regio?](../../dev-itpro/deploym
 **App-versie: 10.0.1326.70**
 **Bijbehorend meest recente KB-artikel: 748926**
 
-| Station | Regio's | Aankomende sandbox-planning
-|---|---|---|
-| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 14 oktober tot en met 17 oktober 2022 |
-| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 15 oktober tot en met 18 oktober 2022 |
-| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 16 oktober tot en met 19 oktober 2022 |
-| Station 4 | Europa - noord, VS - centraal, VS - west | 17 oktober tot en met 20 oktober 2022 |
-| Station 5 | DoD, Government Community Cloud, China | Niet gepland |
+| Station | Regio's | Voltooide planning | Aankomende sandbox-planning|
+|---|---|---|---|
+| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 14 oktober tot en met 17 oktober 2022 | 2 november tot en met 5 november 2022 |
+| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 15 oktober tot en met 18 oktober 2022 | 2 november tot en met 5 november 2022 |
+| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 16 oktober tot en met 19 oktober 2022 | 2 november tot en met 5 november 2022 |
+| Station 4 | Europa - noord, VS - centraal, VS - west | 17 oktober tot en met 20 oktober 2022 | 2 november tot en met 5 november 2022 |
+| Station 5 | DoD, Government Community Cloud, China | Niet gepland | Niet gepland |
 
 > [!IMPORTANT] 
 > Vijf dagen van tevoren zal Microsoft het voorgaande schema bijwerken en e-mailmeldingen verzenden naar de set omgevingen die staan gepland voor het ontvangen van deze kwaliteitsupdates. Het vorige schema is alleen van toepassing op omgevingen die op de hoogte zijn gebracht van een aankomende update. Zie [Wat zijn de geplande onderhoudsvensters per regio?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) voor nformatie over de niet-actieve uren voor elke regio.

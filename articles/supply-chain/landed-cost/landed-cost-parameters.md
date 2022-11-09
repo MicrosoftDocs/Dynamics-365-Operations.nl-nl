@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871973"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725516"
 ---
 # <a name="landed-cost-parameters-setup"></a>Instellen van parameters voor francoprijzen
 
@@ -125,14 +125,11 @@ De instellingen op dit tabblad bepalen de standaarddimensies voor elke aangeweze
 
 Op het tabblad **Nummerreeksen** van de pagina **Parameters voor francoprijzen wordt elk type referentienummerreeks weergegeven dat Francoprijzen** is vereist, maar die worden niet door rechtspersonen gedeeld. Selecteer een nummerreekscode voor elke referentie in de lijst.
 
-> [!NOTE]
-> In een configuratie voor meerdere bedrijven moeten voor elk bedrijf (rechtspersoon) verschillende nummerreeksen worden gemaakt.
 
 ## <a name="shared-number-sequences-tab"></a>Tabblad Gedeelde nummerreeksen
 
 Op het tabblad **Gedeelde nummerreeksen** van de pagina **Parameters voor francoprijzen wordt elk type referentienummerreeks weergegeven dat door rechtspersonen voor Francoprijzen** wordt gedeeld. Momenteel bevat de lijst slechts één nummerreeks. Deze nummerreeks wordt gebruikt voor de reis-is.
 
-Op de pagina **Alle reizen** kunnen gebruikers alle reizen voor alle rechtspersonen bekijken. Voor het bewerken en verwerken van een reis moeten gebruikers zich echter in de rechtspersoon van de geselecteerde record bevinden.
 
 ## <a name="feature-visibility-tab"></a>Tabblad Functiezichtbaarheid
 

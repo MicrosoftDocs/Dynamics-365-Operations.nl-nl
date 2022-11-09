@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a6f883da07bd1d3a6b0379f1582dc8556e166ff
-ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
+ms.openlocfilehash: 0e11d26ebe084762a8616c8aa0aa041a87306473
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151078"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734353"
 ---
 # <a name="human-resources-customer-migration"></a>Human Resources-klantmigratie
 
@@ -40,7 +40,7 @@ Klanten die andere apps in de infrastructuur voor financiën en bedrijfsactivite
 De overgang voor elk bedrijf is afhankelijk van de huidige configuratie van dat bedrijf en de gereedheid om naar de infrastructuur voor financiën en bedrijfsactiviteiten over te stappen. Klanten worden aangeraden samen met hun Microsoft-partner het beste pad vooruit te bepalen.
 
 - Organisaties die de module **Human Resources** gebruiken in Dynamics 365 Finance kunnen nieuwe mogelijkheden van Dynamics 365 Human Resources inschakelen als onderdeel van het normale One Version-updateproces. Volgens planning zullen vanaf januari 2022 nieuwe functies algemeen beschikbaar komen.
-- Organisaties die gebruik maken van Dynamics 365 Human Resources, hebben toegang tot hulpmiddelen die ze kunnen gebruiken om de infrastructuursamenvoeging te voltooien. Microsoft werkt samen met klanten aan de overgang om enige onderbreking in de service te voorkomen. Klanten hebben 12 tot 18 maanden de tijd om de overgang te maken, te beginnen vanaf het moment waarop de migratiehulpmiddelen beschikbaar komen.
+- Organisaties die gebruik maken van Dynamics 365 Human Resources, hebben toegang tot hulpmiddelen die ze kunnen gebruiken om de infrastructuursamenvoeging te voltooien. Microsoft werkt samen met klanten aan de overgang om enige onderbreking in de service te voorkomen. Klanten hebben 12 maanden de tijd om de overgang te maken, te beginnen vanaf het moment waarop de migratiehulpmiddelen beschikbaar komen.
 - Organisaties die gebruikmaken van zowel Dynamics 365 Human Resources als de module **Human Resources**, kunnen hun eigen Human Resources-infrastructuur verplaatsen naar de infrastructuur voor financiën en bedrijfsactiviteiten. Een andere optie is de samenvoeghulpmiddelen te gebruiken om de omgevingen in één omgeving samen te brengen. Er is geen vereiste of tijdsbestek voor het samenvoegen van de twee omgevingen.
 
 Controleer de [Releaseplannen](/dynamics365/release-plans/) regelmatig voor bijgewerkte informatie.
@@ -166,4 +166,4 @@ Microsoft is nog steeds aan het bepalen welke hulpprogramma's en resources via F
 
 ## <a name="licensing-impact"></a>Licentie-impact
 
-Zie [Veelgestelde vragen over Dynamics 365 Human Resources-infrastructuursamenvoeging](hr-infrastructure-merge-faq.md#licensing-impact) voor meer informatie over de gevolgen voor licenties.
+Zie [Dynamics 365 Human Resources-infrastructuursamenvoeging](hr-infrastructure-merge.md#licensing) voor meer informatie over de gevolgen voor licenties.

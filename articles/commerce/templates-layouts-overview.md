@@ -2,7 +2,7 @@
 title: Overzicht sjablonen en indelingen
 description: In dit artikel worden sjablonen en indelingen in Microsoft Dynamics 365 Commerce besproken.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277928"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733379"
 ---
 # <a name="templates-and-layouts-overview"></a>Overzicht sjablonen en indelingen
 
@@ -66,7 +66,13 @@ De sjabloon in dit voorbeeld definieert een eenvoudige structuur en een set opti
 
 Een belangrijke stap voor locatie- en merkbeheerders is het bepalen van het juiste evenwicht tussen beperking en flexibiliteit voor onderliggende indelingen en auteurs van pagina's. Wanneer u sjablonen gebruikt, is deze balans volledig configureerbaar. Het bepaalt of pagina-elementen centraal worden bijgewerkt (vergrendeld in de sjabloon) of op afzonderlijke onderliggende niveaus die lager in de paginahiërarchie staan.
 
-Als u sjablonen wilt gaan gebruiken, leest u [Werken met sjablonen](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Relatie tussen standaardwaarden voor sjablonen en pagina-inhoud
+
+De primaire functie van een sjabloon is het stroomlijnen van de ervaring van het maken van een module bij het maken van een pagina. Zelfs wanneer de standaardinstellingen van de module in een sjabloon zijn ingesteld of zelfs vergrendeld, bestaat er geen gegevensverbinding meer vanuit de moduleconfiguraties van een pagina met de sjablooninstellingen, behalve wanneer de pagina wordt bewerkt. Sjablonen bepalen de ontwerpervaring voor de paginastructuur. Nadat een pagina is gemaakt, zijn de standaardsjabloonwaarden niet langer gekoppeld aan de lokaliseerbare inhoud op die pagina. Met andere woorden, de standaardinstellingen van de module die zijn ingesteld in een sjabloon bepalen de ontwerpervaring voor onderliggende pagina's. Ze hebben geen controle over de inhoud op die pagina's nadat de pagina's zijn gemaakt en bewerkt.
+
+De enige uitzondering op het eerder beschreven gedrag treedt op wanneer een [fragment](work-with-fragments.md) aan een sjabloon wordt toegevoegd. U kunt fragmenten gebruiken om op elk moment dynamisch lokaliseerbare inhoud toe te voegen aan of te bewerken op de onderliggende pagina's van een sjabloon of indeling, zelfs nadat een groot aantal pagina's is gemaakt op basis van een bepaalde sjabloon. Het is aan te raden om fragmenten in sjablonen en indelingen te gebruiken wanneer lokaliseerbare inhoud dynamisch moet worden toegevoegd, verwijderd of bewerkt voor alle onderliggende pagina's. U moet bijvoorbeeld fragmenten gebruiken voor kopteksten, voetteksten, algemene metagegevens/scripts of andere inhoud die centraal bewerkbaar moet zijn en hetzelfde moet zijn op alle onderliggende pagina's. Met fragmenten kunt u de inhoud van alle onderliggende pagina's beheren via sjablonen en indelingen.
+
+Zie [Werken met sjablonen](work-with-templates.md) als u sjablonen wilt gaan gebruiken.
 
 ## <a name="layouts"></a>Indelingen
 
@@ -96,7 +102,7 @@ Indelingen op uw site kunnen *vooraf worden ingesteld* of worden *aangepast*:
 
 Vooraf gedefinieerde indelingen en aangepaste indelingen worden in verschillende delen van de ontwerpfunctieset bewerkt. Aangezien aangepaste indelingen geen afhankelijkheden hebben voor andere pagina's, worden ze rechtstreeks in de pagina-editor bewerkt. In dit geval is het bestaan van een indeling grotendeels transparant voor de gebruiker en wordt deze alleen weergegeven in de eigenschappen op paginaniveau en via de acties voor indelingsopties. Aangezien wijzigingen in vooraf ingestelde indelingen echter van invloed kunnen zijn op veel onderliggende pagina's, moeten ze worden bewerkt in de indelingseditor, waarbij de publicatieacties van invloed zijn op alle onderliggende pagina's.
 
-In de volgende illustraties ziet u scenario's voor vooraf ingestelde en aangepaste indelingen.
+In de volgende illustratie ziet u scenario's voor vooraf ingestelde en aangepaste indelingen.
 
 ![Vooraf ingestelde en aangepaste indelingsscenario's.](../commerce/media/template-figure1.png)
 

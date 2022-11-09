@@ -2,7 +2,7 @@
 title: Online en offline verkooppuntbewerkingen (POS)
 description: Dit artikel bevat meer informatie over POS-bewerkingen (Point Of Sale) in Dynamics 365 Commerce. Hier wordt aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn in de offlinemodus.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272844"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728271"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -101,7 +101,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 212  | Informatie over wagenparkkaart                                   | Deze bewerking wordt niet ondersteund.                                                                                                                                                                                | Niet van toepassing | Niet van toepassing     | Niet van toepassing | Niet van toepassing    | Niet van toepassing  |
 | 213  | Betalen met creditnota                                   | Een creditnota accepteren (boekstuk) die door de winkel is uitgegeven.                                                                                                                                                          | Ja            | Ja                | Nr.             | Nr.                | Nr.              |
 | 214  | Betalen met geschenkbon                                     | Een door de winkel uitgegeven geschenkbon accepteren.                                                                                                                                                                      | Ja            | Ja                | Nr.             | Nr.                | Nr.              |
-| 215  | Contant geld voor geschenkbon                                | Deze bewerking wordt niet ondersteund.                                                                                                                                                                                | Ja            | Ja                | Nr.             | Nr.                | Nr.              |
+| 215  | Contant geld voor geschenkbon                                | Credittransactie met het volledige resterende saldo van de geschenkkaart als dit binnen de geconfigureerde uitbetalingslimiet valt.                                                                                                                                                                              | Ja            | Ja                | Nr.             | Nr.                | Nr.              |
 | 216  | Exact betalen met kaart                                    | Deze bewerking wordt niet ondersteund.                                                                                                                                                                                | Niet van toepassing | Niet van toepassing     | Niet van toepassing | Niet van toepassing    | Niet van toepassing  |
 | 217  | Exact betalen met cheque                                   | Deze bewerking wordt niet ondersteund.                                                                                                                                                                                | Niet van toepassing | Niet van toepassing     | Niet van toepassing | Niet van toepassing    | Niet van toepassing  |
 | 218  | Exact betalen met klantrekening                        | Deze bewerking wordt niet ondersteund.                                                                                                                                                                                | Niet van toepassing | Niet van toepassing     | Niet van toepassing | Niet van toepassing    | Niet van toepassing  |
