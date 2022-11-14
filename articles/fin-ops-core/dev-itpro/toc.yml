@@ -488,7 +488,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Omschrijvingen van taal en landinstelling in verschillende producten en Help
                   href: help/language-locale.md
-                - name: 'De Help uitbreiden, aanpassen en samenwerken'
+                - name: De Help uitbreiden en samenwerken
                   href: help/contributor-guide.md
             - name: Regionale services voor apps voor financiën en bedrijfsactiviteiten
               items:
@@ -1314,17 +1314,17 @@
                   href: mobile-apps/platform/form-design-requirements.md
             - name: Algemene taken
               items:
-                - name: Werkgebieden configureren met behulp van de klasse SysAppWorkspace
+                - name: werkruimten configureren met behulp van de klasse SysAppWorkspace
                   href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
                 - name: Velden op mobiele app-pagina's maken waarop kan worden geklikt
                   href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
                 - name: Totalen in velden weergeven
                   href: mobile-apps/platform/scenarios/display-count-workspace.md
-                - name: Mobiele werkgebieden helpen beveiligen
+                - name: Mobiele werkruimten helpen beveiligen
                   href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-                - name: Mobiele werkgebieden lokaliseren
+                - name: Mobiele werkruimten lokaliseren
                   href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
-                - name: Velden verplicht maken met behulp van klassen voor werkgebieden
+                - name: Velden verplicht maken met behulp van klassen voor werkruimten
                   href: mobile-apps/platform/scenarios/make-field-mandatory.md
             - name: Referentiemateriaal voor serverontwikkeling
               items:
@@ -1624,6 +1624,10 @@
               href: sysadmin/DataMaintenancePortal.md
             - name: Toegang tot netwerkprinters voor rechtspersonen beheren
               href: sysadmin/sys-admin-tools-network-printer.md
+            - name: Bewaking en telemetrie met behulp van Application Insights
+              items:
+                - name: Overzicht
+                  href: sysadmin/monitoring-and-telemetry-appinsights.md
             - name: Beveiliging
               items:
                 - name: Op rollen gebaseerde beveiliging
@@ -2038,11 +2042,11 @@
                   href: user-interface/extensible-controls-layout.md
                 - name: De tekst bepalen die Taakrecorder genereert voor een besturingselement
                   href: user-interface/task-recorder-control-text.md
-            - name: Werkgebieden maken
+            - name: werkruimten maken
               items:
-                - name: Operationele werkgebieden maken
+                - name: Operationele werkruimten maken
                   href: user-interface/build-workspaces.md
-                - name: Caching tegel en lijst voor werkgebieden
+                - name: Caching tegel en lijst voor werkruimten
                   href: user-interface/tile-list-caching-workspaces.md
             - name: Taakrecorder
               items:

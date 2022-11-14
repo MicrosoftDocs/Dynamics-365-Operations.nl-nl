@@ -140,7 +140,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?context=/dynamics365/context/supply-chain
                 - name: Geavanceerde filter- en querysyntaxis
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?context=/dynamics365/context/supply-chain
-                - name: Werkgebieden configureren en filteren
+                - name: werkruimten configureren en filteren
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?context=/dynamics365/context/supply-chain
                 - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?context=/dynamics365/context/supply-chain
@@ -384,7 +384,7 @@
                       href: ../finance/localizations/rus-goods-transit-vendor.md?context=/dynamics365/context/supply-chain
         - name: Gedistribueerde hybride topologie
           items:
-            - name: De capaciteit voor schaaleenheden is momenteel onderbroken voor nieuwe klanten
+            - name: De capaciteit voor schaaleenheden voor Supply Chain Management is momenteel onderbroken
               href: cloud-edge/cloud-edge-landing-page.md
         - name: Activabeheer
           items:
@@ -841,7 +841,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?context=/dynamics365/context/supply-chain
                 - name: Power BI-inhoud vastmaken
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?context=/dynamics365/context/supply-chain
-                - name: Analytische werkgebieden selecteren vanuit Power BI
+                - name: Analytische werkruimten selecteren vanuit Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?context=/dynamics365/context/supply-chain
             - name: Power BI-inhoud
               items:
@@ -857,13 +857,13 @@
                   href: ../fin-ops-core/dev-itpro/analytics/production-performance-power-bi.md?context=/dynamics365/context/supply-chain
                 - name: Magazijnprestaties
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?context=/dynamics365/context/supply-chain
-            - name: Analytische werkgebieden
+            - name: Analytische werkruimten
               items:
-                - name: Analytische werkgebieden (met Power BI Embedded)
+                - name: Analytische werkruimten (met Power BI Embedded)
                   href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?context=/dynamics365/context/supply-chain
                 - name: Integratie met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?context=/dynamics365/context/supply-chain
-                - name: Ingesloten rapporten in Analytische werkgebieden aanpassen
+                - name: Ingesloten rapporten in Analytische werkruimten aanpassen
                   href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?context=/dynamics365/context/supply-chain
             - name: Documenten rapporteren en afdrukken
               items:
@@ -913,9 +913,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?context=/dynamics365/context/supply-chain
                 - name: Analytische rapporten maken met PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?context=/dynamics365/context/supply-chain
-                - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
+                - name: Analyses aan werkruimten toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?context=/dynamics365/context/supply-chain
-                - name: Analytische werkgebieden en rapporten beveiligen met Power BI Embedded
+                - name: Analytische werkruimten en rapporten beveiligen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?context=/dynamics365/context/supply-chain
                 - name: Rapportageoplossingen maken
                   href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?context=/dynamics365/context/supply-chain
@@ -1753,36 +1753,54 @@
           items:
             - name: Startpagina van Hoofdplanning
               href: master-planning/master-planning-home-page.md
-            - name: Migratie naar Planningsoptimalisatie voor Hoofdplanning
-              href: master-planning/new-master-planning-engine.md
-            - name: Planningsoptimalisatie
+            - name: Aan de slag met hoofdplanning
+              href: master-planning/planning-optimization/get-started.md
+            - name: Systeemarchitectuur voor hoofdplanning
+              href: master-planning/master-planning-architecture.md
+            - name: Hoofdplanningsbeheer
               items:
-                - name: Overzicht van Planningsoptimalisatie
-                  href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Aan de slag met Planningsoptimalisatie
-                  href: master-planning/planning-optimization/get-started.md
                 - name: Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
                   href: master-planning/planning-optimization/release-process.md
-                - name: Analyse aanpassen aan Planningsoptimalisatie
-                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
-                - name: Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
-                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
-                - name: Parameters die niet worden gebruikt door Planningsoptimalisatie
-                  href: master-planning/planning-optimization/not-used-parameters.md
-                - name: Voorraadplanning
-                  href: master-planning/supply-schedule.md
-                - name: Filters op een plan toepassen
-                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Problemen met Planningsoptimalisatie oplossen
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Fout 'Onvoldoende capaciteit gevonden' in planningsengine oplossen
+                  href: master-planning/not-enough-capacity-error-resolution.md
+                - name: Een planningstaak annuleren
+                  href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Uitbreidbaarheid van Planningsoptimalisatie
+                  href: master-planning/planning-optimization/extensibility.md
+                - name: Planhistorie en planningslogboeken weergeven
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Datum- en tijdparameters die niet worden gebruikt door Planningsoptimalisatie
+                  href: master-planning/planning-optimization/date-time-used.md
+            - name: Hoofdplanning configureren
+              items:
+                - name: Vertragingen
+                  href: master-planning/delays.md
+                - name: Tracering gebruiken voor explosie
+                  href: master-planning/trace-explosion.md
+                - name: Aanbodautomatisering voor maken-naar-order
+                  href: master-planning/make-to-order-supply-automation.md
+                - name: Negatieve dagen en dynamische negatieve dagen
+                  href: master-planning/more-about-dynamic-negative-days.md
+                - name: Agenda's en hoofdplanning
+                  href: master-planning/supply-chain-calendars-master-planning.md
+                - name: Een planning voor een vestiging maken
+                  href: master-planning/tasks/create-schedule-site.md
+                - name: Een plan voor een vestiging maken
+                  href: master-planning/tasks/create-plan-site.md
                 - name: Hoofdplanning met vraagprognoses
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Hoofdplanning met aanbodprognoses
                   href: master-planning/planning-optimization/supply-forecast.md
+                - name: Voorraadschema
+                  href: master-planning/supply-schedule.md
+                - name: Planning uitvoeren voor een subset van artikelen
+                  href: master-planning/planning-optimization/plan-filters.md
                 - name: Hoofdplanning met inkoophandelsovereenkomsten
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Plannen op basis van offertes en offerteaanvragen
                   href: master-planning/planning-optimization/quotation-planning.md
-                - name: Datum- en tijdparameters die niet worden gebruikt door Planningsoptimalisatie
-                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Veiligheidsmarges
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Vertragingstolerantie (negatieve dagen)
@@ -1799,130 +1817,82 @@
                   href: master-planning/planning-optimization/finite-capacity.md
                 - name: Plannen met resourceselectie op basis van capaciteit
                   href: master-planning/planning-optimization/capability-based-scheduling.md
-                - name: Op prioriteit gebaseerde planning
-                  href: master-planning/planning-optimization/priority-based-planning.md
-                - name: DDMRP (Demand Driven Material Requirements Planning)
-                  items:
-                    - name: DDMRP-overzicht
-                      href: master-planning/planning-optimization/ddmrp-overview.md
-                    - name: De DDMRP-functie voor uw systeem inschakelen
-                      href: master-planning/planning-optimization/ddmrp-enable.md
-                    - name: Voorraadpositionering
-                      href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
-                    - name: Bufferprofiel en -niveaus
-                      href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
-                    - name: Vraaggestuurde planning
-                      href: master-planning/planning-optimization/ddmrp-planning.md
-                    - name: Visuele en op samenwerking gerichte uitvoering
-                      href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
-                - name: Voorraadmarkering met Planningsoptimalisatie
+                - name: Voorraad markeren
                   href: master-planning/planning-optimization/marking.md
-                - name: Intercompany-planning
+                - name: Intercompany planning
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Producten uitsluiten met bepaalde productlevenscyclusstatussen
                   href: master-planning/planning-optimization/product-lifecycle-state.md
-                - name: Aanvullingsmethoden en gewijzigde hoeveelheden
-                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Time fences voor behoefteplanning
                   href: master-planning/planning-optimization/coverage-time-fence.md
-                - name: Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie
+                - name: Nettobehoeften en informatie over tracering van de behoefte
                   href: master-planning/planning-optimization/net-requirements.md
-                - name: Geplande orders goedkeuren
-                  href: master-planning/planning-optimization/approved-planned-order.md
-                - name: Vast geplande orders
-                  href: master-planning/planning-optimization/planned-order-firming.md
-                - name: Geplande orders vereenvoudigd
-                  href: master-planning/planning-optimization/planned-orders-simplified.md
                 - name: Planning met negatieve voorhanden hoeveelheden
                   href: master-planning/planning-optimization/negative-on-hand.md
-                - name: Planhistorie en planningslogboeken weergeven
-                  href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Een planningstaak annuleren
-                  href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Actieberichten
-                  href: master-planning/action-messages.md
                 - name: Leveringsdatums van verkooporders berekenen met behulp van CTP
                   href: master-planning/planning-optimization/calculate-delivery-dates-using-ctp.md
-                - name: Problemen met Planningsoptimalisatie oplossen
-                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Uitbreidbaarheid van Planningsoptimalisatie
-                  href: master-planning/planning-optimization/extensibility.md
-            - name: Hoofdplannen
+            - name: Hoofdplannen instellen
               items:
-                - name: Overzicht van Hoofdplannen
+                - name: Overzicht van hoofdplannen
                   href: master-planning/master-plans.md
                 - name: Hoofdplannen instellen
                   href: master-planning/master-planning-setup.md
                 - name: Wizard voor instellen van hoofdplanning
                   href: master-planning/master-planning-setup-wizard.md
+                - name: Een plan met beperkingen genereren
+                  href: master-planning/tasks/constrained-plan.md
+            - name: Aanvullingsstrategieën instellen
+              items:
                 - name: Behoefteplanningsinstellingen
                   href: master-planning/coverage-settings.md
                 - name: Behoefteplanningsregels voor artikelen definiëren
                   href: master-planning/tasks/define-coverage-rules-items.md
-                - name: Een plan met beperkingen genereren
-                  href: master-planning/tasks/constrained-plan.md
-                - name: Een materiaalplan voor co-producten maken
-                  href: master-planning/tasks/create-material-plan-co-products.md
-                - name: Geplande orders onderhouden
-                  href: master-planning/maintain-planned-orders.md
-                - name: Veiligheidsvoorraadafhandeling voor items
+                - name: Producten en materialen inkopen bij meerdere leveranciers
+                  href: master-planning/source-from-multiple-vendors.md
+                - name: Op prioriteit gebaseerde planning
+                  href: master-planning/planning-optimization/priority-based-planning.md
+                - name: Aanvullingsmethoden en gewijzigde hoeveelheden
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
+            - name: Hoofdplannen en functionaliteit voor meerdere locaties
+              items:
+                - name: Overzicht van de hoofdplanning en functionaliteit voor meerdere locaties
+                  href: master-planning/master-plan-multisite-functionality.md
+                - name: 'Hoofdplanning voor locatiebehoefte, magazijn verplicht'
+                  href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
+                - name: 'Hoofdplanning voor locatiebehoefte, magazijn niet verplicht'
+                  href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
+                - name: 'Hoofdplanning voor locatie- en magazijnbehoefte, magazijn verplicht'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
+                - name: 'Hoofdplanning voor locatie- en magazijnbehoefte, magazijn niet verplicht'
+                  href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
+                - name: De stuklijstversie bepalen
+                  href: master-planning/master-plan-bom-version-determined.md
+                - name: Explosie van een stuklijstversie
+                  href: master-planning/master-plan-explosion-bom-version.md
+            - name: Veiligheidsvoorraad
+              items:
+                - name: Afhandeling van veiligheidsvoorraad voor items
                   href: master-planning/safety-stock-replenishment.md
                 - name: Het journaal van de veiligheidsvoorraad gebruiken om minimale dekking voor items bij te werken
                   href: master-planning/safety-stock-journal.md
-                - name: Vertragingen
-                  href: master-planning/delays.md
-                - name: Een hoofdplanningstaak annuleren
-                  href: master-planning/cancel-master-planning-job.md
-                - name: Tracering gebruiken voor explosie
-                  href: master-planning/trace-explosion.md
-                - name: Een hoofdplanningsuitvoering controleren
-                  href: master-planning/tasks/monitor-master-planning-run.md
-                - name: Een planning voor een vestiging maken
-                  href: master-planning/tasks/create-schedule-site.md
-                - name: Een plan voor een vestiging maken
-                  href: master-planning/tasks/create-plan-site.md
-                - name: Kalenders en hoofdplanning
-                  href: master-planning/supply-chain-calendars-master-planning.md
-                - name: Fout 'Onvoldoende capaciteit gevonden' in planningsengine oplossen
-                  href: master-planning/not-enough-capacity-error-resolution.md
-                - name: Prestaties van hoofdplanning verbeteren
-                  href: master-planning/master-planning-performance.md
-                - name: Prestaties van planningsengine verbeteren
-                  href: master-planning/scheduling-engine-performance.md
-                - name: Hoofdplannen en functionaliteit voor meerdere locaties
-                  items:
-                    - name: Overzicht van de hoofdplanning en functionaliteit voor meerdere locaties
-                      href: master-planning/master-plan-multisite-functionality.md
-                    - name: 'Hoofdplanning voor locatiebehoefte, magazijn verplicht'
-                      href: master-planning/master-plan-site-coverage-warehouse-mandatory.md
-                    - name: 'Hoofdplanning voor locatiebehoefte, magazijn niet verplicht'
-                      href: master-planning/master-plan-site-coverage-warehouse-not-mandatory.md
-                    - name: 'Hoofdplanning voor locatie- en magazijnbehoefte, magazijn verplicht'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md
-                    - name: 'Hoofdplanning voor locatie- en magazijnbehoefte, magazijn niet verplicht'
-                      href: master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md
-                    - name: De stuklijstversie bepalen
-                      href: master-planning/master-plan-bom-version-determined.md
-                    - name: Explosie van een stuklijstversie
-                      href: master-planning/master-plan-explosion-bom-version.md
-                - name: Negatieve dagen en dynamische negatieve dagen
-                  href: master-planning/more-about-dynamic-negative-days.md
-                - name: Een intercompany-plan maken
-                  href: master-planning/tasks/create-intercompany-plan.md
-                - name: Uitgaande geplande intercompany-vraag weergeven
-                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Nettovereisten en informatie over tracering van de behoefte met ingebouwde hoofdplanning
-                  href: master-planning/net-requirements-built-in-master-planning.md
-                - name: Aanbodautomatisering voor maken-naar-order
-                  href: master-planning/make-to-order-supply-automation.md
+            - name: Geplande orders beheren
+              items:
+                - name: Geplande orders onderhouden
+                  href: master-planning/maintain-planned-orders.md
+                - name: 'Geplande orders weergeven, beheren en goedkeuren'
+                  href: master-planning/planning-optimization/approved-planned-order.md
+                - name: Vast geplande orders
+                  href: master-planning/planning-optimization/planned-order-firming.md
+                - name: Geplande orders vereenvoudigd
+                  href: master-planning/planning-optimization/planned-orders-simplified.md
+                - name: Actieberichten
+                  href: master-planning/action-messages.md
             - name: Prognose maken
               items:
-                - name: Prognoses voor vraag en aanbod
-                  items:
-                    - name: Voorraadprognoses
-                      href: master-planning/inventory-forecast.md
-                    - name: 'Handleiding: Handmatig een vraagprognose wijzigen'
-                      href: master-planning/tasks/modify-demand-forecast-manually.md
+                - name: Voorraadprognoses
+                  href: master-planning/inventory-forecast.md
+                - name: 'Handleiding: Handmatig een vraagprognose wijzigen'
+                  href: master-planning/tasks/modify-demand-forecast-manually.md
                 - name: Vraagprognose
                   items:
                     - name: Overzicht van Vraagprognose
@@ -1943,17 +1913,57 @@
                       href: master-planning/monitor-forecast-accuracy.md
                     - name: 'Handleiding: Een basislijnprognose maken'
                       href: master-planning/tasks/create-baseline-forecast.md
-                - name: Hoofdplanning met prognose
-                  items:
-                    - name: Reductiesleutels van prognose
-                      href: master-planning/reduction-keys.md
+                - name: Reductiesleutels van prognose
+                  href: master-planning/reduction-keys.md
+            - name: DDMRP (Demand Driven Material Requirements Planning)
+              items:
+                - name: DDMRP-overzicht
+                  href: master-planning/planning-optimization/ddmrp-overview.md
+                - name: De DDMRP-functie voor uw systeem inschakelen
+                  href: master-planning/planning-optimization/ddmrp-enable.md
+                - name: Voorraadpositionering
+                  href: master-planning/planning-optimization/ddmrp-inventory-positioning.md
+                - name: Bufferprofiel en -niveaus
+                  href: master-planning/planning-optimization/ddmrp-buffer-profile-and-levels.md
+                - name: Vraaggestuurde planning
+                  href: master-planning/planning-optimization/ddmrp-planning.md
+                - name: Visuele en op samenwerking gerichte uitvoering
+                  href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+            - name: Verouderde planningsengine
+              items:
+                - name: Overzicht van verouderde planningsengine
+                  href: master-planning/deprecated-master-planning-overview.md
+                - name: Migratie naar Planningsoptimalisatie voor hoofdplanning
+                  href: master-planning/new-master-planning-engine.md
+                - name: Parameters die niet worden gebruikt door Planningsoptimalisatie
+                  href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Verschillen tussen Planningsoptimalisatie en de verouderde hoofdplanningsengine
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
+                - name: Analyse aanpassen aan Planningsoptimalisatie
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Prestaties van hoofdplanning verbeteren
+                  href: master-planning/master-planning-performance.md
+                - name: Prestaties van planningsengine verbeteren
+                  href: master-planning/scheduling-engine-performance.md
+                - name: Een intercompany-plan maken
+                  href: master-planning/tasks/create-intercompany-plan.md
+                - name: Uitgaande geplande intercompany-vraag weergeven
+                  href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
+                - name: Een hoofdplanningsuitvoering controleren
+                  href: master-planning/tasks/monitor-master-planning-run.md
+                - name: Nettovereisten en informatie over tracering van de behoefte met de verouderde planningsengine
+                  href: master-planning/net-requirements-built-in-master-planning.md
+                - name: Een materiaalplan voor co-producten maken
+                  href: master-planning/tasks/create-material-plan-co-products.md
+                - name: Een taak annuleren die is gemaakt met de verouderde hoofdplanningsengine
+                  href: master-planning/cancel-master-planning-job.md
         - name: Mobiele app
           items:
             - name: Startpagina mobiele app
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?context=/dynamics365/context/supply-chain
-            - name: Mobiele werkgebieden
+            - name: Mobiele werkruimten
               items:
-                - name: Beschikbare mobiele werkgebieden
+                - name: Beschikbare mobiele werkruimten
                   href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?context=/dynamics365/context/supply-chain
                 - name: Activabeheer
                   href: asset-management/asset-management-mobile-workspace.md
@@ -1981,7 +1991,7 @@
                   href: sales-marketing/sales-orders-mobile-workspace.md?context=/dynamics365/context/supply-chain
                 - name: Leverancierssamenwerking
                   href: procurement/vendor-collaboration-mobile-workspace.md?context=/dynamics365/context/supply-chain
-            - name: Mobiele werkgebieden publiceren
+            - name: Mobiele werkruimten publiceren
               href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?context=/dynamics365/context/supply-chain
         - name: Office-integratie
           items:

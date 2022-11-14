@@ -224,7 +224,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
                 - name: Geavanceerde filter- en querysyntaxis
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
-                - name: Werkgebieden configureren en filteren
+                - name: werkruimten configureren en filteren
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
                 - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
@@ -541,7 +541,11 @@
                     - name: Kandidaten werven
                       href: hr-personnel-recruit.md
         - name: Taakbeheer
-          href: hr-task-mgmt.md
+          items:
+            - name: Overzicht
+              href: hr-task-mgmt.md
+            - name: Upgrade voor taakbeheer
+              href: hr-task-update.md
         - name: Verlof en verzuim
           items:
             - name: Overzicht
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: Verblijven voor werknemers beheren
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: Personeelsontwikkeling
+    - name: Human Resources-ontwikkeling
       items:
         - name: Overzicht
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Aangepaste velden
           href: hr-developer-custom-fields.md
+        - name: Ontwikkelen en aanpassen
+          items:
+            - name: Basisopsomming voor geslacht
+              href: enum-exten.md
         - name: Gegevensintegratie instellen
           items:
             - name: Een technologie voor gegevensintegratie kiezen
