@@ -140,7 +140,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?context=/dynamics365/context/finance
                 - name: Geavanceerde filter- en querysyntaxis
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?context=/dynamics365/context/finance
-                - name: Werkgebieden configureren en filteren
+                - name: werkruimten configureren en filteren
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?context=/dynamics365/context/finance
                 - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?context=/dynamics365/context/finance
@@ -450,6 +450,8 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Een factureringsplanning kopiëren
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Klantsplitsing met een factureringsschema
+                      href: accounts-receivable/sb-customer-split.md
                     - name: Functies voor factureringsplanningen
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Facturering van mijlpalen
@@ -1170,11 +1172,13 @@
               items:
                 - name: Het grootboek aan het einde van de periode afsluiten
                   href: general-ledger/close-general-ledger-at-period-end.md
-                - name: Werkgebied voor afsluiten van financiële periode
+                - name: Werkruimte voor afsluiten van financiële periode
                   href: general-ledger/financial-period-close-workspace.md
+                - name: Jaarafsluiting optimaliseren
+                  href: general-ledger/optimize-year-end-close.md
                 - name: Jaarafsluiting
                   href: general-ledger/year-end-close.md
-                - name: Het boekjaar afsluiten
+                - name: Het fiscaal jaar afsluiten
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Massale sluiting van financiële periode
                   href: general-ledger/tasks/mass-financial-period-close.md
@@ -3854,14 +3858,14 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?context=/dynamics365/context/finance
                 - name: Inhoud Power BI.com vastmaken
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?context=/dynamics365/context/finance
-                - name: Analytische werkgebieden selecteren vanuit Power BI.com
+                - name: Analytische werkruimten selecteren vanuit Power BI.com
             - name: Aanpassingsopties met Power BI
               items:
                 - name: Functies die beschikbaar zijn via integratie van Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?context=/dynamics365/context/finance
                 - name: Power BI-inhoud vastmaken
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?context=/dynamics365/context/finance
-                - name: Analytische werkgebieden selecteren vanuit Power BI
+                - name: Analytische werkruimten selecteren vanuit Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?context=/dynamics365/context/finance
             - name: Power BI-inhoud
               items:
@@ -3917,13 +3921,13 @@
                   href: accounts-payable/Vendor-payments-workspace.md
                 - name: Metrische gegevens personeel
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?context=/dynamics365/context/finance
-            - name: Analytische werkgebieden
+            - name: Analytische werkruimten
               items:
-                - name: Analytische werkgebieden (met Power BI Embedded)
+                - name: Analytische werkruimten (met Power BI Embedded)
                   href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?context=/dynamics365/context/finance
                 - name: Integratie met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?context=/dynamics365/context/finance
-                - name: Ingesloten rapporten in Analytische werkgebieden aanpassen
+                - name: Ingesloten rapporten in Analytische werkruimten aanpassen
                   href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?context=/dynamics365/context/finance
             - name: Documenten rapporteren en afdrukken
               items:
@@ -3977,9 +3981,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?context=/dynamics365/context/finance
                 - name: Analytische rapporten maken met Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?context=/dynamics365/context/finance
-                - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
+                - name: Analyses aan werkruimten toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?context=/dynamics365/context/finance
-                - name: Analytische werkgebieden en rapporten beveiligen met Power BI Embedded
+                - name: Analytische werkruimten en rapporten beveiligen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?context=/dynamics365/context/finance
                 - name: Rapportageoplossingen maken
                   href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?context=/dynamics365/context/finance
@@ -4657,9 +4661,9 @@
           items:
             - name: Startpagina mobiele app
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?context=/dynamics365/context/finance
-            - name: Mobiele werkgebieden
+            - name: Mobiele werkruimten
               items:
-                - name: Beschikbare mobiele werkgebieden
+                - name: Beschikbare mobiele werkruimten
                   href: ../fin-ops-core/dev-itpro/mobile-apps/mobile-workspaces-released.md?context=/dynamics365/context/finance
                 - name: Activabeheer
                   href: ../supply-chain/asset-management/asset-management-mobile-workspace.md
@@ -4687,7 +4691,7 @@
                   href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md?context=/dynamics365/context/finance
                 - name: Leverancierssamenwerking
                   href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md?context=/dynamics365/context/finance
-            - name: Mobiele werkgebieden publiceren
+            - name: Mobiele werkruimten publiceren
               href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?context=/dynamics365/context/finance
         - name: Office-integratie
           items:
