@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 0474c50157295d9ecd2341b700c07f4fbf1ed51f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f5f1f2c8e3e43e36d837ebf989422b0dca7819d6
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900936"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741171"
 ---
 # <a name="cancel-a-planning-job"></a>Een planningstaak annuleren
 
@@ -29,8 +29,7 @@ ms.locfileid: "8900936"
 
 In Microsoft Dynamics 365 Supply Chain Management kunt u een actieve planningstaak annuleren die gebruikmaakt van de functionaliteit Planningsoptimalisatie. Wanneer u **Annuleren** selecteert in het dialoogvenster wanneer een taak voor Planningsoptimalisatie rechtstreeks vanuit de gebruikersinterface wordt geactiveerd (niet op de achtergrond), wordt de taak voor Planningsoptimalisatie niet geannuleerd. Zelfs als u een waarschuwing ontvangt zoals 'Bewerking geannuleerd', moet u nog steeds de volgende stappen uitvoeren om een planningstaak met Planningsoptimalisatie te annuleren.
 
-
-Voer de volgende stappen uit om een actieve planningstaak te annuleren. 
+Voer de volgende stappen uit om een actieve planningstaak te annuleren.
 
 > [!NOTE]
 > Alleen actieve taken kunnen worden geannuleerd.
@@ -45,18 +44,6 @@ De taakstatus is **Annuleren** totdat de service Optimalisatie van planning beve
 
 > [!NOTE]
 > Als u statuswijzigingen wilt bekijken, moet u de pagina vernieuwen door op de knop **Vernieuwen** te klikken.
-
-## <a name="additional-resources"></a>Aanvullende resources
-
-[Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
-
-[Aan de slag met Planningsoptimalisatie](get-started.md)
-
-[Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md)
-
-[Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
-
-[Filters op een plan toepassen](plan-filters.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

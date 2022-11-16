@@ -2,7 +2,7 @@
 title: Betalingsmodule
 description: In dit artikel wordt beschreven hoe u een betalingsmodule aan een pagina toevoegt en de vereiste eigenschappen instelt.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280469"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746220"
 ---
 # <a name="checkout-module"></a>Betalingsmodule
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit artikel wordt beschreven hoe u een betalingsmodule aan een pagina toevoegt en de vereiste eigenschappen instelt.
 
@@ -105,11 +106,13 @@ Voer de volgende stappen uit om een betalingsmodule aan een nieuwe pagina toe te
 1. Maak een sjabloon die gebruikmaakt van het nieuwe uitcheckfragment.
 1. Maak een uitcheckpagina die gebruikmaakt van de nieuwe sjabloon.
 
+> [OPMERKING] Wanneer u één betalingsautorisatie gebruikt, zoals wordt beschreven in [Verbeterde betalingen bij uitchecken in winkel](./dev-itpro/enhanced-sca.md), controleert u in de sectie **Informatie bij uitchecken** van de pagina Uitchecken of de container voor de kassasectie als laatste is geplaatst. Op deze manier zorgt u ervoor dat alle vereiste informatie door de uitcheckpagina wordt verzameld vóór de definitieve acties voor afrekenen en ordervoltooiing worden uitgevoerd. 
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Winkelwagenmodule](add-cart-module.md)
+[Module Winkelwagen](add-cart-module.md)
 
-[Module winkelwagenpictogram](cart-icon-module.md)
+[Module voor winkelwagenpictogram](cart-icon-module.md)
 
 [Betalingsmodule](payment-module.md)
 

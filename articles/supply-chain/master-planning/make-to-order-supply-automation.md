@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220555"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740189"
 ---
 # <a name="make-to-order-supply-automation"></a>Aanbodautomatisering voor maken-naar-order
 
@@ -32,12 +32,6 @@ De functie *Aanbodautomatisering voor maken-naar-order* voegt verschillende verb
 - De intercompany-gegevensstroom verbeteren. Inkooporders worden bijgewerkt om velden op te nemen voor de leveringsmodus, leveringsvoorwaarden en extern artikelnummer. Door deze wijziging wordt gegarandeerd dat gedetailleerde vraaggegevens naar het leverende bedrijf stromen.
 
 In dit artikel wordt beschreven hoe elke verbetering in wordt gesteld en wordt gebruikt.
-
-> [!NOTE]
-> Alle verbeteringen die in dit artikel worden beschreven, zijn van toepassing op systemen die gebruikmaken van ingebouwde hoofdplanningen. De volgende twee verbeteringen worden ook ondersteund door de invoegtoepassing Planningsoptimalisatie voor Microsoft Dynamics 365 Supply Chain Management:
->
-> - Vertragingstolerantie voor hoofdplannen
-> - Controle over de reeks van de tracering die wordt gebruikt tijdens het hoofdplan
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Inschakelen van de aanbodautomatiseringsfunctie voor maken naar order
 
@@ -73,7 +67,7 @@ Volg deze stappen om de pagina **Capaciteitsbelasting** te openen, zodat u de be
 
 Deze opties zijn ook beschikbaar in het veld **Markering bijwerken** op het tabblad **Standaardupdate** van de pagina **Parameters hoofdplanning**, waar u de standaardselectie voor het dialoogvenster **Fiatteren** definieert.
 
-Raadpleeg [Voorraadmarkering met Planningsoptimalisatie](planning-optimization/marking.md) voor meer informatie.
+Zie [Voorraad markeren](planning-optimization/marking.md) voor meer informatie.
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>De vertragingstolerantie (negatieve dagen) instellen op het niveau van het hoofdplan
 

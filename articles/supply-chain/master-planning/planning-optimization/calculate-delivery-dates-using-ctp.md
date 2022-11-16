@@ -1,6 +1,6 @@
 ---
 title: Leveringsdatums van verkooporders berekenen met behulp van CTP
-description: Met de Capable-to-promise- of CTP-functionaliteit kunt u klanten realistische datums geven voor de datums waarop u specifieke goederen kunt leveren. In dit artikel wordt beschreven hoe u CTP kunt instellen en gebruiken voor elke planningsengine (Planningsoptimalisatie en de ingebouwde engine).
+description: Met de Capable-to-promise- of CTP-functionaliteit kunt u klanten realistische datums geven voor de datums waarop u specifieke goederen kunt leveren. In dit artikel wordt beschreven hoe u CTP kunt instellen en gebruiken voor elke planningsengine (Planningsoptimalisatie en de afgeschafte hoofdplanningsengine).
 author: t-benebo
 ms.date: 07/20/2022
 ms.topic: article
@@ -11,28 +11,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-20
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 3b8e3dc9f0e7aaf019aa4d7284458206e7daadb2
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 4a3b8ba89d9fb224026cf32cad89d7f28321ee79
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714855"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741198"
 ---
 # <a name="calculate-sales-order-delivery-dates-using-ctp"></a>Leveringsdatums van verkooporders berekenen met behulp van CTP
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 <!-- KFM: Preview until further notice -->
+<!-- KFN: Split into two topics, one for PO and one for classic. -->
 
 Met de Capable-to-promise- of CTP-functionaliteit kunt u klanten realistische datums geven voor de datums waarop u specifieke goederen kunt leveren. Voor elke verkoopregel kunt u een datum leveren die rekening houdt met bestaande voorraad, productiecapaciteit en transporttijden.
 
 CTP vergroot de de [available-to-promise-](../../sales-marketing/delivery-dates-available-promise-calculations.md) of ATP-functionaliteit door rekening te houden met capaciteitsgegevens. Hoewel ATP alleen rekening houdt met de beschikbaarheid van materialen en uitgaat van onbeperkte capaciteitsbronnen, houdt CTP rekening met de beschikbaarheid van zowel materialen als capaciteit. Daarom biedt CTP een realistischer beeld van de vraag of binnen een bepaald tijdsbestek aan vraag kan worden voldaan.
 
-CTP werkt iets anders, afhankelijk van van de engine die voor hoofdplanning wordt gebruikt (Planningsoptimalisatie of de ingebouwde engine). In dit artikel wordt beschreven hoe dit voor elke engine kan worden ingesteld. CTP voor Planningsoptimalisatie ondersteunt momenteel alleen een subset van de CTP-scenario's die worden ondersteund door de ingebouwde engine.
+CTP werkt iets anders, afhankelijk van van de engine die voor hoofdplanning wordt gebruikt (Planningsoptimalisatie of de afgeschafte hoofdplanningsengine). In dit artikel wordt beschreven hoe dit voor elke engine kan worden ingesteld. CTP voor Planningsoptimalisatie ondersteunt momenteel alleen een subset van de CTP-scenario's die worden ondersteund door de afgeschafte hoofdplanningsengine.
 
 ## <a name="turn-on-ctp-for-planning-optimization"></a>CTP voor Planningsoptimalisatie inschakelen
 
-CTP voor de ingebouwde hoofdplanning-engine is altijd beschikbaar. Als u echter CTP wilt gebruiken voor Planningsoptimalisatie, moet deze functie zijn ingeschakeld voor het systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
+CTP voor de afgeschafte hoofdplanningsengine is altijd beschikbaar. Als u echter CTP wilt gebruiken voor Planningsoptimalisatie, moet deze functie zijn ingeschakeld voor het systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Hoofdplanning*
 - **Naam functie:** *(preview) CTP voor Planningsoptimalisatie*
@@ -47,9 +48,9 @@ Een CTP-berekening waarin zowel materialen als resources worden meegenomen, kan 
 
 ## <a name="how-ctp-differs-depending-on-the-master-planning-engine-that-you-use"></a>De manier waarop CTP verschilt, afhankelijk van de gebruikte engine voor hoofdplanning
 
-In de volgende tabel worden de verschillen tussen CTP voor Planningsoptimalisatie en CTP voor de ingebouwde hoofdplanning-engine samengevat.
+In de volgende tabel worden de verschillen tussen CTP voor Planningsoptimalisatie en CTP voor de afgeschafte hoofdplanningsengine samengevat.
 
-| Element | Planningsoptimalisatie | Ingebouwde hoofdplanning-engine |
+| Element | Planningsoptimalisatie | Afgeschafte hoofdplanningsengine |
 |---|---|---|
 | Instelling voor **Controle leveringsdatum** voor orders, orderregels en producten | *CTP voor Planningsoptimalisatie* | *CTP* |
 | Berekeningstijd | De berekening wordt geactiveerd door een dynamisch plan uit te voeren als een geplande taak. | De berekening wordt onmiddellijk geactiveerd, telkens wanneer u een verkooporderregel invoert of bijwerkt. |
@@ -70,8 +71,8 @@ De standaardmethode voor controle van de leveringsdatum wordt toegepast op alle 
     - *Verkooplevertijd*: de verkooplevertijd is de tijd tussen het maken van de verkooporder en de zending van de artikelen. De berekening van de leveringsdatum is gebaseerd op een standaardaantal dagen waarbij geen rekening wordt gehouden met beschikbaarheid van voorraad, bekende vraag of gepland aanbod.
     - *ATP*: ATP is de hoeveelheid van een artikel, die beschikbaar is en aan een klant kan worden beloofd op een specifieke datum. Bij de ATP-berekening worden niet-toegezegde voorraad, levertijden, geplande ontvangsten en uitgiften gebruikt.
     - *ATP + uitgiftemarge*: de verzenddatum is gelijk aan de ATP-datum plus de uitgiftemarge voor het artikel. De uitgiftemarge is de tijd die nodig is voor het voorbereiden van artikelen voor verzending.
-    - *CTP* : gebruik de CTP-berekening die wordt geleverd door de ingebouwde hoofdplanning-engine. Als u Planningsoptimalisatie gebruikt, is de controlemethode voor de *CTP*-leveringsdatum niet toegestaan en wordt bij het uitvoeren van de berekening een foutbericht weergegeven als deze methode is geselecteerd.
-    - *CTP voor planningsoptimalisatie*: gebruik de CTP-berekening die wordt geleverd door Planningsoptimalisatie. Deze optie heeft geen effect als u de ingebouwde hoofdplanning-engine gebruikt.
+    - *CTP* : gebruik de CTP-berekening die wordt geleverd door de afgeschafte hoofdplanningsengine. Als u Planningsoptimalisatie gebruikt, is de controlemethode voor de *CTP*-leveringsdatum niet toegestaan en wordt bij het uitvoeren van de berekening een foutbericht weergegeven als deze methode is geselecteerd.
+    - *CTP voor planningsoptimalisatie*: gebruik de CTP-berekening die wordt geleverd door Planningsoptimalisatie. Deze optie heeft geen effect als u de afgeschafte hoofdplanningsengine gebruikt.
 
 ### <a name="set-delivery-date-control-overrides-for-individual-products"></a>Overschrijvingen voor controle van leveringsdatums instellen voor afzonderlijke producten
 
@@ -85,7 +86,7 @@ U kunt overschrijvingen toewijzen voor specifieke producten waarbij u een andere
 
 ## <a name="schedule-ctp-for-planning-optimization-calculations"></a><a name="batch-job"></a>CTP voor planningsoptimalisatieberekeningen plannen
 
-Wanneer u CTP gebruikt voor Planningsoptimalisatie, moet u een dynamisch plan uitvoeren om het systeem te activeren voor het uitvoeren van de CTP-berekeningen en vervolgens de bevestigde verzend- en ontvangstdatums instellen voor alle relevante orders. Het plan moet alle artikelen bevatten waarop bevestigde verzend- en ontvangstdatums vereist zijn. (Wanneer u CTP gebruikt voor de ingebouwde planning engine, worden de CTP-berekeningen onmiddellijk lokaal uitgevoerd. Daarom hoeft u geen dynamisch plan uit te voeren om de CTP-resultaten te bekijken.)
+Wanneer u CTP gebruikt voor Planningsoptimalisatie, moet u een dynamisch plan uitvoeren om het systeem te activeren voor het uitvoeren van de CTP-berekeningen en vervolgens de bevestigde verzend- en ontvangstdatums instellen voor alle relevante orders. Het plan moet alle artikelen bevatten waarop bevestigde verzend- en ontvangstdatums vereist zijn. (Wanneer u CTP gebruikt voor de afgeschafte hoofdplanningsengine, worden de CTP-berekeningen onmiddellijk lokaal uitgevoerd. Daarom hoeft u geen dynamisch plan uit te voeren om de CTP-resultaten te bekijken.)
 
 Om er zeker van te zijn dat de datums op tijd beschikbaar zijn voor alle gebruikers, wordt het aanbevolen om batchtaken in te stellen om de relevante plannen regelmatig uit te voeren. Met een batchtaak die bijvoorbeeld is ingesteld om elke 30 minuten een dynamisch plan uit te voeren, worden de bevestigde verzend- en ontvangstdatums elke 30 minuten ingesteld. Daarom moeten gebruikers die orders invoeren en importeren, maximaal 30 minuten wachten om de bevestigde verzend- en ontvangstdatums op te halen.
 
@@ -98,17 +99,17 @@ Voer de volgende stappen uit om een batchtaak in te stellen voor het uitvoeren v
 1. Selecteer **OK** om de planning op te slaan.
 1. Selecteer **OK** om de batchtaak aan te maken en het dialoogvenster te sluiten.
 
-## <a name="use-ctp-for-built-in-master-planning"></a>CTP gebruiken voor de ingebouwde hoofdplanning
+## <a name="use-ctp-for-the-deprecated-master-planning-engine"></a>CTP gebruiken voor de afgeschafte hoofdplanningsengine
 
-### <a name="create-a-new-order-by-using-ctp-for-built-in-master-planning"></a>Een nieuwe order aanmaken met behulp van CTP voor de ingebouwde hoofdplanning
+### <a name="create-a-new-order-by-using-ctp-for-the-deprecated-master-planning-engine"></a>Een nieuwe order aanmaken met behulp van CTP voor de afgeschafte hoofdplanningsengine
 
 Telkens wanneer u een nieuwe verkooporder of orderregel toevoegt, wijst het systeem een standaardmethode voor het controleren van de leveringsdatum toe. De header van de order begint altijd met de algemene standaardmethode. Als een overschrijving is toegewezen aan een besteld artikel, gebruikt de nieuwe orderregel die overschrijving. Anders wordt voor de nieuwe orderregel ook de algemene standaardmethode gebruikt. Daarom moeten de standaardmethoden zo worden ingesteld dat ze overeenkomen met de controlemethode voor leveringsdatum die u het meest wilt gebruiken. Nadat u een order hebt aangemaakt, kunt u de standaardmethode waar nodig overschrijven op het niveau van de header van de order en/of orderregel. Raadpleeg [Standaardmethodes om de leveringsdatum te controleren, instellen](#default-methods) en [Bestaande verkooporders wijzigen voor gebruik van CTP](#change-orders) voor meer informatie.
 
-### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-built-in-master-planning"></a>Bevestigde leveringsdatums bekijken wanneer u CTP gebruikt voor ingebouwde hoofdplanning
+### <a name="view-confirmed-delivery-dates-when-you-use-ctp-for-the-deprecated-master-planning-engine"></a>Bevestigde leveringsdatums bekijken wanneer u CTP gebruikt voor de afgeschafte hoofdplanningsengine
 
-Als u de ingebouwde hoofdplanning-engine gebruikt, worden CTP-berekeningen toegepast op orders en/of orderregels waarbij het veld **Controle leveringsdatum** is ingesteld op *CTP*.
+Als u de afgeschafte hoofdplanningsengine gebruikt, worden CTP-berekeningen toegepast op orders en/of orderregels waarbij het veld **Controle leveringsdatum** is ingesteld op *CTP*.
 
-Voor verkoopregels die gebruikmaken van CTP voor ingebouwde hoofdplanning stelt het systeem automatisch de velden **Bevestigde verzenddatum** en **Bevestigde ontvangstdatum** automatisch bijgewerkt telkens wanneer u een verkoopregel opslaat. Als u later een relevante wijziging aan een verkoopregel aanbrengt (bijvoorbeeld door de hoeveelheid of locatie te wijzigen), worden de datums onmiddellijk opnieuw berekend.
+Voor verkoopregels die gebruikmaken van CTP voor de afgeschafte hoofdplanningsengine stelt het systeem automatisch de velden **Bevestigde verzenddatum** en **Bevestigde ontvangstdatum** in als u een verkoopregel opslaat. Als u later een relevante wijziging aan een verkoopregel aanbrengt (bijvoorbeeld door de hoeveelheid of locatie te wijzigen), worden de datums onmiddellijk opnieuw berekend.
 
 - Als u de bevestigde leveringsdatums voor een verkooporderregel wilt weergeven, opent u de verkooporder en selecteert u de verkoopregel. Controleer vervolgens op het sneltabblad **Regeldetails** op het tabblad **Levering** de waarden voor **Bevestigde verzenddatum** en **Bevestigde ontvangstdatum**.
 - Als u de bevestigde leveringsdatums voor een volledige order wilt weergeven, opent u de verkooporder en selecteert u de weergave **Header**. Controleer vervolgens op het sneltabblad **Levering** de waarden voor **Bevestigde verzenddatum** en **Bevestigde ontvangstdatum**.
@@ -155,8 +156,8 @@ Als u een order wilt wijzigen zodat CTP wordt gebruikt op header-niveau, voert u
 1. Selecteer **Header** op de pagina **Details verkooporder** om de header-informatie te openen.
 1. Stel op het sneltabblad **Levering** het veld **Controle leveringsdatum** in op een van de volgende waarden, afhankelijk van de planning-engine die u gebruikt:
 
-    - *CTP* : gebruik de CTP-berekening die wordt geleverd door de ingebouwde hoofdplanning-engine. Als u Planningsoptimalisatie gebruikt, is de controlemethode voor de leveringsdatum *CTP* niet toegestaan. Als u deze waarde selecteert, treedt er daarom een fout op bij het uitvoeren van de berekening.
-    - *CTP voor planningsoptimalisatie*: gebruik de CTP-berekening die wordt geleverd door Planningsoptimalisatie. Deze instelling heeft geen effect als u de ingebouwde hoofdplanning-engine gebruikt.
+    - *CTP* : gebruik de CTP-berekening die wordt geleverd door de afgeschafte hoofdplanningsengine. Als u Planningsoptimalisatie gebruikt, is de controlemethode voor de leveringsdatum *CTP* niet toegestaan. Als u deze waarde selecteert, treedt er daarom een fout op bij het uitvoeren van de berekening.
+    - *CTP voor planningsoptimalisatie*: gebruik de CTP-berekening die wordt geleverd door Planningsoptimalisatie. Deze instelling heeft geen effect als u de afgeschafte hoofdplanningsengine gebruikt.
 
 <!-- KFM: Additional dialogs are shown here. Review these with the PM and expand this procedure at next revision. -->
 1. Selecteer **OK** om de wijzigingen toe te passen.
@@ -165,15 +166,15 @@ Als u een order wilt wijzigen zodat CTP wordt gebruikt op header-niveau, voert u
 
 Als u een orderregel hebt aangemaakt met behulp van een andere controlemethode voor leveringsdatums, kunt u op elk moment naar CTP wijzigen. Wijzigingen die u aanbrengt op regelniveau hebben geen invloed op andere regels. Deze kunnen er echter toe leiden dat de algehele leveringsdatums van de order naar voren of naar achteren worden verplaatst, afhankelijk van hoe elke bijgewerkte regelberekening wijzigt. <!-- KFM: Confirm this intro at next revision -->
 
-Als u een order wilt wijzigen zodat CTP voor de ingebouwde hoofdplanning wordt gebruikt op regelniveau, voert u de volgende stappen uit.
+Als u een order wilt wijzigen zodat CTP voor de afgeschafte hoofdplanningsengine wordt gebruikt op regelniveau, voert u de volgende stappen uit.
 
 1. Ga naar **Klanten \> Orders \> Alle verkooporders**.
 1. Open de verkooporder die u wilt instellen of maak een nieuwe aan.
 1. Selecteer op de pagina **Details verkooporder** op het sneltabblad **Verkooporderregel** de verkooporderregel die u wilt instellen.
 1. Stel op het sneltabblad **Regeldetails** op het tabblad **Levering** het veld **Controle leveringsdatum** in op een van de volgende waarden, afhankelijk van de planning-engine die u gebruikt:
 
-    - *CTP* : gebruik de CTP-berekening die wordt geleverd door de ingebouwde hoofdplanning-engine. Als u Planningsoptimalisatie gebruikt, is de controlemethode voor de leveringsdatum *CTP* niet toegestaan. Als u deze waarde selecteert, treedt er daarom een fout op bij het uitvoeren van de berekening.
-    - *CTP voor planningsoptimalisatie*: gebruik de CTP-berekening die wordt geleverd door Planningsoptimalisatie. Deze instelling heeft geen effect als u de ingebouwde hoofdplanning-engine gebruikt.
+    - *CTP* : gebruik de CTP-berekening die wordt geleverd door de afgeschafte hoofdplanningsengine. Als u Planningsoptimalisatie gebruikt, is de controlemethode voor de leveringsdatum *CTP* niet toegestaan. Als u deze waarde selecteert, treedt er daarom een fout op bij het uitvoeren van de berekening.
+    - *CTP voor planningsoptimalisatie*: gebruik de CTP-berekening die wordt geleverd door Planningsoptimalisatie. Deze instelling heeft geen effect als u de afgeschafte hoofdplanningsengine gebruikt.
 
     Het dialoogvenster **Beschikbare verzend- en ontvangstdatums** wordt weergegeven en geeft de beschikbare verzend- en ontvangstdatums weer. Dit dialoogvenster werkt op dezelfde manier voor orderregels als voor de order-header, zoals is beschreven in het vorige gedeelte.
 

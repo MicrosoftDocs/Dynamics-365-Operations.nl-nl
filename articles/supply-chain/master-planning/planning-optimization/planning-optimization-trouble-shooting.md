@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: f078fda02a11eb2073738d59b45f81698b707653
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 37c38ab9cec8ae3c9d4decf8043b43ea2251083e
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889514"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739724"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Problemen met Planningsoptimalisatie oplossen 
 
@@ -37,13 +37,13 @@ Voor Planningsoptimalisatie is een omgeving met grote beschikbaarheid die Lifecy
 
 ## <a name="planning-of-batch-jobs-fails-when-planning-optimization-is-enabled"></a>Het plannen van batchtaken mislukt wanneer de Planningsoptimalisatie is ingeschakeld
 
-Wanneer u Planningsoptimalisatie inschakelt, wordt de ingebouwde engine voor hoofdplanningen automatisch uitgeschakeld. Als bestaande batchtaken voor hoofdplanningen die zijn gemaakt voor de ingebouwde Supply Chain Management-planningsengine mislukken als zij worden geactiveerd terwijl de optie Planningsoptimalisatie gebruiken is ingeschakeld. Er kan een fout bericht worden weergegeven, zoals *Met deze bewerking wordt een hoofdplanning geactiveerd die niet wordt ondersteund wanneer Planningsoptimalisatie is ingeschakeld*.
+Wanneer u Planningsoptimalisatie inschakelt, wordt de afgeschafte hoofdplanningsengine automatisch uitgeschakeld. Als bestaande batchtaken voor hoofdplanningen die zijn gemaakt voor de afgeschafte hoofdplanningsengine mislukken als zij worden geactiveerd terwijl de optie Planningsoptimalisatie gebruiken is ingeschakeld. Er kan een fout bericht worden weergegeven, zoals *Met deze bewerking wordt een hoofdplanning geactiveerd die niet wordt ondersteund wanneer Planningsoptimalisatie is ingeschakeld*.
 
-**Oplossing**: annuleer alle batchtaken voor hoofdplanningen die zijn gemaakt voor de ingebouwde planningsengine van Supply Chain Management.
+**Oplossing**: annuleer alle batchtaken voor hoofdplanningen die zijn gemaakt voor de afgeschafte hoofdplanningsengine.
 
 ## <a name="planning-optimization-results-are-different-from-earlier-results"></a>Resultaten van Planningsoptimalisatie verschillen van eerdere resultaten
 
-Planningsoptimalisatie wijkt op bepaalde gebieden af van het ingebouwde hoofdplanningsontwerp. Dit kan ook worden veroorzaakt door functies die in behandeling zijn.
+Planningsoptimalisatie wijkt op bepaalde gebieden af van de afgeschafte hoofdplanningsengine. Dit kan ook worden veroorzaakt door functies die in behandeling zijn.
 
 **Oplossing**: voer Analyse aanpassen aan Planningsoptimalisatie uit en analyseer vervolgens de resultaten terwijl u de bijbehorende documentatie raadpleegt om de gevolgen te begrijpen. Zie [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie.
 
@@ -63,9 +63,8 @@ Dit houdt verband met een functie die in behandeling is en die wordt gepland als
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Aan de slag met Planningsoptimalisatie](get-started.md)
-
-[Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)
+- [Aan de slag met hoofdplanning](get-started.md)
+- [Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

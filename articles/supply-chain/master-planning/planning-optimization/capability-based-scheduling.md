@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335400"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739893"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Planning met resourceselectie op basis van mogelijkheden
 
@@ -43,7 +43,7 @@ Als u capaciteiten wilt toewijzen aan een resource voor bewerking, gebruikt u he
 - **Ingangsdatum** – Geef de eerste datum op waarop de resource- of capaciteitstoewijzing van toepassing is. Tijdens het plannen gebruikt het systeem geen resource of capaciteit met een verlopen capaciteitstoewijzing, zelfs niet als de resource verder aan de vereisten voldoet.
 - **Vervaldatum** – Geef de laatste datum op waarop de resource- of capaciteitstoewijzing van toepassing is. Tijdens het plannen gebruikt het systeem geen resource of capaciteit met een verlopen capaciteitstoewijzing, zelfs niet als de resource verder aan de vereisten voldoet.
 - **Niveau** – Specificeer het vaardigheidsniveau dat de resource moet hebben voor de capaciteit. Als u vervolgens in **Benodigd minimumniveau** een waarde opgeeft voor de resource- of capaciteitsbehoefte, wordt voor de planning tijdens de selectie van resources rekening gehouden met het vaardigheidsniveau. Het systeem selecteert alleen resources die de vereiste capaciteit hebben op een niveau dat gelijk is aan of hoger is dan het minimumniveau dat in de resourcebehoefte is opgegeven.
-- **Prioriteit** - Dit veld wordt nog niet ondersteund door Planningsoptimalisatie. Als u echter de ingebouwde planningsengine gebruikt, kunt u het veld **Prioriteit** in de resource- of capaciteitstoewijzing gebruiken om de resourceprioriteit te definiëren. Als dan *Prioriteit* wordt geselecteerd in het veld **Selectie van primaire resource** op de pagina **Planningsparameters**, wordt de resource met de hoogste prioriteit (de laagste numerieke waarde in het veld **Prioriteit**) als eerste geselecteerd tijdens de planning.
+- **Prioriteit** - Dit veld wordt nog niet ondersteund door Planningsoptimalisatie. Als u echter de afgeschafte hoofdplanningsengine gebruikt, kunt u het veld **Prioriteit** in de resource- of capaciteitstoewijzing gebruiken om de resourceprioriteit te definiëren. Als dan *Prioriteit* wordt geselecteerd in het veld **Selectie van primaire resource** op de pagina **Planningsparameters**, wordt de resource met de hoogste prioriteit (de laagste numerieke waarde in het veld **Prioriteit**) als eerste geselecteerd tijdens de planning.
 
 ## <a name="example"></a>Voorbeeld
 

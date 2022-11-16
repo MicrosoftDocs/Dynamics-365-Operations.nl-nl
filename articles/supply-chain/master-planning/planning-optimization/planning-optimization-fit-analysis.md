@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689989"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750702"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-U moet het resultaat van Analyse aanpassen aan Planningsoptimalisatie analyseren als onderdeel van het migratieproces. Het bereik van Planningsoptimalisatie is niet gelijk aan de huidige ingebouwde hoofdplanningsfunctionaliteit. We raden u aan met uw partner te werken en de documentatie te lezen om de migratie voor te bereiden. 
+U moet het resultaat van Analyse aanpassen aan Planningsoptimalisatie analyseren als onderdeel van het migratieproces. Het bereik van Planningsoptimalisatie is niet gelijk aan de verouderde hoofdplanningsengine. We raden u aan met uw partner te werken en de documentatie te lezen om de migratie voor te bereiden.
 
-Analyse aanpassen aan Planningsoptimalisatie helpt u bepalen waar het resultaat kan verschillen tussen de ingebouwde engine voor hoofdplanning en Planningsoptimalisatie. Deze analyse wordt uitgevoerd op basis van uw huidige instellingen en gegevens. 
+Analyse aanpassen aan Planningsoptimalisatie helpt u bepalen waar het resultaat kan verschillen tussen de verouderde hoofdplanningsengine en Planningsoptimalisatie. Deze analyse wordt uitgevoerd op basis van uw huidige instellingen en gegevens. 
 
 Voor een overzicht van het resultaat van Analyse aanpassen aan Planningsoptimalisatie gaat u naar de **Hoofdplanning** \> **Instellen** \> **Analyse aanpassen aan Planningsoptimalisatie** en selecteert u vervolgens **Analyse uitvoeren**. Als in de analyse inconsistenties worden gevonden, worden deze op dezelfde pagina weergegeven. (Het kan enkele minuten duren voordat de analyse is uitgevoerd.)
 
@@ -64,7 +64,6 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Basiskalenders | Kalenders die de basiskalender gebruiken: *\#* | Deze functie wordt nu ondersteund. | Ondersteund | 
 | Batchbeschikkingscodes | Batchbeschikkingsmodellen met niet-nettobehoefte: *\#* | Deze functie wordt nu ondersteund. Zie [Batchbeschikkingscodes gebruiken om batches als beschikbaar of niet-beschikbaar te markeren](../../inventory/batch-disposition-codes.md) voor meer informatie | Ondersteund |
 | Capable To Promise (CTP) | Standaardorderinstellingen met leveringsdatumcontrole ingesteld op CTP: *\#* | In Supply Chain Management 10.0.28 en hoger maakt het proces met de naam *CTP voor planningsoptimalisatie* bevestigde verzend- en ontvangstdatums beschikbaar nadat het dynamische plan is uitgevoerd. Bij oudere versies van Supply Chain Management wordt de verouderde CTP-instelling genegeerd wanneer Planningsoptimalisatie wordt ingeschakeld. | Ondersteund |
-| Statisch plan kopiëren naar dynamisch plan | Kopie van statisch naar dynamisch plan wordt ingeschakeld in de parameters voor de hoofdplanning. | Met Planningsoptimalisatie wordt het statische plan niet naar het dynamische plan gekopieerd, ongeacht deze instelling. In het algemeen is dit concept minder relevant vanwege de snelheid en de volledige regeneratie die door Planningsoptimalisatie wordt geleverd. Als er twee of meer plannen worden gebruikt, moet de hoofdplanning worden geactiveerd voor elk plan. | N.v.t. |
 | Fiattering | Behoefteplanningsgroepen met time fence voor automatische fiattering ingesteld: *\#* | In versie 10.0.7 en hoger wordt fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie *Automatisch fiatteren voor Planningsoptimalisatie* is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |
 | Fiattering | Artikelbehoefteplanningsrecords met automatische fiattering ingesteld: *\#* | In versie 10.0.7 en hoger wordt automatisch fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie *Automatisch fiatteren voor Planningsoptimalisatie* is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |
 | Fiattering | Hoofdplannen met automatische fiattering ingesteld: *\#* | In versie 10.0.7 en hoger wordt automatisch fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie *Automatisch fiatteren voor Planningsoptimalisatie* is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |
@@ -93,34 +92,27 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Productie | Formuleversies met co-/bijproducten: *\#* | Deze functie wordt verwerkt. Momenteel worden co- en bijproducten die aan de formuleversie zijn gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release |
 | Productie | Formuleversies met opbrengst: *\#* | Deze functie wordt verwerkt. Momenteel worden opbrengst die aan de formuleversie is gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release |
 | Productie | Plannen inclusief sequentiëren: *\#* | Deze functie wordt verwerkt. Momenteel wordt sequentiëren genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Wave 2, 2022 release |
-| Productie | Vrijgegeven productieorders die niet gestart en waarvan de geplande begindatum eerder is dan vandaag: *\#* | Deze functie wordt verwerkt. Als een productieorder wordt uitgesteld, wordt momenteel aangenomen dat de hoofdplanning vandaag wordt voltooid. Dit is relevant voor vrijgegeven productieorders waarvan de leveringsdatum in het verleden ligt, maar die nog niet zijn voltooid. | Toekomstige wave |
+| Productie | Vrijgegeven productieorders die niet gestart en waarvan de geplande begindatum eerder is dan vandaag: *\#* | Deze functie wordt verwerkt. Als een productieorder wordt uitgesteld, wordt momenteel aangenomen dat de hoofdplanning vandaag wordt voltooid. Dit is relevant voor vrijgegeven productieorders waarvan de leveringsdatum in het verleden ligt, maar die nog niet zijn voltooid. | Wave 2, 2022 release |
 | Productie | Resources gepland met eindige capaciteit: *\#* | Deze functie wordt nu ondersteund.| Ondersteund |
 | Productie | Gebruikte routes bij planning: *\#* | Deze functie wordt ondersteund. | Ondersteund |
-| Productie | Reservering verkoopregel met explosie: *\#* | Reservering verkoopregel met explosie wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. | Toekomstige wave |
-| Productie | Planning met explosie van productieorders: *\#* | Planning met explosie van productieorders wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Productieorders kunnen afzonderlijk worden gepland. | Toekomstige wave |
+| Productie | Reservering verkoopregel met explosie: *\#* | Reservering verkoopregel met explosie wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. | Wave 2, 2022 release |
+| Productie | Planning met explosie van productieorders: *\#* | Planning met explosie van productieorders wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Productieorders kunnen afzonderlijk worden gepland. | Wave 2, 2022 release |
 | Offerteaanvragen | Hoofdplannen met offerteaanvragen ingeschakeld: *\#* | Deze functie wordt verwerkt. Momenteel worden offerteaanvragen niet beschouwd als vraag wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Wave 2, 2022 release |
 | Bestelopdrachten | Hoofdplannen met bestelopdrachten ingeschakeld: *\#* | Deze functie wordt nu ondersteund. Zie [Bestelopdrachten voor inkoop](purchase-requisitions.md) voor aanvullende informatie | Ondersteund |
 | Veiligheidsmarges | Behoefteplanningsgroepen met veiligheidsmarge: *\#* | Deze functie wordt nu ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie | Ondersteund |
 | Veiligheidsmarges | Hoofdplannen met veiligheidsmarge: *\#* | Deze functie wordt nu ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie |  Ondersteund |
-| Afhandeling van veiligheidsvoorraad | Records voor artikelbehoefteplanning met "Minimum behalen" verschillen van "Datum van vandaag + levertijd": *\#* | Planningsoptimalisatie gebruikt altijd *Datum van vandaag + levertijd* gebruikt. Deze wijziging wordt doorgevoerd om een vereenvoudigde planningsinstelling in de toekomst voor te bereiden en om een actieresultaat te kunnen bieden. Als de aanschaffingstijd niet is opgenomen voor de veiligheidsvoorraad, worden geplande orders die zijn gemaakt voor de huidige lage voorhanden voorraad altijd vertraagd vanwege de levertijd. Dit gedrag kan leiden tot belangrijke ruis en ongewenste geplande orders. De beste manier is om de instelling te wijzigen zodat *Datum van vandaag + levertijd* wordt gebruikt. Werk hoofdgegevens bij om waarschuwingen te voorkomen. | N.v.t. |
-| Verkoopoffertes | Hoofdplannen met verkoopoffertes ingeschakeld: *\#* | Deze functie wordt verwerkt. Momenteel worden offertes niet overwogen wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Wave 2, 2022 release of hoger |
-| Te gebruiken tot | Hoofdplannen met Te gebruiken tot ingeschakeld: *\#* | Deze functie wordt verwerkt. | Wave 2, 2022 release |
+| Verkoopoffertes | Hoofdplannen met verkoopoffertes ingeschakeld: *\#* | Deze functie wordt verwerkt. Momenteel worden offertes niet overwogen wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Wave 2, 2022 release |
+| Te gebruiken tot | Hoofdplannen met Te gebruiken tot ingeschakeld: *\#* | Deze functie wordt nu ondersteund. | Ondersteund |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht van Optimalisatie van planning](planning-optimization-overview.md)
-
-[Aan de slag met Planningsoptimalisatie](get-started.md)
-
-[Verschillen tussen klassieke hoofdplanning en planningsoptimalisatie](planning-optimization-differences-with-built-in.md)
-
-[Parameters die niet worden gebruikt door Planningsoptimalisatie](not-used-parameters.md)
-
-[Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
-
-[Filters op een plan toepassen](plan-filters.md)
-
-[Een planningstaak annuleren](cancel-planning-job.md)
+- [Systeemarchitectuur voor hoofdplanning](../master-planning-architecture.md)
+- [Aan de slag met hoofdplanning](get-started.md)
+- [Verschillen tussen klassieke hoofdplanning en planningsoptimalisatie](planning-optimization-differences-with-built-in.md)
+- [Parameters die niet worden gebruikt door Planningsoptimalisatie](not-used-parameters.md)
+- [Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
+- [Planning uitvoeren voor een subset van artikelen](plan-filters.md)
+- [Een planningstaak annuleren](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

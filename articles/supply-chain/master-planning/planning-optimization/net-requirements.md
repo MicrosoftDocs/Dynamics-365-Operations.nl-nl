@@ -1,6 +1,6 @@
 ---
-title: Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie
-description: Dit artikel biedt informatie over berekende nettovereisten en het traceren van informatie in de Planningsoptimalisatie.
+title: Nettobehoeften en informatie over tracering van de behoefte
+description: Dit artikel biedt informatie over berekende nettovereisten en het traceren van informatie.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888523"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748433"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie
+# <a name="net-requirements-and-pegging-information"></a>Nettobehoeften en informatie over tracering van de behoefte
 
 [!include [banner](../../includes/banner.md)]
 
-Wanneer u de hoofdplanning in Planningsoptimalisatie uitvoert, is het belangrijk dat u de uitvoer begrijpt, hoe de bestaande voorraad de vraag dekt en waarom een bepaald voorraad is gegenereerd. U kunt de pagina **Nettovereisten** gebruiken om een beter inzicht te krijgen in de berekende behoeften die door de hoofdplanning worden geproduceerd.
+Wanneer u de hoofdplanning uitvoert, is het belangrijk dat u de uitvoer begrijpt, hoe de bestaande voorraad de vraag dekt en waarom een bepaalde voorraad is gegenereerd. U kunt de pagina **Nettovereisten** gebruiken om een beter inzicht te krijgen in de berekende behoeften die door de hoofdplanning worden geproduceerd.
 
-Op de pagina **Nettovereisten** worden de nettovereisten weergegeven die voor het product worden berekend in de Planningsoptimalisatie. Ook worden de dekkingsinstellingen die zijn toegepast tijdens de hoofdplanning, een opsplitsing van de totale behoeften per transactietype en de tracering van informatie gegeven.
+Op de pagina **Nettovereisten** worden de nettovereisten weergegeven die voor het product worden berekend in de hoofdplanning. Ook worden de dekkingsinstellingen die zijn toegepast tijdens de hoofdplanning, een opsplitsing van de totale behoeften per transactietype en de tracering van informatie gegeven.
 
 ## <a name="open-the-net-requirements-page"></a>Open de pagina Nettovereisten
 
@@ -64,8 +64,8 @@ Het onderste gedeelte van de pagina bevat de volgende tabbladen:
 De volgende opdrachten zijn beschikbaar in het actievenster:
 
 - **Hoofdplanning \> bijwerken** – Hoofdplanning rechtstreeks vanaf de pagina **Nettovereisten** uitvoeren.
-- **Prognoseplanning \> bijwerken** – Prognoseplanning rechtstreeks vanaf de pagina **Nettovereisten** uitvoeren. Deze bewerking wordt nog niet ondersteund door Planningsoptimalisatie.
-- **Continuïteitsplanning \> bijwerken** – Continuïteitsplanning rechtstreeks vanaf de pagina **Nettovereisten** uitvoeren. Deze bewerking wordt nog niet ondersteund door Planningsoptimalisatie.
+- **Prognoseplanning \> bijwerken** – Prognoseplanning rechtstreeks vanaf de pagina **Nettovereisten** uitvoeren. Deze bewerking wordt niet ondersteund door Planningsoptimalisatie.
+- **Continuïteitsplanning \> bijwerken** – Continuïteitsplanning rechtstreeks vanaf de pagina **Nettovereisten** uitvoeren. Deze bewerking wordt niet ondersteund door Planningsoptimalisatie.
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 
@@ -133,8 +133,6 @@ Vervolgens opent u de pagina **Nettovereisten** voor product *1000* om te contro
     ![Informatie traceren voor de verkooporder](media/pegging-planned-purchase-order.png "Informatie voor de verkooporder traceren")
 
 > [!NOTE]
-> Aangezien een aantal functies nog niet wordt ondersteund door planningsoptimalisatie, worden de typen behoeften *Veiligheidsvoorraad* en *Vervallen batch* niet opgenomen op de pagina **Nettovereisten**. Zie [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie.
->
-> Als u de ingebouwde hoofdplanning-engine gebruikt, worden batchproducten ondersteund. Voor batchproducten wordt vervallen voorhanden voorraad op de pagina **Nettovereisten** weergegeven, maar er worden geen vraagbehoeften getraceerd. Vervallen voorhanden-regels van dit type worden op de pagina **Nettovereisten** weergegeven als *Vervallen batch* behoefteregels.
+> De vereiste *Veiligheidsvoorraad* is niet opgenomen op de pagina **Nettobehoeften**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

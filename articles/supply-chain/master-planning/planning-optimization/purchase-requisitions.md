@@ -1,6 +1,6 @@
 ---
 title: Opdrachten tot inkoop
-description: In dit artikel wordt beschreven hoe opdrachten tot inkoop worden ondersteund in Planningsoptimalisatie.
+description: In dit artikel worden opdrachten tot inkoop beschreven.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867893"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740679"
 ---
 # <a name="purchase-requisitions"></a>Opdrachten tot inkoop
 
@@ -59,7 +59,7 @@ Wanneer u een time fence voor goedgekeurde bestelaanvragen wilt instellen voor e
 1. Herhaal stap 2 en 3 voor elk aanvullend hoofdplan waarin u een time fence voor goedgekeurde bestelaanvragen wilt instellen.
 
 > [!IMPORTANT]
-> **Binnenkort:** times fences voor goedgekeurde bestelaanvragen worden nog niet ondersteund voor Planningsoptimalisatie. Tot die tijd worden alle waarden die u invoert in het veld **Time fence goedgekeurde bestelaanvragen (dagen)** genegeerd.
+> Times fences voor goedgekeurde bestelaanvragen worden niet ondersteund voor Planningsoptimalisatie. Tot die tijd worden alle waarden die u invoert in het veld **Time fence goedgekeurde bestelaanvragen (dagen)** genegeerd.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Onafhankelijke levering, ongeacht behoefteplanningscode
 

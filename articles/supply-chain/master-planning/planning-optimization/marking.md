@@ -1,6 +1,6 @@
 ---
-title: Voorraadmarkering met Planningsoptimalisatie
-description: Dit artikel biedt informatie over de opties die beschikbaar zijn voor voorraadmarkering in gefiatteerde orders wanneer u Planningsoptimalisatie gebruikt.
+title: Voorraad markeren
+description: Dit artikel biedt informatie over de opties die beschikbaar zijn voor voorraadmarkering in gefiatteerde orders.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219932"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740571"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Voorraadmarkering met Planningsoptimalisatie
+# <a name="inventory-marking"></a>Voorraad markeren
 
 [!include [banner](../../includes/banner.md)]
 
-Dit artikel biedt informatie over de opties die beschikbaar zijn voor voorraadmarkering in gefiatteerde orders wanneer u Planningsoptimalisatie gebruikt.
+Dit artikel biedt informatie over de opties die beschikbaar zijn voor voorraadmarkering in gefiatteerde orders.
 
 *Markering* wordt gebruikt om vraag en aanbod te koppelen. Het lijkt op *tracering van de behoefte* waarmee wordt aangegeven hoe de hoofdplanning de vraag verwacht te dekken. Vanuit het oogpunt van planning is het belangrijkste verschil dat markering permanenter is dan tracering van de behoefte.
 

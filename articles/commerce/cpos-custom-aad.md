@@ -2,22 +2,19 @@
 title: CPOS configureren om een aangepaste Azure AD-app te gebruiken
 description: In dit artikel wordt uitgelegd hoe u Cloud POS (CPOS) configureert om een aangepaste Azure Active Directory (Azure AD)-app te gebruiken.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9222965"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746255"
 ---
 # <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>CPOS configureren om een aangepaste Azure AD-app te gebruiken
 
@@ -52,6 +49,9 @@ Voer de volgende stappen uit om een aangepaste Retail Server-app in Azure AD te 
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Een aangepaste CPOS-app instellen in Azure AD
 
+> [!IMPORTANT]
+> Als u een bestaande aangepaste CPOS Azure AD-app bijwerkt die is gemaakt vóór Commerce-versie 10.0.21, volgt u de stappen in [Een bestaande aangepaste CPOS Azure AD-app upgraden die is gemaakt vóór Commerce-versie 10.0.21](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
+
 Voer de volgende stappen uit om een aangepaste CPOS-app in Azure AD te maken en configureren.
 
 1. Meld u aan bij het [Azure Active Directory-beheercentrum](https://aad.portal.azure.com) met een willekeurige Azure AD-gebruikersaccount. De gebruikersaccount hoeft geen beheerdermachtigingen te hebben.
@@ -68,12 +68,25 @@ Voer de volgende stappen uit om een aangepaste CPOS-app in Azure AD te maken en 
 1. Stel in de sectie **Manifest** de parameters **oauth2AllooauthwIdTokenImplicitFlow** en **oauth2AllowImplicitFlow** in op **waar** en selecteer **Opslaan**.
 1. Volg deze stappen in de sectie **Tokenconfiguratie** om twee claims toe te voegen:
 
-    - Selecteer **Optionele claim toevoegen**. Stel het veld **Tokentype** in op **Id** en selecteer vervolgens de **sid**-claim. Selecteer **Toevoegen**.
-    - Selecteer **Optionele claim toevoegen**. Stel het veld **Tokentype** in op **Toegang** en selecteer vervolgens de **sid**-claim. Selecteer **Toevoegen**.
+    1. Selecteer **Optionele claim toevoegen**. Stel het veld **Tokentype** in op **Id** en selecteer vervolgens de **sid**-claim. Selecteer **Toevoegen**.
+    1. Selecteer **Optionele claim toevoegen**. Stel het veld **Tokentype** in op **Toegang** en selecteer vervolgens de **sid**-claim. Selecteer **Toevoegen**.
 
 1. Selecteer in de sectie **API-machtigingen** de optie **Een machtiging toevoegen**.
 1. Zoek op het tabblad **API's die in mijn organisatie worden gebruikt** naar de Retail Server-app die u hebt gemaakt in de sectie [Een aangepaste Retail Server-app instellen in Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad). Selecteer vervolgens **Machtigingen toevoegen**.
 1. Noteer in de sectie **Overzicht** de waarde uit het veld **Id van toepassing (client)**.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Een bestaande aangepaste CPOS Azure AD-app upgraden die is gemaakt vóór Commerce-versie 10.0.21
+
+Ga als volgt te werk om een bestaande aangepaste CPOS Azure AD-app te upgraden die is gemaakt vóór Commerce-versie 10.0.21. 
+
+1. Open uw aangepaste CPOS Azure AD-app in de Azure-portal.
+1. Selecteer het tabblad **Verificatie**.
+1. Kopieer de oorspronkelijke omleidings-URI uit het type **Web**, sla deze op voor later gebruik en verwijder deze.
+1. Selecteer **Een platform toevoegen** en selecteer vervolgens **Toepassing met één pagina**.
+1. Voeg de oorspronkelijke webomleidings-URI die hierboven is gekopieerd naar het SPA-platform.
+1. Volg deze stappen in de sectie **Tokenconfiguratie** om twee claims toe te voegen:
+    1. Selecteer **Optionele claim toevoegen**. Stel het veld **Tokentype** in op **Id** en selecteer vervolgens de **sid**-claim. Selecteer **Toevoegen**.
+    1. Selecteer **Optionele claim toevoegen**. Stel het veld **Tokentype** in op **Toegang** en selecteer vervolgens de **sid**-claim. Selecteer **Toevoegen**.
 
 ## <a name="update-the-cpos-configuration-file"></a>Het CPOS-configuratiebestand bijwerken
 

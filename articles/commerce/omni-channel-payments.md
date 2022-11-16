@@ -2,7 +2,7 @@
 title: Overzicht van betalingen voor meerdere kanalen
 description: Dit artikel biedt een overzicht van betalingen voor meerdere kanalen in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881704"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746120"
 ---
 # <a name="omni-channel-payments-overview"></a>Overzicht van betalingen voor meerdere kanalen
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Dit artikel biedt een overzicht van betalingen voor meerdere kanalen in Dynamics 365 Commerce. Het bevat een uitgebreide lijst met ondersteunde scenario's, informatie over functionaliteit, installatie en probleemoplossing, en beschrijvingen van enkele veelvoorkomende problemen.
 
@@ -34,7 +35,7 @@ Dit artikel biedt een overzicht van betalingen voor meerdere kanalen in Dynamics
 
 | Voorwaarde | Beschrijving |
 |---|---|
-| Token  | Een reeks gegevens die door een betalingsverwerker als verwijzing worden verstrekt. Tokens kunnen voor creditcardnummers, betalingsautorisaties en vastleggingen van eerdere betalingen staan. Tokens zijn belangrijk omdat hiermee gevoelige gegevens uit het POS-systeem (Point of Sale) kunnen worden gehouden. Dit worden ook wel *verwijzingen* genoemd. |
+| Token  | Een reeks gegevens die door een betalingsverwerker als verwijzing worden verstrekt. Tokens kunnen voor creditcardnummers, betalingsautorisaties en vastleggingen van eerdere betalingen staan. Tokens zijn belangrijk omdat hiermee gevoelige gegevens uit het POS-systeem (Point of Sale) kunnen worden gehouden. Deze worden ook wel *verwijzingen* genoemd. |
 | Kaarttoken | Een token dat door een betalingsverwerker beschikbaar wordt gesteld voor opslag in het POS-systeem. Een kaarttoken kan alleen worden gebruikt door de verkoper die het token ontvangt. Kaarttokens worden ook wel *kaartverwijzingen* genoemd. |
 | Autorisatietoken | Een unieke id die door een betalingsproces wordt gebruikt als onderdeel van het antwoord dat naar een POS-systeem wordt verzonden nadat het POS-systeem een autorisatieaanvraag heeft ingediend. Een autorisatietoken kan later worden gebruikt als de verwerker wordt aangeroepen om acties uit te voeren, zoals het terugdraaien of ongeldig maken van de autorisatie. Het wordt echter meestal gebruikt om fondsen vast te leggen wanneer aan een wordt voldaan of een transactie wordt afgerond. Autorisatietokens worden ook wel *autorisatieverwijzingen* genoemd. |
 | Vastleggingstoken | Een verwijzing die door een betalingsverwerker aan een POS-systeem wordt doorgegeven wanneer een betaling wordt afgerond of vastgelegd. De vastleggingstoken kan vervolgens bij latere bewerkingen, zoals restitutieaanvragen, worden gebruikt om te verwijzen naar de betalingsregistratie. | 
@@ -104,7 +105,7 @@ In de volgende secties worden de stappen voor elk scenario beschreven en wordt a
 Voordat u begint, moet u ervoor zorgen dat aan de volgende voorwaarden wordt voldaan:
 
 - U hebt een referentiewinkel waar de Adyen-connector is geconfigureerd.
-- De optie **Betalingen voor meerdere kanalen** op de pagina **Gedeelde Commerce-parameters** wordt ingesteld op **Waar**. In latere versies wordt deze instelling verplaatst naar het werkgebied **Functiebeheer**, waar u de functie **Betalingen voor meerdere kanalen** kunt selecteren en op **Nu inschakelen** kunt klikken. 
+- De optie **Betalingen voor meerdere kanalen** op de pagina **Gedeelde Commerce-parameters** wordt ingesteld op **Waar**. In latere versies worden deze instellingen verplaatst naar het werkgebied **Functiebeheer**, waar u de functie **Betalingen voor meerdere kanalen** kunt selecteren en op **Nu inschakelen** kunt klikken. 
 - De Adyen-betalingsconnector is geconfigureerd voor de Houston POS-kassa.
 - Het Retail Modern POS voor Windows of Android met ingebouwd hardwarestation   -of-
 - Modern POS voor iOS of cloud-POS met verbonden, gedeeld hardwarestation. 
@@ -169,9 +170,9 @@ Voer de volgende stappen uit om het scenario uit te voeren.
 6. Voer **Seattle** in de zoekbalk in en selecteer de winkel in **Seattle** voor ophalen. 
 7. Selecteer **OK** om de huidige datum te accepteren als datum van ophalen.
 9. Selecteer **Betaalkaart** om de betalingsreferentie te initiëren.
-10. Wijs de kaartbetaling toe voor het verschuldigde bedrag voor het deposito. 
+10. Wijs de kaartbetaling toe voor het verschuldigde bedrag voor het deposito.
 11. Voltooi de depositobetaling op de betalingsterminal. 
-12. Nadat het deposito is betaald, selecteert u de optie om dezelfde kaart te gebruiken voor afhandeling en wacht u totdat de order is voltooid. 
+12. Nadat het deposito is betaald, selecteert u de optie om dezelfde kaart te gebruiken voor afhandeling en wacht u totdat de order is voltooid. Als 100% van de storting is betaald (vanaf stap 10 hierboven), worden de fondsen direct op de kaart vastgelegd en is een autorisatietoken niet beschikbaar bij facturering omdat de fondsen al zijn vastgelegd en bijgehouden als betaald.
 13. Start het POS voor de Seattle-winkel.
 14. Selecteer in de POS-pagina op de pagina Welkom de **orders waarvoor u** de order wilt ophalen om de orders voor de afhalen in de winkel te bekijken. 
 15. Selecteer een of meer regels uit de order die is gemaakt in de referentiewinkel en selecteer **Verzamelen**.
@@ -198,7 +199,7 @@ Voer de volgende stappen uit om het scenario uit te voeren.
 8. Selecteer **Betaalkaart** om de betalingsreferentie te initiëren.
 9. Wijs de kaartbetaling toe voor het verschuldigde bedrag voor het deposito. 
 10. Voltooi de depositobetaling op de betalingsterminal. 
-11. Nadat het deposito is betaald, selecteert u de optie om dezelfde kaart te gebruiken voor afhandeling en wacht u totdat de order is voltooid.
+11. Nadat het deposito is betaald, selecteert u de optie om dezelfde kaart te gebruiken voor afhandeling en wacht u totdat de order is voltooid. Als 100% van de storting is betaald (vanaf stap 9 hierboven), worden de fondsen direct op de kaart vastgelegd en is een autorisatietoken niet beschikbaar bij facturering omdat de fondsen al zijn vastgelegd en bijgehouden als betaald.
 
 Wanneer de order wordt verzameld, verpakt en gefactureerd in de back-office, worden de betalingsdetails op het POS gebruikt om de fondsen vast te leggen voor de goederen die naar de klant worden verzonden. 
 

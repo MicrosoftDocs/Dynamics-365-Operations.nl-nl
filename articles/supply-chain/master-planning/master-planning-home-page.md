@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f36459e21d96325151aa7fe90f3824b07c2536c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 6f7289e7ecee49353ca8ee4554914a08074401df
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469976"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740490"
 ---
 # <a name="master-planning-home-page"></a>Startpagina Hoofdplanning
 
@@ -83,8 +83,7 @@ Extra informatie is beschikbaar in de vorm van taakbegeleiders. U kunt op elke p
 ### <a name="tech-conference-recordings"></a>Opnamen van technische vergaderingen
 
 - [De functie voor vraagprognose uitbreiden](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-- [Hoofdplanning - tips en trucs voor het oplossen van prestatieproblemen](https://youtu.be/7v8BPmEs9Dg)
-- [MRP prestatieafstemming](https://youtu.be/RLXybx20B5o)
+- [Prestatieafstemming MRP](https://youtu.be/RLXybx20B5o)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

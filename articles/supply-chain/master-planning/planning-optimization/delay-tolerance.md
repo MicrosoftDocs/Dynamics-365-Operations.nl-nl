@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335370"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740463"
 ---
 # <a name="delay-tolerance-negative-days"></a>Vertragingstolerantie (negatieve dagen)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ De berekening van de vertragingstolerantie wordt door het systeem aan de *vroegs
 Met deze formule wordt gegarandeerd dat er door de hoofdplanning geen nieuwe aanvulorders worden gemaakt wanneer er voldoende aanbod bestaat tijdens de productlevertijd.
 
 > [!NOTE]
-> Bij de berekening van vertragingstolerantie in Planningsoptimalisatie wordt altijd de dynamische, berekening van negatieve dagen gebruikt op basis van de ingebouwde hoofdplanning. De instelling **Dynamische, negatieve dagen gebruiken** op de pagina **Parameters hoofdplanning** heeft geen effect op dit gedrag.
+> Bij de berekening van vertragingstolerantie in Planningsoptimalisatie wordt altijd de dynamische, berekening van negatieve dagen gebruikt op basis van de afgeschafte hoofdplanningsengine. De instelling **Dynamische, negatieve dagen gebruiken** op de pagina **Parameters hoofdplanning** heeft geen effect op dit gedrag.
 
 Als het bestaande aanbod een uitgestelde vraag geeft die kleiner is dan of gelijk is aan de berekende vertragingstolerantie, zorgt Planningsoptimalisatie ervoor dat het bestaande aanbod aan de vraag wordt gekoppeld. In sommige gevallen is het beter de vraag uit te stellen dan te eindigen met een overaanbod.
 

@@ -1,6 +1,6 @@
 ---
 title: Planhistorie en planningslogboeken weergeven
-description: In dit artikel wordt uitgelegd hoe u de historie van planningstaken kunt weergeven die zijn geactiveerd door de functionaliteit Planningsoptimalisatie.
+description: In dit artikel wordt uitgelegd hoe u de historie van planningstaken bekijkt.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863935"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740926"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Planhistorie en planningslogboeken weergeven
 
 [!include [banner](../../includes/banner.md)]
 
-In dit artikel wordt uitgelegd hoe u de historie van planningstaken kunt weergeven die zijn geactiveerd door de functionaliteit Planningsoptimalisatie in Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel wordt uitgelegd hoe u de historie van planningstaken in Microsoft Dynamics 365 Supply Chain Management bekijkt.
 
 Als u de historie voor een plan wilt weergeven, opent u het plan door naar **Hoofdplanning** \> **Instellingen** \> **Plannen** \> **Hoofdplannen** te gaan en **Historie** te selecteren. In de historie worden alle taken voor het geselecteerde plan weergegeven. De lijst bevat voltooide en actieve taken.
 
@@ -47,14 +47,6 @@ Voer deze stappen uit om automatische fiatteringsfouten en andere waarschuwingen
     - Als u het verouderde formulier gebruikt, selecteert u **Logboek** op het tabblad **Batchtaak** in het actievenster.
 
 1. Selecteer **Berichtdetails** om het deelvenster **Berichtdetails** te openen, waar u alle waarschuwingen en fouten kunt bekijken die tijdens de verwerking zijn vastgelegd.
-
-## <a name="related-resources"></a>Gerelateerde bronnen
-
-- [Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
-- [Aan de slag met Planningsoptimalisatie](get-started.md)
-- [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md)
-- [Filters op een plan toepassen](plan-filters.md)
-- [Een planningstaak annuleren](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689771"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740818"
 ---
 # <a name="visual-and-collaborative-execution"></a>Visuele en samenwerkende uitvoering
 
@@ -34,7 +34,7 @@ In Microsoft Dynamics 365 Supply Chain Management kunt u visueel bijhouden hoe b
 1. Selecteer een vrijgegeven artikel dat als een ontkoppelingspunt is ingesteld. (Zie [Voorraadpositionering](ddmrp-inventory-positioning.md) voor meer informatie.)
 1. Selecteer in het actievenster op het tabblad **Plan** **Artikelbehoefteplanning**.
 1. Selecteer op de pagina **Artikelbehoefteplanning** een artikelbehoefteplanningsrecord waarmee een ontkoppelingspunt wordt gemaakt. (In deze record wordt de naam van een behoefteplanningsgroep weergegeven die is ingesteld om ontkoppelingspunten te maken.)
-1. Selecteer het tabblad **Voorhanden**. Dit tabblad bevat een diagram waarin wordt aangegeven hoe voorhanden hoeveelheden in de loop van de tijd zijn gewijzigd, samen met de waarde van het niveau voorhanden voorraad dat voor een specifieke periode is vastgelegd bij elke uitvoering van de planningsoptimalisatie. Het tabblad bevat ook een tabel die laat zien in welke van de volgende categorieën elk geregistreerde niveau van voorhanden voorraad valt:
+1. Selecteer het tabblad **Voorhanden**. Dit tabblad bevat een diagram waarin wordt aangegeven hoe voorhanden hoeveelheden in de loop van de tijd zijn gewijzigd, samen met de waarde van het niveau voorhanden voorraad dat voor een specifieke periode is vastgelegd bij elke uitvoering van de hoofdplanning. Het tabblad bevat ook een tabel die laat zien in welke van de volgende categorieën elk geregistreerde niveau van voorhanden voorraad valt:
 
     - **Kritiek laag**: minder dan de helft van het minimum voor de periode.
     - **Laag**: tussen de helft van het minimum en het minimum.

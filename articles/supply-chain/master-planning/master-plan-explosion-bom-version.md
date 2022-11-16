@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 119b77b695ff065c8e45693e1cf7cf15360d441e
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1ef8a04ce4ab2180f39a6d2bcdab976eb146d610
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468631"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741225"
 ---
 # <a name="explosion-of-a-bom-version"></a>Explosie van een stuklijstversie
 
@@ -38,9 +38,8 @@ In de volgende afbeelding ziet u het proces voor de vraagexplosie van de hoofdpl
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[De stuklijstversie bepalen](master-plan-bom-version-determined.md)
-
-[Overzicht van de hoofdplanning en functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
+- [De stuklijstversie bepalen](master-plan-bom-version-determined.md)
+- [Overzicht van de hoofdplanning en functionaliteit voor meerdere locaties](master-plan-multisite-functionality.md)
 
 
 

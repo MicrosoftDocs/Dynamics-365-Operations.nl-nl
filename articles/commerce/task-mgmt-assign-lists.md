@@ -2,23 +2,23 @@
 title: Takenlijsten toewijzen aan winkels of werknemers
 description: In dit artikel wordt beschreven hoe u takenlijsten toewijst aan winkels of werknemers in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 8aa1d61e235244ee9400419e51da638c059892e5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: faff772051738f624b86fd23fb6bf29173e909ea
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284652"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746189"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Takenlijsten toewijzen aan winkels of werknemers
 
@@ -30,7 +30,7 @@ Met taakbeheer in Dynamics 365 Commerce kunt u een takenlijst toewijzen aan meer
 
 ## <a name="start-the-task-list-assignment-process"></a>Het toewijzingsproces voor takenlijst starten
 
-Ga als volgt te werk om het toewijzingsproces van een takenlijst te starten.
+Voordat u het toewijzen van taken start, moet u eerst een taaklijst maken door de stappen in het artikel [Takenlijsten maken en taken toevoegen](task-mgmt-create-lists.md) te volgen. Ga als volgt te werk om het toewijzingsproces van een takenlijst te starten.
 
 1. Ga naar **Detailhandel en commerce \> Taakbeheer \> Taakbeheer beheren**.
 1. Selecteer de takenlijst die u wilt toewijzen.

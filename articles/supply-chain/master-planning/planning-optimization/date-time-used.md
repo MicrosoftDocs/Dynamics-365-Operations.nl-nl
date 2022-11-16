@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885894"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740899"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parameters voor datum en tijd die door Planningsoptimalisatie worden gebruikt
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885894"
 
 Dit artikel biedt informatie over de parameters voor datum en tijd die tijdens de bewerking door Planningsoptimalisatie worden gebruikt .
 
-Terwijl in de ingebouwde hoofdplanningsengine transactiedatums in alle berekeningen gebruikt, werkt Planningsoptimalisatie met datum- en tijdwaarden die naar datums zijn geconverteerd. Dit verschil in gedrag kan leiden tot situaties waarin bijvoorbeeld prognosetransacties die zijn gemaakt om middernacht op de dag waarop de hoofdplanning wordt uitgevoerd, niet zijn opgenomen, omdat Planningsoptimalisatie er rekening mee houdt dat ze vóór de huidige datum zijn gemaakt.
+Terwijl in de afgeschafte hoofdplanningsengine transactiedatums in alle berekeningen worden gebruikt, werkt Planningsoptimalisatie met datum- en tijdwaarden die naar datums zijn geconverteerd. Dit verschil in gedrag kan leiden tot situaties waarin bijvoorbeeld prognosetransacties die zijn gemaakt om middernacht op de dag waarop de hoofdplanning wordt uitgevoerd, niet zijn opgenomen, omdat Planningsoptimalisatie er rekening mee houdt dat ze vóór de huidige datum zijn gemaakt.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Parameters voor uitgifte- en vraagtransacties
 

@@ -1,6 +1,6 @@
 ---
 title: Aanvullingsmethoden en hoeveelheidswijziging
-description: Dit artikel geeft informatie over anvullingsmethoden in Planningsoptimalisatie. Daarnaast wordt uitgelegd hoe de meervoudige bestelhoeveelheid voor een product invloed heeft op het resultaat.
+description: Dit artikel geeft informatie over aanvullingsmethoden. Daarnaast wordt uitgelegd hoe de meervoudige bestelhoeveelheid voor een product invloed heeft op het resultaat.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873690"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739751"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Aanvullingsmethoden en hoeveelheidswijziging
 
 [!include [banner](../../includes/banner.md)]
 
-Dit artikel geeft informatie over anvullingsmethoden in Planningsoptimalisatie. Daarnaast wordt uitgelegd hoe de meervoudige bestelhoeveelheid voor een product invloed heeft op het resultaat.
+Dit artikel geeft informatie over aanvullingsmethoden. Daarnaast wordt uitgelegd hoe de meervoudige bestelhoeveelheid voor een product invloed heeft op het resultaat.
 
 Aanvullingsmethoden worden ook wel methoden voor behoefteplanning en partijgroottebepaling genoemd.
 
 ## <a name="coverage-codes"></a>Dekkingscodes
 
-Planningsoptimalisatie kan worden geconfigureerd om verschillende aanvullingsmethoden te gebruiken. De aanvullingsmethoden zijn de technieken die door het systeem worden gebruikt om behoeften aan een product te berekenen. Aanvullingsmethoden worden gedefinieerd met behoefteplanningscodes die u kunt instellen voor de behoefteplanningsgroep of het product.
+Hoofdplanning kan worden geconfigureerd om verschillende aanvullingsmethoden te gebruiken. De aanvullingsmethoden zijn de technieken die door het systeem worden gebruikt om behoeften aan een product te berekenen. Aanvullingsmethoden worden gedefinieerd met behoefteplanningscodes die u kunt instellen voor de behoefteplanningsgroep of het product.
 
-De volgende behoefteplanningscodes kunnen worden gebruikt bij Planningsoptimalisatie:
+De volgende dekkingscodes kunnen worden gebruikt:
 
 - **Periode**: de aanvullingsmethode waarmee alle vraag voor een periode in één order voor het product wordt gecombineerd. De order wordt gepland voor de eerste dag van de periode en de hoeveelheid voldoet aan de nettobehoeften gedurende de vastgestelde periode. De periode begint met de eerste vraag naar het product en geldt voor de gedefinieerde duur. De volgende periode begint met de volgende vereisten van het product. De behoefteplanningscode *Periode* wordt vaak gebruikt voor niet te voorspellen afname van de voorraad, producten die variëren per seizoen of producten met hoge kosten. In de volgende afbeelding ziet u een voorbeeld.
 
@@ -64,13 +64,13 @@ Op de pagina **Standaard orderinstelling** voor een vrijgegeven product kunt u e
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Voorbeelden van aanvulling met de behoefteplanningscode Min./Max.
 
-Als u geen waarde in het veld **Veelvoud** opgeeft voor een product op de pagina **Standaard orderinstelling** en als u de aanvullingsmethode *Min./Max.* gebruikt, wordt de voorraad door Planningsoptimalisatie aangevuld tot een specifiek niveau wanneer het voorspelde niveau van de voorhanden voorraad onder een bepaalde drempel ligt.
+Als u geen waarde in het veld **Veelvoud** opgeeft voor een product op de pagina **Standaard orderinstelling** en als u de aanvullingsmethode *Min./Max.* gebruikt, wordt de voorraad door de hoofdplanning aangevuld tot een specifiek niveau wanneer het voorspelde niveau van de voorhanden voorraad onder een bepaalde drempel ligt.
 
 Als u een meervoudige hoeveelheid voor een product definieert, wijzigt de aanvullingsmethode *Min./Max.* het gedrag en houdt rekening met de waarde van **Veelvoud**.
 
-Met andere woorden, via Planningsoptimalisatie wordt de voorraad nog steeds aangevuld tot het gedefinieerde maximumniveau wanneer de voorspelde hoeveelheid voor voorhanden voorraad kleiner is dan het gedefinieerde minimumniveau. De aanvullingshoeveelheid moet echter een veelvoud van de waarde van **Veelvoud** zijn.
+Met andere woorden, via de hoofdplanning wordt de voorraad nog steeds aangevuld tot het gedefinieerde maximumniveau wanneer de voorspelde hoeveelheid voor voorhanden voorraad kleiner is dan het gedefinieerde minimumniveau. De aanvullingshoeveelheid moet echter een veelvoud van de waarde van **Veelvoud** zijn.
 
-Als de aanvullingshoeveelheid (het verschil tussen het maximumniveau en het voorspelde voorhanden-voorraadniveau) geen veelvoud van de gedefinieerde meervoudige hoeveelheid is, wordt in Planningsoptimalisatie de eerste mogelijke waarde gebruikt die, samen met het voorspelde voorhanden-voorraadniveau, onder het maximumniveau ligt. Als de som kleiner is dan het minimumniveau, wordt door Planningsoptimalisatie de eerste waarde gebruikt die, samen met de voorspelde voorhanden voorraad, boven het maximumniveau uit komt.
+Als de aanvullingshoeveelheid (het verschil tussen het maximumniveau en het voorspelde voorhanden-voorraadniveau) geen veelvoud van de gedefinieerde meervoudige hoeveelheid is, wordt in de hoofdplanning de eerste mogelijke waarde gebruikt die, samen met het voorspelde voorhanden-voorraadniveau, onder het maximumniveau ligt. Als de som kleiner is dan het minimumniveau, wordt door de hoofdplanning de eerste waarde gebruikt die, samen met de voorspelde voorhanden voorraad, boven het maximumniveau uitkomt.
 
 De volgende subsecties geven enkele voorbeelden die laten zien hoe de meervoudige bestelhoeveelheid voor een product invloed heeft op het resultaat van de *Min./Max.*- aanvullingsmethode.
 

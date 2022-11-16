@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728271"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736876"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -42,8 +42,9 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 
 > [!NOTE]
 > De onderstaande bewerkingen gelden voor de meest recente versie van Commerce. Sommige bewerkingen zijn mogelijk gewijzigd of mogelijk niet beschikbaar in eerdere versies.
+> Raadpleeg het artikel [Offline Commerce-implementatie en probleemoplossing](dev-itpro/implementation-considerations-offline.md) voor meer informatie over offline functies en configuratie.
 
-| Id   | Bewerking                                         | Description                                                                                                                                                                                                    | Gebruikersbewerkingen    | Transactiescherm | Welkomstscherm | Offline beschikbaar? | Landspecifiek |
+| ID   | Bewerking                                         | Description                                                                                                                                                                                                    | Gebruikersbewerkingen    | Transactiescherm | Welkomstscherm | Offline beschikbaar? | Landspecifiek |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Productverkoop                                      | Een opgegeven product toevoegen aan de transactie.                                                                                                                                                                    | Ja            | Ja                | Ja            | Ja               | Nr.              |
 | 101  | Prijscontrole                                       | Zoek de prijs voor een opgegeven product op.                                                                                                                                        | Ja            | Ja                | Ja            | Ja               | Nr.              |

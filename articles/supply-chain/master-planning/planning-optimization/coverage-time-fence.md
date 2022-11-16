@@ -1,6 +1,6 @@
 ---
 title: Time fences voor behoefteplanning
-description: In dit artikel wordt beschreven hoe u time fences voor behoefteplanning in kunt stellen wanneer u Planningsoptimalisatie gebruikt. Een time fence voor behoefteplanning geeft uw planningshorizon en -limiet aan.
+description: In dit artikel wordt beschreven hoe u time fences voor behoefteplanning instelt. Een time fence voor behoefteplanning geeft uw planningshorizon en -limiet aan.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847928"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740108"
 ---
 # <a name="coverage-time-fences"></a>Time fences voor behoefteplanning
 
 [!include [banner](../../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u *time fences voor behoefteplanning* in kunt stellen wanneer u Planningsoptimalisatie gebruikt. Planners kunnen de planningshorizon (de time fence voor behoefteplanning in dagen) definiëren en kunnen vraag en aanbod buiten die horizon uitsluiten. Daarom helpen time fences voor behoefteplanning 'ruis' voorkomen die wordt veroorzaakt door aanbodsuggesties waar u maanden niet op hoeft te reageren. Voorbeelden zijn de prognose van volgend jaar en de klantorders die veel verder zijn geplaatst dan de normale levertijd.
+In dit artikel wordt beschreven hoe u *time fences voor behoefteplanning* instelt. Planners kunnen de planningshorizon (de time fence voor behoefteplanning in dagen) definiëren en kunnen vraag en aanbod buiten die horizon uitsluiten. Daarom helpen time fences voor behoefteplanning 'ruis' voorkomen die wordt veroorzaakt door aanbodsuggesties waar u maanden niet op hoeft te reageren. Voorbeelden zijn de prognose van volgend jaar en de klantorders die veel verder zijn geplaatst dan de normale levertijd.
 
 Een time fence voor behoefteplanning is het aantal dagen na de datum van vandaag (of om precies te zijn de datum waarop u de planning moet uitvoeren) dat vraag en aanbod zijn uitgesloten. Om vertragingen te voorkomen moet u ervoor zorgen dat de time fence voor behoefteplanning langer is dan de totale levertijd. De standaardsysteeminstelling is 100 dagen.
 
@@ -82,9 +82,9 @@ Houd rekening met de volgende punten terwijl u time fences voor behoefteplanning
 - Behoeftetransacties worden niet gegenereerd voor vraag en aanbod die buiten de time fence voor behoefteplanning vallen.
 - Als goedgekeurde vraag en aanbod buiten de time fence voor behoefteplanning vallen, worden deze niet in de engine geladen. Hierdoor wordt geen aanvulling getriggerd en wordt er geen vertraging berekend. Toch moeten deze vraag en aanbod niet van het systeem worden gewist.
 - Variaties in veiligheidsvoorraadhoeveelheden (van minimumsleutels) worden genegeerd als deze buiten de time fence voor behoefteplanning vallen.
-- De intercompany-vraag wordt genegeerd als de gewenste verzenddatum die is berekend niet binnen de time fence voor behoefteplanning ligt. Voor de ingebouwde hoofdplanning wordt intercompany-vraag niet beperkt door de time fence voor behoefteplanning.
-- Vraagprognoses worden genegeerd als de budgetdatum niet binnen de time fence voor behoefteplanning valt. Voor de ingebouwde hoofdplanning worden vraagprognoses niet beperkt door de time fence voor behoefteplanning.
-- Tijdens de planningsoptimalisatie wordt rekening met de tijdzone gehouden. Er wordt rekening met de tijdzone op de aanbod- en vraaglocaties en met de tijd van de planningsuitvoering gehouden. Bijvoorbeeld: hoofdplanning wordt getriggerd om 11 uur in de ochtend op 15 oktober vanaf een site in Denemarken (tijdzone GMT+1) en er wordt een time fence voor behoefteplanning van tien dagen gebruikt. In dit geval worden het aanbod en de vraag van een site in Seattle (tijdzone GMT-8) opgenomen tot 2 uur in de ochtend op 25 oktober (= tien 24-uur dagen nadat de hoofdplanning is getriggerd, minus het tijdzoneverschil van negen uur). Bij de ingebouwde hoofdplanning-engine wordt alleen rekening gehouden met de datum van de time fence. Het resultaat kan daarom verschillen.
+- De intercompany-vraag wordt genegeerd als de gewenste verzenddatum die is berekend niet binnen de time fence voor behoefteplanning ligt. Voor de afgeschafte hoofdplanningsengine wordt intercompany-vraag niet beperkt door de time fence voor behoefteplanning.
+- Vraagprognoses worden genegeerd als de budgetdatum niet binnen de time fence voor behoefteplanning valt. Voor de afgeschafte hoofdplanningsengine worden vraagprognoses niet beperkt door de time fence voor behoefteplanning.
+- Tijdens de planningsoptimalisatie wordt rekening met de tijdzone gehouden. Er wordt rekening met de tijdzone op de aanbod- en vraaglocaties en met de tijd van de planningsuitvoering gehouden. Bijvoorbeeld: hoofdplanning wordt getriggerd om 11 uur in de ochtend op 15 oktober vanaf een site in Denemarken (tijdzone GMT+1) en er wordt een time fence voor behoefteplanning van tien dagen gebruikt. In dit geval worden het aanbod en de vraag van een site in Seattle (tijdzone GMT-8) opgenomen tot 2 uur in de ochtend op 25 oktober (= tien 24-uur dagen nadat de hoofdplanning is getriggerd, minus het tijdzoneverschil van negen uur). Bij de afgeschafte hoofdplanningsengine wordt alleen rekening gehouden met de datum van de time fence. Het resultaat kan daarom verschillen.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

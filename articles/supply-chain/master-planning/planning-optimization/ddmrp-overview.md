@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: cf5ca3996a882111b840e3acb5e2a4f3f26ec4b7
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689483"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740845"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Overzicht van DDMRP (Demand Driven Material Requirements Planning)
 
@@ -44,6 +44,6 @@ DDMRP wordt meestal gebruikt door fabrikanten die een stuklijst met meerdere niv
 
 ## <a name="ddmrp-in-dynamics-365-supply-chain-management"></a>DDMRP in Dynamics 365 Supply Chain Management
 
-DDMRP wordt meegeleverd met Microsoft Dynamics 365 Supply Chain Management zonder extra licentiekosten. In Supply Chain Management is de DDMRP-functionaliteit toegevoegd aan de bestaande module **Hoofdplanning**. U moet hiervoor echter de invoegtoepassing Planningsoptimalisatie gebruiken. 
+DDMRP wordt meegeleverd met Microsoft Dynamics 365 Supply Chain Management zonder extra licentiekosten. In Supply Chain Management is de DDMRP-functionaliteit toegevoegd aan de bestaande module **Hoofdplanning**. U moet hiervoor echter de invoegtoepassing Planningsoptimalisatie gebruiken.
 
 DDMRP is geïntegreerd met de bestaande planningsinstellingen in Supply Chain Management en wordt samen met deze instellingen gebruikt om tot de juiste planningsconfiguratie voor uw bedrijf te komen. DDMRP wordt beheerd door een nieuwe behoefteplanningscode die totaal verschilt van periode, min/max, behoefte, enzovoort. Het is geen nieuwe module en vervangt geen bestaande planningsfunctionaliteit. Het geeft u echter meer functionaliteit die u kunt toepassen.

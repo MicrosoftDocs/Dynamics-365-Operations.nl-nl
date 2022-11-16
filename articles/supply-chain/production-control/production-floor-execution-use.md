@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 876ee36c75a31ca89a9351d0ee1484e66076b6aa
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069781"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748708"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -146,9 +146,6 @@ Als een batchorder is gemaakt op basis van een formuleversie waarbij de optie **
 In dit geval kan de werknemer het co-product en de hoeveelheid opgeven waarover deze wil rapporteren door **Co-productvariaties** te selecteren in het dialoogvenster voor voortgangsrapportage. De werknemer kan vervolgens kiezen uit alle vrijgegeven producten die als co-producten zijn gedefinieerd.
 
 ### <a name="reporting-catch-weight-items"></a>Catch weight-artikelen rapporteren
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
 
 Werknemers kunnen de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders die zijn gemaakt voor catch weight-artikelen te rapporteren. Batchorders worden gemaakt op basis van formules die u kunt definiëren zodat ze catch weight-artikelen als formule-artikelen, co- en bijproducten als uitvoer hebben. U kunt ook formuleregels definiëren voor ingrediënten die zijn gedefinieerd voor catch weight. Catch weight-artikelen gebruiken twee maateenheden om de voorraad te volgen: de hoeveelheid catch weight en de voorraadhoeveelheid. In de voedselindustrie kan verplakt vlees bijvoorbeeld worden gedefinieerd als catch weight-artikel, waarbij de catch weight-hoeveelheid wordt gebruikt om het aantal dozen bij te houden en de voorraadhoeveelheid wordt gebruikt om het gewicht van de dozen bij te houden.
 

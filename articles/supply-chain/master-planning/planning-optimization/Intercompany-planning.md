@@ -1,6 +1,6 @@
 ---
 title: Intercompany planning
-description: In dit artikel wordt intercompany-planning beschreven en wordt uitgelegd hoe u intercompany-planning configureert met Planningsoptimalisatie in Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt intercompany-planning beschreven en wordt uitgelegd hoe u intercompany-planning configureert in Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
-ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
+ms.openlocfilehash: 3d1c82aa3810b37b06b9d9157e73588fc1727348
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9538560"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740027"
 ---
-# <a name="intercompany-planning"></a>Intercompany-planning
+# <a name="intercompany-planning"></a>Intercompany planning
 
 [!include [banner](../../includes/banner.md)]
 
 Voor sommige organisaties zijn logistieke activiteiten afhankelijk van andere rechtspersonen (bedrijven) in de organisatie. Deze activiteiten worden verwerkt met behulp van intercompany-verkopen en -inkopen, omdat elke rechtspersoon een afzonderlijk rekeningschema heeft.
 
-In dit artikel wordt intercompany-planning beschreven en wordt uitgelegd hoe u intercompany-planning configureert met Planningsoptimalisatie in Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel wordt intercompany-planning beschreven en wordt uitgelegd hoe u intercompany-planning configureert in Microsoft Dynamics 365 Supply Chain Management.
 
 In dit artikel worden de volgende belangrijke intercompany-termen gebruikt:
 

@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335280"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740587"
 ---
 # <a name="priority-based-planning"></a>Op prioriteit gebaseerde planning
 
 [!include [banner](../../includes/banner.md)]
 
-In dit artikel wordt de functie van op prioriteit gebaseerde planning van Microsoft Dynamics 365 Supply Chain Management beschreven. Met de functie wordt ondersteuning toegevoegd voor vraaggestuurde planning. Dit is één stap van [DDMRP (Demand Driven Material Requirements Planning)](ddmrp-overview.md). Met op prioriteit gebaseerde planning kunnen tijdens planningsoptimalisatie geplande orders worden gegenereerd die worden gestuurd door planningsprioriteiten in plaats van op basis van behoeftedatums.
+In dit artikel wordt de functie van op prioriteit gebaseerde planning van Microsoft Dynamics 365 Supply Chain Management beschreven. Met de functie wordt ondersteuning toegevoegd voor vraaggestuurde planning. Dit is één stap van [DDMRP (Demand Driven Material Requirements Planning)](ddmrp-overview.md). Met op prioriteit gebaseerde planning kunnen geplande orders worden gegenereerd die worden gestuurd door planningsprioriteiten in plaats van op basis van behoeftedatums.
 
 Met op prioriteit gebaseerde planning kunt u de prioriteit van aanvullingsorders bepalen, zodat voorrang wordt verleend aan urgente vraag boven minder belangrijke vraag. Er wordt bijvoorbeeld voorrang verleend aan een voorraadaanvullingsorder boven een standaardaanvullingsorder. Het systeem kan automatisch grotere orders opsplitsen in kleinere orders, waarbij orderregels op prioriteit worden gegroepeerd. Alle orders met een hoge prioriteit kunnen vervolgens eerst worden verwerkt.
 
@@ -37,11 +37,11 @@ Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Waar en hoe planningsprioriteiten worden toegewezen
 
-Informatie over *Planningsprioriteit* met betrekking tot vraag en aanbod is de basis voor op prioriteit gebaseerde planning. Met planningsprioriteit wordt het belang van een vraag- of aanbodregel bepaald. Dit wordt in Planningsoptimalisatie gebruikt wanneer het veld **Behoefteplanningscode** is ingesteld op *Prioriteit*.
+Informatie over *Planningsprioriteit* met betrekking tot vraag en aanbod is de basis voor op prioriteit gebaseerde planning. Met planningsprioriteit wordt het belang van een vraag- of aanbodregel bepaald. Dit wordt in de hoofdplanning gebruikt wanneer het veld **Behoefteplanningscode** is ingesteld op *Prioriteit*.
 
 De planningsprioriteit is meestal een getal tussen 0 (nul) en 100, waarbij 0 voor het grootste belang staat. De prioriteit wordt weergegeven en ingesteld in het veld **Planningsprioriteit**. U vindt dit veld op de volgende pagina's: **Vraagprognoseregels**, **Verkooporderdetails**, **Inkooporderdetails**, **Transferorderdetails** en **Details geplande order**.
 
-Wanneer het veld **Behoefteplanningscode** voor het desbetreffende artikel of de desbetreffende behoefteplanningsgroep wordt ingesteld op *Prioriteit*, wordt met Planningsoptimalisatie het aanbod in balans gebracht met de vraag door middel van een vraaggestuurde benadering door de planningsprioriteit te berekenen en voor elk vrijgegeven product de waarden mee te nemen die zijn ingesteld voor de velden **Minimum**, **Bestelpunt** en **Maximum** op de pagina **Artikelbehoefteplanning**.
+Wanneer het veld **Behoefteplanningscode** voor het desbetreffende artikel of de desbetreffende behoefteplanningsgroep wordt ingesteld op *Prioriteit*, wordt met de hoofdplanning het aanbod in balans gebracht met de vraag door middel van een vraaggestuurde benadering door de planningsprioriteit te berekenen en voor elk vrijgegeven product de waarden mee te nemen die zijn ingesteld voor de velden **Minimum**, **Bestelpunt** en **Maximum** op de pagina **Artikelbehoefteplanning**.
 
 > [!NOTE]
 > De waarde *Prioriteit* is alleen beschikbaar voor het veld **Behoefteplanningscode** als Planningsoptimalisatie is ingeschakeld.

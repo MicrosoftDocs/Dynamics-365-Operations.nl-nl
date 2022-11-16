@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690076"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740136"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Hoofdplanning met aanbodprognoses
 
@@ -168,13 +168,13 @@ Wanneer u een hoofdplan uitvoert dat is ingesteld om *Geen* te gebruiken als red
 
 U bewerkt nu de geplande inkooporder die na de laatste planningsrun is gemaakt en wijzigt de hoeveelheid in *15 stuks*. Vervolgens keurt u de inkooporder goed. De volgende keer dat u het hoofdplan uitvoert, wordt een geplande inkooporder gemaakt voor leverancier *US-101*, vestiging *1*, magazijn *11*, een hoeveelheid van *10 stuks* en de datum *10-10-22*. Deze keer wordt de hoeveelheid verminderd om de hoeveelheid van de bestaande goedgekeurde order uit de vorige planningsrun weer te geven.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Verschillen tussen Planningsoptimalisatie en de ingebouwde planningsengine
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Verschillen tussen Planningsoptimalisatie en de verouderde hoofdplanningsengine
 
-Aanbodprognoses werken iets anders, afhankelijk van de planningsengine die u gebruikt (ingebouwde hoofdplanning of Planningsoptimalisatie). In deze sectie worden de verschillen beschreven.
+Aanbodprognoses werken iets anders, afhankelijk van de planningsengine die u gebruikt (Planningsoptimalisatie of de afgeschafte hoofdplanningsengine). In deze sectie worden de verschillen beschreven.
 
 ### <a name="vendor-groups"></a>Leveranciersgroepen
 
-Wanneer u een prognoseregel toevoegt, kunt u een leverancier en een leveranciersgroep opgeven. In de ingebouwde planningsengine worden gemaakte geplande orders gegroepeerd op de combinatie van de waarden voor leverancier en leveranciersgroep. In Planningsoptimalisatie worden geplande orders gegroepeerd op leverancier.
+Wanneer u een prognoseregel toevoegt, kunt u een leverancier en een leveranciersgroep opgeven. In de afgeschafte hoofdplanningsengine worden gemaakte geplande orders gegroepeerd op de combinatie van de waarden voor leverancier en leveranciersgroep. In Planningsoptimalisatie worden geplande orders gegroepeerd op leverancier.
 
 In de volgende tabel vindt u enkele voorbeelden van aanbodprognoseregels voor een artikel.
 
@@ -186,7 +186,7 @@ In de volgende tabel vindt u enkele voorbeelden van aanbodprognoseregels voor ee
 
 Leverancier *VendorA* is de standaardleverancier voor leveranciersgroep *VendorGroupA*. Het is ook de standaardleverancier voor het artikel.
 
-De ingebouwde planningsengine maakt de volgende orders:
+De afgeschafte hoofdplanningsengine maakt de volgende orders:
 
 - Een geplande inkooporder voor leverancier *VendorA*, leveranciersgroep *VendorGroupA* en een hoeveelheid van *11*
 - Een geplande inkooporder voor leverancier *VendorA* en een hoeveelheid van *7*
@@ -197,7 +197,7 @@ Met Planningsoptimalisatie wordt slechts één order gemaakt:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Vermindering van algemene prognoses met specifiekere prognoses
 
-In de ingebouwde hoofdplanningsengine is het resultaat onvoorspelbaar als sommige prognoses wel een leverancier bevatten, maar andere niet.
+In de afgeschafte hoofdplanningsengine is het resultaat onvoorspelbaar als sommige prognoses wel een leverancier bevatten, maar andere niet.
 
 In Planningsoptimalisatie worden algemene prognoses altijd verminderd met specifiekere prognoses, zoals in het volgende voorbeeld wordt laten zien.
 
@@ -218,15 +218,15 @@ De algemene prognose (voor 15,00 stuks) wordt verminderd met de specifiekere pro
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Respect voor standaardorderinstellingen bij het genereren van geplande orders
 
-Elk artikel kan standaardorderinstellingen hebben, zoals een minimale inkooporderhoeveelheid. Deze instellingen worden door de ingebouwde planningsengine genegeerd en hierdoor worden prognoses omgezet in geplande orders met dezelfde hoeveelheid. Planningsoptimalisatie respecteert deze instellingen wanneer geplande orders worden gegenereerd op basis van aanbodprognoses. 
+Elk artikel kan standaardorderinstellingen hebben, zoals een minimale inkooporderhoeveelheid. Deze instellingen worden door de afgeschafte hoofdplanningsengine genegeerd en hierdoor worden prognoses omgezet in geplande orders met dezelfde hoeveelheid. Planningsoptimalisatie respecteert deze instellingen wanneer geplande orders worden gegenereerd op basis van aanbodprognoses. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Samenvoeging van geplande orders als gevolg van vermindering met goedgekeurde orders
 
-De ingebouwde hoofdplanningsengine gaat ervanuit dat de bestaande aanbodprognose slechts met één order wordt verminderd. Als verschillende orders overeenkomen met een aanbodprognoseregel, wordt deze dus alleen met de eerste order verminderd. In Planningsoptimalisatie wordt de aanbodprognoseregel verminderd met alle orders die overeenkomen.
+De afgeschafte hoofdplanningsengine gaat ervanuit dat de bestaande aanbodprognose slechts met één order wordt verminderd. Als verschillende orders overeenkomen met een aanbodprognoseregel, wordt deze dus alleen met de eerste order verminderd. In Planningsoptimalisatie wordt de aanbodprognoseregel verminderd met alle orders die overeenkomen.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Alleen vermindering van prognoses met overeenkomende leveranciers
 
-Wanneer de ingebouwde hoofdplanningsengine een prognose vermindert met bestaande vrijgegeven inkooporders, betekent dit niet dat de leverancier op de inkooporder overeenkomt met de leverancier uit de prognose. Planningsoptimalisatie vermindert prognoses alleen met inkooporders met een overeenkomende waarde in het leveranciersveld.
+Wanneer de afgeschafte hoofdplanningsengine een prognose vermindert met bestaande vrijgegeven inkooporders, betekent dit niet dat de leverancier op de inkooporder overeenkomt met de leverancier uit de prognose. Planningsoptimalisatie vermindert prognoses alleen met inkooporders met een overeenkomende waarde in het leveranciersveld.
 
 Voor transfer- en productieorders wordt het leveranciersveld altijd genegeerd, omdat dit niet relevant is voor die ordertypen.
 
@@ -234,4 +234,4 @@ Voor transfer- en productieorders wordt het leveranciersveld altijd genegeerd, o
 
 Als het standaardordertype voor een artikel *Transfer* is, kunnen prognoses alleen worden verminderd met bestaande geplande transferorders. Voor productie- en inkooporders verminderen echter alleen vrijgegeven orders de aanbodprognose.
 
-De ingebouwde planningsengine vermindert prognoses voor alle statussen van transferorders terwijl in Planningsoptimalisatie prognoses alleen worden verminderd met transferorders met de status *Vrijgegeven*.
+De afgeschafte hoofdplanningsengine vermindert prognoses voor alle statussen van transferorders terwijl in Planningsoptimalisatie prognoses alleen worden verminderd met transferorders met de status *Vrijgegeven*.

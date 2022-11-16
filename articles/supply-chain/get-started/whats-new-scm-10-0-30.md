@@ -2,7 +2,7 @@
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714793"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748459"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.30 (november 2022)
 
@@ -31,8 +31,9 @@ In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Micr
 
 De volgende tabel vermeldt de functies die deze versie bevat. Mogelijk wordt dit artikel gewijzigd om functies op te nemen die zijn toegevoegd na de oorspronkelijke publicatie van dit artikel.
 
-| Functiegebied | Functie | Meer informatie | Ingeschakeld door |
+| Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
 |---|---|---|---|
+| Voorraad en logistiek | [Variabel gereserveerde hoeveelheden in toewijzingen bijhouden](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [Voorraadtoewijzing voor voorraadzichtbaarheid](../inventory/inventory-visibility-allocation.md) |  Ingeschakeld door [serviceconfiguratie](../inventory/inventory-visibility-configuration.md) |
 | Productie | [Apparatuur bewaken met Sensor Data Intelligence](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [De startpagina Sensor Data Intelligence](../sensor-data-intelligence/sdi-home-page.md) | Functiebeheer:<br>*(Preview) Sensor Data Intelligence* |
 | Magazijnbeheer | [Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Omleidingen configureren voor stappen in menu-items van mobiele apparaten](../warehousing/warehouse-app-detours.md) | Functiebeheer:<br>*Omleidingen van meerdere niveaus voor de mobiele app Warehouse Management* |
 

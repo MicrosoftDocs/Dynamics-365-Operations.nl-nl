@@ -1,6 +1,6 @@
 ---
 title: Veiligheidsmarges
-description: In dit artikel wordt beschreven hoe u veiligheidsmarges kunt gebruiken met de invoegtoepassing Planningsoptimalisatie voor Microsoft Dynamics 365 Supply Chain Management.
+description: In dit artikel wordt beschreven hoe veiligheidsmarges werken tijdens de hoofdplanning.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335190"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740436"
 ---
 # <a name="safety-margins"></a>Veiligheidsmarges
 
 [!include [banner](../../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u veiligheidsmarges kunt gebruiken met de invoegtoepassing Planningsoptimalisatie voor Microsoft Dynamics 365 Supply Chain Management.
+In dit artikel wordt beschreven hoe veiligheidsmarges werken tijdens de hoofdplanning.
 
 ## <a name="safety-margins-overview"></a>Overzicht van veiligheidsmarges
 
@@ -165,12 +165,5 @@ Alle drie de typen veiligheidsmarges worden opgenomen wanneer het systeem bepaal
 Een artikel heeft bijvoorbeeld een doorlooptijd van één dag en een ontvangstmarge van drie dagen. Een verkooporder voor dit artikel is ingesteld als vandaag vereist. In dit geval wordt de vertraging berekend als *doorlooptijd* + *ontvangstmarge* = vier dagen. Als vandaag 14 augustus is, levert een vertraging van vier dagen dus een levering op 18 augustus op. In de volgende afbeelding ziet u dit voorbeeld.
 
 ![Voorbeeld van vertragingsberekening.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Aanvullende bronnen
-
-[Aan de slag met Planningsoptimalisatie](get-started.md)
-
-[Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

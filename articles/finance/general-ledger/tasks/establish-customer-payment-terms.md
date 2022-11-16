@@ -2,7 +2,7 @@
 title: Voorwaarden voor klantbetalingen vaststellen
 description: Deze procedure definieert een contantkorting en een instelling voor vervaldatum.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065703"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752771"
 ---
 # <a name="establish-customer-payment-terms"></a>Voorwaarden voor klantbetalingen vaststellen
 
@@ -34,7 +34,11 @@ Deze procedure definieert een contantkorting en een instelling voor vervaldatum.
 6. Voer in het veld **Dag van maand** een datum in. De datum moet als getal worden ingevoerd, zoals "10", en als "10e". 
 7. Klik op **Opslaan**.
 8. Sluit de pagina.
-9. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Betalingsinstelling > Betalingstermijnen**.
+9. Ga naar het **Navigatiedeelvenster > Modules > Klanten > Betalingsinstelling > Betalingstermijnen**. 
+
+>[!NOTE] 
+>Als **Betalingsvoorwaarden** is ingesteld op **Contant geld**, moet het veld **Contante betaling** op de pagina **Betalingsvoorwaarden** zijn ingesteld op **Nee**.
+
 10. Klik op **Nieuw**. **Betalingstermijnen** wordt gebruikt om te bepalen hoe de vervaldatums worden berekend. De instelling van de datum voor contantkorting wordt op een aparte pagina gedefinieerd. 
 11. Typ een id in het veld **Betalingstermijnen**.
 12. Voer in het veld **Beschrijving** een beschrijving in.

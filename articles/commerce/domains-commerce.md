@@ -2,19 +2,19 @@
 title: Domeinen in Dynamics 365 Commerce
 description: In dit artikel wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465188"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750675"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -85,7 +85,7 @@ In de volgende afbeelding ziet u de pagina **URL's** in Site Builder met een voo
 
 ## <a name="domains-in-site-builder"></a>Domeinen in Site Builder
 
-De ondersteunde waarden voor hostnamen zijn beschikbaar om te worden gekoppeld als een domein bij het instellen van een site. Wanneer u een ondersteunde hostnaamwaarde als domein selecteert, ziet u dat in Site Builder naar het gekozen domein wordt verwezen. Dit domein is alleen een verwijzing in de Commerce-omgeving. live verkeer voor dat domein wordt nog niet doorgestuurd naar Dynamics 365 Commerce.
+De ondersteunde waarden voor hostnamen zijn beschikbaar om te worden gekoppeld als een domein bij het instellen van een site. Wanneer u een ondersteunde hostnaamwaarde als domein selecteert, ziet u dat in Site Builder naar het gekozen domein wordt verwezen. Dit domein is alleen een verwijzing in de Commerce-omgeving. Live verkeer voor dat domein wordt nog niet doorgestuurd naar Dynamics 365 Commerce.
 
 Wanneer u met sites werkt in Site Builder en u twee locaties met twee verschillende domeinen hebt ingesteld, kunt u het kenmerk **?domain=** toevoegen aan uw werkende URL om toegang te krijgen tot de gepubliceerde site-inhoud in een browser.
 
@@ -94,6 +94,12 @@ Stel dat de omgeving xyz is ingericht en er twee sites zijn gemaakt en gekoppeld
 - `https://xyz.dynamics365commerce.ms?domain=www.contoso.com`
 
 Wanneer geen domeinquerytekenreeks is opgegeven in een omgeving met meerdere domeinen, gebruikt Commerce het eerste domein dat u hebt opgegeven. Als het pad fabrikam bijvoorbeeld als eerste is opgegeven tijdens het instellen van de site, kan `https://xyz.dynamics365commerce.ms` worden gebruikt om toegang te krijgen tot de gepubliceerde site-inhoudssite voor `www.fabrikam.com`.
+
+U kunt ook aangepaste domeinen toevoegen. Selecteer om dit te doen op de pagina Commerce-beheer van uw omgeving voor het project onder de subkop **e-Commerce** de optie **+ Aangepast domein toevoegen**. De schuifregelaar toont de bestaande aangepaste domeinen en biedt de optie om een nieuw aangepast domein toe te voegen.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Bijwerken welke Commerce Scale Unit wordt gebruikt
+
+De CSU (Commerce Scale Unit) die door Commerce wordt gebruikt, wordt meestal geselecteerd wanneer een omgeving voor het eerst wordt gemaakt. Met Commerce kunt u wijzigen welk CSU-exemplaar in uw omgeving wordt gebruikt, zodat u uw architectuur beter kunt onderhouden via de selfservicefunctionaliteit en minder vaak contact hoeft op te nemen met de ondersteuning. Als u het CSU-exemplaar wilt bijwerken, gaat u naar de pagina Commerce-beheer van uw omgeving voor het project en selecteert u **Scale Unit bijwerken**. Gebruik de schuifregelaar **Nieuwe Commerce Scale Unit** om een nieuw CSU-exemplaar te selecteren in de lijst met CSU's die beschikbaar zijn voor uw omgeving.
 
 ## <a name="traffic-forwarding-in-production"></a>Verkeer doorsturen in productie
 
@@ -115,7 +121,7 @@ Zie [Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen](add-cd
 Als u het door Commerce geleverde Azure Front Door-exemplaar wilt gebruiken, moet u een serviceaanvraag voor assistentie voor CDN-installatie van het Commerce-team voor onboarding maken. 
 
 - U moet de naam van uw bedrijf, het productiedomein, de omgevings-id en de naam van de e-Commerce-tenant voor productie opgeven. 
-- U moet bevestigen of dit een bestaand domein (wordt gebruikt voor een actieve site) of een nieuw domein is. 
+- U moet bevestigen of deze serviceaanvraag voor een bestaand domein (wordt gebruikt voor een actieve site) of een nieuw domein is. 
 - Voor een nieuw domein kunt u de domeinverificatie en het SSL-certificaat in één stap ontvangen. 
 - Voor een domein van een bestaande website moet een proces van meerdere stappen worden uitgevoerd om de domeinverificatie en het SSL-certificaat in te stellen. Voor dit proces geldt een SLA van 7 werkdagen voor een domein om live te gaan, omdat hierin meerdere opeenvolgende stappen zijn opgenomen.
 

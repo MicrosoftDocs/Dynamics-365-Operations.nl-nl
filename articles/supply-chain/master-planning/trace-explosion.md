@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bbfae5c190f3ab321b4dbc4cf6587c9bef58d6a
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3c198272f432798969fe70215969680ba633dc6d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469313"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740162"
 ---
 # <a name="use-tracing-for-explosion"></a>Tracering gebruiken voor explosie
 
@@ -40,7 +40,7 @@ U kunt details over vertragingen en acties voor een geselecteerde order bekijken
 
 ## <a name="additional-resources"></a>Aanvullende resources
 
-[Overzicht van Hoofdplannen](master-plans.md)
+- [Overzicht van Hoofdplannen](master-plans.md)
 
 
 

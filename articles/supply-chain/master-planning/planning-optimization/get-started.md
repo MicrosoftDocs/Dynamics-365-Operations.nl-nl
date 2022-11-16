@@ -1,6 +1,6 @@
 ---
-title: Aan de slag met Planningsoptimalisatie
-description: In dit artikel wordt uitgelegd hoe u aan de slag gaat met de functionaliteit Planningsoptimalisatie.
+title: Aan de slag met hoofdplanning
+description: In dit artikel wordt uitgelegd hoe u aan de slag gaat met de functionaliteit voor hoofdplanningen in Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295923"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740324"
 ---
-# <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
+# <a name="get-started-with-master-planning"></a>Aan de slag met hoofdplanning
 
 [!include [banner](../../includes/banner.md)]
 
-Zoals [eerder aangekondigd](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) is Planningsoptimalisatie gepland om de bestaande ingebouwde hoofdplanningsengine te vervangen.
-
-Als u momenteel de ingebouwde hoofdplanningsengine gebruikt, moet u nu beginnen met het plannen van uw migratie naar Planningsoptimalisatie. Het is belangrijk dat u meteen aan de slag gaat, omdat uw activiteiten anders mogelijk hinder ondervinden wanneer de afschaffing wordt afgedwongen (hoewel dat op dit moment niet is gepland). U wordt aangeraden de migratie te voltooien zodra Planningsoptimalisatie de functies ondersteunt die u nodig hebt, zodat u kunt profiteren van de vele prestatieverbeteringen en andere nieuwe mogelijkheden die door de nieuwe service worden geleverd.
-
-De functie Planningsoptimalisatie biedt momenteel geen ondersteuning voor alle functies die beschikbaar zijn in de planningsengine die in Supply Chain Management is ingebouwd. Het is daarom belangrijk dat u evalueert of de functieset die momenteel beschikbaar is in Planningsoptimalisatie voldoet aan uw behoeften. De functie Planningsoptimalisatie is momenteel niet standaard ingeschakeld in Dynamics Lifecycle Services (LCS), zodat u de evaluatie kunt uitvoeren voordat de functie wordt ingeschakeld.
-
-> [!NOTE]
-> U moet een uitzondering van de migratie naar Planningsoptimalisatie aanvragen als uw hoofdplanningsproces geen productie (door hoofdplanning gegenereerde geplande productieorders) bevat en u een hogere versie van de ingebouwde hoofdplanningsengine nodig hebt dan versie 10.0.15. Vanaf versie 10.0.16 wordt er een fout weergegeven in omgevingen wanneer de ingebouwde hoofdplanning wordt uitgevoerd zonder dat er geplande productieorders worden gegenereerd. Optimalisatieplanning moet worden gebruikt voor alle nieuwe implementaties waarmee geen geplande productieorders worden gegenereerd tijdens de hoofdplanning. Eigenaren van bestaande omgevingen die de ingebouwde hoofdplanningsengine uitvoeren zonder geplande productieorders te genereren, ontvangen een e-mail met details over het uitzonderingsproces. We raden u aan met een partner samen te werken om de migratie naar Planningsoptimalisatie te evalueren en te plannen.
-
-Voordat u Planningsoptimalisatie inschakelt, kunt u het beste de resultaten van de analyse voor passende Planningsoptimalisatie evalueren. Zie [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie.
+De hoofdplanning in Supply Chain Management wordt geleverd door een externe service, de invoegservice Planningsoptimalisatie voor Dynamics 365 Supply Chain Management. In dit onderwerp wordt uitgelegd hoe u aan die service komt en de service instelt.
 
 ## <a name="availability"></a>Beschikbaarheid
 
@@ -108,31 +99,15 @@ De verbindingsstatus geeft de huidige status aan van de verbinding tussen Supply
 De instelling van de optie **Planningsoptimalisatie gebruiken** bepaalt welke planningsengine wordt gebruikt voor de hoofdplanning:
 
 - **Ja**: Planningsoptimalisatie wordt gebruikt voor de hoofdplanning.
-- **Nee**: de ingebouwde planningsengine voor Supply Chain Management wordt gebruikt voor de hoofdplanning.
+- **Nee**: de afgeschafte hoofdplanningsengine wordt gebruikt voor de hoofdplanning.
 
-Deze instelling is van toepassing op alle rechtspersonen (bedrijven). Het is niet mogelijk om Planningsoptimalisatie te gebruiken in bepaalde rechtspersonen en de ingebouwde hoofdplanning in andere rechtspersonen.
+Deze instelling is van toepassing op alle rechtspersonen (bedrijven). Het is niet mogelijk om Planningsoptimalisatie te gebruiken in bepaalde rechtspersonen en de afgeschafte hoofdplanningsengine in andere rechtspersonen.
 
 > [!NOTE]
-> Als bestaande planningsbatchtaken die zijn gemaakt voor de ingebouwde Supply Chain Management-planningsengine worden geactiveerd terwijl de optie **Planningsoptimalisatie gebruiken** is ingesteld op **Ja**, mislukken deze taken.
+> Als bestaande planningsbatchtaken die zijn gemaakt voor de afgeschafte hoofdplanningsengine worden geactiveerd terwijl de optie **Planningsoptimalisatie gebruiken** is ingesteld op **Ja**, mislukken deze taken.
 
 ### <a name="integration-with-the-setup"></a>Integratie met de setup
 
 Als Planningsoptimalisatie is ingeschakeld, wordt de hoofdplanning uitgevoerd met behulp van de invoegtoepassing Planningsoptimalisatie. In dit geval worden de resultaten en functies van de hoofdplanning beïnvloed.
 
-## <a name="additional-resources"></a>Aanvullende bronnen
-
-[Algemene voorwaarden voor de preview](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
-
-[Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md)
-
-[Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
-
-[Filters op een plan toepassen](plan-filters.md)
-
-[Een planningstaak annuleren](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

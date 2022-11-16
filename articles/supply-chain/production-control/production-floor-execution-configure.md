@@ -2,7 +2,7 @@
 title: De uitvoeringsinterface voor de werkvloer configureren
 description: In dit artikel wordt beschreven hoe u een of meer configuraties maakt voor de uitvoeringsinterface van de werkvloer. Wanneer u de uitvoeringsinterface van de werkvloer opent, worden automatisch een geselecteerde configuratie en een taakfilter geladen die specifiek zijn voor de browser en het apparaat. In de configuratie stelt u de beleidsregels in die toegepast moeten worden op een specifiek gebruik.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708719"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748681"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -85,17 +85,19 @@ Deze functie biedt een betere ervaring met het weergeven van lijsten met serie-,
 
 Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld voor uw systeem. Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Vanaf Supply Chain Management versie 10.0.29 is de functie verplicht en deze functie kan niet worden uitgeschakeld. Als u een versie ouder dan 10.0.29 gebruikt, kunnen beheerders deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Volledige serie-, batch- en nummerplaatnummers tonen in de uitvoeringsinterface van de productievloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-
 Vanaf Supply Chain Management versie 10.0.25 is deze functie standaard ingeschakeld. Beheerders kunnen deze functionaliteit in- of uitschakelen door te zoeken naar de functie *Volledige serie-, batch- en nummerplaatnummers tonen in de uitvoeringsinterface van de productievloer* in de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="register-material-consumption"></a>Materiaalverbruik registreren
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om materiaalverbruik, batchnummers en serienummers te registreren. Sommige fabrikanten, met name fabrikanten in de procesindustrieën, moeten de hoeveelheid verbruikt materiaal voor elke batch of productieorder expliciet registreren. Werknemers kunnen bijvoorbeeld een schaal gebruiken om te wegen hoeveel materiaal tijdens het werk wordt verbruikt. Voor volledige materiaaltraceerbaarheid moeten deze organisaties ook registreren welke batchnummers zijn verbruikt bij de productie van elk product.
 
 Er zijn twee versies van deze functie. Eén functie ondersteunt alleen artikelen die *niet zijn* ingeschakeld om magazijnbeheerprocessen (WMS) te gebruiken. De andere ondersteunt artikelen die *zijn ingeschakeld* om WMS te gebruiken. Als u deze functionaliteit wilt gebruiken, moet u een of meer van de volgende functies in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in deze volgorde) inschakelen, afhankelijk van het feit of er artikelen zijn ingeschakeld voor WMS:
 
 - *Materiaalverbruik registreren in de uitvoeringsinterface van de werkvloer (niet-WMS)*
-- *Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)*
+- *(Preview) Materiaalverbruik registreren in de uitvoeringsinterface van de productievloer (WMS ingeschakeld)*
 
 > [!IMPORTANT]
 > U kunt alleen de functie niet-WMS gebruiken. Als u echter WMS gebruikt, moet u beide functies inschakelen.
@@ -138,6 +140,25 @@ Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../f
 
 - *Aanvullende configuratie in de uitvoeringsinterface voor de werkvloer*
 
+### <a name="enable-the-my-jobs-tab"></a>Het tabblad Mijn taken inschakelen
+
+Op het tabblad **Mijn taken** kunnen werknemers eenvoudig alle niet-gestarte en onvoltooide taken bekijken die specifiek aan hen zijn toegewezen. Dit is handig in bedrijven waarin taken soms of altijd aan bepaalde werknemers (Human Resources) worden toegewezen in plaats van aan andere typen resources (zoals machines).
+
+Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+
+- *Het tabblad Mijn taken in de uitvoeringsinterface voor de werkvloer*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Gebruik van een numeriek toetsenblok op de aanmeldingspagina inschakelen
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Met deze functie kunnen beheerders een numeriek toetsenblok aan de aanmeldingspagina toevoegen voor uitvoering op de werkvloer. Medewerkers kunnen het numerieke toetsenblok gebruiken om zich aan te melden met hun Badge-id of persoonlijke nummer.
+
+Als u deze functionaliteit wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+
+- *Gebruik van een numeriek toetsenblok op de aanmeldingspagina inschakelen*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Werken met uitvoeringsconfiguraties voor de werkvloer
 
 Als u uitvoeringsconfiguraties voor de werkvloer wilt maken en beheren, gaat u naar **Productiebeheer \> Instellen \> Productie-uitvoering \> Uitvoering werkvloer configureren**. Op de pagina **Uitvoering werkvloer configureren** wordt een lijst met bestaande configuraties weergegeven. Op deze pagina kunt u de volgende acties uitvoeren:
@@ -161,6 +182,7 @@ Op het sneltabblad **Algemeen** vindt u de volgende instellingen:
 - **Werknemer vergrendelen**: wanneer deze optie is ingesteld op *Nee*, worden werknemers onmiddellijk afgemeld nadat ze een registratie hebben gemaakt (zoals een nieuwe taak). De interface keert dan terug naar de aanmeldingspagina. Als deze optie is ingesteld op *Ja*, blijven werknemers aangemeld bij de uitvoeringsinterface voor de werkvloer. Een werknemer kan zich echter handmatig afmelden, zodat een andere werknemer zich kan aanmelden terwijl de uitvoeringsinterface voor de werkvloer actief blijft onder dezelfde systeemgebruikersaccount. Meer informatie over deze typen accounts vindt u in [Toegewezen gebruikers](config-job-card-device.md#assigned-users).
 - **De werkelijke registratietijd gebruiken**: stel deze optie in op *Ja* om de tijd in te stellen voor elke nieuwe registratie die gelijk is aan de exacte tijd waarop de registratie is ingediend door de werknemer. Als deze optie is ingesteld op *Nee*, wordt in plaats daarvan de aanmeldingstijd gebruikt. U stelt deze optie meestal in op *Ja* als u de opties **Werknemer vergrendelen** en/of **Eén werknemer** hebt ingesteld op *Ja*, waarbij werknemers vaak aangemeld blijven gedurende langere perioden.
 - **Eén werknemer**: stel deze optie in op *Ja* als slechts één werknemer elke uitvoeringsinterface voor de werkvloer gebruikt waarvoor deze configuratie actief is. Als deze optie is ingesteld op *Ja*, wordt de optie **Werknemer vergrendelen** automatisch ingesteld op *Ja*. Bovendien wordt met deze instelling de vereiste (en de mogelijkheid) voor de werknemer om zich aan te melden met behulp van een badge-id (of een andere vergelijkbare id) verwijderd. In plaats daarvan meldt de werknemer zich aan bij Microsoft Dynamics 365 Supply Chain Management met een systeemgebruikersaccount die is gekoppeld aan een *werknemer met tijdregistratie* (uit de tabel *werknemers*) en wordt op hetzelfde moment aangemeld bij de uitvoeringsinterface voor de werkvloer als die werknemer.
+- **Numeriek toetsenblok inschakelen**: stel deze optie in op *Ja* om een numeriek toetsenblok aan het aanmeldingsscherm toe te voegen, zodat werknemers hun badge-id of persoonlijk nummer kunnen invoeren met een numeriek toetsenblok op het aanraakscherm. Stel deze optie in op *Nee* in om het numerieke toetsenblok te verbergen.
 - **Vergrendeling van het aanraakscherm toestaan**: stel deze optie in op *Ja* om werknemers in staat te stellen het aanraakscherm van de uitvoeringsinterface voor de werkvloer te vergrendelen zodat ze deze kunnen schoonmaken. Als deze optie is ingesteld op *Ja*, wordt de knop **Scherm vergrendelen voor schoonmaken** toegevoegd aan de aanmeldingspagina. Wanneer een werknemer deze knop selecteert, wordt het aanraakscherm tijdelijk vergrendeld voor onbedoelde invoer. Er wordt ook een aftellingstimer weergegeven. De werknemer kan het apparaat en het scherm vervolgens veilig schoonmaken. Wanneer de timer is afgelopen, wordt het aanraakscherm automatisch ontgrendeld.
 - **Duur schermvergrendeling**: wanneer de optie **Vergrendeling van het aanraakscherm toestaan** is ingesteld op *Ja*, gebruikt u deze optie om het aantal seconden op te geven dat het aanraakscherm moet worden vergrendeld voor schoonmaken. De duur moet tussen 5 en 120 seconden liggen.
 - **Nummerplaat genereren**: stel deze optie in op *Ja* om voor elke gereedmelding op de uitvoeringsinterface voor de werkvloer een nieuwe nummerplaat te genereren. Het nummerplaatnummer wordt gegenereerd op basis van een nummerreeks die is ingesteld op de pagina **Parameters voor magazijnbeheer**. Als deze optie is ingesteld op *Nee*, moeten werknemers een bestaande nummerplaat opgeven bij het gereedmelden.

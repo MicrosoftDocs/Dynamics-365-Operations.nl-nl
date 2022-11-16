@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335340"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740517"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -33,7 +33,7 @@ In dit artikel wordt elke methode uitgebreid beschreven.
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>De functies inschakelen die in dit artikel worden beschreven
 
-De meeste geplande orderfuncties zijn beschikbaar in alle standaardinstallaties van Microsoft Dynamics 365 Supply Chain Management die gebruikmaken van Planningsoptimalisatie. Enkele functies die in dit artikel worden beschreven, moeten echter worden ingeschakeld in Functiebeheer voordat u ze kunt gebruiken.
+De meeste geplande orderfuncties zijn beschikbaar in alle standaardinstallaties van Microsoft Dynamics 365 Supply Chain Management. Enkele functies die in dit artikel worden beschreven, moeten echter worden ingeschakeld in Functiebeheer voordat u ze kunt gebruiken.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Parallel fiatteren van geplande orders in- of uitschakelen
 
@@ -91,7 +91,7 @@ Als u geplande orders handmatig wilt fiatteren, kunt u de geplande orders zoeken
 
 ## <a name="auto-firm-planned-orders"></a>Geplande orders automatisch fiatteren
 
-Met automatische fiattering kunt u geplande orders fiatteren als onderdeel van het hoofdplanningsproces. U kunt een standaard time fence voor de fiattering definiëren voor behoefteplanningsgroepen, afzonderlijke artikelen en combinaties van artikelen en hoofdplannen. Tijdens de uitvoering van de hoofdplanning worden geplande orders vervolgens automatisch gefiatteerd als de orderdatum binnen de opgegeven time fence voor fiattering valt. Bij geplande orders die worden gegenereerd via Planningsoptimalisatie en de geïntegreerde hoofdplanningsbewerking wordt de orderdatum (dat wil zeggen, de begindatum) anders verwerkt.
+Met automatische fiattering kunt u geplande orders fiatteren als onderdeel van het hoofdplanningsproces. U kunt een standaard time fence voor de fiattering definiëren voor behoefteplanningsgroepen, afzonderlijke artikelen en combinaties van artikelen en hoofdplannen. Tijdens de uitvoering van de hoofdplanning worden geplande orders vervolgens automatisch gefiatteerd als de orderdatum binnen de opgegeven time fence voor fiattering valt. Bij geplande orders die worden gegenereerd via Planningsoptimalisatie en de afgeschafte hoofdplanningsengine wordt de orderdatum (dat wil zeggen, de begindatum) anders verwerkt.
 
 > [!NOTE]
 > Geplande inkooporders kunnen alleen automatisch worden gefiatteerd als de artikelen zijn gekoppeld aan een leverancier.
@@ -99,13 +99,13 @@ Met automatische fiattering kunt u geplande orders fiatteren als onderdeel van h
 > Afgeleide orders (dat wil zeggen, uitbestede inkooporders) die worden gefiatteerd, hebben de status *Wordt gecontroleerd* als Wijzigingen bijhouden is ingeschakeld.
 
 > [!IMPORTANT]
-> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt met Planningsoptimalisatie, moet de functie [*Automatische fiattering voor planningsoptimalisatie*](#enable-features) zijn ingeschakeld voor het systeem, zoals aan het begin van dit artikel is beschreven. Automatische fiattering kan altijd worden gebruikt met de geïntegreerde hoofdplanningsengine.
+> Voordat de functie die in deze sectie wordt beschreven, kan worden gebruikt met Planningsoptimalisatie, moet de functie [*Automatische fiattering voor planningsoptimalisatie*](#enable-features) zijn ingeschakeld voor het systeem, zoals aan het begin van dit artikel is beschreven. Automatische fiattering kan altijd worden gebruikt met de afgeschafte hoofdplanningsengine.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Automatisch fiattering met Planningsoptimalisatie versus de geïntegreerde planningsengine
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Automatisch fiattering met Planningsoptimalisatie versus de afgeschafte hoofdplanningsengine
 
-Zowel Planningsoptimalisatie als de geïntegreerde planningsengine kunnen voor het automatisch fiatteren van geplande orders worden gebruikt. Er zijn echter enkele belangrijke verschillen. Bij Planningsoptimalisatie wordt bijvoorbeeld de orderdatum (dat wil zeggen, de begindatum) gebruikt om te bepalen welke geplande orders moeten worden gefiatteerd, terwijl bij de geïntegreerde planningsengine de behoeftedatum (dat wil zeggen, de einddatum) wordt gebruikt. In de volgende tabel krijgt u een overzicht van de verschillen.
+Zowel Planningsoptimalisatie als de afgeschafte hoofdplanningsengine kunnen voor het automatisch fiatteren van geplande orders worden gebruikt. Er zijn echter enkele belangrijke verschillen. Bij Planningsoptimalisatie wordt bijvoorbeeld de orderdatum (dat wil zeggen, de begindatum) gebruikt om te bepalen welke geplande orders moeten worden gefiatteerd, terwijl bij de afgeschafte hoofdplanningsengine de behoeftedatum (de einddatum) wordt gebruikt. In de volgende tabel krijgt u een overzicht van de verschillen.
 
-| Functie | Planningsoptimalisatie | Geïntegreerde planningsengine |
+| Functie | Planningsoptimalisatie | Afgeschafte hoofdplanningsengine |
 |---|---|---|
 | **Datumbasis** | Automatische fiattering is gebaseerd op de orderdatum (begindatum). | Automatische fiattering is gebaseerd op de behoeftedatum (einddatum). |
 | **Levertijd** | Omdat de orderdatum (begindatum) de fiattering activeert, hoeft u geen rekening te houden met de doorlooptijd als onderdeel van de time fence voor fiattering. | Om te garanderen dat orders tijdig worden gefiatteerd, moet de time fence voor fiattering langer zijn dan de levertijdtijd. |

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218797"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739865"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 
@@ -89,7 +89,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja, Planningsoptimalisatie vervangt de bestaande ingebouwde Supply Chain Management-hoofdplanningsengine. |
 | **Betrokken productgebieden**         | Supply Chain Management - hoofdplanning |
 | **Implementatieoptie**              | Alleen Cloud. Planningsoptimalisatie wordt niet ondersteund voor on-premises implementaties. |
-| **Status**                         | Afgeschaft. Per 1 april 2022 zullen productiescenario's niet langer worden ondersteund voor de ingebouwde hoofdplanningsengine van Supply Chain Management. Vanaf die datum zal Microsoft alle actieve ontwikkeling van productiescenario's voor de ingebouwde planningsengine stoppen, geen nieuwe functies meer vrijgeven en alleen kritieke fouten herstellen. Na die datum moeten alle bedrijven die ondersteuning nodig hebben voor productiescenario's, Planningsoptimalisatie gebruiken voor de berekening van de hoofdplanning. Planningsoptimalisatie zal naar verwachting productiescenario's volledig ondersteunen vanaf oktober 2022. Zie [documentatie voor Planningsoptimalisatie](../master-planning/planning-optimization/planning-optimization-overview.md) voor meer informatie.<br><br>Bedrijven met on-premises implementaties van Supply Chain Management kunnen de ingebouwde hoofdplanningsengine van blijven gebruiken voor productiescenario's na april 2022. Er zullen echter geen functieuitbreidingen meer worden aangeboden. |
+| **Status**                         | Afgeschaft. Per 1 april 2022 zullen productiescenario's niet langer worden ondersteund voor de ingebouwde hoofdplanningsengine van Supply Chain Management. Vanaf die datum zal Microsoft alle actieve ontwikkeling van productiescenario's voor de ingebouwde planningsengine stoppen, geen nieuwe functies meer vrijgeven en alleen kritieke fouten herstellen. Na die datum moeten alle bedrijven die ondersteuning nodig hebben voor productiescenario's, Planningsoptimalisatie gebruiken voor de berekening van de hoofdplanning. Planningsoptimalisatie zal naar verwachting productiescenario's volledig ondersteunen vanaf oktober 2022. Zie [Overzicht van afgeschafte hoofdplanning](../master-planning/deprecated-master-planning-overview.md) voor meer informatie.<br><br>Bedrijven met on-premises implementaties van Supply Chain Management kunnen de ingebouwde hoofdplanningsengine van blijven gebruiken voor productiescenario's na april 2022. Er zullen echter geen functieuitbreidingen meer worden aangeboden. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Verwijderde of verouderde functies in versie 10.0.11 van Supply Chain Management
 
@@ -101,7 +101,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja, Planningsoptimalisatie vervangt de bestaande ingebouwde Supply Chain Management-hoofdplanningsengine. |
 | **Betrokken productgebieden**         | Supply Chain Management - hoofdplanning |
 | **Implementatieoptie**              | Alleen Cloud. Planningsoptimalisatie wordt niet ondersteund voor on-premises implementaties. |
-| **Status**                         | Afgeschaft. Per 1 april 2021 zullen distributiescenario's niet langer worden ondersteund met de ingebouwde Dynamics 365 Supply Chain Management-hoofdplanningsengine. Voor distributiescenario's moeten klanten Planningsoptimalisatie gebruiken voor het berekenen van hoofdplanningen. Zie [documentatie voor Planningsoptimalisatie](../master-planning/planning-optimization/planning-optimization-overview.md) voor meer informatie. Klanten met on-premises implementaties van Dynamics 365 Supply Chain Management kunnen de hoofdplanningsengine van Supply Chain Management blijven gebruiken voor distributiescenario's na april 2021. Er zullen echter geen functieuitbreidingen meer worden aangeboden. |
+| **Status**                         | Afgeschaft. Per 1 april 2021 zullen distributiescenario's niet langer worden ondersteund met de ingebouwde Dynamics 365 Supply Chain Management-hoofdplanningsengine. Voor distributiescenario's moeten klanten Planningsoptimalisatie gebruiken voor het berekenen van hoofdplanningen. Zie [Overzicht van afgeschafte hoofdplanning](../master-planning/deprecated-master-planning-overview.md) voor meer informatie. Klanten met on-premises implementaties van Dynamics 365 Supply Chain Management kunnen de hoofdplanningsengine van Supply Chain Management blijven gebruiken voor distributiescenario's na april 2021. Er zullen echter geen functieuitbreidingen meer worden aangeboden. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Eerdere aankondigingen over verwijderde of afgeschafte functies
 

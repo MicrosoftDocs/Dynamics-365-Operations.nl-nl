@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 421f17402a2f3b37a9ccce9d747e2c0ec865ee39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d7035a7034d084a9bec453557694ce7f29ad347
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854466"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740366"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.9 (april 2020)
 
@@ -73,7 +73,7 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 
 - [Parallel fiatteren van geplande orders](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Zie [Geplande orders fiatteren](../master-planning/planning-optimization/planned-order-firming.md) en de video [MRP performance and usability improvements](https://www.microsoft.com/videoplayer/embed/RE4myrJ) voor meer informatie.
 
-- [Planningsoptimalisatie voor distributie](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Zie voor meer informatie [Overzicht van Planningsoptimalisatie](../master-planning/planning-optimization/planning-optimization-overview.md).
+- [Planningsoptimalisatie voor distributie](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Zie [Startpagina van Hoofdplanning](../master-planning/master-planning-home-page.md) voor meer informatie.
 
 - [Verbeteringen in inkoopovereenkomsten](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Zie voor meer informatie [Inkoopovereenkomsten](../procurement/purchase-agreements.md).
 

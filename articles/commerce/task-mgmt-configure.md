@@ -2,23 +2,23 @@
 title: Taakbeheer configureren
 description: In dit artikel wordt beschreven hoe u functies voor taakbeheer configureert in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: ff97abab330174b41af76d22c202e8338d6d37fd
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: cc2d75f52b183559de344982c8e4208000af786e
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282756"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746057"
 ---
 # <a name="configure-task-management"></a>Taakbeheer configureren
 
@@ -80,7 +80,11 @@ In de volgende afbeelding ziet u de bewerking **Taakbeheer** op de pagina **POS-
 
 ![Bewerking Taakbeheer op de pagina POS-bewerkingen.](media/HQ-POS-Tasks-Notifications.png)
 
-Zie [Meldingen over orders op het verkooppunt (POS) weergeven](notifications-pos.md) voor meer informatie over het configureren van POS-meldingen.
+Zie het artikel [Meldingen over orders op het verkooppunt (POS) weergeven](notifications-pos.md) voor meer informatie over het configureren van POS-meldingen.
+
+> [!NOTE]
+> Wanneer u uw wijzigingen opslaat, wordt de volgende waarschuwing weergegeven: **Bewerkingsparameter wordt niet ingeschakeld in de ontwerpfunctie van het knoppenraster voor bewerkings-id's die gelijk zijn aan of kleiner zijn dan 4000. Als u een aangepaste bewerking maakt en de parameter wilt doorgeven vanuit de ontwerpfunctie voor het knoppenraster, gebruikt u een bewerkings-id die groter is dan 4000.** Selecteer **Sluiten** om het dialoogvenster te sluiten.
+
 
 ## <a name="configure-the-tasks-tile-on-a-pos-application-home-page"></a>De tegel Taken configureren op de startpagina van een POS-toepassing
 

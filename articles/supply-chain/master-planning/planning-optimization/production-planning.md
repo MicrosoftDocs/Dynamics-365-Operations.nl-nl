@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335250"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740544"
 ---
 # <a name="production-planning"></a>Productieplanning
 
 [!include [banner](../../includes/banner.md)]
-
-Tijdens Planningsoptimalisaties worden verschillende productiescenario's ondersteund. Als u migreert van de bestaande, ingebouwde hoofdplanningsengine, is het belangrijk dat u zich realiseert dat bepaalde zaken gewijzigd zijn.
 
 De volgende video geeft een korte inleiding op enkele van de concepten die in dit artikel worden besproken: [Dynamics 365 Supply Chain Management: verbeteringen in planningsoptimalisatie](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Geplande productieorders bevatten de route-id die nodig is voor de productieplan
 
 - **Geplande productieorder**: de doorlooptijd wordt gebaseerd op de statische doorlooptijd van het vrijgegeven product.
 - **Gefiatteerde productieorder**: de doorlooptijd wordt gebaseerd op planning die routegegevens en gerelateerde resourcebeperkingen gebruikt.
-
-Zie [Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie over de verwachte functiebeschikbaarheid.
-
-Als u afhankelijk bent van productiefunctionaliteit die nog niet beschikbaar is voor Planningsoptimalisatie, kunt u de ingebouwde hoofdplanningsengine blijven gebruiken. Er is geen uitzondering vereist.
 
 ## <a name="delays"></a>Vertragingen
 
@@ -76,15 +70,15 @@ U kunt op de pagina **Explosie** de vraag analyseren die nodig is voor een bepaa
 
 ## <a name="filters"></a><a name="filters"></a>Filters
 
-Als u er zeker van wilt zijn dat Planningsoptimalisatie de vereiste informatie voor het berekenen van het juiste resultaat bevat, moet u alle producten die een relatie hebben met producten in de gehele stuklijststructuur van de geplande order opnemen. Voor planningsscenario's die productie omvatten, wordt u daarom aangeraden gefilterde hoofdplanningsuitvoeringen te vermijden.
+Als u er zeker van wilt zijn dat de hoofdplanning de vereiste informatie voor het berekenen van het juiste resultaat bevat, moet u alle producten die een relatie hebben met producten in de gehele stuklijststructuur van de geplande order opnemen. Voor planningsscenario's die productie omvatten, wordt u daarom aangeraden gefilterde hoofdplanningsuitvoeringen te vermijden.
 
-Hoewel afhankelijke onderliggende artikelen automatisch worden gedetecteerd en opgenomen in hoofdplanningsuitvoeringen wanneer de ingebouwde hoofdplanningsengine wordt gebruikt, wordt deze actie momenteel niet uitgevoerd via Planningsoptimalisatie.
+Hoewel afhankelijke onderliggende artikelen automatisch worden gedetecteerd en opgenomen in hoofdplanningsuitvoeringen wanneer de afgeschafte hoofdplanningsengine wordt gebruikt, wordt deze actie momenteel niet uitgevoerd via Planningsoptimalisatie.
 
 Als bijvoorbeeld één bout uit de stuklijststructuur van product A ook wordt gebruikt om product B te produceren, moeten alle producten in de stuklijststructuur van producten A en B in het filter worden opgenomen. Omdat het complex kan zijn ervoor te zorgen dat alle producten deel uitmaken van het filter, raden we u aan om gefilterde hoofdplanningsuitvoeringen te vermijden wanneer het gaat om productieorders. Als u dit niet doet, levert de hoofdplanning ongewenste resultaten op.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Redenen om gefilterde hoofdplanningsuitvoeringen te vermijden
 
-Wanneer u een gefilterde hoofdplanning voor een product hebt uitgevoerd, worden met Planningsoptimalisatie (in tegenstelling tot de ingebouwde hoofdplanningsengine) niet alle subproducten en grondstoffen in de stuklijststructuur van dat product gedetecteerd en worden deze dus niet meegenomen in de hoofdplanningsuitvoering uitgevoerd. Hoewel met Planningsoptimalisatie het eerste niveau in de stuklijststructuur van het product wordt aangegeven, worden er geen productinstellingen (zoals het standaardordertype of de artikelbehoefteplanning) uit de database geladen.
+Wanneer u een gefilterde hoofdplanning voor een product hebt uitgevoerd, worden met Planningsoptimalisatie (in tegenstelling tot de afgeschafte hoofdplanningsengine) niet alle subproducten en grondstoffen in de stuklijststructuur van dat product gedetecteerd en worden deze dus niet meegenomen in de hoofdplanningsuitvoering. Hoewel met Planningsoptimalisatie het eerste niveau in de stuklijststructuur van het product wordt aangegeven, worden er geen productinstellingen (zoals het standaardordertype of de artikelbehoefteplanning) uit de database geladen.
 
 Bij Planningsoptimalisatie worden gegevens voor de uitvoering van tevoren geladen en worden de filters toegepast. Dit betekent dat als een subproduct of grondstof in een specifiek product geen deel uitmaakt van het filter, er geen informatie over wordt vastgelegd voor de uitvoering. Daarbij komt dat als het subproduct of de grondstof ook in een ander product is opgenomen, met een gefilterde uitvoering die alleen het oorspronkelijke product en de onderdelen bevat, de bestaande geplande vraag wordt verwijderd die voor dat andere product is gemaakt.
 

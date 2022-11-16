@@ -1,6 +1,6 @@
 ---
 title: Hoofdplanning met vraagprognoses
-description: In dit artikel wordt uitgelegd hoe u vraagprognoses opneemt tijdens de hoofdplanning met Planningsoptimalisatie.
+description: In dit artikel wordt uitgelegd hoe u vraagprognoses opneemt tijdens de hoofdplanning.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878985"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739778"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Hoofdplanning met vraagprognoses
 
 [!include [banner](../../includes/banner.md)]
 
-U kunt een vraagprognose gebruiken in combinatie met Planningsoptimalisatie voor de verwerking van verwachte vraag in de hoofdplanning. U kunt handmatig een vraagprognose maken, deze importeren of genereren met behulp van de functionaliteit voor vraagprognoses in Microsoft Dynamics 365 Supply Chain Management. Zie [Overzicht vraagprognose](../introduction-demand-forecasting.md) voor meer informatie over vraagprognoses.
+U kunt een vraagprognose gebruiken voor de verwerking van verwachte vraag in de hoofdplanning. U kunt handmatig een vraagprognose maken, deze importeren of genereren met behulp van de functionaliteit voor vraagprognoses in Microsoft Dynamics 365 Supply Chain Management. Zie [Overzicht vraagprognose](../introduction-demand-forecasting.md) voor meer informatie over vraagprognoses.
 
 > [!NOTE]
 > Afzonderlijke prognoseplanning wordt niet ondersteund met Planningsoptimalisatie. De instelling **Huidig prognoseplan** op de pagina **Parameters hoofdplanning** heeft daarom geen effect wanneer u Planningsoptimalisatie gebruikt.
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om een hoofdplan zo te configureren dat het een vra
     - **Prognoseperiode**: als u de optie **Prognoseplan** instelt op *Ja*, geeft u het aantal dagen op (vanaf de datum van vandaag) waarop de vraagprognose moet worden toegepast.
 
     > [!IMPORTANT]
-    > De instelling **Prognoseplan** wordt nog niet ondersteund met Planningsoptimalisatie.
+    > De instelling **Prognoseplan** wordt niet ondersteund met Planningsoptimalisatie.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Een behoefteplanningsgroep instellen om een vraagprognose op te nemen
 

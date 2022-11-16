@@ -2,22 +2,22 @@
 title: Taakbeheer synchroniseren tussen Microsoft Teams en Dynamics 365 Commerce POS
 description: In dit artikel wordt beschreven hoe u taakbeheer synchroniseert tussen Microsoft Teams en Dynamics 365 Commerce POS (verkooppunt).
 author: gvrmohanreddy
-ms.date: 02/17/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f7a26f1625ca9414a43f895ff37f697d573a36aa
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: f339ae031f11ad850dab47f84bc9823cf6776e74
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268269"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746092"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Taakbeheer synchroniseren tussen Microsoft Teams en Dynamics 365 Commerce POS
 
@@ -30,6 +30,21 @@ Een van de belangrijkste doelen van Teams-integratie is het inschakelen van de s
 Omdat Planner wordt gebruikt als opslagplaats voor taken in Teams, moet er een koppeling zijn tussen Teams en Dynamics 365 Commerce. Deze koppeling wordt tot stand gebracht met een specifieke plan-id voor een bepaald winkelteam.
 
 In de volgende procedures wordt aangegeven hoe u synchronisatie van taakbeheer kunt instellen tussen de POS- en Teams-toepassingen.
+
+## <a name="link-pos-and-teams-for-task-management"></a>POS en Teams koppelen voor taakbeheer
+
+Volg deze stappen om de toepassingen POS en Microsoft Teams te koppelen voor taakbeheer in Commerce Headquarters.
+
+> [!NOTE]
+> Voordat u taakbeheer met Teams probeert te integreren, moet u de integratie van [Dynamics 365 Commerce en Microsoft Teams inschakelen](enable-teams-integration.md). 
+
+1. Ga naar **Retail en commerce \> Taakbeheer \> Takenintegratie met Microsoft Teams**.
+1. Selecteer **Bewerken** in het actievenster.
+1. Stel de optie **Integratie van taakbeheer inschakelen** in op **Ja**.
+1. Selecteer **Opslaan** in het actievenster.
+1. Selecteer **Taakbeheer instellen** in het actievenster. U moet een melding ontvangen dat een batchtaak met de naam **Teams inrichten** wordt gemaakt.
+1. Ga naar **Systeembeheer \> Query's \> Batchtaken** en zoek de meest recente taak met de beschrijving **Teams inrichten**. Wacht tot deze taak is voltooid.
+1. Voer **CDX-taak 1070** uit om de plan-id en winkelverwijzingen te publiceren naar Retail Server.
 
 ## <a name="publish-a-test-task-list-in-teams"></a>Een testtakenlijst publiceren in Teams
 
@@ -50,20 +65,8 @@ Volg deze stappen om een testtakenlijst te publiceren in Teams.
 
 Zie [Takenlijsten publiceren om werk in uw organisatie te maken en te volgen](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) voor meer informatie.
 
-## <a name="link-pos-and-teams-for-task-management"></a>POS en Teams koppelen voor taakbeheer
-
-Volg deze stappen om de toepassingen POS en Microsoft Teams te koppelen voor taakbeheer in Commerce Headquarters.
-
 > [!NOTE]
-> Voordat u Taakbeheer met Microsoft Teams probeert te integreren, moet u de integratie van [Dynamics 365 Commerce en Microsoft Teams inschakelen](enable-teams-integration.md). 
-
-1. Ga naar **Retail en commerce \> Taakbeheer \> Takenintegratie met Microsoft Teams**.
-1. Selecteer **Bewerken** in het actievenster.
-1. Stel de optie **Integratie van taakbeheer inschakelen** in op **Ja**.
-1. Selecteer **Opslaan** in het actievenster.
-1. Selecteer **Taakbeheer instellen** in het actievenster. U moet een melding ontvangen dat een batchtaak met de naam **Teams inrichten** wordt gemaakt.
-1. Ga naar **Systeembeheer \> Query's \> Batchtaken** en zoek de meest recente taak met de beschrijving **Teams inrichten**. Wacht tot deze taak is voltooid.
-1. Voer **CDX-taak 1070** uit om de plan-id en winkelverwijzingen te publiceren naar Retail Server.
+> Nadat de taaklijst in Teams is gepubliceerd, worden de taken weergegeven in het POS. POS-managers en kassiers moeten vervolgens Azure AD-aanmelding in het POS inschakelen. Raadpleeg het artikel [Azure Active Directory-verificatie inschakelen voor POS-aanmelding](aad-pos-logon.md) voor meer informatie. 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

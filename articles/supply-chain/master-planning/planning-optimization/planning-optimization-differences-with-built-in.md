@@ -1,5 +1,5 @@
 ---
-title: Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
+title: Verschillen tussen Planningsoptimalisatie en de verouderde hoofdplanningsengine
 description: In dit artikel worden functies weergegeven die nog niet worden ondersteund door Planningsoptimalisatie en die niet worden weergegeven op de pagina voor het aanpassen van de analyse aan Planningsoptimalisatie.
 author: t-benebo
 ms.date: 07/30/2021
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a23256f3e092b32e1f1d09b708a8d0ca5f403785
-ms.sourcegitcommit: 5d33a3398e7e1d3494bfc3cad342fffa7cfa5b76
+ms.openlocfilehash: 6e1671a508b85a94ac9687af15e898d885ea94c1
+ms.sourcegitcommit: 55e440e30490b2d36d86b22aa1263d5da97633aa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680003"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9745356"
 ---
-# <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
+# <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Verschillen tussen Planningsoptimalisatie en de verouderde hoofdplanningsengine
 
 [!include [banner](../../includes/banner.md)]
 
-De resultaten van de Planningsoptimalisatie kunnen afwijken van de resultaten van de ingebouwde hoofdplannings-engine. De verschillen kunnen worden veroorzaakt door functies die in behandeling zijn. In dit artikel worden functies weergegeven die nog niet worden ondersteund door Planningsoptimalisatie en die niet worden weergegeven op de pagina **[Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)**.
+De resultaten van Planningsoptimalisatie kunnen afwijken van de resultaten van de afgeschafte hoofdplanningsengine. De verschillen kunnen worden veroorzaakt door functies die in behandeling zijn. In dit artikel worden functies weergegeven die nog niet worden ondersteund door Planningsoptimalisatie en die niet worden weergegeven op de pagina **[Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)**.
 
 | Functie | Huidig gedrag in planningsoptimalisatie |
 |---|---|
@@ -36,10 +36,12 @@ De resultaten van de Planningsoptimalisatie kunnen afwijken van de resultaten va
 | Afhandeling van veiligheidsvoorraad | Voor planningsoptimalisatie wordt altijd de optie *Datum van vandaag + levertijd* gebruikt voor het veld **Minimum behalen** op de pagina **Artikelbehoefteplanning**. Dit helpt ongewenste geplande orders en andere problemen te voorkomen want als de aanschaffingstijd niet is opgenomen voor de veiligheidsvoorraad, worden geplande orders die zijn gemaakt voor de huidige lage voorhanden voorraad altijd vertraagd vanwege de levertijd. |
 | Tracering van veiligheidsvoorraad en nettobehoeften | Het behoeftetyp *Veiligheidsvoorraad* wordt niet opgenomen en wordt niet weergegeven op de pagina **Nettobehoeften**. Veiligheidsvoorraad vertegenwoordigt geen vraag en er is geen behoeftedatum aan gekoppeld. In plaats daarvan stelt u een beperking in voor de voorraad die te allen tijde aanwezig moet zijn. Bij het berekenen van geplande orders tijdens de hoofdplanning wordt echter wel rekening gehouden met de waarde van het veld **Minimum**. We stellen voor dat u de kolom **Geaccumuleerde hoeveelheid** op de pagina **Nettobehoeften** controleert om te kijken of er rekening is gehouden met deze waarde. Aangezien de tracering van de behoefte verschillend is, kunnen verschillende acties worden voorgesteld. |
 | Transportkalenders | De waarde in de kolom **Transportkalender** op de pagina **Leveringsmethoden** wordt genegeerd. |
-| Min/max-behoefteplanningscode zonder waarden| Wanneer u met de ingebouwde planningsengine een min/max-behoefteplanningscode gebruikt waarbij geen minimum- of maximumwaarden zijn ingesteld, wordt de behoefteplanningscode door de planningsengine als een vereiste behandeld en wordt voor elke behoefte één order gemaakt. Bij Planningsoptimalisatie wordt één order per dag gebruikt om het volledige bedrag van die dag te dekken.  |
-| Nettovereisten en handmatig gemaakte geplande orders | Met de ingebouwde planningsengine worden handmatig gemaakte aanvulorders voor een artikel automatisch weergegeven tussen de nettovereisten voor dat artikel. Wanneer u bijvoorbeeld een inkooporder maakt vanuit een verkooporder, wordt de inkooporder weergegeven op de pagina **Nettovereisten** zonder dat er voorafgaande acties nodig zijn. Dit komt doordat de ingebouwde planningsengine voorraadtransacties in de tabel `inventLogTTS` registreert en wijzigingen toont op de pagina **Nettovereisten** voor dynamische plannen. Met Planningsoptimalisatie worden handmatig gemaakte orders echter pas gemaakt vanuit de nettovereisten van een artikel wanneer Planningsoptimalisatie is uitgevoerd (met behulp van een plan dat het artikel bevat), of wanneer u in het Actievenster op de pagina **Nettovereisten** de optie **Bijwerken \> Hoofdplanning** selecteert. Meer informatie over hoe u werkt met de pagina **Nettovereisten** vindt u in [Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie](net-requirements.md). |
-| Resourcetoewijzing | Wanneer er met onbeperkte capaciteit wordt gewerkt, worden door de ingebouwde hoofdplanning-engine alle geplande orders aan dezelfde resource toegewezen op een bepaalde resourcegroep. Zo wordt de optimalisatie van de planning verbeterd door willekeurig resources te selecteren, zodat verschillende productieorders gebruik kunnen maken van verschillende resources. Als u dezelfde resource wilt gebruiken voor alle geplande orders, moet u die resource in de route opgeven. |
-| Uitgebreide-gegevenstypen | Planningsoptimalisatie biedt geen ondersteuning voor wijzigingen in de nauwkeurigheid van EDT's. Als u bijvoorbeeld de precisie van de producthoeveelheid uitbreidt van twee decimalen (standaardinstelling) naar vier decimalen, gebruikt Planningsoptimalisatie nog steeds maar twee decimalen. |
+| Min/max-behoefteplanningscode zonder waarden| Wanneer u met de afgeschafte hoofdplanningsengine een min/max-behoefteplanningscode gebruikt waarbij geen minimum- of maximumwaarden zijn ingesteld, wordt de behoefteplanningscode door de planningsengine als een vereiste behandeld en wordt voor elke behoefte één order gemaakt. Bij Planningsoptimalisatie wordt één order per dag gebruikt om het volledige bedrag van die dag te dekken.  |
+| Nettovereisten en handmatig gemaakte geplande orders | Met de afgeschafte hoofdplanningsengine worden handmatig gemaakte aanvulorders voor een artikel automatisch weergegeven tussen de nettovereisten voor dat artikel. Wanneer u bijvoorbeeld een inkooporder maakt vanuit een verkooporder, wordt de inkooporder weergegeven op de pagina **Nettovereisten** zonder dat er voorafgaande acties nodig zijn. Dit komt doordat de afgeschafte hoofdplanningsengine voorraadtransacties in de tabel `inventLogTTS` registreert en wijzigingen toont op de pagina **Nettovereisten** voor dynamische plannen. Met Planningsoptimalisatie worden handmatig gemaakte orders echter pas gemaakt vanuit de nettovereisten van een artikel wanneer Planningsoptimalisatie is uitgevoerd (met behulp van een plan dat het artikel bevat), of wanneer u in het Actievenster op de pagina **Nettovereisten** de optie **Bijwerken \> Hoofdplanning** selecteert. Meer informatie over hoe u werkt met de pagina **Nettovereisten** vindt u in [Nettovereisten en informatie over tracering van de behoefte](net-requirements.md). |
+| Resourcetoewijzing | Wanneer er met onbeperkte capaciteit wordt gewerkt, worden door de afgeschafte hoofdplanningsengine alle geplande orders aan dezelfde resource toegewezen op een bepaalde resourcegroep. Zo wordt de optimalisatie van de planning verbeterd door willekeurig resources te selecteren, zodat verschillende productieorders gebruik kunnen maken van verschillende resources. Als u dezelfde resource wilt gebruiken voor alle geplande orders, moet u die resource in de route opgeven. |
+| Uitgebreide-gegevenstypen | Planningsoptimalisatie biedt geen ondersteuning voor wijzigingen in de nauwkeurigheid van EDT's. Dit betekent dat dit proces niet officieel wordt ondersteund en de werking niet wordt gegarandeerd. |
+| Afhandeling van veiligheidsvoorraad | Planningsoptimalisatie gebruikt altijd **Datum van vandaag + levertijd** voor *Minimum behalen*. Deze wijziging wordt doorgevoerd om een vereenvoudigde planningsinstelling in de toekomst voor te bereiden en om een actieresultaat te kunnen bieden. Als de aanschaffingstijd niet is opgenomen voor de veiligheidsvoorraad, worden geplande orders die zijn gemaakt voor de lage voorhanden voorraad altijd vertraagd vanwege de levertijd. Dit gedrag kan leiden tot belangrijke ruis en ongewenste geplande orders. De beste manier is om de instelling te wijzigen zodat *Datum van vandaag + levertijd* wordt gebruikt. Werk hoofdgegevens bij om waarschuwingen te voorkomen. |
+| Statisch plan kopiëren naar dynamisch plan | Met Planningsoptimalisatie worden statische plannen niet naar dynamische plannen gekopieerd, ongeacht de instelling op de pagina **Parameters hoofdplanning**. Over het algemeen is deze bewerking minder relevant vanwege de snelheid en de volledige regeneratie die door Planningsoptimalisatie wordt geleverd. Als er twee of meer plannen worden gebruikt, moet de hoofdplanning worden geactiveerd voor elk plan. |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

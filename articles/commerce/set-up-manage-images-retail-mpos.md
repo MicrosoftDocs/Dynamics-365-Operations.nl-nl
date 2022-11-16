@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287506"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751911"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Instellen en beheren van afbeeldingen voor Modern POS (MPOS)
 
@@ -160,7 +160,7 @@ Voor alle entiteiten behalve Producten kunt u de afbeeldings-URL voor een bepaal
     [![Galeriepagina Catalogusafbeeldingen.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Momenteel geeft de galerie geen afbeeldingsvoorbeelden weer voor URL's van mediasjabloonafbeeldingen. Voor de entiteiten Catalogus, Werknemer, Klant en Categorie, als de gebruiker expliciet een URL opgeeft via deze pagina, bevelen we aan dat u aangeeft welke afbeelding de standaardafbeelding is, omdat Commerce Scale Unit-clients slechts één afbeelding weergeven per catalogus, werknemer en categorie. Als de gebruiker geen standaardafbeelding opgeeft, bepaalt het systeem de standaardafbeelding en stuurt deze naar de aanroeper van de Commerce-service (MPOS of Ecommerce).
+> Alleen openbaar en anoniem toegankelijke afbeeldingen worden op het POS weergegeven. POS ondersteunt de weergave van afbeeldingen die extern worden gehost, met de vereiste dat de afbeeldingen als inline octet-stream worden geretourneerd voor GET-aanvragen zonder headers. Bij een beleid voor anonieme toegang wordt de respons Verboden geretourneerd, vooral voor SharePoint-afbeeldingen die vereisen dat aanvraagkopteksten zowel host- als gebruikersagentkopteksten bevatten. Daarom wordt afbeeldingsbeheer met SharePoint als host wordt momenteel niet out-of-the-box ondersteund. De galeriepagina **Catalogusafbeeldingen** bevat geen afbeeldingsvoorbeelden voor URL's van mediasjabloonafbeeldingen. Omdat Commerce Scale Unit-clients slechts één afbeelding weergeven per catalogus-, klant-, werknemer- en categorie-entiteit, raden we u aan op te geven welke afbeelding de standaardafbeelding is als u voor de entiteiten Catalogus, Werknemer, Klant en Categorie expliciet een URL opgeeft via deze pagina. Als u geen standaardafbeelding opgeeft, bepaalt het systeem de standaardafbeelding en stuurt deze naar de aanroeper van de Commerce-service (MPOS of e-commerce).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Overschrijf de afbeeldings-URL voor afbeeldingen van catalogusproducten vanuit de pagina Voorbeeld
 

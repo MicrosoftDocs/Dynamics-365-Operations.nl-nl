@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28c2c10a9293d00e26dfcc80ab08b89a122a6135
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 5f5981801317ad9647f57a0f68f9b67b592256ab
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733452"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752685"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-known-issues"></a>Bekende problemen met de infrastructuursamenvoeging voor Dynamics 365 Human Resources
 
@@ -44,10 +44,3 @@ De volgende omgevingstypen zijn vereist voordat u de migratie kunt doen:
 
 De bestaande Human Resources-app in Teams wordt momenteel verplaatst naar een Microsoft Power Platform-oplossing. Zie [Human resources-app in Teams](hr-admin-teams-leave-app.md) voor meer informatie.
 
-## <a name="licensing"></a>Licenties
-
-Er zijn geen wijzigingen in de licenties voor Dynamics 365 Human Resources op de volgende gebieden: 
-
-- **Vereiste voor aanschaf van minimumaantal licenties**
-- **Licenties voor een productieomgeving en een sandbox-omgeving**: als u bestaande zelfstandige Human Resources-licenties hebt met één productieomgeving en één sandbox-omgeving, is hetzelfde aantal licenties beschikbaar voor de infrastructuur voor financiën en bedrijfsactiviteiten.
-- **Extra sandbox-licenties**: als u extra sandbox-licenties hebt aangeschaft voor de zelfstandig Human Resources-toepassing, is hetzelfde aantal licenties beschikbaar voor sandbox-omgevingen in de infrastructuur voor financiën en bedrijfsactiviteiten. 

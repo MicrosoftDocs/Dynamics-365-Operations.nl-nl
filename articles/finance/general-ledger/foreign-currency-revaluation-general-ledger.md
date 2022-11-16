@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904523"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752798"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Herwaardering van vreemde valuta voor Grootboek
 
@@ -64,7 +64,9 @@ Het herwaarderingsproces kan voor een of meer rechtspersonen worden uitgevoerd. 
 
 De herwaardering kan voor een of meer vreemde valuta worden uitgevoerd. De zoekopdracht omvat alle valuta's die zijn geboekt binnen het datumbereik dat relevant is voor het type hoofdrekening (balans of winst en verlies) voor de rechtspersonen die zijn geselecteerd voor herwaardering. De valuta voor boekhouding wordt opgenomen in de lijst, maar er wordt niets geherwaardeerd als de valuta voor boekhouding wordt geselecteerd. 
 
-Stel **Bekijken alvorens te boeken** in op **Ja** als u het resultaat van de herwaardering van het grootboek wilt controleren. Het voorbeeld in het grootboek wijkt af van de simulatie van de herwaardering van vreemde valuta voor AR en AP. De simulatie in AR en AP is een rapport, maar het grootboek heeft een voorbeeld dat kan worden geboekt, zonder dat het herwaarderingsproces opnieuw moet worden uitgevoerd. De resultaten van het voorbeeld kunnen naar Microsoft Excel worden geëxporteerd om de historie te bewaren voor hoe de bedragen zijn berekend. U kunt geen batchverwerking gebruiken als u een voorbeeld van de herwaarderingsresultaten wilt bekijken. Vanuit het voorbeeld heeft de gebruiker de optie om de resultaten van alle rechtspersonen te boeken met de knop **Boeken**. Als er een probleem is met de resultaten voor een rechtspersoon, heeft de gebruiker ook de optie om een subset van de rechtspersonen te boeken met de knop **Te boeken rechtspersonen selecteren**. 
+Stel **Bekijken alvorens te boeken** in op **Ja** als u het resultaat van de herwaardering van het grootboek wilt controleren. Het voorbeeld in het grootboek wijkt af van de simulatie van de herwaardering van vreemde valuta voor AR en AP. De simulatie in AR en AP is een rapport, maar het grootboek heeft een voorbeeld dat kan worden geboekt, zonder dat het herwaarderingsproces opnieuw moet worden uitgevoerd. De resultaten van het voorbeeld kunnen naar Microsoft Excel worden geëxporteerd om de historie te bewaren voor hoe de bedragen zijn berekend. U kunt geen batchverwerking gebruiken als u een voorbeeld van de herwaarderingsresultaten wilt bekijken. Vanuit het voorbeeld heeft de gebruiker de optie om de resultaten van alle rechtspersonen te boeken met de knop **Boeken**. Als er een probleem is met de resultaten voor een rechtspersoon, heeft de gebruiker ook de optie om een subset van de rechtspersonen te boeken met de knop **Te boeken rechtspersonen selecteren**.
+
+Als u correcties geboekt met het **correctiejournaal voor aangiftevaluta** wilt uitsluiten van het herwaarderingsproces, stelt u **Correcties van aangiftevaluta uitsluiten** in op **Ja**. Standaard worden correcties van aangiftevaluta opgenomen in de herwaardering. 
 
 Nadat het herwaarderingsproces van vreemde valuta is voltooid, wordt een record gemaakt om de historie voor elke uitvoering bij te houden.  Er wordt een afzonderlijke record gemaakt voor elke rechtspersoon en boekingslaag.
 

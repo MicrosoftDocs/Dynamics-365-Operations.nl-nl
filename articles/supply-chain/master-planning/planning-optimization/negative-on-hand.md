@@ -1,6 +1,6 @@
 ---
 title: Planning met negatieve voorhanden hoeveelheden
-description: In dit artikel wordt uitgelegd hoe negatieve voorhanden voorraad wordt verwerkt wanneer u planningsoptimalisatie gebruikt.
+description: In dit artikel wordt uitgelegd hoe negatieve voorhanden hoeveelheden worden verwerkt.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856130"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741117"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Planning met negatieve voorhanden hoeveelheden
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856130"
 
 Als in het systeem een negatieve cumulatieve hoeveelheid voorhanden voorraad wordt weergegeven, behandelt de planningsengine de hoeveelheid als 0 (nul) om te voorkomen dat er te veel voorraad wordt geleverd. Deze functionaliteit werkt als volgt:
 
-1. Met de functie voor planningsoptimalisatie worden voorhanden hoeveelheden op het laagste niveau van de behoefteplanningsdimensies samengevoegd. (Als *locatie* bijvoorbeeld geen behoefteplanningsdimensie is, worden in planningsoptimalisatie de voorhanden hoeveelheden geaggregeerd op het niveau *magazijn*.)
+1. Met de hoofdplanning worden voorhanden hoeveelheden op het laagste niveau van de behoefteplanningsdimensies samengevoegd. (Als *locatie* bijvoorbeeld geen behoefteplanningsdimensie is, worden in de hoofdplanning de voorhanden hoeveelheden geaggregeerd op het niveau *magazijn*.)
 1. Als de totale voorhanden voorraad op het laagste niveau van de behoefteplanningsdimensies negatief is, wordt er in het systeem van uitgegaan dat de voorhanden voorraad in werkelijkheid 0 (nul) is.
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ Het systeem wordt als volgt geconfigureerd:
 - Er bestaat een verkooporder voor een hoeveelheid *van 10* st. van product *FG*.
 - De verkooporderhoeveelheid wordt fysiek gereserveerd tegen de bestaande voorraad.
 
-Vervolgens past u de hoeveelheid van product *FG* aan, zodat de voorhanden voorraad 5 wordt. Aangezien de voorhanden productvoorraad 5 is, wordt de hoeveelheid op de verkooporder nu gereserveerd op de hoeveelheid die niet voorhanden is (dit zou vergelijkbaar zijn als voorhanden voorraad 0 zou zijn, waarbij de verkooporder gereserveerd wordt op negatieve voorraad). Als u nu de hoofdplanning uitvoert, wordt er echter geen geplande order van 5 voor *FG* gemaakt om de verkooporder te leveren. Dit komt doordat bij Planningsoptimalisatie altijd bestaande levering wordt gebruikt of een nieuwe geplande order wordt gemaakt om de fysieke reservering te leveren.
-
-## <a name="related-resources"></a>Gerelateerde bronnen
-
-- [Overzicht van Optimalisatie van planning](planning-optimization-overview.md)
-- [Aan de slag met Planningsoptimalisatie](get-started.md)
-- [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md)
-- [Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
-- [Een planningstaak annuleren](cancel-planning-job.md)
+Vervolgens past u de hoeveelheid van product *FG* aan, zodat de voorhanden voorraad 5 wordt. Aangezien de voorhanden productvoorraad 5 is, wordt de hoeveelheid op de verkooporder nu gereserveerd op de hoeveelheid die niet voorhanden is (dit zou vergelijkbaar zijn als voorhanden voorraad 0 zou zijn, waarbij de verkooporder gereserveerd wordt op negatieve voorraad). Als u nu de hoofdplanning uitvoert, wordt er echter geen geplande order van 5 voor *FG* gemaakt om de verkooporder te leveren. Dit komt doordat de hoofdplanning altijd bestaande voorraad wordt gebruikt of een nieuwe geplande order wordt gemaakt om de fysieke reservering te leveren.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
