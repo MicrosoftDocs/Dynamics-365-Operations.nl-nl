@@ -162,7 +162,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/action-search.md?context=/dynamics365/context/commerce
                 - name: Geavanceerde filter- en querysyntaxis
                   href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?context=/dynamics365/context/commerce
-                - name: Werkgebieden configureren en filteren
+                - name: werkruimten configureren en filteren
                   href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?context=/dynamics365/context/commerce
                 - name: Pagina's naast elkaar weergeven met de functie Openen in nieuw venster
                   href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?context=/dynamics365/context/commerce
@@ -590,6 +590,8 @@
                           href: dev-itpro/adyen-connector-faq.md
                         - name: Google Pay configureren met Adyen
                           href: dev-itpro/google-pay-adyen.md
+                        - name: Apple Pay met Adyen instellen
+                          href: dev-itpro/apple-pay-adyen.md
                         - name: Problemen met Dynamics 365 Payment Connector voor Adyen oplossen
                           href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Online betaalmiddelen opslaan met de Adyen-connector
@@ -602,6 +604,8 @@
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Scenario's voor het betalen van facturen instellen
                       href: payinvoice.md
+                    - name: Vooruitbetalingen in Dynamics 365 Commerce
+                      href: dev-itpro/prepayments-commerce.md
                     - name: Voorkomen van dubbele betalingen
                       href: duplicate-payment-protection.md
                     - name: Overzicht van betalingen voor meerdere kanalen
@@ -1606,7 +1610,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?context=/dynamics365/context/commerce
                 - name: Integratie met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?context=/dynamics365/context/commerce
-                - name: Ingesloten rapporten in Analytische werkgebieden aanpassen
+                - name: Ingesloten rapporten in Analytische werkruimten aanpassen
                   href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?context=/dynamics365/context/commerce
             - name: Documenten rapporteren en afdrukken
               items:
@@ -1656,9 +1660,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?context=/dynamics365/context/commerce
                 - name: Analytische rapporten maken met Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?context=/dynamics365/context/commerce
-                - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
+                - name: Analyses aan werkruimten toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?context=/dynamics365/context/commerce
-                - name: Analytische werkgebieden en rapporten beveiligen met Power BI Embedded
+                - name: Analytische werkruimten en rapporten beveiligen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?context=/dynamics365/context/commerce
                 - name: Rapportageoplossingen maken
                   href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?context=/dynamics365/context/commerce
@@ -2358,7 +2362,7 @@
                   href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md?context=/dynamics365/context/commerce
                 - name: Leverancierssamenwerking
                   href: ../supply-chain/procurement/vendor-collaboration-mobile-workspace.md?context=/dynamics365/context/commerce
-            - name: Mobiele werkgebieden publiceren
+            - name: Mobiele werkruimten publiceren
               href: ../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md?context=/dynamics365/context/commerce
         - name: Office-integratie
           items:

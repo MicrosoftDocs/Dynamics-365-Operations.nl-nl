@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Bewustzijn tussen grootboekvereffening en jaarafsluiting
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Grootboekvereffeningen automatiseren
+                  href: general-ledger/auto-settle.md
                 - name: Herwaardering van vreemde valuta voor grootboek
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Grootboekrekeningsaldi

@@ -3395,6 +3395,8 @@
           items:
             - name: Overzicht van Magazijnbeheer
               href: warehousing/warehouse-management-overview.md
+            - name: Aan de slag met het instellen van de module Magazijnbeheer
+              href: warehousing/get-started-with-setting-up-module.md
             - name: Inkomende magazijnbewerkingen
               items:
                 - name: Magazijnverwerking van inkomende ladingen voor inkooporders
@@ -3459,9 +3461,9 @@
                       href: warehousing/print-container-labels.md
                     - name: Verpakkingswerk voor het inpakken van uitgaande containers en het verwerken van zendingen
                       href: warehousing/packing-work.md
-                    - name: Containers verpakken met de mobiele app Warehouse Management
+                    - name: Containers verpakken met de mobiele app Magazijnbeheer
                       href: warehousing/warehouse-app-packing-containers.md
-                    - name: Voorbeeldscenario - Containers verpakken met de mobiele app Warehouse Management
+                    - name: Voorbeeldscenario - Containers verpakken met de mobiele app Magazijnbeheer
                       href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Artikelhertoewijzing voor kort orderverzamelen instellen
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
@@ -3597,33 +3599,33 @@
                       href: warehousing/work-split.md
                     - name: Interface voor materiaalverwerkingsapparatuur (MHAX)
                       href: warehousing/mhax.md
-            - name: De mobiele app Warehouse Management
+            - name: De mobiele app Magazijnbeheer
               items:
                 - name: 'Mobiele apparaten installeren, instellen en gebruiken'
                   items:
-                    - name: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
+                    - name: Nieuwe of gewijzigde functies in de mobiele app Magazijnbeheer
                       href: warehousing/whats-new-wma.md
-                    - name: De mobiele app Warehouse Management installeren en verbinden
+                    - name: De mobiele app Magazijnbeheer installeren en verbinden
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Ondersteuning mobiele streepjescodelezer
                       href: warehousing/mobile-barcode-support.md
-                    - name: Streepjescodes scannen met een camera in de mobiele app Warehouse Management
+                    - name: Streepjescodes scannen met een camera in de mobiele app Magazijnbeheer
                       href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Velden en menu's instellen voor mobiele apparaten
                   items:
-                    - name: Velden configureren voor de mobiele app Warehouse Management
+                    - name: Velden configureren voor de mobiele app Magazijnbeheer
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiele apparaten instellen voor magazijnwerk
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
+                    - name: Staptitels en instructies aanpassen voor de mobiele app Magazijnbeheer
                       href: warehousing/mobile-app-titles-instructions.md
                     - name: Gepromoveerde velden configureren voor stappen in het mobiele apparaat
                       href: warehousing/warehouse-app-promoted-fields.md
                     - name: Omleidingen configureren voor stappen in menu-items van mobiele apparaten
                       href: warehousing/warehouse-app-detours.md
-                    - name: Gegevens met de omleidingen van de mobiele app Warehouse Management
+                    - name: Gegevens met de omleidingen van de mobiele app Magazijnbeheer
                       href: warehousing/warehouse-app-data-inquiry.md
-                    - name: Nummerplaat ontvangen via de mobiele app Warehouse Management
+                    - name: Nummerplaat ontvangen via de mobiele app Magazijnbeheer
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
                       href: warehousing/tasks/set-up-mobile-device-menu.md

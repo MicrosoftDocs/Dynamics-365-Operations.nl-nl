@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751926"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752743"
 ---
 # <a name="year-end-activities-faq"></a>Veelgestelde vragen over jaarafsluitingsactiviteiten 
 
@@ -94,6 +94,23 @@ Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. 
  
 - Module: Grootboek
 - Functienaam: Prestatieverbeteringen bij het opnieuw opbouwen van financiële-dimensiesets
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Leveranciers: Welke wijzigingen zijn aangebracht om de 1099-eindejaarsaangifte voor 2022 te ondersteunen?
+
+#### <a name="update-to-all-1099-forms"></a>Bijwerken naar alle 1099-formulieren
+In alle 1099-formulieren voor het belastingjaar 2022 zijn de volgende wijzigingen aangebracht:
+
+  - In 2021 was het jaar vast ingesteld op 1099-formulieren. Vanaf 2022 wordt het jaar ingevuld door het rapport. 
+
+#### <a name="1099-misc"></a>1099-MISC
+Op formulier 1099-MISC voor het belastingjaar 2022 zijn de volgende updates doorgevoerd:
+
+ - Box 13: geeft nu de aanvraagvereiste van de Foreign Account Tax Compliance Act (FATCA) aan. 
+ - Vak 14: nu gebruikt om de betaling van overtollige gouden handdrukken te melden. 
+ - Vak 15: wordt nu gebruikt om de betaling te rapporteren onder niet-gekwalificeerde compensatieplannen (NQDC). 
+ - Vak 16: nu gebruikt om aangifte te doen van ingehouden belasting voor de staat.
+ - Vak 17: nu gebruikt om het staatsnummer van de betaler aan te geven.
+ - Vak 18: nu gebruikt om aangifte te doen van de staatsinkomsten. 
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Leveranciers: Welke wijzigingen zijn aangebracht om de 1099-eindejaarsaangifte voor 2021 te ondersteunen?
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878507"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764174"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer (DOM)
 
@@ -68,7 +68,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
         > [!NOTE]
         > De optie Vereenvoudigde oplossing is beschikbaar om detailhandelaren in staat te stellen de DOM-functie uit te proberen zonder de speciale licentie te hoeven implementeren. Organisaties moeten de optie Vereenvoudigde oplossing niet gebruiken in productieomgevingen.
         >
-        > Vereenvoudigde oplossing verbetert de prestaties (bijvoorbeeld het aantal orders en orderregels dat per keer kan worden verwerkt) en de convergentie van resultaten (aangezien een batch orders mogelijk niet het beste resultaat oplevert in sommige scenario's). Voor sommige regels, zoals de regel voor **gedeeltelijke orders** en het **maximale aantal locaties**, is Productieoplossing vereist.
+        > Vereenvoudigde oplossing verbetert de prestaties (bijvoorbeeld het aantal orders en orderregels dat per keer kan worden verwerkt) en de convergentie van resultaten (aangezien een batch orders mogelijk niet het beste resultaat oplevert in sommige scenario's). Voor de regel **Gedeeltelijke orders** is Productieoplossing vereist.
 
 6. Ga terug naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Instellingen \> DOM-parameters**.
 7. Wijs op het tabblad **Nummerreeksen** het vereiste aantal nummerreeksen toe aan de verschillende DOM-entiteiten.

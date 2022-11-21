@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Gebruikers aan beveiligingsrollen toewijzen
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Active Directory-beveiligingsgroepen
+                  href: sysadmin/active-directory-security-group.md
                 - name: Aangepaste beveiligingsconfiguratie importeren of exporteren met Gegevensbeheer
                   href: sysadmin/import-export-customized-security.md
                 - name: Beveiligingsdiagnose voor taakregistraties
