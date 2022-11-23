@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405432"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757162"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
@@ -50,7 +50,7 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | Een tabblad in het actievenster of een menu sluiten        | Esc                              |
 | Klikken met de rechtermuisknop simuleren                          | Shift+F10                        |
 | Open het contextmenu    | Ctrl+F10                         |
-| Op de standaardknop in een formulier/dialoogvenster klikken | Alt+Enter                        |
+| Op de standaardknop in een pagina/dialoogvenster klikken | Alt+Enter                        |
 | Op een knop of tegel klikken                          | Enter of spatiebalk                   |
 | Vernieuwde informatie voor een tellingstegel weergeven       | Alt+Pijl-omhoog                     |
 | Momenteel beschikbare snelkoppelingen weergeven              | Alt+Shift+K                      |
@@ -85,22 +85,22 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Rasterfiltering openen voor de huidige kolom                                                                          | Ctrl+G                   |
 | Rasterfiltering sluiten voor de huidige kolom                                                                         | Esc                      |
-| Het filtervenster openen (of de focus omschakelen tussen het filtervenster en het hoofdformulier als het filtervenster al open is) | Alt+M, F of Ctrl+F3       |
+| Het filtervenster openen (of de focus omschakelen tussen het filtervenster en de hoofdpagina als het filtervenster al open is) | Alt+M, F of Ctrl+F3       |
 | Het filtervenster sluiten (met de focus in het filtervenster)                                                               | Esc                      |
 | Geavanceerd filteren/sorteren openen                                                                                        | Ctrl+Shift+F3            |
 | Snelfilter toepassen (met de focus op Snelfilter)                                                              | Enter                    |
 | Pas het rasterfilter toe (wanneer de focus zich in het filterveld van de kolomkoptekst bevindt)                                             | Enter                    |
 
-## <a name="form-shortcuts"></a>Sneltoetsen voor formulieren
+## <a name="page-shortcuts"></a>Sneltoetsen voor pagina's
 
-| Actie                                    | Druk op              |
+| Gewenste bewerking                                    | Druk op              |
 |-----------------------------------------------|-------------------|
-| Een nieuwe registratie maken                           | Alt+N             |
+| Een nieuwe record maken                           | Alt+N             |
 | Een record verwijderen                               | Alt+Del of Alt+F9 |
 | Record opslaan                                   | Alt+S of Ctrl+S   |
 | Terugdraaien (herstellen)                              | Ctrl+Shift+F5     |
 | Gegevens vernieuwen                                  | Shift+F5          |
-| Naar het zichtbare eerste veld in het formulier gaan   | Alt+Shift+F       |
+| Naar het zichtbare eerste veld in de pagina gaan   | Alt+Shift+F       |
 | Bewerkingsmodus in-/uitschakelen                              | F2                |
 | Een document koppelen                             | Ctrl+Shift+A      |
 | Exporteren naar Excel                               | Ctrl+Shift+E      |
@@ -108,13 +108,13 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | Naar de volgende record gaan (buiten een raster)      | Ctrl+Pijl-omlaag   |
 | Naar de eerste record gaan (buiten een raster)     | Ctrl+Home         |
 | Naar de laatste record gaan (buiten een raster)      | Ctrl+End          |
-| Het formulier sluiten (op Terug klikken)                   | Esc               |
-| Het formulier sluiten met expliciet opslaan             | Shift+Esc         |
-| Het formulier sluiten met annulering van niet-opgeslagen wijzigingen | Alt+Shift+Q       |
+| De pagina sluiten (selecteer de knop Terug)<br><br>**Opmerking:** als er een pop-upvenster (knopinfo, datumverdeler, vervolgkeuze, enzovoort) is geopend, wordt het pop-upvenster gesloten als Esc voor het eerst wordt gebruikt.       | Esc               |
+| De pagina sluiten met expliciet opslaan             | Shift+Esc         |
+| De pagina sluiten en alle niet-opgeslagen wijzingen annuleren | Alt+Shift+Q       |
 
-## <a name="form-navigation-shortcuts"></a>Sneltoetsen voor formuliernavigatie
+## <a name="page-navigation-shortcuts"></a>Sneltoetsen voor paginanavigatie
 
-| Gewenste bewerking                                          | Druk op                                        |
+| Gewenste bewerking                                          | Druk op                                         |
 |-----------------------------------------------------|----------------------------------------------|
 | Naar het volgende/vorige veld gaan                     | Tabtoets/Shift+Tabtoets                              |
 | Naar het volgende/vorige tabblad gaan                       | Alt+Shift+Pijl-rechts/Alt+Shift+Pijl-links |
@@ -192,13 +192,13 @@ Gebruikers kunnen momenteel beschikbaar snelkoppelingen rechtstreeks vanuit de g
 | Het Help-deelvenster openen.                                                            | Ctrl+?                     |
 | De traceparser openen                                                         | Alt+Shift+T                |
 | Naar het navigatievenster gaan                                                   | Alt+F1                     |
-| Een formulier als favoriet toevoegen/verwijderen (met de focus op een formulier in het navigatiedeelvenster)   | Shift+F                    |
+| Een pagina als favoriet toevoegen/verwijderen (met de focus op een pagina in het navigatiedeelvenster)   | Shift+F                    |
 | Naar het standaardactievenster gaan                                              | Alt+M, A of Ctrl+F6         |
 | Naar het filtervenster gaan (of dit venster openen, indien van toepassing)                        | Alt+M, F of Ctrl+F3         |
 | Focus verplaatsen naar de pagina-inhoud (met focus in het filterdeelvenster)                | Alt+M, M of Ctrl+F3         |
-| Naar de navigatielijst in het detailformulier gaan (of dit formulier openen, indien van toepassing)    | Alt+M, S of Ctrl+F8         |
+| Naar de navigatielijst gaan (of dit venster openen, indien van toepassing)    | Alt+M, S of Ctrl+F8         |
 | Focus verplaatsen naar de pagina-inhoud (in de navigatielijst)            | Alt+M, M of Ctrl+F8         |
-| De navigatielijst in detailformulieren sluiten (met de focus in de navigatielijst) | Esc                        |
+| De navigatielijst sluiten (met de focus in de navigatielijst) | Esc                        |
 | Naar de hoofdpaginainhoud gaan (met de focus in een ander deelvenster)                    | Alt+M, M                    |
 | Naar het feitenvak gaan (of dit venster openen, indien van toepassing)                       | Alt+M, B of Ctrl+F2         |
 | Ga naar volgende functietoelichting                                              | Alt+M,C                    |
