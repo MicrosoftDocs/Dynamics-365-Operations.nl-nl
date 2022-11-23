@@ -1,35 +1,37 @@
 ---
 title: Winkelorderafhandeling
-description: Dit artikel bevat een overzicht van de afhandeling van orders in winkels.
+description: Dit artikel bevat een overzicht van de afhandeling van orders in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854973"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785067"
 ---
 # <a name="store-order-fulfillment"></a>Winkelorderafhandeling
 
 [!include [banner](includes/banner.md)]
+
+Dit artikel bevat een overzicht van de afhandeling van orders in Microsoft Dynamics 365 Commerce.
 
 Veel detailhandelaren willen de afhandeling van orders optimaliseren door winkels in staat te stellen orders uit te voeren. Orderafhandeling op winkelniveau kan overbevoorradingsscenario's voor een bepaalde winkel voorkomen of vanuit logistiek oogpunt noodzakelijk zijn in gevallen waarin een winkel extra capaciteit heeft of zich dichter bij de klant bevindt. Om in deze behoefte te voorzien, is er een uniforme orderafhandelingsbewerking beschikbaar in het verkooppunt.
 
 In orders voor afhandeling bij een bepaalde winkel is het magazijn van de winkel opgegeven in de orderkop of -regels.
 
 De orderafhandelingsbewerking in het verkooppunt biedt één werkgebied in het verkooppunt dat kan worden gebruikt voor het verwerken van orders. Dit omvat alles van het accepteren van de order tot het markeren van de order als verzonden of het initiëren van het ophalen in de winkel.
+
+De volgende video bevat een overzicht en een demo van afhandelingsmogelijkheden in winkels in Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Toegang tot uniforme orderafhandeling in het verkooppunt
 

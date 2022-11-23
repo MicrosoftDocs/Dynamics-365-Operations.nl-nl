@@ -2,7 +2,7 @@
 title: Openbare API's voor Inventory Visibility
 description: In dit artikel worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
-ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
+ms.openlocfilehash: 8b0b8ca261237fbb2190f2a94cc11b816ae05af5
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9719310"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762829"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
-
 
 In dit artikel worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
 
@@ -36,38 +35,38 @@ De volgende tabel bevat de API's die momenteel beschikbaar zijn:
 
 | Pad | methode | Beschrijving |
 |---|---|---|
-| /api/environment/{environmentId}/onhand | Plaatsen | [Eén wijzigingsgebeurtenis maken voor voorhanden voorraad](#create-one-onhand-change-event) |
+| /api/environment/{environmentId}/onhand | Plaatsen | [Eén wijzigingsgebeurtenis maken voor voorhanden voorraad](#create-one-onhand-change-event)|
 | /api/environment/{environmentId}/onhand/bulk | Plaatsen | [Meerdere wijzigingsgebeurtenissen maken voor voorhanden voorraad](#create-multiple-onhand-change-events) |
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Plaatsen | [Voorhanden hoeveelheden instellen/overschrijven](#set-onhand-quantities) |
-| /api/environment/{environmentId}/onhand/reserve | Plaatsen | [Eén reserveringsgebeurtenis maken](#create-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/reserve/bulk | Plaatsen | [Meerdere reserveringsgebeurtenissen maken](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/unreserve | Boeken | [Eén reserveringsgebeurtenis terugdraaien](#reverse-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/unreserve/bulk | Boeken | [Meerdere reserveringsgebeurtenissen terugdraaien](#reverse-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/reserve | Boeken | [Eén zachte reserveringsgebeurtenis maken](#create-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/reserve/bulk | Boeken | [Meerdere zachte reserveringsgebeurtenissen maken](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | Boeken | [Eén zachte reserveringsgebeurtenis terugdraaien](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | Boeken | [Meerdere zachte reserveringsgebeurtenissen terugdraaien](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | Boeken | [Eén geplande wijziging in de voorhanden hoeveelheid maken](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/changeschedule/bulk | Boeken | [Meerdere geplande wijzigingen in de voorhanden hoeveelheid maken](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/indexquery | Boeken | [Een query uitvoeren met de post-methode](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Boeken | [Meerdere wijzigingen in de voorhanden hoeveelheid maken met datums](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Boeken | [Een query uitvoeren met de post-methode](#query-with-post-method) (aanbevolen) |
 | /api/environment/{environmentId}/onhand | Ophalen | [Een query uitvoeren met de get-methode](#query-with-get-method) |
 | /api/environment/{environmentId}/onhand/exactquery | Boeken | [Een exacte query uitvoeren met de post-methode](#exact-query-with-post-method) |
-| /api/environment/{environmentId}/allocation/allocate | Boeken | [Eén toewijzingsgebeurtenis maken](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/unallocate | Boeken | [Eén gebeurtenis voor ongedaan maken van toewijzing maken](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/reallocate | Boeken | [Eén gebeurtenis voor opnieuw toewijzen maken](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/consume | Boeken | [Eén verbruiksgebeurtenis maken](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/query | Boeken | [Querytoewijzingsresultaat](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/allocate | Boeken | [Eén toewijzingsgebeurtenis maken](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/unallocate | Boeken | [Eén gebeurtenis voor ongedaan maken van toewijzing maken](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/reallocate | Boeken | [Eén gebeurtenis voor opnieuw toewijzen maken](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/consume | Boeken | [Eén verbruiksgebeurtenis maken](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/query | Boeken | [Querytoewijzingsresultaat](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
-> Het deel {environmentId} van het pad is de omgevings-id in Microsoft Dynamics Lifecycle Services (LCS).
+> Het deel {environmentId} van het pad is de omgevings-id in Microsoft Dynamics Lifecycle Services.
 > 
 > De bulk-API kan maximaal 512 records voor elke aanvraag retourneren.
 
 Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>
 
-## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Het eindpunt vinden volgens uw Lifecycle Services-omgeving
+## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a><a name = "endpoint-lcs"></a>Het eindpunt vinden volgens uw Lifecycle Services-omgeving
 
 De microservice van Voorraadzichtbaarheid wordt in Microsoft Azure Service Fabric geïmplementeerd in meerdere geografieën en regio's. Er is op dit moment geen centraal eindpunt waarmee uw aanvraag automatisch kan worden omgeleid naar de overeenkomstige geografie en regio. U moet daarom de stukken informatie in een URL samenstellen door het volgende patroon te gebruiken:
 
 `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
-De korte naam van de regio kunt u vinden in de Microsoft Dynamics Lifecycle Services-omgeving (LCS). In de volgende tabel worden de regio's weergegeven die momenteel beschikbaar zijn.
+De korte naam van de regio kunt u vinden in de Lifecycle Services-omgeving. In de volgende tabel worden de regio's weergegeven die momenteel beschikbaar zijn.
 
 | Azure-regio        | Korte naam regio |
 | ------------------- | ----------------- |
@@ -83,16 +82,26 @@ De korte naam van de regio kunt u vinden in de Microsoft Dynamics Lifecycle Serv
 | VK - west             | wuk               |
 | Japan - oost          | ejp               |
 | Japan - west          | wjp               |
-| Brazilië - zuid        | sbr               |
-| Zuid-centraal VS    | scus              |
+| Centraal-India       | cin               |
+| Zuid-India         | sin               |
+| Zwitserland - noord   | nch               |
+| Zwitserland - west    | wch               |
+| Frankrijk - zuid        | sfr               |
+| Oost-Azië           | eas               |
+| Azië - zuidoost     | seas              |
+| VAE - noord           | nae               |
+| Noorwegen - oost         | eno               |
+| Noorwegen - west         | wno               |
+| Zuid-Afrika - west   | wza               |
+| Zuid-Afrika - noord  | nza               |
 
-Het eilandnummer is waar uw LCS-omgeving is geïmplementeerd op Service Fabric. Er is op dit moment geen manier om deze informatie van gebruikers op te halen.
+Het eilandnummer is waar uw Lifecycle Services-omgeving is geïmplementeerd op Service Fabric. Er is op dit moment geen manier om deze informatie van gebruikers op te halen.
 
 Microsoft heeft een gebruikersinterface (UI) in Power Apps gemaakt zodat u de beschikking hebt over het volledige eindpunt van de microservice. Zie [Het service-eindpunt vinden](inventory-visibility-configuration.md#get-service-endpoint) voor meer informatie.
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Authenticatie
 
-Het beveiligingstoken voor het platform wordt gebruikt om de openbare API Voorraadzichtbaarheid aan te roepen. U moet daarom een _Azure Active Directory-token (Azure AD)_ genereren met uw Azure AD-toepassing. Vervolgens moet u het Azure AD-token gebruiken om het _toegangstoken_ op te halen van de beveiligingsservice.
+Het beveiligingstoken voor het platform wordt gebruikt om de openbare API Voorraadzichtbaarheid aan te roepen. U moet daarom een *Azure Active Directory (Azure AD)-token* genereren met de Azure AD-toepassing. Vervolgens moet u het Azure AD-token gebruiken om het *toegangstoken* op te halen van de beveiligingsservice.
 
 Microsoft biedt een gebruiksklare *Postman*-verzameling voor het ophalen van tokens. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/496645018f96b3f0455e>
 
@@ -101,63 +110,63 @@ Ga als volgt te werk om een beveiligingstoken voor de service te krijgen.
 1. Meld u aan bij de Azure-portal en gebruik de portal om de waarden `clientId` en `clientSecret` voor uw Dynamics 365 Supply Chain Management-app te vinden.
 1. Haal een Azure AD-token (`aadToken`) op door een HTTP-aanvraag met de volgende eigenschappen in te dienen:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
-   - **Methode:** `GET`
-   - **Inhoud hoofdtekst (formuliergegevens):**
+    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
+    - **Methode:** `GET`
+    - **Inhoud hoofdtekst (formuliergegevens):**
 
-     | Sleutel           | Waarde                                            |
-     | ------------- | -------------------------------------------------|
-     | client_id     | ${aadAppId}                                      |
-     | client_secret | ${aadAppSecret}                                  |
-     | grant_type    | client_credentials                               |
-     | bereik         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
+        | Sleutel           | Waarde                                            |
+        | ------------- | -------------------------------------------------|
+        | client_id     | ${aadAppId}                                      |
+        | client_secret | ${aadAppSecret}                                  |
+        | grant_type    | client_credentials                               |
+        | bereik         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
-   U moet een Azure AD-token (`aadToken`) als reactie ontvangen. Het resultaat moet lijken op het volgende voorbeeld.
+    U moet een Azure AD-token (`aadToken`) als reactie ontvangen. Het resultaat moet lijken op het volgende voorbeeld.
 
-   ```json
-   {
-       "token_type": "Bearer",
-       "expires_in": "3599",
-       "ext_expires_in": "3599",
-       "access_token": "eyJ0eX...8WQ"
-   }
-   ```
+    ```json
+    {
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "access_token": "eyJ0eX...8WQ"
+    }
+    ```
 
 1. Formuleer een JSON-aanvraag (JavaScript Object Notation) die op het volgende voorbeeld lijkt.
 
-   ```json
-   {
-       "grant_type": "client_credentials",
-       "client_assertion_type": "aad_app",
-       "client_assertion": "{Your_AADToken}",
-       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "{$LCS_environment_id}",
-       "context_type": "finops-env"
-   }
-   ```
+    ```json
+    {
+        "grant_type": "client_credentials",
+        "client_assertion_type": "aad_app",
+        "client_assertion": "{Your_AADToken}",
+        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "{$LCS_environment_id}",
+        "context_type": "finops-env"
+    }
+    ```
 
-   Let op de volgende punten:
+    Let op de volgende punten:
 
-   - De waarde `client_assertion` moet het Azure AD-token (`aadToken`) zijn dat u in de vorige stap hebt ontvangen.
-   - De waarde `context` moet de LCS-omgevings-id zijn waarin u de invoegtoepassing wilt implementeren.
-   - Stel alle andere waarden in zoals in het voorbeeld wordt weergegeven.
+    - De waarde `client_assertion` moet het Azure AD-token (`aadToken`) zijn dat u in de vorige stap hebt ontvangen.
+    - De waarde `context` moet de omgevings-id van Lifecycle Services zijn waarin u de invoegtoepassing wilt implementeren.
+    - Stel alle andere waarden in zoals in het voorbeeld wordt weergegeven.
 
 1. Haal een toegangstoken (`access_token`) op door een HTTP-aanvraag in te dienen met de volgende eigenschappen:
 
-   - **URL:** `https://securityservice.operations365.dynamics.com/token`
-   - **Methode:** `POST`
-   - **HTTP-header:** neem de API-versie op. (De sleutel is `Api-Version` en de waarde is `1.0`.)
-   - **Inhoud hoofdtekst:** neem de JSON-aanvraag op die u in de vorige stap hebt gemaakt.
+    - **URL:** `https://securityservice.operations365.dynamics.com/token`
+    - **Methode:** `POST`
+    - **HTTP-header:** neem de API-versie op. (De sleutel is `Api-Version` en de waarde is `1.0`.)
+    - **Inhoud hoofdtekst:** neem de JSON-aanvraag op die u in de vorige stap hebt gemaakt.
 
-   U moet een toegangstoken (`access_token`) als reactie ontvangen. U moet dit token gebruiken als Bearer-token voor het aanroepen van de API Voorraadzichtbaarheid. Dit is een voorbeeld.
+    U moet een toegangstoken (`access_token`) als reactie ontvangen. U moet dit token gebruiken als Bearer-token voor het aanroepen van de API Voorraadzichtbaarheid. Dit is een voorbeeld.
 
-   ```json
-   {
-       "access_token": "{Returned_Token}",
-       "token_type": "bearer",
-       "expires_in": 3600
-   }
-   ```
+    ```json
+    {
+        "access_token": "{Returned_Token}",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+    ```
 
 > [!IMPORTANT]
 > Wanneer u de *Postman*-aanvraagverzameling gebruikt om openbare API's voor Voorraadzichtbaarheid aan te roepen, moet u voor elke aanvraag een Bearer-token toevoegen. Als u het Bearer-token wilt vinden, selecteert u het tabblad **Autorisatie** onder de aanvraag-URL, selecteert u het type **Bearer-token** en kopieert u het toegangstoken dat in de laatste stap is opgehaald. In latere secties van dit artikel wordt `$access_token` gebruikt om het token te vertegenwoordigen dat in de laatste stap is opgehaald.
@@ -178,10 +187,12 @@ In de volgende tabel wordt de betekenis van elk veld in de JSON-tekst samengevat
 | `productId` | De identificatie van het product. |
 | `quantities` | De hoeveelheid waarmee de voorhanden hoeveelheid moet worden gewijzigd. Als er bijvoorbeeld 10 nieuwe boeken aan een plank worden toegevoegd, is deze waarde `quantities:{ shelf:{ received: 10 }}`. Als er drie boeken worden verwijderd van de plank of worden verkocht, is deze waarde `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | De gegevensbron van de dimensies die worden gebruikt bij het boeken van de wijzigingsgebeurtenis en de query. Als u de gegevensbron opgeeft, kunt u de aangepaste dimensies gebruiken van de opgegeven gegevensbron. Voorraadzichtbaarheid kan de dimensieconfiguratie gebruiken om de aangepaste dimensies toe te wijzen aan de algemene standaarddimensies. Als er geen waarde voor `dimensionDataSource` is opgegeven, kunt u alleen de algemene [basisdimensies](inventory-visibility-configuration.md#data-source-configuration-dimension) in uw query's gebruiken. |
-| `dimensions` | Een dynamisch sleutelwaardepaar. De waarden worden aan enkele van de dimensies in Supply Chain Management toegewezen. U kunt echter ook aangepaste dimensies toevoegen (bijvoorbeeld _Bron_) om aan te geven of de gebeurtenis afkomstig is uit Supply Chain Management of uit een extern systeem. |
+| `dimensions` | Een dynamisch sleutelwaardepaar. De waarden worden aan enkele van de dimensies in Supply Chain Management toegewezen. U kunt echter ook aangepaste dimensies toevoegen (bijvoorbeeld *Bron*) om aan te geven of de gebeurtenis afkomstig is uit Supply Chain Management of uit een extern systeem. |
 
 > [!NOTE]
 > De parameters `locationId` en `siteId` vormen de [partitieconfiguratie](inventory-visibility-configuration.md#partition-configuration). U moet deze parameters daarom opgeven in dimensies wanneer u wijzigingsgebeurtenissen voor voorhanden voorraad maakt, voorhanden hoeveelheden instelt of overschrijft of reserveringsgebeurtenissen maakt.
+
+De volgende subsecties geven voorbeelden die laten zien hoe u deze API's gebruikt.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Eén wijzigingsgebeurtenis maken voor voorhanden voorraad
 
@@ -214,17 +225,17 @@ Body:
     }
 ```
 
-In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven. In dit voorbeeld boekt u een wijzigingsgebeurtenis voor het product *T-shirt*. Deze gebeurtenis is afkomstig van het POS-systeem (verkooppunt) en de klant heeft een rood T-shirt teruggestuurd naar uw winkel. Met deze gebeurtenis wordt de hoeveelheid van het product *T-shirt* verhoogd met 1.
+In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven. In dit voorbeeld heeft het bedrijf een POS-systeem (point-of-sale) dat winkeltransacties verwerkt en dus voorraadwijzigingen. De klant heeft een rood y-shirt naar uw winkel geretourneerd. Om de wijziging aan te geven boekt u één wijzigingsgebeurtenis voor het product *T-shirt*. Met deze gebeurtenis wordt de hoeveelheid van het product *T-shirt* verhoogd met 1.
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
+    "id": "Test201",
+    "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "posMachineId": "0001",
         "colorId": "red"
     },
@@ -240,12 +251,12 @@ In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofd
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
-    "productId": "iv_postman_product",
+    "id": "Test202",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "colorId": "red"
     },
     "quantities": {
@@ -258,7 +269,14 @@ In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofd
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Meerdere wijzigingsgebeurtenissen maken
 
-Met deze API kunnen meerdere records tegelijkertijd worden gemaakt. De enige verschillen tussen deze API en de [API met één gebeurtenis](#create-one-onhand-change-event) zijn de waarden `Path` en `Body`. Voor deze API biedt `Body` een matrix van records. Het maximum aantal records is 512, wat betekent dat de bulk-API voor wijziging van de voorhanden hoeveelheden tot 512 wijzigingsgebeurtenissen tegelijk kan ondersteunen.
+Met deze API kunnen wijzigingsgebeurtenissen worden gemaakt, net als bij de [API voor één gebeurtenis](#create-one-onhand-change-event). Het enige verschil is dat met deze API meerdere records tegelijkertijd kunnen worden gemaakt. Daarom verschillen de waarden van `Path` en `Body`. Voor deze API biedt `Body` een matrix van records. Het maximum aantal records is 512. Daarom kan de bulk-API voor wijzigingen in de voorhanden hoeveelheid maximaal 512 wijzigingsgebeurtenissen per keer ondersteunen. 
+
+Een POS-apparaat voor de detailhandel verwerkt bijvoorbeeld de volgende twee transacties:
+
+- Eén retourorder van één rood t-shirt
+- Eén verkooptransactie van drie zwarte t-shirts
+
+In dit geval kunt u beide voorraadupdates opnemen in één API-aanroep.
 
 ```txt
 Path:
@@ -295,26 +313,27 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_1",
+        "id": "Test203",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "posSite1",
-            "posLocationId": "posLocation1",
+            "SiteId": "Site1",
+            "LocationId": "11",
             "posMachineId&quot;: &quot;0001"
+            "colorId&quot;: &quot;red"
         },
         "quantities": {
             "pos": { "inbound": 1 }
         }
     },
     {
-        "id": "654321",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_2",
+        "id": "Test204",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensions": {
-            "siteId": "iv_postman_site",
-            "locationId": "iv_postman_location",
+            "siteId": "1",
+            "locationId": "11",
             "colorId&quot;: &quot;black"
         },
         "quantities": {
@@ -326,7 +345,7 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 
 ## <a name="setoverride-on-hand-quantities"></a><a name="set-onhand-quantities"></a>Voorhanden hoeveelheden instellen/overschrijven
 
-Met de API _Voorhanden set_ worden de huidige gegevens voor het opgegeven product overschreven.
+Met de API *Voorhanden set* worden de huidige gegevens voor het opgegeven product overschreven. Deze functionaliteit wordt meestal gebruikt om voorraadtellingsupdates uit te voeren. Tijdens de dagelijkse voorraadtelling van een winkel wordt bijvoorbeeld vastgesteld dat de werkelijke voorraad voor een rood t-shirt 100 is. Daarom moet de inkomende POS-hoeveelheid worden bijgewerkt naar 100, ongeacht wat de vorige hoeveelheid was. Gebruik deze API om de bestaande waarde te overschrijven.
 
 ```txt
 Path:
@@ -364,18 +383,19 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
+        "id": "Test204",
+        "organizationId": "usmf",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "iv_postman_site",
-            "posLocationId": "iv_postman_location",
+            "SiteId": "1",
+            "LocationId": "11",
             "posMachineId": "0001"
+            "colorId": "red"
         },
         "quantities": {
             "pos": {
-                "inbound": 1
+                "inbound": 100
             }
         }
     }
@@ -384,7 +404,7 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 
 ## <a name="create-reservation-events"></a>Reserveringsgebeurtenissen maken
 
-Als u de *Reserve*-API wilt gebruiken, moet u de reserveringsfunctie inschakelen en de reserveringsconfiguratie voltooien. Zie [Reserveringscofiguratie (optioneel)](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie.
+Als u de *Reserve*-API wilt gebruiken, moet u de reserveringsfunctie inschakelen en de reserveringsconfiguratie voltooien. Zie [Reserveringsconfiguratie (optioneel)](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie (inclusief een gegevensstroom en voorbeeldscenario).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Eén reserveringsgebeurtenis maken
 
@@ -392,7 +412,7 @@ Er kan een reservering worden gemaakt met verschillende instellingen voor de geg
 
 Wanneer u de reserverings-API aanroept, kunt u de reserveringsvalidatie beheren door de booleaanse parameter `ifCheckAvailForReserv` op te geven in de aanvraagbody. De waarde `True` betekent dat de validatie is vereist, terwijl de waarde `False` betekent dat de validatie niet is vereist. De standaardwaarde is `True`.
 
-Als u een reservering wilt terugdraaien of de reservering van opgegeven voorraadhoeveelheden wilt verwijderen, stelt u de hoeveelheid in op een negatieve waarde en stelt u de parameter `ifCheckAvailForReserv` in op `False` om de validatie over te slaan. U kunt dit ook doen met een speciale API voor het opheffen van de reservering. Het verschil is alleen de manier waarop de twee API's worden aangeroepen. U kunt een specifieke reserveringsgebeurtenis eenvoudiger terugdraaien door gebruik te maken van `reservationId` met de *unreserve* API. Raadpleeg het gedeelte [_Eén reserveringsgebeurtenis terugdraaien_](#reverse-reservation-events) voor meer informatie.
+Als u een reservering wilt terugdraaien of de reservering van opgegeven voorraadhoeveelheden wilt verwijderen, stelt u de hoeveelheid in op een negatieve waarde en stelt u de parameter `ifCheckAvailForReserv` in op `False` om de validatie over te slaan. U kunt dit ook doen met een speciale API voor het opheffen van de reservering. Het verschil is alleen de manier waarop de twee API's worden aangeroepen. U kunt een specifieke reserveringsgebeurtenis eenvoudiger terugdraaien door gebruik te maken van `reservationId` met de *unreserve* API. Raadpleeg het gedeelte [Eén reserveringsgebeurtenis terugdraaien](#reverse-reservation-events) voor meer informatie.
 
 ```txt
 Path:
@@ -593,7 +613,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Voorhanden query
 
-Gebruik de API *Voorhanden query* om huidige voorhanden voorraadgegevens voor uw producten op te halen. De API ondersteunt momenteel query's met maximaal 5000 afzonderlijke artikelen per `productID`-waarde. Ook kunnen in elke query meerdere `siteID`- en `locationID`-waarden worden opgegeven. De maximumlimiet wordt met de volgende vergelijking gedefinieerd:
+Gebruik de API *Voorhanden query* om huidige voorhanden voorraadgegevens voor uw producten op te halen. U kunt deze API gebruiken wanneer u op de hoogte moet zijn van de voorraad, bijvoorbeeld wanneer u de productvoorraadniveaus op uw e-commercewebsite wilt bekijken, of wanneer u de beschikbaarheid van producten in regio's of in winkels en magazijnen in de buurt wilt controleren. De API ondersteunt momenteel query's met maximaal 5000 afzonderlijke artikelen per `productID`-waarde. Ook kunnen in elke query meerdere `siteID`- en `locationID`-waarden worden opgegeven. De maximumlimiet wordt met de volgende vergelijking gedefinieerd:
 
 *NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
@@ -637,16 +657,16 @@ De parameter `returnNegative` bepaalt of de resultaten negatieve vermeldingen be
 > [!NOTE]
 > Als u de functies voor planning van wijzigingen in voorhanden voorraad en available to promise (ATP) hebt ingeschakeld, kan uw query ook de booleaanse parameter `QueryATP` bevatten, waarmee wordt bepaald of de queryresultaten ATP-informatie bevatten. Zie [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie en voorbeelden.
 
-In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven.
+In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven. Hier ziet u dat u een query kunt uitvoeren op de voorhanden voorraad vanuit meerdere locaties (magazijnen).
 
 ```json
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["SCM_IV"],
-        "productId": ["iv_postman_product"],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "organizationId": ["usmf"],
+        "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "locationId": ["11","12","13"],
         "colorId": ["red"]
     },
     "groupByValues": ["colorId", "sizeId"],
@@ -659,10 +679,10 @@ Het volgende voorbeeld laat zien hoe u een query uitvoert op een specifieke site
 ```json
 {
     "filters": {
-        "organizationId": ["SCM_IV"],
+        "organizationId": ["usmf"],
         "productId": [],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "siteId": ["1"],
+        "locationId": ["11"],
     },
     "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
@@ -692,6 +712,22 @@ Hier is een voorbeeld van een get-URL. Deze get-aanvraag is exact hetzelfde als 
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
+
+## <a name="on-hand-exact-query"></a><a name="exact-query-with-post-method"></a>Query voor exacte voorhanden voorraad
+
+Query's voor de exacte voorhanden voorraad lijkt op de normale query's voor voorhand voorraad, maar u kunt hiermee een toewijzingshiërarchie opgeven tussen een site en een locatie. Stel dat u de volgende twee sites hebt:
+
+- Site 1, die is gekoppeld aan locatie A
+- Site 2, die is gekoppeld aan locatie B
+
+Als u voor een normale query voor de voorraad `"siteId": ["1","2"]` en `"locationId": ["A","B"]` opgeeft, wordt bij de volgende sites en locaties automatisch een query uitgevoerd door Voorraadzichtbaarheid:
+
+- Site 1, locatie A
+- Site 1, locatie B
+- Site 2, locatie A
+- Site 2, locatie B
+
+Zoals u ziet, herkent de reguliere query niet dat locatie A alleen in site 1 bestaat en locatie B alleen in site 2. Daarom worden overbodige query's gemaakt. Voor deze hiërarchische toewijzing kunt u een exacte query voor voorhanden voorraad gebruiken en de locatietoewijzingen opgeven in de querytekst. In dit geval ontvangt u alleen resultaten voor site 1, locatie A en site 2, locatie B.
 
 ### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>Een exacte query uitvoeren met de post-methode
 

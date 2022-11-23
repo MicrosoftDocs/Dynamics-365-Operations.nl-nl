@@ -2,24 +2,24 @@
 title: Een bankrekening afstemmen
 description: In dit artikel wordt beschreven hoe u een bankrekening afstemt.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151246"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779522"
 ---
 # <a name="reconcile-a-bank-account"></a>Een bankrekening afstemmen
 
@@ -29,27 +29,27 @@ Wanneer een bankafschrift ontvangt, moet u de banktransacties van de rechtsperso
 
 U kunt een rekeningafschrift niet afstemmen op een bankrekening als een van de cheques of stortingsbewijzen die op het afschrift staan vermeld op dit moment de status **In afwachting van annulering** heeft. Nadat een controleur een cheque heeft geboekt of de intrekking van een cheque of stortingsbewijs heeft geweigerd, is de status niet meer **In afwachting van annulering** en kunt u de bankrekening afstemmen.
 
-1.  Ga naar **Contanten en bankbeheer** \> **Bankrekeningen** \> **Bankrekeningen**. Selecteer de bankrekening die u wilt afstemmen met het bankafschrift en selecteer **Afstemmen** > **Rekening afstemmen**.
+1. Ga naar **Contanten en bankbeheer** \> **Bankrekeningen** \> **Bankrekeningen**. Selecteer de bankrekening die u wilt afstemmen met het bankafschrift en selecteer **Afstemmen** > **Rekening afstemmen**.
 
-2.  Voer gegevens in de velden **Datum bankafschrift** en **Bankafschrift** in. In het veld **Eindsaldo** voert u het saldo in van de bankrekening zoals dit wordt vermeld op het afschrift.
+2. Voer gegevens in de velden **Datum bankafschrift** en **Bankafschrift** in. In het veld **Eindsaldo** voert u het saldo in van de bankrekening zoals dit wordt vermeld op het afschrift.
 
-3.  Selecteer **Transacties** om de pagina **Rekeningafstemming** te openen.
+3. Selecteer **Transacties** om de pagina **Rekeningafstemming** te openen.
 
-4.  Voor elke transactie die wordt opgenomen op het bankafschrift schakelt u het selectievakje **Verrekend** in, als het bedrag in Dynamics 365 Finance overeenkomt met het bedrag op het bankafschrift. U kunt ook de waarde in het veld **Banktransactietype** invoeren of wijzigen. Deze veldwaarde is belangrijk voor de banktransactiestatistieken en voor een aantal rapporten.
+4. Voor elke transactie die wordt opgenomen op het bankafschrift schakelt u het selectievakje **Verrekend** in, als het bedrag in Dynamics 365 Finance overeenkomt met het bedrag op het bankafschrift. U kunt ook de waarde in het veld **Banktransactietype** invoeren of wijzigen. Deze veldwaarde is belangrijk voor de banktransactiestatistieken en voor een aantal rapporten.
     
 
-    > [!NOTE]
-    > <P>Schakel het selectievakje <STRONG>Verrekend</STRONG> niet in voor transacties die niet worden vermeld op het bankafschrift. Deze transacties verdwijnen pas van deze pagina als ze zijn afgestemd op een toekomstig bankafschrift.</P>
-    > <P>Het selectievakje <STRONG>Verrekend</STRONG> is niet beschikbaar als de transactie de status <STRONG>In afwachting van annulering</STRONG> heeft. Transacties kunnen deze status krijgen als Finance zo is ingesteld dat omkeringen of annuleringen ter controle moeten worden verzonden voordat deze worden geboekt. Nadat een controleur de intrekking of annulering heeft geboekt of afgewezen, is de status niet meer <STRONG>In afwachting van annulering</STRONG> en kunt u de bankrekening afstemmen met het afschrift.</P>
+>[!NOTE]
+>Schakel het selectievakje **Verrekend** niet in voor transacties die niet worden vermeld op het bankafschrift. Deze transacties verdwijnen pas van deze pagina als ze zijn afgestemd op een toekomstig bankafschrift.
+>Het selectievakje **Verrekend** is niet beschikbaar als de transactie de status **In afwachting van annulering** heeft. Transacties kunnen deze status krijgen als Finance zo is ingesteld dat omkeringen of annuleringen ter controle moeten worden verzonden voordat deze worden geboekt. Nadat een controleur de intrekking of annulering heeft geboekt of afgewezen, is de status niet meer **In afwachting van annulering** en kunt u de bankrekening afstemmen met het afschrift.
 
-    
-    Om het selectievakje **Verrekend** in te schakelen voor een interval van cheques die allemaal op het bankafschrift worden vermeld, klikt u op **Cheque-interval markeren** en geeft u het interval op.
+
+Om het selectievakje **Verrekend** in te schakelen voor een interval van cheques die allemaal op het bankafschrift worden vermeld, klikt u op **Cheque-interval markeren** en geeft u het interval op.
 
 5.  Als het bedrag voor een bankrekeningtransactie niet overeenkomt met het bedrag voor de transactie op het bankafschrift, voert u het bedrag van de correctie in het veld **Correctiebedrag** in.
     
 
-    > [!NOTE]
-    > <P>Als de boekperiode van de te corrigeren transactie is afgesloten, kunt u het veld <STRONG>Correctiebedrag</STRONG> niet gebruiken. In plaats daarvan maakt u een regel met een transactiedatum die in een open boekperiode valt voor de correctie. In dit geval moet u de financiële dimensies toevoegen die zijn gebruikt op de oorspronkelijke transactie evenals de hoofdtegenrekening.</P>
+> [!NOTE]
+> Als de boekperiode van de te corrigeren transactie is afgesloten, kunt u het veld **Correctiebedrag** niet gebruiken. In plaats daarvan maakt u een regel met een transactiedatum die in een open boekperiode valt voor de correctie. In dit geval moet u de financiële dimensies toevoegen die zijn gebruikt op de oorspronkelijke transactie evenals de hoofdtegenrekening.
 
 
 

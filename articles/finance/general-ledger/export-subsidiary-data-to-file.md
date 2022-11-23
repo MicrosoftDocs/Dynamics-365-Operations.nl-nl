@@ -2,23 +2,23 @@
 title: Gegevens van de dochtermaatschappij exporteren naar bestanden
 description: In dit artikel wordt uitgelegd hoe u de exportgegevens van Microsoft Microsoft Dynamics 365 Finance voorbereidt en deze vervolgens in een geconsolideerde rechtspersoon importeert.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876148"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779956"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Gegevens van de dochtermaatschappij exporteren naar bestanden
 
@@ -32,14 +32,14 @@ U gebruikt te pagina **Exporteren** (**Systeembeheer \> Werkruimten \> Importere
 
     | Veld                             | Beschrijving |
     |-----------------------------------|-------|
-    | Hoofdrekening                      | Geef op welke rekeningen moeten worden geconsolideerd. Als u alle rekeningen wilt meenemen, laat u dit veld leeg. |
-    | Consolidatierekening gebruiken         | Als u consolidatierekeningen hebt opgegeven, stelt u deze optie in op **Ja**. |
-    | Consolidatierekening selecteren in | Selecteer **Hoofdrekening** of **Consolidatierekeninggroep**. |
-    | Consolidatierekeninggroep       | Selecteer een groep consolidatierekeningen voor de consolidatierekening die u hebt geselecteerd. |
-    | Consolidatieperiode              | Geef datums "van" en "tot" voor de consolidatie op. |
-    | Werkelijke bedragen opnemen            | Stel deze optie in op **Ja** om werkelijke bedragen op te nemen. |
-    | Budgetbedragen opnemen            | Stel deze optie in op **Ja** als u budgetbedragen wilt opnemen in consolidaties. |
-    | Budgetmodellen                     | Geef het budgetmodel op dat u wilt opnemen. |
+    | **Hoofdrekening**                      | Geef op welke rekeningen moeten worden geconsolideerd. Als u alle rekeningen wilt meenemen, laat u dit veld leeg. |
+    | **Consolidatierekening gebruiken**         | Als u consolidatierekeningen hebt opgegeven, stelt u deze optie in op **Ja**. |
+    | **Consolidatierekening selecteren in** | Selecteer **Hoofdrekening** of **Consolidatierekeninggroep**. |
+    | **Consolidatierekeninggroep**       | Selecteer een groep consolidatierekeningen voor de consolidatierekening die u hebt geselecteerd. |
+    | **Consolidatieperiode**              | Geef datums "van" en "tot" voor de consolidatie op. |
+    | **Werkelijke bedragen opnemen**            | Stel deze optie in op **Ja** om werkelijke bedragen op te nemen. |
+    | **Budgetbedragen opnemen**            | Stel deze optie in op **Ja** als u budgetbedragen wilt opnemen in consolidaties. |
+    | **Budgetmodellen**                     | Geef het budgetmodel op dat u wilt opnemen. |
 
 3. Geef op het tabblad **Financiële dimensies** de details van de consolidatie op:
 

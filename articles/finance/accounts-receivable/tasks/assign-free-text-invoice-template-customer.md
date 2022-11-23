@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e8330e26f1450dac27bb837bb56f8bbffefc9bc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 49074c11659ae30fd2decdb93b4721441edff2c5
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712197"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780473"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Een sjabloon voor vrije-tekstfacturen toewijzen aan een klant
 
@@ -36,15 +36,16 @@ Deze taak geeft aan hoe u een sjabloon voor een vrije-tekstfactuur kunt toewijze
 8. Klik in de lijst op de koppeling in de geselecteerde rij.
 9. Voer in het veld **Begindatum facturering** de datum in waarop de eerste factuur wordt gegenereerd.
 10. Voer in de sectie **Einde terugkeerpatroon** een terugkerende einddatum in.  
-    * Selecteer een van de volgende: Geen einddatum: er worden voor onbepaalde tijd facturen gegenereerd totdat de sjabloon wordt verwijderd van de klantrekening.
-    * Einddatum facturering: selecteer deze optie en voor de laatste datum in waarop de factor kan worden gegenereerd.  
+    Selecteer een van de volgende: 
+    - **Geen einddatum**: er worden voor onbepaalde tijd facturen gegenereerd totdat de sjabloon wordt verwijderd van de klantrekening.
+    - **Einddatum facturering**: selecteer deze optie en voor de laatste datum in waarop de factor kan worden gegenereerd.  
 11. Voer in het veld **Maximum cumulatief bedrag** het maximale cumulatieve bedrag in waarna het genereren van facturen wordt gestopt. Het maximale cumulatieve bedrag invoeren dat kan worden gefactureerd op basis van de geselecteerde sjabloon. Als u bijvoorbeeld 1000.00 invoert en maandelijkse facturen genereert voor 100,00, stopt het genereren van facturen na de tiende factuur.  
 12. Selecteer in de sectie **Terugkerende facturen genereren door de standaardwaarden te gebruiken uit** de sjabloon voor vrije-tekstfacturen of de klantrekening. Opgeven of de sjabloon voor vrije-tekstfacturen of de klantrekening moet worden gebruikt om de standaardwaarden te bepalen voor taal, boekingsprofiel, btw-groep, btw-groep voor artikelen, lijstcode, land/regio voor levering, valuta, betalingsvoorwaarden, betalingsmethode, betalingsspecificatie, betalingsschema, contantkorting, financiële dimensies en giro-overboekingsstrook bij het maken van facturen.  
 13. Selecteer het terugkeerpatroon in het veld **Terugkeerpatroon**.
-    + Dagelijks: selecteer deze optie en geef het aantal dagen op in het veld Per. Als u bijvoorbeeld 15 invoert, wordt elke vijftien dagen een factuur gegenereerd voor deze klant.
-    + Wekelijks: selecteer deze optie en geef het aantal weken op in het veld Per. Als u bijvoorbeeld 2 invoert, wordt elke twee weken een factuur gegenereerd voor deze klant.
-    + Maandelijks: selecteer deze optie en geef het aantal maanden op in het veld Per. Als u bijvoorbeeld 6 invoert, wordt elke zes maanden een factuur gegenereerd voor deze klant.
-    + Jaar: selecteer deze optie en geef het aantal jaren op in het veld Per. Als u bijvoorbeeld 2 invoert, wordt elke twee jaar een factuur gegenereerd voor deze klant.  
+    - **Dagelijks**: selecteer deze optie en geef het aantal dagen op in het veld Per. Als u bijvoorbeeld 15 invoert, wordt elke vijftien dagen een factuur gegenereerd voor deze klant.
+    - **Wekelijks**: selecteer deze optie en geef het aantal weken op in het veld Per. Als u bijvoorbeeld 2 invoert, wordt elke twee weken een factuur gegenereerd voor deze klant.
+    - **Maandelijks**: selecteer deze optie en geef het aantal maanden op in het veld Per. Als u bijvoorbeeld 6 invoert, wordt elke zes maanden een factuur gegenereerd voor deze klant.
+    - **Jaarlijks**: selecteer deze optie en geef het aantal jaren op in het veld Per. Als u bijvoorbeeld 2 invoert, wordt elke twee jaar een factuur gegenereerd voor deze klant.  
 14. Voer een getal in het veld **Per** in.
 
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262293"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785094"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
@@ -51,7 +51,7 @@ Als onderdeel van de inzet van het [One Dynamics One-platform](/dynamics365-rele
 | Serviceaanvragen | Nr. | Ja | Ja: [Self-service implementaties](../deployment/infrastructure-stack.md) |
 | Integratie van SharePoint | Ja | Ja | Nr. |
 | Configuratie- en gegevensbeheer | Nr. | Ja | Nr. |
-| Procesgegevenspakketten | Nr. | Ja | Ja: Raamwerk voor gegevensimport/-export (DIXF) |
+| Procesgegevenspakketten | Nr. | Ja | Ja: [Raamwerk voor gegevensimport/-export (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | Upgrade van de omgeving | Nr. | Ja | Ja: Er zijn service-updates voor [One Version](../lifecycle-services/oneversion-overview.md) beschikbaar. |
 | Schatting infrastructuur | Ja | Nr. | Nr. |
 | Licentieomvang | Ja | Nr. | Nr. |
@@ -71,10 +71,10 @@ Als onderdeel van de inzet van het [One Dynamics One-platform](/dynamics365-rele
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | We verwijderen de volgende lijst met suites met coderingsmethoden om te voldoen aan onze huidige beveiligingsprotocollen.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Vervangen door een andere functie?**   | Vanaf 30 november 2022 kunnen klanten alleen onze [standaardsuites met coderingsmethoden](/power-platform/admin/server-cipher-tls-requirements) gebruiken. Deze wijziging is van invloed op uw clients en servers die met onze servers communiceren, en kan bijvoorbeeld van invloed zijn op integraties van externe partijen die zich niet houden aan onze standaardsuites met coderingsmethoden. |
+| **Vervangen door een andere functie?**   | Vanaf 31 januari 2023 kunnen klanten alleen onze [standaardsuites met coderingsmethoden](/power-platform/admin/server-cipher-tls-requirements) gebruiken. Deze wijziging is van invloed op uw clients en servers die met onze servers communiceren, en kan bijvoorbeeld van invloed zijn op integraties van externe partijen die zich niet houden aan onze standaardsuites met coderingsmethoden. |
 | **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten |
 | **Implementatieoptie**              | Cloudimplementaties |
-| **Status**                         | Afgeschaft. Klanten moeten hun servers vóór 30 november 2022 upgraden. Raadpleeg [Beveiliging van transportlaag (TLS) beheren](/windows-server/security/tls/manage-tls) voor meer informatie over het configureren van de volgorde van TLS Cipher Suite.  |
+| **Status**                         | Afgeschaft. Klanten moeten hun servers vóór 31 januari 2023 upgraden. Raadpleeg [Beveiliging van transportlaag (TLS) beheren](/windows-server/security/tls/manage-tls) voor meer informatie over het configureren van de volgorde van TLS Cipher Suite.  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Afschaffing van functie met ingang van juni 2022

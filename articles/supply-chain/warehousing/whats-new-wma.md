@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702190"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764234"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit artikel worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Versie 2.0.37.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+- Er is een gebruikersinstelling toegevoegd waarmee werknemers kunnen kiezen waar het product in de app wordt weergegeven (in kaarten en kopteksten van stappen, alleen in kopteksten van stappen of helemaal niet). 
+- De indeling van het detailkaartscherm is verbeterd door de grootte van de stappenbanner en invoerhoeveelheid te verkleinen, waardoor er meer ruimte over is voor andere inhoud. 
+- De gebruikersinterface is verbeterd tijdens het uitvoeren op een Honeywell Thor-apparaat. 
+- De modus op volledig scherm is verbeterd (alleen van toepassing op apparaten met een hardwaretoetsenbord). 
+- Verbeterde resultaten bij het sorteren van detailkaarten en aangepaste pagina's op prioriteit of subprioriteit (DataPriority of DisplaySubPriority). 
+- Extra ondersteuning voor meer talen. 
+- Verbeterde stabiliteit. 
+- Verschillende afbeeldingen en pictogrammen zijn verbeterd. 
 
 ## <a name="version-20350"></a>Versie 2.0.35.0
 
