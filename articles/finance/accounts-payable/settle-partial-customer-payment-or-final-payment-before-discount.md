@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
-ms.openlocfilehash: ee11647f6f700042e11133181de919e13f16c018
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: a8da366b1e770ea649603ae85d4acc5e377ed9fb
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715959"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780461"
 ---
 # <a name="settle-partial-and-final-payments-in-full-before-the-discount-date"></a>Gedeeltelijke en definitieve betalingen volledig vereffenen vóór de kortingsdatum
 
@@ -35,20 +35,20 @@ Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 402
 
 | Boekstuk   | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo  | Valuta |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10010 | Factuur          | 6/25/2015 | 10010   | 1.000,00                             |                                       | 1.000,00 | USD      |
+| FTI-10010 | Factuur          | 6/25/2020 | 10010   | 1,000.00                             |                                       | 1,000.00 | USD      |
 
 Op de pagina **Klant** of **Klanttransacties** kan Arnie de pagina **Transacties vereffenen** openen om de data en bedragen van contantkortingen te bekijken die voor de factuur beschikbaar zijn. De vervaldatum is 25 juli en een contantkorting van 10,00 is beschikbaar als de factuur voor 9 juli wordt betaald.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2015 | 25/7/2015 | 10010   | 1.000,00                       | USD      | 990,00           |
+| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 990.00           |
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven voor de gemarkeerde factuur.
 
 |    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | 10,00     |
+| Datum voor contantkorting           | 7/09/2020 |
+| Contantkortingsbedrag         | 10.00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 10,00     |
@@ -57,8 +57,8 @@ Arnie klikt op het tabblad **Contantkorting** om het kortingsbedrag te bekijken.
 
 | Datum van contantkorting | Contantkortingsbedrag | Bedrag in transactievaluta |
 |--------------------|----------------------|--------------------------------|
-| 7/9/2015           | 10,00                | 990,00                         |
-| 25/7/2015          | 0,00                 | 1.000,00                       |
+| 7/9/2020           | 10.00                | 990.00                         |
+| 7/25/2020          | 0,00                 | 1,000.00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Gedeeltelijke betaling via de pagina Klantbetalingen invoeren
 Klant 4028 verzendt op 1 juli een betaling van 500,00. Om deze betaling in te voeren, klikt Arnie niet op **Regels**. Arnie registreert de betaling door een nieuw betalingsjournaal te maken en vervolgens de pagina **Klantbetalingen invoeren** te openen. Arnie voert de betalingsgegevens in en markeert de factuur die hij ingevoerd heeft. Wanneer Arnie **500,00** invoert als het bedrag, voert hij ook **500,00** in het veld **Te betalen bedrag** in het raster in. Omdat Fabrikam een contantkorting op gedeeltelijke betalingen toestaat, ziet Arnie dat een gedeeltelijke contantkorting van 5,05 ook wordt uitgevoerd. De berekening van deze korting is 500,00 ÷ 0,99 × 0,01 = 5,05. (In deze berekening wordt 500,00 gedeeld door 0,99, aangezien er een korting van 1 procent is. Daarom betaalt de klant 99 procent van de factuur. Het resultaat wordt vervolgens vermenigvuldigd met het kortingspercentage van 1 procent of 0,01. Als de klant de volledige korting van 10,00 neemt, is het bedrag dat moet worden vereffend 990,00. De kortinggegevens worden weergegeven in het raster onder aan de pagina **Klantbetalingen invoeren**.
@@ -72,14 +72,14 @@ In plaats van in het betalingsjournaal de pagina **Klantbetalingen invoeren** te
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2015 | 25/7/2015 | 10010   | 1.000,00                       | USD      | 500,00           |
+| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 500.00           |
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
 |        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | 10,00     |
+| Datum voor contantkorting           | 7/09/2020 |
+| Contantkortingsbedrag         | 10.00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 5,05      |
@@ -88,14 +88,14 @@ Als de klant precies de helft van de factuur wil vereffenen, doet de klant een b
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2015 | 25/7/2015 | 10010   | 1.000,00                       | USD      | 495,00           |
+| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 495,00           |
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
 |     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | 10,00     |
+| Datum voor contantkorting           | 7/09/2020 |
+| Contantkortingsbedrag         | 10.00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 5,00      |
@@ -104,9 +104,9 @@ Arnie sluit de pagina **Transacties vereffenen**. Een betalingsregel voor 495,00
 
 | Boekstuk    | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10010  | Factuur          | 6/25/2015 | 10010   | 1.000,00                             |                                       | 500,00  | USD      |
-| ARP-10010  |  Betaling         | 01-07-2015  |         |                                      | 495,00                                | 0,00    | USD      |
-| DISC-10010 |  Contantkorting   | 01-07-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+| FTI-10010  | Factuur          | 6/25/2020 | 10010   | 1,000.00                             |                                       | 500.00  | USD      |
+| ARP-10010  |  Betaling         | 1-7-2020  |         |                                      | 495,00                                | 0,00    | USD      |
+| DISC-10010 |  Contantkorting   | 1-7-2020  |         |                                      | 5.00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Betaling voor het resterende bedrag
 Klant 4028 betaalt de rest van het bedrag van 495,00 op 8 juli, wat binnen de periode van de contantkorting valt. Arnie maakt op 8 juli het betalingsjournaal en markeert de transactie voor vereffening. Arnie ziet dat het bedrag dat moet worden vereffend 495,00 is. De waarde in het veld **Geraamde contantkorting** is **5,00**, omdat de korting van 5,00 eerder is toegepast.
@@ -120,14 +120,14 @@ Informatie over de gemarkeerde transactieregel wordt weergegeven in het raster o
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2015 | 25/7/2015 | 10010   | 1.000,00                       | USD      | 495,00           |
+| Geselecteerd | Normaal            | FTI-10010 | 4028    | 6/25/2020 | 7/25/2020 | 10010   | 1,000.00                       | USD      | 495,00           |
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
 |  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | 10,00     |
+| Datum voor contantkorting           | 7/09/2020 |
+| Contantkortingsbedrag         | 10.00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 5,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 5,00      |
@@ -136,11 +136,11 @@ Arnie boekt dit journaal en controleert de klanttransacties op de pagina **Klant
 
 | Boekstuk    | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
-| FTI-10010  | Factuur          | 6/25/2015 | 10010   | 1.000,00                             |                                       | 0,00    | USD      |
-| ARP-10010  | Betaling          | 01-07-2015  |         |                                      | 495,00                                | 0,00    | USD      |
-| DISC-10010 | Contantkorting    | 01-07-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
-| ARP-10011  | Betaling          | 8-7-2015  |         |                                      | 495,00                                | 0,00    | USD      |
-| DISC-10011 | Contantkorting    | 8-7-2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+| FTI-10010  | Factuur          | 6/25/2020 | 10010   | 1,000.00                             |                                       | 0,00    | USD      |
+| ARP-10010  | Betaling          | 1-7-2020  |         |                                      | 495,00                                | 0,00    | USD      |
+| DISC-10010 | Contantkorting    | 1-7-2020  |         |                                      | 5.00                                  | 0,00    | USD      |
+| ARP-10011  | Betaling          | 7/8/2020  |         |                                      | 495,00                                | 0,00    | USD      |
+| DISC-10011 | Contantkorting    | 7/8/2020  |         |                                      | 5.00                                  | 0,00    | USD      |
 
 
 

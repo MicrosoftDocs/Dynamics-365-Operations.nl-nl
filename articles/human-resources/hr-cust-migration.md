@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63b08a8493702cf319aa078ef6aa787e2094be87
-ms.sourcegitcommit: 088a7b5eb9a3b68710dfe012abf4c24776978750
+ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
+ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/01/2022
-ms.locfileid: "9733442"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9760357"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources-klantmigratie
 
@@ -38,13 +38,12 @@ Klantmigratie is een lift-and-shift-migratie (verplaatsing) van een klantendatab
 
 ### <a name="dataverse-environment-backup-sandbox"></a>Back-up van Dataverse-omgeving (sandbox)
 
-1. Optioneel maar aan te raden: vernieuwe de bestaande sandbox-omgeving voor Human Resources door een kopie van de productieomgeving voor Human Resources te gebruiken.
-2. [Maak een nieuwe Dataverse-omgeving](/power-platform/admin/create-environment#create-an-environment-with-a-database) met het Power Platform-beheercentrum.
+ - Optioneel maar aan te raden: vernieuwe de bestaande sandbox-omgeving voor Human Resources door een kopie van de productieomgeving voor Human Resources te gebruiken.
+ - Maak een nieuwe Dataverse-omgeving met het Power Platform-beheercentrum.
+ - Kopieer de bestaande Dataverse-omgeving, die aan de zelfstandige Human Resources-app is gekoppeld, naar de omgeving die u in de vorige stap hebt gemaakt.
 
-    > [!NOTE]
-    > Wanneer u een database toevoegt, moet u ervoor zorgen dat de optie **Dynamics 365-apps inschakelen** is ingesteld op **Ja**.
-
-3. [Kopieer de bestaande Dataverse-omgeving](/power-platform/admin/copy-environment), die aan de zelfstandige Human Resources-app is gekoppeld, naar de omgeving die u in de vorige stap hebt gemaakt.
+> [!NOTE]
+> Wanneer u een database toevoegt, moet u ervoor zorgen dat de optie **Dynamics 365-apps inschakelen** is ingesteld op **Ja**. Zie [Een Power Platform-omgeving voorbereiden](hr-cust-migration.md#prepare-a-power-platform-environment) voor gedetailleerde informatie
 
 ### <a name="dataverse-capacity"></a>Dataverse-capaciteit
 
@@ -89,9 +88,9 @@ Nadat een nieuw Lifecycle Services-project is gemaakt en het onboardingproces vo
 #### <a name="prepare-a-power-platform-environment"></a>Een Power Platform-omgeving voorbereiden
 
 > [!NOTE]
-> Deze stap is alleen van toepassing op migratie van de sandbox-omgeving. Wanneer u de productieomgeving migreert, wordt de bestaande Power Platform-beheercentrumomgeving die aan de productieomgeving is gekoppeld, verplaatst.
+> Deze stap is alleen van toepassing op migratie van de sandbox-omgeving. Wanneer u de productieomgeving migreert, wordt de bestaande Power Platform-beheercentrumomgeving die aan de productieomgeving is gekoppeld, verplaatst. Wanneer u een database toevoegt, moet u ervoor zorgen dat de knop **Dynamics 365-apps inschakelen** is ingesteld op **Ja**. 
 
-- Maak in het Power Platform-beheercentrum [een Power Platform-omgeving](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center) om te gebruiken voor de sandbox-migratie of selecteer een bestaande omgeving.
+- Maak in het Power Platform-beheercentrum [een omgeving met een database](/power-platform/admin/create-environment#create-an-environment-with-a-database) om te gebruiken voor de sandbox-migratie of selecteer een bestaande omgeving.
 - [Kopieer een omgeving](/power-platform/admin/copy-environment) om de Power Platform-omgeving te vernieuwen die voor toewijzing wordt gebruikt.
 
 #### <a name="migrate-the-sandbox-environment"></a>De sandbox-omgeving migreren
