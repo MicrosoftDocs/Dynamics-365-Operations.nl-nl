@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 674adb70cc4372a8c5ca8c75ed3ef840d8ec7b79
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520859"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762695"
 ---
 # <a name="use-the-inventory-visibility-app"></a>De app Inventory Visibility gebruiken
 
@@ -30,44 +30,73 @@ Voorraadzichtbaarheid biedt een modelgestuurde app voor visualisatie. De app bev
 - De app ondersteunt voorhanden voorraadquery's in realtime voor diverse dimensiecombinaties.
 - De app biedt een gebruikersinterface voor het boeken van reserveringsaanvragen.
 - De app biedt een weergave van de voorhanden voorraad van producten, samen met alle dimensies.
-- De app biedt een weergave van de voorhanden voorraadlijst voor producten, samen met vooraf gedefinieerde dimensies.
-
+- De app biedt een weergave van de voorhanden voorraadlijst voor producten, samen met vooraf gedefinieerde dimensies. De lijstweergave voor voorhanden voorraad kan een volledig overzicht zijn of een vooraf geladen resultaat van een voorraadquery.
 
 ## <a name="prerequisites"></a>Vereisten
 
 Installeer voordat u begint eerst de invoegtoepassing Voorraadzichtbaarheid en stel de app in zoals beschreven in [Voorraadzichtbaarheid installeren en instellen](inventory-visibility-setup.md).
 
-## <a name="open-the-inventory-visibility-app"></a>De app Voorraadzichtbaarheid openen
+## <a name="open-and-authenticate-the-inventory-visibility-app"></a><a name="open-authenticate"></a>De app Voorraadzichtbaarheid openen en verifiëren
 
-Als u de app Voorraadzichtbaarheid wilt openen, meldt u zich aan bij uw Power Apps-omgeving en opent u **Voorraadzichtbaarheid**.
+Volg deze stappen om de app Voorraadzichtbaarheid te openen en te verifiëren.
 
-## <a name="configuration"></a><a name="configuration"></a>Configuratie
+1. Meld u aan bij uw Power Apps-omgeving.
+1. Open de app **Voorraadzichtbaarheid**.
+1. Open de pagina **Operationele zichtbaarheid** vanuit het linkerdeelvenster.
+1. Selecteer de knop **Instellingen** (tandwielpictogram) bovenaan de pagina.
+1. Voer in het dialoogvenster **Instellingen** de waarden **Client-id**, **Tenant-id** en **Clientgeheim** in die u hebt genoteerd bij [het installeren en instellen van Voorraadzichtbaarheid](inventory-visibility-setup.md).
+1. Selecteer de knop **Vernieuwen** naast het veld **Bearer-token**. Er wordt een nieuw bearer-token gegenereerd op basis van de informatie die u hebt ingevoerd.
 
-Op de pagina **Configuratie** van de app Voorraadzichtbaarheid kunt u de configuratie van voorhanden voorraad en zachte reservering instellen. Als u de invoegtoepassing hebt geïnstalleerd, bevat de standaardconfiguratie een standaardinstelling voor Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstelling controleren. Hierna kunt u op basis van uw bedrijfsbehoeften en de vereisten voor voorraadboekingen van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in de verschillende systemen.
+    ![Voorhanden query-instellingen.](media/inventory-visibility-query-settings.png "Voorhanden query-instellingen")
+
+1. Wanneer u een geldig bearer-token ontvangt, sluit u het dialoogvenster. Het bearer-token vervalt na een bepaalde tijd. Daarom moet u deze soms vernieuwen wanneer u de configuratie moet bijwerken, gegevens moet plaatsen of querygegevens moet uitvoeren.
+
+## <a name="configure-the-inventory-visibility-app"></a><a name="configuration"></a>De Voorraadzichtbaarheid-app configureren
+
+Op de pagina **Configuratie** van de app Voorraadzichtbaarheid kunt u de configuratie voor algemeen gegevensbeheer en functies instellen. Als u de invoegtoepassing hebt geïnstalleerd, bevat de standaardconfiguratie een standaardinstelling voor Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstelling controleren. Daarna kunt u op basis van uw bedrijfsbehoeften en de vereisten voor voorraadboekingen van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in de verschillende systemen.
 
 Zie [Voorraadzichtbaarheid configureren](inventory-visibility-configuration.md) voor de volledige informatie over het configureren van de oplossing.
 
 ## <a name="operational-visibility"></a>Operationele zichtbaarheid
 
-Op de pagina **Operationele zichtbaarheid** worden de resultaten van een realtime voorhanden voorraadquery weergegeven op basis van verschillende dimensiecombinaties. Wanneer de functie *OnHandReservion* is ingeschakeld, kunt u ook reserveringsaanvragen boeken vanaf de pagina **Operationele zichtbaarheid**.
+Op de pagina **Operationele zichtbaarheid** worden de resultaten van een realtime voorhanden voorraadquery, reserveringsboeking en toewijzing weergegeven op basis van verschillende dimensiecombinaties. Wanneer de functie *OnHandReservation* is [ingeschakeld](inventory-visibility-configuration.md), kunt u ook reserveringsaanvragen boeken vanaf de pagina **Operationele zichtbaarheid**.
 
 ### <a name="on-hand-query"></a>Voorhanden query
 
-Op het tabblad **Voorhanden query** worden de resultaten weergegeven van een realtime voorhanden voorraadquery.
+Op het tabblad **Query voorhanden** van de pagina **Operationele zichtbaarheid** kunt u een realtime voorhanden voorraadquery uitvoeren. Voer de onderstaande stappen uit om een query in te stellen en uit te voeren.
 
-Wanneer u het tabblad **Voorhanden query** op de pagina **Operationele zichtbaarheid** opent, vraagt het systeem om uw referenties zodat het de Bearer-token kan ophalen dat nodig is om de query op de service Voorraadzichtbaarheid uit te voeren. U hoeft het Bearer-token alleen maar in het veld **Bearer-token** te plakken en het dialoogvenster te sluiten. U kunt vervolgens een voorhanden queryaanvraag boeken.
+1. Open de app **Voorraadzichtbaarheid**.
+1. Open de pagina **Operationele zichtbaarheid** vanuit het linkerdeelvenster.
+1. Voer op het tabblad **Query voorhanden** de waarden **Organisatie-id**, **Site-id** en **Locatie-id** in die u wilt opvragen.
+1. Voer in het veld **product-id** een of meer product-id's in om een exacte overeenkomst voor uw query te krijgen. Als u het veld **Product-id** leeg laat, bevatten de resultaten alle producten op de opgegeven site en locatie.
+1. Als u een gedetailleerder resultaat wilt weergeven (bijvoorbeeld een weergave per dimensiewaarde, zoals kleur en grootte), selecteert u dimensies voor groeperen in het veld **Resultaat groeperen op**.
+1. Als u artikelen wilt zoeken met een specifieke dimensiewaarde (zoals kleur = rood), selecteert u de dimensie in het veld **Filterdimensies** en voert u vervolgens een dimensiewaarde in.
+1. Selecteer **Query**. Er wordt een bericht met succes (groen) of een mislukt (rood) weergegeven. Als de query mislukt, controleert u uw querycriteria en en of het [bearer-token](#open-authenticate) niet is vervallen.
 
-Als het Bearer-token niet geldig is of als dit is verlopen, moet u een nieuw token in het veld **Bearer-token** plakken. Voer de juiste waarden voor **Client-id**, **Tenant-id** en **Clientgeheim** in en selecteer vervolgens **Vernieuwen**. Het systeem haalt automatisch een nieuw, geldig Bearer-token op.
-
-Als u een voorhanden query wilt boeken, voert u de query in de aanvraagbody in. Gebruik het patroon dat in [Een query uitvoeren met de post-methode](inventory-visibility-api.md#query-with-post-method)
-
-![Voorhanden query-instellingen](media/inventory-visibility-query-settings.png "Voorhanden query-instellingen")
+Een andere manier om een query voor voorhanden voorraad te maken, is het uitvoeren van directe API-aanvragen. U kunt `/api/environment/{environmentId}/onhand/indexquery` of `/api/environment/{environmentId}/onhand` gebruiken. Zie [Openbare API's voor Voorraadzichtbaarheid](inventory-visibility-api.md) voor meer informatie.
 
 ### <a name="reservation-posting"></a>Reserveringen boeken
 
 Gebruik het tabblad **Reserveringen boeken** op de pagina **Operationele zichtbaarheid** om een reserveringsaanvraag te plaatsen. Voordat u een reserveringsaanvraag kunt boeken, moet u de functie *OnHandReservation* inschakelen. Zie [Reserveringen van Voorraadzichtbaarheid](inventory-visibility-reservations.md) voor meer informatie over deze functie en hoe u deze kunt inschakelen.
 
-Als u een reserveringsaanvraag wilt boeken, moet u een waarde in de aanvraagbody invoeren. Gebruik het patroon dat is beschreven in [Eén reserveringsgebeurtenis maken](inventory-visibility-api.md#create-one-reservation-event). Selecteer vervolgens **Boeken**. Als u details van het antwoord op de aanvraag wilt weergeven, selecteert u **Details weergeven**. U kunt ook de waarde `reservationId` uit de antwoorddetails ophalen.
+> [!NOTE]
+> De mogelijkheid om een zachte reservering te maken via de gebruikersinterface is bedoeld om u de functie te laten testen. Elke aanvraag voor zachte reservering moet worden gekoppeld aan een wijziging in de transactieorderregel (maken, wijzigen, verwijderen, e.d.). Daarom is het raadzaam om alleen zachte reserveringen te maken die aan een back-endorder zijn gekoppeld. Zie [Voorraadzichtbaarheid reserveringen](inventory-visibility-reservations.md) voor meer informatie.
+
+Volg deze stappen om een aanvraag voor zachte reservering te boeken met behulp van de gebruikersinterface.
+
+1. Open de app **Voorraadzichtbaarheid**.
+1. Open de pagina **Operationele zichtbaarheid** vanuit het linkerdeelvenster.
+1. Geef op het tabblad **Reserveringen boeken** in het veld **Hoeveelheid** op hoeveel u wilt reserveren.
+1. Schakel het selectievakje **Negatieve voorraad inschakelen voor ondersteunen van te hoge verkoop** uit om te voorkomen dat er teveel voorraad wordt verkocht of gereserveerd.
+1. Selecteer in het veld **Operator** de gegevensbron en de fysieke meting die van toepassing zijn op de zachte reserveringshoeveelheid.
+1. Voer op het tabblad **Organisatie-id** de waarden **Site-id**, **Locatie-id** en **Product-id** in die u wilt opvragen.
+1. Selecteer een gegevensbron, dimensies en dimensiewaarden om een gedetailleerder resultaat te krijgen.
+
+Een andere manier om een zachte reservering te boeken, is het maken van directe API-aanvragen. Gebruik het patroon dat is beschreven in [Eén reserveringsgebeurtenis maken](inventory-visibility-api.md#create-one-reservation-event). Selecteer vervolgens **Boeken**. Als u details van het antwoord op de aanvraag wilt weergeven, selecteert u **Details weergeven**. U kunt ook de waarde `reservationId` uit de antwoorddetails ophalen.
+
+### <a name="allocation"></a>Toewijzing
+
+Zie [Voorraadtoewijzing voorraadzichtbaarheid](inventory-visibility-allocation.md) voor informatie over het beheren van toewijzingen via de gebruikersinterface en API's.
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Voorraadoverzicht
 
@@ -84,19 +113,15 @@ Volg deze stappen om de pagina **Voorraadoverzicht** in te schakelen en de synch
 
 1. Selecteer **Configuratie bijwerken** om alle wijzigingen op te slaan.
 
-
 > [!NOTE]
 > Met de functie *OnHandMostSpecificBackgroundService* worden alleen wijzigingen in voorhanden inventaris bijgehouden die hebben plaatsgevonden nadat u de functie hebt ingeschakeld. Gegevens voor producten die niet zijn gewijzigd nadat u de functie hebt ingeschakeld, worden niet van de voorraadservicecache naar de Dataverse-omgeving gesynchroniseerd. Als op uw pagina **Voorraadoverzicht** niet alle informatie wordt weergegeven die u verwacht, opent u Supply Chain Management en gaat u naar **Voorraadbeheer > Periodieke taken > Integratie met Voorraadoverzicht** en schakelt u de batchtaak uit en weer in. De eerste push wordt nu uitgevoerd, en alle gegevens worden de volgende 15 minuten gesynchroniseerd met de entiteit *Totaal voorhanden voorraad*. Als u deze functie *OnHandMostSpecificBackgroundService* wilt gebruiken, raden we u aan om deze in te schakelen voordat u wijzigingen in voorhanden voorraad aanbrengt en de batchtaak **Integratie van voorraadzichtbaarheid** inschakelt.
 
-## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-the-inventory-visibility-onhand-query"></a>Vooraf laden van een gestroomlijnde voorhanden query
+## <a name="preload-a-streamlined-on-hand-query"></a><a name="preload-streamlined-onhand-query"></a>Vooraf laden van een gestroomlijnde voorhanden query
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 <!-- KFM: Preview until further notice -->
 
 Supply Chain Management slaat veel informatie over uw huidige voorhanden voorraad op en maakt deze beschikbaar voor allerlei doeleinden. Vele bewerkingen en integraties van derden vereisen echter slechts een kleine subset van deze details, en het opvragen van het systeem voor al deze bewerkingen kan resulteren in grote gegevenssets die tijd nodig hebben om te worden samengesteld en overgedragen. Daarom kan de service voor voorraadzichtbaarheid periodiek een gestroomlijnde set voorhanden voorraadgegevens ophalen en opslaan om ervoor te zorgen dat geoptimaliseerde informatie continu beschikbaar is. De details van de opgeslagen voorhanden voorraadgegevens worden gefilterd op basis van configureerbare bedrijfscriteria, om ervoor te zorgen dat alleen de meest relevante informatie wordt opgenomen. Aangezien de gefilterde voorhanden voorraadlijsten lokaal worden opgeslagen in de service Voorraadzichtbaarheid en regelmatig worden bijgewerkt, ondersteunen ze snelle toegang, export van gegevens op aanvraag en de integratie met externe systemen.
-
-> [!NOTE]
-> De huidige preview-versie van deze functie kan alleen vooraf geladen resultaten leveren, waaronder site en locatie. Naar verwachting kunt u in de uiteindelijke versie van de functie andere dimensies selecteren voor vooraf laden met de resultaten.
 
 De pagina **Overzicht voorraadzichtbaarheid vooraf laden** biedt een weergave voor de entiteit *Resultaten van voorhanden vooraf geladen index-query*. In tegenstelling tot de entiteit *Voorraadoverzicht* biedt de *Resultaten van voorhanden vooraf geladen index-query* een voorhanden voorraadlijst van producten met geselecteerde dimensies. Voorraadzichtbaarheid synchroniseert elke 15 minuten de vooraf geladen overzichtsgegevens.
 

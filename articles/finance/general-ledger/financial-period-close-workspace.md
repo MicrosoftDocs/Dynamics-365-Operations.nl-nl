@@ -2,25 +2,25 @@
 title: Werkruimte voor afsluiten van financiële periode
 description: Dit artikel geeft een overzicht van het werkgebied Afgesloten financiële periode en de bijbehorende configuratie.
 author: kweekley
-ms.date: 11/29/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 531909bb8de892b012ffff347e58f23f997705ef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657bdd04c8b6dd36341e0bf771a978f68f13362d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865707"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780037"
 ---
 # <a name="financial-period-close-workspace"></a>Werkgebied voor afsluiten van financiële periode
 
@@ -28,7 +28,7 @@ ms.locfileid: "8865707"
 
 Dit artikel geeft een overzicht van de werkruimte **Afgesloten financiële periode** en de bijbehorende configuratie.
 
-Werkruimte voor afsluiten van financiële periode
+## <a name="financial-period-close-workspace"></a>Werkruimte voor afsluiten van financiële periode
 
 Met de werkruimte **Afgesloten financiële periode** kunt u uw financiële afsluitingsprocessen voor bedrijven, gebieden en personen bijhouden. Afhankelijk van uw weergave van de werkruimte **Afgesloten financiële periode** ziet u alle taken en statussen voor een afsluitingsplanning, of alleen de taken die aan u zijn toegewezen. 
 

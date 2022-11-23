@@ -2,28 +2,23 @@
 title: Clientelingoverzicht
 description: Dit artikel biedt een overzicht van de nieuwe clienteling-functies die beschikbaar zijn in de winkeltoepassing.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885606"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785040"
 ---
 # <a name="clienteling-overview"></a>Clientelingoverzicht
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885606"
 
 
 Veel detailhandelaren, vooral gespecialiseerde detailhandelaren met hoogwaardige producten, willen dat hun verkoopmedewerkers langdurige relaties aangaan met hun belangrijkste klanten. Van de medewerkers wordt verwacht dat zij op de hoogte zijn van waar deze klanten van houden en waar zij niet van houden, hun inkoophistorie, productvoorkeuren en belangrijke datums, zoals jubilea en verjaardagen. Verkoopmedewerkers moeten over een locatie beschikken waar zij deze informatie kunnen vastleggen en gemakkelijk terugvinden wanneer deze nodig is. Als deze informatie in één weergave beschikbaar is, kunnen de verkoopmedewerkers zich op eenvoudige wijze op klanten richten die aan bepaalde criteria voldoen. Zo kunnen ze bijvoorbeeld alle klanten vinden die op zoek zijn naar handtasjes of klanten die voor een belangrijke gebeurtenis staan, zoals een verjaardag of jubileum.
+
+In de volgende video wordt een voorbeeldscenario van clienteling getoond in Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Klantenboek
 
@@ -115,9 +115,9 @@ Volg deze stappen voor het instellen van de integratie.
 4. Sla het geheim op (in dit voorbeeld 'CI_Access_Secret') in de kluis. Wanneer dit geheim is opgeslagen in de kluis, krijgt het een naam. Noteer de naam van het geheim (in dit voorbeeld 'SecretName').
 5. Om toegang te krijgen tot het geheim van Azure Key Vault, moet u een andere toepassing maken met een toepassings-id en geheim (in dit voorbeeld, 'KeyVault_Access_AppID' en 'KeyVault_Access_Secret'). Noteer het geheim op een veilige plek, want het wordt hierna niet meer weergegeven.
 6. Vervolgens moet u machtigingen verlenen voor de toepassing in de Key Vault vanuit Commerce te openen via API's. Ga naar de toepassingspagina in Azure-portal. Selecteer onder de sectie **Beheren** de optie **API-machtigingen**. Voeg de machtiging toe voor het openen van **Azure Key Vault**. Selecteer **Toegangsbeleid** voor deze machtiging. Selecteer de sjabloon als **Geheimenbeheer** en selecteer de opties **Ophalen**, **Vermelden**, **Ontsleutelen** en **Versleutelen**. 
-5. Ga in Commerce Headquarters naar **Systeembeheer \> Instellingen \> Parameters voor sleutelkluis** en voer de vereiste informatie voor de sleutelkluis in. Voer vervolgens in het veld **Client sleutelkluis** de toepassings-id in die u in stap 4 hebt gebruikt, zodat Commerce toegang kan krijgen tot de geheimen in de sleutelkluis.
+5. Ga in Commerce headquarters naar **Systeembeheer \> Instellingen \> Parameters voor sleutelkluis** en voer de vereiste informatie voor de sleutelkluis in. Voer vervolgens in het veld **Client sleutelkluis** de toepassings-id in die u in stap 4 hebt gebruikt, zodat Commerce toegang kan krijgen tot de geheimen in de sleutelkluis.
 6. Als u de toepassing die u in stap 1 hebt gemaakt wilt toevoegen aan de lijst met veilige toepassingen (ook wel een veilige lijst genoemd), gaat u naar Customer Insights en selecteert u **Weergeven** om toegang te geven aan de toepassing. Zie [Machtigingen](/dynamics365/ai/customer-insights/pm-permissions) voor instructies.
-7. Werk op de pagina **Systeembeheer > Instellingen > Key Vault-parameters** in Commerce Headquarters de velden als volgt bij: 
+7. Werk op de pagina **Systeembeheer > Instellingen > Key Vault-parameters** in Commerce headquarters de velden als volgt bij: 
 
 - **Key Vaul-url**: "KeyVaultURL" (uit stap 3 hierboven).
 - **Key Vault-client**: "KeyVault_Access_AppID" (uit stap 5 hierboven).

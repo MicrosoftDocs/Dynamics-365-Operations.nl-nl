@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220327"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757216"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -107,7 +107,7 @@ Als u een nieuwe weergave maakt (met de actie **Opslaan als**), kunt u hiervan o
 
 In het dialoogvenster **Mijn weergaven beheren** beschikt u over basisfuncties voor het onderhoud van uw persoonlijke weergaven en de volgorde van weergaven in de weergavekiezer. Als u deze pagina wilt openen, selecteert u de naam van de weergave om de vervolgkeuzelijst van de weergavekiezer te openen en selecteert u **Meer** en **Mijn weergaven beheren**.
 
-**Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, worden in het gedeelte **Mijn weergaven** van het dialoogvenster **Mijn weergaven beheren** de beschikbare weergaven voor de pagina in gedeelten weergegeven. Alle weergaven die specifiek zijn voor de huidige rechtspersoon, worden weergegeven in hun eigen sectie. Het gedeelte **Algemene weergaven** wordt altijd weergegeven, zodat u de weergaven voor de pagina kunt beheren die beschikbaar zijn voor alle rechtspersonen. 
+Als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, worden in het gedeelte **Mijn weergaven** van het dialoogvenster **Mijn weergaven beheren** de beschikbare weergaven voor de pagina in gedeelten weergegeven. Alle weergaven die specifiek zijn voor de huidige rechtspersoon, worden weergegeven in hun eigen sectie. Het gedeelte **Algemene weergaven** wordt altijd weergegeven, zodat u de weergaven voor de pagina kunt beheren die beschikbaar zijn voor alle rechtspersonen. 
 
 De volgende set acties is beschikbaar voor een lijst met beschikbare weergaven voor die pagina.
 
@@ -138,9 +138,9 @@ Voer deze stappen uit om een weergave te publiceren:
 
 1. Maak een persoonlijke kopie van de weergave die u wilt publiceren en sla deze op. 
 2. Selecteer terwijl die weergave is geladen de naam van de weergave om het vervolgkeuzemenu voor de weergavekiezer te openen. 
-3. Selecteer de knop **Meer** en selecteer vervolgens **Publiceren**. Het dialoogvenster Publiceren wordt geopend.
+3. Selecteer de knop **Meer** en selecteer vervolgens **Publiceren**. Het dialoogvenster **Publiceren** wordt geopend.
 4. Voer een naam in voor de weergave. De naam die u invoert, is de naam die gebruikers die deze weergave ontvangen, te zien krijgen in hun weergavekiezers. De namen van gepubliceerde weergaven voor een pagina moeten uniek zijn. Dubbele namen zijn niet toegestaan, ook niet als de lijst met rollen of rechtspersonen waarop de weergaven worden toegepast, verschilt.
-5. **10.0.17 of hoger bijwerken**: als de functie voor **(Preview) Vertalingsondersteuning voor organisatieweergaven** is ingeschakeld, kunt u vertalingen voor uw weergavenaam in net zoveel talen toevoegen als voor uw organisatie nodig is door de knop **Vertalingen** naast het veld **Naam** te selecteren. De weergavenaam wordt vervolgens weergegeven voor gebruikers in de huidige taal. U kunt ook de standaardtaal instellen om de vertaling op te geven die wordt weergegeven voor gebruikers die talen gebruiken waarvoor geen vertaling is gedefinieerd.
+5. Als de functie voor **Vertalingsondersteuning voor organisatieweergaven** is ingeschakeld, kunt u vertalingen voor uw weergavenaam in net zoveel talen toevoegen als voor uw organisatie nodig is door de knop **Vertalingen** naast het veld **Naam** te selecteren. De weergavenaam wordt vervolgens weergegeven voor gebruikers in de huidige taal. U kunt ook de standaardtaal instellen om de vertaling op te geven die wordt weergegeven voor gebruikers die talen gebruiken waarvoor geen vertaling is gedefinieerd.
 5. Optioneel: voer een omschrijving voor de weergave in, zodat gebruikers die deze weergave ontvangen, het doel ervan beter begrijpen. 
 6. Bepaal of de weergave moet worden gepubliceerd als de standaardweergave voor de geselecteerde gebruikers. Wanneer van een weergave de standaardweergave wordt gemaakt, zien gebruikers deze weergave de volgende keer dat ze de doelpagina openen. De enkele algemene standaardweergave van alle beoogde gebruikers wordt gewijzigd. Gebruikers kunnen hun standaardweergave echter nog steeds wijzigen na publicatie.
 
@@ -150,9 +150,10 @@ Voer deze stappen uit om een weergave te publiceren:
     > - Als u een weergave als standaardweergave voor een aantal of voor alle rechtspersonen publiceert, doet zich het volgende voor:
     >
     >    - Als alleen de basisfunctie **Opgeslagen weergaven** is ingeschakeld, wordt de algemene standaardweergave voor elke doelgebruiker gewijzigd. 
-    >    - **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld en u de weergave publiceert naar een aantal rechtspersonen, wordt de standaardweergave voor deze rechtspersonen voor elke beoogde gebruiker gewijzigd.
+    >    - ** Als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld en u de weergave publiceert naar een aantal rechtspersonen, wordt de standaardweergave voor deze rechtspersonen voor elke beoogde gebruiker gewijzigd.
     >
     > - Als een gebruiker rollen heeft waar meerdere weergaven worden gepubliceerd als de standaardweergave, wordt de laatst gepubliceerde weergave gebruikt als de standaardweergave van de gebruiker. 
+    > - Publiceren werkt niet voor roltoewijzingen die zijn gemaakt met behulp van AAD-groepen. 
 
 8. Voeg de beveiligingsrollen toe die overeenkomen met de gebruikers voor wie deze weergave is bedoeld. 
 9. Bepaal of u de weergave wilt publiceren naar de onderliggende rollen van elke geselecteerde beveiligingsrol. Als u dit doet, schakelt u het selectievakje **Onderliggende rollen opnemen** in de rij voor de gewenste beveiligingsrollen in. Dit selectievakje is niet beschikbaar voor rollen die geen onderliggende rollen hebben.
@@ -162,7 +163,7 @@ Voer deze stappen uit om een weergave te publiceren:
     > Houd rekening met het volgende gedrag wanneer u een weergave naar een specifieke rechtspersoon publiceert, maar wanneer u die weergave niet als de standaardweergave publiceert.
     >
     > - Als alleen de basisfunctie **Opgeslagen weergaven** is ingeschakeld, wordt de weergaveselector van de gebruiker voor de pagina in eerste instantie alleen voor de opgegeven rechtspersonen weergegeven. Nadat de weergave echter voor de eerste keer is geladen, zal de weergaveselector voor de pagina deze altijd tonen, ongeacht de rechtspersoon.
-    > - **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector alleen de weergave voor de opgegeven rechtspersonen weer.
+    > - Als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector alleen de weergave voor de opgegeven rechtspersonen weer.
 
 11. Selecteer **Publiceren**.
 
@@ -259,7 +260,7 @@ Voor pagina's met grote weergavekiezers (zowel persoonlijke instellingen als que
 Als u een weergave naar een specifieke rechtspersoon publiceert, maar wanneer u die weergave niet als de standaardweergave publiceert, gebeurt het volgende:
 
 - Als alleen de basisfunctie **Opgeslagen weergaven** is ingeschakeld, wordt de weergaveselector van de gebruiker voor de pagina in eerste instantie alleen voor de opgegeven rechtspersonen weergegeven. Nadat de weergave echter voor de eerste keer is geladen, zal de weergaveselector voor de pagina deze altijd tonen, ongeacht de rechtspersoon. Dit vindt plaats, omdat gebruikers een eigen kopie krijgen van de gepubliceerde weergave wanneer deze wordt geladen en omdat persoonlijke weergaven algemeen zijn.
-- **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector alleen de weergave voor de opgegeven rechtspersonen weer. Dit vindt plaats, omdat de functie weergaven (inclusief persoonlijke weergaven) aan specifieke rechtspersonen koppelt.
+- Als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector alleen de weergave voor de opgegeven rechtspersonen weer. Dit vindt plaats, omdat de functie weergaven (inclusief persoonlijke weergaven) aan specifieke rechtspersonen koppelt.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

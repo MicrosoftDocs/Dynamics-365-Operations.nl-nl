@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: bfc1c2021387ed35e6ccb513167e896eddef2eaf
+ms.sourcegitcommit: ea79bf014bbf495ac8e28db29502c8bd85a75f32
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752715"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9759595"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Importeren van geavanceerde bankafstemming instellen via Elektronische rapportage
 
@@ -37,6 +37,9 @@ Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften 
 5. Zoek **Geavanceerd model voor bankafstemmingsoverzicht \> ABR BAI2-indeling** in de configuratielijst.
 6. Selecteer de indeling **BAI2**.
 7. Selecteer op het sneltabblad **Versies** de nieuwste versie en selecteer vervolgens **Importeren**.
+
+>[!NOTE]
+>Het **Bankafschriftmodel van BAI2** wordt later afgeschaft. 
 
 ## <a name="set-up-the-bank-statement-format"></a>De bankafschriftindeling instellen
 

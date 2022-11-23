@@ -2,7 +2,7 @@
 title: Valutaherwaardering in een consolidatiebedrijf
 description: In dit artikel wordt beschreven hoe valuta wordt geherwaardeerd in een consolidatiebedrijf.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888999"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779657"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valutaherwaardering in een consolidatiebedrijf
 
@@ -41,18 +41,18 @@ Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert,
 
 | Datum       | Grootboekrekening               | Valuta | Bedrag |
 |------------|------------------------------|----------|--------|
-| 10/11/2015 | 110110 - Contant geld                | USD      | 500    |
-| 10/11/2015 | 130100 - Debiteuren | USD      | -500   |
+| 10/11/2020 | 110110 - Contant geld                | USD      | 500    |
+| 10/11/2020 | 130100 - Debiteuren | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Wisselkoersen
 
 | Vanuit valuta | Naar valuta | Begindatum | Wisselkoers |
 |---------------|-------------|------------|---------------|
-| EUR           | USD         | 10/1/2015  | 200           |
-| EUR           | USD         | 11/1/2015  | 150           |
-| EUR           | USD         | 12/1/2012  | 100           |
+| EUR           | USD         | 10/1/2020  | 200           |
+| EUR           | USD         | 11/1/2020  | 150           |
+| EUR           | USD         | 12/1/2017  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>Voer de consolidatie voor Oktober 2015 uit
+## <a name="perform-the-consolidation-for-october-2020"></a>Voer de consolidatie voor Oktober 2020 uit
 ### <a name="balances-in-the-consolidation-company"></a>Saldi in het consolidatiebedrijf
 
 | Grootboekrekening | Valuta | Bedrag | Berekening    |
@@ -60,7 +60,7 @@ Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert,
 | 110110         | EUR      | 250    | 500 USD × 50%  |
 | 130100         | EUR      | -250   | -500 USD × 50% |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>Voer de valuta herwaardering voor de rekeningen van 1 oktober 2015, tot en met 30 november 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>Voer de valuta herwaardering voor de rekeningen van 1 oktober 2020, tot en met 30 november 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldi in het consolidatiebedrijf
 
 | Grootboekrekening | Valuta | Bedrag  | Berekening                        |
@@ -72,7 +72,7 @@ Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert,
 
 U kunt extra transacties voor de aangiftevalutabedragen zien.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>Voer de valuta herwaardering voor de rekeningen van 1 oktober 2015 tot en met 31 december 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>Voer de valuta herwaardering voor de rekeningen van 1 oktober 2020 tot en met 31 december 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldi in het consolidatiebedrijf
 
 | Grootboekrekening | Valuta | Bedrag  | Berekening                                          |

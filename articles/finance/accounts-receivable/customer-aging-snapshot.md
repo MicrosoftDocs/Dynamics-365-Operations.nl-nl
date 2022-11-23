@@ -13,12 +13,12 @@ ms.author: mrolecki
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
 ms.search.form: ''
-ms.openlocfilehash: 88145cdccfe3f1d0d3de4e31dfa519b27df6550a
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: e4ccc8ac9b5374ca0713167a17b8704727c687fd
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643680"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775231"
 ---
 # <a name="customer-aging-snapshots"></a>Ouderdomsmomentopnamen voor klanten
 
@@ -31,9 +31,10 @@ Informatie van ouderdomsmomentopnamen wordt weergegeven op de lijstpagina **Oude
 De werkruimte **Klantcrediteringen en aanmaningen** toont ook de ouderdomsberekening voor de klant. Zie [Power BI-inhoud - klantcrediteringen- en aanmaningsbeheer](credit-collections-power-bi.md) voor meer informatie.
 
 > [!NOTE]
-> Als u de tijd wilt beperken die nodig is voor het maken van een ouderdomsmomentopname, moet u de volgende functies inschakelen in het werkgebied **Functiebeheer**: **Verbetering van rangschikking van klant naar ouderdom** 
-> **Prestatieverbetering van klanten naar ouderdom rangschikken met klantverzamelingen**  
-> Als beide functies zijn ingeschakeld, kan **Klantverzamelingen** worden gebruikt bij het maken van de ouderdomsmomentopname. 
+> Als u de tijd wilt beperken die nodig is voor het maken van een ouderdomsmomentopname, moet u de volgende functies voor in de werkruimte **Functiebeheer** inschakelen: 
+> - **Verbetering van rangschikking van klant naar ouderdom** 
+> - **Prestatieverbetering van klanten naar ouderdom rangschikken met klantverzamelingen**  
+>Als beide functies zijn ingeschakeld, kan **Klantverzamelingen** worden gebruikt bij het maken van de ouderdomsmomentopname. 
 
 Wanneer u een ouderdomsmomentopname van klanten maakt, gebruikt u de volgende velden om informatie over de momentopname in te voeren:
 

@@ -2,13 +2,13 @@
 title: Overzicht van consolidatie en schrapping
 description: Dit artikel geeft algemene informatie over het consolidatie- en schrappingsproces. Het bevat antwoorden op enkele veelgestelde vragen.
 author: panolte
-ms.date: 01/11/2018
+ms.date: 11/11/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom:
 - "13151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 757c7634fc929ead018d1ddcca4cc223c1a95638
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871386"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779902"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Overzicht van consolidatie en schrapping
 
@@ -46,49 +46,38 @@ Schrappingen kunnen op meerdere manieren worden gerapporteerd:
 Er bestaan veel consolidatiescenario's en met elke methode kunnen de scenario's op verschillende manieren worden afgehandeld.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
-1. Ik verkies schrappingen in een database te boeken. Wat zijn mijn opties?
+Ik verkies schrappingen in een database te boeken. Wat zijn mijn opties?
+ - U hebt meerdere opties. U kunt de optie **Consolidatie online** gebruiken en schrappingen tijdens het proces of als een voorstel opnemen. De transacties worden in het consolidatiebedrijf geboekt. U kunt ook een afzonderlijk bedrijf hebben waarin u de schrappingen handmatig maakt en vervolgens dat bedrijf in de financiële rapportage of in het consolidatieproces gebruiken.
 
-U hebt meerdere opties. U kunt de optie **Consolidatie online** gebruiken en schrappingen tijdens het proces of als een voorstel opnemen. De transacties worden in het consolidatiebedrijf geboekt. U kunt ook een afzonderlijk bedrijf hebben waarin u de schrappingen handmatig maakt en vervolgens dat bedrijf in de financiële rapportage of in het consolidatieproces gebruiken.
+We hebben onze geconsolideerde resultaten in meerdere aangiftevaluta´s nodig.
+ - De optie **Financiële rapportage** heeft onbeperkte aangiftevaluta´s. De gegevens worden vertaald tijdens het genereren van rapporten op basis van het wisselkoerstype en de omrekeningsmethode voor valuta´s, die in de hoofdrekening worden ingesteld. Omdat de optie **Consolidatie online** slechts één aangiftevaluta heeft, is een geconsolideerd bedrijf vereist voor elke aangiftevaluta als u deze optie gebruikt. De optie **Financiële rapportage** is de aanbevolen methode.
 
-2.  We hebben onze geconsolideerde resultaten in meerdere aangiftevaluta´s nodig.
+Ik wil gegevens op transactieniveau voor elk bedrijf zien.
+ - De optie **Financiële rapportage** is de oplossing, omdat gegevens op transactieniveau voor zoveel bedrijven kan worden weergegeven als in de rapportagestructuurdefinitie zijn opgenomen.
 
-De optie **Financiële rapportage** heeft onbeperkte aangiftevaluta´s. De gegevens worden vertaald tijdens het genereren van rapporten op basis van het wisselkoerstype en de omrekeningsmethode voor valuta´s, die in de hoofdrekening worden ingesteld. Omdat de optie **Consolidatie online** slechts één aangiftevaluta heeft, is een geconsolideerd bedrijf vereist voor elke aangiftevaluta als u deze optie gebruikt. De optie **Financiële rapportage** is de aanbevolen methode.
+We gebruiken budgetplanning of budgetbeheer en dit moet worden geconsolideerd.
+ - De optie **Financiële rapportage** is de oplossing om budgetplannings- of budgetbeheergegevens samen te voegen.
 
-3. Ik wil gegevens op transactieniveau voor elk bedrijf zien.
+Onze dochterondernemingen zitten over de hele wereld verspreid en we hebben meerdere rekeningschema's. Wat is de beste methode om onze gegevens te consolideren?
+- U hebt meerdere opties wanneer u meerdere rekeningschema's moet verwerken. U kunt de optie **Consolidatie online** gebruiken en er vervolgens voor kiezen om de consolidatierekening te gebruiken die in de hoofdrekening of een consolidatierekeninggroep is gedefinieerd. U kunt ook de optie **Financiële rapportage** gebruiken, meerdere koppelingen naar de financiële dimensies in de rijdefinitie opnemen en de rekeningen toewijzen.
 
-De optie **Financiële rapportage** is de oplossing, omdat gegevens op transactieniveau voor zoveel bedrijven kan worden weergegeven als in de rapportagestructuurdefinitie zijn opgenomen.
+We hebben meerdere consolidatieniveaus nodig. Met andere woorden, we consolideren eerst onze Europese dochtermaatschappijen in de Britse pond (GBP). Vervolgens nemen we die gegevens en rekenen het geconsolideerde bedrag om in Amerikaanse dollars. Hoe kunnen we dit doen?
+- Als meerdere consolidatieniveaus zijn vereist en andere valuta´s op elk niveau worden gebruikt, moet u de optie **Consolidatie online** gebruiken. Er moeten meerdere consolidatiebedrijven worden gemaakt waarvan de boekhoudings- en aangiftevaluta´s verschillen. De consolidatie moet vervolgens meerdere keren worden uitgevoerd. Met de optie **Financiële rapportage** vindt omrekening altijd plaats van de valuta voor boekhouding van elk bronbedrijf naar de geselecteerde valuta.
 
-4. We gebruiken budgetplanning of budgetbeheer en dit moet worden geconsolideerd.
+We hebben dochtermaatschappijen die een ander systeem gebruiken. Hoe kunnen we deze consolideren?
+- Gebruik de optie **Consolidatie met import** om de saldi in een consolidatiebedrijf te importeren.
 
-De optie **Financiële rapportage** is de oplossing om budgetplannings- of budgetbeheergegevens samen te voegen.
+Sommige van onze dochterondernemingen zijn niet volledig in eigendom. Wat is de beste methode om deze ondernemingen te consolideren?
+- U hebt meerdere opties voor ondernemingen die gedeeltelijk in eigendom zijn. Als u de optie **Financiële rapportage** gebruikt, kunt u een rapportagestructuurdefinitie en het eigendom definiëren. U kunt ook een berekende rij of kolom gebruiken om het bedrag gedeeltelijk in eigendom voor te stellen. U kunt zelfs het minderheidsbelang als een eigen rij in een rapport weergeven. U kunt ook de optie **Consolidatie online** gebruiken. Het tabblad **Rechtspersonen** heeft de kolom **Eigendom**, waarin u het percentage kunt definiëren dat in bezit is van het moederbedrijf.
 
-5. Onze dochterondernemingen zitten over de hele wereld verspreid en we hebben meerdere rekeningschema's. Wat is de beste methode om onze gegevens te consolideren?
+Onze organisatie moet consolidaties per bedrijfseenheid weergeven of wil de organisatiehiërarchieën gebruiken.
+- De optie **Financiële rapportage** is de oplossing. Over organisatiehiërarchieën die rechtspersonen of financiële dimensies bevatten, kan in Financiële rapportage worden gerapporteerd. U kunt ook uw eigen hiërarchieën op meerdere niveaus maken met behulp van een rapportagestructuurdefinitie die een combinatie van rechtspersonen en dimensiewaarden heeft.
 
-U hebt meerdere opties wanneer u meerdere rekeningschema's moet verwerken. U kunt de optie **Consolidatie online** gebruiken en er vervolgens voor kiezen om de consolidatierekening te gebruiken die in de hoofdrekening of een consolidatierekeninggroep is gedefinieerd. U kunt ook de optie **Financiële rapportage** gebruiken, meerdere koppelingen naar de financiële dimensies in de rijdefinitie opnemen en de rekeningen toewijzen.
+We hebben meer dan één exemplaar van het systeem.
+- Als u de optie **Bedrijfssaldi exporteren** gebruikt om vanuit één exemplaar te exporteren en vervolgens de optie **Consolidatie met import** in het andere exemplaar gebruikt, kunt u de gegevens consolideren.
 
-6. We hebben meerdere consolidatieniveaus nodig. Met andere woorden, we consolideren eerst onze Europese dochtermaatschappijen in de Britse pond (GBP). Vervolgens nemen we die gegevens en rekenen het geconsolideerde bedrag om in Amerikaanse dollars. Hoe kunnen we dit doen?
-
-Als meerdere consolidatieniveaus zijn vereist en andere valuta´s op elk niveau worden gebruikt, moet u de optie **Consolidatie online** gebruiken. Er moeten meerdere consolidatiebedrijven worden gemaakt waarvan de boekhoudings- en aangiftevaluta´s verschillen. De consolidatie moet vervolgens meerdere keren worden uitgevoerd. Met de optie **Financiële rapportage** vindt omrekening altijd plaats van de valuta voor boekhouding van elk bronbedrijf naar de geselecteerde valuta.
-
-7. We hebben dochtermaatschappijen die een ander systeem gebruiken. Hoe kunnen we deze consolideren?
-
-Gebruik de optie **Consolidatie met import** om de saldi in een consolidatiebedrijf te importeren.
-
-8. Sommige van onze dochterondernemingen zijn niet volledig in eigendom. Wat is de beste methode om deze ondernemingen te consolideren?
-
-U hebt meerdere opties voor ondernemingen die gedeeltelijk in eigendom zijn. Als u de optie **Financiële rapportage** gebruikt, kunt u een rapportagestructuurdefinitie en het eigendom definiëren. U kunt ook een berekende rij of kolom gebruiken om het bedrag gedeeltelijk in eigendom voor te stellen. U kunt zelfs het minderheidsbelang als een eigen rij in een rapport weergeven. U kunt ook de optie **Consolidatie online** gebruiken. Het tabblad **Rechtspersonen** heeft de kolom **Eigendom**, waarin u het percentage kunt definiëren dat in bezit is van het moederbedrijf.
-
-9. Onze organisatie moet consolidaties per bedrijfseenheid weergeven of wil de organisatiehiërarchieën gebruiken.
-
-De optie **Financiële rapportage** is de oplossing. Over organisatiehiërarchieën die rechtspersonen of financiële dimensies bevatten, kan in Financiële rapportage worden gerapporteerd. U kunt ook uw eigen hiërarchieën op meerdere niveaus maken met behulp van een rapportagestructuurdefinitie die een combinatie van rechtspersonen en dimensiewaarden heeft.
-
-10. We hebben meer dan één exemplaar van het systeem.
-
-Als u de optie **Bedrijfssaldi exporteren** gebruikt om vanuit één exemplaar te exporteren en vervolgens de optie **Consolidatie met import** in het andere exemplaar gebruikt, kunt u de gegevens consolideren.
-
-11. Kan ik een consolidatie maken met mijn budget in de status **CONCEPT**? 
-            
-U kunt uw budgetten niet verwerken of voltooien in het consolidatiebedrijf. Het is raadzaam Financial Reporting te gebruiken om conceptbudgetten te consolideren.
+Kan ik een consolidatie maken met mijn budget in de status **CONCEPT**? 
+- U kunt uw budgetten niet verwerken of voltooien in het consolidatiebedrijf. Het is raadzaam Financial Reporting te gebruiken om conceptbudgetten te consolideren.
 
 Zie [Herwaardering van valuta in een consolidatiebedrijf](../general-ledger/currency-revaluation-consolidation-company.md) voor meer informatie.
 

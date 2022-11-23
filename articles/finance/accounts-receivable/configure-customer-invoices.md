@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129507"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780462"
 ---
 # <a name="create-a-customer-invoice"></a>Een klantfactuur maken
 
@@ -31,11 +31,10 @@ Een **klantfactuur voor een verkooporder** is een rekening die door een organisa
 Een **vrije-tekstfactuur** is niet gerelateerd aan een verkooporder. Deze factuur bevat orderregels met grootboekrekeningen, vrije-tekstomschrijvingen en verkoopbedragen die u invoert. U kunt geen artikelnummer invoeren op dit type factuur. U moet de betreffende btw-gegevens invullen. Op een vrije-tekstfactuur wordt een hoofdrekening voor de verkoop vermeld die u over meerdere grootboekrekeningen kunt verdelen door te klikken op **Bedragen verdelen** op de pagina **Vrije-tekstfactuur**. Tevens wordt het klantsaldo naar de totaalrekening van het boekingsprofiel geboekt dat gebruikt wordt voor de vrije-tekstfactuur.
 
 Ga voor meer informatie naar:
-
-[Vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-new.md)
-[Een sjabloon voor vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-template-new.md)
-[Sjabloon voor vrije-tekstfacturen toewijzen aan een klant](tasks/assign-free-text-invoice-template-customer.md)
-[Terugkerende vrije-tekstfacturen genereren en boeken](tasks/post-recurring-free-text-invoices.md)
+ - [Vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Een sjabloon voor vrije-tekstfacturen maken](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Sjabloon voor vrije-tekstfacturen toewijzen aan een klant](tasks/assign-free-text-invoice-template-customer.md)
+ - [Terugkerende vrije-tekstfacturen genereren en boeken](tasks/post-recurring-free-text-invoices.md)
 
 
 Een **pro forma-factuur** is een factuur die wordt gemaakt als raming van de werkelijke factuurbedragen voordat de factuur wordt geboekt. Een **pro forma-factuur** kunt u zowel voor een klantfactuur als voor een verkooporder of een vrije-tekstfactuur afdrukken. 
@@ -89,7 +88,13 @@ U kunt de splitsing van klantfacturen voor verkooporders configureren op site of
  - Selecteer de optie **Splitsen op basis van factuurleveringsgegevens** om één factuur per afleveradres voor verkooporderregels te maken. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Naar opbrengstrekening boeken voor verkooporderfactuurregels die geen prijs en kosten bevatten
-U hebt de mogelijkheid om de **opbrengstrekening** in het **grootboek** bij te werken voor verkooporderregels zonder prijs en kosten. Als u deze informatie wilt instellen of weergeven, gaat u naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs en geen kosten** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs en kosten bij te werken. Als deze optie is geselecteerd, bevat het boekstuk 0,00 boekingen voor de boekingstypen **Klantsaldo** en **Opbrengst**. Een opbrengstrekening wordt gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad **Verkooporder** voor de rekeningdefinitie. Als deze optie niet is geselecteerd, worden regels zonder prijs- of kostengegevens niet naar de **opbrengstrekening** geboekt. In plaats daarvan bevat het boekstuk een vermelding van 0,00 voor het boekingstype **Klantsaldo**.
+U hebt de mogelijkheid om de **opbrengstrekening** in het **grootboek** bij te werken voor verkooporderregels zonder prijs en kosten. 
+
+De volgende gegevens instellen of weergeven:
+1. Ga naar de parameter **Naar opbrengstrekening boeken voor verkooporderfactuurregels met nulprijs en geen kosten** op het tabblad **Grootboek en btw** van de pagina **Parameters van klanten**. (**Klanten > Instellingen > Parameters van Klanten**). 
+2. Selecteer **Ja** om de **opbrengstrekening** voor verkooporderfactuurregels zonder prijs en kosten bij te werken. 
+ - Als deze optie is geselecteerd, bevat het boekstuk 0,00 boekingen voor de boekingstypen **Klantsaldo** en **Opbrengst**. Er is een opbrengstrekening gedefinieerd op de parameterpagina **Voorraadboeking** op het tabblad met de rekeningdefinitie voor **Verkooporder**. 
+ - Als deze optie niet is geselecteerd, worden regels zonder prijs- of kostprijsgegevens niet geboekt naar de **opbrengstrekening**. In plaats daarvan bevat het boekstuk een vermelding van 0,00 voor het boekingstype **Klantsaldo**.
 
 ## <a name="line-creation-sequence-number-information"></a>Informatie over het volgnummer van regel maken
 Wanneer u klantfactuurregels maakt, kunt u opeenvolgende volgnummers voor het maken van regels maken. Volgnummers voor het maken van regels worden toegewezen tijdens het boekingsproces. Door niet-opeenvolgende nummering toe te staan, kunt u de prestaties van het boeken van klantfacturen verbeteren. Volgnummers voor het maken van regels kunnen worden gebruikt door integraties van derden die een opeenvolgende volgorde verwachten. Neem contact op met uw IT-afdeling over uitbreidingen die kunnen worden geïntegreerd met volgnummers voor het maken van regels.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716798"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775156"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Belangrijke factuurgegevens in leverancierssysteem met een leveranciersfactuur
 
@@ -68,7 +68,10 @@ Deze taakbegeleider helpt u een leveranciersfactuur van een inkooporder te maken
 17. Voer een nummer in het veld **Eenheidsprijs** in. Nu de eenheidsprijs overeenkomt, wordt de status gewijzigd in Geslaagd. Als uw beleid verschillen toestaat of als afstemmen alleen een waarschuwing is, kunt u de factuur toch boeken.  
 18. Sluit de pagina.
 19. Klik op **Boeken**.
-20. Het formulier sluiten. Merk op dat de inkooporder niet meer wordt weergegeven als ontvangen maar als niet gefactureerd.  
+20. Sluit de pagina. 
+
+>[!Note] 
+>De inkooporder wordt niet meer weergegeven als ontvangen maar als niet gefactureerd.  
 
 
 

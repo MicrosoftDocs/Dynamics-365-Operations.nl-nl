@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588948"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779576"
 ---
 # <a name="accounting-distributions"></a>Boekhoudingsverdelingen
 
@@ -51,7 +51,7 @@ De algemene boekhoudingsverdelingsmogelijkheden bevatten de volgende opties om b
     -   U kunt de huidige boekhoudingsstatus van het document bekijken in **Verwijzing**. De status is voor het gehele document en geeft aan of het document in uitvoering of voltooid is.
 -   **Verdelingen weergeven**: de boekhoudingsverdelingen voor alle regels en monetaire bedragen in het document weergeven. In deze weergave kunt u de boekhoudingsverdelingen niet wijzigen.
 
-In versie 10.0.13 is een functie toegevoegd waarmee de tabel voor de boekhoudingsverdeling wordt gevalideerd om ervoor te zorgen dat de nieuwe velden correct worden ingesteld. Dit is de functie **Extra validatie van gegevens voor documenten inschakelen met behulp van het boekhoudkundig framework voor brondocumenten**. Deze functie is standaard ingeschakeld in versie 10.0.29. 
+Er is een functie toegevoegd waarmee de tabel voor de boekhoudingsverdeling wordt gevalideerd om ervoor te zorgen dat de nieuwe velden correct worden ingesteld. Dit is de functie **Extra validatie van gegevens voor documenten inschakelen met behulp van het boekhoudkundig framework voor brondocumenten**. Deze functie is standaard ingeschakeld in versie 10.0.29. 
 
 Zie [Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen](accounting-distributions-subledger-journal-entries-vendor-invoices.md) voor meer informatie.
 

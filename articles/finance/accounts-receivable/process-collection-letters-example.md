@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908149"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778668"
 ---
 # <a name="process-collection-letters-example"></a>Voorbeeld van de verwerking van aanmaningen
 
@@ -32,11 +32,11 @@ Voer als u gereed bent de volgende stappen uit.
 
 1. Ga naar **Crediteringen en aanmaningen \> Aanmaning \> Aanmaningsreeks instellen** en stel de aanmaningsreeks in zoals wordt weergegeven in de volgende tabel die is toegewezen aan het klantboekingsprofiel.
 
-|     Aanmaningscode      |     Beschrijving                           |     Valuta      |     Hoofdrekening        |     Bijzondere kosten in valuta     |     Minimum achterstallig saldo        |     Dagen blokkeren      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     Aanmaning 1         |     Tweede melding met bijzondere kosten        |     USD           |                           |     0,00                  |     0,00                  |     2                 |
-|     Aanmaning 2         |     Tweede melding met bijzondere kosten        |     USC           |     403150                |     20.00                 |     10.00                 |     3                 |
-|     Aanmaning                    |     Laatste melding met bijzondere kosten         |     USD           |     403150                |     50.00                 |     100.00                |     15                |
+|   Aanmaningscode      |     Beschrijving       |     Valuta      |     Hoofdrekening        |     Bijzondere kosten in valuta       |   Minimum achterstallig saldo  |   Dagen blokkeren        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  Aanmaning 1          |     Eerste melding |     USD          |                   |     0,00              |     0,00                  |     2                 |
+|  Aanmaning 2          |     Tweede melding met kosten      |     USD      |     403150         |     20.00         |     10.00     |     3                 |
+|  Collectie                   |     Laatste melding met kosten       |     USD           |     403150    |     50.00         |     100.00                |     15            |
 
 In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze op de pagina **Aanmaningen** zou verschijnen. 
 

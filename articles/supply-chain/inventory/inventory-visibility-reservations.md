@@ -2,7 +2,7 @@
 title: Reserveringen voor Inventory Visibility
 description: In dit artikel wordt beschreven hoe u de reserveringsfunctie instelt om reserveringen te maken, reserveringen op te nemen en/of gespecificeerde voorraadhoeveelheden ongedaan te maken met behulp van Voorraadzichtbaarheid.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,25 +11,42 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ae0589f8bac7ebf9b43cf0f3bc02680d324b29b
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895723"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762717"
 ---
 # <a name="inventory-visibility-reservations"></a>Reserveringen voor Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
+In dit artikel wordt een standaard gebruikscase voor zachte reserveringen beschreven en wordt uitgelegd hoe u deze in Voorraadzichtbaarheid instelt. Het artikel bevat informatie over het maken van zachte reserveringen, het verrekening met het fysieke verbruik en het al dan niet aanpassen aan of verwijderen uit de gereserveerde voorraadhoeveelheden.
 
-In dit artikel wordt beschreven hoe u de reserveringsfunctie instelt om reserveringen te maken, reserveringen op te nemen en/of gespecificeerde voorraadhoeveelheden ongedaan te maken met behulp van Voorraadzichtbaarheid.
+## <a name="sample-use-case-for-soft-reservation"></a>Voorbeeldgebruik voor zachte reservering
 
-Reserveringen leggen een hoeveelheid voorraad vast die in de toekomst wordt gebruikt. Wanneer u een reservering maakt, voorkomt het systeem dat andere orders de gereserveerde goederen reserveren of opnemen, totdat de reservering wordt opgenomen of ongedaan wordt gemaakt. Reserveringen worden gemaakt, opgenomen en geannuleerd door API-aanroepen voor de service voor Voorraadzichtbaarheid te gebruiken.
+Met zachte reserveringen hebben organisaties één bron voor beschikbare voorraad, met name tijdens het afhandelingsproces voor de order. Deze functionaliteit is handig voor organisaties die de volgende voorwaarden voldoen:
 
-U kunt Microsoft Dynamics 365 Supply Chain Management (en andere systemen van externe partijen) zodanig instellen dat de gereserveerde hoeveelheid automatisch wordt verrekend via Voorraadzichtbaarheid. De verrekende hoeveelheid wordt uit de reserveringsrecords in de Voorraadzichtbaarheid verwijderd.
+- De organisatie heeft ten minste twee verschillende systemen die direct uitgaande orders aannemen.
+- De organisatie is erg strikt en wil dubbele boeking van productvoorraad voorkomen, wat kan gebeuren als meerdere systemen het laatste deel van de voorraad kunnen overboeken. Deze situatie wordt voorkomen wanneer alle ordersystemen directe API-aanroepen voor zachte reservering kunnen maken naar Voorraadzichtbaarheid, waardoor één transparante bron voor de voorraadbeschikbaarheid mogelijk is.
 
-Wanneer u de reserveringsfunctie inschakelt, is Supply Chain Management er automatisch klaar voor om reserveringen te verrekenen die met behulp van Voorraadzichtbaarheid worden gemaakt.
+[<img src="media/inventory-visibility-soft-reservation.png" alt="Inventory Visibility soft reservation." title="Zachte reserveringen voor voorraadzichtbaarheid" width="720" />](media/inventory-visibility-soft-reservation.png)
+
+In de vorige afbeelding ziet u hoe zachte reservering werkt en worden de volgende bewerkingen aangegeven:
+
+- Het oorspronkelijke voorraadniveau wordt gesynchroniseerd met Voorraadzichtbaarheid vanuit Microsoft Dynamics 365 Supply Chain Management.
+- Zachte reserveringen worden vanuit elk van uw orderkanalen of systemen geboekt naar Voorraadzichtbaarheid. Met Voorraadzichtbaarheid wordt de beschikbare voorraad gevalideerd en wordt geprobeerd een zachte reservering te maken. Als een zachte reservering slaagt, wordt in Voorraadzichtbaarheid de zacht gereserveerde hoeveelheid toegevoegd en afgetrokken van de beschikbare hoeveelheid voor reservering (AFR). Vervolgens wordt gereageerd met een zachte reserverings-id.
+- Op dit moment blijft de fysieke voorraadhoeveelheid hetzelfde.
+- U kunt vervolgens één of samengevoegde zacht gereserveerde orders (orderregels) synchroniseren met Supply Chain Management om harde reserveringen te maken en deze naar het magazijn vrijgeven of de uiteindelijke voorraadhoeveelheid bijwerken.
+- U kunt het systeem instellen om [zachte reserveringen te verrekenen](#offset-scm) wanneer de fysieke voorraad in Supply Chain Management wordt bijgewerkt.
+
+Zachte reserveringen worden gewoonlijk gemaakt, opgenomen en geannuleerd door API-aanroepen voor de service voor Voorraadzichtbaarheid te gebruiken.
+
+> [!NOTE]
+> U kunt Supply Chain Management (en andere systemen van externe partijen) zodanig instellen dat de gereserveerde hoeveelheid automatisch wordt verrekend via Voorraadzichtbaarheid. De verrekende hoeveelheid wordt uit de reserveringsrecords in de Voorraadzichtbaarheid verwijderd.
+>
+> De verrekenfunctie wordt automatisch ingeschakeld wanneer u de functie voor zachte reservering inschakelt.
 
 ## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>De reserveringsfunctie inschakelen en instellen
 
@@ -38,46 +55,60 @@ Voer de volgende stappen uit om de reserveringsfunctie in te schakelen.
 1. Meld u aan bij Power Apps en open **Voorraadzichtbaarheid**.
 1. Open de pagina **Configuratie**.
 1. Schakel in het tabblad **Functiebeheer** de functie *OnHandReservation* in.
-1. Meld u aan bij Supply Chain Management.
+1. Meld u aan bij uw Supply Chain Management-omgeving.
 1. Ga naar de werkruimte **[Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** en schakel de functie *Integratie van Voorraadzichtbaarheid met tegenreservering* in (hiervoor is versie 10.0.22 of hoger vereist).
 1. Ga naar **Voorraadbeheer \> Instellen \> Parameters voor integratie van Voorraadzichtbaarheid**, open het tabblad **Tegenreservering** en stel het volgende in:
+
     - **Tegenreservering inschakelen**: stel de optie in op *Ja* om deze functionaliteit in te schakelen.
-    - **Modificator voor tegenreservering**: selecteer de status van de voorraadtransactie om reserveringen die zijn gemaakt in Voorraadzichtbaarheid, te compenseren. Met deze instelling wordt de fase van de orderverwerking bepaald waarmee tegenreserveringen worden geactiveerd. De fase wordt door de voorraadtransactiestatus van de order opgevolgd. Kies een van de volgende opties:
-        - *In bestelling*: voor de status *Op transactie* wordt een aanvraag voor een tegenreservering verzonden wanneer deze wordt gemaakt. De verrekende hoeveelheid is de hoeveelheid van de gemaakte order.
-        - *Reserveren*: voor de status *Bestelde transactie reserveren* verzendt een order een tegenreserveringsaanvraag wanneer deze gereserveerd, verzameld, via de pakbon geboekt of gefactureerd wordt. De aanvraag wordt slechts eenmaal voor de eerste stap geactiveerd wanneer het bovengenoemde proces plaatsvindt. De verrekende hoeveelheid is de hoeveelheid waarvoor de status van de voorraadtransactie is gewijzigd van *Besteld* in *Gereserveerd* (of een latere status) op de corresponderende orderregel.
+    - **Modificator voor tegenreservering**: selecteer de status van de voorraadtransactie om reserveringen die zijn gemaakt in Voorraadzichtbaarheid, te compenseren. Met deze instelling wordt de fase van de orderverwerking bepaald waarmee tegenreserveringen worden geactiveerd. De fase wordt door de voorraadtransactiestatus van de order opgevolgd. Selecteer een van de volgende waarden:
 
-## <a name="use-the-reservation-feature-in-inventory-visibility"></a>De reserveringsfunctie in Voorraadzichtbaarheid gebruiken
+        - *In bestelling*: voor orders met de status *In bestelling* wordt een aanvraag voor een tegenreservering verzonden wanneer deze wordt gemaakt. De verrekende hoeveelheid is de hoeveelheid van de gemaakte order(regel).
+        - *Reserveren*: orders met de status *Reserve* verzenden een verrekenaanvraag als ze zijn gereserveerd voor de order of fysiek zijn gereserveerd. Wanneer u verrekent met de status *Reserve*, wordt een verrekeningsverzoek gedaan met een nieuwe voorraadstatus die het dichtst bij de gereserveerde en verzamelde order ligt (bijvoorbeeld verzamelen, geboekte pakbon of gefactureerd). Dit gedrag treedt zelfs op als u de reservering in Supply Chain Management overslaat en doorgaat naar een andere voorraadstatus (bijvoorbeeld als u van de vrijgave naar het magazijn naar verzamelen en verpakken gaat). De aanvraag wordt slechts eenmaal geactiveerd. Als deze is geactiveerd bij het verzamelen, wordt de verrekening niet dubbel uitgevoerd wanneer een pakbon wordt geboekt. De verrekende hoeveelheid is hetzelfde als de hoeveelheid van de voorraadtransactiestatus toen de verrekening werd geactiveerd (met andere woorden *Besteld en gereserveerd*/*Fysiek reserveren*, of een latere status, op de corresponderende orderregel).
 
-Wanneer u de reserverings-API oproept, markeert het systeem de reservering van de opgegeven goederen en hoeveelheden. U moet een reserveringshiërarchie vastleggen en aanvragen boeken die met deze reserveringshiërarchie overeenkomen. De reserveringen kunnen vervolgens worden gemaakt door de reserverings-API's rechtstreeks op te roepen.
+1. Meld u weer aan bij de app Voorraadzichtbaarheid, ga naar de **configuratiepagina** en controleer vervolgens op het tabblad **Zachte reservering** de standaardhiërarchie voor zachte reservering. Voeg waar nodig nieuwe dimensies aan de hiërarchie toe.
+1. Bekijk de standaardinstellingen in de sectie **Zachte reserveringstoewijzing instellen**. Standaard worden de zacht gereserveerde voorraadhoeveelheden geregistreerd op basis van de fysieke maateenheid `softreservephysical` van de gegevensbron `iv`. De berekende meting *Beschikbaar voor reservering* wordt toegewezen aan `availabletoreserve`. Als u de berekende meting `availabletoreserve` wilt bijwerken, gaat u naar de **configuratiepagina** en vouwt u op het tabblad **Berekende meting** de berekende meting uit en wijzigt u deze.
 
-### <a name="configure-the-reservation-hierarchy"></a>De reserveringshiërarchie configureren
+Zie [Voorraadzichtbaarheid configureren](inventory-visibility-configuration.md) voor meer informatie.
 
-In de reserveringshiërarchie wordt de volgorde van dimensies beschreven die moeten worden opgegeven wanneer er reserveringen worden gemaakt. Dit werkt op dezelfde manier als de indexhiërarchie voor voorhanden query's.
-
-De reserveringshiërarchie kan verschillen van de indexhiërarchie. Met deze onafhankelijkheid kunt u categoriebeheer implementeren, waarbij gebruikers de dimensies kunnen opsplitsen in details om de vereisten voor het maken van nauwkeurige reserveringen op te geven.
-
-Als u een hiërarchie voor een zachte reserveringen wilt configureren in Power Apps, opent u de pagina **Configuratie** en stelt u vervolgens op het tabblad **Zachte reserveringshiërarchie** de reserveringshiërarchie in door dimensies en de bijbehorende hiërarchieniveaus toe te voegen en/of te wijzigen.
-
-Uw zachte reserveringshiërarchie moet `SiteId` en `LocationId` als onderdelen bevatten, omdat ze de partitieconfiguratie vormen.
+> [!NOTE]
+> In de reserveringshiërarchie wordt de volgorde van dimensies beschreven die moeten worden opgegeven wanneer er reserveringen worden gemaakt. Deze werkt op dezelfde manier als de indexhiërarchie voor query's voor voorhanden voorraad, maar wordt onafhankelijk gebruikt, zodat gebruikers dimensiedetails kunnen opgeven om exactere reserveringen te maken.
+>
+> Uw zachte reserveringshiërarchie moet `SiteId` en `LocationId` als onderdelen bevatten, omdat ze de partitieconfiguratie vormen van Voorraadzichtbaarheid.
 
 Zie [Reserveringsconfiguratie](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie over het configureren van reserveringen.
 
-### <a name="call-the-reservation-api"></a>De reserverings-API oproepen
+## <a name="use-the-reservation-feature-in-inventory-visibility"></a>De reserveringsfunctie in Voorraadzichtbaarheid gebruiken
 
-Reserveringen worden in de service voor Voorraadzichtbaarheid gemaakt door een aanvraag naar de URL van de service te verzenden, zoals `/api/environment/{environment-ID}/onhand/reserve`.
+Wanneer u de reserverings-API oproept, markeert het systeem de reservering van de opgegeven goederen en hoeveelheden.
 
-Voor een reservering moet de hoofdtekst van de aanvraag een organisatie-ID, een product-ID, gereserveerde hoeveelheden en dimensies bevatten. De aanvraag genereert een unieke reserverings-ID voor elke reserveringsrecord. De reserveringsrecord bevat de unieke combinatie van de product-ID en dimensies.
+Hier is een voorbeeldscenario en een voorbeeld van een API-querytekst. Het bedrijf Contoso verkoopt product D0002 (Kast) via de e-commercewebsite. Een klant plaatst een verkooporder voor een kleine rode kast via de website. Contoso besluit deze order te vervullen met behulp van de volgende dimensies:
+
+- Organisatie-id = usmf
+- Site = 1
+- Magazijn = 11
+- Product = D0002
+- Kleur = rood
+- Formaat = klein
+
+Contoso heeft al een API-verbinding met Voorraadzichtbaarheid ingesteld vanuit het eigen e-commercesysteem. Wanneer de order wordt ontvangen, activeert het systeem een API-aanroep om een zachte reservering te maken voor het artikel in Voorraadzichtbaarheid.
+
+### <a name="create-soft-reservations-using-the-reservation-api"></a>Zachte reserveringen maken met de reserverings-API
+
+Reserveringen worden in de service voor Voorraadzichtbaarheid gemaakt door een aanvraag naar de URL van de service te verzenden, zoals `/api/environment/{environmentId}/onhand/reserve`.
+
+Voor een reservering moet de hoofdtekst van de aanvraag een organisatie-ID, een product-ID, gereserveerde hoeveelheden en dimensies bevatten.
 
 Wanneer u de reserverings-API aanroept, kunt u de reserveringsvalidatie beheren door de booleaanse parameter `ifCheckAvailForReserv` op te geven in de aanvraagbody. De waarde `True` betekent dat de validatie is vereist, terwijl de waarde `False` betekent dat de validatie niet is vereist. De standaardwaarde is `True`.
 
 Als u een reservering wilt annuleren of de reservering van opgegeven voorraadhoeveelheden wilt verwijderen, stelt u de hoeveelheid in op een negatieve waarde en stelt u de parameter `ifCheckAvailForReserv` in op `False` om de validatie over te slaan.
 
-Ter referentie volgt hier een voorbeeld van de hoofdtekst van een aanvraag.
+Hier is een voorbeeld van de aanvraagbody die verwijst naar de verkooporder in de vorige context.
 
 ```json
 # Url
-# replace {RegionShortName} and {EnvironmentId} with your value
-https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand/reserve
+
+#Replace {endpoint} with your system endpoint.
+    {endpoint}/api/environment/{environmentId}/onhand/reserve
 
 # Method
 Post
@@ -90,45 +121,53 @@ Authorization: "Bearer {access_token}"
 
 # Body
 {
-    "id": "id-bike-0001",
+    "id": "Testrequest-0005",
     "organizationId": "usmf",
-    "productId": "Bike",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
-        "ColorId": "Red",
+        "ColorId": "red",
         "SizeId": "small"
     },
     "quantityDataSource": "iv",
-    "modifier": "SoftReservOrdered",
+    "modifier": "softreservphysical",
     "quantity": 1,
     "ifCheckAvailForReserv": true
 }
 ```
 
-## <a name="offset-reservations-in-supply-chain-management"></a>Tegenreserveringen gebruiken in Supply Chain Management
+Een geslaagde aanvraag voor zachte reservering retourneert een *zachte reserverings-id* voor elke reserveringsrecord. De zachte reserverings-id is geen unieke id voor een afzonderlijke zachte reserveringsrecord, maar een combinatie van de product-id en dimensiewaarden die aan de zachte reserveringsaanvraag zijn gekoppeld. U kunt de zachte reserverings-id op de orderregel registreren wanneer u de gereserveerde orders synchroniseert met Supply Chain Management of een ander ERP-systeem om deze te verrekenen.
 
-Voor voorraadtransactiestatussen die een gespecificeerde tegenreserveringsmodificator bevatten, verrekent de transactieupdate de bijbehorende reserveringsrecord als aan alle volgende voorwaarden voldaan is:
+### <a name="offset-soft-reservations-in-supply-chain-management"></a><a name="offset-scm"></a>Zachte reserveringen verrekenen in Supply Chain Management
 
-- De reserverings-ID van de voorraadtransactie komt overeen met de reserverings-ID van de reserveringsrecord in de service voor Voorraadzichtbaarheid.
-- De dimensies van de voorraadtransactie komen overeen met de dimensies van de reserveringsrecord in de service voor Voorraadzichtbaarheid.
-- Wijzigingen in de status van de voorraadtransactie zorgen voor tegenreserveringen wanneer de voorraadtransactiestatus uitwijst dat een orderproces voltooid of overgeslagen is.
+U kunt een zacht gereserveerde hoeveelheid verrekenen nadat de hoeveelheid op een order fysiek is verminderd in Supply Chain Management of een ander ERP-systeem. Voorraadzichtbaarheid biedt een standaardintegratie voor verrekening van zachte reserveringen met Supply Chain Management.
 
-De tegengereserveerde hoeveelheid volgt de voorraadhoeveelheid die in de voorraadtransacties opgegeven is. De tegenreservering wordt niet uitgevoerd als er geen gereserveerde hoeveelheid in de service voor Voorraadzichtbaarheid overblijft.
+Volg deze stappen om een zachte reservering te verrekenen.
 
-### <a name="set-up-the-reservation-offset-modifier"></a>De modificator voor tegenreserveringen instellen
+1. Meld u aan bij Supply Chain Management.
+1. Ga naar **Verkoop en marketing \> Verkooporders \> Alle verkooporders**.
+1. Selecteer **Nieuw** in het actievenster.
+1. Maak de externe verkooporder opnieuw en voeg een verkoopregel toe die dezelfde product-id, organisatie, locatie, magazijn en dimensiewaarden gebruikt.
+1. Selecteer op het sneltabblad **Verkooporderregels** de zojuist ingevoerde verkoopregel, en vervolgens **Voorraad \> Reserverings-id** op de werkbalk.
+1. Volg één van deze stappen:
 
-Als u dit nog niet hebt gedaan, stelt u de reserveringsmodificator in zoals beschreven in [De reserveringsfunctie inschakelen en instellen](#turn-on).
+    - Kopieer de zachte reserverings-id in het antwoord op de zachte reserveringsaanvraag en plak deze in het veld **Reserverings-id**.
+    - Laat het veld **Reserverings-id** leeg, maar schakel het selectievakje **Automatisch verrekenen van voorraadservice** in. Op basis van de artikel-id en dimensiewaarden die op de geselecteerde regel zijn ingevoerd, wordt automatisch bepaald welke product- en productdimenssie er moeten worden verrekend.
 
-### <a name="set-up-reservation-ids"></a>Reserverings-ID's instellen
+1. Selecteer **OK**.
+1. Maak met dezelfde orderregel nog geselecteerd een fysieke reservering van de bestelde hoeveelheid door op de werkbalk van het sneltabblad **Verkooporderregels** **Voorraad \> Reservering** te selecteren.
+1. Als u het veld **Verschuivingsmodificator voor reservering** eerder hebt ingesteld op *Gereserveerd*, wordt de verrekening geactiveerd wanneer de orderregel de status *Fysiek reserveren* of *Besteld reserveren* heeft. Een batchtaak wordt eenmaal per minuut uitgevoerd om verrekenaanvragen van Supply Chain Management te synchroniseren met Voorraadzichtbaarheid.
 
-Met de reserverings-ID wordt een reserveringsrecord uniek gemarkeerd in de Voorraadzichtbaarheid. In Supply Chain Management plaatsen gebruikers reserveringen in orderregels om de tegenreservering voor de bijbehorende reserveringsrecord te markeren.
+> [!NOTE]
+> Voor transactiestatussen die een gespecificeerde tegenreserveringsmodificator bevatten, verrekent de transactieupdate de bijbehorende reserveringsrecord als aan alle volgende voorwaarden voldaan is:
+>
+> - De reserverings-id van de voorraadtransactie komt overeen met de reserverings-id van de reserveringsrecord in de service voor Voorraadzichtbaarheid.
+> - De dimensies van de voorraadtransactie komen overeen met de dimensies van de reserveringsrecord in de service voor Voorraadzichtbaarheid.
+> - Wijzigingen in de status van de voorraadtransactie zorgen voor tegenreserveringen wanneer de voorraadtransactiestatus uitwijst dat een orderproces voltooid of overgeslagen is.
 
-Als u reserverings-ID's in Supply Chain Management wilt instellen, gaat u als volgt te werk.
+De verrekenhoeveelheden volgen de voorraadhoeveelheden die in de relevante voorraadtransacties zijn opgegeven. Een verrekening wordt alleen uitgevoerd als er gereserveerde hoeveelheid in Voorraadzichtbaarheid overblijft.
 
-1. Open een verkooporder (bijvoorbeeld vanuit de pagina **Alle verkooporders**).
-1. Selecteer een orderregel in het sneltabblad **Verkooporderregels**.
-1. Selecteer in de werkbalk van het sneltabblad **Verkooporderregels** de opties **Regel bijwerken \> Voorraad \> Integratie met Voorraadzichtbaarheid**.
-1. Voer de juist reserverings-ID's in.
+### <a name="cancel-or-revert-a-soft-reservation"></a>Een zachte reservering annuleren of terugdraaien
 
-De wijziging in de voorraadstatus komt overeen met de instelling van de modificator voor tegenreserveringen.
+Als een oorspronkelijke orderregel wordt geannuleerd of verwijderd en u de bijbehorende zachte reservering moet terugdraaien, boekt u een negatieve hoeveelheid met exact dezelfde informatie in uw API-querybody.

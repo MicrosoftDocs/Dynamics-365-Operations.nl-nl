@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713666"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775294"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Een afschrijvingsjournaal voor een klant maken
 
@@ -48,9 +48,9 @@ Deze taakhandleiding toont u hoe u de parameters voor afschrijvingen instelt en 
 7. Ga naar **Navigatievenster > Modules > Grootboek > Journaalboekingen > Algemene journalen**.
 8. Selecteer het journaalbatchnummer voor het journaal dat uw afschrijving bevat. Er wordt één regel gemaakt om het klantsaldo om te keren. Er worden een of meer regels gemaakt om de afschrijving naar de afschrijvingsrekening te boeken.  
 9. Sluit de pagina.
-10. Sluit de pagina.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Schrijf transacties af vanuit het formulier Incasso's.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Transacties afschrijven vanuit de pagina Incasso's
 1. Ga naar **Crediteringen en aanmaningen > Incasso's > Vervallen saldi**.
 2. Selecteer de naam van de klant die de transacties heeft die u wilt afschrijven. Selecteer bijvoorbeeld Cave Wholesales (US-004).
 3. Markeer de rij voor de eerste transactie.
@@ -63,7 +63,7 @@ Deze taakhandleiding toont u hoe u de parameters voor afschrijvingen instelt en 
 10. Ga naar **Grootboek > Journaalboekingen > Algemene journalen**.
 11. Selecteer het journaalbatchnummer voor het journaal dat uw afschrijving bevat. Er wordt één regel gemaakt om het klantsaldo om te keren. Er worden een of meer regels gemaakt om de afschrijving naar de afschrijvingsrekening te boeken.  
 12. Sluit de pagina.
-13. Sluit de pagina.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Een factuur afschrijven vanaf de pagina Openstaande klantfacturen
 1. Ga in het navigatievenster naar **Modules > Klanten > Facturen > Openstaande klantfacturen**.

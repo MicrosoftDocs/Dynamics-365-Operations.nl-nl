@@ -2,25 +2,25 @@
 title: Jaarafsluiting
 description: In dit artikel worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883208"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779738"
 ---
 # <a name="year-end-close"></a>Jaarafsluiting
 
@@ -62,7 +62,7 @@ Op de pagina **Configuratie van de jaarafsluitingssjabloon**:
 
 ## <a name="define-year-end-close-templates"></a>Sjablonen voor jaarafsluiting definiëren
 
-Nadat het systeem is geconfigureerd, kan het jaarafsluitingsproces worden uitgevoerd. Op de pagina **Configuratie van de jaarafsluitingssjabloon** kan een sjabloon worden gedefinieerd voor de groep rechtspersonen waarvoor het jaarafsluitingsproces wordt uitgevoerd. De sjabloon wordt bij elke jaarafsluiting opnieuw gebruikt, maar kan worden gewijzigd als uw organisatie verandert.
+Nadat de configuratie is voltooid, kan het jaarafsluitingsproces worden uitgevoerd. Op de pagina **Configuratie van de jaarafsluitingssjabloon** kan een sjabloon worden gedefinieerd voor de groep rechtspersonen waarvoor het jaarafsluitingsproces wordt uitgevoerd. De sjabloon wordt bij elke jaarafsluiting opnieuw gebruikt, maar kan worden gewijzigd als uw organisatie verandert.
 
 Stel eerst het veld **Groepsnaam** voor de sjabloon in en selecteer de fiscale kalender. Met de groepsnaam moet de groep van inbegrepen rechtspersonen worden geïdentificeerd. Wanneer u de groepen rechtspersonen bepaalt, moet u onthouden dat rechtspersonen alleen in dezelfde groep kunnen worden opgenomen als dezelfde fiscale kalender voor hen is geselecteerd. De sjablonen kunnen bijvoorbeeld worden ingesteld op basis van geografie, terwijl aparte groepen kunnen worden gemaakt voor Noord-Amerikaanse rechtspersonen, EMEA-rechtspersonen (Europa, het Midden-Oosten en Afrika) en APAC-rechtspersonen (Azië/Pacific).
 

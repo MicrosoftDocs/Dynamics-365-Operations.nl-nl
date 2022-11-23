@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27a6ec8fdba495535227d9d893d59edac5588985
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: cd74c6677f80a9075449908411350f1c81b95b02
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715689"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778352"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Meer dan de berekende korting voor een leveranciersbetaling nemen
 
@@ -32,13 +32,13 @@ Leverancier 3051 laat Fabrikam een contantkorting van 4 procent nemen als een fa
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Geselecteerd | Normaal            | Factuur-10040 | 3051    | 6/29/2015 | 7/29/2015 | 10040   | 1.000,00                       | USD      | 940,00           |
+| Geselecteerd | Normaal            | Factuur-10040 | 3051    | 6/29/2020 | 7/29/2020 | 10040   | 1,000.00                       | USD      | 940,00           |
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
 
 | Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum voor contantkorting           | 7/12/2015 |
+| Datum voor contantkorting           | 7/12/2020 |
 | Contantkortingsbedrag         | 60.00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |

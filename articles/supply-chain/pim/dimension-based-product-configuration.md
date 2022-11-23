@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9ba11a561f320a7f4e787e4fe3f4e6f4fb88bbfb
+ms.sourcegitcommit: ca73177dedf40df16860eaf88b1c701c61992028
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982922"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9754105"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Overzicht van Op dimensies gebaseerde productconfiguraties
 
@@ -74,7 +74,7 @@ De natuurlijke volgorde voor het bouwen van een productmodel voor een op dimensi
 
 De op dimensies gebaseerde configuratietechnologie is het meest geschikt voor producten met beperkte veranderlijkheid en de combinatie van de grootte, kleur, stijl en configuratie van de standaardproductdimensies niet geschikt is voor het identificeren van een specifieke productvariant. Een voorbeeld is een fiets met framehoogte, wielformaat, remtypen en verschillende versnellingen.
 
-### <a name="next-step"></a>Volgende stap 
+### <a name="next-step"></a><a name="sequence"></a>Volgende stap
 
 De volgende acht taakbegeleiders worden vermeld in de volgorde waarin u ze moet voltooien. 
 

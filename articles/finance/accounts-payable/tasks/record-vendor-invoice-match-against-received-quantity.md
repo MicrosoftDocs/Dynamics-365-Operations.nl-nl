@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a3f1463821a43af0d8d5f15225944b080414e4c
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: debf8ca47666252633e67e2592acd5a4e4122403
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109913"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778671"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>Leverancierfactuur vastleggen en met ontvangen hoeveelheid matchen
 
@@ -32,7 +32,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt. De leveranciersmanager o
 
 
 ## <a name="create-a-purchase-order"></a>Inkooporder maken
-1. Ga naar Alle inkooporders.
+1. Ga naar **Alle inkooporders**.
 2. Klik op **Nieuw**.
 3. Klik in het veld **Leverancier** op de vervolgkeuzeknop om de zoekopdracht te openen.
 4. Typ een waarde in het veld **Leveranciersrekening**.

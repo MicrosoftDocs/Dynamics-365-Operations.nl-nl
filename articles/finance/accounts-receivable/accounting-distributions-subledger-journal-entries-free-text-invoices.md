@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712281"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778406"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Boekhoudingsverdelingen en posten in de subadministratie voor vrije-tekstfacturen
 
@@ -30,9 +30,9 @@ Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden 
 
 ## <a name="accounting-distributions"></a>Boekhoudingsverdelingen
 
-U kunt de volgende knoppen in de pagina Vrije-tekstfactuur gebruiken voor het weergeven en mogelijk wijzigen van de boekhoudingsverdelingen voor elk bedrag op de factuur met vrije tekst.
+U kunt de volgende knoppen op de pagina **Vrije-tekstfactuur** gebruiken voor het weergeven en mogelijk wijzigen van de boekhoudingsverdelingen voor elk bedrag op de factuur met vrije tekst.
 
--   **Bedragen verdelen**: De boekhoudingsverdelingen weergeven en wijzigen voor een afzonderlijke regel en alle onderliggende regels, zoals belastingen of heffingen. U kunt de boekhoudingsverdeling voor de onderliggende regel rechtstreeks weergeven en wijzigen op de pagina Btw-transacties of de pagina Transacties met toeslagen transacties.
+-   **Bedragen verdelen**: De boekhoudingsverdelingen weergeven en wijzigen voor een afzonderlijke regel en alle onderliggende regels, zoals belastingen of heffingen. U kunt de boekhoudingsverdeling voor de onderliggende regel rechtstreeks weergeven en wijzigen op de pagina **Btw-transacties** of de pagina **Transacties met toeslagen**.
     -   Bedragen in de koptekst van facturen met vrije tekst wijzigen, zoals heffingen of valuta-afrondingsbedragen.
     -   Bedragen op regels van facturen met vrije tekst wijzigen.
 -   **Verdelingen weergeven**: Voor alle regels op het document de boekhoudingsverdelingen weergeven. Vanuit deze weergave kunt u de boekhoudingsverdelingen niet wijzigen.
@@ -62,7 +62,7 @@ Wanneer u een factuur met vrije tekst invoert, wordt elk bedrag als volgt verdee
 <li>Indien de hoofdrekening een toewijzingsrekening is, gebruikt u de standaardwaarde van de definitie van de toewijzingsrekening.</li>
 <li>Indien de hoofdrekening geen toewijzingsrekening is, gebruikt u de standaardsjabloon voor financiële dimensie op de factuurregel voor de vrije tekst-factuur.</li>
 <li>De standaard financiële dimensiewaarden gebruiken op de factuurregel voor de vrije tekst-factuur.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening in de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening op de pagina Rekeningschema.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -84,7 +84,7 @@ Wanneer u een factuur met vrije tekst invoert, wordt elk bedrag als volgt verdee
 <td>De grootboekrekening op de factuurregel van de vrije tekst-factuur.</td>
 <td><ol>
 <li>De standaard financiële dimensiewaarden gebruiken op de factuurregel voor de vrije tekst-factuur.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening in de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening op de pagina Rekeningschema.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -94,7 +94,7 @@ Wanneer u een factuur met vrije tekst invoert, wordt elk bedrag als volgt verdee
 <li>Indien de hoofdrekening een toewijzingsrekening is, gebruikt u de standaardwaarde van de definitie van de toewijzingsrekening.</li>
 <li>Indien de hoofdrekening geen toewijzingsrekening is, gebruikt u de standaardsjabloon voor financiële dimensie op de factuurregel voor de vrije tekst-factuur.</li>
 <li>De standaard financiële dimensiewaarden gebruiken op de factuurregel voor de vrije tekst-factuur.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening in de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening op de pagina Rekeningschema.</li>
 </ol></td>
 </tr>
 <tr class="even">
@@ -103,24 +103,24 @@ Wanneer u een factuur met vrije tekst invoert, wordt elk bedrag als volgt verdee
 <td><ol>
 <li>De financiële dimensies gebruiken die zijn gedefinieerd op het regelbedrag van de vrije tekst-factuur of de verdelingen voor het heffingsregelbedrag.</li>
 <li>De standaard financiële dimensiewaarden gebruiken op de factuurregel voor de vrije tekst-factuur.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening in de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening op de pagina Rekeningschema.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Heffingsregelbedrag op vrije tekst-factuur</td>
-<td>Het veld Creditrekening in de pagina Toeslagcode.</td>
+<td>Het veld Creditrekening op de pagina Toeslagcode.</td>
 <td><ol>
 <li>Indien de hoofdrekening een toewijzingsrekening is, gebruikt u de standaardwaarde van de definitie van de toewijzingsrekening.</li>
 <li>Indien de hoofdrekening geen toewijzingsrekening is, gebruikt u de standaardsjabloon voor financiële dimensie op de factuurregel voor de vrije tekst-factuur.</li>
 <li>De standaard financiële dimensiewaarden gebruiken op de factuurregel voor de vrije tekst-factuur.</li>
-<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening in de pagina Rekeningschema.</li>
+<li>De standaard financiële dimensiewaarden gebruiken van de grootboekrekening op de pagina Rekeningschema.</li>
 </ol></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="distributing-taxes"></a>Belastingen verdelen
-Boekhoudingsverdelingen voor belastingen kunnen pas worden gemaakt nadat belastingen zijn berekend. Voor het berekenen van de btw moet u een van de volgende taken uitvoeren in het formulier Vrije-tekstfactuur:
+Boekhoudingsverdelingen voor belastingen kunnen pas worden gemaakt nadat belastingen zijn berekend. Voor het berekenen van de btw moet u een van de volgende taken uitvoeren op de pagina **Vrije-tekstfactuur**:
 -   De btw weergeven.
 -   Het factuurtotaal weergeven.
 -   De cashflow weergeven.

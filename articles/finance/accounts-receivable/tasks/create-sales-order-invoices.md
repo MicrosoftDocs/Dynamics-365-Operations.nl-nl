@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ff76eac54da6621d999d9b629fac920ba8de294
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910253"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778379"
 ---
 # <a name="create-sales-order-invoices"></a>Facturen van verkooporder maken
 
@@ -32,12 +32,12 @@ In dit artikel wordt beschreven hoe u een verkooporder factureert, inclusief het
 2. Selecteer een verkooporder in de lijst. 
 3. Klik in het **actievenster** op **Factuur > Genereren > Factuur**. Merk op dat aan deze verkooporder meerdere pakbonnen zijn gekoppeld. In plaats van het pakbonnummer wordt alleen het woord *meerdere* weergegeven.  
 4. Vouw de sectie **Parameters** uit.
-    - Het boeken moet worden ingesteld op Ja om de factuur te boeken. U kunt het boeken ook uitschakelen en de factuur alleen afdrukken. Echter, u kunt hetzelfde resultaat verwezenlijken door een pro-formafactuur in plaats van een factuur te maken.  
+    - Het boeken moet worden ingesteld op **Ja** om de factuur te boeken. U kunt het boeken ook uitschakelen en de factuur alleen afdrukken. Echter, u kunt hetzelfde resultaat verwezenlijken door een pro-formafactuur in plaats van een factuur te maken.  
     - Deze optie wordt gebruikt voor batchtaken. De query wordt uitgevoerd wanneer de batchtaak wordt uitgevoerd.
-5. Selecteer 'Na' in het veld **Afdrukken**.
+5. Selecteer **Na** in het veld **Afdrukken**.
 6. Selecteer **Ja** voor **Factuur afdrukken**. Afdrukbeheer kan meerdere kopieën van de factuur afdrukken en de factuur ook via e-mail verzenden als PDF-bestand.  
-7. Selecteer 'Samenvatten' in het veld **Toeslagen afdrukken**.
-8. Selecteer 'Saldo' in het veld **Kredietlimiet controleren**.
+7. Selecteer **Samenvatten** in het veld **Toeslagen afdrukken**.
+8. Selecteer **Saldo** in het veld **Kredietlimiet controleren**.
 9. Klik op **Annuleren**.
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Combineer orders in één factuur
@@ -46,8 +46,8 @@ In dit artikel wordt beschreven hoe u een verkooporder factureert, inclusief het
 3. Selecteer meerdere openstaande verkooporders van dezelfde klant.
 4. Klik in het **actievenster** op **Factuur > Genereren > Factuur**.
 5. Vouw de sectie **Parameters** uit.
-6. Selecteer in het veld **Hoeveelheid** de optie Alle. Merk op dat er twee facturen in de overzichtssectie zijn vermeld. We voegen ze samen in één factuur.  
-7. Selecteer 'Factuurrekening' in het veld **Overzicht bijwerken voor**.
+6. Selecteer in het veld **Hoeveelheid** de optie **Alle**. Merk op dat er twee facturen in de overzichtssectie zijn vermeld. We voegen ze samen in één factuur.  
+7. Selecteer **Factuurrekening** in het veld **Overzicht bijwerken voor**.
 8. Klik op **Schikken** om de verkooporders samen te voegen in één factuur. De twee verkooporders worden nu samengevoegd in één factuur.   
 9. Klik op **Annuleren**.
 10. Klik op **Ja**.

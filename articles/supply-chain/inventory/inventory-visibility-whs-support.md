@@ -2,7 +2,7 @@
 title: Ondersteuning voor Inventory Visibility voor WMS-artikelen
 description: In dit artikel wordt de ondersteuning van Voorraadzichtbaarheid beschreven voor artikelen die zijn ingeschakeld voor magazijnbeheerprocessen (WMS-artikelen).
 author: yufeihuang
-ms.date: 03/10/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 54ce637d2d7b590988f7590eae5248276bcc4b96
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: bed402ecf20c19e81b2687efd90dba600460971a
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066605"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762734"
 ---
 # <a name="inventory-visibility-support-for-wms-items"></a>Ondersteuning voor Inventory Visibility voor WMS-artikelen
 
@@ -45,17 +45,17 @@ Wanneer u de functie Advanced WMS voor Voorraadzichtbaarheid gebruikt, zijn alle
 
 ## <a name="when-to-use-the-feature"></a>Wanneer gebruikt u deze functie
 
-Gebruik functie Advanced WMS voor Voorraadzichtbaarheid in scenario's waarin aan alle volgende voorwaarden is voldaan:
+Gebruik WMS-functie voor Voorraadzichtbaarheid in scenario's waarin aan alle volgende voorwaarden is voldaan:
 
 - U synchroniseert Supply Chain Management-gegevens met Voorraadzichtbaarheid.
 - U gebruikt WMS in Supply Chain Management.
-- Gebruikers maken reserveringen voor WMS-artikelen op andere niveaus dan het magazijnniveau (bijvoorbeeld omdat u magazijnwerk gebruikt).
+- Gebruikers maken reserveringen voor WMS-artikelen op niveaus onder het magazijnniveau (bijvoorbeeld op naamplaatniveau omdat u magazijntaken verwerkt).
 
 In andere scenario's is het mogelijk dat resultaten van query's voor voorhanden voorraad hetzelfde zijn, ongeacht of de functie Advanced WMS voor Voorraadzichtbaarheid is ingeschakeld. Bovendien zijn de prestaties beter als u de functie in deze scenario's niet inschakelt, omdat er minder berekeningen zijn en minder overhead.
 
-## <a name="enable-the-advanced-wms-feature-for-inventory-visibility"></a>De functie Advanced WMS voor Voorraadzichtbaarheid inschakelen
+## <a name="enable-the-wms-feature-for-inventory-visibility"></a>De functie WMS voor Voorraadzichtbaarheid inschakelen
 
-Voer deze stappen uit om de functie Advanced WMS voor Voorraadzichtbaarheid in te schakelen.
+Voer deze stappen uit om de functie WMS voor Voorraadzichtbaarheid in te schakelen.
 
 1. Meld u aan bij Supply Chain Management als beheerder.
 1. Open het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakel de volgende functies in deze volgorde in:
@@ -65,7 +65,7 @@ Voer deze stappen uit om de functie Advanced WMS voor Voorraadzichtbaarheid in t
 
 1. Ga naar **Voorraadbeheer \> Instellen \> Parameters voor Voorraadzichtbaarheidsintegratie**.
 1. Stel op het tabblad **WMS-artikelen inschakelen** de optie **WMS-artikelen inschakelen** in op *Ja*.
-1. Meld u aan bij Power Apps.
+1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
 1. Open de pagina **Configuratie** en schakel op het tabblad **Functiebeheer** de functie *AdvancedWHS* in.
 1. Ga in Supply Chain Management naar **Voorraadbeheer \> Periodieke taken \> Integratie van voorraadzichtbaarheid**.
 1. Selecteer in het actievenster de optie **Uitschakelen** in om Voorraadzichtbaarheid tijdelijk uit te schakelen.
@@ -82,21 +82,24 @@ De resultaten van query's voor WMS-artikelen zijn in wezen gelijk aan de resulta
 - `ReservOrdered`
 - `ReservPhysical`
 
-Alle andere fysieke metingen worden op dezelfde wijze berekend als wanneer de functie Advanced WMS voor Voorraadzichtbaarheid is uitgeschakeld.
+Alle andere fysieke metingen worden op dezelfde wijze berekend als wanneer de functie WMS voor Voorraadzichtbaarheid is uitgeschakeld.
 
 Zie het technisch document [Reserveringen in Magazijnbeheer](https://www.microsoft.com/download/details.aspx?id=43284) voor gedetailleerde informatie over berekeningen van voorhanden WMS-artikelen.
 
-De gegevensentiteiten die worden geëxporteerd naar Dataverse, kunnen de hoeveelheden voor WMS-artikelen niet bijwerken. De hoeveelheden die in de gegevensentiteiten worden weergegeven, zijn correct voor niet-WMS-artikelen en voor hoeveelheden die niet worden beïnvloed door WMS-logica (dus metingen behalve `AvailPhysical`, `AvailOrdered`, `ReservPhysical` en `ReservOrdered` in de `fno`-gegevensbron).
+## <a name="on-hand-list-view-and-data-entity-for-wms-items"></a>Lijstweergave met voorhanden voorraad en gegevensentiteit voor WMS-artikelen
 
-Het is niet toegestaan wijzigingen aan te brengen in de hoeveelheid WMS-artikelen die zijn opgeslagen in de gegevensbron van Supply Chain Management. Net als bij andere functies van Voorraadzichtbaarheid wordt deze beperking toegepast om conflicten te voorkomen.
+De pagina **Overzicht voorraadzichtbaarheid vooraf laden** biedt een weergave voor de entiteit *Resultaten van voorhanden vooraf geladen index-query*. In tegenstelling tot de entiteit *Voorraadoverzicht* biedt de *Resultaten van voorhanden vooraf geladen index-query* een voorhanden voorraadlijst van producten met geselecteerde dimensies. Voorraadzichtbaarheid synchroniseert elke 15 minuten de vooraf geladen overzichtsgegevens.
 
-## <a name="soft-reservations-on-wms-items-in-inventory-visibility"></a>Zachte reserveringen voor WMS-artikelen in Voorraadzichtbaarheid
+Als u Voorraadzichtbaarheid gebruikt met WMS-artikelen en de lijst voor voorhanden voorraad wilt bekijken voor WMS-artikelen, kunt u het beste de functie *Het overzicht van voorraadzichtbaarheid vooraf laden* inschakelen (zie ook [Vooraf laden van een gestroomlijnde voorhanden query](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)). Een bijbehorende gegevensentiteit in Dataverse slaat het queryresultaat van vooraf laden op, en wordt elke 15 minuten bijgewerkt. De naam van de gegevensentiteit is `Onhand Index Query Preload Result`.
 
-In het algemeen worden [zachte reserveringen](inventory-visibility-reservations.md) op WMS-artikelen ondersteund. U kunt aan WMS gerelateerde fysieke metingen opnemen in berekeningen voor zachte reserveringen. 
+> [!IMPORTANT]
+> De entiteit Dataverse is alleen-lezen. U kunt de gegevens weergeven en exporteren in de Voorraadzichtbaarheid-entiteiten, maar **u kunt deze niet wijzigen**.
 
-Het is een bekende beperking dat de berekening *beschikbaar voor reservering* op dit moment niet ondersteund voor WMS-artikelen. Als er bij een reservering boven de huidige dimensies een zachte reservering plaatsvindt, is de berekening *beschikbaar voor reservering* daarom onjuist. Dit heeft geen invloed op zachte reserveringen als de optie **ifCheckAvailForReserv** is uitgeschakeld in [de API voor zachte reservering](inventory-visibility-api.md#create-one-reservation-event).
+Het is niet toegestaan wijzigingen aan te brengen in de hoeveelheid WMS-artikelen die zijn opgeslagen in de gegevensbron van Supply Chain Management (`fno`). Dit gedrag komt overeen met het gedrag van andere functies van Voorraadzichtbaarheid. Deze beperking wordt afgedwongen om conflicten te voorkomen.
 
-Deze beperking is ook van toepassing op functies en aanpassingen die zijn gebaseerd op zachte reserveringen (zoals toewijzing).
+## <a name="wms-item-compatibility-for-other-functions-in-inventory-visibility"></a>Compatibiliteit van WMS-artikelen voor andere functies in Voorraadzichtbaarheid
+
+[Zachte reserveringen](inventory-visibility-reservations.md) en [voorraadtoewijzing](inventory-visibility-allocation.md) van WMS-artikelen worden ondersteund. U kunt aan WMS gerelateerde fysieke metingen opnemen in berekeningen voor zachte reserveringen en toewijzingen.
 
 ## <a name="calculate-available-to-promise-quantities"></a>Available to promise-hoeveelheden berekenen
 

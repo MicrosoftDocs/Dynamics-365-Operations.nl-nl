@@ -2,7 +2,7 @@
 title: Massale sluiting van financiële periode
 description: In dit artikel ziet u hoe u een periode in de wachtstand plaatst of definitief afsluit voor meer dan één rechtspersoon tegelijk.
 author: aprilolson
-ms.date: 08/16/2019
+ms.date: 11/16/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8a85d512842b27f2d74507be16a8f2819f483e0d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872436"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779805"
 ---
 # <a name="mass-financial-period-close"></a>Massale sluiting van financiële periode
 
@@ -26,7 +26,11 @@ ms.locfileid: "8872436"
 
 In dit artikel ziet u hoe u een periode in de wachtstand plaatst of definitief afsluit voor meer dan één rechtspersoon tegelijk. Daarnaast ziet u hoe u een gebruikersgroep kunt blokkeren voor het boeken naar specifieke modules.
 
-1. Ga in het navigatievenster naar **Grootboek > Afgesloten periode > Grootboekkalenders**. Merk op dat de getoonde lijst van rechtspersonen afhankelijk is van de fiscale kalender die is geselecteerd op de pagina. Alleen rechtspersonen die de geselecteerde fiscale kalender gebruiken, worden weergeven.
+1. Ga in het navigatievenster naar **Grootboek > Afgesloten periode > Grootboekkalenders**. 
+
+>[!NOTE]
+> De getoonde lijst van rechtspersonen is afhankelijk van de fiscale kalender die is geselecteerd op de pagina. Alleen rechtspersonen die de geselecteerde fiscale kalender gebruiken, worden weergeven.
+
 2. Selecteer **Bewerken**.
 3. Selecteer de periode waarvan u de status wilt wijzigen.
 4. Selecteer de rechtspersonen waarvan u de status wilt bijwerken. U kunt alle entiteiten snel selecteren door het selectievakje links boven in het raster in te schakelen.  
@@ -34,7 +38,7 @@ In dit artikel ziet u hoe u een periode in de wachtstand plaatst of definitief a
 6. Selecteer in de module **Toepassing** de module waarvan u de status wilt bijwerken. Klik op **Selecteren**.
 7. Selecteer bij **Toegangsniveau** een waarde: **Alle**, **Geen** of een specifieke gebruikersgroep. Klik op **Selecteren**.  
 - **Alle**: geeft aan dat alle gebruikers met bewerkingsmachtiging naar de module kunnen boeken als de periode is geopend. 
-- **Geen**: geeft aan dat gebruikers niet naar de module kunnen boeken als de periode open is. Een specifieke gebruikersgroep geeft aan dat alleen gebruikers in de groep naar de module mogen boeken als de periode is geopend.  
+- **Geen**: gebruikers kunnen niet naar de module boeken als de periode open is. Een specifieke gebruikersgroep geeft aan dat alleen gebruikers in de groep naar de module mogen boeken als de periode is geopend.  
 8. Selecteer **Bijwerken**. 
 9. Selecteer een andere periode waarvan u de status wilt bijwerken.
 10. Selecteer de rechtspersonen waarvan u de periodestatus wilt bijwerken.
