@@ -2,7 +2,7 @@
 title: Verlof- en verzuimtypen configureren
 description: Typen verlof instellen die werknemers kunnen aanvragen in Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 09/09/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,14 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: e35c5fed886ebf9a453c22b3e04ca9ffe50b6d70
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9323953"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805199"
 ---
 # <a name="configure-leave-and-absence-types"></a>Verlof- en verzuimtypen configureren
+
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,19 +43,25 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 1. Selecteer in de werkruimte **Verlof en verzuim** het tabblad **Koppelingen**.
 2. Selecteer onder **Instellingen** de optie **Verlof- en verzuimtypen**.
 3. Selecteer **Nieuw**.
-4. Voer een naam in voor het verloftype onder **Type**, selecteer een werkstroom bij **Werkstroom-id** en voer een beschrijving in onder **Beschrijving**.
+4. Voer een naam in voor het verloftype onder **Type**, voer een beschrijving in onder **Beschrijving** en selecteer een werkstroom in het veld **Werkstroom-id**. Selecteer op basis van het verloftype een aanvraagtype in het veld **Aanvraagtype**. U kunt bijvoorbeeld **Verlof** of **Verzuim** selecteren.
 5. Selecteer bij **Algemeen** de optie **Geen**, **Gepland** of **Ongepland** in de vervolgkeuzelijst **Categorie**.
 6. Selecteer een inkomstencode in de vervolgkeuzelijst **Inkomstencode**.
-7. Geef onder **Redencode vereist** aan of u een redencode wilt vereisen. Als u redencodes wilt vereisen, moet u deze mogelijk toevoegen. Selecteer onder **Redencodes** de optie **Toevoegen**, selecteer een redencode en schakel vervolgens het selectievakje **Ingeschakeld** hiernaast in.
-8. Kies onder **Toegang tot geselecteerde rollen beperken** of u de toegang wilt beperken. Selecteer vervolgens de beveiligingsrollen onder **Beveiligingsrollen voor dit verloftype**. De beveiligingsrollen worden gedefinieerd in de werkstroom die u onder **Werkstroom-id** eerder in deze procedure hebt geselecteerd.
-9. Kies onder **Agendakleur** welke kleur moet worden weergegeven agenda's voor verlof en verzuim voor dit verloftype. 
-10. Geef onder **Uitstelrelaties** op of u wilt dat dit verloftype een ander verloftype uitstelt of door een ander verloftype wordt uitgesteld. Wanneer een verlofaanvraag wordt ingediend voor het uitstellende verloftype, wordt er automatisch een verlofuitstel gemaakt voor het uitgestelde verloftype. 
-11. Selecteer **Opslaan**.
+7. Selecteer onder **Redencode vereist** of u een redencode verplicht wilt stellen. Als u redencodes wilt vereisen, moet u deze mogelijk toevoegen. Selecteer onder **Redencodes** de optie **Toevoegen**, selecteer een redencode en schakel vervolgens het selectievakje **Ingeschakeld** hiernaast in.
+8. Als het aanvraagtype **Verlof** is, voert u de volgende stappen uit:
+
+      1. Selecteer onder **Voor onbepaalde tijd** of gebruikers verloven voor onbepaalde tijd moeten kunnen maken.
+      2. Als **Voor onbepaalde tijd** is ingeschakeld, kunt u selecteren of werknemers een weer aan het werk-melding moeten indienen wanneer ze terugkeren van verlof.
+      3. Als werknemers een weer aan het werk-melding moeten indienen, kunt u **Weer aan het werk-melding inschakelen** activeren. Als **Weer aan het werk-melding inschakelen** is ingeschakeld, wordt **Bijlage vereist** automatisch ingeschakeld en kan deze niet worden uitgeschakeld.
+
+9. Als gebruikers documenten moeten uploaden wanneer ze verlofaanvragen maken of bijwerken, kunt u **Bijlage vereist** inschakelen.
+10. Selecteer onder **Toegang tot geselecteerde rollen beperken** of u de toegang wilt beperken. Selecteer vervolgens de beveiligingsrollen onder **Beveiligingsrollen voor dit verloftype**. De beveiligingsrollen worden gedefinieerd in de werkstroom die u onder **Werkstroom-id** eerder in deze procedure hebt geselecteerd.
+11. Selecteer onder **Agendakleur** de kleur die moet worden weergegeven in agenda's voor verlof en verzuim voor dit verloftype.
+11. Selecteer onder **Uitstelrelaties** of u wilt dat dit verloftype een ander verloftype uitstelt of door een ander verloftype wordt uitgesteld. Wanneer een verlofaanvraag wordt ingediend voor het uitstellende verloftype, wordt er automatisch een verlofuitstel gemaakt voor het uitgestelde verloftype.
+12. Selecteer **Opslaan**.
 
 ## <a name="configure-leave-type-rules"></a>Regels voor verloftypen configureren
 
 1. Stel afrondingsopties in voor het type **Verlof en verzuim**. De beschikbare opties zijn **Geen**, **Naar boven**, **Naar beneden** en **Dichtstbijzijnde**. U kunt ook een afrondingsprecisie instellen voor het verloftype.
-
 2. Stel **Feestdagcorrectie** in voor het verloftype. Wanneer u deze optie selecteert, wordt het aantal feestdagen dat op een werkdag valt, gebruikt om te bepalen hoe het verlof moet worden opgebouwd voor het verloftype. Als kerstdag bijvoorbeeld op een maandag valt, trekt Human Resources een dag af van het verloftype bij het verwerken van toerekeningen.
 
    U kunt feestdage instellen in de werktijdkalender. Zie [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md) voor meer informatie.
@@ -69,7 +77,7 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 
 1. Selecteer **Verlof- en verzuimtypen** op de pagina **Verlof en verzuim** op het tabblad **Koppelingen** onder **Instellingen**.
 
-2. Selecteer een verlof- en verzuimtype in de lijst. Gebruik vervolgens in de sectie **Algemeen** het veld **Bijlage vereist** om op te geven of een bijlage moet worden geüpload wanneer een werknemer een nieuwe verlofaanvraag voor het geselecteerde verloftype indient. 
+2. Selecteer een **verlof- en verzuimtype** in de lijst. Gebruik in de sectie **Algemeen** het veld **Bijlage vereist** om op te geven of een bijlage moet worden geüpload wanneer een werknemer een nieuwe verlofaanvraag voor het geselecteerde verloftype indient. 
 
 Werknemers moeten een bijlage uploaden wanneer ze een nieuwe verlofaanvraag indienen met een verloftype waarop het veld **Bijlage vereist** is ingeschakeld. Als u de bijlage wilt weergeven die als onderdeel van een verlofaanvraag is geüpload, kunnen de goedkeurders van verlofaanvragen de optie **Bijlagen** gebruiken voor de werkitems die aan hen zijn toegewezen. Als een verlofaanvraag wordt toegankelijk gemaakt via de app Human Resources in Microsoft Teams, kunt u de optie **Details weergeven** voor de verlofaanvraag gebruiken om de details en eventuele bijlagen weer te geven.
 

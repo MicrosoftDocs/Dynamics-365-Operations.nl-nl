@@ -570,6 +570,8 @@
               href: hr-leave-and-absence-suspend-leave.md
             - name: Verlofaanvraag
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Een verlof voor onbepaalde tijd maken
+              href: hr-create-open-leave-absence.md
             - name: Werknemerverlof beheren
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Analyses voor verlof en verzuim weergeven

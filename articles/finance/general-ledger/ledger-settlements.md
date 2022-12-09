@@ -2,7 +2,7 @@
 title: Grootboekvereffeningen
 description: In dit artikel wordt uitgelegd hoe u de grootboekvereffeningspagina gebruikt om grootboektransacties te vereffenen en vereffeningen om te keren.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902482"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800626"
 ---
 # <a name="ledger-settlements"></a>Grootboekvereffeningen
 
@@ -33,7 +33,7 @@ Vereffende transacties kunnen worden uitgesloten van onderzoeken en rapporten. O
 
 ## <a name="ledger-settlement-features"></a>Functies voor grootboekvereffening
 In Microsoft Dynamics 365 Finance versie 10.0.21 is de optie **Geavanceerde grootboekvereffening inschakelen** verwijderd van de pagina **Grootboekparameters**. Geavanceerde grootboekvereffening is nu altijd ingeschakeld.
-In Finance versie 10.0.25 is de functie **Bewustzijn tussen grootboekvereffening en jaarafsluiting van het grootboek** geïntroduceerd. Met deze functie wordt de basisfunctionaliteit in zowel grootboekvereffening als jaarafsluiting van het grootboek gewijzigd. Voordat u deze functie inschakelt in het werkgebied **Functiebeheer**, raadpleegt u [Bewustzijn tussen grootboekvereffening en jaarafsluiting van het grootboek](awareness-between-ledger-settlement-year-end-close.md).
+In Finance versie 10.0.25 is de functie **Bewustzijn tussen grootboekvereffening en jaarafsluiting van het grootboek** geïntroduceerd. Met deze functie wordt de basisfunctionaliteit in zowel grootboekvereffening als jaarafsluiting van het grootboek gewijzigd. Voordat u deze functie inschakelt in de werkruimte **Functiebeheer**, raadpleegt u [Bewustzijn tussen grootboekvereffening en jaarafsluiting van het grootboek](awareness-between-ledger-settlement-year-end-close.md).
 
 ## <a name="set-up-ledger-settlement"></a>Grootboekvereffening instellen
 U moet de hoofdrekeningen selecteren waarvoor u grootboekvereffening wilt uitvoeren. U kunt deze hoofdrekeningen op twee manieren selecteren.
@@ -90,7 +90,12 @@ U kunt een vereffening omkeren die ten onrechte is aangebracht.
     > [!IMPORTANT]
     > Alle transacties met dezelfde vereffenings-id worden omgekeerd, zelfs als ze niet zijn gemarkeerd. Er zijn bijvoorbeeld vier regels gemarkeerd en vereffend. Alle vier de regels hebben dezelfde vereffenings-id. Als u een van deze vier regels markeert en vervolgens **Gemarkeerde transacties omkeren** selecteert, worden alle vier de regels omgekeerd.
 
+## <a name="unmark-for-selected-users"></a>Markering opheffen voor geselecteerde gebruikers
+Schakel **Markering opheffen voor geselecteerde gebruikers** in om de markering van grootboekvereffende transacties voor alle rechtspersonen op gebruikers-id op te heffen. Hierdoor kan bijvoorbeeld een accounting manager de markering van transacties ongedaan maken voor een gebruiker die op vakantie is geweest voordat de vereffening is voltooid of voor een gebruiker die de organisatie heeft verlaten. De actie staat het markeringen van deze transacties toe voor vereffening door een andere gebruiker.
 
+
+## <a name="unmark-all-transactions"></a>De markering van alle transacties ongedaan maken
+Selecteer **De markering van alle transacties ongedaan maken** om de markering van alle grootboekvereffende transacties voor alle gebruikers en alle rechtspersonen op te heffen. Deze actie is beschikbaar voor de beheerdersrol.
 
 
 

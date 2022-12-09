@@ -2,7 +2,7 @@
 title: Het updateproces
 description: Microsoft Dynamics 365 Human Resources is echt software in de vorm van een service (SaaS) die voortdurende 'touchless' updates verzorgt met wijzigingen in toepassingen en platforms.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520805"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819291"
 ---
 # <a name="update-process"></a>Het updateproces
 
@@ -41,7 +41,7 @@ Er worden regelmatig updates uitgebracht voor alle omgevingen. Human Resources w
 
 Human Resources-updates worden automatisch op alle omgevingen toegepast. Human Resources biedt twee typen releases:
 
-- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Nieuwe of gewijzigde functies in Platformupdates](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md) voor meer informatie over platformreleases. Updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over updates.
+- **Service-updates**: service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Naast updates op basis van uitzonderingen vinden regelmatige service-updates plaats via de GA (General Availability) van Dynamics 365 Finance-platformupdates. Zie [Nieuwe of gewijzigde functies in Platformupdates](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md) voor meer informatie over platformreleases. Updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over updates.
 
 - **Dataverse-oplossingsupdates**: deze updates worden ongeveer om de zes weken uitgevoerd, indien nodig. Deze bevatten nieuwe entiteiten en wijzigingen in bestaande entiteiten in Dataverse. Deze updates worden in dezelfde regio's uitgebracht als de tweewekelijkse updates en het duurt ongeveer zes weken voordat ze door alle datacentra zijn gerepliceerd. Oplossingsupdates kunnen al dan niet samenvallen met tweewekelijkse service-updates.
 
@@ -56,16 +56,7 @@ Indien nodig biedt Human Resources ook de volgende typen oplossingen:
 
 Releases worden beoordeeld, getest en gevalideerd in een interne omgeving. Nadat de builds zijn afgemeld, worden ze geïmplementeerd voor productie.
 
-## <a name="release-cadence-exceptions-in-2021"></a>Uitzonderingen in releasetempo in 2021
-
-Om rekening te houden met feestdagen, is de releaseplanning voor november en december 2021 als volgt:
-
-- Release van november: 1 november - 14 november
-- Release van december: 29 november - 12 december
- 
-Her releasetempo van een keer per twee weken wordt op de gebruikelijke manier hervat op 10 januari 2022.
-
-## <a name="communications"></a>Berichtgeving
+## <a name="communications"></a>Communicatie
 
 Op de volgende locaties kunt u nagaan wat er is gepland voor Human Resources en wat we hebben uitgebracht:
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680352"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799621"
 ---
 # <a name="financial-dimensions"></a>Financiële dimensies
 
@@ -136,6 +136,12 @@ U kunt de segmenten en waarden van afgeleide dimensies instellen met behulp van 
 - Met de entiteit Afgeleide dimensiewaarde kunt u de waarden importeren die moeten worden afgeleid voor elke aansturende dimensie.
 
 Wanneer u een entiteit gebruikt om gegevens te importeren en er met die entiteit dimensies worden geïmporteerd, worden de afgeleide dimensieregels toegepast tijdens het importeren, tenzij de entiteit die dimensies specifiek overschrijft.
+
+## <a name="financial-dimension-service"></a>Service voor financiële dimensies
+
+De invoegtoepassing Service Financiële dimensie is beschikbaar in uw Microsoft Dynamics Lifecycle Services-omgeving. Deze biedt betere prestaties wanneer u het raamwerk voor Gegevensbeheer gebruikt om een journaal met een groot aantal regels te importeren. Als u de service wilt gebruiken, moet u deze inschakelen op de pagina **Parameters van de service Financiële dimensie**. Momenteel werkt de service alleen voor geïmporteerde journalen met 500 regels of meer. Bovendien kan het momenteel alleen algemene journalen verwerken waarin het rekeningtype **Grootboek** is ingesteld op de journaalregels. Andere rekeningtypen op journaalregels, zoals **Klant**, **Leverancier** en **Bank**, worden momenteel niet ondersteund. Deze service wordt niet aangeroepen wanneer afgeleide dimensies in het systeem worden ingesteld.
+
+De service Financiële dimensie biedt betere prestaties bij het importeren van journalen door een nieuwe service te gebruiken die parallel wordt uitgevoerd aan de gegevensimport. Deze wordt alleen uitgevoerd op de hoofdrekening- en financiële dimensiegegevens in het journaal en genereert de dimensiecombinaties die zijn opgegeven in het tekenreeksveld van de grootboekrekening in de journaalregels. Tijdens de verwerking wordt deze tekenreeks omgezet in de gestructureerde gegevensopslag die door het raamwerk van financiële dimensies in de rest van het product wordt gebruikt voor validatie, overzichtsrapportage en vragen. Zie [Financiële dimensiesets](financial-dimension-sets.md) voor meer informatie over overzichtsrapportages van gegevens van financiële dimensies.
 
 Zie de volgende onderwerpen voor meer informatie:
 

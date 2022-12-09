@@ -2,21 +2,21 @@
 title: Voorraadwaardenrapporten
 description: In dit artikel wordt uitgelegd hoe u voorraadwaardenrapporten instelt, genereert en gebruikt. Deze rapporten geven informatie over de fysieke en financiële hoeveelheden en bedragen in uw voorraad.
 author: JennySong-SH
-ms.date: 08/05/2022
+ms.date: 11/28/2022
 ms.topic: article
-ms.search.form: InventValueProcess, InventValueReportSetup
+ms.search.form: InventValueProcess, InventValueReportSetup, InventValueExecutionHistory, DataManagementWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6b21f6a7856526863914aac73d50e5c3a70605e8
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334920"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806401"
 ---
 # <a name="inventory-value-reports"></a>Voorraadwaardenrapporten
 
@@ -172,7 +172,7 @@ Nadat u een rapport hebt gegenereerd, kunt u het op elk gewenst moment weergeven
     - Gebruik het veld **Filteren** om het rapport te filteren op elke waarde in een of meer van de beschikbare kolommen.
     - Gebruik het weergavemenu (boven het veld **Filteren**) om uw favoriete combinaties van sorteer- en filteropties op te slaan en te laden.
 
-## <a name="export-an-inventory-value-report-storage-report"></a>Een rapport Opslag voor voorraadwaardenrapport exporteren
+## <a name="export-an-inventory-value-report-storage-report"></a><a name="export-stored-report"></a>Een rapport Opslag voor voorraadwaardenrapport exporteren
 
 Elk rapport dat u genereert wordt opgeslagen in gegevensentiteit **Voorraadwaarde**. U kunt de standaardfuncties voor gegevensbeheer van Supply Chain Management gebruiken om gegevens van deze entiteit te exporteren naar elke ondersteunde gegevensindeling, inclusief CSV of Excel.
 
@@ -203,6 +203,34 @@ In het volgende voorbeeld ziet u hoe een rapport **Opslag voor voorraadwaardenra
 1. Op de pagina **Uitvoeringsoverzicht** die wordt geopend, kunt u de status van uw exporttaak en een lijst met entiteiten zien die zijn geëxporteerd. Selecteer de entiteit **Voorraadwaarde** in de sectie **Verwerkingsstatus entiteit** en selecteer vervolgens **Bestand downloaden** om de geëxporteerde gegevens van die entiteit te downloaden.
 
 Zie [Overzicht van Gegevensimport- en exporttaken](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) voor meer informatie over het gebruik van gegevensbeheer voor het exporteren van gegevens.
+
+## <a name="delete-stored-inventory-value-reports"></a>Opgeslagen voorraadwaardenrapporten verwijderen
+
+Als het aantal opgeslagen voorraadwaarderapporten toeneemt, nemen ze mogelijk te veel ruimte in uw database in. Deze situatie kan de systeemprestaties beïnvloeden en hogere kosten voor gegevensopslag veroorzaken. Daarom zult u waarschijnlijk de rapporten van tijd tot tijd moeten opschonen door oudere rapporten te verwijderen.
+
+> [!IMPORTANT]
+> Voordat u een van uw eerder gegenereerde voorraadwaarderapporten verwijdert, raden we u sterk aan eerst [de rapporten te exporteren](#export-stored-report) en deze extern op te slaan, omdat u ze later misschien niet opnieuw kunt genereren. Deze beperking bestaat, omdat wanneer u een voorraadwaarderapport genereert, het systeem terugwaarts vanaf vandaag werkt en elke voorraadtransactierecord in omgekeerde volgorde verwerkt. Als u bij het genereren van een rapport probeert te ver terug te zoeken, kan het volume van de te verwerken transacties uiteindelijk zo groot worden dat er een time-out optreedt in het systeem voordat het genereren van het rapport kan worden voltooid. Hoe lang de periode in het verleden is waarvoor u nieuwe rapporten kunt genereren, is afhankelijk van het aantal voorraadtransacties in het systeem voor de relevante periode.
+
+### <a name="delete-one-report-at-a-time"></a>Eén rapport tegelijk verwijderen
+
+Volg deze stappen om één opgeslagen rapport tegelijk te verwijderen.
+
+1. [Exporteer het rapport](#export-stored-report) dat u wilt verwijderen en sla het op een externe locatie op voor toekomstige referentie.
+1. Ga naar **Kostenbeheer \> Query's en rapporten \> Rapport Opslag van voorraadwaarden**.
+1. Selecteer het te verwijderen rapport in het lijstvenster.
+1. Selecteer in het actievenster **Verwijderen**.
+1. Een waarschuwingsbericht herinnert u eraan om een back-up van gegenereerde rapporten te maken. Selecteer **Ja** als u gereed bent om de verwijdering uit te voeren.
+
+### <a name="delete-several-reports-at-the-same-time"></a>Verschillende rapporten tegelijk verwijderen
+
+Volg deze stappen om verschillende opgeslagen rapporten tegelijk te verwijderen.
+
+1. [Exporteer alle rapporten](#export-stored-report) die u wilt verwijderen en sla deze op een externe locatie op voor toekomstige referentie.
+1. Ga naar **Kostenbeheer \> Voorraadboekhouding \> Opschonen \> Voorraadwaardenrapport gegevens opschonen**.
+1. Selecteer in het dialoogvenster **Voorraadwaardenrapport gegevens opschonen**, in het veld **Voorraadwaarderapport verwijderen dat is uitgevoerd vóór**, de datum waarvóór alle voorraadwaarderapporten moeten worden verwijderd.
+1. Op het sneltabblad **Op te nemen records** kunt u extra filtervoorwaarden instellen om de reeks rapporten te beperken die worden verwijderd. Selecteer **Filter** om een standaard query-editor te openen, waarin u de eigenschappen van de te verwijderen rapporten kunt definiëren.
+1. Op het sneltabblad **Uitvoeren op de achtergrond** kunt u opgeven hoe, wanneer en hoe vaak de rapporten moeten worden verwijderd. De velden werken op dezelfde manier als bij andere typen [achtergrondtaken](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) in Supply Chain Management. U zult deze taak echter gewoonlijk handmatig uitvoeren wanneer dit nodig is.
+1. Selecteer **OK** om de opgegeven rapporten te verwijderen.
 
 ## <a name="generate-a-standard-inventory-value-report"></a>Een standaard voorraadwaardenrapport genereren
 

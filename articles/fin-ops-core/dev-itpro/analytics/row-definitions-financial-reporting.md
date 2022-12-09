@@ -2,7 +2,7 @@
 title: Rijdefinities in Ontwerper financiële rapporten
 description: Een rijdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van elke rij in een financieel rapport wordt gespecificeerd.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274688"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802440"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Rijdefinities in Ontwerper financiële rapporten
 
@@ -94,7 +94,7 @@ Wanneer u een balans hebt waarin de bedragen worden afgerond, zijn de totalen mo
 
 Als u afronding in een balans wilt aanpassen, volgt u deze stappen.
 
-1. Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+1. Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Klik in het menu **Bewerken** op **Afrondingscorrectie**.
 3. Voer in het dialoogvenster **Afrondingscorrecties** de volgende waarden in:
 

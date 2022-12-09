@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e7172dd56113de23d841fe59ed9785471e90ed1f
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: a5ef9aa6b67eb630713dd1f15b2ae49c358edae9
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779604"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804177"
 ---
 # <a name="set-up-postdated-checks"></a>Gepostdateerde cheques instellen
 
@@ -34,8 +34,8 @@ De rol van deze procedure is penningmeester. Bij deze procedure wordt het demobe
 ## <a name="set-up-postdated-checks"></a>Gepostdateerde cheques instellen
 1. Ga naar **Contanten en bankbeheer > Instellingen > Parameters voor kas- en bankbeheer**.
 2. Klik op het tabblad **Gepostdateerde cheques**.
-3. Schakel het selectievakje **Gepostdateerde cheques** inschakelen in of uit.
-4. Schakel het selectievakje **Journaalboekingen voor gepostdateerde cheques** uitvoeren in of uit.
+3. Schakel het selectievakje **Gepostdateerde cheques inschakelen** in of uit.
+4. Schakel het selectievakje **Journaalboekingen voor gepostdateerde cheques uitvoeren** in of uit.
 5. Geef in het veld **Aflossingsrekening voor uitgegeven cheques** de gewenste waarden op.
 6. Geef in het veld **Aflossingsrekening voor ontvangen cheques** de gewenste waarden op.
 7. Typ een waarde in het veld **Algemeen journaal voor aflossingstransacties**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07748c2dc41f6411add1d54589652baa7fc3fbb
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 95a79b3c391c15099aee0a8d34419e1cf48fafbc
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779433"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803986"
 ---
 # <a name="import-letter-of-credit"></a>Kredietbrief importeren
 
@@ -42,7 +42,10 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 10. Klik in de lijst op de koppeling in de geselecteerde rij.
 11. Voer in het veld **Boekhoudingsdatum** een datum in.
 12. In het veld **Leveringsdatum** voert u een datum in.
-    * Opmerking: het veld **Type bankdocument** moet de waarde **Kredietbrief** bevatten.  
+
+>[!Note] 
+>Het veld **Type bankdocument** moet de waarde **Kredietbrief** bevatten.  
+
 13. Klik op **OK**.
 14. Typ of selecteer een waarde in het veld **Artikelnummer**.
 15. Zoek en selecteer de gewenste record in de lijst.
@@ -97,7 +100,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 1. Klik in het actievenster op **Ontvangen**.
 2. Klik op **Productontvangstbon**.
 3. Typ een waarde in het veld **PurchParmTable_Num**.
-    * Selecteer het Verzendnummer dat samen met de verwijzing naar de kredietbrief werd gemaakt.  
+    * Selecteer het **verzendnummer** dat samen met de verwijzing naar de kredietbrief werd gemaakt.  
 4. Klik in de lijst op de koppeling in de geselecteerde rij.
 5. Typ een datum in het veld **Datum productontvangstbon**.
 6. Klik op **OK**.
@@ -108,7 +111,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 1. Ga naar **Contanten en bankbeheer > Kredietbrieven > Kredietbrief importeren en incasso importeren**.
 2. Zoek en selecteer de gewenste record in de lijst.
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
-    * Controleer de status van de Importkredietbrief.     
+    * Controleer de **status van de importkredietbrief**.     
 4. Sluit de pagina.
 5. Sluit de pagina.
 
@@ -152,7 +155,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 6. Voer een datum in het veld **Datum** in.
 7. Geef in het veld **Rekening** de gewenste waarden op.
 8. Klik op **Transacties vereffenen**.
-9. Vouw de sectie Totalen uit.
+9. Vouw de sectie **Totalen** uit.
 10. Selecteer een optie in het veld **Weergeven**.
     * Controleer of de velden **Bankdocumentnummer** en **Verzendnummer** zijn bijgewerkt.  
 11. Schakel het selectievakje **Markeren** in.
@@ -167,12 +170,12 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 1. Ga naar **Contanten en bankbeheer > Kredietbrieven > Kredietbrief importeren en incasso importeren**.
 2. Zoek en selecteer de gewenste record in de lijst.
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
-    * Controleer de status van de Importkredietbrief.   
+    * Controleer de **status van de importkredietbrief**.   
 4. Sluit de pagina.
 
 ## <a name="verify-the-bank-facility-limit-and-utilization-report"></a>De bankfaciliteitslimiet en het verbruikrapport controleren
 1. Ga naar **Contanten en bankbeheer > Query's en rapporten > Kredietbrieven of borgstellingen > Bankfaciliteiten en gebruik (rapport)**.
-2. Breid de sectie Op te nemen records uit.
+2. Vouw de sectie **Op te nemen records** uit.
 3. Klik op **Filter**.
     * Definieer het veld **Criteria** met de vereiste bankrekening.  
 4. Typ of selecteer een waarde in het veld **Criteria**.

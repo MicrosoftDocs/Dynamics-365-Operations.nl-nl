@@ -2,7 +2,7 @@
 title: Vereffeningsoverzicht voor gecentraliseerde betalingen
 description: In dit artikel wordt vereffening voor gecentraliseerde betalingen voor Microsoft Dynamics 365 Finance beschreven.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151157"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804221"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Vereffeningsoverzicht voor gecentraliseerde betalingen
 
@@ -84,11 +84,11 @@ Contantkortingen die tijdens het cross-company vereffeningsproces worden gegener
 
 Toleranties voor overbetaling, onderbetaling en afrondingsverschillen worden bepaald aan de hand van de rechtspersoon van de betaling voor overbetalingen en de rechtspersoon van de factuur voor onderbetalingen. Welke boekingsrekening wordt gebruikt, wordt bepaald door de instelling in het veld **Administratie voor contantkorting** op de  pagin **Klantparameters** voor klanten en het veld **Administratie voor contantkorting** op de pagina **Leverancierparameters** voor leveranciers.
 
--   Als de instelling voor beheer van contantkortingen Specifiek is, of als de instelling Flexibel is en de van toepassing zijnde contantkorting is geboekt op een andere rechtspersoon dan voor de overbetaling, wordt de automatische rekening voor Contantkorting van klant, Contantkorting van leverancier of Afronding in valuta voor boekhouding gebruikt. U kunt deze rekeningen opgeven op de pagina **Rekeningen voor automatische transacties**.
--   Als de instelling voor het beheer van contantkortingen Flexibel is en de contantkorting is geboekt in dezelfde rechtspersoon als de overbetaling (de rechtspersoon van de betaling en de rechtspersoon van de factuur zijn gelijk), wordt de rekening voor de contantkorting aangepast. Als een factuur voor 100,00 met een beschikbare contantkorting van 3,00 bijvoorbeeld wordt vereffend met een betaling van 98,00, wordt het contantkortingsbedrag gecorrigeerd met 1,00. Het nettokortingsbedrag is 2,00.
--   Als de instelling voor het beheer van contantkortingen Flexibel is, wordt de contantkorting geboekt in dezelfde rechtspersoon als de overbetaling en wordt de over- of onderbetaling vereffend met meerder facturen met contantkortingen, dan wordt de rekening voor contantkorting voor de laatste factuur aangepast.
+-   Als de instelling voor beheer van contantkortingen **Specifiek** is, of als de instelling **Flexibel** is en de van toepassing zijnde contantkorting is geboekt op een andere rechtspersoon dan voor de overbetaling, wordt de automatische rekening voor Contantkorting van klant, Contantkorting van leverancier of Afronding in valuta voor boekhouding gebruikt. U kunt deze rekeningen opgeven op de pagina **Rekeningen voor automatische transacties**.
+-   Als de instelling voor het beheer van contantkortingen **Flexibel** is en de contantkorting is geboekt in dezelfde rechtspersoon als de overbetaling (de rechtspersoon van de betaling en de rechtspersoon van de factuur zijn gelijk), wordt de rekening voor de contantkorting aangepast. Als een factuur voor 100,00 met een beschikbare contantkorting van 3,00 bijvoorbeeld wordt vereffend met een betaling van 98,00, wordt het contantkortingsbedrag gecorrigeerd met 1,00. Het nettokortingsbedrag is 2,00.
+-   Als de instelling voor het beheer van contantkortingen **Flexibel** is, wordt de contantkorting geboekt in dezelfde rechtspersoon als de overbetaling en wordt de over- of onderbetaling vereffend met meerder facturen met contantkortingen, dan wordt de rekening voor contantkorting voor de laatste factuur aangepast.
 
-Als voor de administratie voor contactkorting Flexibel is geselecteerd, zijn alleen in de volgende situaties niet-specifieke betalingsvereffeningsregels van toepassing:
+Als voor de administratie voor contactkorting **Flexibel** is geselecteerd, zijn alleen in de volgende situaties niet-specifieke betalingsvereffeningsregels van toepassing:
 -   Er is sprake van overbetaling.
 -   De overbetaling wordt vereffend met een of meer facturen met een contantkorting.
 -   De contantkorting wordt geboekd in dezelfde rechtspersoon als de overbetaling.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c3e9323c2011f7ca6ceb9926575d661c5269e22
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: 1c125369a5b2134759bf3650175276acf42b69e0
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135534"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802818"
 ---
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
@@ -56,7 +56,7 @@ De volgende voorbeelden zijn geldige rijcodes:
 
 ### <a name="reset-numeric-row-codes"></a>Numerieke rijcodes opnieuw instellen
 
-1. Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+1. Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Klik in het menu **Bewerken** op **Rijen opnieuw nummeren**.
 3. Geef in het dialoogvenster **Rijen opnieuw nummeren** nieuwe waarden op voor de beginrijcode en de verhogingswaarde van de rijcode. U kunt de numerieke rijcodes opnieuw instellen op waarden met gelijke tussenruimte. De rapportontwerper nummert echter alleen rijcodes opnieuw die met cijfers beginnen (bijvoorbeeld 130 of 246). Rijcodes die met letters beginnen (bijvoorbeeld INCOME\_93 of TP0693) worden niet opnieuw genummerd.
 
@@ -71,19 +71,19 @@ De omschrijvingscel biedt de omschrijving van de financiële gegevens in de rij 
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>De omschrijving voor een regel op een rapport toevoegen
 
-1. Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+1. Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Selecteer de cel **Omschrijving** en voer vervolgens de naam van de rapportrij in.
 3. Pas de opmaak toe.
 
 ### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Aanvullende tekst van een rapportagestructuur toevoegen aan de omschrijving
 
-1. Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+1. Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Geef de aanvullende tekstcode en elke andere tekst op in de juiste cel **Omschrijving**.
 3. Pas de opmaak toe.
 
 ### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>De aanvullende tekst beperken tot een specifieke rapportage-eenheid
 
-1. Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+1. Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Zoek de rij waar de aanvullende tekst moet worden gemaakt en dubbelklik vervolgens op de cel in de kolom **Gerelateerde formules/rijen/eenheden**.
 3. Selecteer een structuur in het dialoogvenster **Selectie van rapportage-eenheid** in het veld **Rapportagestructuur**.
 4. Vouw in het veld **Rapportage-eenheid voor beperking selecteren** de rapportagestructuur uit of samen en selecteer vervolgens een rapportage-eenheid.
@@ -227,7 +227,7 @@ Sorteercodes sorteren rekeningen of waarden, sorteren een werkelijk of budgetafw
 
 ### <a name="select-a-sorting-code"></a>Een sorteercode selecteren
 
-1. Klik in Report Designer op **Rijdefinities** en selecteer vervolgens de rijdefinitie die u wilt wijzigen.
+1. Klik in Report Designer op **Rijdefinities** en open vervolgens de rijdefinitie die u wilt wijzigen.
 2. Dubbelklik op de cel **Opmaakcode** en selecteer vervolgens een sorteercode.
 3. Geef in de cel **Gerelateerde formules/rijen/eenheden** het bereik op van te sorteren rijcodes. Om een bereik op te geven, voert u het volgende in: de eerste rijcode, een dubbelepunt (:) en de laatste rijcode. Voer bijvoorbeeld **160:490** in om op te geven dat het bereik van rij 160 tot rij 490 is.
 4. Voer in de cel **Kolombeperking** de letter in van de rapportkolom die voor het sorteren moet worden gebruikt.
@@ -239,21 +239,21 @@ Sorteercodes sorteren rekeningen of waarden, sorteren een werkelijk of budgetafw
 
 In het volgende voorbeeld worden de waarden in kolom D van het rapport gesorteerd in oplopende volgorde voor de rijen 160 tot en met 490. Daarnaast worden de absolute waarden in kolom G van het rapport gesorteerd in aflopende volgorde voor de rijen 610 tot en met 940.
 
-| Rijcode | Beschrijving                                         | Opmaakcode | Gerelateerde formules/rijen/eenheden | Normaal saldo | Kolombeperking | Koppeling naar financiële dimensies |
-|----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
-| 100      | Gesorteerd op maandelijkse afwijking in oplopende volgorde       | DES         |                             |                |                    |                              |
-| 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
-| 160      | Verkopen                                               |             |                             | C              |                    | 4100                         |
-| 190      | Verkoopretouren                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Rentebaten                                     |             |                             | C              |                    | 7000                         |
-| 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | In aflopende volgorde gesorteerd op absolute afwijking in jaar tot heden | DES         |                             |                |                    |                              |
-| 580      |                                                     | ASORTDESC   | 610:940                     |                | G                  |                              |
-| 610      | Verkoop                                               |             |                             | E              |                    | 4100                         |
-| 640      | Verkoopretouren                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Rentebaten                                     |             |                             | E              |                    | 7000                         |
+| Rijcode | Description                             | Opmaakcode | Gerelateerde formules/rijen/eenheden | Normaal saldo | Kolombeperking | Koppeling naar financiële dimensies |
+|----------|-----------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
+| 100      | Gesorteerd op maandelijkse afwijking in oplopende volgorde       | DES         |                |                |                    |                              |
+| 130      |                                        | SORT        | 160:490                     |                | D                  |                              |
+| 160      | Verkopen                                   |             |                             | C              |                    | 4100                         |
+| 190      | Verkoopretouren                        |             |                             |                |                    | 4110                         |
+|          | ...                             |             |                             |                |                    |                              |
+| 490      | Rentebaten              |             |                             | C              |                    | 7000                         |
+| 520      |                                     | DES         |                             |                |                    |                              |
+| 550      | In aflopende volgorde gesorteerd op absolute afwijking in jaar tot heden | DES         |             |                |                    |                              |
+| 580      |                              | ASORTDESC   | 610:940                     |                | G                  |                              |
+| 610      | Verkoop                     |             |                             | E              |                    | 4100                         |
+| 640      | Verkoopretouren                |             |                             |                |                    | 4110                         |
+|          | ...                       |             |                             |                |                    |                              |
+| 940      | Rentebaten               |             |                             | C              |                    | 7000                         |
 
 
 ## <a name="specify-a-format-override-cell"></a>Een cel voor opmaakopheffing opgeven
@@ -327,7 +327,7 @@ Het type moet de positieve waarde en daarna de negatieve waarde vertegenwoordige
 | 0,00%;(0,00%)                  | 123456,00% | (123456,00%) | 0,00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Een cel Normale saldo opgeven
-De cel **Normaal saldo** in een rijdefinitie bepaalt het teken van de bedragen in een rij. Als u het teken van een rij wilt omkeren of als het normale saldo van een rekening een krediet is, typt u een **C** in de cel **Normaal saldo** voor die rij. Report Designer keert het teken om in alle creditsaldorekeningen in die rij. Wanneer de rapportontwerper deze rekeningen converteert, verwijdert deze het debet-/creditkenmerk van alle bedragen, waardoor het berekenen van de totaalbedragen gemakkelijk wordt. Om bijvoorbeeld netto-inkomsten te berekenen, trekt u onkosten af van inkomsten. Doorgaans worden de rijen waarvan het totaal is berekend en de berekende rijen niet beïnvloed door een **C**-code. Het **XCR**-afdrukbeheer in de kolomdefinitie keert echter het teken om van elke rij die een **C** bevat in de kolom **Normaal saldo**. Deze opmaak is vooral belangrijk wanneer u alle ongunstige afwijkingen wilt weergeven als negatieve bedragen. Als een totaal of berekend cijfer het verkeerde teken heeft, typt u een **C** in de cel **Normaal saldo** voor de rij waar het teken moet worden omgekeerd.
+De cel **Normaal saldo** in een rijdefinitie bepaalt het teken van de bedragen in een rij. Als u het teken van een rij wilt omkeren of als het normale saldo van een rekening een krediet is, typt u een **C** in de cel **Normaal saldo** voor die rij. Report Designer keert het teken om in alle creditsaldorekeningen in die rij. Wanneer Report Designer deze rekeningen converteert, verwijdert deze het debet-/creditkenmerk van alle bedragen, waardoor het berekenen van de totaalbedragen gemakkelijk wordt. Om bijvoorbeeld netto-inkomsten te berekenen, trekt u onkosten af van inkomsten. Doorgaans worden de rijen waarvan het totaal is berekend en de berekende rijen niet beïnvloed door een **C**-code. Het **XCR**-afdrukbeheer in de kolomdefinitie keert echter het teken om van elke rij die een **C** bevat in de kolom **Normaal saldo**. Deze opmaak is vooral belangrijk wanneer u alle ongunstige afwijkingen wilt weergeven als negatieve bedragen. Als een totaal of berekend cijfer het verkeerde teken heeft, typt u een **C** in de cel **Normaal saldo** voor de rij waar het teken moet worden omgekeerd.
 
 ## <a name="specify-a-row-modifier-cell"></a>Een cel Rijmodificator opgeven
 De inhoud van de cel **Rijmodificator** in een rijdefinitie negeert de fiscale jaren, perioden en andere informatie die zijn opgegeven in de kolomdefinitie voor die rij. De geselecteerde modificator is van toepassing op elke rekening in de rij. U kunt elke rij wijzigen door een of meer van de volgende typen modificators te gebruiken:
@@ -386,7 +386,7 @@ Sommige boekhoudsystemen ondersteunen rekeningkenmerken en transactiekenmerken i
 De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financiële gegevens die in elke rij van een rapport moeten worden opgenomen. Deze cel bevat dimensiewaarden. Om het dialoogvenster **Dimensies** te openen, dubbelklikt u op de cel **Koppeling naar financiële dimensies**.
 
 > [!NOTE]
-> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. Als u informatie voor een rij wilt opgeven die al aanwezig is in de rijdefinitie, voegt u de informatie toe aan de cel **Koppeling naar financiële dimensies**. Om nieuwe rijen toe te voegen die naar de financiële gegevens koppelen, gebruikt u het dialoogvenster **Rijen invoegen van** om nieuwe rijen in de rapportdefinitie te maken. De kolomtitel wijzigt, afhankelijk van hoe de kolom is geconfigureerd, zoals weergegeven in de volgende tabel.
+> Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics 365 Finance-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. Als u informatie voor een rij wilt opgeven die al aanwezig is in de rijdefinitie, voegt u de informatie toe aan de cel **Koppeling naar financiële dimensies**. Om nieuwe rijen toe te voegen die naar de financiële gegevens koppelen, gebruikt u het dialoogvenster **Rijen invoegen van** om nieuwe rijen in de rapportdefinitie te maken. De kolomtitel wijzigt, afhankelijk van hoe de kolom is geconfigureerd, zoals weergegeven in de volgende tabel.
 
 | Koppelingstype dat is ingeschakeld       | De omschrijving van de Koppelingskolom wijzigt hiernaar |
 |----------------------------------|----------------------------------------------------|
@@ -423,32 +423,32 @@ Wanneer u een natuurlijke segmentwaarde invoert in het dialoogvenster **Dimensie
 U kunt een bereik opgeven van segmentwaarden of dimensiewaarden. Het voordeel van het opgeven van een bereik is dat u de rijdefinitie niet hoeft bij te werken telkens wanneer een nieuwe segmentwaarde of dimensiewaarde aan de financiële gegevens wordt toegevoegd. Bijvoorbeeld, het bereik **+Account=\[6100:6900\]** trekt de waarden van rekeningen 6100 tot en met 6900 in het rijbedrag. Wanneer een bereik een jokerteken (?) bevat, evalueert de rapportontwerper het bereik niet teken per teken. In plaats daarvan worden de lage en hoge uiteinden van het bereik bepaald en worden vervolgens de eindwaarden en alle waarden daartussen opgenomen.
 
 > [!NOTE]
-> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
+> Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics 365 Finance-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Bereiken met meerdere segmenten of meerdere dimensies
 
 Wanneer u een bereik invoert door combinaties van meerdere dimensiewaarden te gebruiken, wordt de bereikvergelijking ..\\financial-dimensions\\dimensie voor dimensie uitgevoerd. De bereikvergelijking kan niet teken per teken of op basis van een gedeeltelijke segment worden uitgevoerd. Het bereik **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** bevat bijvoorbeeld alleen de rekeningen die overeenkomen met elk segment. In dit scenario moet de eerste dimensie in het bereik van 5000 tot en met 6000 zijn, de tweede dimensie in het bereik van 1000 tot en met 2000 en moet de laatste dimensie 00 zijn. Zo wordt bijvoorbeeld **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** niet in het rapport opgenomen, omdat het laatste segment buiten het opgegeven bereik ligt. Als een segmentwaarde spaties bevat, plaatst u die waarde tussen vierkante haakjes (\[ \]). De volgende waarden zijn geldig voor een segment met vier tekens: **\[ 234\], \[123 \], \[1 34\]**. Dimensiewaarden moeten tussen vierkante haakjes (\[ \]) worden geplaatst. Report Designer voegt deze haakjes voor u toe. Wanneer een bereik met meerdere segmenten of meerdere dimensies jokertekens (? of \*) bevat, worden de hoge en lage uiteinden van het hele bereik met meerdere segmenten of meerdere dimensies bepaald en worden de eindwaarden en alle waarden daartussen opgenomen. Als u een groot bereik hebt, zoals de hele reeks rekeningen van 40000 tot en met 99999, moet u waar mogelijk een geldige eerste rekening en laatste rekening opgeven.
 
 > [!NOTE] 
-> Report Designer kan geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
+> Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics 365 Finance-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }. U kunt een en-teken (&) alleen toevoegen wanneer u automatisch rijdefinities samenstelt via het dialoogvenster **Rijen invoegen van dimensies**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Optellen bij en aftrekken van andere rekeningen in een rijdefinitie
 Om de monetaire bedragen in één rekening op te tellen bij of af te trekken van de monetaire bedragen in een andere rekening, kunt u het plusteken (+) en het minteken (-) in de cel **Koppeling naar financiële dimensies** gebruiken. De volgende tabel geeft acceptabele notaties weer voor het optellen bij en aftrekken van koppelingen naar financiële gegevens.
 
-| Bewerking                                                                               | Deze opmaak gebruiken                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Voeg twee volledig gekwalificeerd rekeningen toe.                                                       | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
-| Voeg twee segmentwaarden toe.                                                                 | +Account=\[1205\]+Account=\[1210\]                                                                           |
-| Voeg segmentwaarden toe die jokertekens bevatten.                                    | +Account=\[120?+Account=\[11??\]                                                                             |
-| Voeg een bereik van volledig gekwalificeerd rekeningen toe.                                                | +Division=\[000:100\], Account=\[1205\], Department=\[00\]                                                   |
-| Voeg een bereik van segmentwaarden toe.                                                          | +Account=\[1200:1205\]                                                                                       |
-| Voeg een bereik van segmentwaarden toe die jokertekens bevatten.                         | +Account=\[120?:130?\]                                                                                       |
+| Bewerking                                            | Deze opmaak gebruiken                                                                                              |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Voeg twee volledig gekwalificeerd rekeningen toe.      | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
+| Voeg twee segmentwaarden toe.                    | +Account=\[1205\]+Account=\[1210\]                                                                           |
+| Voeg segmentwaarden toe die jokertekens bevatten.  | +Account=\[120?+Account=\[11??\]                                                                     |
+| Voeg een bereik van volledig gekwalificeerd rekeningen toe.              | +Division=\[000:100\], Account=\[1205\], Department=\[00\]                                           |
+| Voeg een bereik van segmentwaarden toe.                | +Account=\[1200:1205\]                                                                                       |
+| Voeg een bereik van segmentwaarden toe die jokertekens bevatten.         | +Account=\[120?:130?\]                                                           |
 | Trek één volledig gekwalificeerde rekening af van een andere volledig gekwalificeerde rekening.              | +Division=\[000\], Account=\[1205\], Department=\[00\]-Division=\[100\], Account=\[1205\], Department=\[00\] |
-| Trek één segmentwaarde van een andere segmentwaarde af.                                  | +Account=\[1205\]-Account=\[1210\]                                                                           |
-| Trek een segmentwaarde af die een jokerteken van een andere segmentwaarde bevat. | +Account=\[1200\]-Account=\[11??\]                                                                           |
-| Trek een bereik van volledig gekwalificeerd rekeningen af.                                           | -Division=\[000:100\], Account=\[1200:1205\], Department=\[00:01\]                                           |
-| Trek een bereik van segmentwaarden af.                                                     | -Account=\[1200:1205\]                                                                                       |
-| Trek een bereik van segmentwaarden af die jokertekens bevatten.                    | -Account=\[120?:130?\]                                                                                       |
+| Trek één segmentwaarde van een andere segmentwaarde af.          | +Account=\[1205\]-Account=\[1210\]                                                               |
+| Trek een segmentwaarde af die een jokerteken van een andere segmentwaarde bevat. | +Account=\[1200\]-Account=\[11??\]                                        |
+| Trek een bereik van volledig gekwalificeerd rekeningen af.                               | -Division=\[000:100\], Account=\[1200:1205\], Department=\[00:01\]                   |
+| Trek een bereik van segmentwaarden af.                   | -Account=\[1200:1205\]                                                                                       |
+| Trek een bereik van segmentwaarden af die jokertekens bevatten.                    | -Account=\[120?:130?\]                                               |
 
 Hoewel u de rekeningen rechtstreeks kunt wijzigen, kunt u ook het dialoogvenster **Dimensies** gebruiken om de juiste opmaak toe te passen op uw koppelingen naar financiële gegevens. Alle waarden mogen jokertekens bevatten (? of \*). Report Designer kan echter geen rekeningen, dimensies of velden uit het Microsoft Dynamics ERP-systeem selecteren die een van de volgende gereserveerde tekens bevatten: &, \*, \[, \], { of }.
 
@@ -485,7 +485,7 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 
 ### <a name="create-a-set-of-dimension-values"></a>Een set van dimensiewaarden maken
 
-1. Open in Report Designer de rij, kolom of structuur die u wilt wijzigen.
+1. Open in Report Designer de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
 2. Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3. Selecteer in het dialoogvenster **Sets van dimensiewaarden beheren**, in het veld **Dimensie** het type van set van dimensiewaarden dat uw wilt maken en klik vervolgens op **Nieuw**.
 4. Voer in het dialoogvenster **Nieuw** een naam en een beschrijving in voor de set.
@@ -497,7 +497,7 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 
 ### <a name="update-a-set-of-dimension-values"></a>Een set dimensiewaarden bijwerken
 
-1. Open in Rapportontwerper de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
+1. Open in Report Designer de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
 2. Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3. Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
 4. Selecteer in de lijst de set van dimensiewaarden die u wilt bijwerken en klik vervolgens op **Wijzigen**.
@@ -511,7 +511,7 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 
 ### <a name="copy-a-dimension-set"></a>Een dimensieset kopiëren
 
-1. Open in Report Designer de rij, kolom of structuur die u wilt wijzigen.
+1. Open in Report Designer de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
 2. Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3. Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
 4. Selecteer de te kopiëren set in de lijst en klik vervolgens op **Opslaan als**.
@@ -519,7 +519,7 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 
 ### <a name="delete-a-dimension-set"></a>Een dimensiegroep verwijderen
 
-1. Open in Rapportontwerper de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
+1. Open in Report Designer de rij-, kolom- of rapporteringsstructuurdefinitie die u wilt wijzigen.
 2. Klik in het menu **Bewerken** op **Sets van dimensiewaarden beheren**.
 3. Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
 4. Selecteer de groep die u wilt verwijderen en klik op **Verwijderen**. Klik op **Ja** als u de dimensiewaardegroep permanent wilt verwijderen.

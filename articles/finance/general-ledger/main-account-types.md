@@ -2,7 +2,7 @@
 title: Hoofdrekeningtypen
 description: De typen hoofdrekeningen bepalen hoe een hoofdrekening wordt gebruikt in het rekeningschema.
 author: aprilolson
-ms.date: 01/11/2018
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2b260478592c3a49a78ede5921403a96c702e98
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0f5611cdb3427079e040d30d97dbc91fca4bb078
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716854"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799349"
 ---
 # <a name="main-account-types"></a>Hoofdrekeningtypen
 
@@ -28,11 +28,11 @@ ms.locfileid: "8716854"
 
 De typen hoofdrekeningen bepalen hoe een hoofdrekening wordt gebruikt in het rekeningschema.
 
-U moet een type hoofdrekening selecteren wanneer u een hoofdrekening maakt op de pagina Hoofdrekeningen - rekeningschema.
--   Winst en verlies, Inkomsten en Onkosten - Deze hoofdrekeningen worden gebruikt als boekingsrekeningen. Winst-en-verliesrekeningen worden gebruikt voor het vastleggen van opbrengsten en onkosten. De som van alle winst- en verlies-, inkomsten- en onkostenrekeningen bepaalt de eindejaarsresultaten. Opbrengst- en onkostenrekeningen hebben dezelfde functie als winst-en-verliesrekeningen.
--   Balans, Activa, Passiva en Eigen vermogen – Deze hoofdrekeningen worden gebruikt als transactierekeningen voor het registreren van de bedragen die een rechtspersoon bezit of verschuldigd is.
--   Totaal – Deze hoofdrekeningen worden gebruikt om rekeningintervallen toe te voegen. U kunt de hoofdrekening van het type Totaal configureren door de pagina Rekeninginterval te gebruiken, die het totaal van de groepssaldi voor alle rekeningintervallen weergeeft. Open de pagina Rekeninginterval door op Totalen te klikken op het tabblad Algemeen wanneer u een rekeningtype Totaal hebt geselecteerd.
--   Rapportage – Deze hoofdrekeningen worden gebruikt voor het rapporteren van het financiële overzicht, alleen voor Brazilië.
+U moet een type hoofdrekening selecteren wanneer u een hoofdrekening maakt op de pagina **Hoofdrekeningen - rekeningschema**.
+-   **Winst en verlies**, **Inkomsten** en **Onkosten** - Deze hoofdrekeningen worden gebruikt als boekingsrekeningen. **Winst-en-verliesrekeningen** worden gebruikt voor het vastleggen van opbrengsten en onkosten. De som van alle winst- en verlies-, inkomsten- en onkostenrekeningen bepaalt de eindejaarsresultaten. **Opbrengst-** en **onkostenrekeningen** hebben dezelfde functie als **winst-en-verliesrekeningen**.
+-   **Balans**, **Activat**, **Passiva** en **Eigen vermogen** – Deze hoofdrekeningen worden gebruikt als transactierekeningen voor het registreren van de bedragen die een rechtspersoon bezit of verschuldigd is.
+-   **Totaal** – Deze hoofdrekeningen worden gebruikt om rekeningintervallen toe te voegen. U kunt de hoofdrekening van het type **Totaal** configureren door de pagina **Rekeninginterval** te gebruiken, die het totaal van de groepssaldi voor alle rekeningintervallen weergeeft. Open de pagina **Rekeninginterval** door **Totalen** te selecteren op het tabblad **Algemeen** nadat een rekeningtype **Totaal** is geselecteerd.
+-   **Rapportage** – Deze hoofdrekeningen worden gebruikt voor het rapporteren van het financiële overzicht, alleen voor Brazilië.
 
 Zie voor meer informatie [Categorieën van hoofdrekening instellen](tasks/set-up-main-account-categories.md).
 

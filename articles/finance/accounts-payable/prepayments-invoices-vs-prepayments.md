@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715824"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804258"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Vooruitbetalingsfacturen versus vooruitbetalingen
 
@@ -65,12 +65,13 @@ Er moet een vooruitbetalingsrekening worden gedefinieerd op het tabblad **Inkoop
 
 De totaalrekening voor verrekening voor crediteuren wordt gedefinieerd in het **boekingsprofiel van leveranciers**. Als u het standaardboekingsprofiel wilt definiëren, klikt u op **Leveranciers \>Instellingen \> Parameters van module Leveranciers \>tabblad Grootboek en btw \> Boekingsprofiel met leveranciersfactuur voor vooruitbetaling**.
 
-Het **beleid voor aanbetalingsaanvragen** geeft aan of het systeem vereffende vooruitbetalingsfacturen automatisch toepast op de eindfactuur die handmatig is gemaakt. Facturen die worden gemaakt met behulp van een gegevensentiteit, verwijzen niet naar het **beleid voor aanbetalingsaanvragen**. U moet vereffende vooruitbetalingsfacturen handmatig toepassen op facturen die zijn gemaakt met behulp van een gegevensentiteit. Als u het beleid wilt definiëren, gaat u naar **Leveranciers \>Instellingen \> Parameters van module Leveranciers \> tabblad Grootboek en btw \> Beleid voor aanbetalingsaanvragen**. Als het veld **Beleid voor aanbetalingsaanvragen** is ingesteld op **Automatisch**, wordt de vooruitbetalingsfactuur automatisch gemarkeerd voor vereffening met de eindfactuur. Als het veld is ingesteld op **Melding**, wordt een visuele indicatie weergegeven dat een vooruitbetalingsfactuur kan worden aangevraagd wanneer de eindfactuur wordt gemaakt.
+Het **beleid voor aanbetalingsaanvragen** geeft aan of vereffende vooruitbetalingsfacturen automatisch worden toegepast op de eindfactuur die handmatig is gemaakt. Facturen die worden gemaakt met behulp van een gegevensentiteit, verwijzen niet naar het **beleid voor aanbetalingsaanvragen**. U moet vereffende vooruitbetalingsfacturen handmatig toepassen op facturen die zijn gemaakt met behulp van een gegevensentiteit. Als u het beleid wilt definiëren, gaat u naar **Leveranciers \>Instellingen \> Parameters van module Leveranciers \> tabblad Grootboek en btw \> Beleid voor aanbetalingsaanvragen**. Als het veld **Beleid voor aanbetalingsaanvragen** is ingesteld op **Automatisch**, wordt de vooruitbetalingsfactuur automatisch gemarkeerd voor vereffening met de eindfactuur. Als het veld is ingesteld op **Melding**, wordt een visuele indicatie weergegeven dat een vooruitbetalingsfactuur kan worden aangevraagd wanneer de eindfactuur wordt gemaakt.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Een inkooporder maken die vooruitbetalingsfactuurgegevens bevat
 Wanneer een leverancier u vertelt dat ze een aanbetaling willen ontvangen voor goederen en services op een inkooporder, moet u de vooruitbetalingswaarde voor de gekoppelde inkooporder definiëren. Ga naar **Leveranciers \> Algemeen \> Inkooporders \> Alle inkooporders** en zoek de inkooporder van de leverancier. Selecteer het tabblad **Inkoop** in het actievenster en selecteer **Vooruitbetaling**. Voer gegevens in voor de vooruitbetaling, waaronder een beschrijving, de waarde van de vooruitbetaling, of de vooruitbetaling een vast bedrag of een percentage is en een categorie-id voor de vooruitbetaling. 
 
-U kunt niet meerdere vooruitbetalingen definiëren in een inkooporder. Als u meerdere vooruitbetalingen in een inkooporder wilt toestaan, boekt u de betalingen met behulp van het betalingsjournaal in plaats van een vooruitbetalingsfactuur.
+> [!Note] 
+> U kunt niet meerdere vooruitbetalingen definiëren in een inkooporder. Als u meerdere vooruitbetalingen in een inkooporder wilt toestaan, boekt u de betalingen met behulp van het betalingsjournaal in plaats van een vooruitbetalingsfactuur.
 
 De vooruitbetaling kan uit de inkooporder worden verwijderd, tenzij u al een betaling hebt vereffend met de geboekte vooruitbetalingsfactuur of de standaardfactuur hebt geboekt. Als u vooruitbetalingsgegevens uit de inkooporder wilt verwijderen, selecteert u **Leveranciers \> Algemeen \> Inkooporders \> Alle inkooporders** en zoekt u de inkooporder van de leverancier. Selecteer het tabblad **Inkoop** in het actievenster en selecteer **Vooruitbetaling verwijderen**.
 

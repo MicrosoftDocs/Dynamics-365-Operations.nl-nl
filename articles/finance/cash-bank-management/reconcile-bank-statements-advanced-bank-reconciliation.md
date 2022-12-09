@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151339"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803905"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Bankafschriften afstemmen via geavanceerde bankafstemming
 
@@ -37,7 +37,10 @@ U kunt een bankafschrift uploaden dat informatie bevat voor één rekening of vo
 -   Als u een enkel bankafschriftbestand wilt importeren voor een enkele rekening, stelt u de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Nee** en selecteert u de bankrekening die is gekoppeld aan het afschrift. Klik op **Bladeren** om het bijbehorende bankafschriftbestand te selecteren en klik vervolgens op **Uploaden**.
 -   Als u een enkel bankafschriftbestand wilt importeren voor meerdere rekeningen, stelt u de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Ja**. Klik op **Bladeren** om het bijbehorende bankafschriftbestand te selecteren en klik vervolgens op **Uploaden**.
 
-Als afschriften in het elektronisch bestand niet aan een bankrekening kunnen worden gekoppeld, of als een afschrift is gekoppeld aan meerdere bankrekeningen door middel van de identificatievelden, worden deze niet geïmporteerd. Andere afschriften in het bestand kunnen echter nog wel worden geïmporteerd. De gebruiker ontvangt een bericht waarin wordt gemeld dat het importeren van bankafschriften voor specifieke bankrekeningen niet is geslaagd. Let erop dat de gebruiker die het bankafschriftbestand importeert, toegang tot een rechtspersoon moet hebben om afschriften voor de bankrekeningen van die rechtspersoon te kunnen importeren. 
+Als afschriften in het elektronisch bestand niet aan een bankrekening kunnen worden gekoppeld, of als een afschrift is gekoppeld aan meerdere bankrekeningen door middel van de identificatievelden, worden deze niet geïmporteerd. Andere afschriften in het bestand kunnen echter nog wel worden geïmporteerd. De gebruiker ontvangt een bericht waarin wordt gemeld dat het importeren van bankafschriften voor specifieke bankrekeningen niet is geslaagd. 
+
+>[!Note] 
+>De gebruiker die het bankafschriftbestand importeert, moet toegang tot een rechtspersoon hebben om afschriften voor de bankrekeningen van die rechtspersoon te kunnen importeren. 
 
 U kunt ook door middel van een zip-bestand in één proces meerdere afschriftbestanden uploaden naar Finance. Als u wilt meerdere bankafschriftbestanden wilt importeren voor meerdere rekeningen, combineert u alle bankafschriftbestanden in één zipbestand. Stel in het dialoogvenster **Bankafschriften importeren** de optie **Afschrift importeren voor meerdere bankrekeningen in alle rechtspersonen** in op **Ja**. Klik op **Bladeren** om het zip-bestand te selecteren dat de bankafschriftbestanden bevat en klik vervolgens op **Uploaden**. Het importproces herkent het zip-bestand en uploadt alle afschriften daaruit, ongeacht de rechtspersoon waaraan de bankrekening is gekoppeld.
 

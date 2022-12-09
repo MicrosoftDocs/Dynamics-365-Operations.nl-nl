@@ -1929,6 +1929,8 @@
                   href: master-planning/planning-optimization/ddmrp-planning.md
                 - name: Visuele en op samenwerking gerichte uitvoering
                   href: master-planning/planning-optimization/ddmrp-visual-and-collaborative-execution.md
+                - name: Veelgestelde vragen over DDMRP
+                  href: master-planning/planning-optimization/ddmrp-faqs.md
             - name: Verouderde planningsengine
               items:
                 - name: Overzicht van verouderde planningsengine

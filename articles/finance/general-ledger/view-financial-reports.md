@@ -2,7 +2,7 @@
 title: Financiële rapporten weergeven
 description: In dit artikel wordt beschreven hoe u financiële rapporten in Microsoft Dynamics 365 Finance kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907887"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802386"
 ---
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
@@ -31,7 +31,7 @@ In dit artikel wordt beschreven hoe u financiële rapporten kunt bekijken en ver
 ## <a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
 
 ## <a name="open-a-financial-report"></a>Een financieel rapport openen
-Als u een rapport wilt openen, selecteert u de rapportnaam. De eerste keer dat een rapport wordt geopend, wordt het automatisch gegenereerd voor de vorige maand. Als u bijvoorbeeld een rapport voor de eerste keer opent in augustus 2015, wordt het rapport gegenereerd voor 31 juli 2015. Nadat een rapport is geopend, kunt u beginnen met het verkennen ervan door in te zoomen op specifieke gegevensitems en rapportopties te wijzigen.
+Als u een rapport wilt openen, selecteert u de rapportnaam. De eerste keer dat een rapport wordt geopend, wordt het automatisch gegenereerd voor de vorige maand. Als u bijvoorbeeld een rapport voor de eerste keer opent in augustus 2020, wordt het rapport gegenereerd voor 31 juli 2020. Nadat een rapport is geopend, kunt u beginnen met het verkennen ervan door in te zoomen op specifieke gegevensitems en rapportopties te wijzigen.
 
 ## <a name="drill-down-on-a-financial-report"></a>Inzoomen op een financieel rapport
 Financiële rapporten kunnen meerdere detailniveaus bevatten. Het financiële niveau is het eerste niveau dat u ziet wanneer u een financieel rapport opent. Als u naar het rekeningniveau wilt gaan, selecteert u de gegevens waarop u wilt inzoomen. Als u bijvoorbeeld de rekeningdetails voor verkoop wilt weergeven, selecteert u de verkoopgegevens die u wilt bekijken. Via het rekeningniveau kunt u inzoomen om de transacties weer te geven waaruit het rekeningsaldo bestaat. Er zijn twee manieren om transacties weer te geven: rapporttransacties en boekstuktransacties.
@@ -46,12 +46,12 @@ U kunt kenmerk- en dimensiefilters toepassen of het budgetscenario wijzigen in e
 
 -   Als u kenmerkfilters op een rapport wilt toepassen, selecteert u **Een kenmerkfilter toevoegen** Selecteer het kenmerk, typ de kenmerkwaarde en klik vervolgens op **OK**. Als u bijvoorbeeld het kenmerk **Rekeningcategorie** selecteert, voert u **VERKOOP** als de kenmerkwaarde in. Als u een kenmerkfilter wilt verwijderen, klikt u op **Wissen**.
 -   Als u dimensiefilters op een rapport wilt toepassen, selecteert u **Een dimensiefilter toevoegen**. Selecteer de dimensie en typ vervolgens de dimensie-ID of selecteer de dimensie in de lijst. Als u een dimensiefilter wilt verwijderen, klikt u op **Wissen**.
--   Als u het scenario in een rapport **Werkelijk versus budget**-rapport wilt wijzigen, selecteert u een nieuw scenario en klikt u vervolgens op **OK**. Als het geselecteerde scenario voor een ander boekjaar geldt, worden er geen resultaten geretourneerd. Als er bijvoorbeeld een rapport wordt gegenereerd voor BJ2015 en het huidige scenario voor BJ2015 is en het nieuwe scenario is geselecteerd voor BJ2016, worden er geen resultaten geretourneerd. Als er een nieuw scenario voor een ander boekjaar nodig is, moet u een nieuwe versie van het rapport genereren voor het boekjaar dat is gerelateerd aan het scenario.
+-   Als u het scenario in een rapport **Werkelijk versus budget**-rapport wilt wijzigen, selecteert u een nieuw scenario en klikt u vervolgens op **OK**. Als het geselecteerde scenario voor een ander boekjaar geldt, worden er geen resultaten geretourneerd. Als er bijvoorbeeld een rapport wordt gegenereerd voor BJ2015 en het huidige scenario voor BJ2020 is en het nieuwe scenario is geselecteerd voor BJ2016, worden er geen resultaten geretourneerd. Als er een nieuw scenario voor een ander boekjaar nodig is, moet u een nieuwe versie van het rapport genereren voor het boekjaar dat is gerelateerd aan het scenario.
 
 Wanneer u klikt op **OK**, worden alle door u geselecteerde opties toegepast op het rapport. Als u besluit dat u de geselecteerde opties niet wilt toepassen, klikt op **Annuleren**.
 
 ## <a name="update-a-financial-report"></a>Een financieel rapport bijwerken
-U kunt een financieel rapport vernieuwen (bijwerken) zodat het de meest recente gegevens voor de periode en het jaar bevat waarvoor het rapport is gegenereerd. Als u bijvoorbeeld een financieel rapport bijwerkt dat voor oktober 2015 is gegenereerd, worden in het rapport alle nieuwe transacties weergegeven die voor oktober 2015 zijn geboekt. Als u een financieel rapport wilt bijwerken, klikt u in het actievenster op **Vernieuwen**. Een bijgewerkte rapport is alleen beschikbaar voor de persoon die het heeft bijgewerkt. Om ervoor te zorgen dat andere mensen dezelfde gegevens kunnen zien, moet het rapport worden gepubliceerd.
+U kunt een financieel rapport vernieuwen (bijwerken) zodat het de meest recente gegevens voor de periode en het jaar bevat waarvoor het rapport is gegenereerd. Als u bijvoorbeeld een financieel rapport bijwerkt dat voor oktober 2020 is gegenereerd, worden in het rapport alle nieuwe transacties weergegeven die voor oktober 2020 zijn geboekt. Als u een financieel rapport wilt bijwerken, klikt u in het actievenster op **Vernieuwen**. Een bijgewerkte rapport is alleen beschikbaar voor de persoon die het heeft bijgewerkt. Om ervoor te zorgen dat andere mensen dezelfde gegevens kunnen zien, moet het rapport worden gepubliceerd.
 
 ## <a name="publish-a-financial-report"></a>Een financieel rapport publiceren
 Nadat u een financieel rapport hebt bijgewerkt, kunt u het publiceren. Andere personen in de organisatie kunnen het dan weergeven. Als u een rapport wilt publiceren, klikt u in het actievenster op **Publiceren**.

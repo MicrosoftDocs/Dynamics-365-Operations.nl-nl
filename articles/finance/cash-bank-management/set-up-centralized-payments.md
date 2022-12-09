@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715635"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804042"
 ---
 # <a name="set-up-centralized-payments"></a>Gecentraliseerde betalingen instellen
 
@@ -34,7 +34,10 @@ Voer de volgende stappen uit ter voorbereiding van het verwerken van betalingen 
 -   Stel intercompany-boekhouding in.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Een organisatiehiërarchie instellen voor gecentraliseerde betalingen
-U moet een organisatiehiërarchie instellen voor gecentraliseerde betalingen. Dezelfde organisatiehiërarchie wordt gebruikt voor het verwerken van gecentraliseerde leveranciersbetalingen en gecentraliseerde klantenbetalingen. **Opmerking:** de structuur van de hiërarchie is niet van belang voor gecentraliseerde betalingen. Elke rechtspersoon in de hiërarchie kan betalingen verwerken namens elke andere rechtspersoon in de hiërarchie. Op de pagina **Organisatiehiërarchieën** kunt u een nieuwe organisatiehiërarchie maken. Selecteer in het veld **Doel** **Gecentraliseerde betalingen**. 
+U moet een organisatiehiërarchie instellen voor gecentraliseerde betalingen. Dezelfde organisatiehiërarchie wordt gebruikt voor het verwerken van gecentraliseerde leveranciersbetalingen en gecentraliseerde klantenbetalingen. 
+
+>[!Note] 
+>De structuur van de hiërarchie is niet van belang voor gecentraliseerde betalingen. Elke rechtspersoon in de hiërarchie kan betalingen verwerken namens elke andere rechtspersoon in de hiërarchie. Op de pagina **Organisatiehiërarchieën** kunt u een nieuwe organisatiehiërarchie maken. Selecteer in het veld **Doel** **Gecentraliseerde betalingen**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Een intercompany-boekhouding instellen voor gecentraliseerde betalingen
 Wanneer betalingstransacties in de huidige rechtspersoon worden vereffend met facturen in andere rechtspersonen, worden de toepasselijke transacties voor betaling aan en betaling van voor elke rechtspersoon gemaakt. U moet de rechtspersoon opgeven waar alle van toepassing zijnde contantkortingen en eventuele winst- of verliesbedragen worden geboekt. Voordat u begint, moet u vaststellen welke rechtspersoon u gaat gebruiken om leveranciers- en klantbetalingen te verwerken. Als één rechtspersoon leveranciersbetalingen verwerkt, maar een andere rechtspersoon klantbetalingen verwerkt, moet u naar elke rechtspersoon overschakelen. Selecteer op de pagina **Intercompany-boekhouding** een intercompany-relatierecord voor een rechtspersoon namens welke u betalingen verwerkt. 

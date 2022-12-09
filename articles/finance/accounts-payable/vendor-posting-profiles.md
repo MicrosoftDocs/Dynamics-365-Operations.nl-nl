@@ -2,7 +2,7 @@
 title: Boekingsprofielen van leverancier
 description: Met boekingsprofielen van leveranciers worden boekingen van leverancierstransacties naar het grootboek beheerd.
 author: abruer
-ms.date: 06/12/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.form: VendPosting
-ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 09f27ef510f38c10fc265b682a492ba5872b6d3e
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272973"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799594"
 ---
 # <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
 
@@ -84,7 +84,7 @@ Als u wilt dat alle leverancierstransacties hetzelfde boekingsprofiel hebben, st
 </tr>
 <tr class="even">
 <td><strong>Rekening vereffenen</strong></td>
-<td>De liquiditeitsgrootboekrekening selecteren die wordt gebruikt voor cashflowprognoses. Deze velden zijn alleen beschikbaar als cashflowprognoses zijn ingeschakeld.</td>
+<td>De liquiditeitsgrootboekrekening selecteren die wordt gebruikt voor cashflowprognoses. Dit veld is alleen beschikbaar als cashflowprognoses zijn ingeschakeld.</td>
 </tr>
 <tr class="odd">
 <td><strong>Btw-vooruitbetalingen</strong></td>
@@ -94,7 +94,7 @@ Als u wilt dat alle leverancierstransacties hetzelfde boekingsprofiel hebben, st
 </tr>
 <tr class="even">
 <td><strong>Ontvangst</strong></td>
-<td>Selecteer de grootboekrekening waarnaar informatie over niet-goedgekeurde leveranciersfacturen geboekt wordt. De informatie wordt ingevoerd in het facturenregisterjournaal. Een gebruiker voert bijvoorbeeld heel beperkte gegevens in over leveranciersfacturen als ze in het facturenregister worden ontvangen. Als het facturenregister wordt geboekt, worden de transacties geboekt naar de rekening die hier en in het veld <strong>Tegenrekening</strong> is ingevoerd. Als de facturen worden goedgekeurd, wordt de schuld overgeboekt van de ontvangstrekening naar de totaalrekening voor de leverancier.</td>
+<td>Selecteer de grootboekrekening waarnaar informatie over niet-goedgekeurde leveranciersfacturen geboekt wordt. De informatie wordt ingevoerd in het <strong>facturenregisterjournaal</strong>. Een gebruiker voert bijvoorbeeld heel beperkte gegevens in over leveranciersfacturen als ze in het facturenregister worden ontvangen. Als het facturenregister wordt geboekt, worden de transacties geboekt naar de rekening die hier en in het veld <strong>Tegenrekening</strong> is ingevoerd. Als de facturen worden goedgekeurd, wordt de schuld overgeboekt van de ontvangstrekening naar de totaalrekening voor de leverancier.</td>
 </tr>
 <tr class="odd">
 <td><strong>Tegenrekening</strong></td>
@@ -110,10 +110,10 @@ Voor transacties met het geselecteerde boekingsprofiel geeft u op of transacties
 
 Geef de volgende waarden op om uw boekingsprofiel in te stellen
 
-| Veld          | Beschrijving                                                                                                                                                                                                    |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Veld          | Beschrijving             |
+|----------------|--------------------------------------------------------------------------|
 | **Vereffening** | Selecteer deze optie om automatische vereffening in te schakelen van transacties die dit boekingsprofiel hebben. Als deze optie niet is geselecteerd, moet u transacties handmatig vereffenen via de pagina **Openstaande transacties vereffenen**. |
-| **Annuleren**     | Selecteer deze optie als u transacties met dit boekingsprofiel wilt kunnen annuleren.                                                                                                               |
+| **Annuleren**     | Selecteer deze optie als u transacties met dit boekingsprofiel wilt kunnen annuleren.                              |
 | **Sluiten**      | Selecteer een boekingsprofiel om naar over te gaan als transacties met dit boekingsprofiel gesloten zijn. Een transactie wordt als afgesloten beschouwd als deze volledig is vereffend.                                       |
 
 

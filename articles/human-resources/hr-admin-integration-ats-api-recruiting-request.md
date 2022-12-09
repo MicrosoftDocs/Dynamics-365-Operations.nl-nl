@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872263"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806370"
 ---
 # <a name="recruiting-request"></a>Wervingsaanvraag
 
@@ -68,7 +68,7 @@ Beschrijft een aanvraag om personeel voor een functie te werven.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Beschrijft een aanvraag om personeel voor een functie te werven.
 | **Status**<br>mshr_status<br>*Status van wervingsaanvraag* optieset | Lezen/schrijven<br>Vereist<br> | Geeft de status aan van de wervingsaanvraag. |
 | **Beschrijving**<br>mshr_description<br>*Tekenreeks* | Lezen/schrijven<br>Vereist | Omschrijft de aanvraag. |
 | **Locatie-id van wervingsaanvraag**<br>mshr_recruitingrequestlocationid<br>*Tekenreeks* | Lezen/schrijven<br>Optioneel | De door de gebruiker leesbare unieke id van de functielocatie die aan deze aanvraag is gekoppeld. |
-| **Waarde wervingslocatie-id**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Alleen-lezen<br>Optioneel<br>Refererende sleutel: mshr_hcmrecruitingrequestlocationentityid van de entiteit mshr_hcmrecruitingrequestlocationentity | Door het systeem gegenereerde GUID-waarde om de locatie van de wervingsaanvraag te identificeren die voor de aanvraag is geselecteerd. |
+| **Waarde wervingslocatie-id**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Alleen-lezen<br>Optioneel<br>Refererende sleutel: mshr_hcmrecruitingrequestlocationentityid van de entiteit mshr_hcmrecruitingrequestlocationentity | Door het systeem gegenereerde GUID-waarde om de locatie van de wervingsaanvraag te identificeren die voor de aanvraag is geselecteerd. |
 | **Opmerkingen**<br>mshr_comments<br>*Tekenreeks* | Lezen/schrijven<br>Optioneel | Opmerkingen over de aanvraag voor gebruik door aanstellend managers en wervers. |
 | **Taak-ID**<br>mshr_jobid<br>*Tekenreeks* | Eenmaal schrijven<br>Vereist |   De door de gebruiker leesbare unieke id van de functie die wordt gedeeld door alle posities die aan deze aanvraag zijn gekoppeld. |
 | **Waarde functie-ID**<br>_mshr_fk_job_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_hcmjobentityid van de entiteit mshr_hcmjobentity | De door het systeem gegenereerde unieke id van de functie die wordt gedeeld door alle posities die aan de wervingsaanvraag zijn gekoppeld. |

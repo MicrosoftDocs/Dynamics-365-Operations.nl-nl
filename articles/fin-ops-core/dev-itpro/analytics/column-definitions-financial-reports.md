@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 97f6c869e8d05e37ec3001d5de262ab8927d735a
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291883"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802791"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
@@ -35,7 +35,7 @@ Een kolomdefinitie kan twee tot 255 kolommen bevatten.
 ### <a name="create-a-column-definition"></a>Een kolomdefinitie maken
 
 1. Klik in Report Designer in het navigatievenster op **Kolomdefinities**.
-2. Klik in het menu **Bestand** op **Nieuw** en vervolgens op **Kolomdefinities**.
+2. Klik in het menu **Bestand** op **Nieuw** en vervolgens op **Kolomdefinitie**.
 3. Voeg de inhoud van de kolomdefinitie toe.
 
 ### <a name="open-a-column-definition"></a>Een kolomdefinitie openen
@@ -51,7 +51,7 @@ Een kolomdefinitie kan twee tot 255 kolommen bevatten.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Een kolom uit een kolomdefinitie verwijderen
 
-1. Klik in Report Designer op **Kolomdefinities** en open vervolgens de kolomdefinitie die u wilt wijzigen.
+1. Klik in Report Designer op **Kolomdefinities** en selecteer vervolgens de kolomdefinitie die u wilt wijzigen.
 2. Selecteer de kolom die u wilt verwijderen.
 3. Klik in het menu **Bewerken** op **Kolom verwijderen**.
 
@@ -72,19 +72,19 @@ Deze informatie wordt weergegeven in de volgende gebieden in de kolomdefinitie:
 
 - De rijen met kolomdetails zijn de rijen onder de koptekstrijen in de kolomdefinitie. De rijen met kolomdetails bepalen de informatie die in het rapport wordt opgenomen. De volgende tabel toont en omschrijft de rijen met kolomdetails.
 
-    | Naam van rij met kolomdetails                                                | Beschrijving                                                                                            |
-    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | Kolomtype                                                           | (Vereist) Geef het type gegevens in de kolom op.                                                     |
-    | Categorie boekcode/-kenmerk                                          | Geef financiële gegevens op voor kolommen van de typen **FD** en **ATTR**.                       |
-    | Behandelde perioden van het boekjaar                                    | Geef financiële gegevens op voor kolommen van het type **FD**.                                     |
-    | Formule                                                               | Geef een berekeningsformule op voor kolommen van het type **CALC**.                                        |
-    | Aanvullende spaties kolombreedte vóór afdrukbeheer voor overschrijven van kolomindeling | Geef speciale indelingsopties op.                                                                        |
-    | Kolombeperkingen                                                   | Beperk gegevens.                                                                                         |
-    | Rapportage-eenheid                                                        | Beperk de kolom, zodat deze alleen gegevens voor de opgegeven rapportage-eenheid weergeeft.                      |
-    | Valutafilter voor valutaweergave                                      | Maak valuta op.                                                                                       |
-    | Dimensiefilter                                                      | Geef een filter op om gegevens naar bepaalde rapportage-eenheden van financiële gegevens te beperken.                           |
-    | Kenmerkfilter                                                      | Geef een filter op om de financiële gegevens te beperken.                                                       |
-    | Begindatum en einddatum                                                   | Beperk de financiële gegevens tot specifieke datums.                                                         |
+    | Naam van rij met kolomdetails                                                | Beschrijving                                                    |
+    |-----------------------------------------------------------------------|-------------------------------------------------------------------------|
+    | Kolomtype                                                           | (Vereist) Geef het type gegevens in de kolom op.                                      |
+    | Categorie boekcode/-kenmerk                                          | Geef financiële gegevens op voor kolommen van de typen **FD** en **ATTR**.     |
+    | Behandelde perioden van het boekjaar                                    | Geef financiële gegevens op voor kolommen van het type **FD**.              |
+    | Formule                                                               | Geef een berekeningsformule op voor kolommen van het type **CALC**.                  |
+    | Aanvullende spaties kolombreedte vóór afdrukbeheer voor overschrijven van kolomindeling | Geef speciale indelingsopties op.                                               |
+    | Kolombeperkingen                                                   | Beperk gegevens.                                                                        |
+    | Rapportage-eenheid                                                        | Beperk de kolom, zodat deze alleen gegevens voor de opgegeven rapportage-eenheid weergeeft.      |
+    | Valutafilter voor valutaweergave                                      | Maak valuta op.                                                                      |
+    | Dimensiefilter                                                      | Geef een filter op om gegevens naar bepaalde rapportage-eenheden van financiële gegevens te beperken.           |
+    | Kenmerkfilter                                                      | Geef een filter op om de financiële gegevens te beperken.                                      |
+    | Begindatum en einddatum                                                   | Beperk de financiële gegevens tot specifieke datums.                                    |
     | Reden                                                         | Lijn de omschrijvingstekst die in de rijdefinitie wordt opgegeven links, midden of rechts uit. |
 
 ## <a name="column-restrictions-in-a-column-definition"></a>Kolombeperkingen in een kolomdefinitie
@@ -133,7 +133,7 @@ U kunt de kopteksten die bovenaan de kolommen op een rapport worden weergegeven 
 
 U kunt het dialoogvenster **Kolomkoptekst** gebruiken om kopteksten toe te voegen, te wijzigen en te verwijderen die bovenaan de kolommen op een rapport worden weergegeven. In de volgende tabel worden de velden beschreven in het dialoogvenster **Kolomkop**.
 
-| Veld                 | Beschrijving |
+| Veld                 | Description |
 |-----------------------|-------------|
 | Tekst van kolomkop    | Deze tekst verschijnt in de kolomkop. U kunt de tekst rechtstreeks in dit veld typen of op **AutoTekst invoegen** klikken om een optie te selecteren die de kolomkop altijd bijwerkt wanneer het rapport wordt gegenereerd. Als u meerdere Autotekstcodes wilt opnemen, klikt u opnieuw op **AutoTekst invoegen** en klikt u vervolgens op een andere code in de lijst. |
 | Opmaakopties        | Pas de opmaak toe op een kolomkop, zoals een vak of onderstreping. |
@@ -148,7 +148,7 @@ U kunt het dialoogvenster **Kolomkoptekst** gebruiken om kopteksten toe te voege
 4. Selecteer in het veld **Opmaakopties** een opmaak voor de koptekst.
 5. Voer in het veld **Verspreiden van** de letter van de kolom in waar de kolomkop opnieuw moet beginnen. Voer in het veld **Verspreiden naar** de letter van de kolom in waar de kolomkop opnieuw moet eindigen.
 6. Selecteer onder **Uitvullen** of de kolomkoptekst links, midden of rechts moet worden uitgevuld.
-7. Klik tot slot op **OK**.
+7. Klik op **OK**.
 
 ### <a name="add-a-column-header-row"></a>Een kolomkoprij toevoegen
 
@@ -211,18 +211,18 @@ Voorwaardelijke spanningkopteksten kunnen meerdere kolommen beslaan die op speci
 
 Een gebruiker maakt een rapport voor een dynamische halfjaarlijkse prognose. De gebruiker wil dat het woord "Werkelijk" wordt afgedrukt in de kolommen die werkelijke gegevens bevatten, en dat het woord "Budget" wordt afgedrukt in de kolommen die budgetprognoses bevatten. Elke maand dat het rapport wordt uitgevoerd, wordt er één werkelijke kolom meer en één budgetkolom minder afgedrukt. Hoewel de gebruiker de kolomdefinitie handmatig kan wijzigen wanneer het rapport wordt gegenereerd om kopteksten te corrigeren, bespaart ze tijd en moeite als ze voorwaardelijke spanningkopteksten maakt die automatisch kopteksten maken in de desbetreffende kolommen telkens wanneer dat het rapport wordt uitgevoerd. De gebruiker opent Report Designer, klikt in het navigatievenster op **Kolomdefinitie** en opent de kolomdefinitie voor het rapport. De gebruiker voert de volgende informatie in. De basisperiode in de rapportdefinitie is 4.
 
-|      Format         |  V   | B             | C             | D             | E             | Vr             | G             | H             | I             | J             | K             | L             | Ma             |
-|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Koptekst 1            |      | Huidige        | Budget        |               |               |               |               |               |               |               |               |               |               |
-| Koptekst 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
-| Koptekst 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Kolomtype         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
+|  Format   |  V   | B     | C      | D       | E        | Vr       | G       | H      | I             | J             | K             | L             | Ma             |
+|-----------|------|-------|--------|---------|----------|---------|---------|---------|-------------|---------------|---------------|---------------|---------------|
+| Koptekst 1   |    | Huidige    | Budget        |         |         |        |       |          |        |               |               |               |               |
+| Koptekst 2   |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
+| Koptekst 3    |      |       |        |        |        |         |        |          |               |               |               |               |               |
+| Kolomtype  | DESC | FD   | FD     | FD    | FD   | FD    | FD      | FD            | FD            | FD            | FD            | FD            | FD            |
 | Boekcode/kenmerk |      | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    |
-| Boekjaar         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Periode              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Boekjaar |  | BASE   | BASE   | BASE   | BASE   | BASE    | BASE    | BASE     | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Periode  |     | 1      | 1       | 2      | 2      | 3       | 3       | 4        | 4             | 5             | 5             | 6             | 6             |
 | Dekkingsperioden     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
-| Kolombreedte        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
-| Afdrukbeheer       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
+| Kolombreedte   | 30   | 10    | 10     | 10     | 10    | 10    | 10    | 10     | 10            | 10            | 10            | 10            | 10            |
+| Afdrukbeheer  |    | P&lt;=B    | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B   | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B       | P&gt;B        |
 
 De gebruiker dubbelklikt op een kolomkopcel in kolom B om het dialoogvenster **Kolomkop** te openen en voert de volgende informatie in.
 
@@ -306,7 +306,7 @@ De cel **Afdrukbeheer** kan codes bevatten die de weergave of de afdrukkenmerken
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Niet afdrukken                                     | Neem de bedragen in deze kolom niet op in het rapport dat wordt afgedrukt en in berekeningen. Om een niet af te drukken kolom in een berekening op te nemen, raadpleegt u de kolom rechtstreeks in de berekeningsformule. De niet af te drukken kolom C is bijvoorbeeld opgenomen in de volgende berekening: **B+C+D**. Maar de niet af te drukken kolom C is niet opgenomen in de volgende berekening: **B:D**. |
 | XCR                | Teken wijzigen als het normale saldo van de rij credit is | Maak een budget of een vergelijkend rapport waarin elke ongunstige afwijking (zoals een opbrengsttekort of een onkostenoverschrijding) altijd negatief is. Pas deze code toe op een **CALC**-kolom om het teken van het kolombedrag om te keren als het normale saldo van een bepaalde rij credit is (zoals aangegeven met een **C** in de kolom **Normaal Saldo** van de rijdefinitie).<p><strong>Opmerking:</strong> Let er bij <strong>TOT</strong>-rijen en </strong>CAL</strong>-rijen die meestal een creditsaldo hebben op dat u een <strong>C</strong> invoert in de kolom <strong>Normaal saldo</strong> in de rijdefinitie.</p> |
-| X0                 | Kolom onderdrukken indien allemaal nullen of spaties          | Neem een **FD**-kolom niet op in het rapport als alle cellen in die kolom leeg zijn of nullen bevatten. |
+| X0            | Kolom onderdrukken indien allemaal nullen of spaties   | Neem een **FD**-kolom niet op in het rapport als alle cellen in die kolom leeg zijn of nullen bevatten. |
 | SR                 | Afronding onderdrukken                               | Voorkom dat de bedragen in deze kolom worden afgerond. |
 | XR                 | Samentelling onderdrukken                                 | Onderdruk een samentelling. Als het rapport een rapportagestructuur gebruikt, worden de bedragen in deze kolom niet samengeteld in volgende bovenliggende knooppunten. |
 | RP                 | Kolom herhalen op elke pagina                      | Herhaal een kolom op elke pagina van een rapport. U kunt bijvoorbeeld de afdrukcontrolecode **RP** gebruiken om een kolom van het type **RIJ** op te nemen in rijcodes op elke pagina. |
@@ -458,7 +458,7 @@ De cel **Behandelde perioden** identificeert het bedrag dat de kolom moet weerge
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Kenmerkfilter in een kolomdefinitie
 
-Kenmerken zijn financiële gegevenswaarden die een rekening of transactie verder definiëren. De rekeningkenmerken omvatten **Activum**, **Aansprakelijkheid**, **Opbrengst** en **Onkosten**. De transactiekenmerken omvatten **Transactieomschrijving** en **Datum toepassing transactie**. De ondersteuning van kenmerken kan verschillen bij Microsoft Dynamics ERP-systemen. De cel **Kenmerkfilter** beperkt de gegevens in **FD**-kolommen tot specifieke waarden of bereiken voor kenmerkcategorieën. Hoewel deze functie samen met een **ATTR**-kolom kan worden gebruikt, is de **ATTR**-kolom niet vereist. In een **FD**-kolom is er een limiet op de rekeningen of transacties die in het rapport van het kenmerkfilter wordt opgenomen.
+Kenmerken zijn financiële gegevenswaarden die een rekening of transactie verder definiëren. De rekeningkenmerken omvatten **Activum**, **Aansprakelijkheid**, **Opbrengst** en **Onkosten**. De transactiekenmerken omvatten **Transactieomschrijving** en **Datum toepassing transactie**. De ondersteuning van kenmerken kan verschillen bij Microsoft Dynamics 365 Finance. De cel **Kenmerkfilter** beperkt de gegevens in **FD**-kolommen tot specifieke waarden of bereiken voor kenmerkcategorieën. Hoewel deze functie samen met een **ATTR**-kolom kan worden gebruikt, is de **ATTR**-kolom niet vereist. In een **FD**-kolom is er een limiet op de rekeningen of transacties die in het rapport van het kenmerkfilter wordt opgenomen.
 
 > [!NOTE]
 > Als u wilt zien welke kenmerken door uw ERP-systeem worden ondersteunt, raadpleegt u de integratiehandleiding voor het systeem.
@@ -510,7 +510,7 @@ In een rapport met meerdere valuta´s kunnen bedragen worden weergegeven in de v
 - **Valutaweergave** : geef het type valuta op (valuta voor boekhouding, aangiftevaluta, transactievaluta of omgerekende aangiftevaluta) waarin de transacties worden weergegeven. Naar omrekening naar een functionaliteit voor aangiftevaluta wordt soms ook verwezen als valutaomrekening. Valutaomrekening is de mogelijkheid om grootboekbedragen te rapporteren in een valuta die misschien niet de functionele valuta of aangiftevaluta van het bedrijf is of de valuta waarin de transactie is ingevoerd.
 - **Valutafilter** - Geef een valutafilter op. Alleen transacties die in de geselecteerde valuta zijn ingevoerd worden in het rapport weergegeven.
 
-> 
+
 Om de valuta voor boekhouding van een bedrijf te bepalen, voert u de volgende stappen uit.
 
 1. Klik in Report Designer in het menu **Bedrijf** op **Bedrijven**.
@@ -533,7 +533,7 @@ Een gebruiker heeft in haar kolomdefinitie de volgende valutaselecties gemaakt:
 
 Door het valutafilter dat is geselecteerd, bevat het rapport alleen transacties die in Japanse Yen (JPY) zijn ingevoerd. Vanwege de valutaweergave die is geselecteerd, bevat het rapport die transacties in de valuta voor boekhouding, Amerikaanse dollars (USD).
 
-#### <a name="currency-filter-and-currency-display-combinations"></a>Combinaties van Valutafilter en Valutaweergave
+#### <a name="currency-filter-and-currency-display-combinations"></a>Combinaties van valutafilter en valutaweergave
 
 In de volgende tabel worden de rapportresultaten weergeven die kunnen optreden voor verschillende combinaties van de opties in de cellen **Valutaweergave** en **Valutafilter** door de selecties die zijn gemaakt. De functionele valuta is USD.
 
@@ -541,8 +541,8 @@ In de volgende tabel worden de rapportresultaten weergeven die kunnen optreden v
 | Cel Valutaweergave                        | Cel Valutafilter | Rapportresultaat |
 |----------------------------------------------|----------------------|---------------|
 | Transactievaluta                 | **YEN**              | **Y 6000** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd. |
-| Valuta voor boekhouding van grootboek | **YEN**              |**$ 60** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd en toont die transacties in USD.<p><strong>Opmerking:</strong> De wisselkoers is ongeveer 100 JPY per USD.</p> |
-| Valuta voor boekhouding van grootboek | Leeg                | **$2310** – Het resultaat toont alle gegevens in de valuta voor boekhouding die in het grootboek is opgegeven.<p><strong>Opmerking:</strong> dit bedrag is de som van alle transacties in de valuta voor boekhouding.</p> |
+| Boekhoudvaluta uit grootboek | **YEN**              |**$ 60** - Het resultaat toont alleen transacties die in JPY zijn ingevoerd en toont die transacties in USD.<p><strong>Opmerking:</strong> De wisselkoers is ongeveer 100 JPY per USD.</p> |
+| Boekhoudvaluta uit grootboek | Leeg                | **$2310** – Het resultaat toont alle gegevens in de valuta voor boekhouding die in het grootboek is opgegeven.<p><strong>Opmerking:</strong> dit bedrag is de som van alle transacties in de valuta voor boekhouding.</p> |
 | Transactievaluta                 | Leeg                | **$ 2250** - Het resultaat toont alle bedragen in de valuta waarin de transactie is uitgevoerd. Dit betekent dat voor het totaal bedragen in verschillende valuta's bij elkaar worden opgeteld. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Berekeningskolom in een kolomdefinitie

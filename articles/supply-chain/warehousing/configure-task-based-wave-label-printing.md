@@ -2,7 +2,7 @@
 title: Wavelabel afdrukken plannen tijdens wave
 description: In dit artikel wordt beschreven hoe u de functionaliteit voor afdrukken van wavelabels op basis van taken kunt instellen en gebruiken.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889452"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822357"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Wavelabel afdrukken plannen tijdens wave
 
@@ -32,7 +32,6 @@ Wanneer u de functie *Wavelabels afdrukken op basis van taken* gebruikt, worden 
 
 Als u de functies wilt gebruiken die in dit artikel worden beschreven, moeten deze zijn ingeschakeld voor uw systeem. Gebruik werkgebied voor [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functies in deze volgende in te schakelen:
 
-1. *Wavelabels afdrukken*: deze functie is vereist om de procesmethode voor wavelabels afdrukken in te kunnen schakelen.
 1. *Werk blokkeren voor de hele organisatie*: deze functie is vereist voor zowel handmatige als automatische configuratie van geplande werkcreatie. (Vanaf Supply Chain Management versie 10.0.21 is deze functie verplicht, waardoor deze standaard wordt ingeschakeld en niet meer kan worden uitgeschakeld.)
 1. *Wavelabels afdrukken op basis van taken*: deze functie is nodig om afdrukken van wavelabels af te splitsen in een afzonderlijk transactiebereik.
 

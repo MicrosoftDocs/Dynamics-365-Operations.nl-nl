@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780467"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788535"
 ---
 # <a name="create-a-free-text-invoice"></a>Een vrije-tekstfactuur invoeren
 
@@ -69,6 +69,8 @@ In dit artikel wordt uitgelegd hoe u vrije-tekstfacturen maakt. Gebruik voor de 
     * U kunt de timing van het afdrukken van facturen wijzigen. Selecteer **Huidige** om elke factuur af te drukken wanneer deze wordt bijgewerkt. Selecteer **Na** om af te drukken nadat alle facturen zijn bijgewerkt.
     * Als u wilt wijzigen hoe de kredietlimiet van de klant wordt gecontroleerd voordat de factuur wordt geboekt, wijzigt u de waarde in het veld **Kredietlimiettype**.
     * U kunt instellen dat het boeken van vrije-tekstfacturen wordt gestopt wanneer er een fout optreedt op het tabblad **Updates** op de pagina **Parameters van klanten** (**Klanten > Instellingen > Parameters van klanten**). Selecteer **Ja** voor de parameter **Boeken van vrije-tekstfacturen stoppen bij eerste fout** om het boeken van vrije-tekstfacturen te stoppen wanneer er een fout optreedt. Als er in een batch wordt geboekt, stopt een fout het boekingsproces en wordt de batchstatus ingesteld op **Fout**. Als deze optie niet is geselecteerd, slaat het boekingsproces een factuur met een boekingsfout over en blijft het extra facturen boeken. Als er in een batch wordt geboekt, kunnen er door een boekingsfout geen andere facturen worden geboekt. De batchstatus wordt **Beëindigd**. Er is een gedetailleerd boekingsprocesrapport beschikbaar voor evaluatie van de batchtaakhistorie.
+    * In Microsoft Dynamics 365 Finance 10.0.30 verbetert de functie **Boekingsverbetering van vrije-tekstfactuur voor berekening van totalen** de boekingsprestaties doordat deze efficiënter kan worden uitgevoerd. Wanneer deze functie is ingeschakeld, worden de berekende totalen opgeslagen en niet meerdere keren tijdens het boekingsproces berekend. 
+    * In Microsoft Dynamics 365 Finance 10.0.31 verbetert de functie **Verbetering van batchboekingsproces voor vrije-tekstfactuur** de boekingsprestaties doordat deze efficiënter kan worden uitgevoerd. Wanneer deze functie is ingeschakeld, wordt bij het boeken een patroon gebruikt dat de werkbelasting voor batchboekingen beheert over een vast aantal threads in plaats van een vast aantal documenten toe te wijzen aan een onbeperkt aantal threads.
     * Als u de factuur wilt afdrukken, stelt u de optie in op **Ja**.
     * Als u de factuur wilt boeken, stelt u de optie in op **Ja**. U kunt de factuur afdrukken zonder deze te boeken.
 

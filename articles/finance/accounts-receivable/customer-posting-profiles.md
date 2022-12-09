@@ -2,7 +2,7 @@
 title: Boekingsprofielen van klant
 description: Dit artikel beschrijft klantboekingsprofielen die de boeking van klanttransacties naar het grootboek regelen.
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891690"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799567"
 ---
 # <a name="customer-posting-profiles"></a>Boekingsprofielen van klant
 
@@ -58,15 +58,15 @@ Als u wilt dat alle klanttransacties hetzelfde boekingsprofiel hebben, stelt u s
 </thead>
 <tbody>
 <tr>
-<td>Boekingsprofiel</td>
+<td><strong>Boekingsprofiel</strong></td>
 <td>Een code invoeren voor het boekingsprofiel. U kunt bijvoorbeeld twee boekingsprofielen maken om één rekening te krijgen voor klantsaldi in de nationale valuta en een andere rekening voor klantsaldi in een vreemde valuta. U zou dan de ene rekening Nationaal kunnen noemen en de andere Internationaal.</td>
 </tr>
 <tr>
-<td>Description</td>
+<td><strong>Omschrijving</strong></td>
 <td>Een omschrijving van het boekingsprofiel invoeren. Dit wordt alleen gebruikt om het boekingsprofiel beter te identificeren wanneer u het op deze pagina weergeeft.</td>
 </tr>
 <tr>
-<td>Rekeningcode</td>
+<td><strong>Rekeningcode</strong></td>
 <td>Opgeven of het boekingsprofiel van toepassing is op één klant, een groep klanten of op alle klanten:
 <ul>
 <li><b>Tabel</b>: het boekingsprofiel is van toepassing op een enkele klant. Selecteer de klantrekening in het veld <b>Rekening/groepsnummer</b>.</li>
@@ -76,33 +76,33 @@ Als u wilt dat alle klanttransacties hetzelfde boekingsprofiel hebben, stelt u s
 </td>
 </tr>
 <tr>
-<td>Rekening/groepsnummer</td>
+<td><strong>Rekening/groepsnummer</strong></td>
 <td>Als <b>Tabel</b> is geselecteerd in het veld <b>Rekeningcode</b>, selecteert u het rekeningnummer van de klant die aan het boekingsprofiel is gekoppeld. Selecteer de klantengroep als <b>Groep</b> is geselecteerd. Als <b>Alle</b> is geselecteerd, laat u dit veld leeg.</td>
 </tr>
 <tr>
-<td>Totaalrekening</td>
+<td><strong>Totaalrekening</strong></td>
 <td>Selecteer de hoofdrekening die wordt gebruikt als de handelsrekening voor klanten die aan het boekingsprofiel zijn gekoppeld. Deze rekening is de rekening voor het boekingstype <b>Klantsaldo</b>.</td>
 </tr>
 <tr>
-<td>Liquiditeitsrekening voor betalingen</td>
-<td>De liquiditeitsgrootboekrekening selecteren die wordt gebruikt voor cashflowprognoses. Dit veld wordt alleen weergegeven als cashflowprognoses zijn ingeschakeld.</td>
+<td><strong>Liquiditeitsrekening voor betalingen</strong></td>
+<td>Selecteer de <strong>liquiditeitsgrootboekrekening</strong> die wordt gebruikt voor cashflowprognoses. Dit veld wordt alleen weergegeven als cashflowprognoses zijn ingeschakeld.</td>
 </tr>
 <tr>
-<td>Btw-vooruitbetalingen</td>
+<td><strong>Btw-vooruitbetalingen</strong></td>
 <td><p>De rekening selecteren voor btw op ontvangen vooruitbetalingen.</p>
 <p><strong>Opmerking:</strong> Gebruik de pagina <b>Parameters van module Klanten</b> om het boekingsprofiel op te geven dat wordt gebruikt wanneer een betaling is gemarkeerd als een vooruitbetaling.</p>
 </td>
 </tr>
 <tr>
-<td>Verplichtingen voor discontorekening</td>
+<td><strong>Verplichtingen voor discontorekening</strong></td>
 <td>De grootboekrekening voor verplichtingen voor disconto selecteren.</td>
 </tr>
 <tr>
-<td>Aanmaningsreeks</td>
+<td><strong>Aanmaningsreeks</strong></td>
 <td>De identificatie selecteren van de aanmaningsreeks die wordt gebruikt voor klanten waaraan het boekingsprofiel is toegewezen.</td>
 </tr>
 <tr>
-<td>Rentecode</td>
+<td><strong>Rentecode</strong></td>
 <td>De rentecode selecteren die u wilt gebruiken voor de berekening van rente voor klanten aan wie het boekingsprofiel is toegewezen.</td>
 </tr>
 </tbody>

@@ -2,7 +2,7 @@
 title: Parameters voor kredietbeheer instellen
 description: In dit artikel worden de opties beschreven die u kunt gebruiken om kredietbeheer te configureren om tegemoet te komen aan de vereisten van uw bedrijf.
 author: JodiChristiansen
-ms.date: 12/10/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ac5e0ba8c9279fc5f04a80d4444b11850e72d3c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8955518e7b5c0200d3827c1c22b7d150a09be244
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876349"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799540"
 ---
 # <a name="credit-management-parameters-setup"></a>Parameters voor kredietbeheer instellen
 
@@ -46,7 +46,7 @@ Er zijn vier sneltabbladen in de sectie **Krediet** waar u de parameters voor kr
 
 U kunt de timing instellen die wordt gebruikt om verkooporders te controleren op kredietproblemen. Het sneltabblad **Controlepunt voor kredietbeheer** identificeert de documentboekingsprocessen die de verwerking van regels voor kredietbeheer omvatten. U kunt ook de krediet regels controleren terwijl u een pro-forma boeking of een volledige boeking van de verkooporder doet. Schakel de selectievakjes in om de boekingsprocessen te definiëren die een order in de wachtstand moeten zetten als er een probleem wordt gevonden nadat de blokkeerregels van kredietbeheer zijn verwerkt.
 
-U kunt ook het aantal respijtdagen definiëren voordat de kredietregels opnieuw worden gecontroleerd. Hoewel u kunt opgeven dat de regels voor kredietbeheer bij het boeken moeten worden gecontroleerd, worden de regels niet gecontroleerd gedurende het opgegeven aantal respijtdagen. Stel, u bevestigt een verkooporder op dag 1 en u geeft twee respijtdagen op voor de bevestigingsstap. In dit geval worden de kredietregels niet gecontroleerd bij de volgende boekingsstap (bijvoorbeeld het maken van een pakbon of de facturering van de order) tot dag 4. Op of na dag 4 worden de regels opnieuw gecontroleerd als er een boeking plaatsvindt en verandert het aantal respijtdagen in de waarde die is opgegeven voor het volgende boekingscontrolepunt.
+U kunt ook het aantal respijtdagen definiëren voordat de kredietregels opnieuw worden gecontroleerd. Hoewel u kunt opgeven dat de regels voor kredietbeheer bij het boeken moeten worden gecontroleerd, worden de regels niet gecontroleerd gedurende het opgegeven aantal respijtdagen. Stel, u bevestigt een verkooporder op dag één en u geeft twee respijtdagen op voor de bevestigingsstap. In dit geval worden de kredietregels niet gecontroleerd bij de volgende boekingsstap (bijvoorbeeld het maken van een pakbon of de facturering van de order) tot dag vier. Op of na dag vier worden de regels opnieuw gecontroleerd als er een boeking plaatsvindt en verandert het aantal respijtdagen in de waarde die is opgegeven voor het volgende boekingscontrolepunt.
 
 Als u het aantal respijtdagen niet opgeeft, worden de kredietregels gecontroleerd bij elke boekingsstap die is ingesteld voor het uitvoeren van regels voor kredietbeheer. Als u de verkooporder vrijgeeft zonder boeking en vervolgens weer dezelfde orderverwerkingsstap uitvoert, worden de kredietregels opnieuw gecontroleerd. Stel, een order wordt na een bevestiging in de wachtstand gezet, en u geeft deze vervolgens vrij met of zonder boeking. In dat geval wordt de order opnieuw in de wachtstand gezet als u deze opnieuw bevestigt. Gebruik respijtdagen als de order naar de volgende verwerkingsstap moet worden verplaatst zonder dat deze opnieuw in de wacht wordt gezet.
 
@@ -73,7 +73,7 @@ Diverse statistieken voor kredietbeheer zijn opgenomen in het feitenvak **Statis
 
 - In kredietbeheer wordt de kredietlimiet van de klant weergegeven in de valuta van de klant. U moet het wisselkoerstype voor de kredietlimiet opgeven in de valuta van de klant. Selecteer in het veld **Wisselkoerstype voor kredietlimiet** het type wisselkoers dat moet worden gebruikt om de primaire kredietlimiet om te zetten in de kredietlimiet van de klant.
 - Stel de optie **Handmatig bewerken van kredietlimieten toestaan** in op **Nee** als u wilt voorkomen dat gebruikers kredietlimieten op de pagina **Klant** kunnen bewerken. Als deze optie is ingesteld op **Nee**, kunnen wijzigingen in de kredietlimiet van een klant alleen worden gedaan door het boeken van kredietlimietcorrecties voor klant.
-- Stel de optie **Voorraadreserveringen overslaan** in op **Ja** om voorraadreserveringen te negeren wanneer de blokkeringsregels van creditbeheer worden gecontroleerd. In dit geval controleert het systeem volledige regelhoeveelheden en schakelt respijtperioden voor controlepunten in, ongeacht de voorraadreserveringshoeveelheid.
+- Stel de optie **Voorraadreserveringen overslaan** in op **Ja** om voorraadreserveringen te negeren wanneer de blokkeringsregels van creditbeheer worden gecontroleerd. In dit geval worden de hoeveelheden gecontroleerd en worden respijtperioden voor controlepunten ingeschakeld, ongeacht de voorraadreserveringshoeveelheid.
 - Wanneer Creditbeheer is ingeschakeld, wordt de instelling van het veld **Bericht bij overschrijding van kredietlimiet** gebruikt om alleen vrije-tekstfacturen te verwerken. Berichten worden nog steeds aan verkooporders toegevoegd wanneer de klant de kredietlimiet heeft overschreden, maar de aanwezigheid van die berichten zorgt er niet voor dat de bevestiging wordt geblokkeerd en dat het afdrukken van orderverzamellijsten en pakbonnen of het boeken van facturen wordt voorkomen.
 
     Creditbeheer is standaard ingeschakeld, maar u kunt het uitschakelen. Als deze functie is ingeschakeld, gebruikt u de blokkeringsregels en controlepunten voor kredietbeheer om aan te geven wanneer klanten hun kredietlimiet hebben overschreden. Als deze is uitgeschakeld, kunt u door de berichten die aan verkooporders worden toegevoegd op basis van de instelling van het veld **Bericht bij overschrijding van kredietlimiet** aangeven wanneer klanten de kredietlimiet hebben overschreden.

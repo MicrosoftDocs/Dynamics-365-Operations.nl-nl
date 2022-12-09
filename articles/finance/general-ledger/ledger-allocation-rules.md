@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901279"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787548"
 ---
 # <a name="ledger-allocation-rules"></a>Grootboektoewijzingsregels
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901279"
 
 Dit artikel bevat informatie over grootboektoewijzingsregels. Het beschrijft de verschillende onderdelen van deze toewijzingsregels en toewijzingsmethoden die hiervoor kunnen worden gebruikt.
 
-Grootboektoewijzingsregels worden gebruikt om toewijzingsjournalen en journaalregels automatisch te berekenen en te genereren voor de toewijzing van grootboeksaldi of vaste bedragen. Toewijzingsmethoden kunnen variabel of vast zijn. De volgende toewijzingsmethoden kunnen voor grootboektoewijzingsregels worden gebruikt:
+Grootboektoewijzingsregels worden gebruikt om toewijzingsjournalen en journaalregels automatisch te berekenen en te genereren voor de toewijzing van grootboeksaldi of vaste bedragen. Toewijzingsmethoden kunnen variabel of vast zijn. De toewijzing wordt gebaseerd op de waarde van de transactievaluta. Boekingen voor winst/verlies van vreemde valuta worden bijvoorbeeld geboekt om de bedragen aan te passen in de valuta voor boekhouding en rapportage. Deze vermeldingen zijn niet onderworpen aan toewijzingsregels omdat de transactievalutawaarde 0,00 is. De volgende toewijzingsmethoden kunnen voor grootboektoewijzingsregels worden gebruikt:
 
 -   **Basis** - Deze variabele methode wordt gebruikt wanneer de toewijzing afhankelijk is van het werkelijke grootboeksaldo, gebaseerd op filtercriteria. Reclameonkosten bijvoorbeeld kunnen worden toegewezen op basis van de verkoop van elke afdeling in verhouding tot de totale afdelingsverkoop.
 -   **Vast percentage** en **Vast gewicht** - Voor deze methoden wordt het toewijzingspercentage of -gewicht direct gedefinieerd voor de regel. Reclameonkosten bijvoorbeeld kunnen worden toegewezen zodat Afdeling A 70 procent van de reclameonkosten ontvangt en Afdeling B 30 procent.

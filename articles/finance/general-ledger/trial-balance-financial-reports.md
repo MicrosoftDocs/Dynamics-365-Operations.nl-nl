@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725200"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802602"
 ---
 # <a name="trial-balance-financial-reports"></a>Financiële rapporten proefbalans
 
@@ -32,8 +32,8 @@ In dit artikel worden de standaardrapporten voor proefbalansen beschreven. Hieri
 
 Drie proefbalansrapporten zijn beschikbaar in Financiële rapportage.
 
-| Standaardrapport                                 | Functie                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Standaardrapport                                 | Functie                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Gedetailleerde proefbalans - Standaard               | Verschaft saldogegevens voor alle rekeningen en bevat debet- en creditsaldi, het nettobedrag van deze saldi samen met de transactiedatum, het boekstuk en de journaalomschrijving.                  |
 | Overzicht proefbalans – Standaard                | Verschaft saldogegevens voor alle rekeningen en bevat openings- en eindsaldi, debet- en creditsaldi samen met het bijbehorende nettoverschil.                                        |
 | Overzicht proefbalansjaar van jaar tot jaar - Standaard | Verschaft saldogegevens voor alle rekeningen en bevat openings- en eindsaldi, debet- en creditsaldi samen met het bijbehorende nettoverschil voor het huidige en het afgelopen jaar. |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 151991b399a30087c484262706e414e4e294bf7f
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 86020d9088d8135c83716128a77090608536a78f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715420"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804013"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Cheques met een status Blanco maken
 
@@ -35,7 +35,7 @@ Op de pagina **Cheques** voert u onderhoudstaken uit voor cheques. U kunt bijvoo
 
 Als u de pagina **Cheques** wilt openen, gaat u naar **Contanten en bankbeheer \> Bankrekeningen \> Bankrekeningen** en selecteert u in het actievenster op het tabblad **Betalingen beheren** in de groep **Verwante informatie** de optie **Cheques**. U kunt ook naar **Contanten en bankbeheer \> Query's en rapporten \> Cheques** gaan.
 
-Als u cheques met de status **Blanco** wilt maken, selecteert u in het actievenster de optie **Blanco cheques maken**. Terwijl er door het systeem blanco cheques worden gemaakt, wordt de bijbehorende bankrekening tijdelijk uitgeschakeld. Hierdoor wordt het risico kleiner dat betalingen worden gegenereerd op het moment dat blanco cheques worden gemaakt. Als de verwerking is voltooid, wordt de bijbehorende bankrekening opnieuw geactiveerd.
+Als u cheques met de status **Blanco** wilt maken, selecteert u in het actievenster de optie **Blanco cheques maken**. Terwijl de blanco cheques worden gemaakt, wordt de bijbehorende bankrekening tijdelijk uitgeschakeld. Hierdoor wordt het risico kleiner dat betalingen worden gegenereerd op het moment dat blanco cheques worden gemaakt. Als de verwerking is voltooid, wordt de bijbehorende bankrekening opnieuw geactiveerd.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

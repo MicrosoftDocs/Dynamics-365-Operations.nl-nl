@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785094"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799031"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte platform-functies
 
@@ -71,10 +71,10 @@ Als onderdeel van de inzet van het [One Dynamics One-platform](/dynamics365-rele
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | We verwijderen de volgende lijst met suites met coderingsmethoden om te voldoen aan onze huidige beveiligingsprotocollen.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Vervangen door een andere functie?**   | Vanaf 31 januari 2023 kunnen klanten alleen onze [standaardsuites met coderingsmethoden](/power-platform/admin/server-cipher-tls-requirements) gebruiken. Deze wijziging is van invloed op uw clients en servers die met onze servers communiceren, en kan bijvoorbeeld van invloed zijn op integraties van externe partijen die zich niet houden aan onze standaardsuites met coderingsmethoden. |
+| **Vervangen door een andere functie?**   | Vanaf januari 2023 kunnen klanten alleen onze [standaardsuites met coderingsmethoden](/power-platform/admin/server-cipher-tls-requirements) gebruiken. Deze wijziging is van invloed op uw clients en servers die met onze servers communiceren, en kan bijvoorbeeld van invloed zijn op integraties van externe partijen die zich niet houden aan onze standaardsuites met coderingsmethoden. |
 | **Betrokken productgebieden**         | Apps voor financiën en bedrijfsactiviteiten |
 | **Implementatieoptie**              | Cloudimplementaties |
-| **Status**                         | Afgeschaft. Klanten moeten hun servers vóór 31 januari 2023 upgraden. Raadpleeg [Beveiliging van transportlaag (TLS) beheren](/windows-server/security/tls/manage-tls) voor meer informatie over het configureren van de volgorde van TLS Cipher Suite.  |
+| **Status**                         | Afgeschaft. Klanten moeten hun servers vóór januari 2023 upgraden. Raadpleeg [Beveiliging van transportlaag (TLS) beheren](/windows-server/security/tls/manage-tls) voor meer informatie over het configureren van de volgorde van TLS Cipher Suite.  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Afschaffing van functie met ingang van juni 2022

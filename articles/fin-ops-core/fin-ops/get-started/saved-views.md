@@ -2,7 +2,7 @@
 title: Opgeslagen weergaven
 description: In dit artikel wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
-ms.date: 07/26/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
-ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.openlocfilehash: 571a4f403da0d20256f788c791cab273827c91b5
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9757216"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799486"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -55,7 +55,7 @@ Er zijn twee groottes voor deze weergavekiezer:
  
 Als u de naam van de weergave selecteert, wordt de weergavekiezer geopend en wordt de lijst met beschikbare weergaven voor de pagina weergegeven.
 
-**Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector de beschikbare weergaven weer in twee secties. De eerste sectie toont alle weergaven die specifiek zijn voor de huidige rechtspersoon, en de tweede sectie toont weergaven die beschikbaar zijn voor alle rechtspersonen. De eerste sectie is alleen zichtbaar als er rechtspersoon-specifieke weergaven voor de pagina zijn.
+Als de functie **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector de beschikbare weergaven weer in twee secties. De eerste sectie toont alle weergaven die specifiek zijn voor de huidige rechtspersoon, en de tweede sectie toont weergaven die beschikbaar zijn voor alle rechtspersonen. De eerste sectie is alleen zichtbaar als er rechtspersoon-specifieke weergaven voor de pagina zijn.
 
 - **Standaardweergave**: de **standaard** weergave is de out-of-the-box weergave van de pagina waarop geen expliciete persoonlijke instellingen zijn toegepast.
 - **Persoonlijke weergaven**: de weergaven zonder hangsloten vertegenwoordigen uw persoonlijke weergaven. Dit zijn weergaven die u hebt gemaakt of die een beheerder aan u heeft gegeven.
@@ -81,7 +81,7 @@ Voer de volgende stappen uit als u deze wijzigingen wilt opslaan.
     1. Selecteer **Opslaan als**. 
     2. Voer in het deelvenster **Weergave opslaan als** een naam en desgewenst een omschrijving voor de weergave in.
     3. Als u wilt dat deze weergave de standaardweergave is, selecteert u **Als standaardweergave vastpinnen**. Zie het gedeelte [Standaardweergaven wijzigen](#changing-the-default-view) voor meer informatie over standaardweergaven. 
-    4. **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, kunt u selecteren of deze weergave beschikbaar moet zijn voor alle rechtspersonen of slechts voor een aantal van deze rechtspersonen.
+    4. Als de functie **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, kunt u selecteren of deze weergave beschikbaar moet zijn voor alle rechtspersonen of slechts voor een aantal van deze rechtspersonen.
     5. Selecteer **Opslaan**.
 
 ## <a name="changing-the-default-view"></a>De standaardweergave wijzigen
@@ -90,7 +90,7 @@ De standaardweergave is de weergave die het systeem probeert te openen wanneer u
 
 > [!NOTE]
 > - In de basisfunctie **Opgeslagen weergaven** is er één algemene standaardweergave voor alle rechtspersonen. Als u de standaardweergave wijzigt, wordt deze weergave standaard geopend, ongeacht de rechtspersoon die u op dat moment gebruikt.
-> - **Versie 10.0.21 of hoger:** wanneer de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, kan elke rechtspersoon een eigen standaardweergave hebben per pagina.
+> - Als de functie **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, kan elke rechtspersoon een eigen standaardweergave hebben per pagina.
 
 Volg deze stappen om de standaardweergave voor een pagina te wijzigen:
 
@@ -101,7 +101,7 @@ Volg deze stappen om de standaardweergave voor een pagina te wijzigen:
 Als u een nieuwe weergave maakt (met de actie **Opslaan als**), kunt u hiervan ook de standaardweergave maken door de optie **Vastmaken als standaard** in te stellen voordat u de weergave opslaat.
 
 > [!WARNING]
-> In sommige gevallen wordt de query, die aan de standaardweergave gekoppeld is, niet uitgevoerd wanneer u een pagina voor het eerst opent. Als u bijvoorbeeld de pagina via een tegel opent, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Bovendien, als u een pagina opent waarvan de **standaard** weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval ontvangt u een informatiebericht wanneer de weergave wordt geladen. Als u schakelt tussen weergaven nadat de pagina is geladen, moet de weergavequery kunnen worden uitgevoerd zoals verwacht. In versie 10.0.10 en later bevat het informatieve bericht dat u ontvangt, een ingesloten actie waarmee u de query van de standaardweergave rechtstreeks kunt laden.
+> In sommige gevallen wordt de query, die aan de standaardweergave gekoppeld is, niet uitgevoerd wanneer u een pagina voor het eerst opent. Als u bijvoorbeeld de pagina via een tegel opent, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Bovendien, als u een pagina opent waarvan de **standaard** weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval ontvangt u een informatief bericht als de weergave wordt geladen met een ingesloten actie waarmee u de query van de standaardweergave rechtstreeks kunt laden. Als u schakelt tussen weergaven nadat de pagina is geladen, moet de weergavequery kunnen worden uitgevoerd zoals verwacht. 
 
 ## <a name="managing-personal-views"></a>Persoonlijke weergaven beheren
 

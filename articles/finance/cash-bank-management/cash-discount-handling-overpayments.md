@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715519"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804133"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Contantkortingen voor overbetalingen
 
@@ -53,7 +53,9 @@ De klant voert een betaling van 95,00 uit in de periode van contantkorting. De b
 | Betaling       | €-95.00 | 0,00    |
 | Contantkorting | €-10,50 | 0,00    |
 
-De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening. **Betaling**
+De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening.
+
+**Betaling**
 
 | Rekening             | Debetbedrag | Creditbedrag |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ De klant voert een betaling van 95,00 uit in de periode van contantkorting. De b
 | Betaling       | €-95.00 | €-0,50   |
 | Contantkorting | €-10,50 | 0,00    |
 
-Het overbetalingsbedrag van €0,50 wordt als saldo op de betaling weergegeven en kan op een andere factuur worden vereffend. De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening. **Betaling**
+Het overbetalingsbedrag van €0,50 wordt als saldo op de betaling weergegeven en kan op een andere factuur worden vereffend. De volgende boekhoudvermeldingen worden gegenereerd voor de betaling en de vereffening. 
+
+**Betaling**
 
 | Rekening             | Debetbedrag | Creditbedrag |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ De klant voert een betaling van 95,00 uit in de datum van de contantkorting. De 
 | Betaling       | €-95.00 | €-0,00   |
 | Contantkorting | -10,00 | 0,00    |
 
-Het contantkortingsbedrag wordt verminderd van €10,50 tot €10,00. De betaling en de factuur worden beschouwd als vereffend. **Betaling**
+Het contantkortingsbedrag wordt verminderd van €10,50 tot €10,00. De betaling en de factuur worden beschouwd als vereffend. 
+
+**Betaling**
 
 | Rekening             | Debetbedrag | Creditbedrag |
 |---------------------|--------------|---------------|

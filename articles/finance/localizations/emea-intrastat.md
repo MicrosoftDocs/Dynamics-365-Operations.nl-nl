@@ -1,8 +1,8 @@
 ---
 title: Intrastat-overzicht
 description: Dit artikel bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU).
-author: EvgenyPopovMBS
-ms.date: 01/13/2021
+author: mrolecki
+ms.date: 11/30/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom:
 - "28581"
 - intro-internal
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
-ms.author: epopov
+ms.author: mrolecki
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 762de8a098c61bc0d717c038d6ca0ff6d649bff3
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894775"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815706"
 ---
 # <a name="intrastat-overview"></a>Intrastat-overzicht
 
@@ -162,7 +162,7 @@ In dit scenario wordt de rechtspersoon **DEMF** gebruikt.
 2. Controleer op het sneltabblad **Adressen** of het veld **Land/regio** is ingesteld op **DEU(Duitsland)**.
 3. Ga naar **Leveranciers** > **Leveranciers** > **Alle leveranciers**.
 4. Selecteer **DE-001** in het raster.
-5. Selecteer in het sneltabblad **Adres** de optie **Bewerken**.
+5. Selecteer op het sneltabblad **Adres** de optie **Bewerken**.
 6. Selecteer in het dialoogvenster **Adres bewerken** in het veld **Land/regio** de optie **ITA**.
 7. Selecteer **OK** om het dialoogvenster te sluiten.
 
@@ -187,7 +187,7 @@ In dit scenario wordt de rechtspersoon **DEMF** gebruikt.
 #### <a name="set-up-foreign-trade-parameters"></a>Parameters voor buitenlandse handel instellen
 
 1. Ga naar **Belasting** > **Instellingen** > **Buitenlandse handel** > **Parameters buitenlandse handel**.
-2. Selecteer in het tabblad **Intrastat** in het sneltabblad **Algemeen** in het veld **Transactiecode** de waarde **11**.
+2. Selecteer op het tabblad **Intrastat** op het sneltabblad **Algemeen** in het veld **Transactie** **code** de waarde **11**.
 3. Controleer of op het sneltabblad **Hiërarchie basisproductcodes** in het veld **Categoriehiërarchie** de waarde **Intrastat** is ingesteld.
 
 #### <a name="create-a-purchase-order"></a>Inkooporder maken
@@ -196,17 +196,17 @@ In dit scenario wordt de rechtspersoon **DEMF** gebruikt.
 2. Selecteer **Nieuw** in het actievenster.
 3. Ga in het dialoogvenster **Inkooporder maken** naar het sneltabblad **Leveranciersrekening** en selecteer **DE-001**.
 4. Selecteer **OK**.
-5. Controleer in het tabblad **Koptekst** in het sneltabblad **Buitenlandse** **handel** of het veld **Transactiecode** ingesteld is op **11**.
-6. Selecteer in het tabblad **Regels** in het sneltabblad **Inkooporderregels** in het veld **Artikelnummer** de waarde **D0003**. Voer daarna in het veld **Hoeveelheid** de waarde **10** in.
-7. Zorg ervoor dat op het sneltabblad **Regelinformatie** in het tabblad **Buitenlandse handel** het veld **Transactiecode** in de sectie **Buitenlandse handel** automatisch wordt ingesteld.
-8. Selecteer **Toeslagen onderhouden** in het sneltabblad **Inkooporderregels** in het menu **Financiële items** in de sectie **Toeslagen**.
+5. Controleer op het tabblad **Koptekst** op het sneltabblad **Buitenlandse** **handel** of het veld **Transactiecode** ingesteld is op **11**.
+6. Selecteer op het tabblad **Regels** op het sneltabblad **Inkooporderregels** in het veld **Artikelnummer** de waarde **D0003**. Voer daarna in het veld **Hoeveelheid** de waarde **10** in.
+7. Zorg ervoor dat op het sneltabblad **Regelinformatie** op het tabblad **Buitenlandse handel** het veld **Transactiecode** in de sectie **Buitenlandse handel** automatisch wordt ingesteld.
+8. Selecteer **Toeslagen onderhouden** op het sneltabblad **Inkooporderregels** in het menu **Financiële items** in de sectie **Toeslagen**.
 9. Selecteer in het veld **Toeslagcode** **VRACHT**.
 10. Voer **30** in het veld **Toeslagwaarde** in.
 11. Selecteer **Opslaan** in het actievenster. Sluit de pagina vervolgens.
-12. Selecteer in het actievenster in het tabblad **Inkoop** in de groep **Acties** de optie **Bevestigen**.
+12. Selecteer in het actievenster op het tabblad **Inkoop** in de groep **Acties** de optie **Bevestigen**.
 13. Selecteer in het actievenster op het tabblad **Factuur** in de groep **Genereren** de optie **Factuur**.
 14. Selecteer in het actievenster **Standaardgegevens**. Selecteer **Bestelde hoeveelheid** in het veld **Standaardhoeveelheid voor regels**. Selecteer vervolgens **OK**.
-15. Voer **00100** in het sneltabblad **Koptekst leveranciersfactuur** in, in het gedeelte **Factuuridentificatie** in het veld **Nummer**.
+15. Voer **00100** op het sneltabblad **Koptekst leveranciersfactuur** in, in het gedeelte **Factuuridentificatie** in het veld **Nummer**.
 16. Selecteer in de sectie **Factuurdatums** in het veld **Factuurdatum** de waarde **24/11/2021** (24 november 2021).
 17. Als u de factuur wilt boeken, selecteert u **Boeken** vanuit het actievenster.
 
@@ -235,7 +235,7 @@ In dit voorbeeld moet een bedrijf in Duitsland twee eenheden goederen van een ma
 4. Controleer of op het sneltabblad **Hiërarchie basisproductcodes** in het veld **Categoriehiërarchie** de waarde **Intrastat** is ingesteld.
 5. Ga naar **Leveranciers** > **Leveranciers** > **Alle leveranciers**.
 6. Selecteer **DE-001** in het raster.
-7. Selecteer in het sneltabblad **Adres** de optie **Bewerken**.
+7. Selecteer op het sneltabblad **Adres** de optie **Bewerken**.
 8. Selecteer in het dialoogvenster **Adres bewerken** in het veld **Land/regio** de optie **ITA**.
 9. Selecteer **OK** om het dialoogvenster te sluiten.
 
@@ -256,22 +256,22 @@ In dit voorbeeld moet een bedrijf in Duitsland twee eenheden goederen van een ma
 
 1. Ga naar **Productgegevensbeheer** > **Producten** > **Vrijgegeven producten**.
 2. Selecteer **D0001** in het raster.
-3. Selecteer in het sneltabblad **Buitenlandse handel** in het gedeelte **Intrastat** in het veld **Percentage van toeslagen** de waarde **20**.
+3. Selecteer op het sneltabblad **Buitenlandse handel** in het gedeelte **Intrastat** in het veld **Percentage van toeslagen** de waarde **20**.
 
 #### <a name="change-the-site-address"></a>Het locatieadres wijzigen
 
 1. Ga naar **Magazijnbeheer** > **Instellingen** > **Magazijn** > **Vestigingen**.
 2. Selecteer **1** in het raster.
-3. Selecteer in het sneltabblad **Adressen** de optie **Bewerken**.
+3. Selecteer op het sneltabblad **Adressen** de optie **Bewerken**.
 4. Selecteer in het dialoogvenster **Adres bewerken** in het veld **Land/regio** de optie **DEU**.
 5. Selecteer **OK**.
 6. Selecteer **2** in het raster.
-7. Selecteer in het sneltabblad **Adressen** de optie **Bewerken**.
+7. Selecteer op het sneltabblad **Adressen** de optie **Bewerken**.
 8. Selecteer in het dialoogvenster **Adres bewerken** in het veld **Land/regio** de optie **ITA**.
 9. Selecteer **OK**.
 10. Ga naar **Magazijnbeheer** > **Instellen** > **Magazijn** > **Magazijnen**.
 11. Selecteer **21** in het raster.
-12. Selecteer in het sneltabblad **Algemeen** in het gedeelte **Verwijzing** in het veld **Leverancierrekening** de waarde **DE-001**.
+12. Selecteer op het sneltabblad **Algemeen** in het gedeelte **Verwijzing** in het veld **Leverancierrekening** de waarde **DE-001**.
 
 #### <a name="create-a-transfer-order"></a>Een transferorder maken
 
@@ -280,7 +280,7 @@ In dit voorbeeld moet een bedrijf in Duitsland twee eenheden goederen van een ma
 3. Selecteer **11** in het veld **Van magazijn** op het sneltabblad **Transferorderkoptekst** op het tabblad **Regels** in de sectie **Overzicht**. Selecteer **21** in het veld **Naar magazijn**.
 4. Selecteer **Toevoegen** op het tabblad **Regels** op het sneltabblad **Transferorderregels**.
 5. Selecteer in het veld **Artikelnummer** de optie **D0001**. Voer daarna in het veld **Transferhoeveelheid** de waarde **2** in.
-6. Zorg ervoor dat op het sneltabblad **Regelinformatie** in het tabblad **Buitenlandse handel** het veld **Transactiecode** in de sectie **Buitenlandse handel** automatisch wordt ingesteld.
+6. Zorg ervoor dat op het sneltabblad **Regelinformatie** op het tabblad **Buitenlandse handel** het veld **Transactiecode** in de sectie **Buitenlandse handel** automatisch wordt ingesteld.
 7. Selecteer vervolgens in het actievenster op het tabblad **Verzenden** in de groep **Bewerkingen** de optie **Transferorder verzenden**.
 8. Selecteer **Alle** in het dialoogvenster **Zending** op het tabblad **Overzicht** in het veld **Bijwerken**.
 9. Selecteer **OK** om de order te verzenden.
@@ -312,11 +312,11 @@ In dit voorbeeld moet een bedrijf in Duitsland 10 eenheden goederen inkopen bij 
 1. Ga naar **Organisatiebeheer** > **Organisaties** > **Rechtspersonen** en selecteer **DEMF**.
 2. Controleer op het sneltabblad **Adressen** of het veld **Land/regio** is ingesteld op **DEU(Duitsland)**.
 3. Ga naar **Belasting** > **Instellingen** > **Buitenlandse handel** > **Parameters buitenlandse handel**.
-4. Selecteer in het tabblad **Intrastat** in het sneltabblad **Algemeen** in het veld **Transactiecode** de waarde **11**.
+4. Selecteer op het tabblad **Intrastat** op het sneltabblad **Algemeen** in het veld **Transactie****code** de waarde **11**.
 5. Controleer of op het sneltabblad **Hiërarchie basisproductcodes** in het veld **Categoriehiërarchie** de waarde **Intrastat** is ingesteld.
 6. Ga naar **Leveranciers** > **Leveranciers** > **Alle leveranciers**.
 7. Selecteer **DE-001** in het raster.
-8. Selecteer in het sneltabblad **Adres** de optie **Bewerken**.
+8. Selecteer op het sneltabblad **Adres** de optie **Bewerken**.
 9. Selecteer in het dialoogvenster **Adres bewerken** in het veld **Land/regio** de optie **ITA**.
 10. Selecteer **OK** om het dialoogvenster te sluiten.
 
@@ -339,7 +339,7 @@ In dit voorbeeld moet een bedrijf in Duitsland 10 eenheden goederen inkopen bij 
 7. Selecteer **OK**.
 8. Ga naar **Productgegevensbeheer** > **Producten** > **Vrijgegeven producten**.
 9. Selecteer **F00007** in het raster.
-10. Voer in het sneltabblad **Voorraad beheren** in het gedeelte **Voorraad** in het veld **Eenheid** de waarde **GRM** in.
+10. Voer op het sneltabblad **Voorraad beheren** in het gedeelte **Voorraad** in het veld **Eenheid** de waarde **GRM** in.
 11. Selecteer **Opslaan** in het actievenster.
 
 #### <a name="set-up-product-information"></a>Productgegevens instellen
@@ -354,7 +354,7 @@ In dit voorbeeld moet een bedrijf in Duitsland 10 eenheden goederen inkopen bij 
 1. Ga naar **Productgegevensbeheer** > **Instellingen** > **Categorieën en kenmerken** > **Categoriehiërarchieën**.
 2. Selecteer **Intrastat** in de lijst.
 3. Selecteer **Speaker** in het raster.
-4. Selecteer in het sneltabblad **Buitenlandse handel** in het veld **Extra eenheden** de waarde **GRM**.
+4. Selecteer op het sneltabblad **Buitenlandse handel** in het veld **Extra eenheden** de waarde **GRM**.
 5. Selecteer **Opslaan** in het actievenster.
 
    Zie [Maateenheden beheren](../../supply-chain/pim/tasks/manage-unit-measure.md) voor meer informatie.
@@ -365,10 +365,10 @@ In dit voorbeeld moet een bedrijf in Duitsland 10 eenheden goederen inkopen bij 
 2. Selecteer **Nieuw** in het actievenster.
 3. Ga in het dialoogvenster **Inkooporder maken** naar het sneltabblad **Leveranciersrekening** en selecteer **DE-001**.
 4. Selecteer **OK**.
-5. Controleer in het tabblad **Koptekst** in het sneltabblad **Buitenlandse** **handel** of het veld **Transactiecode** ingesteld is op **11**.
-6. Selecteer in het tabblad **Regels** in het sneltabblad **Inkooporderregels** in het veld **Artikelnummer** de waarde **F00007**. Voer daarna in het veld **Hoeveelheid** de waarde **10** in.
-7. Zorg ervoor dat op het sneltabblad **Regelinformatie** in het tabblad **Buitenlandse handel** in de sectie **Buitenlandse handel** de velden **Transactiecode** en **Basisproduct** automatisch wordt ingesteld.
-8. Selecteer in het actievenster in het tabblad **Inkoop** in de groep **Acties** de optie **Bevestigen**.
+5. Controleer op het tabblad **Koptekst** op het sneltabblad **Buitenlandse** **handel** of het veld **Transactiecode** ingesteld is op **11**.
+6. Selecteer op het tabblad **Regels** op het sneltabblad **Inkooporderregels** in het veld **Artikelnummer** de waarde **F00007**. Voer daarna in het veld **Hoeveelheid** de waarde **10** in.
+7. Zorg ervoor dat op het sneltabblad **Regelinformatie** op het tabblad **Buitenlandse handel** in de sectie **Buitenlandse handel** de velden **Transactiecode** en **Basisproduct** automatisch wordt ingesteld.
+8. Selecteer in het actievenster op het tabblad **Inkoop** in de groep **Acties** de optie **Bevestigen**.
 9. Selecteer in het actievenster op het tabblad **Factuur** in de groep **Genereren** de optie **Factuur**.
 10. Selecteer in het actievenster **Standaardgegevens**. Selecteer **Bestelde hoeveelheid** in het veld **Standaardhoeveelheid voor regels**. Selecteer vervolgens **OK**.
 11. Op het sneltabblad **Koptekst leveranciersfactuur**, in de sectie **Factuuridentificatie**, in het veld **Nummer** voert u het getal **VE-0010** in.
@@ -387,6 +387,28 @@ In dit voorbeeld moet een bedrijf in Duitsland 10 eenheden goederen inkopen bij 
 5. Controleer het tabblad **Algemeen** voor de inkooporder. De velden **Aantal aanvullende eenheden** en **Aanvullende eenheid** in de sectie **Eenheid** worden automatisch ingesteld.
 
    ![Informatie over een inkooporder op het tabblad Algemeen van de Intrastat-pagina](media/intrastat_overview_6.png)
+   
+## <a name="list-of-countryregion-specific-articles"></a>Lijst met land- of regiospecifieke artikelen
+In de volgende tabel worden de beschikbare land-/regiospecifieke Intrastat-artikelen vermeld.
+
+| Land/regio          | Koppeling      |
+|------------------|-----------|
+| Oostenrijk          |[Oostenrijkse intrastat](emea-aut-intrastat.md)| 
+| België          |[Belgische Intrastat](emea-bel-intrastat.md)|
+| Tsjechische Republiek   |[Tsjechische Intrastat](emea-cze-intrastat.md)|
+| Denemarken          |[Deense Intrastat](emea-dnk-intrastat.md)|
+| Estland          |[Estische Intrastat](emea-est-intrastat.md)|
+| Finland          |[Intrastat Finland](emea-fin-intrastat.md)|
+| Frankrijk           |[Franse Intrastat](emea-fra-intrastat.md)|
+| Duitsland          |[Duitse Intrastat](emea-deu-intrastat.md)|
+| Hongarije          |[Hongaarse intrastat](emea-hun-intrastat.md)|
+| Italië            |[Italiaanse Intrastat](emea-ita-intrastat.md)|
+| Letland           |[Letse Intrastat](emea-lva-intrastat.md)|
+| Litouwen        |[Intrastat Litouwen](emea-ltu-intrastat.md)|
+| Nederland      |[Nederland Intrastat](emea-nl-intrastat.md)|
+| Polen           |[Poolse Intrastat](emea-pol-intrastat.md)|
+| Spanje            |[Spaanse Intrastat](emea-esp-intrastat.md)|
+| Zweden           |[Zweedse Intrastat](emea-swe-intrastat.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

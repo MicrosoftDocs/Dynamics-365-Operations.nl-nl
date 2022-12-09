@@ -1,8 +1,8 @@
 ---
 title: Verlof uitstellen
-description: U kunt het verlof van een werknemer uitstellen in Dynamics 365 Human Resources.
+description: U kunt een verlof voor een werknemer uitstellen in Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 10/28/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,22 +14,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 93b530aeef6fd14b56ac846e3bb0ad4080d67587
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9c8262fb34175f6f9326d6be82c922b2170fc5a7
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895897"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805255"
 ---
 # <a name="suspend-leave"></a>Verlof uitstellen
 
 >[!Important]
 >De functionaliteit die in dit artikel wordt vermeld, is momenteel beschikbaar voor klanten van de zelfstandige versie van Dynamics 365 Human Resources. Sommige of alle functionaliteit is beschikbaar als onderdeel van een toekomstige versie van de Finance-infrastructuur na versie 10.0.26 van Finance.
 
-
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-U kunt verlof voor een werknemer uitstellen zodat toerekeningen niet worden verwerkt voor geselecteerde verloftypen. 
+U kunt een verlof voor een werknemer uitstellen om de verwerking van het toerekenen van verlof voor geselecteerde verloftypen te stoppen.
 
 ## <a name="suspend-leave-and-absence-for-an-employee"></a>Verlof en verzuim uitstellen voor een werknemer
 
@@ -44,6 +43,9 @@ U kunt verlof voor een werknemer uitstellen zodat toerekeningen niet worden verw
 5. U kunt desgewenst een **Opmerking** toevoegen voor het uitstel. 
 
 Als toerekeningen worden verwerkt terwijl het verlof van de werknemer is opgeschort, wordt er geen toerekening uitgevoerd voor de uitgestelde verloftypen.
+
+> [!NOTE]
+> Verlofaanvragen stellen aanvragen voor verlof uit, maar verlofaanvragen worden niet uitgesteld door aanvragen voor verlof.
 
 ## <a name="see-also"></a>Zie ook
 

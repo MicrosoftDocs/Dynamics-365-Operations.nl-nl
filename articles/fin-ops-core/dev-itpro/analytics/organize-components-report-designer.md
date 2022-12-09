@@ -2,7 +2,7 @@
 title: Rapportonderdelen indelen in Report Designer
 description: In dit artikel wordt uitgelegd hoe u bestaande rapporten, bouwstenen en objecten in Report Designer kunt organiseren.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6abad01232d05e94321d0d568d2e801d92875ae
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: a94a88114072792243026e441e6c5a62ee80fc56
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135874"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802683"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Rapportonderdelen indelen in Report Designer
 
@@ -33,11 +33,11 @@ U kunt de naam van mappen, rapporten, bouwstenen en andere objecten in Report De
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen wijzigen in Report Designer
 In Report Designer kunt u de naam van mappen, rapportdefinities, rijdefinities, kolomdefinities en rapporteringsstructuurdefinities wijzigen.
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen in Report Designer wijzigen
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>De naam van een map of bouwsteen wijzigen in Report Designer
 
 1. Blader in het navigatiedeelvenster van Report Designer naar de map of het object waarvan u de naam wilt wijzigen.
 2. Klik met de rechtermuisknop op de map of het object en klik vervolgens op **Naam wijzigen**. Het veld **Naam** in het navigatievenster komt beschikbaar.
-3. Typ een nieuwe naam en druk vervolgens op Enter.
+3. Typ een nieuwe naam en druk vervolgens op **Enter**.
 4. Als de bouwsteen een rijdefinitie, kolomdefinitie of rapportagestructuurdefinitie is, moet u andere bouwstenen bijwerken die hieraan zijn gekoppeld. Klik met de rechtermuisknop op de bouwsteen waarvan u de naam hebt gewijzigd in stap 3, selecteer **Koppelingen** en selecteer vervolgens een item in de lijst om het bij te werken.
 5. Herhaal stap 4 tot alle gekoppelde artikelen zijn bijgewerkt.
 
@@ -60,7 +60,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 3. Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
 4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan.](media/save.gif "Opslaan") op de werkbalk.
 
-> Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
+> [NOTE] Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
 
 ### <a name="generate-a-report-group-report"></a>Een rapportgroeprapport genereren
 
@@ -80,13 +80,13 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 <table>
 <thead>
 <tr>
-<th>Controle</th>
-<th>Beschrijving</th>
+<th>Control</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Instellingen voor bedrijf, gegevens en datum uit afzonderlijke rapportdefinities negeren</td>
+<td>Instellingen voor bedrijf, details en datum uit individuele rapportdefinities negeren</td>
 <td>Schakel dit selectievakje in om afzonderlijke rapportdefinities van de rapporten in deze rapportgroep te negeren voor alleen artikelgeneratie van deze rapporten.</td>
 </tr>
 <tr>
@@ -113,7 +113,7 @@ De volgende tabel bevat beschrijvingen van de besturingselementen op het tabblad
 </tr>
 <tr>
 <td>Alle aangiftevaluta opnemen</td>
-<td>Alle extra aangiftevaluta's die in uw Microsoft Dynamics ERP-systeem zijn geconfigureerd, worden hier vermeld. Schakel dit selectievakje in om extra rapporten te genereren in de valuta's die worden aangegeven. Deze rapporten kunnen vervolgens in de Web Viewer worden bekeken door te klikken op de knop <strong>Valuta</strong> en dan een valuta te selecteren.</td>
+<td>Alle extra aangiftevaluta's die in uw Microsoft Dynamics 365 Finance-systeem zijn geconfigureerd, worden hier vermeld. Schakel dit selectievakje in om extra rapporten te genereren in de valuta's die worden aangegeven. Deze rapporten kunnen vervolgens in de Web Viewer worden bekeken door te klikken op de knop <strong>Valuta</strong> en dan een valuta te selecteren.</td>
 </tr>
 <tr>
 <td>Datumgegevens die niet zijn opgeslagen met rapportdefinitie</td>

@@ -1011,7 +1011,23 @@
                 - name: URL-omleidingen in bulk uploaden
                   href: upload-bulk-redirects.md
                 - name: Een B2C-tenant instellen in Commerce
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: Een B2C-tenant instellen
+                      href: set-up-B2C-tenant.md
+                    - name: Een bestaande Azure AD B2C-tenant maken of koppelen
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Een B2C-toepassing maken
+                      href: create-b2c-app.md
+                    - name: Beleid voor gebruikersstromen maken
+                      href: create-user-flow-policies.md
+                    - name: Providers van sociale identiteiten toevoegen
+                      href: add-social-identity-providers.md
+                    - name: Commerce Headquarters bijwerken met Azure AD B2C-gegevens
+                      href: update-hq-aad-b2c-info.md
+                    - name: Uw B2C-tenant configureren in opbouwfunctie voor sites
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Aanvullende B2C-gegevens
+                      href: additional-b2c-info.md
                 - name: Aangepaste pagina's voor gebruikersaanmeldingen instellen
                   href: custom-pages-user-logins.md
                 - name: Automatisch koppelen van identiteitsrecords aan klantrekeningen inschakelen
@@ -1570,6 +1586,8 @@
               items:
                 - name: QR-codes genereren en deze op ontvangsten voor Saoedi-Arabië afdrukken
                   href: localizations/emea-sau-qr-code.md
+                - name: Vereenvoudigde elektronische facturen voor Saudi-Arabië genereren en indienen
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Zweden
               items:
                 - name: Kassafunctionaliteit
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Belasting voor online orders wordt onjuist berekend
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Fout bij ordersynchronisatie die samenhangt met standaardbetalingsservice
+                - name: Problemen met synchronisatie van asynchrone orders
                   href: troubleshoot/synchronization-error.md
             - name: Betalingsverwerking
               items:

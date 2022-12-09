@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
-ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "9775401"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805309"
 ---
 # <a name="proactive-quality-updates"></a>Proactieve kwaliteitsupdates
 
@@ -105,19 +105,19 @@ Zie [Wat zijn de geplande onderhoudsvensters per regio?](../../dev-itpro/deploym
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Vrijgave van proactieve kwaliteitsupdate: 10.0.29
 **App-versie: 10.0.1326.70**  
-**Bijbehorend meest recent KB-artikel: 748926**
+**Bijbehorend meest recent KB-artikel: 750332**
 
 | Station | Regio's | Voltooide planning | Aankomende sandbox-planning|
 |---|---|---|---|
-| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 14 oktober tot en met 17 oktober 2022, 2 november tot en met 5 november 2022 | 13 november tot en met 16 november 2022 |
-| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 15 oktober tot en met 18 oktober 2022, 2 november tot en met 5 november 2022 | 13 november tot en met 16 november 2022 |
-| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 16 oktober tot en met 19 oktober 2022, 2 november tot en met 5 november 2022 | 13 november tot en met 16 november 2022 |
-| Station 4 | Europa - noord, VS - centraal, VS - west | 17 oktober tot en met 20 oktober 2022, 2 november tot en met 5 november 2022 | 15 november tot en met 18 november 2022 |
+| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 14 oktober tot en met 17 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022 | 5 december tot en met 8 december|
+| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 15 oktober tot en met 18 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022 | 5 december tot en met 8 december|
+| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 16 oktober tot en met 19 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022 | 5 december tot en met 8 december|
+| Station 4 | Europa - noord, VS - centraal, VS - west | 17 oktober tot en met 20 oktober 2022, 2 november tot en met 5 november 2022, 15 november 2022 tot en met 18 november 2022 | 5 december tot en met 8 december|
 | Station 5 | DoD, Government Community Cloud, China | Niet gepland | Niet gepland |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Vrijgave van proactieve kwaliteitsupdate: 10.0.30
-**App-versie: nog te bepalen**
-**Bijbehorend meest recente KB-artikel: nog te bepalen**
+**App-versie: 10.0.1362.77**
+**Bijbehorend meest recente KB-artikel: 767597**
 
 | Station | Regio's | Aankomende sandbox-planning |
 |---|---|---|
@@ -147,14 +147,14 @@ Microsoft wil de vrijgavepijplijn efficiënt genoeg houden om kleine nettolading
 Nee. Het belangrijkste doel van kwaliteitsupdates is ervoor te zorgen dat basisprincipes, zoals beveiliging, privacy, betrouwbaarheid, beschikbaarheid en prestaties, continu worden verbeterd voor onze klanten. Door een update uit te stellen of te onderbreken, lopen beveiliging, beschikbaarheid en betrouwbaarheid gevaar.
 
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Hoe kan ik weten welke wijzigingen zijn doorgevoerd in een nettolading van een kwaliteitsupdate?
-De volgende stappen zijn een tijdelijke oplossing terwijl we blijven werken aan een betere oplossing voor het identificeren van de lijst met wijzigingen die in een nettolading voor kwaliteitsupdates worden opgenomen. 
+Volg de onderstaande stappen om de lijst met wijzigingen te identificeren die deel uitmaken van een nettolading voor kwaliteitsupdates. 
 
-Gebruik KB-nr. 745340 voor de kwaliteitsupdate van 10.0.28 en de bijbehorende app-versie 10.0.1265.89.
+Gebruik kwaliteitsupdate 10.0.28 en de bijbehorende app-versie 10.0.1265.89.
 
 1. Open in Lifecycle Services de pagina **Omgevingsdetails** voor uw sandbox. 
 2. Selecteer in de sectie **Beschikbare updates** de optie **Update weergeven** voor de meest recente kwaliteitsupdate. 
 3. Exporteer de build naar een CSV- of Microsoft Excel-bestand.
-4. Sorteer in het geëxporteerde bestand de informatie op basis van tijd (oudste eerst) en zoek vervolgens naar KB-nummer 745340 in de kolom **Update-id**. U zou nu de deltalijst met KB's moet zien.
+4. Filter en selecteer in het geëxporteerde bestand de **buildversie** die kleiner is dan of gelijk is aan buildnummer 10.0.1265.89. U zou nu de delta-nettolading moeten kunnen bekijken.
  
 > [!NOTE]
 > De export naar een CSV- of Excel-bestand moet plaatsvinden voordat de omgeving wordt bijgewerkt. Anders kunt u een omgeving gebruiken met een vergelijkbare configuratie waarin de update niet is geïnstalleerd en de bovenstaande stappen volgen.
@@ -185,8 +185,8 @@ Als er een conflict is met een vooraf geplande actie, bijvoorbeeld een PITR (Poi
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>Kan een omgeving weer naar de vorige status worden teruggebracht als er problemen zijn nadat een kwaliteitsupdate is toegepast?
 Nadat een kwaliteitsupdate is toegepast, wordt deze in geen enkele situatie teruggedraaid. Er zijn alleen patch forward-opties beschikbaar om problemen op te lossen.
 
-## <a name="what-about-fda-regulation-and-gpx"></a>Wat gebeurt er met de FDA-regulering en GPX?
-Het plan voor klanten op wie FDA-validatie en -regelgeving van toepassing is, verandert nog steeds. Wij hopen binnenkort op deze pagina meer te kunnen melden. Op dit moment zijn al deze klanten vrijgesteld van kwaliteitsupdates. Ga naar [Microsoft Azure GPX-aanbod](/azure/compliance/offerings/offering-gxp) om er zeker van te zijn dat een klant onder de FDA-wetgeving valt.
+## <a name="what-about-fda-regulation-and-gxp"></a>Wat gebeurt er met de FDA-regulering en GxP?
+Het plan voor klanten op wie FDA-validatie en -regelgeving van toepassing is, verandert nog steeds. Wij hopen binnenkort op deze pagina meer te kunnen melden. Op dit moment zijn al deze klanten vrijgesteld van kwaliteitsupdates. Ga naar [Microsoft Azure GxP-aanbod](/azure/compliance/offerings/offering-gxp) om er zeker van te zijn dat een klant onder de FDA-wetgeving valt.
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Welke versies van service-updates worden ondersteund voor deze kwaliteitsupdates?
 Klanten met alle ondersteunde versies van service-updates komen in aanmerking voor kwaliteitsupdates. 

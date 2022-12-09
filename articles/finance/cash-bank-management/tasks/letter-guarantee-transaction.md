@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30e21c11b067f6def127f3eab026d7255ab1ca29
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 786aecf69bae3d07ac80a55b4dc835dd8129bd59
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779929"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803959"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Borgstellingstransactie
 
@@ -43,7 +43,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 1. Ga naar **Klanten > Orders > Alle verkooporders**.
 2. Klik op **Nieuw**.
 3. Typ of selecteer een waarde in het veld **Klantrekening**.
-4. Vouw de sectie Algemeen uit.
+4. Vouw de sectie **Algemeen** uit.
 5. Typ of selecteer een waarde in het veld **Locatie**.
 6. Klik in de lijst op de koppeling in de geselecteerde rij.
 7. Typ of selecteer een waarde In het veld **Magazijn**.
@@ -52,9 +52,12 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 10. Klik op **OK**.
 11. Typ of selecteer een waarde in het veld **Artikelnummer**.
 12. Voer een nummer in het veld **Eenheidsprijs** in.
-13. Vouw de sectie Regeldetails uit.
-14. Klik op het tabblad Levering.
-    * Opmerking: selecteer Controle van leveringsdatum = Geen  
+13. Vouw de sectie **Regeldetails** uit.
+14. Klik op het tabblad **Levering**.
+
+>[!Note] 
+>Selecteer **Controle van leveringsdatum** = **Geen**  
+
 15. Typ een datum in het veld **Gewenste verzenddatum**.
 16. Typ een datum in het veld **Bevestigde verzenddatum**.
 
@@ -83,7 +86,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 2. Typ een waarde in het veld **Banknummer**.
     * Controleer de waarden in de berekende velden **Marge** en **Onkosten**.  
 3. Klik op **OK**.
-4. Vouw de sectie Acties uit.
+4. Vouw de sectie **Acties** uit.
     * Controleer de record 'Ontvangen van bank'.  
 5. Klik om de koppeling in het veld **Journaalbatchnummer** te volgen.
 6. Klik op **Regels**.
@@ -102,7 +105,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 9. Zoek en selecteer de gewenste record in de lijst.
 10. Klik op **Geven aan begunstigde** om het dialoogvenster te openen.
 11. Klik op **OK**.
-12. Vouw de sectie Acties uit.
+12. Vouw de sectie **Acties** uit.
     * Valideer de record 'Geven aan begunstigde'.  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Borgstelling Waarde verhogen verwerken
@@ -118,7 +121,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 10. Zoek en selecteer de gewenste record in de lijst.
 11. Klik op **Waarde verhogen** om het dialoogvenster te openen.
 12. Klik op **OK**.
-13. Vouw de sectie Acties uit.
+13. Vouw de sectie **Acties** uit.
     * Controleer de record 'Waarde verhogen'.  
 14. Zoek en selecteer de gewenste record in de lijst.
 15. Klik om de koppeling in het veld **Journaalbatchnummer** te volgen.
@@ -137,7 +140,7 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 9. Zoek en selecteer de gewenste record in de lijst.
 10. Klik op **Liquideren** om het dialoogvenster te openen.
 11. Klik op **OK**.
-12. Vouw de sectie Acties uit.
+12. Vouw de sectie **Acties** uit.
     * Controleer de record 'Liquideren'.  
 13. Zoek en selecteer de gewenste record in de lijst.
 14. Klik om de koppeling in het veld **Journaalbatchnummer** te volgen.

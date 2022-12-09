@@ -2,7 +2,7 @@
 title: Onderdelen van een financieel rapport
 description: In dit artikel wordt beschreven hoe de onderdelen of bouwstenen van rapportdefinities worden gebruikt in de financiële rapportage.
 author: aprilolson
-ms.date: 10/27/2017
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: af5cd63c2dbd531b4c8097b6149d7e67fe112259
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 66430f81bd3d1efe126dfb29fa9c6a093716f90e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280026"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802710"
 ---
 # <a name="financial-report-components"></a>Onderdelen van een financieel rapport
 
@@ -28,7 +28,7 @@ ms.locfileid: "9280026"
 
 In dit artikel wordt beschreven hoe de onderdelen of bouwstenen van rapportdefinities worden gebruikt in de financiële rapportage. Deze bouwstenen bevatten rijdefinities, kolomdefinities en rapportagestructuurdefinities. In dit artikel wordt uitgelegd hoe u bouwstenen organiseert en vergrendelt.
 
-De ontwerpfilosofie achter Ontwerper financiële rapporten is het opsplitsen van gegevens in de kleinste onderdelen of bouwstenen en vervolgens het naar behoefte combineren van de onderdelen. Daarom staat de opmaak van uw rapport los van uw financiële gegevens en kunt u het ontwerp van een rapport wijzigen zonder aanpassing van de financiële gegevens in uw Microsoft Dynamics ERP-systeem. Door deze benadering met bouwstenen te gebruiken, kunt u tekst, bedragen en berekeningen combineren om de rapporten te maken die u nodig hebt. Bovendien moedigt deze flexibiliteit creativiteit aan door het u gemakkelijk te maken om de bewerkingen op verschillende manieren weer te geven. De afzonderlijke bouwstenen van een rapportdefinitie zijn gelijk aan een driedimensioneel werkblad, maar zij hebben meer kracht. Een rapportdefinitie geeft de rijdefinitie, kolomdefinitie en optionele rapportagestructuurdefinitie op die voor het rapport moet worden gebruikt. Deze bevat ook informatie over waar u het rapport dat is gegenereerd opslaat en hoe u het opmaakt.
+De ontwerpfilosofie achter Ontwerper financiële rapporten is het opsplitsen van gegevens in de kleinste onderdelen of bouwstenen en vervolgens het naar behoefte combineren van de onderdelen. Daarom staat de opmaak van uw rapport los van uw financiële gegevens en kunt u het ontwerp van een rapport wijzigen zonder aanpassing van de financiële gegevens in Microsoft Dynamics 365 Finance. Door deze benadering met bouwstenen te gebruiken, kunt u tekst, bedragen en berekeningen combineren om de rapporten te maken die u nodig hebt. Bovendien moedigt deze flexibiliteit creativiteit aan door het u gemakkelijk te maken om de bewerkingen op verschillende manieren weer te geven. De afzonderlijke bouwstenen van een rapportdefinitie zijn gelijk aan een driedimensioneel werkblad, maar zij hebben meer kracht. Een rapportdefinitie geeft de rijdefinitie, kolomdefinitie en optionele rapportagestructuurdefinitie op die voor het rapport moet worden gebruikt. Deze bevat ook informatie over waar u het rapport dat is gegenereerd opslaat en hoe u het opmaakt.
 
 ## <a name="building-blocks-of-a-report"></a>Bouwstenen van een rapport
 
@@ -52,7 +52,7 @@ Gebruik mappen om uw bouwstenen in Report Designer in te delen. Alle mappen zijn
     - Klik met de rechtermuisknop op de bovenliggende map en klik vervolgens op **Nieuwe map**.
     - Selecteer de bovenliggende map, klik op **Bestand** en klik vervolgens op **Nieuwe map**.
 
-3. Wanneer de nieuwe map wordt weergegeven, voert u de naam in van de nieuwe map en drukt u vervolgens op Enter.
+3. Wanneer de nieuwe map wordt weergegeven, voert u de naam in van de nieuwe map en drukt u vervolgens op **Enter**.
 
 ## <a name="lock-a-building-block"></a>Een bouwsteen vergrendelen
 U kunt een wachtwoord maken om een bouwsteen te vergrendelen en helpen beveiligen. Op dit manier kunt u een niveau van beveiliging toevoegen aan een rapportonderdeel zonder het gehele systeem te beveiligen. Een wachtwoord kan helpen informatie van bouwstenen te beveiligen die belangrijk is voor uw rapportageproces aan het einde van een maand. Een gebruiker in elke willekeurige rol kan een bouwsteen vergrendelen. Andere gebruikers hebben echter altijd alleen-lezen toegang tot een vergrendelde onderdeel. Gebruikers kunnen het beveiligde onderdeel openen, wijzigen en opslaan onder een nieuwe naam. Een gebruiker die de rol van beheerder heeft kan een vergrendelde bouwsteen altijd openen en wijzigen.
@@ -104,7 +104,7 @@ U kunt een bouwsteengroep importeren in een bestaande bouwsteengroep. Alle geïm
 3. Selecteer in het dialoogvenster **Openen** de bouwsteengroep die u wilt importeren en klik vervolgens op **Openen**.
 4. Selecteer in het dialoogvenster **Importeren** de te importeren rapportdefinities:
 
-    - Als u alle rapportdefinities en de ondersteunende bouwstenen wilt importeren, klikt u op **Alles selecteren**.
+    - Klik, als u alle rapportdefinities en de ondersteunende bouwstenen wilt importeren, op **Alles selecteren**.
     - Om specifieke rapporten, rijen, kolommen, structuren of dimensiesets te importeren, selecteert u de te importeren rapporten, rijen, kolommen, structuren of dimensiesets.
 
 5. Wanneer u klaar bent met het selecteren van te importeren artikelen, klikt u op **Importeren**.
@@ -116,12 +116,12 @@ Wanneer u een bouwsteen opent, hebben andere gebruikers alleen-lezen toegang tot
 > [!NOTE]
 > U moet de rol van beheerder hebben om bouwstenen te kunnen inchecken met het dialoogvenster **Uitgecheckte items**.
 
-1. Klik in Report Designer in het menu **Extra** op **Uitgecheckte artikelen**.
+1. Klik in Report Designer in het menu **Extra** op **Uitgecheckte items**.
 2. Schakel in het dialoogvenster **Uitgecheckte items** het selectievakje **Items van alle gebruikers weergeven** in. De lijst wordt bijgewerkt en u ziet alle uitgecheckte bouwstenen en door wie deze zijn uitgecheckt.
 3. Selecteer een bouwsteen en klik vervolgens op **Uitchecken ongedaan maken**.
 4. Klik op **Ja** om de nieuwe bouwsteen in te checken.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
 

@@ -2,32 +2,33 @@
 title: Store Commerce-app voor mobiele platformen
 description: In dit artikel wordt beschreven hoe u aan de slag kunt gaan met de Microsoft Dynamics 365 Commerce Store Commerce-app voor Android en iOS.
 author: stuharg
-ms.date: 10/07/2022
+ms.date: 11/30/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2018-10-29
-ms.openlocfilehash: 1f07a130629863ebd9d036378436cf360e90ac26
-ms.sourcegitcommit: 98231ff810f41f9fcdc6b536d87e453028aa6db8
+ms.openlocfilehash: dc952698a2a3301aff312e8310c58cbbb9cfe290
+ms.sourcegitcommit: 2804b05214c87f76457608b5db072582ff339852
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2022
-ms.locfileid: "9642336"
+ms.lasthandoff: 12/01/2022
+ms.locfileid: "9815778"
 ---
 # <a name="store-commerce-app-for-mobile-platforms"></a>Store Commerce-app voor mobiele platformen
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In dit artikel wordt beschreven hoe u aan de slag kunt gaan met de Microsoft Dynamics 365 Commerce Store Commerce-apps voor Android en iOS.
 
-Met de mobiele Dynamics 365 Commerce-apps voor Android en iOS kunt u op eenvoudige wijze en zonder veel moeite complete mobiele POS-apparaten implementeren voor uw detailhandelomgeving. De mobiele Store Commerce-apps bieden alle mogelijkheden en voordelen van de [Store Commerce-app voor Windows](store-commerce.md) in telefoon- en tabletformaat. De mobiele Store Commerce-apps kunnen rechtstreeks worden geïnstalleerd vanuit de Apple en Google Play app stores en ontwikkelaars hoeven geen nieuw toepassingspakket te maken om deze te implementeren of bij te werken. 
+Met de mobiele Dynamics 365 Commerce-apps voor Android en iOS kunt u op eenvoudige wijze en zonder veel moeite complete mobiele POS-apparaten implementeren voor uw detailhandelomgeving. De mobiele Store Commerce-apps bieden bijna alle mogelijkheden en voordelen van de [Store Commerce-app voor Windowss](store-commerce.md) en leveren goede prestaties op een breed scala aan iOS- en Android-telefoons en -tablets. De mobiele Store Commerce-apps kunnen rechtstreeks worden geïnstalleerd vanuit de Apple en Google Play app stores en ontwikkelaars hoeven geen nieuw toepassingspakket te maken om deze te implementeren of bij te werken. 
 
 De mobiele Store Commerce-apps bieden dezelfde functionaliteit als de huidige hybride Retail-apps. Daarnaast bevat Store Commerce voor iOS ondersteuning voor een specifiek hardwarestation, zodat iOS-apparaten kunnen communiceren met netwerkbetalingsterminals, kassabonprinters en kassaladen zonder dat er een gezamenlijk hardwarestation hoeft te worden geïmplementeerd. 
 
 > [!IMPORTANT]
-> De Store Commerce-apps voor Windows, Android en iOS zijn de volgende generatie POS-toepassingen voor Dynamics 365 Commerce. De huidige MPOS-toepassing (Modern POS) [en de hybride Retail-apps](hybridapp.md) voor mobiel worden in oktober 2023 afgeschaft. Microsoft adviseert u Store Commerce of Cloud POS (CPOS) te gebruiken voor alle nieuwe POS-implementaties. Bestaande klanten kunnen het beste plannen maken voor het migreren van de hybride Retail-app naar Store Commerce. Zie [De Dynamics 365 Commerce-technologiestack binnen de winkel moderniseren](https://www.microsoft.com/download/details.aspx?id=103896) voor meer informatie over het afschaffingsschema voor MPOS en de hybride Retail-apps. 
+> De Store Commerce-apps voor Windows, Android en iOS zijn de volgende generatie POS-toepassingen voor Dynamics 365 Commerce. De Store Commerce-apps bieden een groot aantal verbeteringen ten opzichte van hun voorafgaande functionaliteit en behouden alle functies en functionaliteiten. Microsoft zal MPOS en de Android- en hybride apps voor iOS Retail POS eind 2023 afschaffen en stelt u voor om Store Commerce of Cloud POS (CPOS) te gebruiken voor alle nieuwe POS-implementaties. Bestaande klanten kunnen het beste plannen maken voor het migreren van de hybride Retail-apps naar Store Commerce. Zie [Modern POS migreren naar Store Commerce](pos-extension/migrate-mpos-store-commerce.md) voor meer informatie. 
 
 ## <a name="app-architecture"></a>App-architectuur
 
@@ -51,7 +52,7 @@ Voor de mobiele Store Commerce-apps is Dynamics 365 Commerce vereist, en dan met
 U kunt de mobiele Store Commerce-apps rechtstreeks installeren vanuit de Google Play Store of Apple App Store 
 
 - [Store Commerce-app voor Android](https://aka.ms/storecommerceandroid)
-- Store Commerce-app voor iOS (binnenkort beschikbaar)
+- [Store Commerce-app voor iOS](https://aka.ms/storecommerceios)
 
 De pakketten voor de Android-app (.apk) en Apple-app (.ipa) kunnen ook worden gedownload vanuit de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services. 
 

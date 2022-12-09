@@ -2,7 +2,7 @@
 title: Interface van Report Designer
 description: In dit artikel wordt uitgelegd hoe u kunt navigeren door Report Designer en hoe u gebruik kunt maken van de verschillende opties om aan uw specifieke vereisten te voldoen.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
-ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25d913e6f5d4c95dceda1291a2c33abe37348574
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274722"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802737"
 ---
 # <a name="report-designer-interface"></a>Interface van Report Designer
 
@@ -40,7 +40,7 @@ Het menu **Bestand** is beschikbaar voor alle gebruikers en bevat de volgende op
 |-----------------------------------|-------------|
 | Nieuw                               | Een nieuwe rij rapportdefinitie, rijdefinitie, kolomdefinitie, rapportagestructuurdefinitie, rapportgroepdefinitie of map maken. Er zijn extra opties beschikbaar, afhankelijk van uw gebruikersrol. |
 | Openstaand                              | Een bestaande rijdefinitie, kolomdefinitie, rapportagestructuurdefinitie of rapportdefinitie openen. |
-| Afsluiten                             | De huidige bouwsteen sluiten. |
+| Sluiten                             | De huidige bouwsteen sluiten. |
 | Alles sluiten                         | Alle bouwstenen sluiten. |
 | Opslaan                              | De huidige rijdefinitie, kolomdefinitie, rapportagestructuurdefinitie of rapportdefinitie opslaan. |
 | Opslaan als                           | De huidige rijdefinitie, kolomdefinitie, rapportagestructuurdefinitie of rapportdefinitie opslaan met een nieuwe naam. |
@@ -67,18 +67,18 @@ Het menu **Bewerken** is beschikbaar voor gebruikers met de rol **Ontwerper** of
 | Wissen                                  | De inhoud van de geselecteerde bouwsteencel verwijderen. |
 | Zoeken                                   | Het dialoogvenster **Zoeken en vervangen** openen, waarin u tekst in het voorbeeldvenster kunt zoeken. |
 | Vervangen                                | Het dialoogvenster **Zoeken en vervangen** openen, waarin u tekst in het voorbeeldvenster kunt zoeken en vervangen. |
-| Rijen invoegen van dimensies            | Het dialoogvenster **Rijen invoegen van dimensies** openen, waarin u de dimensiewaarden kunt selecteren die u in de rijdefinitie wilt opnemen. Deze opdracht is beschikbaar vanuit een rijdefinitie. |
-| Rijen opnieuw nummeren                          | Alle numerieke rijcodes opnieuw nummeren. Deze opdracht is beschikbaar vanuit een rijdefinitie. |
+| Rijen invoegen uit dimensies            | Het dialoogvenster **Rijen invoegen van dimensies** openen, waarin u de dimensiewaarden kunt selecteren die u in de rijdefinitie wilt opnemen. Deze opdracht is beschikbaar vanuit een rijdefinitie. |
+| Rijen hernummeren                          | Alle numerieke rijcodes opnieuw nummeren. Deze opdracht is beschikbaar vanuit een rijdefinitie. |
 | Rijkoppelingen                              | Het dialoogvenster **Rijkoppelingen** openen, waarin u de bronnen voor gegevenskoppelingen kunt opgeven in rijdefinities en rapportagestructuurdefinities. Deze opdracht is beschikbaar vanuit een rijdefinitie. |
-| Afrondingscorrecties                    | Het dialoogvenster **Afrondingscorrecties** openen, waarin u de parameters voor afronding kunt opgeven. Deze opdracht is beschikbaar vanuit een rijdefinitie. |
+| Afrondingscorrectie                    | Het dialoogvenster **Afrondingscorrecties** openen, waarin u de parameters voor afronding kunt opgeven. Deze opdracht is beschikbaar vanuit een rijdefinitie. |
 | Dimensiesets beheren                  | Het dialoogvenster **Dimensiesets** openen, waarin u dimensiesets kunt maken en wijzigen. Deze opdracht is beschikbaar vanuit een rijdefinitie of rapportagestructuurdefinitie. |
 | Rij invoegen                             | Een lege rij invoegen in de rijdefinitie of een lege koptekstrij invoegen in de kolomdefinitie. Deze opdracht is beschikbaar vanuit een rijdefinitie of kolomdefinitie. |
 | Rij verwijderen                             | De geselecteerde rij verwijderen uit de rijdefinitie of de geselecteerde koptekstrij van de kolomdefinitie. Deze opdracht is beschikbaar vanuit een rijdefinitie of kolomdefinitie. |
 | Kolom invoegen                          | Een lege kolom invoegen in de kolomdefinitie. Deze opdracht is beschikbaar vanuit een kolomdefinitie. |
 | Kolom verwijderen                          | De geselecteerde kolom verwijderen uit de kolomdefinitie. Deze opdracht is beschikbaar vanuit een kolomdefinitie. |
-| Rapportage-eenheden verwijderen uit dimensies | Het dialoogvenster **Rapportage-eenheden invoegen van dimensies** openen, waarin u de dimensiewaarden kunt selecteren die u in de rapportagestructuurdefinitie wilt opnemen. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie. |
-| Hiërarchie van dimensieset importeren         | Het dialoogvenster **Hiërarchie van dimensieset** openen, waarin u een hiërarchie van dimensieset kunt importeren uit de financiële gegevens. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie voor een ..\\financial-dimensions\\op dimensies gebaseerd systeem. |
-| Rapporteringseenheid invoegen                  | Een lege rij invoegen in de rapportagestructuurdefinitie. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie. |
+| Rapportage-eenheden invoegen uit dimensies | Het dialoogvenster **Rapportage-eenheden invoegen van dimensies** openen, waarin u de dimensiewaarden kunt selecteren die u in de rapportagestructuurdefinitie wilt opnemen. Deze opdracht is beschikbaar vanuit een rapporteringsstructuurdefinitie. |
+| Hiërarchie van dimensiegroep importeren         | Het dialoogvenster **Hiërarchie van dimensieset** openen, waarin u een hiërarchie van dimensieset kunt importeren uit de financiële gegevens. Deze opdracht is beschikbaar vanuit een rapportagestructuurdefinitie voor een ..\\financial-dimensions\\op dimensies gebaseerd systeem. |
+| Rapportage-eenheid invoegen                  | Een lege rij invoegen in de rapportagestructuurdefinitie. Deze opdracht is beschikbaar vanuit een rapporteringsstructuurdefinitie. |
 | Rapportage-eenheid verwijderen                  | De geselecteerde rapportage-eenheidrij verwijderen uit de rapportagestructuurdefinitie. Deze opdracht is beschikbaar vanuit een rapporteringsstructuurdefinitie. |
 
 ### <a name="view-menu"></a>Menu Beeld
@@ -96,7 +96,7 @@ Het menu **Beeld** is beschikbaar voor alle gebruikers en bevat de volgende opdr
 
 Het menu **Opmaak** is beschikbaar voor gebruikers met de rol **Ontwerper** of **Beheerder**. Dit menu bevat de volgende opdrachten.
 
-| Opdracht               | Beschrijving |
+| Command               | Description |
 |-----------------------|-------------|
 | Stijlen en opmaak | Het dialoogvenster **Stijlen en opmaak** openen, waarin u de stijl voor tekst in rijdefinities en kolomdefinities kunt maken en wijzigen. Deze opdracht is beschikbaar vanuit een rijdefinitie of een kolomdefinitie. |
 | Kolombreedte          | Het dialoogvenster **Kolombreedte** openen, waarin u de breedte van de geselecteerde kolom kunt instellen. Deze opdracht is beschikbaar vanuit een rijdefinitie, een kolomdefinitie of een rapportagestructuurdefinitie. |
@@ -110,7 +110,7 @@ Het menu **Bedrijf** is beschikbaar voor gebruikers met de rol **Ontwerper** of 
 | Opdracht               | Beschrijving                                                                                                            |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Bedrijven             | Het dialoogvenster **Bedrijven** openen, waarin u bedrijven kunt maken en wijzigen.                                          |
-| Bouwsteengroepen | Het dialoogvenster **Bouwsteengroepen** openen, waarin u bouwsteengroepen kunt maken, veranderen, importeren en exporteren. |
+| Bouwsteengroepen | Open het dialoogvenster **Bouwsteengroepen**, waarin u bouwsteengroepen kunt maken, wijzigen, importeren en exporteren. |
 
 ### <a name="go-menu"></a>Het menu Ga
 
@@ -194,18 +194,18 @@ De standaardwerkbalk biedt snelle toegang tot bestands- en bewerkopdrachten. Dez
 
 De werkbalk Opmaak biedt gemakkelijke toegang tot stijlopdrachten. Deze werkbalk bevat de volgende knoppen.
 
-| Knoop                                                                                                       | Beschrijving                                             |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![De knop Tekenstijl.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | De geselecteerde tekenstijl toepassen op de huidige tekst.      |
-| [![De knop Lettertype.](./media/fonttype.png)](./media/fonttype.png)                                                 | De huidige tekst instellen op het geselecteerde lettertype.              |
+| Knoop                                                                                                       | Beschrijving                                           |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [![De knop Tekenstijl.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | De geselecteerde tekenstijl toepassen op de huidige tekst.   |
+| [![De knop Lettertype.](./media/fonttype.png)](./media/fonttype.png)                                                 | De huidige tekst instellen op het geselecteerde lettertype.           |
 | [![De knop Tekengrootte.](./media/fontsize.png)](./media/fontsize.png)                                            | De huidige tekst instellen op de geselecteerde tekengrootte (in punten). |
-| [![De knop Vet.](./media/boldc130389.png)](./media/boldc130389.png)                                           | De huidige tekst vet maken.                             |
-| [![De knop Cursief.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | De huidige tekst cursief maken.                           |
-| [![De knop Onderstrepen.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | De huidige tekst onderstrepen.                             |
-| [![De knop Inspringing verkleinen.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | De inspringing van de huidige tekst verlagen.                |
-| [![De knop Inspringing vergroten.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | De inspringing van de huidige tekst vergroten.                |
-| [![De knop Achtergrondkleur.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | De achtergrondkleur van de huidige cel veranderen.        |
-| [![De knop Tekenkleur.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | De kleur van de huidige tekst veranderen.                   |
+| [![De knop Vet.](./media/boldc130389.png)](./media/boldc130389.png)                                           | De huidige tekst vet maken.                          |
+| [![De knop Cursief.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | De huidige tekst cursief maken.                        |
+| [![De knop Onderstrepen.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | De huidige tekst onderstrepen.                          |
+| [![De knop Inspringing verkleinen.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | De inspringing van de huidige tekst verlagen.             |
+| [![De knop Inspringing vergroten.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | De inspringing van de huidige tekst vergroten.             |
+| [![De knop Achtergrondkleur.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | De achtergrondkleur van de huidige cel veranderen.     |
+| [![De knop Tekenkleur.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | De kleur van de huidige tekst veranderen.                |
 
 ### <a name="report-designer-toolbar"></a>Werkbalk van Report Designer
 
@@ -213,9 +213,9 @@ De werkbalk van Report Designer biedt snelle toegang tot opdrachten voor het nav
 
 | Knoop                                                                                              | Beschrijving |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![De knop Rapportdefinitie.](./media/reportc130389.png)](./media/reportc130389.png)                 | De rapportdefinitie weergeven die in het menu **Venster** wordt vermeld. |
-| [![De knop Rijdefinitie.](./media/rowc130389.png)](./media/rowc130389.png)                          | De rijdefinitie weergeven die aan de actieve rapportdefinitie is toegewezen. |
-| [![De knop Kolomdefinitie.](./media/columnc130389.png)](./media/columnc130389.png)                 | De kolomdefinitie weergeven die aan de actieve rapportdefinitie is toegewezen. |
+| [![De knop Rapportdefinitie.](./media/reportc130389.png)](./media/reportc130389.png)            | De rapportdefinitie weergeven die in het menu **Venster** wordt vermeld. |
+| [![De knop Rijdefinitie.](./media/rowc130389.png)](./media/rowc130389.png)             | De rijdefinitie weergeven die aan de actieve rapportdefinitie is toegewezen. |
+| [![De knop Kolomdefinitie.](./media/columnc130389.png)](./media/columnc130389.png)  | De kolomdefinitie weergeven die aan de actieve rapportdefinitie is toegewezen. |
 | [![De knop Rapportagestructuurdefinitie.](./media/treec130389.png)](./media/treec130389.png)             | De rapportagestructuurdefinitie weergeven die aan de actieve rapportdefinitie is toegewezen. |
 | [![De knop Report Viewer.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | De Report Viewer starten en de meest recente versie van het gegenereerde rapport weergeven. Deze knop is beschikbaar vanuit een rapportdefinitie als u ten minste één rapport hebt gegenereerd. |
 | [![De knop Rapport genereren.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genereer een rapport op basis van de actieve rapportdefinitie. Deze knop is beschikbaar vanuit een rapportdefinitie. |

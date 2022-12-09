@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2022-09-30
-ms.openlocfilehash: d713cc0e9537ae20ffddee6e77779a16e74bd779
-ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
+ms.openlocfilehash: 58f2ab1f913d3629de7971c8eeb2d1821161e44f
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2022
-ms.locfileid: "9725633"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788507"
 ---
 # <a name="store-commerce-app-capabilities"></a>Mogelijkheden in Store Commerce-app
 
@@ -41,7 +41,7 @@ Dit artikel biedt een overzicht van de mogelijkheden van de Store Commerce-app.
 
 | Mogelijkheid | Description | Documentatie | Aanvullende inhoud |
 |---|---|---|---|
-| Meerdere formulierfactoren | De Store Commerce-app wordt ondersteund op verschillende apparaatformulierfactoren, zoals pc's, tablets en mobiele apparaten. Met de responsieve gebruikersinterface kan de indeling automatisch worden aangepast en aan de schermgrootte worden aangepast. | [Visuele configuraties](pos-screen-layouts.md) | |
+| Meerdere formulierfactoren | De Store Commerce-app wordt ondersteund op verschillende apparaatformulierfactoren, zoals pc's, tablets en mobiele apparaten. Met de responsieve gebruikersinterface kan de indeling automatisch worden aangepast en aan de schermgrootte worden aangepast. | [Visuele configuraties](pos-screen-layouts.md) |  |
 | Platformonafhankelijk | De Store Commerce-app wordt ondersteund op web-, Windows-, iOS- en Android-platforms. | [Platforms](dev-itpro/hybridapp.md) | |
 | Branding | In de schermontwerper kunt u schermindelingen aanpassen aan de behoeften van uw bedrijf. Daarnaast kunnen thema's, indelingen, kleuren en afbeeldingen worden gemaakt op basis van werknemersrollen en kunnen ze vervolgens worden gedeeld door gebruikers voor merkconsistentie en gebruiksgemak. | [Visuele configuraties](pos-screen-layouts.md) | [Video](https://www.youtube.com/watch?v=ldqCw2wf5fY) |
 | Topologie | Er worden verschillende topologieën voor de winkel ondersteund op basis van de netwerkbeschikbaarheid. | <p>[Topologie](dev-itpro/retail-modern-pos-architecture.md)</p><p>[Infographic](dev-itpro/retail-in-store-topology.md)</p> | |
@@ -77,7 +77,7 @@ Dit artikel biedt een overzicht van de mogelijkheden van de Store Commerce-app.
 | Artikel zoeken | Zoek naar producten op naam en verfijn zoekopdrachten met behulp van productkenmerken, zoals het merk, de prijs en het materiaal. Deze mogelijkheid wordt aangestuurd door Azure Cognitive Search. | [Zoekopdrachten via cloud](cloud-powered-search-overview.md) | |
 | De pagina Productgegevens | Pagina's met uitgebreide productgegevens kunnen afbeeldingen, een omschrijving, productkenmerken en aanbevolen producten bevatten. Aanbevelingen worden aangestuurd door de aanbevelingenservice. | | |
 | Productvergelijking | Vergelijk meerdere producten en help klanten er een te kiezen en deze aan een transactie toe te voegen. | | |
-| Eindeloze gang | Zoek eenvoudig voorraad in andere winkels en maak orders. | [Zoeken in voorraad](pos-inventory-lookup-operation.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Eindeloze gang | Zoek eenvoudig voorraad in andere winkels en maak orders. | [Zoeken in voorraad](pos-inventory-lookup-operation.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 | Aanbevelingen | Profiteer van mogelijkheden voor cross- en upselling met de Recommendations-service. Deze service maakt gebruik van gepatenteerde technologie om aanbevelingen te doen op basis van inkooptrends en kenmerken, zoals net binnen, vergelijkbaar uiterlijk en meest verkocht. Deze aanbevelingen zijn beschikbaar op productdetailpagina's, de pagina **Klantgegevens** en de pagina **Transacties**. | [Aanbevelingen](product-recommendations.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-recommendations-march-2-2021) |
 
 ## <a name="customer-relationship"></a>Klantrelatie
@@ -88,8 +88,8 @@ Dit artikel biedt een overzicht van de mogelijkheden van de Store Commerce-app.
 | Klantkenmerken | Met het framework voor klantkenmerken kunnen extra klantgerelateerde gegevens worden vastgelegd op basis van zakelijke vereisten. | [Kenmerken](dev-itpro/customer-attributes.md) | |
 | Pagina met klantgegevens | Een pagina met uitgebreide klantgegevens biedt inzicht in de interacties van de klant via alle kanalen. Deze interacties omvatten inkopen, wenslijsten en loyaliteitspunten. | | |
 | Zoekopdrachten voor klanten via cloud | Zoek klanten op naam, telefoonnummer, e-mailadres, loyaliteitskaart, adres, enzovoort. | [Zoekopdrachten via cloud](pos-search-improvements.md#customer-search) | |
-| Loyaliteit en beloningen | Klanten kunnen deelnemen aan loyaliteitsprogramma's en loyaliteitspunten via meerdere kanalen inwisselen. | [Loyaliteit](set-up-customer-loyalty-program.md) | |
-| Clienteling | Beheer belangrijke klanten met behulp van een klantenboek en houd activiteiten en notities voor het klantprofiel bij. Dankzij de integratie van Dynamics 365 Customer Insights kunnen winkelmedewerkers hints krijgen over de volgende beste actie voor elke klant. | [Clienteling](clienteling-overview.md#activities-and-notes) | |
+| Loyaliteit en beloningen | Klanten kunnen deelnemen aan loyaliteitsprogramma's en loyaliteitspunten via meerdere kanalen inwisselen. | [Loyaliteit](set-up-customer-loyalty-program.md) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5c2wW) |
+| Clienteling | Beheer belangrijke klanten met behulp van een klantenboek en houd activiteiten en notities voor het klantprofiel bij. Dankzij de integratie van Dynamics 365 Customer Insights kunnen winkelmedewerkers hints krijgen over de volgende beste actie voor elke klant. | [Clienteling](clienteling-overview.md#activities-and-notes) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSP) |
 
 ## <a name="pricing-and-discounts"></a>Prijzen en kortingen
 
@@ -132,8 +132,8 @@ Dit artikel biedt een overzicht van de mogelijkheden van de Store Commerce-app.
 | Orderkenmerken | Met het framework voor orderkenmerken kunnen extra ordergerelateerde gegevens worden vastgelegd op basis van zakelijke vereisten. | [Kenmerken](dev-itpro/order-attributes.md) | |
 | Rechtstreekse levering | Artikelen kunnen worden gemarkeerd voor rechtstreekse levering door een leverancier aan een klantadres. Rechtstreekse levering wordt ook wel drop shipping genoemd. | [Rechtstreekse levering](/dynamics365/supply-chain/sales-marketing/tasks/ship-orders-direct-deliveries) | |
 | Offerte | Winkelmedewerkers kunnen offertes voor klanten maken en een speciale prijs, handmatige kortingen en een geldigheidsdatum voor de offerte opgeven. | [Offerte](/dynamics365/supply-chain/sales-marketing/tasks/create-edit-sales-quotations) | |
-| Afhandeling | Winkels kunnen orders picken, verpakken en verzenden. U kunt een pakbon toevoegen aan de pakketten die klaar zijn voor verzending. | [Afhandeling](order-fulfillment-overview.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021) |
-| Gedistribueerd orderbeheer | De Store Commerce-app ondersteunt de optimalisering voor intelligente orderafhandeling, waarbij bedrijfsstrategieën kunnen worden geconfigureerd op basis van de aard van het bedrijf, het type klant, de oorsprong van een order en de leveringsmethode voor een order. | [DOM](dom.md) | |
+| Afhandeling | Winkels kunnen orders picken, verpakken en verzenden. U kunt een pakbon toevoegen aan de pakketten die klaar zijn voor verzending. | [Afhandeling](order-fulfillment-overview.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/unlock-the-power-of-dynamics-365-commerce-supporting-buy-online-pickup-in-store-curbside-with-dynamics-365-commerce-pos-february-3-2021)</p> <p>[Video](https://www.microsoft.com/videoplayer/embed/RE5bRXE)</p>|
+| Gedistribueerd orderbeheer | De Store Commerce-app ondersteunt de optimalisering voor intelligente orderafhandeling, waarbij bedrijfsstrategieën kunnen worden geconfigureerd op basis van de aard van het bedrijf, het type klant, de oorsprong van een order en de leveringsmethode voor een order. | [DOM](dom.md) | [Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bRYl)|
 
 ## <a name="inventory-management"></a>Voorraadbeheer
 
@@ -141,12 +141,12 @@ Dit artikel biedt een overzicht van de mogelijkheden van de Store Commerce-app.
 |---|---|---|---|
 | Klantlevering | Stroomlijn de distributie van beschikbare voorraad vanuit een distributiecentrum naar meerdere winkels of magazijnen. | [Klantlevering](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
 | Cross-docken | Stroomlijn de distributie van voorraad op binnenkomende inkooporders naar meerdere winkels of magazijnen. | [Cross-docken](tasks/set-up-rules-parameters-cross-docking-buyers-push.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Binnenkomende voorraad | Ontvang voorraad van een leverancier via een inkooporder of vanuit een ander magazijn via een transferorder. Maak een aanvraag voor binnenkomende inkoop- of transferorders. | [Inkomend](pos-inbound-inventory-operation.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Uitgaande voorraad | Verzend voorraad naar een ander magazijn via een transferorder en maak een aanvraag voor een uitgaande transferorder. | [Uitgaand](pos-outbound-inventory-operation.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Zoeken in voorraad | Controleer voorhanden voorraad op producten in verschillende winkels en magazijnen, en controleer de ATP-voorraad (available to promise) op toekomstige datums. | [Zoeken in voorraad](pos-inventory-lookup-operation.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Voorraadcorrectie | Pas de voorraad in of uit het magazijn van een winkel aan de specifieke behoeften van het bedrijf aan zonder verkoop, ontvangst of hertelling. | [Voorraadcorrectie](work-with-store-inventory.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Voorraadtellingen | Tel de fysieke voorraad en pas de systeemboekhoudvoorraad hieraan aan. | [Tellen](work-with-store-inventory.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
-| Voorraadmutatie | Verplaats voorraad tussen locaties in een winkel. | [Mutatie](work-with-store-inventory.md) | [Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021) |
+| Binnenkomende voorraad | Ontvang voorraad van een leverancier via een inkooporder of vanuit een ander magazijn via een transferorder. Maak een aanvraag voor binnenkomende inkoop- of transferorders. | [Inkomend](pos-inbound-inventory-operation.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Uitgaande voorraad | Verzend voorraad naar een ander magazijn via een transferorder en maak een aanvraag voor een uitgaande transferorder. | [Uitgaand](pos-outbound-inventory-operation.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p>  <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Zoeken in voorraad | Controleer voorhanden voorraad op producten in verschillende winkels en magazijnen, en controleer de ATP-voorraad (available to promise) op toekomstige datums. | [Zoeken in voorraad](pos-inventory-lookup-operation.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
+| Voorraadcorrectie | Pas de voorraad in of uit het magazijn van een winkel aan de specifieke behoeften van het bedrijf aan zonder verkoop, ontvangst of hertelling. | [Voorraadcorrectie](work-with-store-inventory.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p>|
+| Voorraadtellingen | Tel de fysieke voorraad en pas de systeemboekhoudvoorraad hieraan aan. | [Tellen](work-with-store-inventory.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)<p> |
+| Voorraadmutatie | Verplaats voorraad tussen locaties in een winkel. | [Mutatie](work-with-store-inventory.md) | <p>[Techspraak](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/techtalk-dynamics-365-commerce---store-inventory-may-13-2021)</p> <p>[Video](https://www.microsoft.com/en-us/videoplayer/embed/RE5bMSx)</p> |
 
 ## <a name="financials"></a>Financiële items
 
