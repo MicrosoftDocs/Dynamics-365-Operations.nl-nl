@@ -32,6 +32,8 @@
                   href: ./get-started/whats-new-changed-10.0.28.md
                 - name: Nieuw in Dynamics 365 Human Resources (zelfstandige versie)
                   items:
+                    - name: Nieuw in Dynamics 365 Human Resources (zelfstandige versie) december 2022
+                      href: hr-whats-new-2022-12-12.md
                     - name: Nieuw in Dynamics 365 Human Resources (zelfstandige versie) in archieven 2021
                       href: hr-admin-whats-new.md
                     - name: 29 november 2021
@@ -110,6 +112,8 @@
                   href: hr-admin-integration-common-data-service-virtual-entities.md
                 - name: Veelgestelde vragen over virtuele tabellen in Human Resources
                   href: hr-admin-virtual-entity-faq.md
+                - name: Integratie met Dataverse configureren
+                  href: hr-dataverse-integration.md
                 - name: Integratie met Finance configureren
                   href: hr-admin-integration-finance.md
                 - name: Integratie met Dayforce configureren

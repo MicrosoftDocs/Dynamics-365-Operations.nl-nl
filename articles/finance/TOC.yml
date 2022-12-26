@@ -1168,6 +1168,8 @@
                   href: general-ledger/general-ledger-statement-by-main-account.md
                 - name: Standaard auditfile voor elektronisch btw-rapport (SAF-T)
                   href: general-ledger/standard-audit-file.md
+                - name: Grootboekvereffeningsonderzoek
+                  href: general-ledger/ledger-settlement-inquiry.md
             - name: Einde van periode afsluiten
               items:
                 - name: Het grootboek aan het einde van de periode afsluiten
@@ -1187,7 +1189,19 @@
                 - name: Grootboekvereffeningen
                   href: general-ledger/ledger-settlements.md
                 - name: Bewustzijn tussen grootboekvereffening en jaarafsluiting
-                  href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                  items:
+                    - name: Bewustzijn tussen grootboekvereffening en jaarafsluiting
+                      href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                    - name: Voorbereiden op Bewustzijn tussen grootboekvereffening vóór jaarafsluiting
+                      href: general-ledger/ledger-settle-yec.md
+                    - name: Voorbereiden op Bewustzijn tussen grootboekvereffening na jaarafsluiting
+                      href: general-ledger/ledger-settle-yec-after.md
+                    - name: De functie Bewustzijn tussen grootboekvereffening en aangiftevaluta is niet meer in balans
+                      href: general-ledger/reporting-currency-yec.md
+                    - name: De functie Bewustzijn tussen grootboekvereffening vóór jaarafsluiting met het informatievenster
+                      href: general-ledger/ledger-settlement-yec-inquiry-before.md
+                    - name: De functie Bewustzijn tussen grootboekvereffening na jaarafsluiting met het informatievenster
+                      href: general-ledger/ledger-settlement-yec-inquiry-after.md
                 - name: Grootboekvereffeningen automatiseren
                   href: general-ledger/auto-settle.md
                 - name: Herwaardering van vreemde valuta voor grootboek
