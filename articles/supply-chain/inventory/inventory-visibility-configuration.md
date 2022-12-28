@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 2a368535c9644e174d1a2460ac0891c9dc1b1b3f
+ms.sourcegitcommit: 44f0b4ef8d74c86b5c5040be37981e32eb43e1a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9765705"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "9850018"
 ---
 # <a name="configure-inventory-visibility"></a>Inventory Visibility configureren
 
@@ -32,6 +32,7 @@ Voordat u met Voorraadzichtbaarheid begint te werken, moet u de volgende configu
 - [Configuratie van de partitie](#partition-configuration)
 - [Configuratie van de productindexhiërarchie](#index-configuration)
 - [Configuratie van de reservering (optioneel)](#reservation-configuration)
+- [Configuratie voor het vooraf laden van query's (optioneel)](#query-preload-configuration)
 - [Voorbeeld van een standaardconfiguratie](#default-configuration-sample)
 
 ## <a name="prerequisites"></a>Vereisten
@@ -40,7 +41,7 @@ Installeer voordat u begint eerst de invoegtoepassing Voorraadzichtbaarheid en s
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>De configuratiepagina van de app Voorraadzichtbaarheid
 
-In Power Apps kunt u op de pagina **Configuratie** van de [app Voorraadzichtbaarheid](inventory-visibility-power-platform.md) de configuratie van voorhanden voorraad en zachte reservering instellen. Als de invoegtoepassing is geïnstalleerd, bevat de standaardconfiguratie de waarde van Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstellingen controleren. Daarnaast kunt u op basis van uw bedrijfsbehoeften en de voorraadboekingsvereisten van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in de verschillende systemen. In de resterende secties van dit artikel wordt uitgelegd hoe u elk deel van de pagina **Configuratie** gebruikt.
+In Power Apps kunt u op de pagina **Configuratie** van de [app Voorraadzichtbaarheid](inventory-visibility-power-platform.md) de configuratie van voorhanden voorraad en zachte reservering instellen. Als de invoegtoepassing is geïnstalleerd, bevat de standaardconfiguratie de waarde van Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstellingen controleren. Daarnaast kunt u op basis van uw bedrijfsbehoeften en de voorraadboekingsvereisten van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in verschillende systemen. In de resterende secties van het artikel wordt uitgelegd hoe u elk deel van de pagina **Configuratie** gebruikt.
 
 Nadat de configuratie is voltooid, moet u **Configuratie bijwerken** selecteren in de app.
 
@@ -52,10 +53,13 @@ Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies
 |---|---|
 | *OnHandReservation* | Met deze functie kunt u reserveringen maken, reserveringen opnemen en/of de reservering van gespecificeerde voorraadhoeveelheden ongedaan maken met behulp van Voorraadzichtbaarheid. Zie [Voorraadzichtbaarheid reserveringen](inventory-visibility-reservations.md) voor meer informatie. |
 | *OnHandMostSpecificBackgroundService* | De functie biedt een voorraadoverzicht voor producten samen met alle dimensies. De overzichtsgegevens van de voorraad worden periodiek gesynchroniseerd vanuit Voorraadzichtbaarheid. De synchronisatiefrequentie is standaard ingesteld om de 15 minuten en kan maximaal ingesteld om de 5 minuten. Zie [Voorraadoverzicht](inventory-visibility-power-platform.md#inventory-summary) voor meer informatie. |
-| *onHandIndexQueryPreloadBackgroundService* | Met deze functie kunt u query's voor voorraadzichtbaarheid vooraf laden om voorraadlijsten samen te stellen met vooraf gekozen dimensies. De standaardsynchronisatiefrequentie is eenmaal om de 15 minuten. Zie [Een gestroomlijnde query op de voorhanden voorraad vooraf laden](inventory-visibility-power-platform.md#preload-streamlined-onhand-query) voor meer informatie. |
+| *OnHandIndexQueryPreloadBackgroundService* | Deze functie haalt periodiek een set overzichtsgegevens voor de voorraad op basis van uw vooraf geconfigureerde dimensies op. Het bevat een voorraadoverzicht dat alleen de dimensies bevat die relevant zijn voor uw dagelijkse bedrijf en het is compatibel met artikelen die zijn ingeschakeld voor magazijnbeheerprocessen (WMS). Zie voor meer informatie [Query's vooraf geladen voorraadzichtbaarheid inschakelen en configureren](#query-preload-configuration) en [Vooraf laden van een gestroomlijnde voorhanden query](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | Met deze optionele functie worden de functies voor planning van wijzigingen in voorhanden hoeveelheden en ATP (Available To Promise) ingeschakeld. Zie [Planning van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie. |
 | *Toewijzing* | Met deze optionele functie wordt aan Voorraadzichtbaarheid de functie voor voorraadbeveiliging (ringfencing) toegevoegd en kan worden voorkomen dat er te veel wordt verkocht. Zie [Voorraadtoewijzing in Voorraadzichtbaarheid](inventory-visibility-allocation.md) voor meer informatie. |
 | *Magazijnartikelen inschakelen voor Voorraadzichtbaarheid* | Met deze optionele functie wordt Voorraadzichtbaarheid ingeschakeld om artikelen te ondersteunen die zijn ingeschakeld voor magazijnbeheerprocessen (WMS). Zie [Ondersteuning voor Inventory Visibility voor WMS-artikelen](inventory-visibility-whs-support.md) voor meer informatie. |
+
+> [!IMPORTANT]
+> Het is raadzaam om de functie *OnHandIndexQueryPreloadBackgroundService* of de functie *OnHandMostSpecificBackgroundService* te gebruiken, niet beide. Als u beide functies inschakelt, beïnvloedt dit de prestaties.
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Het service-eindpunt zoeken
 
@@ -178,6 +182,15 @@ Als de gegevensbron Supply Chain Management is, hoeft u de standaard fysieke met
 1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
 1. Open de pagina **Configuratie**.
 1. Selecteer op het tabblad **Gegevensbron** de gegevensbron waaraan u fysieke metingen wilt toevoegen (bijvoorbeeld de gegevensbron `ecommerce`). Selecteer vervolgens in de sectie **Fysieke metingen** de optie **Toevoegen** en geef de naam van de meting op (bijvoorbeeld `Returned` als u geretourneerde hoeveelheden in deze gegevensbron wilt registreren in Voorraadzichtbaarheid). Sla de wijzigingen op.
+
+### <a name="extended-dimensions"></a>Uitgebreide dimensies
+
+Klanten die externe gegevensbronnen in de gegevensbron willen gebruiken, kunnen voordeel hebben van de uitbreidbaarheid die Dynamics 365 biedt door [Klasse-uitbreidingen](../../fin-ops-core/dev-itpro/extensibility/class-extensions.md) voor de klassen `InventOnHandChangeEventDimensionSet` en `InventInventoryDataServiceBatchJobTask` te maken.
+
+Zorg ervoor dat u synchroniseert met de database nadat u de extensies hebt gemaakt, zodat de aangepaste velden aan de tabel worden `InventSum` toegevoegd. U kunt vervolgens naar de sectie Dimensies eerder in dit artikel teruggaan om uw aangepaste dimensies toe te wijzen aan een van de acht uitgebreide dimensies in `BaseDimensions` in Voorraad.
+
+> [!NOTE] 
+> Zie [Startpagina voor Uitbreidbaarheid](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) voor meer informatie over het maken van extensies.
 
 ### <a name="calculated-measures"></a>Berekende metingen
 
@@ -496,6 +509,30 @@ Een geldige dimensievolgorde moet strikt de reserveringshiërarchie, dimensie pe
 ## <a name="available-to-promise-configuration-optional"></a>Configuratie voor available to promise (optioneel)
 
 U kunt Voorraadzichtbaarheid zo instellen dat u toekomstige wijzigingen in de voorhanden voorraad kunt plannen en ATP-hoeveelheden (Available-To-Promise) kunt berekenen. ATP is de hoeveelheid van een artikel, die beschikbaar is en die aan een klant kan worden beloofd in de volgende periode. Het gebruik van deze berekening kan uw capaciteit voor het afhandelen van orders veel groter maken. Als u deze functie wilt gebruiken, moet u deze inschakelen op het tabblad **Functiebeheer** en deze vervolgens instellen op het tabblad **ATP-instelling**. Zie [Planningen van wijzigingen in voorhanden hoeveelheid en available to promise in Voorraadzichtbaarheid](inventory-visibility-available-to-promise.md) voor meer informatie.
+
+## <a name="turn-on-and-configure-preloaded-on-hand-queries-optional"></a><a name="query-preload-configuration"></a>Query's vooraf geladen voorraadzichtbaarheid inschakelen en configureren (optioneel)
+
+Voorraadzichtbaarheid kan een set overzichtsgegevens voor de voorraad ophalen en opslaan op basis van uw vooraf geconfigureerde dimensies. Dit biedt de volgende voordelen:
+
+- Een overzichtsweergave die een voorraadoverzicht bevat dat alleen de dimensies bevat die relevant zijn voor uw dagelijks bedrijf.
+- Een voorraadoverzicht dat compatibel is met artikelen die zijn ingeschakeld voor magazijnbeheerprocessen (WMS).
+
+Zie [Vooraf laden van een gestroomlijnde voorhanden query](inventory-visibility-power-platform.md#preload-streamlined-onhand-query) voor meer informatie over het werken met deze functie nadat u deze hebt ingesteld.
+
+> [!IMPORTANT]
+> Het is raadzaam om de functie *OnHandIndexQueryPreloadBackgroundService* of de functie *OnHandMostSpecificBackgroundService* te gebruiken, niet beide. Als u beide functies inschakelt, beïnvloedt dit de prestaties.
+
+Volg deze stappen voor het instellen van de functie.
+
+1. Meld u aan bij de Power App voor voorraadzichtbaarheid.
+1. Ga naar **Configuratie \> Functiebeheer en instellingen**.
+1. Als de functie *OnHandIndexQueryPreloadBackgroundService* al is ingeschakeld, is het raadzaam deze eerst uit te schakelen, omdat het opschonen zeer lang kan duren. Later in deze procedure schakelt u de functie weer in.
+1. Open het tabblad **Instelling voor vooraf laden**.
+1. Selecteer in de sectie **Stap 1: Opslag vooraf laden opschonen** **Opschonen** om de database op te schonen en deze gereed te maken voor het accepteren van de nieuwe groep-voor-instellingen.
+1. Voer in de sectie **Stap 2: Groep instellen op waarden** in het veld **Resultaat groeperen op** een door komma's gescheiden lijst in met veldnamen waarop u de queryresultaten wilt groepen. Wanneer u gegevens hebt in de database voor opslag vooraf laden, kunt u deze instelling pas wijzigen wanneer u de database hebt opgeschoond, zoals is beschreven in de vorige stap.
+1. Ga naar **Configuratie \> Functiebeheer en instellingen**.
+1. Schakel de functie *OnHandIndexQueryPreloadBackgroundService* in.
+1. Selecteer **Configuratie bijwerken** in de rechterbovenhoek op de pagina **Configuratie** om uw wijzigingen door te voeren.
 
 ## <a name="complete-and-update-the-configuration"></a>De configuratie voltooien en bijwerken
 

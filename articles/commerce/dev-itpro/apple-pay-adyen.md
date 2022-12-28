@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: 0949b9d7a4b181605d43956932b4fc095940bd64
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 896847cee696e221b2114f7f28a0b56e73fc911b
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780356"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838224"
 ---
 # <a name="set-up-apple-pay-with-adyen-in-dynamics-365-commerce"></a>Apple Pay met Adyen instellen in Dynamics 365 Commerce
 
@@ -102,13 +102,6 @@ Volg deze stappen om een online winkel voor Commerce te configureren voor Apple 
 
 1. Nadat de gegevens van de verkoper zijn ingevoerd, moet u de distributieplanningtaak **1070-kanaalconfiguratie** uitvoeren.
 
-## <a name="configure-commerce-pos-for-apple-pay"></a>Verkooppunt (POS) van Commerce configureren voor Apple Pay
-
-Voor de POS-configuratie wordt de configuratie van het veld **EFT-service** van het hardwareprofiel gebruikt voor Dynamics 365 Payment Connector voor Adyen. Configureer in Commerce headquarters de EFT-service voor Dynamics 365 Payment Connector voor Adyen, zoals wordt beschreven in [Een Dynamics 365 POS-hardwareprofiel instellen](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-Zorg ervoor dat u **ApplePay** toevoegt aan de lijst met betalingstypen in het veld **Ondersteunde betalingsmethoden**. Gebruik puntkomma's (;) om de betalingsmethoden in de lijst van elkaar te scheiden.
-
-Met de processortoewijzing voor de Adyen-connector worden de walletkaarttypen vastgelegd die door Apple Pay worden gebruikt op de POS-terminal.
 
 ### <a name="configure-content-security-policies-in-site-builder"></a>Inhoudsbeveiligingsbeleid configureren in Site Builder
 
@@ -138,6 +131,14 @@ De instellingen voor de module **Apple Pay** worden ingebouwd en maken verbindin
 De betalingsknop **Apple Pay** wordt alleen weergegeven op ondersteunde Apple Pay-apparaten (iPhones, iPads en Safari-browsers die Apple Pay ondersteunen). Als een gebruiker van niet een van deze apparaten gebruikt, wordt de knop **Apple Pay** verborgen.
 
 Wanneer een gebruiker de knop **Apple Pay** selecteert, verschijnt het dialoogvenster **Apple Pay**. Hier kan de gebruiker zich verifiëren met het Apple Pay-apparaat of de browser. In het dialoogvenster **Apple Pay** wordt een overzicht weergegeven van het orderbedrag en de betalingsmethode die de gebruiker heeft geconfigureerd voor hun Apple Wallet. De gebruiker kan deze details bekijken en vervolgens **Betalen** selecteren om de betaling te voltooien. Nadat de betaling is voltooid, wordt de gebruiker doorverwezen naar de pagina **Order voltooid** met een gedetailleerd orderoverzicht voor de voltooide transactie.
+
+## <a name="configure-commerce-pos-for-apple-pay"></a>Verkooppunt (POS) van Commerce configureren voor Apple Pay
+
+Voor de POS-configuratie wordt de configuratie van het veld **EFT-service** van het hardwareprofiel gebruikt voor Dynamics 365 Payment Connector voor Adyen. Configureer in Commerce headquarters de EFT-service voor Dynamics 365 Payment Connector voor Adyen, zoals wordt beschreven in [Een Dynamics 365 POS-hardwareprofiel instellen](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+Zorg ervoor dat u **ApplePay** toevoegt aan de lijst met betalingstypen in het veld **Ondersteunde betalingsmethoden**. Gebruik puntkomma's (;) om de betalingsmethoden in de lijst van elkaar te scheiden.
+
+Met de processortoewijzing voor de Adyen-connector worden de walletkaarttypen vastgelegd die door Apple Pay worden gebruikt op de POS-terminal.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c173057b8e1357790e780469c5806afb857be62a
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893260"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838312"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>NMFC-codes (National Motor Freight Classification)
 
@@ -57,7 +57,7 @@ U maakt als volgt een NMFC-code.
 
 In het volgende voorbeeld ziet u hoe u twee verschillende NMFC-codes kunt instellen die bij verschillende producten kunnen worden gebruikt.
 
-1. Ga naar **Magazijnbeheer \> Instellen \> Voorraad \> NMFC-codes**.
+1. Ga naar **Magazijnbeheer \> Instellen \> Voorraad \> NMFC-codes** of **Transportbeheer \> Instellen \> Transportstandaard \> NMFC-codes**.
 1. Selecteer **Nieuw** in het actievenster.
 1. Stel op de nieuwe regel de volgende waarden in:
 

@@ -2,19 +2,19 @@
 title: Overzicht fiscale integratie voor Commerce-afzetkanalen
 description: Dit artikel biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 10/04/2022
+ms.date: 12/06/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
-ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
+ms.openlocfilehash: 3f1b555a016a56cc41ab397e3708f20482f25f09
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2022
-ms.locfileid: "9631231"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831853"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Overzicht fiscale integratie voor Commerce-afzetkanalen
 
@@ -172,19 +172,17 @@ De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Comme
 - [Regeleenheidintegratievoorbeeld voor Zweden](./emea-swe-fi-sample.md)
 - [Voorbeeld van integratie van fiscale registratieservice voor Duitsland](./emea-deu-fi-sample.md)
 - [Voorbeeld van integratie van fiscale printer voor Rusland](./rus-fpi-sample.md)
+- [Voorbeeld van digitale handtekening voor Noorwegen](./emea-nor-cash-registers.md)
 
 De volgende functionaliteit voor fiscale integratie wordt ook geïmplementeerd met behulp van het fiscale integratieraamwerk, maar is kant-en-klaar beschikbaar en is niet opgenomen in de Commerce-SDK:
 
 - [Fiscale registratie voor Brazilië](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
 - [Digitale handtekening voor Frankrijk](./emea-fra-cash-registers.md)
 
-De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Commerce-SDK, maar deze maakt op het moment geen gebruik van het fiscale integratieraamwerk. Migratie van deze functionaliteit naar het fiscale integratieraamwerk is gepland voor latere updates.
-
-- [Digitale handtekening voor Noorwegen](./emea-nor-cash-registers.md)
-
 De volgende verouderde functionaliteit voor fiscale integratie die beschikbaar is in de Commerce-SDK maakt geen gebruik van het raamwerk voor fiscale integratie en wordt afgeschaft in latere updates:
 
 - [Regeleenheidintegratievoorbeeld voor Zweden (verouderd)](./retail-sdk-control-unit-sample.md)
 - [Digitale handtekening voor Frankrijk (verouderd)](./emea-fra-deployment.md)
+- [Digitale handtekening voor Noorwegen (verouderd)](./emea-nor-loc-deployment-guidelines.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

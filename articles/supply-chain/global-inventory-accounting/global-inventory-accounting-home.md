@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e7f919b28f6d0c8cd830ecfab4608be50b684c8e
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: fd9877365977694ca29f4d9116bcae45360306d5
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135452"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843621"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Startpagina van Algemene voorraadboekhouding (Global Inventory Accounting)
 
@@ -40,11 +40,17 @@ Een conventie is een verzameling beleidsregels voor voorraadboekhouding die aan 
 
 Algemene voorraadboekhouding is momenteel beschikbaar in de volgende geografische gebieden voor Azure:
 
-- Verenigde Staten
-- Europa
-- Verenigd Koninkrijk
 - Australië
 - Canada
+- China
+- Europa
+- Frankrijk
+- Noorwegen
+- Zuid-Afrika
+- Zwitserland
+- VAE
+- Verenigd Koninkrijk
+- Verenigde Staten
 
 Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in Microsoft Dynamics LCS (Lifecycle Services) een bericht weergegeven dat uw regio niet wordt ondersteund. Algemene voorraadboekhouding ondersteunt geen on-premises implementaties van Supply Chain Management.
 

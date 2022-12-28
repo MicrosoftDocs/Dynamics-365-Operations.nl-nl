@@ -2,7 +2,7 @@
 title: Certificaat van persoon
 description: In dit artikel wordt de entiteit Certificaat van persoon voor Dynamics 365 Human Resources beschreven.
 author: jaredha
-ms.date: 02/05/2021
+ms.date: 12/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3c3be061cb8a18a19729932352c82ff3b787000
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f9d5a8c83d9714a4d10dec16e66ab87b794b074
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897917"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887312"
 ---
 # <a name="person-certificate"></a>Certificaat van persoon
 
@@ -53,17 +53,20 @@ Deze entiteit beschrijft de professionele certificaten van een kandidaat.
 
 ## <a name="properties"></a>Eigenschappen
 
-| Eigenschap<br>**Fysieke naam**<br>**_Type_** | Gebruiken | Beschrijving |
+| Eigenschap<br>**Fysieke naam**<br>**_Type_** | Gebruiken | Description |
 | --- | --- | --- |
-| **Entiteits-id Certificaat van persoon**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | Alleen-lezen<br>Vereist | Door het systeem gegenereerde unieke id voor de entiteitsrecord van het certificaat van de persoon. |
-| **Partijnummer**<br>mshr_partynumber<br>*Tekenreeks* | Lezen/schrijven<br>Vereist | De partij-id (persoon) van de kandidaat. |
-| **Waarde persoonlijke id**<br>_mshr_fk_person_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_dirpersonentityid van mshr_dirpersonentity | De door het systeem gegenereerde unieke id voor de entiteitsrecord van de partij (persoon). |
 | **Certificaattype-id**<br>mshr_certificatetypeid<br>*Tekenreeks* | Lezen/schrijven<br>Vereist |  De id van het certificaattype dat is gedefinieerd in Human Resources. |
-| **Waarde certificaattype-id**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_hcmcertificatetypeentityid van mshr_hcmcertificatetypeentity | Door het systeem gegenereerde unieke id voor het certificaattype in de gekoppelde entiteit. |
 | **Begindatum**<br>mshr_startdate<br>*Datum/tijd* | Lezen/schrijven<br>Vereist | De datum waarop het certificaat is uitgegeven. |
 | **Einddatum**<br>mshr_enddate<br>*Datum/tijd* | Lezen/schrijven<br>Optioneel | De datum waarop het certificaat afloopt. |
 | **Opmerkingen**<br>mshr_notes<br>*Tekenreeks* | Lezen/schrijven<br>Optioneel | Notities die worden gebruikt door aanstellende managers en wervers. |
+| **Partijnummer**<br>mshr_partynumber<br>*Tekenreeks* | Lezen/schrijven<br>Vereist | De partij-id (persoon) van de kandidaat. |
 | **Primair veld**<br>mshr_primaryfield<br>*Tekenreeks* | Alleen-lezen<br>Vereist |  Het veld dat moet worden gebruikt als id van de entiteitsrecord. Combinatie van partijnummer, certificaattype-id en begindatum. |
+| **Waarde certificaattype-id**<br>_mshr_fk_certificatetype_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_hcmcertificatetypeentityid van mshr_hcmcertificatetypeentity | Door het systeem gegenereerde unieke id voor het certificaattype in de gekoppelde entiteit. |
+| **Waarde persoonlijke id**<br>_mshr_fk_person_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_dirpersonentityid van mshr_dirpersonentity | De door het systeem gegenereerde unieke id voor de entiteitsrecord van de partij (persoon). |
+| **Entiteits-id Certificaat van persoon**<br>mshr_hcmpersoncertificateentityid<br>*GUID* | Alleen-lezen<br>Vereist | Door het systeem gegenereerde unieke id voor de entiteitsrecord van het certificaat van de persoon. |
+
+
+
 
 ## <a name="see-also"></a>Zie ook
 

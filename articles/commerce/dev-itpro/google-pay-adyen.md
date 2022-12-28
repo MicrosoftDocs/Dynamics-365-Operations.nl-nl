@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115026"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838386"
 ---
 # <a name="configure-google-pay-with-adyen"></a>Google Pay met Adyen configureren
 
@@ -90,11 +90,6 @@ Volg deze stappen om een online winkel voor Commerce te configureren voor het ge
 
 1. Nadat u de connectoreigenschappen hebt ingesteld, moet u de distributieplanningstaak **1070 (kanaalconfiguratie)** uitvoeren.
 
-## <a name="configure-commerce-pos-for-google-pay"></a>Verkooppunt (POS) van Commerce configureren voor Google Pay
-
-Voor de POS-configuratie wordt de instelling van het veld **EFT-service** van het hardwareprofiel gebruikt voor Dynamics 365 Payment Connector voor Adyen. Zie voor informatie over het configureren van de EFT-service (Electronic Funds Transfer) voor Dynamics 365 Payment Connector voor Adyen in Commerce Headquarters het gedeelte [Een Dynamics 365 POS-hardwareprofiel instellen](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-Met de processortoewijzing voor de Adyen-connector worden de walletkaarttypen vastgelegd die door Google Pay worden gebruikt op de POS-terminal.
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>De module voor snelle betaling gebruiken met Google Pay
 
@@ -223,6 +218,12 @@ De volgorde waarin de leveringsmethoden worden weergegeven in de module Snelle b
 In de afrekenmodule wordt ook de module voor leveringsopties gebruikt wanneer leveringsmethoden tijdens het afrekenen worden weergegeven. Zie [Module voor leveringsopties](../delivery-options-module.md) voor meer informatie.
 
 Leveringsmethoden worden weergegeven wanneer ze worden toegevoegd aan de lijst **Leveringsmethoden** in de online winkel.
+
+## <a name="configure-commerce-pos-for-google-pay"></a>Verkooppunt (POS) van Commerce configureren voor Google Pay
+
+Voor de POS-configuratie wordt de instelling van het veld **EFT-service** van het hardwareprofiel gebruikt voor Dynamics 365 Payment Connector voor Adyen. Zie [Een Dynamics 365 POS-hardwareprofiel instellen](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile) voor informatie over het configureren van de EFT-service (Electronic Funds Transfer) voor Dynamics 365 Payment Connector voor Adyen in Commerce Headquarters.
+
+Met de processortoewijzing voor de Adyen-connector worden de walletkaarttypen vastgelegd die door Google Pay worden gebruikt op de POS-terminal.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

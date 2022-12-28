@@ -2,7 +2,7 @@
 title: Dynamics 365 Human Resources-klantmigratie naar de infrastructuur voor financiën en bedrijfsactiviteiten
 description: In dit artikel wordt de klantmigratie van Microsoft Dynamics 365 Human Resources naar de infrastructuur voor financiën en bedrijfsactiviteiten beschreven.
 author: twheeloc
-ms.date: 10/25/2022
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4df9a68ea0128378224bf77bd66423fd2e13fa55
-ms.sourcegitcommit: e5b290bac7e8f468167caa1a5607aac6eac9aaea
+ms.openlocfilehash: ab9680c2d1caa08c15aed325f4153aac6eae63c3
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2022
-ms.locfileid: "9760357"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831715"
 ---
 # <a name="dynamics-365-human-resources-customer-migration"></a>Dynamics 365 Human Resources-klantmigratie
 
@@ -43,7 +43,7 @@ Klantmigratie is een lift-and-shift-migratie (verplaatsing) van een klantendatab
  - Kopieer de bestaande Dataverse-omgeving, die aan de zelfstandige Human Resources-app is gekoppeld, naar de omgeving die u in de vorige stap hebt gemaakt.
 
 > [!NOTE]
-> Wanneer u een database toevoegt, moet u ervoor zorgen dat de optie **Dynamics 365-apps inschakelen** is ingesteld op **Ja**. Zie [Een Power Platform-omgeving voorbereiden](hr-cust-migration.md#prepare-a-power-platform-environment) voor gedetailleerde informatie
+> Wanneer u een database toevoegt, moet u ervoor zorgen dat de optie **Dynamics 365-apps inschakelen** is ingesteld op **Ja**. Zie [Een Power Platform-omgeving voorbereiden](hr-cust-migration.md#prepare-a-power-platform-environment) voor gedetailleerde informatie.
 
 ### <a name="dataverse-capacity"></a>Dataverse-capaciteit
 
@@ -67,7 +67,7 @@ Ga als volgt te werk om een nieuw project te maken.
 7. Schakel het selectievakje in om de voorwaarden te accepteren.
 8. Selecteer **Maken**.
 
-Nadat u een nieuw Lifecycle Services-project hebt gemaakt, voert u de volgende stappen uit om het te configureren.
+Nadat u een nieuw Lifecycle Services-project hebt gemaakt, voert u de volgende stappen uit om het project te configureren.
 
 1. Selecteer **Onboarding voor project** om de projectonboarding te voltooien. Zie [Projectonboarding](../fin-ops-core/dev-itpro/lifecycle-services/project-onboarding.md) voor meer informatie.
 
@@ -158,6 +158,7 @@ Nadat u klaar bent met het migreren en valideren van een sandbox-omgeving, volgt
 
 - De abonnementsschatting moet worden voltooid.
 - De [evaluatie van de gereedheid](../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md) voor de go-live gereedheid moet worden voltooid.
+- De gebruiker die de productiemigratie in Lifecycle Services start, moet de rol Systeembeheerder hebben op het Power Platform. 
 
 #### <a name="migrate-the-production-environment"></a>De productieomgeving migreren
 

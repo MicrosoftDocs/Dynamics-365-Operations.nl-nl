@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.form: FinancialReports
-ms.openlocfilehash: 66430f81bd3d1efe126dfb29fa9c6a093716f90e
-ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
+ms.openlocfilehash: 180b3c64b9eb506f162071a67b1fa9b728a569ce
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802710"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831605"
 ---
 # <a name="financial-report-components"></a>Onderdelen van een financieel rapport
 
@@ -65,7 +65,7 @@ U kunt een vergrendelde bouwsteen ontgrendelen door de bouwsteen te openen en ve
 
 ## <a name="building-block-groups"></a>Bouwsteengroepen
 
-Bouwstenen zijn de rijdefinities, kolomdefinities, rapportagestructuurdefinities en rapportdefinities die u voor een rapport maakt. Bouwsteengroepen zijn verzamelingen definities en dimensiegroepen.
+Bouwstenen zijn de rijdefinities, kolomdefinities, rapportagestructuurdefinities en rapportdefinities die u voor een rapport maakt. Bouwsteengroepen zijn verzamelingen definities en dimensiewaardegroepen.
 
 ### <a name="view-a-building-block-group"></a>Een bouwsteengroep weergeven
 
@@ -78,17 +78,17 @@ U kunt alle bouwstenen weergeven die aan een bouwsteengroep zijn toegewezen. U k
 
 ### <a name="export-a-building-block-group"></a>Een bouwsteengroep exporteren
 
-U kunt een bouwsteengroup of een specifiek bouwstenenrapport in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt de geëxporteerde gegevens ook tussen installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
+U kunt een bouwsteengroup of een specifiek bouwstenenrapport in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt de geëxporteerde gegevens ook tussen installaties kopiëren. Report Designer bevat de lettertypen en de dimensiewaardesets waarnaar wordt verwezen, samen met de bouwsteengroep.
 
 1. Klik in Report Designer in het menu **Bedrijf** op **Bouwsteengroepen**.
 2. Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep die u wilt exporteren en klik vervolgens op **Exporteren**.
 3. Selecteer in het dialoogvenster **Exporteren** de te exporteren rapportdefinities:
 
     - Om al uw rapportdefinities en de gekoppelde bouwstenen te exporteren klikt u op **Alles selecteren**.
-    - U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere items op een tabblad te selecteren.
+    - U kunt specifieke rapporten, rijen, kolommen, structuren of dimensiewaardesets exporteren door op het gewenste tabblad te klikken en vervolgens de te exporteren items selecteren. Druk op Ctrl en houd deze toets ingedrukt om meerdere items op een tabblad te selecteren.
 
     > [!NOTE]
-    > Wanneer u rapporten selecteert om te exporteren, worden de bijbehorende rijen, kolommen, structuren en dimensiegroepen ook geselecteerd.
+    > Wanneer u rapporten selecteert om te exporteren, worden de bijbehorende rijen, kolommen, structuren en dimensiewaardegroepen ook geselecteerd.
 
 4. Wanneer u klaar bent met het selecteren van te exporteren artikelen, klikt u op **Exporteren**.
 5. Selecteer in het dialoogvenster **Opslaan als** een locatie om de bouwsteengroep naar te exporteren.
@@ -97,7 +97,7 @@ U kunt een bouwsteengroup of een specifiek bouwstenenrapport in een bouwsteengro
 
 ### <a name="import-a-building-block-group"></a>Een bouwsteengroep importeren
 
-U kunt een bouwsteengroep importeren in een bestaande bouwsteengroep. Alle geïmporteerde bouwsteengroepen behouden hun oorspronkelijke tekenstijlen en bedrijfsverwijzingen en bevatten de relevante dimensiesets.
+U kunt een bouwsteengroep importeren in een bestaande bouwsteengroep. Alle geïmporteerde bouwsteengroepen behouden hun oorspronkelijke tekenstijlen en bedrijfsverwijzingen en bevatten de relevante dimensiewaardegroepen.
 
 1. Klik in Report Designer in het menu **Bedrijf** op **Bouwsteengroepen**.
 2. Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep waarin u een bouwsteengroep wilt importeren en klik vervolgens op **Importeren**.
@@ -105,7 +105,7 @@ U kunt een bouwsteengroep importeren in een bestaande bouwsteengroep. Alle geïm
 4. Selecteer in het dialoogvenster **Importeren** de te importeren rapportdefinities:
 
     - Klik, als u alle rapportdefinities en de ondersteunende bouwstenen wilt importeren, op **Alles selecteren**.
-    - Om specifieke rapporten, rijen, kolommen, structuren of dimensiesets te importeren, selecteert u de te importeren rapporten, rijen, kolommen, structuren of dimensiesets.
+    - Om specifieke rapporten, rijen, kolommen, structuren of dimensiewaardegroepen te importeren, selecteert u de te importeren rapporten, rijen, kolommen, structuren of dimensiewaardegroepen.
 
 5. Wanneer u klaar bent met het selecteren van te importeren artikelen, klikt u op **Importeren**.
 

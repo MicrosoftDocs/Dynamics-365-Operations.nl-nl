@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b2f5f56e757e89339c12fd41c59848b4c987a2f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846852"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831828"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van financiële consolidaties en valutaomzetting
 
@@ -64,7 +64,7 @@ Hier volgen enkele consolidatiescenario's die met Online consolideren worden ond
 - Consolidaties die betrekking hebben op meerdere rapportagevaluta's
 
 ## <a name="legal-entity-setup"></a>Rechtspersoon instellen
-Voordat u een consolidatie verwerkt, moet u de rechtspersoon instellen. U kunt consolidatie zo vaak als nodig is uitvoeren en alle gegevens worden omgerekend van de valuta voor boekhouding van het bronbedrijf naar de valuta die is gedefinieerd voor het consolidatiebedrijf. Daarom moet u voor de volgende organisatiestructuur, als u alle Noord-Amerikaanse bedrijven eerst naar Amerikaanse dollars (USD) en vervolgens naar de euro (EUR), de valuta van het moederbedrijf, moet omrekenen, ten minste twee consolidatiebedrijven hebben.
+Voordat u een consolidatie verwerkt, moet u de rechtspersoon instellen. U kunt consolidatie zo vaak als nodig is uitvoeren en alle gegevens worden omgerekend van de valuta voor boekhouding of aangiftevaluta van het bronbedrijf naar de valuta die is gedefinieerd voor het consolidatiebedrijf. Daarom moet u voor de volgende organisatiestructuur, als u alle Noord-Amerikaanse bedrijven eerst naar Amerikaanse dollars (USD) en vervolgens naar de euro (EUR), de valuta van het moederbedrijf, moet omrekenen, ten minste twee consolidatiebedrijven hebben.
 
 ![Organisatiestructuur.](./media/organizational-structure.png "Organisatiestructuur")
 

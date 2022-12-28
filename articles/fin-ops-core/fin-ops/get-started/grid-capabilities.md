@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 6d14bba13dbf701a8c27c10ac2d318b071092bc1
+ms.sourcegitcommit: 77ffeccffff28fbb6ff576864d7abddd412cdab6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405460"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9852368"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -225,6 +225,7 @@ In deze sectie wordt een lijst met bekende problemen voor het nieuwe rasterbehee
 ### <a name="open-issues"></a>Openstaande problemen
 - Nadat de functie **Nieuw rasterbesturingselement** is ingeschakeld, blijven bepaalde pagina's het bestaande rasterbesturingselement gebruiken. Dit gebeurt in de volgende situaties:
  
+    - [Opgelost] Probleem-762533: onverwachte clientfout bij het selecteren van een rij in een kaartlijst.
     - [Opgelost] Er bestaat een kaartlijst op de pagina die wordt weergegeven in meerdere kolommen.
         - Dit type kaartlijst wordt ondersteund door het besturingselement **Nieuw raster** vanaf versie 10.0.30. Alle toepassingen van forceLegacyGrid() kunnen dan worden verwijderd. 
     - [Opgelost] Er bestaat een gegroepeerde kaartlijst op de pagina.

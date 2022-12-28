@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
-ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
+ms.openlocfilehash: 7d8de017c54a13a9935d74d33a57813922c9f823
+ms.sourcegitcommit: 8aee31d6dffabe13969dd5b9de4e0bf95f53e67e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/29/2022
-ms.locfileid: "9805309"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887125"
 ---
 # <a name="proactive-quality-updates"></a>Proactieve kwaliteitsupdates
 
@@ -28,16 +28,24 @@ Dit wordt bevestigd door de resultaten: lagere aantallen incidenten voor onze pr
 
 ## <a name="what-you-need-to-know"></a>Wat u moet weten
 
-- Proactieve kwaliteitsupdates worden maandelijks toegepast.
-- Microsoft past proactieve kwaliteitsupdates toe op alle sandbox-omgevingen waarin een service-update wordt uitgevoerd die [in gebruik](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) was toen de proactieve kwaliteitsupdates werden gemaakt.
-- Uitzonderingen op proactieve kwaliteitsupdates zijn toegestaan voor klanten waarop de regels van de Food and Drug Administration (FDA) in de Verenigde Staten van toepassing zijn.
+- PQU's (Proactieve kwaliteitsupdates) worden maandelijks toegepast.
+- Uitzonderingen op proactieve kwaliteitsupdates zijn alleen toegestaan voor klanten waarop de regels van de Food and Drug Administration (FDA) in de Verenigde Staten van toepassing zijn.
+- Proactieve kwaliteitsupdates downgraden de omgeving nooit en upgraden de ene service-updateversie naar de andere niet automatisch. 
 - Microsoft bepaalt hoe proactieve kwaliteitsupdates worden beheerd voor gereguleerde omgevingen en voor soevereine en overheidsklanten in de cloud.
-- Meldingen die betrekking hebben op proactieve kwaliteitsupdates, worden geboekt in het [Microsoft 365-berichtencentrum](https://admin.microsoft.com/AdminPortal/) en op een banner in het Microsoft Dynamics Lifecycle Services-project van de klant.
+- Meldingen die betrekking hebben op proactieve kwaliteitsupdates, worden geboekt in het [Microsoft 365-berichtencentrum](https://admin.microsoft.com/AdminPortal/).
 - Vijf dagen voordat een proactieve kwaliteitsupdate wordt toegepast op een omgeving, ontvangen klanten een melding dat de update zal plaatsvinden.
 - Klanten kunnen proactieve kwaliteitsupdates niet annuleren of uitstellen.
 - Proactieve kwaliteitsupdates worden geïnstalleerd tijdens het regiospecifieke [geplande onderhoudsvenster](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 - Kwaliteitsupdates zijn ontworpen om een laag risico op problemen of terugval te hebben en dit wordt ondersteund door Microsoft-gegevens.
 - Microsoft raadt gerichte tests aan voor specifieke problemen of specifieke hotfixes die betrekking hebben op een proactieve kwaliteitsupdate.
+- De onboarding van alle sandboxen, met uitzondering van degene met een tijdgebonden uitzondering vanwege wettelijke redenen, vindt per 7 januari 2023 plaats.
+- Productie voor proactieve kwaliteitsupdates begint op 21 januari 2023. 
+- Onboarding voor gebruik in productie start alleen voor Lifecycle Services-projecten waarbij een of meer sandboxen worden gebruikt en die tot nu toe proactieve kwaliteitsupdates ontvangen op regelmatige basis voor alle ondersteunde service-updateversies. Dit is alleen van toepassing op klantomgevingen zonder uitzonderingen als gevolg van wettelijke of andere juridische redenen.
+- Zie hieronder voor een volledige planning van proactieve kwaliteitsupdates voor productieomgevingen in de loop van 2023.
+- Elke service-update heeft ten minste één PQU-release-train die gaande is of op het punt staat te beginnen. Wanneer uw omgevingen aan het PQU-proces zijn toegevoegd, kunt u een vooraf geplande proactieve kwaliteitsupdate voor al deze omgevingen ontvangen wanneer u naar een nieuwere versie van een service-update gaat. Controleer de planning om te bepalen wanneer een PQU voor een service-update is gepland als u van plan bent om een upgrade naar een nieuwere versie van de service-update uit te voeren. 
+
+> [!Note]
+> Voor de standaardprestatietest (niveau 4), de premium-prestatietest (niveau 5) en productieomgevingen worden PQUs in het weekend ontvangen. 
 
 ## <a name="focus-on-quality-updates"></a>Focus op kwaliteitsupdates
 
@@ -75,33 +83,22 @@ Een reeks proceswijzigingen wordt geïmplementeerd voorafgaand aan de activering
     > Het Microsoft Communications-team doet onderzoek naar het lopende e-mailprobleem waardoor de levering van e-mailmeldingen wordt verhinderd. Blijf het Microsoft 365-berichtencentrum in de gaten houden voor berichten over onboarding en meldingen.
 
 - **Fail-safe via flighting** flighting wordt gebruikt om codewijzigingen te bewaken wanneer dit van toepassing is in een foutcorrectie voor een kwaliteitsupdate; u kunt ook de bestaande functie-flighting gebruiken die relevant is voor de oplossing. Als terugval of het uitschakelen van een wijziging is vereist na een proactieve implementatie, kan dit via het flighting-systeem worden uitgevoerd om verdere fouten te voorkomen.
-- **Aanduiding van sandbox-synchronisatie**: minder dan 20 procent van de klanten heeft momenteel meerdere sandboxen en houdt één sandbox geïmplementeerd waarvoor de versie overeenkomt met de productieversie, om problemen op te lossen. Als een klant een sandbox gebruikt om een nieuwere versie dan de productie te testen, ontvangt deze sandbox kwaliteitsupdates voor de nieuwere versie.
+- **Aanduiding van sandbox-synchronisatie**: gespreide update van een afzonderlijke sandbox naar keuze samen met productie wordt momenteel niet ondersteund. Alle sandboxen van niveaus 2 en 3 ontvangen ten minste zeven dagen vóór de productieomgeving proactieve updates in een Lifecycle Services-project. Nogmaals, dit is alleen van toepassing op klantomgevingen zonder uitzonderingen als gevolg van wettelijke of andere juridische redenen.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Wat is de roadmap voor het uitrollen van kwaliteitsupdates?
 
-De distributie van proactieve kwaliteitsupdates voor sandbox-omgevingen begint naar verwachting eind september of oktober 2022 voor klanten in de openbare cloud voor Azure. In proefomgevingen wordt op dat moment ook een proactieve implementatie van updates ontvangen. In september wordt aan elke klant een melding verzonden om ze te informeren over de verwachte planning voor de omgevingen. Uitzonderingen voor het proactief bijgewerkte distributieproces zijn alleen toegestaan voor FDA-gereguleerde klanten. We zijn nog aan het onderzoeken hoe gereguleerde omgevingen en soevereine en overheidsklanten in de cloud moeten worden beheerd.
+De distributie van proactieve kwaliteitsupdates voor sandbox-omgevingen zijn begonnen in september 2022 voor klanten in de openbare cloud voor Azure. Op 1 januari 2023 voltooien we 99% onboarding voor sandboxen met proactieve kwaliteitsupdates.
 
-In de komende zes maanden verhogen we geleidelijk het percentage sandbox-omgevingen die proactieve updates ontvangen, totdat alle aangewezen omgevingen zijn opgenomen. Daarna gaan we verder met het bijwerken van productieomgevingen. Gedurende de hele periode controleren we of het implementatieproces probleemloos verloopt en of we ons doel van niet-disruptieve payloads behalen.
+Uitzonderingen voor het proactief bijgewerkte distributieproces zijn alleen toegestaan voor FDA-gereguleerde klanten. We zijn nog aan het onderzoeken hoe gereguleerde omgevingen en soevereine en overheidsklanten in de cloud moeten worden beheerd. 
 
-Aangezien klanten regelmatig kleinere payloads ontvangen, verwachten we dat het actualiseringsproces eenvoudiger wordt. We zullen de frequentie van de implementatie van updates aanpassen als we hebben laten zien dat het proces zonder verstoring kan worden uitgevoerd. Dit proces werkt al effectief voor ons Dataverse-platform en -toepassingen, en levert de verwachte verbeteringen in de servicekwaliteit op. We willen dezelfde stap vooruit zetten voor toepassingen voor financiën en bedrijfsactiviteiten.
+Aangezien klanten regelmatig kleinere payloads ontvangen, verwachten we dat het actualiseringsproces eenvoudiger wordt. We zullen de frequentie van de implementatie van updates aanpassen als we hebben laten zien dat het proces zonder verstoring kan worden uitgevoerd. Dit proces werkt al effectief voor ons Dataverse-platform en -toepassingen en levert de verwachte verbeteringen in de servicekwaliteit op. We zetten dezelfde stap vooruit voor toepassingen voor financiën en bedrijfsactiviteiten.
+
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Wanneer beginnen kwaliteitsupdates voor productieomgevingen?
-Op dit moment zijn kwaliteitsupdates alleen bedoeld voor sandboxes. Een begindatum voor productieomgevingen zal er komen wanneer er meer concrete gegevens en metrische gegevens zijn van proactieve updates voor sandboxes om de gereedheid voor productie te meten.
+In de eerste maanden van 2023, vanaf 15 januari 2023, beginnen we met het in gebruik nemen van productieomgevingen voor proactieve updates en verhogen we geleidelijk het percentage productieomgevingen dat proactieve updates ontvangt. We zullen ons alleen richten op een productieomgeving in een Lifecycle Services-project dat al gebruik heeft gemaakt van sandbox-omgevingen om proactieve updates te ontvangen. Vóór een update worden klanten met de productieomgevingen die aan de klant worden toegevoegd, op de hoogte gebracht via het berichtencentrum of de Lifecycle Services-banner. Zie hieronder voor een volledige planning van proactieve kwaliteitsupdates voor productieomgevingen in de loop van 2023.
 
 ## <a name="what-is-the-schedule-for-sandbox-proactive-quality-updates"></a>Wat is de planning voor proactieve kwaliteitsupdates voor sandboxes?
 Zie [Wat zijn de geplande onderhoudsvensters per regio?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) voor nformatie over de niet-actieve uren voor elke regio.
-
-### <a name="proactive-quality-update-release-10028"></a>Vrijgave van proactieve kwaliteitsupdate: 10.0.28
-**App-versie: 10.0.1265.89**  
-**Bijbehorend meest recent KB-artikel: 745340**
-
-| Station | Regio's | Voltooide planning| Aankomende sandbox-planning
-|---|---|---|---|
-| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 15 september tot en met 18 september 2022, 19 september tot en met 22 september 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
-| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 25 september tot en met 28 september 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
-| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 26 september tot en met 29 september 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
-| Station 4 | Europa - noord, VS - centraal, VS - west | 28 september tot en met 1 oktober 2022 en 7 oktober tot en met 10 oktober 2022 | 25 oktober tot en met 28 oktober 2022 |
-| Station 5 | DoD, Government Community Cloud, China | Niet gepland | Niet gepland |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a> Vrijgave van proactieve kwaliteitsupdate: 10.0.29
 **App-versie: 10.0.1326.70**  
@@ -109,23 +106,83 @@ Zie [Wat zijn de geplande onderhoudsvensters per regio?](../../dev-itpro/deploym
 
 | Station | Regio's | Voltooide planning | Aankomende sandbox-planning|
 |---|---|---|---|
-| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 14 oktober tot en met 17 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022 | 5 december tot en met 8 december|
-| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 15 oktober tot en met 18 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022 | 5 december tot en met 8 december|
-| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 16 oktober tot en met 19 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022 | 5 december tot en met 8 december|
-| Station 4 | Europa - noord, VS - centraal, VS - west | 17 oktober tot en met 20 oktober 2022, 2 november tot en met 5 november 2022, 15 november 2022 tot en met 18 november 2022 | 5 december tot en met 8 december|
+| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 14 oktober tot en met 17 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022, 5 december tot en met 8 december 2022 | 2 januari tot en met 5 januari 2023 |
+| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 15 oktober tot en met 18 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022, 5 december tot en met 8 december 2022 | 2 januari tot en met 5 januari 2023 |
+| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - west, VS - oost, VAE - centraal | 16 oktober tot en met 19 oktober 2022, 2 november tot en met 5 november 2022, 13 november 2022 tot en met 16 november 2022, 5 december tot en met 8 december 2022 | 2 januari tot en met 5 januari 2023 |
+| Station 4 | Europa - noord, VS - centraal, VS - west | 17 oktober tot en met 20 oktober 2022, 2 november tot en met 5 november 2022, 15 november 2022 tot en met 18 november 2022, 5 december tot en met 8 december 2022 | 2 januari tot en met 5 januari 2023 |
 | Station 5 | DoD, Government Community Cloud, China | Niet gepland | Niet gepland |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a> Vrijgave van proactieve kwaliteitsupdate: 10.0.30
 **App-versie: 10.0.1362.77**
 **Bijbehorend meest recente KB-artikel: 767597**
 
-| Station | Regio's | Aankomende sandbox-planning |
+| Station | Regio's | Voltooide planning | Aankomende sandbox-planning |
+|---|---|---|---|
+| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 1 december tot en met 4 december 2022 |  13 december tot en met 16 december 2022 | 
+| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 2 december tot en met 5 december 2022 |  13 december tot en met 16 december 2022 | 
+| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - noord, VS - oost, VAE - centraal | 3 december tot en met 6 december 2022 |  13 december tot en met 16 december 2022 | 
+| Station 4 | Europa - west, VS - centraal, VS - west | 4 december tot en met 7 december 2022 |  13 december tot en met 16 december 2022 | 
+| Station 5 | DoD, Government Community Cloud, China | Niet gepland | Niet gepland |
+
+### <a name="proactive-quality-update-calendar-year-2023-schedule"></a><a name="schedule"></a> Planning proactieve kwaliteitsupdates kalenderjaar 2023
+
+#### <a name="stations-to-region-mapping"></a><a name="Stations-Regions"></a> Toewijzing van stations aan regio's
+
+| Stations | Regio's |
+|---|---|
+| Station 1 | Nog te doen |
+| Station 2 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west |
+| Station 3 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost |
+| Station 4 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - noord, VS - oost, VAE - centraal |
+| Station 5 | Europa - west, VS - centraal, VS - west |
+| Station 6 | DoD, Government Community Cloud, China |
+
+
+> [!IMPORTANT]
+> Dit is een planning op hoog niveau voor het jaar 2023. Zie het onderstaande voorbeeld voor 10.0.30 release-2 van januari voor een meer concrete planning. Het precieze schema en de app-versie worden zeven dagen voor het begin van een kwaliteitsupdate-train bijgewerkt.
+
+> [!Note]
+> Alleen toegevoegde productieomgevingen ontvangen de update voor 10.0.30 Release-2-train, toegevoegde omgevingen ontvangen expliciete communicatie.
+
+| Kwaliteitsupdate-train | Vrijgave | Train-duur |
 |---|---|---|
-| Station 1 | Canada - centraal, Canada - oost, Frankrijk - centraal, India - centraal, Noorwegen - oost, Zwitserland - west | 1 december tot en met 4 december 2022 |
-| Station 2 | Frankrijk - zuid, India - zuid, Noorwegen - west, Zwitserland - noord, Zuid-Afrika - noord, Australië - oost, VK - zuid, VAE - noord, Japan - oost, Australië - zuidoost, Azië - zuidoost | 2 december tot en met 5 december 2022 |
-| Station 3 | Azië - oost, VK - west, Japan - west, Brazilië - zuid, Europa - noord, VS - oost, VAE - centraal | 3 december tot en met 6 december 2022 |
-| Station 4 | Europa - west, VS - centraal, VS - west | 4 december tot en met 7 december 2022 |
-| Station 5 | DoD, Government Community Cloud, China | Niet gepland |
+| 10.0.30 Release-2 | 16 december 2022 | 2 januari tot en met 29 januari 2023 |
+| 10.0.30 Release-3 | 13 januari 2023 | 30 januari tot en met 25 februari 2023 |
+| 10.0.30 Release-4 | 24 februari 2023 | 6 maart 8 april 2023 |
+| 10.0.31 Release-1 | 3 februari 2023 | 13 februari 2023 tot en met 18 maart 2023|
+| 10.0.31 Release-2 | 3 maart 2023 | 13 maart 2023 tot en met 15 april 2023|
+| 10.0.31 Release-3 | 14 april 2023 | 24 april 2023 tot en met 27 mei 2023|
+| 10.0.32 Release-1 | 31 maart 2023 | 10 april 2023 tot en met 13 mei 2023|
+| 10.0.32 Release-2 | 28 april 2023 | 8 mei 2023 tot en met 10 juni 2023|
+| 10.0.32 Release-3 | 26 mei 2023 | 5 juni 2023 tot en met 8 juli 2023|
+| 10.0.33 Release-1 | 28 april 2023 | 8 mei 2023 tot en met 10 juni 2023|
+| 10.0.33 Release-2 | 26 mei 2023 | 5 juni 2023 tot en met 8 juli 2023|
+| 10.0.33 Release-3 | 14 juli 2023 | 24 juli 2023 tot en met 26 augustus 2023|
+| 10.0.34 Release-1 | 23 juni 2023 | 3 juli 2023 tot en met 5 augustus 2023|
+| 10.0.34 Release-2 | 21 juli 2023 | 31 juli tot en met 2 september 2023|
+| 10.0.34 Release-3 | 1 september 2023 | 11 september 2023 tot en met 14 oktober 2023|
+| 10.0.35 Release-1 | 28 juli 2023 | 7 augustus 2023 tot en met 9 september 2023|
+| 10.0.35 Release-2 | 25 augustus 2023 | 4 september 2023 tot en met 7 oktober 2023|
+| 10.0.35 Release-3 | 20 oktober 2023 | 30 oktober 2023 tot en met 16 december 2023|
+| 10.0.36 Release-1 | 29 september 2023 | 9 oktober 2023 tot en met 11 november 2023|
+| 10.0.36 Release-2 | 27 oktober 2023 | 6 november 2023 tot en met 16 december 2023|
+| 10.0.36 Release-3 | 12 januari 2024 | 22 januari 2023 tot en met 24 februari 2023|
+| 10.0.37 Release-1 | 3 november 2023 | 13 november 2023 tot en met 6 januari 2024|
+| 10.0.37 Release-2 | 30 december 2023 | 8 januari 2024 tot en met 10 februari 2024|
+| 10.0.37 Release-3 | 27 januari 2024 | 5 februari 2024 tot en met 9 maart 2024|
+| 10.0.37 Release-4 | 23 februari 2024 | 4 maart 2024 tot en met 6 april 2024|
+
+### <a name="proactive-quality-update-upcoming-10030-release-2-train-schedule"></a><a name="schedule"></a> Proactieve kwaliteitsupdate aankomende 10.0.30 Release-2-train-planning
+**App-versie: 10.0.1362.99**
+
+| Stations | Aankomende sandbox-planning | Planning aankomende productie |
+|---|---|---|
+| Station 1 | NA | NA |
+| Station 2 | 2 januari tot en met 5 januari 2023 | 21 januari tot en met 22 januari 2023 |
+| Station 3 | 3 januari tot en met 6 januari 2023 | 28 januari tot en met 29 januari 2023 |
+| Station 4 | 9 januari tot en met 12 januari 2023 | NA |
+| Station 5 | 16 januari tot en met 19 januari 2023 | NA |
+| Station 6 | NA | NA |
 
 > [!IMPORTANT] 
 > Vijf dagen van tevoren zal Microsoft het voorgaande schema bijwerken en meldingen verzenden voor de set omgevingen die staan gepland voor het ontvangen van deze kwaliteitsupdates. Het vorige schema is alleen van toepassing op omgevingen die op de hoogte zijn gebracht van een aankomende update. Zie [Wat zijn de geplande onderhoudsvensters per regio?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) voor nformatie over de niet-actieve uren voor elke regio.

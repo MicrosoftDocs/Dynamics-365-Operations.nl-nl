@@ -2,7 +2,7 @@
 title: Online financiële consolidaties
 description: Dit artikel beschrijft online financiële consolidaties in het grootboek.
 author: aprilolson
-ms.date: 07/09/2018
+ms.date: 12/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5843ac78adf32e738d9882c7f4e9e04a79200700
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848544"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838251"
 ---
 # <a name="online-financial-consolidations"></a>Online financiële consolidaties
 
@@ -45,6 +45,19 @@ Hier volgt een uitleg van de verschillende velden op dit tabblad:
 - **Consolidatieperiode**: gebruik de velden in deze sectie voor het definiëren van de consolidatieperiode.
 
     - **Van** en **Tot**: geef een datumbereik voor de consolidatie op. Als u deze velden leeg laat, wordt de consolidatie verwerkt voor alle perioden die zijn gedefinieerd in de grootboekkalender voor het bedrijf. Het wordt afgeraden deze velden leeg te laten.
+    - **Consolidatiebedrag selecteren van**: gebruik dit veld om op te geven of de bedragen in de boekhoudingsvaluta of de aangiftevalutabedragen van de bronbedrijven worden gebruikt om de bedragen in de boekhoudingsvaluta van het consolidatiebedrijf bij te werken.
+
+        - Selecteer **Valuta voor boekhouding** om de bedragen van de boekhoudingsvaluta van de bronbedrijven te gebruiken om de bedragen van de boekhoudingsvaluta in het consolidatiebedrijf bij te werken. Als deze waarde is geselecteerd, gebruikt u het veld **Valuta voor boekhouding consolideren** om te definiëren hoe de valuta's voor boekhouding in het consolidatiebedrijf worden berekend.
+        - Selecteer **Aangiftevaluta** om de bedragen van de aangiftevaluta van de bronbedrijven te gebruiken om de bedragen van de boekhoudingsvaluta in het consolidatiebedrijf te berekenen.
+
+            - Als de aangiftevaluta van het bronbedrijf gelijk is aan de valuta voor boekhouding van het consolidatiebedrijf, worden de bedragen van de aangiftevaluta gekopieerd uit het bronbedrijf naar het consolidatiebedrijf.
+            - Als de aangiftevaluta van het bronbedrijf verschilt van de valuta voor boekhouding van het consolidatiebedrijf, worden de waarden omgerekend met behulp van de koersgegevens die zijn gedefinieerd op het tabblad **Valutaomzetting** van deze pagina om de consolidatiebedrijfswaarden te berekenen.
+
+    - **Valuta voor boekhouding consolideren**: dit veld is alleen beschikbaar als het veld **Consolidatiebedrag selecteren uit** is ingesteld op **Valuta voor boekhouding**. Gebruik dit om op te geven of de bedragen in de valuta voor boekhouding van de bronbedrijven worden omgerekend via wisselkoersen of worden gekopieerd naar het consolidatiebedrijf. Selecteer **Valutaomzetting gebruiken** om de wisselkoersgegevens te gebruiken die zijn gedefinieerd op het tabblad **Valutaomzetting** om de consolidatieboekhoudingsaldi te berekenen. Selecteer **Bedrag in valuta voor boekhouding gebruiken** om de bedragen van de boekhoudingsvaluta van de bronbedrijven te kopiëren naar het consolidatiebedrijf.
+
+        - Als de valuta voor boekhouding van het bronbedrijf gelijk is aan de valuta voor boekhouding van het consolidatiebedrijf, worden de bedragen van de aangiftevaluta gekopieerd uit het bronbedrijf naar het consolidatiebedrijf.
+        - Als de valuta voor boekhouding van het bronbedrijf verschilt van de valuta voor boekhouding van het consolidatiebedrijf, worden de waarden omgerekend met behulp van de koersgegevens die zijn gedefinieerd op het tabblad **Valutaomzetting** van deze pagina om de consolidatiebedrijfswaarden te berekenen.
+
     - **Werkelijke bedragen opnemen**: stel deze optie in op **Ja** om uw werkelijke gegevens te consolideren.
     - **Budgetbedragen opnemen**: stelt deze optie in op **Ja** om gegevens uit het budgetregister te consolideren.
     - **Saldi opnieuw opbouwen tijdens consolidatieproces**: het wordt afgeraden deze optie in te stellen op **Ja**. Bouw in plaats daarvan saldi opnieuw op als een afzonderlijke batchtaak.
@@ -80,9 +93,9 @@ Op het tabblad **Schrapping** hebt u drie opties voor de verwerking van de schra
 Zie voor meer informatie over schrappingen [Schrappingsregels](./elimination-rules.md).
 
 ## <a name="currency-translation"></a>Valutaomzetting
-Op het tabblad **Valutaomrekening** definieert u de rechtspersoon, de rekening, het wisselkoerstype en het tarief. Er zijn drie opties beschikbaar in het veld **Wisselkoers toepassen van**:
+Op het tabblad **Valutaomrekening** definieert u de rechtspersoon, de rekening, het wisselkoerstype en het tarief. Als het consolidatiebedrijf is toegewezen aan andere hoofdrekeningen dan het bronbedrijf, moet de hoofdrekening van het consolidatiebedrijf worden ingevoerd in de velden **Begindatum** en **Einddatum**, niet in de hoofdrekeningen van het bronbedrijf. Voor elke rij met rechtspersoon en hoofdrekeningen zijn drie opties beschikbaar in het veld **Wisselkoers toepassen van**:
 
-- **Consolidatiedatum**: de datum van de consolidatie wordt gebruikt voor het ophalen van de wisselkoers. Dit tarief is gelijk aan het plaatstarief of eindemaandtarief. U ziet een voorbeeld van het tarief, maar u kunt het niet bewerken.
+- **Consolidatiedatum**: de datum die is gedefinieerd in het veld **Einde consolidatieperiode** op het tabblad **Criteria** voor de consolidatie wordt gebruikt om de wisselkoers op te halen. Dit tarief is gelijk aan het plaatstarief of eindemaandtarief. U ziet een voorbeeld van het tarief, maar u kunt het niet bewerken.
 - **Transactiedatum**: de datum van elke transactie wordt gebruikt voor het selecteren van een wisselkoers. Deze optie wordt meestal gebruikt voor vaste activa en wordt vaak een historische wisselkoers genoemd. U kunt geen voorbeeld van het tarief zien, omdat er veel tarieven voor de verschillende transacties in het rekeningbereik zijn.
 - **Door gebruiker gedefinieerde tarief**: nadat u deze optie hebt geselecteerd, kunt u de gewenste wisselkoers invoeren. Deze optie kan handig zijn voor gemiddelde wisselkoersen of als u consolideert met een vaste wisselkoers.
 

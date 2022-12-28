@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276449"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831552"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Kiezen tussen Store Commerce en Cloud POS
 
@@ -71,7 +71,7 @@ Naast een platform en vormfactor moeten detailhandelaren ook een implementatieop
 |----------------------------|---------------------|-------------------|-------------------|
 | Store Commerce voor Windows | Cloud of RSSU       | Ja               | Ja               |
 | Store Commerce voor Android | Cloud of RSSU       | Nr.                | Ja               |
-| Store Commerce voor iOS     | Cloud of RSSU       | Nr.                | Nr.                |
+| Store Commerce voor iOS     | Cloud of RSSU       | Nr.                | Ja               |
 | Cloud-POS                  | Cloud of RSSU       | Nr.                | Nr.                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
@@ -90,7 +90,7 @@ Detailhandelaren moeten ook bepalen hoe de POS toegang moet krijgen tot apparate
 |----------------------------|----------------|---------------------|--------------------|
 | Store Commerce voor Windows | Ja            | Ja                 | Ja                |
 | Store Commerce voor Android | Nr.             | Ja                 | Ja                |
-| Store Commerce voor iOS     | Nr.             | Nr.                  | Ja                |
+| Store Commerce voor iOS     | Nr.             | Ja                 | Ja                |
 | Cloud-POS                  | Nr.             | Nr.                  | Ja                |
 
 Zie voor meer informatie over hardwarestation het onderwerp [Een detailhandelhardwarestation configureren en installeren](retail-hardware-station-configuration-installation.md).

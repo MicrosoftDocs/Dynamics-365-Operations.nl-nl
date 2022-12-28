@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714753"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838467"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Warehouse Management installeren en verbinden
 
@@ -58,10 +58,10 @@ De gemakkelijkste manier om de app op één apparaat te installeren, is de app t
 
 In plaats daarvan kunt u de app downloaden via het Microsoft App Center. Het App Center voorziet in installeerbare pakketten die u extern kunt laden. Naast de huidige versie kunt u met het App Center ook eerdere versies downloaden en preview-versies weergeven met toekomstige functies die u kunt proberen. Gebruik een van de volgende koppelingen om huidige, vorige of preview-versies van de mobiele app Warehouse Management te downloaden vanuit het Microsoft App Center:
 
-- **Windows (UWP):** [Warehouse Management (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Warehouse Management (Windows)](https://aka.ms/wma-windows-official-release)  
     Zie [Een build installeren vanuit App Center](/appcenter/distribution/installation) voor instructies voor het installeren van een gedownload pakket op een Windows-apparaat en het instellen van de vereiste certificaten.
 
-- **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Warehouse Management (Android)](https://aka.ms/wma-android-official-release)  
     Als u een preview-versie downloadt, zijn er enkele extra stappen vereist om deze te installeren. Zie voor details [Android-apps testen](/appcenter/distribution/testers/testing-android).
 
 Zie [Een build installeren](/appcenter/distribution/installation) voor informatie over het installeren van een build die is gedownload vanuit het App Center.

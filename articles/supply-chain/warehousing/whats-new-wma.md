@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 61d3ebc85d3c3d20bb17acd7364adc04cd2f3f94
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9764234"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843675"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit artikel worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20390"></a>Versie 2.0.39.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+- Grotere stabiliteit. 
+- De velden van de pagina **Aangepast** worden niet meer automatisch gesorteerd op basis van de prioriteit en subprioriteitsinstellingen.  
+- De app gebruikt nu de prioriteits- en subprioriteitsinstellingen voor elk veld om het primaire veld voor een pagina te identificeren. Het primaire veld wordt weergegeven in de koptekst van de stap. 
+- Een probleem oplossen waarbij het schermtoetsenbord niet wordt verborgen op Android.
+- Een probleem oplossen waarbij de hoeveelheidspinner een onjuiste correcte waarde weergeeft bij het openen in de *verplaatsings*-stroom 
+- Een probleem oplossen waarbij de alleen-lezen-waarde van de hoeveelheidspinner niet op de juiste wijze is gecentreerd. 
+- Een probleem oplossen waarbij webpagina's niet kunnen worden geopend vanuit de pagina **Info**. 
+- Het kleurthema *Automatisch* krijgt nu de standaardweergave (licht of donker) op basis van het algemene thema dat is ingesteld in het besturingssysteem van het mobiele apparaat.
 
 ## <a name="version-20370"></a>Versie 2.0.37.0
 

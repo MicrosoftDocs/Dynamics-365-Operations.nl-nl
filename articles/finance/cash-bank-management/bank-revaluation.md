@@ -2,23 +2,23 @@
 title: Herwaardering voor vreemde valuta van bank
 description: Dit artikel biedt een overzicht van het proces voor herwaardering voor vreemde valuta van bank. Dit onderwerp bevat informatie over instellingen, de uitvoering van het proces, de berekening voor het proces en de omkering van herwaarderingstransacties.
 author: angelad116
-ms.date: 05/16/2019
+ms.date: 12/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 2d5e8a36d3b4d44c9ad0454db94164adebf80997
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151426"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887254"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Herwaardering voor vreemde valuta van bank
 
@@ -39,17 +39,8 @@ Voordat u het herwaarderingsproces kunt uitvoeren, zijn de volgende instellingen
 - Geef op de pagina **Grootboek** het wisselkoerstype op. Als geen wisselkoerstype is gedefinieerd voor de hoofdrekening, wordt dit wisselkoerstype gebruikt tijdens de herwaardering van vreemde valuta.
 - Geef op de pagina **Grootboek** de rekeningen op voor gerealiseerde winst, gerealiseerd verlies, niet-gerealiseerde winst en niet-gerealiseerd verlies voor herwaardering van valuta. Gerealiseerde winst- en gerealiseerde verliesrekeningen worden gebruikt wanneer klanten- en leverancierstransacties worden vereffend. Niet-gerealiseerde winst- en verliesrekeningen worden gebruikt voor het herwaarderen van openstaande transacties en grootboekhoofdrekeningen.
 - Selecteer op de pagina **Rekeningen voor valutaherwaardering** de verschillende rekeningen voor valutaherwaardering voor elke valuta en elk bedrijf. Als u geen rekeningen hebt gedefinieerd, worden rekeningen van de pagina **Grootboek** gebruikt.
+- Voeg op de pagina **Parameters voor cash- en bankbeheer** een nummerreeks toe voor herwaardering van vreemde valuta op het tabblad **Nummerreeksen**.
 
-## <a name="enable-foreign-currency-revaluation"></a>Herwaardering van vreemde valuta inschakelen
-
-U moet de functie voor herwaardering van vreemde valuta voor de bank inschakelen voordat u herwaarderingen van vreemde valuta kunt verwerken.
-
-1. Ga naar **Contanten en bankbeheer \> Instellen \> Parameters voor Contanten en bankbeheer**.
-2. Stel op het tabblad **Algemeen** onder **Herwaardering van vreemde valuta** de optie **Herwaardering bank instellen** in op **Ja** om de functie voor de huidige rechtspersoon in te schakelen. 
-3. Voeg op het tabblad **Nummerreeksen** een nummerreeks voor herwaardering van vreemde valuta toe.
-4. Vernieuw de browser om **Herwaardering van vreemde valuta** in de sectie **Periodieke taken** van de gebiedspagina te zien.
-
-U moet de functie inschakelen voor elke rechtspersoon die herwaardering van vreemde valuta gebruikt. Als u bent toegewezen aan de rol van systeembeheerder of functiebeheerder, kunt u deze stap overslaan door de functie met de naam **Herwaardering bank inschakelen zonder parameter** in het werkgebied **Functiebeheer**.
 
 > [!NOTE]
 > Als uw rechtspersoon een Russische, Poolse of Hongaarse land-/regiocode gebruikt, kunt u al herwaardering van vreemde valuta voor de bank uitvoeren. U kunt de herwaardering van vreemde valuta die wordt gebruikt door andere landen of regio's, niet gebruiken.

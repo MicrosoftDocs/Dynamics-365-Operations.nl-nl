@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
-ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.openlocfilehash: 0a4e436cc1af6b71049f75fb66bdfb89ca38df9f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9762695"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831769"
 ---
 # <a name="use-the-inventory-visibility-app"></a>De app Inventory Visibility gebruiken
 
@@ -106,7 +106,7 @@ Volg deze stappen om de pagina **Voorraadoverzicht** in te schakelen en de synch
 
 1. Open de pagina **Configuratie**.
 1. Open het tabblad **Functiebeheer en instellingen**.
-1. Stel de schakelknop voor de functie **OnHandMostSpecificBackgroundService** in op *Ja*.
+1. Stel de schakelknop voor de functie *OnHandMostSpecificBackgroundService* in op *Ja*.
 1. Wanneer de functie is ingeschakeld, wordt de sectie **Serviceconfiguratie** beschikbaar en bevat deze een rij voor het configureren van de functie **OnHandMostSpecificBackgroundService**. Met deze instelling kunt u de frequentie kiezen waarmee voorraadoverzichtsgegevens worden gesynchroniseerd. Gebruik de knoppen **Omhoog** en **Omlaag** in de kolom **Waarde** om de tijd tussen synchronisatie te wijzigen (met een minimum van vijf minuten). Selecteer **Save**.
 
     ![De instelling OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.png "De instelling OnHandMostSpecificBackgroundService")
@@ -125,10 +125,10 @@ Supply Chain Management slaat veel informatie over uw huidige voorhanden voorraa
 
 De pagina **Overzicht voorraadzichtbaarheid vooraf laden** biedt een weergave voor de entiteit *Resultaten van voorhanden vooraf geladen index-query*. In tegenstelling tot de entiteit *Voorraadoverzicht* biedt de *Resultaten van voorhanden vooraf geladen index-query* een voorhanden voorraadlijst van producten met geselecteerde dimensies. Voorraadzichtbaarheid synchroniseert elke 15 minuten de vooraf geladen overzichtsgegevens.
 
-Als de u gegevens op het tabblad **Overzicht voorraadzichtbaarheid vooraf laden** wilt weergeven, moet u de functie *OnHandIndexQueryPreloadBackgroundService* op het tabblad **Functiebeheer** van de pagina **Configuratie** inschakelen en vervolgens **Configuratie bijwerken** selecteren (raadpleeg ook [Voorraadzichtbaarheid configureren](inventory-visibility-configuration.md)).
+Om gegevens te bekijken op het tabblad **Overzicht voorraadzichtbaarheid vooraf laden**, moet u de functie *OnHandIndexQueryPreloadBackgroundService* inschakelen. Zie [Query's vooraf geladen voorraadzichtbaarheid inschakelen en configureren](inventory-visibility-configuration.md#query-preload-configuration) voor instructies.
 
 > [!NOTE]
-> Net als de functie *OnhandMostSpecificBackgroudService* traceert de functie *OnHandIndexQueryPreloadBackgroundService* alleen wijzigingen in de voorhanden voorraad die hebben plaatsgevonden nadat u de functie hebt ingeschakeld. Gegevens voor producten die niet zijn gewijzigd nadat u de functie hebt ingeschakeld, worden niet van de voorraadservicecache naar de Dataverse-omgeving gesynchroniseerd. Als op uw pagina **Voorraadoverzicht** niet alle informatie wordt weergegeven die u verwacht, gaat u naar **Voorraadbeheer > Periodieke taken > Integratie met Voorraadoverzicht** en schakelt u de batchtaak uit en weer in. De eerste push wordt nu uitgevoerd en alle gegevens worden de volgende 15 minuten gesynchroniseerd met de entiteit *Resultaten van voorhanden vooraf geladen index-query*. Als u deze functie wilt gebruiken, raden we u aan om deze in te schakelen voordat u wijzigingen in voorhanden voorraad aanbrangt en de batchtaak **Integratie van voorraadzichtbaarheid** inschakelt.
+> Net als de functie *OnHandMostSpecificBackgroundService* traceert de functie *OnHandIndexQueryPreloadBackgroundService* alleen wijzigingen in de voorhanden voorraad die hebben plaatsgevonden nadat u de functie hebt ingeschakeld. Gegevens voor producten die niet zijn gewijzigd nadat u de functie hebt ingeschakeld, worden niet van de voorraadservicecache naar de Dataverse-omgeving gesynchroniseerd. Als op uw pagina **Voorraadoverzicht** niet alle informatie wordt weergegeven die u verwacht, gaat u naar **Voorraadbeheer > Periodieke taken > Integratie met Voorraadoverzicht** en schakelt u de batchtaak uit en weer in. De eerste push wordt nu uitgevoerd en alle gegevens worden de volgende 15 minuten gesynchroniseerd met de entiteit *Resultaten van voorhanden vooraf geladen index-query*. Als u deze functie wilt gebruiken, raden we u aan om deze in te schakelen voordat u wijzigingen in voorhanden voorraad aanbrangt en de batchtaak **Integratie van voorraadzichtbaarheid** inschakelt.
 
 ## <a name="filter-and-browse-the-inventory-summaries"></a><a name="additional-tip-for-viewing-data"></a>De voorraadoverzichten filteren en doorzoeken
 

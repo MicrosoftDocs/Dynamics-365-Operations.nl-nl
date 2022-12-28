@@ -2,7 +2,7 @@
 title: Meerdere ophaal- en bezorgmethodes inschakelen voor klantorders
 description: In dit artikel wordt de functionaliteit van Microsoft Dynamics 365 Commerce beschreven, waarmee u orders van klanten kunt klaarmaken voor ophalen in een winkel.
 author: hhainesms
-ms.date: 06/07/2021
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,29 +12,29 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 555ae3900bd7f9c66366f19a6eb2f12503898c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e4d8883b3dc1c4a0e12bcb00b6441f76d73da92e
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858903"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831579"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Meerdere ophaal- en bezorgmethodes inschakelen voor klantorders
 
 [!include [banner](includes/banner.md)]
 
 
-In Microsoft Dynamics 365 Commerce versie 10.0.16 en hoger kunnen organisaties meerdere leveringsmethoden definiëren die door kopers of verkoopvertegenwoordigers kunnen worden gekozen wanneer ze een order maken die wordt opgehaald in een winkel. Op deze manier kunnen organisaties meerdere afhaalopties aan hun klanten aanbieden. Veel detailhandelaren bieden een klant bijvoorbeeld de keuze voor ophalen in de winkel of bij een afhaalpunt. Commerce ondersteunt de configuratie van deze verschillende ophaalmethodes. Gebruikers kunnen daarvan profiteren wanneer ze klantorders maken in een ondersteund Commerce-kanaal (e-commerce, Call Center of winkel).
+In Microsoft Dynamics 365 Commerce kunnen organisaties meerdere leveringsmethoden definiëren die door kopers of verkoopvertegenwoordigers kunnen worden gekozen wanneer ze een order maken die wordt opgehaald in een winkel. Op deze manier kunnen organisaties meerdere afhaalopties aan hun klanten aanbieden. Veel detailhandelaren bieden een klant bijvoorbeeld de keuze voor ophalen in de winkel of bij een afhaalpunt. Commerce ondersteunt de configuratie van deze verschillende ophaalmethodes. Gebruikers kunnen daarvan profiteren wanneer ze klantorders maken in een ondersteund Commerce-kanaal (e-commerce, Call Center of winkel).
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Ophaalmethoden configureren en inschakelen
 
-Als u deze functie wilt gebruiken, schakelt u de optie **Ondersteuning voor meerdere ophaalmethodes** in de werkruimte **Functiebeheer** in Commerce Headquarters in. Nadat u de functie hebt ingeschakeld, is aanvullende configuratie vereist.
+De functie **Ondersteuning voor meerdere ophaalmethodes** in de werkruimte **Functiebeheer** in Commerce Headquarters is verplicht gesteld en moet worden ingeschakeld in de omgeving.
 
-In Commerce versie 10.0.15 en eerder kunnen organisaties slechts één leveringsmethode definiëren als ophaalmethode. Deze definitie wordt uitgevoerd op de pagina **Commerce-parameters**. Wanneer u in versie 10.0.16 en hoger de functie **Ondersteuning voor meerdere ophaal- en bezorgmethodes** inschakelt, wordt de leveringsmethode die eerder is gedefinieerd als leveringsmethode voor het ophalen van artikelen op de pagina **Commerce-parameters** automatisch gekopieerd naar de nieuwe configuratie voor ophaal- en bezorgmethodes.
+Als u eerder een leveringsmethode voor ophalen hebt gedefinieerd op de pagina **Commerce-parameters**, wordt die methode weergegeven in de huidige configuratie voor leveringsmethoden voor ophalen.
 
 ![Ophaal- en bezorgmethodes op de pagina Commerce-parameters.](media/multiplepickupparameter.png)
 
-Nadat u de functie **Ondersteuning voor meerdere ophaal- en bezorgmethodes** hebt ingeschakeld, kunt u meerdere ophaal- en bezorgmethodes definiëren in het rooster **Ophaalmodus van levering** op het sneltabblad **Leveringsmethoden** op het tabblad **Klantorders** van de pagina **Commerce-parameters**.
+U kunt meerdere ophaalleveringsmethoden definiëren in het raster **Ophaalmodus van levering** via **Commerce-parameters** > tabblad **Klantorders** > sneltabblad **Leveringsmethoden**.  
 
 De velden **Leveringsmethode uitvoeren** en **Elektronische leveringsmethode** en de optie **Alleen opties voor vervoerdersmethoden weergeven voor verzendorders** zijn naar dit sneltabblad verplaatst.
 
@@ -47,8 +47,6 @@ Nadat u de extra leveringsmethodes hebt gedefinieerd, voegt u deze toe aan het r
 > [!NOTE]
 > Afgezien van de bestaande afleveringsmethode die wordt gekopieerd naar het rooster **Ophaalmodus van levering** wanneer u de functie **Ondersteuning voor meerdere ophaalmethodes** inschakelt, moet u voor elke aanvullende modus voor leveringsconfiguraties die u maakt nieuwe leveringsmethoden configureren. Wanneer u leveringsmethoden toevoegt aan het rooster **Ophaalmodus van levering**, wordt door Commerce gecontroleerd of actieve openstaande verkoopregels deze al gebruiken. Als er openstaande verkoopregels worden gevonden, wordt er een fout bericht weergegeven. Leveringsmethoden worden niet beschouwd als leveringsmethoden, totdat alle openstaande verkoopregels die deze gebruiken zijn afgesloten (gefactureerd of geannuleerd).
 
-> [!IMPORTANT]
-> Nadat u meer dan één leveringsmethode hebt gedefinieerd op de pagina **Commerce-parameters**, wordt de functie **Ondersteuning voor meerdere ophaalmethodes** verplicht en kan deze niet meer worden uitgeschakeld. Als u de functie moet uitschakelen, verwijdert u alle, behalve één leveringsmethode in het rooster **Ophaalmodus van levering**. Als er slechts één afleveringsmethode is gedefinieerd, wordt de functie niet langer beschouwd als verplicht en kan deze worden uitgeschakeld.
 
 ### <a name="e-commerce-site-configurations"></a>Siteconfiguraties voor E-commerce
 

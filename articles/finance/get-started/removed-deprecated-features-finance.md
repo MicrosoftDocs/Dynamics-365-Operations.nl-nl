@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 516b2b6091fa620b21eebba25f56ff55aa282ffc
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 25d13aa26565e5753b87c843b43cf46f8276b642
+ms.sourcegitcommit: 6c05bcd27e6ee72f01cb66e2cfd1e929e0365830
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643789"
+ms.lasthandoff: 12/16/2022
+ms.locfileid: "9854074"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -124,11 +124,10 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor de ER-indeling **Btw-aangifte (AT)** onder **Btw-aangiftemodel**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe indelingen **XML voor btw-aangifte (AT)** en **Btw-aangifte Excel (AT)** beschikbaar gesteld. |
 
-### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>ELSTER-aangifte voor Duitsland (ontwerp op basis van aangiftecodes)
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes-electronic-tax-declaration-log-menu-item-and-page-electronic-tax-declaration-setup-menu-item-and-page-german-report-layout-taxreport_de-ssrs-format"></a>ELSTER-aangifte voor Duitsland (ontwerp op basis van aangiftecodes), menuopdracht en pagina \"Logboek elektronische belastingaangifte\", menuopdracht en pagina \"Installatie elektronische belastingaangifte elektronische belastingaangifte\", Duitse rapportindeling (TaxReport_DE) in SSRS-indeling
 
 [Btw-overzicht](../localizations/emea-de-vat-declaration.md)</br>
 [Elektronische belastingaangifte voor Duitsland instellen](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
-[Elektronische transmissie van btw-aangifte (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -136,9 +135,9 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja |
 | **Betrokken productgebieden**         | Toepassing |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor de ER-indelingen **Elster (DE)** en **Elster-model**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe indelingen **XML voor btw-aangifte (DE)** en **Btw-aangifte Excel (DE)** beschikbaar gesteld. |
+| **Status**                         | Afgeschaft: vanaf 1 december 2022 bieden we geen ondersteuning meer voor de ER-indeling (Elektronische rapportage) **Elster (DE)** en **Elster-model**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe ER-indelingen **XML voor btw-aangifte (DE)** en **Btw-aangifte Excel (DE)** beschikbaar gesteld. Daarnaast worden de menuopdracht en pagina **Belasting** \> **Aangiften** \> **Btw** \> **Logboek elektronische belastingaangifte**, de menuopdracht en pagina **Belasting** \> **Instellen** \> **Btw** \> **Installatie elektronische belastingaangifte** , de menuopdracht en pagina **Belasting** \> **Instellen** \> **Btw** \> **Elektronische belastingcertificaten** en de Duitse rapportindeling (TaxReport\_DE) SQL Server Reporting Services (SSRS)-indeling niet langer ondersteund. Het proces van btw-aangifte in Duitsland wordt ondersteund in de functionaliteit [Elektronische berichten](../general-ledger/electronic-messaging.md). Zie [Btw-aangifte voor Duitsland](../localizations/emea-deu-vat-declaration-germany.md) voor meer informatie. |
 
-### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>OB-aangifte voor Nederland (ontwerp op basis van aangiftecodes)
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes-electronic-ob-declaration-menu-item-and-page-dutch-report-layout-taxreport_nl-ssrs-format"></a>OB-aangifte voor Nederland (ontwerp op basis van aangiftecodes), menuopdracht en pagina \"Elektronische OB-aangifte\", Nederlandse rapportindeling (TaxReport_NL) in SSRS-indeling
 
 [OB-aangifte](../localizations/emea-nl-vat-declaration.md)
 
@@ -148,7 +147,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja |
 | **Betrokken productgebieden**         | Toepassing |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf 1 december 2022 willen we geen ondersteuning meer bieden voor de ER-indelingen **OB-aangifte (NL)** en **OB-aangiftemodel**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe indelingen **XML voor btw-aangifte (NL)** en **Btw-aangifte Excel (NL)** beschikbaar gesteld. |
+| **Status**                         | Afgeschaft: vanaf 1 december 2022 bieden we geen ondersteuning meer voor de ER-indelingen **OB-aangifte (NL)** ER-indeling (Elektronische rapportage) en **OB-aangiftemodel**. In plaats daarvan worden onder het model **Belastingaangifte** de nieuwe ER-indelingen **XML voor btw-aangifte (NL)** en **Btw-aangifte Excel (NL)** beschikbaar gesteld. Daarnaast ondersteunen we de menuopdracht en pagina **Belasting** \> **Aangiften** \> **Btw** \> **Elektronische OB-aangifte** en de Nederlandse rapportindeling (TaxReport_NL) in SSRS-indeling niet meer. Het proces van btw-aangifte in Nederland wordt ondersteund in de functionaliteit [Elektronische berichten](../general-ledger/electronic-messaging.md). Zie [Btw-aangifte voor Nederland](../localizations/emea-nl-vat-declaration-netherlands.md) voor meer informatie. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Verwijderde of verouderde functies in versie 10.0.20 van Finance
 
